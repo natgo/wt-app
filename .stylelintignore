@@ -1,0 +1,8 @@
+src/**/*.tsx
+src/**/*.ts
+src/**/*.ttf
+src/**/*.png
+src/**/*.svg
+src/**/*.html
+src/**/*.json
+src/**/*.webp

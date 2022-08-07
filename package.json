@@ -1,0 +1,51 @@
+{
+  "name": "wt-tech-tree",
+  "private": true,
+  "version": "1.0.0",
+  "browserslist": "> 0.5% in FI and last 2 versions and supports es6-module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "pretty": "prettier -w src/ --plugin=./node_modules/@trivago/prettier-plugin-sort-imports/"
+  },
+  "dependencies": {
+    "@emotion/react": "11.9.3",
+    "@emotion/styled": "11.9.3",
+    "@mui/icons-material": "5.8.4",
+    "@mui/material": "5.8.4",
+    "axios": "0.27.2",
+    "jquery": "^3.6.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-dropzone": "14.2.1",
+    "recoil": "0.7.3",
+    "recoil-nexus": "0.3.15",
+    "recoil-persist": "4.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.5",
+    "@trivago/prettier-plugin-sort-imports": "3.2.0",
+    "@types/jquery": "3.5.14",
+    "@types/react": "18.0.12",
+    "@types/react-dom": "18.0.5",
+    "@typescript-eslint/eslint-plugin": "5.28.0",
+    "@typescript-eslint/parser": "5.28.0",
+    "@vitejs/plugin-react": "1.3.2",
+    "cypress": "10.1.0",
+    "cypress-file-upload": "5.0.8",
+    "eslint": "8.17.0",
+    "eslint-plugin-react": "7.30.0",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-security": "1.5.0",
+    "postcss": "8.4.14",
+    "postcss-short": "5.0.0",
+    "prettier": "2.7.0",
+    "rollup": "2.75.6",
+    "rollup-plugin-visualizer": "5.6.0",
+    "stylelint": "14.9.1",
+    "stylelint-config-standard": "26.0.0",
+    "typescript": "4.7.3",
+    "vite": "2.9.12"
+  }
+}
