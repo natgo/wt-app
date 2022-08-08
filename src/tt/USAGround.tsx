@@ -3698,7 +3698,7 @@ export function USAGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/eiMde1jVPkM?"
+                  src="//yewtu.be/embed/eiMde1jVPkM?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -3716,7 +3716,7 @@ export function USAGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/rXZ0G3sAKQc?"
+                  src="//yewtu.be/embed/rXZ0G3sAKQc?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -3734,7 +3734,7 @@ export function USAGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/_QaAt6D52Kg?"
+                  src="//yewtu.be/embed/_QaAt6D52Kg?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -3752,7 +3752,7 @@ export function USAGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/QzkUxYDTt1U?"
+                  src="//yewtu.be/embed/QzkUxYDTt1U?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -3770,7 +3770,7 @@ export function USAGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/3G6fGMDbdgE?"
+                  src="//yewtu.be/embed/3G6fGMDbdgE?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -3788,7 +3788,7 @@ export function USAGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/aSP1Bps2w0w?"
+                  src="//yewtu.be/embed/aSP1Bps2w0w?"
                   allowFullScreen={true}
                   width={640}
                   height={360}

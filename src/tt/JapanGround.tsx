@@ -2095,7 +2095,7 @@ export function JapanGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/nMRCUrSEh_k?"
+                  src="//yewtu.be/embed/nMRCUrSEh_k?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -2113,7 +2113,7 @@ export function JapanGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/z6xmzvE-nWM?"
+                  src="//yewtu.be/embed/z6xmzvE-nWM?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -2131,7 +2131,7 @@ export function JapanGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/fa1_8SqJcT0?"
+                  src="//yewtu.be/embed/fa1_8SqJcT0?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -2150,7 +2150,7 @@ export function JapanGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/NRYaVOD5EB0?"
+                  src="//yewtu.be/embed/NRYaVOD5EB0?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -2168,7 +2168,7 @@ export function JapanGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/h3sz4jizQO4?"
+                  src="//yewtu.be/embed/h3sz4jizQO4?"
                   allowFullScreen={true}
                   width={640}
                   height={360}

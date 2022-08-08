@@ -3285,7 +3285,7 @@ export function BritainGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/YRzCNF9IvDs?"
+                  src="//yewtu.be/embed/YRzCNF9IvDs?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -3303,7 +3303,7 @@ export function BritainGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/kcOqzAKOc88?"
+                  src="//yewtu.be/embed/kcOqzAKOc88?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -3321,7 +3321,7 @@ export function BritainGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/ItOZD40Vmw8?"
+                  src="//yewtu.be/embed/ItOZD40Vmw8?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -3339,7 +3339,7 @@ export function BritainGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/e2sOg1kxgyY?"
+                  src="//yewtu.be/embed/e2sOg1kxgyY?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -3357,7 +3357,7 @@ export function BritainGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/IVF-kTJHhz4?"
+                  src="//yewtu.be/embed/IVF-kTJHhz4?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -3375,7 +3375,7 @@ export function BritainGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/UBBAoWVlOfo?"
+                  src="//yewtu.be/embed/UBBAoWVlOfo?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -3393,7 +3393,7 @@ export function BritainGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/YaYATCRAELY?"
+                  src="//yewtu.be/embed/YaYATCRAELY?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -3411,7 +3411,7 @@ export function BritainGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/OB2-pfy1K9I?"
+                  src="//yewtu.be/embed/OB2-pfy1K9I?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -3429,7 +3429,7 @@ export function BritainGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/gryGwqSmS8Y?"
+                  src="//yewtu.be/embed/gryGwqSmS8Y?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -3448,7 +3448,7 @@ export function BritainGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/wm9tv2seEPI?"
+                  src="//yewtu.be/embed/wm9tv2seEPI?"
                   allowFullScreen={true}
                   width={640}
                   height={360}

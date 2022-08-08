@@ -2658,7 +2658,7 @@ export function FranceAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/wjj0N-PqHbU?"
+                  src="//yewtu.be/embed/wjj0N-PqHbU?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -2676,7 +2676,7 @@ export function FranceAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/val2qd1RsNY?"
+                  src="//yewtu.be/embed/val2qd1RsNY?"
                   allowFullScreen={true}
                   width={640}
                   height={360}

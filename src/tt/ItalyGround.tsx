@@ -2389,7 +2389,7 @@ export function ItalyGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/LcDWEzB8TKE?"
+                  src="//yewtu.be/embed/LcDWEzB8TKE?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -2407,7 +2407,7 @@ export function ItalyGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/584AxCngmho?"
+                  src="//yewtu.be/embed/584AxCngmho?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -2425,7 +2425,7 @@ export function ItalyGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/ajd08SXOFXk?"
+                  src="//yewtu.be/embed/ajd08SXOFXk?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -2443,7 +2443,7 @@ export function ItalyGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/Hj2A9I_nJ_A?"
+                  src="//yewtu.be/embed/Hj2A9I_nJ_A?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -2461,7 +2461,7 @@ export function ItalyGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/yYOVd6rMmU4?"
+                  src="//yewtu.be/embed/yYOVd6rMmU4?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -2479,7 +2479,7 @@ export function ItalyGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/weVBbUvQfHo?"
+                  src="//yewtu.be/embed/weVBbUvQfHo?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -2497,7 +2497,7 @@ export function ItalyGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/V5u7dkD46-8?"
+                  src="//yewtu.be/embed/V5u7dkD46-8?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -2515,7 +2515,7 @@ export function ItalyGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/4zcqjXX_ZY4?"
+                  src="//yewtu.be/embed/4zcqjXX_ZY4?"
                   allowFullScreen={true}
                   width={640}
                   height={360}

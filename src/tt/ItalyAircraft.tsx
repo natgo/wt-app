@@ -2449,7 +2449,7 @@ export function ItalyAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/K9nQGjk5g4M?"
+                  src="//yewtu.be/embed/K9nQGjk5g4M?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -2467,7 +2467,7 @@ export function ItalyAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/wU4vKd4KGHw?"
+                  src="//yewtu.be/embed/wU4vKd4KGHw?"
                   allowFullScreen={true}
                   width={640}
                   height={360}

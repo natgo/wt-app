@@ -3697,7 +3697,7 @@ export function JapanAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/mF2Umflo4Uk?"
+                  src="//yewtu.be/embed/mF2Umflo4Uk?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -3715,7 +3715,7 @@ export function JapanAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/oR8GNZF9qj4?"
+                  src="//yewtu.be/embed/oR8GNZF9qj4?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -3733,7 +3733,7 @@ export function JapanAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/qiq8SUqodU8?"
+                  src="//yewtu.be/embed/qiq8SUqodU8?"
                   allowFullScreen={true}
                   width={640}
                   height={360}

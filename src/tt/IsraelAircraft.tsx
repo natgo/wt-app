@@ -877,7 +877,7 @@ export function IsraelAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/ZRZdHE3G3CY?"
+                  src="//yewtu.be/embed/ZRZdHE3G3CY?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -895,7 +895,7 @@ export function IsraelAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/1gnpWiH1e08?"
+                  src="//yewtu.be/embed/1gnpWiH1e08?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -913,7 +913,7 @@ export function IsraelAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/DtktcYtzNmA?"
+                  src="//yewtu.be/embed/DtktcYtzNmA?"
                   allowFullScreen={true}
                   width={640}
                   height={360}

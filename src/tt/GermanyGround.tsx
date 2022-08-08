@@ -4604,7 +4604,7 @@ export function GermanyGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/zSQjqu6dcg8?"
+                  src="//yewtu.be/embed/zSQjqu6dcg8?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -4622,7 +4622,7 @@ export function GermanyGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/ECz5ah4dMvQ?"
+                  src="//yewtu.be/embed/ECz5ah4dMvQ?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -4640,7 +4640,7 @@ export function GermanyGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/fMjYjmXwzwA?"
+                  src="//yewtu.be/embed/fMjYjmXwzwA?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -4658,7 +4658,7 @@ export function GermanyGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/GsCIbQ6TKIQ?"
+                  src="//yewtu.be/embed/GsCIbQ6TKIQ?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -4676,7 +4676,7 @@ export function GermanyGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/XHXnRCjJI6g?"
+                  src="//yewtu.be/embed/XHXnRCjJI6g?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -4694,7 +4694,7 @@ export function GermanyGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/UH1uxsgZle8?"
+                  src="//yewtu.be/embed/UH1uxsgZle8?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -4712,7 +4712,7 @@ export function GermanyGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/Htx2jqp0aEA?"
+                  src="//yewtu.be/embed/Htx2jqp0aEA?"
                   allowFullScreen={true}
                   width={640}
                   height={360}

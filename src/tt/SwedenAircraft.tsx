@@ -1454,7 +1454,7 @@ export function SwedenAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/5TYuG36QnPU?"
+                  src="//yewtu.be/embed/5TYuG36QnPU?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -1472,7 +1472,7 @@ export function SwedenAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/diNkuJ7lies?"
+                  src="//yewtu.be/embed/diNkuJ7lies?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -1490,7 +1490,7 @@ export function SwedenAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/lQoLGbMZUkg?"
+                  src="//yewtu.be/embed/lQoLGbMZUkg?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -1508,7 +1508,7 @@ export function SwedenAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/csnduubxnyk?"
+                  src="//yewtu.be/embed/csnduubxnyk?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -1526,7 +1526,7 @@ export function SwedenAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/VcyQiD2NLCU?"
+                  src="//yewtu.be/embed/VcyQiD2NLCU?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -1544,7 +1544,7 @@ export function SwedenAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/W4o7KCDAa8U?"
+                  src="//yewtu.be/embed/W4o7KCDAa8U?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -1562,7 +1562,7 @@ export function SwedenAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/30a5sfsoX_4?"
+                  src="//yewtu.be/embed/30a5sfsoX_4?"
                   allowFullScreen={true}
                   width={640}
                   height={360}

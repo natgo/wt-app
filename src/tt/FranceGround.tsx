@@ -2353,7 +2353,7 @@ export function FranceGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/rg_wXlgm-ZM?"
+                  src="//yewtu.be/embed/rg_wXlgm-ZM?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -2371,7 +2371,7 @@ export function FranceGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/Ue0YqmjtEPo?"
+                  src="//yewtu.be/embed/Ue0YqmjtEPo?"
                   allowFullScreen={true}
                   width={640}
                   height={360}

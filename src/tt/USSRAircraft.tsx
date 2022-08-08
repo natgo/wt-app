@@ -5752,7 +5752,7 @@ export function USSRAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/fKrdTWqmgAY?"
+                  src="//yewtu.be/embed/fKrdTWqmgAY?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -5770,7 +5770,7 @@ export function USSRAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/a3V1Ss-sIOs?"
+                  src="//yewtu.be/embed/a3V1Ss-sIOs?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -5788,7 +5788,7 @@ export function USSRAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/NRis-UEnGjI?"
+                  src="//yewtu.be/embed/NRis-UEnGjI?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -5806,7 +5806,7 @@ export function USSRAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/BxECg8eQaQY?"
+                  src="//yewtu.be/embed/BxECg8eQaQY?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -5824,7 +5824,7 @@ export function USSRAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/IFPHS0Ak4wU?"
+                  src="//yewtu.be/embed/IFPHS0Ak4wU?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -5842,7 +5842,7 @@ export function USSRAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/p1PmpdL6XWU?"
+                  src="//yewtu.be/embed/p1PmpdL6XWU?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -5860,7 +5860,7 @@ export function USSRAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/9-X9YgVk1G4?"
+                  src="//yewtu.be/embed/9-X9YgVk1G4?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -5878,7 +5878,7 @@ export function USSRAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/i_s87Tc_Ycs?"
+                  src="//yewtu.be/embed/i_s87Tc_Ycs?"
                   allowFullScreen={true}
                   width={640}
                   height={360}

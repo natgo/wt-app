@@ -1884,7 +1884,7 @@ export function SwedenGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/LC_oqR7HTBQ?"
+                  src="//yewtu.be/embed/LC_oqR7HTBQ?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -1902,7 +1902,7 @@ export function SwedenGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/YjidJ7K95Lc?"
+                  src="//yewtu.be/embed/YjidJ7K95Lc?"
                   allowFullScreen={true}
                   width={640}
                   height={360}

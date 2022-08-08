@@ -933,7 +933,7 @@ export function IsraelGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/XxBUWKsv0LU?"
+                  src="//yewtu.be/embed/XxBUWKsv0LU?"
                   allowFullScreen={true}
                   width={640}
                   height={360}

@@ -4852,7 +4852,7 @@ export function USSRGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/4tLiivpJ7nk?"
+                  src="//yewtu.be/embed/4tLiivpJ7nk?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -4870,7 +4870,7 @@ export function USSRGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/klfkO6hJQGk?"
+                  src="//yewtu.be/embed/klfkO6hJQGk?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -4888,7 +4888,7 @@ export function USSRGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/z5ZZzHNPYi4?"
+                  src="//yewtu.be/embed/z5ZZzHNPYi4?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -4906,7 +4906,7 @@ export function USSRGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/TXWa-Nnc6IE?"
+                  src="//yewtu.be/embed/TXWa-Nnc6IE?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -4924,7 +4924,7 @@ export function USSRGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/MRlEuQRfHdk?"
+                  src="//yewtu.be/embed/MRlEuQRfHdk?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -4942,7 +4942,7 @@ export function USSRGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/nw2LFVdhm5s?"
+                  src="//yewtu.be/embed/nw2LFVdhm5s?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -4960,7 +4960,7 @@ export function USSRGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/XtuTkDhE3OQ?"
+                  src="//yewtu.be/embed/XtuTkDhE3OQ?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -4978,7 +4978,7 @@ export function USSRGround() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/idwfz6_Nl6I?"
+                  src="//yewtu.be/embed/idwfz6_Nl6I?"
                   allowFullScreen={true}
                   width={640}
                   height={360}

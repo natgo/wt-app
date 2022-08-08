@@ -4412,7 +4412,7 @@ export function BritainAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/J8LIhG0Xi_A?"
+                  src="//yewtu.be/embed/J8LIhG0Xi_A?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -4430,7 +4430,7 @@ export function BritainAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/475r7Z0w08s?"
+                  src="//yewtu.be/embed/475r7Z0w08s?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -4448,7 +4448,7 @@ export function BritainAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/362970yT-KM?"
+                  src="//yewtu.be/embed/362970yT-KM?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
@@ -4466,7 +4466,7 @@ export function BritainAircraft() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/pFgP4_KgvcU?"
+                  src="//yewtu.be/embed/pFgP4_KgvcU?"
                   allowFullScreen={true}
                   width={640}
                   height={360}

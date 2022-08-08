@@ -275,7 +275,7 @@ export function ItalyHeli() {
             <div className="embedvideo autoResize" style={{}}>
               <div className="embedvideowrap" style={{ width: 640 }}>
                 <iframe
-                  src="//www.youtube.com/embed/wGrhRQ3yrFs?"
+                  src="//yewtu.be/embed/wGrhRQ3yrFs?"
                   allowFullScreen={true}
                   width={640}
                   height={360}
