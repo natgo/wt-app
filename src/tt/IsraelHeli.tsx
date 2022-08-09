@@ -51,15 +51,15 @@ export function IsraelHeli() {
                     <tr>
                       <td>
                         <div className="tree-item">
-                          <div className="tree-item-background">
+                          <div className="tree-item-background" id="AH-1G (Israel)">
                             <a href="/AH-1G_(Israel)" title="AH-1G (Israel)">
                               <img
                                 alt="Item own.png"
                                 src="/images/Item_own.png"
                                 className="tree-item-js"
-                                data-file-width={120}
+                                data-file-width={160}
                                 data-file-height={48}
-                                width={120}
+                                width={160}
                                 height={48}
                               />
                             </a>
@@ -103,15 +103,15 @@ export function IsraelHeli() {
                       <td />
                       <td>
                         <div className="tree-item">
-                          <div className="tree-item-background">
+                          <div className="tree-item-background" id="MD500-TOW">
                             <a href="/MD500-TOW" title="MD500-TOW">
                               <img
                                 alt="Item own.png"
                                 src="/images/Item_own.png"
                                 className="tree-item-js"
-                                data-file-width={120}
+                                data-file-width={160}
                                 data-file-height={48}
-                                width={120}
+                                width={160}
                                 height={48}
                               />
                             </a>
@@ -160,15 +160,15 @@ export function IsraelHeli() {
                     <tr>
                       <td>
                         <div className="tree-item">
-                          <div className="tree-item-background">
+                          <div className="tree-item-background" id="AH-1Q (Israel)">
                             <a href="/AH-1Q_(Israel)" title="AH-1Q (Israel)">
                               <img
                                 alt="Item own.png"
                                 src="/images/Item_own.png"
                                 className="tree-item-js"
-                                data-file-width={120}
+                                data-file-width={160}
                                 data-file-height={48}
-                                width={120}
+                                width={160}
                                 height={48}
                               />
                             </a>
@@ -199,15 +199,15 @@ export function IsraelHeli() {
                     <tr>
                       <td>
                         <div className="tree-item">
-                          <div className="tree-item-background">
+                          <div className="tree-item-background" id="AH-1F (Israel)">
                             <a href="/AH-1F_(Israel)" title="AH-1F (Israel)">
                               <img
                                 alt="Item own.png"
                                 src="/images/Item_own.png"
                                 className="tree-item-js"
-                                data-file-width={120}
+                                data-file-width={160}
                                 data-file-height={48}
-                                width={120}
+                                width={160}
                                 height={48}
                               />
                             </a>
@@ -238,15 +238,15 @@ export function IsraelHeli() {
                     <tr>
                       <td>
                         <div className="tree-item">
-                          <div className="tree-item-background">
+                          <div className="tree-item-background" id="AH-64A (Israel)">
                             <a href="/AH-64A_(Israel)" title="AH-64A (Israel)">
                               <img
                                 alt="Item own.png"
                                 src="/images/Item_own.png"
                                 className="tree-item-js"
-                                data-file-width={120}
+                                data-file-width={160}
                                 data-file-height={48}
-                                width={120}
+                                width={160}
                                 height={48}
                               />
                             </a>
@@ -279,15 +279,15 @@ export function IsraelHeli() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="AH-64A Peten (Israel)">
                     <a href="/AH-64A_Peten_(Israel)" title="AH-64A Peten (Israel)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -331,15 +331,15 @@ export function IsraelHeli() {
                     <tr>
                       <td>
                         <div className="tree-item">
-                          <div className="tree-item-background">
+                          <div className="tree-item-background" id="AH-64D-I (Israel)">
                             <a href="/AH-64D-I_(Israel)" title="AH-64D-I (Israel)">
                               <img
                                 alt="Item own.png"
                                 src="/images/Item_own.png"
                                 className="tree-item-js"
-                                data-file-width={120}
+                                data-file-width={160}
                                 data-file-height={48}
-                                width={120}
+                                width={160}
                                 height={48}
                               />
                             </a>

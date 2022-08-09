@@ -37,15 +37,15 @@ export function JapanGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ha-Go">
                     <a href="/Ha-Go" title="Ha-Go">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -69,15 +69,15 @@ export function JapanGround() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ke-Ni">
                     <a href="/Ke-Ni" title="Ke-Ni">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -96,15 +96,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ka-Mi">
                     <a href="/Ka-Mi" title="Ka-Mi">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -125,15 +125,15 @@ export function JapanGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="I-Go Ko">
                     <a href="/I-Go_Ko" title="I-Go Ko">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -152,15 +152,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Chi-Ha">
                     <a href="/Chi-Ha" title="Chi-Ha">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -179,15 +179,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ho-I">
                     <a href="/Ho-I" title="Ho-I">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -208,15 +208,15 @@ export function JapanGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ho-Ro">
                     <a href="/Ho-Ro" title="Ho-Ro">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -235,15 +235,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ro-Go Exp.">
                     <a href="/Ro-Go_Exp." title="Ro-Go Exp.">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -268,15 +268,15 @@ export function JapanGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 94">
                     <a href="/Type_94" title="Type 94">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -295,15 +295,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ta-Se">
                     <a href="/Ta-Se" title="Ta-Se">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -328,15 +328,15 @@ export function JapanGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ha-Go Commander">
                     <a href="/Ha-Go_Commander" title="Ha-Go Commander">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -360,15 +360,15 @@ export function JapanGround() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ro-Go">
                     <a href="/Ro-Go" title="Ro-Go">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -394,15 +394,15 @@ export function JapanGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Chi-Ha Kai TD">
                     <a href="/Chi-Ha_Kai_TD" title="Chi-Ha Kai TD">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -426,15 +426,15 @@ export function JapanGround() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ka-Chi">
                     <a href="/Ka-Chi" title="Ka-Chi">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -488,15 +488,15 @@ export function JapanGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Chi-Ha Kai">
                     <a href="/Chi-Ha_Kai" title="Chi-Ha Kai">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -515,15 +515,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Chi-He">
                     <a href="/Chi-He" title="Chi-He">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -542,15 +542,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Chi-Nu">
                     <a href="/Chi-Nu" title="Chi-Nu">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -571,15 +571,15 @@ export function JapanGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ho-Ni I">
                     <a href="/Ho-Ni_I" title="Ho-Ni I">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -598,15 +598,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ho-Ni III">
                     <a href="/Ho-Ni_III" title="Ho-Ni III">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -625,15 +625,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Chi-Ha LG">
                     <a href="/Chi-Ha_LG" title="Chi-Ha LG">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -654,15 +654,15 @@ export function JapanGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M16 MGMC (Japan)">
                     <a href="/M16_MGMC_(Japan)" title="M16 MGMC (Japan)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -681,15 +681,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="So-Ki">
                     <a href="/So-Ki" title="So-Ki">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -714,15 +714,15 @@ export function JapanGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Chi-Ha Short Gun">
                     <a href="/Chi-Ha_Short_Gun" title="Chi-Ha Short Gun">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -746,15 +746,15 @@ export function JapanGround() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Chi-He (5th Regiment)">
                     <a href="/Chi-He_(5th_Regiment)" title="Chi-He (5th Regiment)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -802,15 +802,15 @@ export function JapanGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M24 (Japan)">
                     <a href="/M24_(Japan)" title="M24 (Japan)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -829,15 +829,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M4A3 (76) W (Japan)">
                     <a href="/M4A3_(76)_W_(Japan)" title="M4A3 (76) W (Japan)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -862,15 +862,15 @@ export function JapanGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Chi-To">
                     <a href="/Chi-To" title="Chi-To">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -889,15 +889,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Chi-To Late">
                     <a href="/Chi-To_Late" title="Chi-To Late">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -916,15 +916,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Chi-Ri II">
                     <a href="/Chi-Ri_II" title="Chi-Ri II">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -945,15 +945,15 @@ export function JapanGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Na-To">
                     <a href="/Na-To" title="Na-To">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -982,15 +982,15 @@ export function JapanGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M19A1 (Japan)">
                     <a href="/M19A1_(Japan)" title="M19A1 (Japan)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1019,15 +1019,15 @@ export function JapanGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Chi-Nu II">
                     <a href="/Chi-Nu_II" title="Chi-Nu II">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1051,15 +1051,15 @@ export function JapanGround() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Heavy Tank No.6 (Japan)">
                     <a href="/Heavy_Tank_No.6_(Japan)" title="Heavy Tank No.6 (Japan)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1107,15 +1107,15 @@ export function JapanGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M41A1 (Japan)">
                     <a href="/M41A1_(Japan)" title="M41A1 (Japan)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1134,15 +1134,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 60 SPRG (C)">
                     <a href="/Type_60_SPRG_(C)" title="Type 60 SPRG (C)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1172,15 +1172,15 @@ export function JapanGround() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="ST-A1">
                         <a href="/ST-A1" title="ST-A1">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1199,15 +1199,15 @@ export function JapanGround() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="ST-A2">
                         <a href="/ST-A2" title="ST-A2">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1244,15 +1244,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 61">
                     <a href="/Type_61" title="Type 61">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1271,15 +1271,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="ST-A3">
                     <a href="/ST-A3" title="ST-A3">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1300,15 +1300,15 @@ export function JapanGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M36B2 (Japan)">
                     <a href="/M36B2_(Japan)" title="M36B2 (Japan)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1327,15 +1327,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 75 SPH">
                     <a href="/Type_75_SPH" title="Type 75 SPH">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1360,15 +1360,15 @@ export function JapanGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M42 (Japan)">
                     <a href="/M42_(Japan)" title="M42 (Japan)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1397,15 +1397,15 @@ export function JapanGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ho-Ri Prototype">
                     <a href="/Ho-Ri_Prototype" title="Ho-Ri Prototype">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1453,15 +1453,15 @@ export function JapanGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 60 ATM">
                     <a href="/Type_60_ATM" title="Type 60 ATM">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1480,15 +1480,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 87 RCV">
                     <a href="/Type_87_RCV" title="Type 87 RCV">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1513,15 +1513,15 @@ export function JapanGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M47 (Japan)">
                     <a href="/M47_(Japan)" title="M47 (Japan)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1540,15 +1540,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="STB-1">
                     <a href="/STB-1" title="STB-1">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1567,15 +1567,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 74 (C)">
                     <a href="/Type_74_(C)" title="Type 74 (C)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1596,15 +1596,15 @@ export function JapanGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ho-Ri Production">
                     <a href="/Ho-Ri_Production" title="Ho-Ri Production">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1648,15 +1648,15 @@ export function JapanGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 75 MLRS">
                     <a href="/Type_75_MLRS" title="Type 75 MLRS">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1704,15 +1704,15 @@ export function JapanGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 89">
                     <a href="/Type_89" title="Type 89">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1730,15 +1730,15 @@ export function JapanGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 74 (E)">
                     <a href="/Type_74_(E)" title="Type 74 (E)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1757,15 +1757,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 74 (F)">
                     <a href="/Type_74_(F)" title="Type 74 (F)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1797,15 +1797,15 @@ export function JapanGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 87">
                     <a href="/Type_87" title="Type 87">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1830,15 +1830,15 @@ export function JapanGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 74 (G)">
                     <a href="/Type_74_(G)" title="Type 74 (G)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1888,15 +1888,15 @@ export function JapanGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 90">
                     <a href="/Type_90" title="Type 90">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1915,15 +1915,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 90 (B)">
                     <a href="/Type_90_(B)" title="Type 90 (B)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1942,15 +1942,15 @@ export function JapanGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 10">
                     <a href="/Type_10" title="Type 10">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1976,15 +1976,15 @@ export function JapanGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 16">
                     <a href="/Type_16" title="Type 16">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2010,15 +2010,15 @@ export function JapanGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 93">
                     <a href="/Type_93" title="Type 93">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2069,24 +2069,6 @@ export function JapanGround() {
       <h2>
         <span className="mw-headline" id="Media">
           Media
-        </span>
-        <span className="mw-editsection">
-          <span className="mw-editsection-bracket">[</span>
-          <a
-            href="/index.php?title=Category:Japan_ground_vehicles&veaction=edit&section=1"
-            className="mw-editsection-visualeditor"
-            title="Edit section: Media"
-          >
-            edit
-          </a>
-          <span className="mw-editsection-divider"> | </span>
-          <a
-            href="/index.php?title=Category:Japan_ground_vehicles&action=edit&section=1"
-            title="Edit section: Media"
-          >
-            edit source
-          </a>
-          <span className="mw-editsection-bracket">]</span>
         </span>
       </h2>
       <div className="video_gallery">

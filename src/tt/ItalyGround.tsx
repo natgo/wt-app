@@ -37,15 +37,15 @@ export function ItalyGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="AB 41">
                     <a href="/AB_41" title="AB 41">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -64,15 +64,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M11/39">
                     <a href="/M11/39" title="M11/39">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -97,15 +97,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="L6/40">
                     <a href="/L6/40" title="L6/40">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -129,15 +129,15 @@ export function ItalyGround() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="M13/40 (I)">
                         <a href="/M13/40_(I)" title="M13/40 (I)">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -156,15 +156,15 @@ export function ItalyGround() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="M13/40 (III)">
                         <a href="/M13/40_(III)" title="M13/40 (III)">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -201,15 +201,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M14/41">
                     <a href="/M14/41" title="M14/41">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -230,15 +230,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="AS 42">
                     <a href="/AS_42" title="AS 42">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -267,15 +267,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="L3/33 CC">
                     <a href="/L3/33_CC" title="L3/33 CC">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -294,15 +294,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="47/32 L40">
                     <a href="/47/32_L40" title="47/32 L40">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -321,15 +321,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Lancia 3Ro (100/17)">
                     <a href="/Lancia_3Ro_(100/17)" title="Lancia 3Ro (100/17)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -350,15 +350,15 @@ export function ItalyGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="L6/40 (31 Rgt.)">
                     <a href="/L6/40_(31_Rgt.)" title="L6/40 (31 Rgt.)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -382,15 +382,15 @@ export function ItalyGround() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M13/40 (II)">
                     <a href="/M13/40_(II)" title="M13/40 (II)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -416,15 +416,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Toldi IIA">
                     <a href="/Toldi_IIA" title="Toldi IIA">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -471,15 +471,15 @@ export function ItalyGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="AB 43">
                     <a href="/AB_43" title="AB 43">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -498,15 +498,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M3A3 (Italy)">
                     <a href="/M3A3_(Italy)" title="M3A3 (Italy)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -525,15 +525,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M24 (Italy)">
                     <a href="/M24_(Italy)" title="M24 (Italy)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -554,15 +554,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M15/42">
                     <a href="/M15/42" title="M15/42">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -581,15 +581,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Pz.III N (Italy)">
                     <a href="/Pz.III_N_(Italy)" title="Pz.III N (Italy)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -608,15 +608,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="P40">
                     <a href="/P40" title="P40">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -637,15 +637,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M42 (Italy)">
                     <a href="/M42_(Italy)" title="M42 (Italy)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -679,15 +679,15 @@ export function ItalyGround() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="75/18 M41">
                         <a href="/75/18_M41" title="75/18 M41">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -706,15 +706,15 @@ export function ItalyGround() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="75/32 M41">
                         <a href="/75/32_M41" title="75/32 M41">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -751,15 +751,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="75/34 M42">
                     <a href="/75/34_M42" title="75/34 M42">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -783,15 +783,15 @@ export function ItalyGround() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="105/25 M43">
                         <a href="/105/25_M43" title="105/25 M43">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -810,15 +810,15 @@ export function ItalyGround() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="75/34 M43">
                         <a href="/75/34_M43" title="75/34 M43">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -857,15 +857,15 @@ export function ItalyGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Celere Sahariano">
                     <a href="/Celere_Sahariano" title="Celere Sahariano">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -889,15 +889,15 @@ export function ItalyGround() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M14/41 (47/40)">
                     <a href="/M14/41_(47/40)" title="M14/41 (47/40)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -921,15 +921,15 @@ export function ItalyGround() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M4 Hybrid (Italy)">
                     <a href="/M4_Hybrid_(Italy)" title="M4 Hybrid (Italy)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -955,15 +955,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Turan II">
                     <a href="/Turan_II" title="Turan II">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -993,9 +993,9 @@ export function ItalyGround() {
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1042,15 +1042,15 @@ export function ItalyGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Breda 501">
                     <a href="/Breda_501" title="Breda 501">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1069,15 +1069,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M18 (Italy)">
                     <a href="/M18_(Italy)" title="M18 (Italy)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1102,15 +1102,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M4A4 (Italy)">
                     <a href="/M4A4_(Italy)" title="M4A4 (Italy)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1129,15 +1129,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M4 Tipo IC">
                     <a href="/M4_Tipo_IC" title="M4 Tipo IC">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1156,15 +1156,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Sherman Vc (Italy)">
                     <a href="/Sherman_Vc_(Italy)" title="Sherman Vc (Italy)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1185,15 +1185,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="R3 T20 FA-HS">
                     <a href="/R3_T20_FA-HS" title="R3 T20 FA-HS">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1222,15 +1222,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="90/53 M41M">
                     <a href="/90/53_M41M" title="90/53 M41M">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1249,15 +1249,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="StuG III G (Italy)">
                     <a href="/StuG_III_G_(Italy)" title="StuG III G (Italy)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1276,15 +1276,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="75/46 M43">
                     <a href="/75/46_M43" title="75/46 M43">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1311,9 +1311,9 @@ export function ItalyGround() {
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1337,15 +1337,15 @@ export function ItalyGround() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Pz.IV G (Italy)">
                     <a href="/Pz.IV_G_(Italy)" title="Pz.IV G (Italy)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1402,15 +1402,15 @@ export function ItalyGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="FIAT 6614">
                     <a href="/FIAT_6614" title="FIAT 6614">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1429,15 +1429,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="AUBL/74">
                     <a href="/AUBL/74" title="AUBL/74">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1458,15 +1458,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M26A1">
                     <a href="/M26A1" title="M26A1">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1502,15 +1502,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M36B1">
                     <a href="/M36B1" title="M36B1">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1541,9 +1541,9 @@ export function ItalyGround() {
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1600,15 +1600,15 @@ export function ItalyGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="C13 T90">
                     <a href="/C13_T90" title="C13 T90">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1627,15 +1627,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="R3 T106 FA">
                     <a href="/R3_T106_FA" title="R3 T106 FA">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1656,15 +1656,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M47 (105/55)">
                     <a href="/M47_(105/55)" title="M47 (105/55)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1683,15 +1683,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="OF-40">
                     <a href="/OF-40" title="OF-40">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1712,15 +1712,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="SIDAM 25">
                     <a href="/SIDAM_25" title="SIDAM 25">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1745,15 +1745,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M113A1 (TOW)">
                     <a href="/M113A1_(TOW)" title="M113A1 (TOW)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1784,9 +1784,9 @@ export function ItalyGround() {
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1812,15 +1812,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="AUBL/74 HVG">
                     <a href="/AUBL/74_HVG" title="AUBL/74 HVG">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1859,15 +1859,15 @@ export function ItalyGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Centauro I 105">
                     <a href="/Centauro_I_105" title="Centauro I 105">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1886,15 +1886,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Centauro I 105 R">
                     <a href="/Centauro_I_105_R" title="Centauro I 105 R">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1913,15 +1913,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="VCC-80/60">
                     <a href="/VCC-80/60" title="VCC-80/60">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1942,15 +1942,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="OF-40 Mk.2A">
                     <a href="/OF-40_Mk.2A" title="OF-40 Mk.2A">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1969,15 +1969,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Leopard 1A5 (Italy)">
                     <a href="/Leopard_1A5_(Italy)" title="Leopard 1A5 (Italy)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1996,15 +1996,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ariete (P)">
                     <a href="/Ariete_(P)" title="Ariete (P)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2040,15 +2040,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="VBC (PT2)">
                     <a href="/VBC_(PT2)" title="VBC (PT2)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2067,15 +2067,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Dardo">
                     <a href="/Dardo" title="Dardo">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2100,15 +2100,15 @@ export function ItalyGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="OF-40 (MTCA)">
                     <a href="/OF-40_(MTCA)" title="OF-40 (MTCA)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2148,15 +2148,15 @@ export function ItalyGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Centauro I 120">
                     <a href="/Centauro_I_120" title="Centauro I 120">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2182,15 +2182,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ariete PSO">
                     <a href="/Ariete_PSO" title="Ariete PSO">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2209,15 +2209,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ariete">
                     <a href="/Ariete" title="Ariete">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2243,15 +2243,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="SIDAM 25 (Mistral)">
                     <a href="/SIDAM_25_(Mistral)" title="SIDAM 25 (Mistral)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2270,15 +2270,15 @@ export function ItalyGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="OTOMATIC">
                     <a href="/OTOMATIC" title="OTOMATIC">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2304,15 +2304,15 @@ export function ItalyGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="VCC-80/30">
                     <a href="/VCC-80/30" title="VCC-80/30">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2363,24 +2363,6 @@ export function ItalyGround() {
       <h2>
         <span className="mw-headline" id="Media">
           Media
-        </span>
-        <span className="mw-editsection">
-          <span className="mw-editsection-bracket">[</span>
-          <a
-            href="/index.php?title=Category:Italy_ground_vehicles&veaction=edit&section=1"
-            className="mw-editsection-visualeditor"
-            title="Edit section: Media"
-          >
-            edit
-          </a>
-          <span className="mw-editsection-divider"> | </span>
-          <a
-            href="/index.php?title=Category:Italy_ground_vehicles&action=edit&section=1"
-            title="Edit section: Media"
-          >
-            edit source
-          </a>
-          <span className="mw-editsection-bracket">]</span>
         </span>
       </h2>
       <div className="video_gallery">

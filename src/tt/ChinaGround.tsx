@@ -37,15 +37,15 @@ export function ChinaGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M8 LAC (China)">
                     <a href="/M8_LAC_(China)" title="M8 LAC (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -70,15 +70,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="T-26 (China)">
                     <a href="/T-26_(China)" title="T-26 (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -97,15 +97,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Chi-Ha (China)">
                     <a href="/Chi-Ha_(China)" title="Chi-Ha (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -136,15 +136,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M8 HMC (China)">
                     <a href="/M8_HMC_(China)" title="M8 HMC (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -163,15 +163,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="SU-76M (China)">
                     <a href="/SU-76M_(China)" title="SU-76M (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -192,15 +192,15 @@ export function ChinaGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="T-26 No.531">
                     <a href="/T-26_No.531" title="T-26 No.531">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -262,15 +262,15 @@ export function ChinaGround() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="M3A3 Stuart (China)">
                         <a href="/M3A3_Stuart_(China)" title="M3A3 Stuart (China)">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -289,15 +289,15 @@ export function ChinaGround() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="M5A1 (China)">
                         <a href="/M5A1_(China)" title="M5A1 (China)">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -334,15 +334,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M24 (China)">
                     <a href="/M24_(China)" title="M24 (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -367,15 +367,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Chi-Ha Kai (China)">
                     <a href="/Chi-Ha_Kai_(China)" title="Chi-Ha Kai (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -394,15 +394,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="T-34 (1943) (China)">
                     <a href="/T-34_(1943)_(China)" title="T-34 (1943) (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -421,15 +421,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M4A4 (China)">
                     <a href="/M4A4_(China)" title="M4A4 (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -450,15 +450,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="CCKW 353 (M45)">
                     <a href="/CCKW_353_(M45)" title="CCKW 353 (M45)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -487,15 +487,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="LVT(A)(4) (ZiS-2)">
                     <a href="/LVT(A)(4)_(ZiS-2)" title="LVT(A)(4) (ZiS-2)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -514,15 +514,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M10 GMC (China)">
                     <a href="/M10_GMC_(China)" title="M10 GMC (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -547,15 +547,15 @@ export function ChinaGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M4A4 (1st PTG) (China)">
                     <a href="/M4A4_(1st_PTG)_(China)" title="M4A4 (1st PTG) (China)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -581,15 +581,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M3A3 (1st PTG) (China)">
                     <a href="/M3A3_(1st_PTG)_(China)" title="M3A3 (1st PTG) (China)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -636,15 +636,15 @@ export function ChinaGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="PT-76 (China)">
                     <a href="/PT-76_(China)" title="PT-76 (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -669,15 +669,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M4A1 (75) W (China)">
                     <a href="/M4A1_(75)_W_(China)" title="M4A1 (75) W (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -696,15 +696,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="T-34-85 (S-53) (China)">
                     <a href="/T-34-85_(S-53)_(China)" title="T-34-85 (S-53) (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -725,15 +725,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="ZSD63">
                     <a href="/ZSD63" title="ZSD63">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -752,15 +752,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M42 (China)">
                     <a href="/M42_(China)" title="M42 (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -781,15 +781,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="ISU-152 (China)">
                     <a href="/ISU-152_(China)" title="ISU-152 (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -808,15 +808,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M18 GMC (China)">
                     <a href="/M18_GMC_(China)" title="M18 GMC (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -847,15 +847,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M64">
                     <a href="/M64" title="M64">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -902,15 +902,15 @@ export function ChinaGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 63-I">
                     <a href="/Type_63-I" title="Type 63-I">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -929,15 +929,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 62">
                     <a href="/Type_62" title="Type 62">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -962,15 +962,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="T-34-85 Gai">
                     <a href="/T-34-85_Gai" title="T-34-85 Gai">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -989,15 +989,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="IS-2 (China)">
                     <a href="/IS-2_(China)" title="IS-2 (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1016,15 +1016,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="IS-2 mod.1944 (China)">
                     <a href="/IS-2_mod.1944_(China)" title="IS-2 mod.1944 (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1045,15 +1045,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Phòng không T-34">
                     <a href="/Ph%C3%B2ng_kh%C3%B4ng_T-34" title="Phòng không T-34">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1082,15 +1082,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="ISU-122 (China)">
                     <a href="/ISU-122_(China)" title="ISU-122 (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1109,15 +1109,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M36 GMC (China)">
                     <a href="/M36_GMC_(China)" title="M36 GMC (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1136,15 +1136,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="SU-100 (China)">
                     <a href="/SU-100_(China)" title="SU-100 (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1165,15 +1165,15 @@ export function ChinaGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="T-34-85 No.215">
                     <a href="/T-34-85_No.215" title="T-34-85 No.215">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1197,15 +1197,15 @@ export function ChinaGround() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="IS-2 No.402">
                     <a href="/IS-2_No.402" title="IS-2 No.402">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1262,15 +1262,15 @@ export function ChinaGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="ZBD86">
                     <a href="/ZBD86" title="ZBD86">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1289,15 +1289,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M48A1 (China)">
                     <a href="/M48A1_(China)" title="M48A1 (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1318,15 +1318,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 59">
                     <a href="/Type_59" title="Type 59">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1345,15 +1345,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Type 69">
                     <a href="/Type_69" title="Type 69">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1374,15 +1374,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="WZ305">
                     <a href="/WZ305" title="WZ305">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1407,15 +1407,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M113A1 (TOW) (China)">
                     <a href="/M113A1_(TOW)_(China)" title="M113A1 (TOW) (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1434,15 +1434,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="PTL02">
                     <a href="/PTL02" title="PTL02">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1463,15 +1463,15 @@ export function ChinaGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="ZTZ59A">
                     <a href="/ZTZ59A" title="ZTZ59A">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1528,15 +1528,15 @@ export function ChinaGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M41D">
                     <a href="/M41D" title="M41D">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1555,15 +1555,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M60A3 TTS (China)">
                     <a href="/M60A3_TTS_(China)" title="M60A3 TTS (China)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1582,15 +1582,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="CM11">
                     <a href="/CM11" title="CM11">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1608,15 +1608,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="ZTZ59D1">
                     <a href="/ZTZ59D1" title="ZTZ59D1">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1635,15 +1635,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="ZTZ88A">
                     <a href="/ZTZ88A" title="ZTZ88A">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1662,15 +1662,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="ZTZ96">
                     <a href="/ZTZ96" title="ZTZ96">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1689,15 +1689,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="ZTZ96A">
                     <a href="/ZTZ96A" title="ZTZ96A">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1718,15 +1718,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="PGZ09">
                     <a href="/PGZ09" title="PGZ09">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1759,15 +1759,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="CM25">
                     <a href="/CM25" title="CM25">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1786,15 +1786,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="PTZ89">
                     <a href="/PTZ89" title="PTZ89">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1823,15 +1823,15 @@ export function ChinaGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="WMA301">
                     <a href="/WMA301" title="WMA301">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1855,15 +1855,15 @@ export function ChinaGround() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="T-69 II G">
                     <a href="/T-69_II_G" title="T-69 II G">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1887,15 +1887,15 @@ export function ChinaGround() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="ZTZ96A (P)">
                     <a href="/ZTZ96A_(P)" title="ZTZ96A (P)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1913,15 +1913,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="T-62 545 (China)">
                     <a href="/T-62_545_(China)" title="T-62 545 (China)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1970,15 +1970,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="ZTZ99-II">
                     <a href="/ZTZ99-II" title="ZTZ99-II">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1997,15 +1997,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="ZTZ99-III">
                     <a href="/ZTZ99-III" title="ZTZ99-III">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2024,15 +2024,15 @@ export function ChinaGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="ZTZ99A">
                     <a href="/ZTZ99A" title="ZTZ99A">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2058,15 +2058,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="PGZ04A">
                     <a href="/PGZ04A" title="PGZ04A">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2092,15 +2092,15 @@ export function ChinaGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="ZLT11">
                     <a href="/ZLT11" title="ZLT11">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>

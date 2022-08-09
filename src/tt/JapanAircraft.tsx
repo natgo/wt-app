@@ -37,15 +37,15 @@ export function JapanAircraft() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="A5M4">
                     <a href="/A5M4" title="A5M4">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -65,15 +65,15 @@ export function JapanAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Ki-10-I">
                         <a href="/Ki-10-I" title="Ki-10-I">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -92,15 +92,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Ki-10-II">
                         <a href="/Ki-10-II" title="Ki-10-II">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -119,15 +119,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Ki-10-I C">
                         <a href="/Ki-10-I_C" title="Ki-10-I C">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -151,15 +151,15 @@ export function JapanAircraft() {
                       }}
                     />
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Ki-10-II C">
                         <a href="/Ki-10-II_C" title="Ki-10-II C">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -196,15 +196,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-27 otsu">
                     <a href="/Ki-27_otsu" title="Ki-27 otsu">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -222,15 +222,15 @@ export function JapanAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-32">
                     <a href="/Ki-32" title="Ki-32">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -249,15 +249,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-45 tei">
                     <a href="/Ki-45_tei" title="Ki-45 tei">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -276,15 +276,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="J1N1">
                     <a href="/J1N1" title="J1N1">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -305,15 +305,15 @@ export function JapanAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="B5N2">
                     <a href="/B5N2" title="B5N2">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -329,15 +329,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="D3A1">
                     <a href="/D3A1" title="D3A1">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -359,15 +359,15 @@ export function JapanAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="F1M2">
                     <a href="/F1M2" title="F1M2">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -383,15 +383,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-21-Ia">
                     <a href="/Ki-21-Ia" title="Ki-21-Ia">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -415,15 +415,15 @@ export function JapanAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="H6K4">
                         <a href="/H6K4" title="H6K4">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -442,15 +442,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="H8K2">
                         <a href="/H8K2" title="H8K2">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -489,15 +489,15 @@ export function JapanAircraft() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Hagiri's A5M4">
                     <a href="/Hagiri%27s_A5M4" title="Hagiri's A5M4">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -521,15 +521,15 @@ export function JapanAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-27 otsu Tachiarai">
                     <a href="/Ki-27_otsu_Tachiarai" title="Ki-27 otsu Tachiarai">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -555,15 +555,15 @@ export function JapanAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-21-I hei">
                     <a href="/Ki-21-I_hei" title="Ki-21-I hei">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -587,15 +587,15 @@ export function JapanAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="A7He1">
                     <a href="/A7He1" title="A7He1">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -647,15 +647,15 @@ export function JapanAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="A6M2-N">
                         <a href="/A6M2-N" title="A6M2-N">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -674,15 +674,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="N1K1">
                         <a href="/N1K1" title="N1K1">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -724,15 +724,15 @@ export function JapanAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="A6M2 mod. 11">
                         <a href="/A6M2_mod._11" title="A6M2 mod. 11">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -751,15 +751,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="A6M2">
                         <a href="/A6M2" title="A6M2">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -796,15 +796,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="J2M2">
                     <a href="/J2M2" title="J2M2">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -824,15 +824,15 @@ export function JapanAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Ki-43-I">
                         <a href="/Ki-43-I" title="Ki-43-I">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -851,15 +851,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Ki-43-II">
                         <a href="/Ki-43-II" title="Ki-43-II">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -901,15 +901,15 @@ export function JapanAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Ki-44-I">
                         <a href="/Ki-44-I" title="Ki-44-I">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -928,15 +928,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Ki-44-II hei">
                         <a href="/Ki-44-II_hei" title="Ki-44-II hei">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -978,15 +978,15 @@ export function JapanAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Ki-61-I ko">
                         <a href="/Ki-61-I_ko" title="Ki-61-I ko">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1005,15 +1005,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Ki-61-I otsu">
                         <a href="/Ki-61-I_otsu" title="Ki-61-I otsu">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1032,15 +1032,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Ki-100">
                         <a href="/Ki-100" title="Ki-100">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1081,15 +1081,15 @@ export function JapanAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Ki-45 otsu">
                         <a href="/Ki-45_otsu" title="Ki-45 otsu">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1108,15 +1108,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Ki-45 hei">
                         <a href="/Ki-45_hei" title="Ki-45 hei">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1153,15 +1153,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-45 ko">
                     <a href="/Ki-45_ko" title="Ki-45 ko">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1180,15 +1180,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-109">
                     <a href="/Ki-109" title="Ki-109">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1214,15 +1214,15 @@ export function JapanAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="B6N1 Model 11">
                         <a href="/B6N1_Model_11" title="B6N1 Model 11">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1241,15 +1241,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="B6N2 Model 12">
                         <a href="/B6N2_Model_12" title="B6N2 Model 12">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1268,15 +1268,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="B6N2a Model 12Ko">
                         <a href="/B6N2a_Model_12Ko" title="B6N2a Model 12Ko">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1313,15 +1313,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="D4Y1">
                     <a href="/D4Y1" title="D4Y1">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1342,15 +1342,15 @@ export function JapanAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="D4Y2">
                         <a href="/D4Y2" title="D4Y2">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1369,15 +1369,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="D4Y3 Ko">
                         <a href="/D4Y3_Ko" title="D4Y3 Ko">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1416,15 +1416,15 @@ export function JapanAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="G4M1">
                     <a href="/G4M1" title="G4M1">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1440,15 +1440,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-49-I">
                     <a href="/Ki-49-I" title="Ki-49-I">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1467,15 +1467,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-49-IIa">
                     <a href="/Ki-49-IIa" title="Ki-49-IIa">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1496,15 +1496,15 @@ export function JapanAircraft() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-44-I 34">
                     <a href="/Ki-44-I_34" title="Ki-44-I 34">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1528,15 +1528,15 @@ export function JapanAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-44-II otsu">
                     <a href="/Ki-44-II_otsu" title="Ki-44-II otsu">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1560,15 +1560,15 @@ export function JapanAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-100-II">
                     <a href="/Ki-100-II" title="Ki-100-II">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1594,15 +1594,15 @@ export function JapanAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="F4U-1A (Japan)">
                     <a href="/F4U-1A_(Japan)" title="F4U-1A (Japan)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1626,15 +1626,15 @@ export function JapanAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Bf 109 E-7 (Japan)">
                     <a href="/Bf_109_E-7_(Japan)" title="Bf 109 E-7 (Japan)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1658,15 +1658,15 @@ export function JapanAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="H8K3">
                     <a href="/H8K3" title="H8K3">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1715,15 +1715,15 @@ export function JapanAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="A6M3">
                         <a href="/A6M3" title="A6M3">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1742,15 +1742,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="A6M3 mod. 22">
                         <a href="/A6M3_mod._22" title="A6M3 mod. 22">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1769,15 +1769,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="A6M3 mod. 22Ko">
                         <a href="/A6M3_mod._22Ko" title="A6M3 mod. 22Ko">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1819,15 +1819,15 @@ export function JapanAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="A6M5">
                         <a href="/A6M5" title="A6M5">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1846,15 +1846,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="A6M5 otsu">
                         <a href="/A6M5_otsu" title="A6M5 otsu">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1873,15 +1873,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="A6M5 Hei">
                         <a href="/A6M5_Hei" title="A6M5 Hei">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1918,15 +1918,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="A7M2">
                     <a href="/A7M2" title="A7M2">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1944,15 +1944,15 @@ export function JapanAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-43-III otsu">
                     <a href="/Ki-43-III_otsu" title="Ki-43-III otsu">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1976,15 +1976,15 @@ export function JapanAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Ki-61-I hei">
                         <a href="/Ki-61-I_hei" title="Ki-61-I hei">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -2003,15 +2003,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Ki-61-I tei">
                         <a href="/Ki-61-I_tei" title="Ki-61-I tei">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -2048,15 +2048,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-61-II Otsu Kai">
                     <a href="/Ki-61-II_Otsu_Kai" title="Ki-61-II Otsu Kai">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2077,15 +2077,15 @@ export function JapanAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-102 otsu">
                     <a href="/Ki-102_otsu" title="Ki-102 otsu">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2104,15 +2104,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-108 Kai">
                     <a href="/Ki-108_Kai" title="Ki-108 Kai">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2137,15 +2137,15 @@ export function JapanAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="B7A2">
                     <a href="/B7A2" title="B7A2">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2171,15 +2171,15 @@ export function JapanAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-49-IIb">
                     <a href="/Ki-49-IIb" title="Ki-49-IIb">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2198,15 +2198,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-49-IIb/L">
                     <a href="/Ki-49-IIb/L" title="Ki-49-IIb/L">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2230,15 +2230,15 @@ export function JapanAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Ki-67-I Ko">
                         <a href="/Ki-67-I_Ko" title="Ki-67-I Ko">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -2257,15 +2257,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Ki-67-I otsu">
                         <a href="/Ki-67-I_otsu" title="Ki-67-I otsu">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -2304,15 +2304,15 @@ export function JapanAircraft() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-96">
                     <a href="/Ki-96" title="Ki-96">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2336,15 +2336,15 @@ export function JapanAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-61-I hei Tada's">
                     <a href="/Ki-61-I_hei_Tada%27s" title="Ki-61-I hei Tada's">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2368,15 +2368,15 @@ export function JapanAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="A7M1 (NK9H)">
                     <a href="/A7M1_(NK9H)" title="A7M1 (NK9H)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2399,15 +2399,15 @@ export function JapanAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="P-51C-11-NT (Japan)">
                     <a href="/P-51C-11-NT_(Japan)" title="P-51C-11-NT (Japan)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2431,15 +2431,15 @@ export function JapanAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Fw 190 A-5 (Japan)">
                     <a href="/Fw_190_A-5_(Japan)" title="Fw 190 A-5 (Japan)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2463,15 +2463,15 @@ export function JapanAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="A6M6c">
                     <a href="/A6M6c" title="A6M6c">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2523,15 +2523,15 @@ export function JapanAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="N1K1-Ja">
                         <a href="/N1K1-Ja" title="N1K1-Ja">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -2550,15 +2550,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="N1K2-J">
                         <a href="/N1K2-J" title="N1K2-J">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -2577,15 +2577,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="N1K2-Ja">
                         <a href="/N1K2-Ja" title="N1K2-Ja">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -2627,15 +2627,15 @@ export function JapanAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="J2M3">
                         <a href="/J2M3" title="J2M3">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -2654,15 +2654,15 @@ export function JapanAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="J2M5">
                         <a href="/J2M5" title="J2M5">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -2699,15 +2699,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="J7W1">
                     <a href="/J7W1" title="J7W1">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2729,15 +2729,15 @@ export function JapanAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-84 ko">
                     <a href="/Ki-84_ko" title="Ki-84 ko">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2756,15 +2756,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-84 otsu">
                     <a href="/Ki-84_otsu" title="Ki-84 otsu">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2783,15 +2783,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-84 hei">
                     <a href="/Ki-84_hei" title="Ki-84 hei">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2816,15 +2816,15 @@ export function JapanAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="J5N1">
                     <a href="/J5N1" title="J5N1">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2840,15 +2840,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-83">
                     <a href="/Ki-83" title="Ki-83">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2866,15 +2866,15 @@ export function JapanAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="P1Y1 mod. 11">
                     <a href="/P1Y1_mod._11" title="P1Y1 mod. 11">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2907,15 +2907,15 @@ export function JapanAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="G5N1">
                     <a href="/G5N1" title="G5N1">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2931,15 +2931,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="G8N1">
                     <a href="/G8N1" title="G8N1">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2954,15 +2954,15 @@ export function JapanAircraft() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="J2M4 Kai">
                     <a href="/J2M4_Kai" title="J2M4 Kai">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2986,15 +2986,15 @@ export function JapanAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="J2M5 30mm">
                     <a href="/J2M5_30mm" title="J2M5 30mm">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -3018,15 +3018,15 @@ export function JapanAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="B-17E (Japan)">
                     <a href="/B-17E_(Japan)" title="B-17E (Japan)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -3050,15 +3050,15 @@ export function JapanAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-87">
                     <a href="/Ki-87" title="Ki-87">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -3084,15 +3084,15 @@ export function JapanAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="A6M5 Ko">
                     <a href="/A6M5_Ko" title="A6M5 Ko">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -3116,15 +3116,15 @@ export function JapanAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-94-II">
                     <a href="/Ki-94-II" title="Ki-94-II">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -3148,15 +3148,15 @@ export function JapanAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="J6K1">
                     <a href="/J6K1" title="J6K1">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -3192,15 +3192,15 @@ export function JapanAircraft() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Kikka">
                     <a href="/Kikka" title="Kikka">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -3219,15 +3219,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="F-86F-30 (Japan)">
                     <a href="/F-86F-30_(Japan)" title="F-86F-30 (Japan)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -3246,15 +3246,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="F-86F-40 (Japan)">
                     <a href="/F-86F-40_(Japan)" title="F-86F-40 (Japan)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -3275,15 +3275,15 @@ export function JapanAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ki-200">
                     <a href="/Ki-200" title="Ki-200">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -3310,15 +3310,15 @@ export function JapanAircraft() {
               <td />
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="R2Y2 Kai V1">
                     <a href="/R2Y2_Kai_V1" title="R2Y2 Kai V1">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -3337,15 +3337,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="R2Y2 Kai V2">
                     <a href="/R2Y2_Kai_V2" title="R2Y2 Kai V2">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -3364,15 +3364,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="R2Y2 Kai V3">
                     <a href="/R2Y2_Kai_V3" title="R2Y2 Kai V3">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -3391,15 +3391,15 @@ export function JapanAircraft() {
               <td />
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="F-86F-40 JASDF (Japan)">
                     <a href="/F-86F-40_JASDF_(Japan)" title="F-86F-40 JASDF (Japan)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -3439,15 +3439,15 @@ export function JapanAircraft() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="F-104J">
                     <a href="/F-104J" title="F-104J">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -3472,15 +3472,15 @@ export function JapanAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="T-2">
                     <a href="/T-2" title="T-2">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -3496,15 +3496,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="F-1">
                     <a href="/F-1" title="F-1">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -3545,15 +3545,15 @@ export function JapanAircraft() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="F-4EJ Phantom II">
                     <a href="/F-4EJ_Phantom_II" title="F-4EJ Phantom II">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -3572,15 +3572,15 @@ export function JapanAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="F-4EJ Kai Phantom II">
                     <a href="/F-4EJ_Kai_Phantom_II" title="F-4EJ Kai Phantom II">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -3671,24 +3671,6 @@ export function JapanAircraft() {
       <h2>
         <span className="mw-headline" id="Media">
           Media
-        </span>
-        <span className="mw-editsection">
-          <span className="mw-editsection-bracket">[</span>
-          <a
-            href="/index.php?title=Category:Japan_aircraft&veaction=edit&section=1"
-            className="mw-editsection-visualeditor"
-            title="Edit section: Media"
-          >
-            edit
-          </a>
-          <span className="mw-editsection-divider"> | </span>
-          <a
-            href="/index.php?title=Category:Japan_aircraft&action=edit&section=1"
-            title="Edit section: Media"
-          >
-            edit source
-          </a>
-          <span className="mw-editsection-bracket">]</span>
         </span>
       </h2>
       <div className="video_gallery">

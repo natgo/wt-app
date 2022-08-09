@@ -37,15 +37,15 @@ export function IsraelGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M-51">
                     <a href="/M-51" title="M-51">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -64,15 +64,15 @@ export function IsraelGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Magach 1">
                     <a href="/Magach_1" title="Magach 1">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -91,15 +91,15 @@ export function IsraelGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Magach 2">
                     <a href="/Magach_2" title="Magach 2">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -120,15 +120,15 @@ export function IsraelGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="AMX-13 (Israel)">
                     <a href="/AMX-13_(Israel)" title="AMX-13 (Israel)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -147,15 +147,15 @@ export function IsraelGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="AML-90 (Israel)">
                     <a href="/AML-90_(Israel)" title="AML-90 (Israel)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -174,15 +174,15 @@ export function IsraelGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Sho't">
                     <a href="/Sho%27t" title="Sho't">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -203,15 +203,15 @@ export function IsraelGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Zachlam Tager">
                     <a href="/Zachlam_Tager" title="Zachlam Tager">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -240,15 +240,15 @@ export function IsraelGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="M-51 (W)">
                     <a href="/M-51_(W)" title="M-51 (W)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -296,15 +296,15 @@ export function IsraelGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Magach 6">
                     <a href="/Magach_6" title="Magach 6">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -323,15 +323,15 @@ export function IsraelGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Magach 6A">
                     <a href="/Magach_6A" title="Magach 6A">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -356,15 +356,15 @@ export function IsraelGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Tiran 4">
                     <a href="/Tiran_4" title="Tiran 4">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -383,15 +383,15 @@ export function IsraelGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Tiran 4S">
                     <a href="/Tiran_4S" title="Tiran 4S">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -410,15 +410,15 @@ export function IsraelGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Sho't Kal Alef">
                     <a href="/Sho%27t_Kal_Alef" title="Sho't Kal Alef">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -439,15 +439,15 @@ export function IsraelGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Hovet">
                     <a href="/Hovet" title="Hovet">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -476,15 +476,15 @@ export function IsraelGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Magach 3">
                     <a href="/Magach_3" title="Magach 3">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -532,15 +532,15 @@ export function IsraelGround() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Magach 6B">
                     <a href="/Magach_6B" title="Magach 6B">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -559,15 +559,15 @@ export function IsraelGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Gal Batash">
                     <a href="/Gal_Batash" title="Gal Batash">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -585,15 +585,15 @@ export function IsraelGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Sho't Kal Gimel">
                     <a href="/Sho%27t_Kal_Gimel" title="Sho't Kal Gimel">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -612,15 +612,15 @@ export function IsraelGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Merkava Mk.1B">
                     <a href="/Merkava_Mk.1B" title="Merkava Mk.1B">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -639,15 +639,15 @@ export function IsraelGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Merkava Mk.2B">
                     <a href="/Merkava_Mk.2B" title="Merkava Mk.2B">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -666,15 +666,15 @@ export function IsraelGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Merkava Mk.3B">
                     <a href="/Merkava_Mk.3B" title="Merkava Mk.3B">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -695,15 +695,15 @@ export function IsraelGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Machbet">
                     <a href="/Machbet" title="Machbet">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -721,15 +721,15 @@ export function IsraelGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Sho't Kal Dalet">
                     <a href="/Sho%27t_Kal_Dalet" title="Sho't Kal Dalet">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -753,15 +753,15 @@ export function IsraelGround() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Merkava Mk.2D">
                     <a href="/Merkava_Mk.2D" title="Merkava Mk.2D">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -811,15 +811,15 @@ export function IsraelGround() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Merkava Mk.4B">
                     <a href="/Merkava_Mk.4B" title="Merkava Mk.4B">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -838,15 +838,15 @@ export function IsraelGround() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Merkava Mk.4M">
                     <a href="/Merkava_Mk.4M" title="Merkava Mk.4M">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -907,24 +907,6 @@ export function IsraelGround() {
       <h2>
         <span className="mw-headline" id="Media">
           Media
-        </span>
-        <span className="mw-editsection">
-          <span className="mw-editsection-bracket">[</span>
-          <a
-            href="/index.php?title=Category:Israel_ground_vehicles&veaction=edit&section=1"
-            className="mw-editsection-visualeditor"
-            title="Edit section: Media"
-          >
-            edit
-          </a>
-          <span className="mw-editsection-divider"> | </span>
-          <a
-            href="/index.php?title=Category:Israel_ground_vehicles&action=edit&section=1"
-            title="Edit section: Media"
-          >
-            edit source
-          </a>
-          <span className="mw-editsection-bracket">]</span>
         </span>
       </h2>
       <div className="video_gallery">

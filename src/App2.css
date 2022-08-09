@@ -1,49 +1,63 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
 @import url(https://wiki.warthunder.com/index.php?title=MediaWiki:Icons.css&action=raw&ctype=text/css);
+
 .mw-parser-output > ul li,
 .mw-parser-output > ol li {
   font-weight: 400;
   font-size: 17px;
   color: #263238;
 }
+
 li.gallerycaption {
   width: 100% !important;
 }
+
 .gaijin-menu__all {
   max-width: 1460px !important;
 }
+
 .mw-head__menu {
   max-width: 1460px !important;
 }
+
 .content-area {
   max-width: 1460px !important;
 }
+
 li.gallerybox div.thumb {
   height: auto !important;
 }
+
 .mw-gallery-traditional .gallerybox > * .thumb > div img {
   width: 80% !important;
 }
+
 #contentSub {
   display: block !important;
 }
+
 .dynamic_image {
   max-width: 100%;
   height: auto;
 }
+
 .right_ttx .tright {
   clear: none;
 }
+
 a {
   text-decoration-skip-ink: none;
 }
+
 img {
   max-width: 1100px;
   height: auto;
 }
+
 .zebra tr:nth-child(even) {
   background-color: rgb(240, 240, 240);
 }
+
 div.NavFrame {
   margin: 0;
   padding: 4px;
@@ -53,16 +67,19 @@ div.NavFrame {
   font-size: 95%;
   background-color: #f9f9f9;
 }
+
 div.NavFrame + div.NavFrame {
   border-top-style: none;
   border-top-style: hidden;
 }
+
 div.NavPic {
   background-color: #fff;
   margin: 0;
   padding: 2px;
   float: left;
 }
+
 div.NavFrame div.NavHead {
   height: 1.6em;
   font-weight: bold;
@@ -552,16 +569,23 @@ div#p-lang span {
 .tree-item {
   cursor: pointer;
   position: relative;
-  width: 120px;
+  width: 160px;
   height: 48px;
   margin: auto;
 }
+
+img.tree-item-js {
+  height: 48px;
+}
+
 .tree-item:hover span.tree-item-text-scroll {
   animation: scroll 2s infinite alternate linear;
 }
+
 .tree-item-background {
   position: absolute;
 }
+
 .tree-item-text {
   color: white;
   float: right;
@@ -576,28 +600,43 @@ div#p-lang span {
   white-space: nowrap;
   overflow: hidden;
 }
+
 .tree-item-img {
   position: absolute;
   margin: 5px;
   pointer-events: none;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 155px;
 }
+
 .tree-item-img img {
   height: 42px;
 }
+
+.tree-item-img img.class {
+  height: 18px;
+  justify-self: end;
+  align-self: end;
+}
+
 .tree-group {
   cursor: pointer;
   position: relative;
-  width: 120px;
+  width: 160px;
   height: 52px;
   margin: auto;
   margin-top: -4px;
   background: url(https://wiki.warthunder.com/images/d/db/Item_group.png) no-repeat;
+  background-size: 160px 52px;
 }
+
 .tree-group:hover span.tree-item-text-scroll {
   animation: scroll 2s infinite alternate linear;
 }
+
 .tree-group-collapse {
-  width: 120px;
+  width: 160px;
   background: #405561;
   margin: auto;
   z-index: 100;
@@ -607,6 +646,7 @@ div#p-lang span {
   right: 0;
   color: #242e33;
 }
+
 .tree-group-text {
   color: white;
   float: right;
@@ -632,7 +672,7 @@ div#p-lang span {
 }
 .tree-arrow {
   position: relative;
-  width: 120px;
+  width: 160px;
   height: auto;
   margin: auto;
 }
@@ -964,7 +1004,7 @@ div#p-lang span {
   position: relative;
   width: 50%;
   margin: 0 5px;
-  max-width: 120px;
+  max-width: 160px;
 }
 .specs_card_main .general_info_neighbors > div a {
   color: #90a4ae;

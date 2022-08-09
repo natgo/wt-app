@@ -49,15 +49,15 @@ export function BritainHeli() {
                     <tr>
                       <td>
                         <div className="tree-item">
-                          <div className="tree-item-background">
+                          <div className="tree-item-background" id="Scout AH.Mk.1">
                             <a href="/Scout_AH.Mk.1" title="Scout AH.Mk.1">
                               <img
                                 alt="Item own.png"
                                 src="/images/Item_own.png"
                                 className="tree-item-js"
-                                data-file-width={120}
+                                data-file-width={160}
                                 data-file-height={48}
-                                width={120}
+                                width={160}
                                 height={48}
                               />
                             </a>
@@ -84,15 +84,15 @@ export function BritainHeli() {
                     <tr>
                       <td>
                         <div className="tree-item">
-                          <div className="tree-item-background">
+                          <div className="tree-item-background" id="Wasp HAS.Mk.1">
                             <a href="/Wasp_HAS.Mk.1" title="Wasp HAS.Mk.1">
                               <img
                                 alt="Item own.png"
                                 src="/images/Item_own.png"
                                 className="tree-item-js"
-                                data-file-width={120}
+                                data-file-width={160}
                                 data-file-height={48}
-                                width={120}
+                                width={160}
                                 height={48}
                               />
                             </a>
@@ -148,15 +148,15 @@ export function BritainHeli() {
                     <tr>
                       <td>
                         <div className="tree-item">
-                          <div className="tree-item-background">
+                          <div className="tree-item-background" id="Lynx AH.Mk.1">
                             <a href="/Lynx_AH.Mk.1" title="Lynx AH.Mk.1">
                               <img
                                 alt="Item own.png"
                                 src="/images/Item_own.png"
                                 className="tree-item-js"
-                                data-file-width={120}
+                                data-file-width={160}
                                 data-file-height={48}
-                                width={120}
+                                width={160}
                                 height={48}
                               />
                             </a>
@@ -185,15 +185,15 @@ export function BritainHeli() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="G-LYNX">
                     <a href="/G-LYNX" title="G-LYNX">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -237,15 +237,15 @@ export function BritainHeli() {
                     <tr>
                       <td>
                         <div className="tree-item">
-                          <div className="tree-item-background">
+                          <div className="tree-item-background" id="AH Mk.1 Apache">
                             <a href="/AH_Mk.1_Apache" title="AH Mk.1 Apache">
                               <img
                                 alt="Item own.png"
                                 src="/images/Item_own.png"
                                 className="tree-item-js"
-                                data-file-width={120}
+                                data-file-width={160}
                                 data-file-height={48}
-                                width={120}
+                                width={160}
                                 height={48}
                               />
                             </a>

@@ -52,15 +52,15 @@ export function ItalyAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="CR.32">
                         <a href="/CR.32" title="CR.32">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -79,15 +79,15 @@ export function ItalyAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="CR.32 quater">
                         <a href="/CR.32_quater" title="CR.32 quater">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -124,15 +124,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="CR.42">
                     <a href="/CR.42" title="CR.42">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -156,15 +156,15 @@ export function ItalyAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="G.50 serie 2">
                         <a href="/G.50_serie_2" title="G.50 serie 2">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -183,15 +183,15 @@ export function ItalyAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="G.50 AS serie 7">
                         <a href="/G.50_AS_serie_7" title="G.50 AS serie 7">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -230,15 +230,15 @@ export function ItalyAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ba.65 (K.14) L">
                     <a href="/Ba.65_(K.14)_L" title="Ba.65 (K.14) L">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -257,15 +257,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ju 87 R-2 (Italy)">
                     <a href="/Ju_87_R-2_(Italy)" title="Ju 87 R-2 (Italy)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -284,15 +284,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Breda 88 (P.XI)">
                     <a href="/Breda_88_(P.XI)" title="Breda 88 (P.XI)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -313,15 +313,15 @@ export function ItalyAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="S.81">
                     <a href="/S.81" title="S.81">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -340,15 +340,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="B.R.20DR">
                     <a href="/B.R.20DR" title="B.R.20DR">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -367,15 +367,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="B.R.20M M1">
                     <a href="/B.R.20M_M1" title="B.R.20M M1">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -396,15 +396,15 @@ export function ItalyAircraft() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Marcolin's C.R.42 CN">
                     <a href="/Marcolin%27s_C.R.42_CN" title="Marcolin's C.R.42 CN">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -428,15 +428,15 @@ export function ItalyAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="CR.32 bis">
                     <a href="/CR.32_bis" title="CR.32 bis">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -462,15 +462,15 @@ export function ItalyAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="He 112 B-1/U2">
                     <a href="/He_112_B-1/U2" title="He 112 B-1/U2">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -522,15 +522,15 @@ export function ItalyAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Re.2000 serie 1">
                         <a href="/Re.2000_serie_1" title="Re.2000 serie 1">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -549,15 +549,15 @@ export function ItalyAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Re.2000 G.A.">
                         <a href="/Re.2000_G.A." title="Re.2000 G.A.">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -594,15 +594,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Re.2002 Early">
                     <a href="/Re.2002_Early" title="Re.2002 Early">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -626,15 +626,15 @@ export function ItalyAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Re.2001 serie 1">
                         <a href="/Re.2001_serie_1" title="Re.2001 serie 1">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -653,15 +653,15 @@ export function ItalyAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="Re.2001 CB">
                         <a href="/Re.2001_CB" title="Re.2001 CB">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -705,15 +705,15 @@ export function ItalyAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="C. 200 serie 3">
                         <a href="/C._200_serie_3" title="C. 200 serie 3">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -732,15 +732,15 @@ export function ItalyAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="C. 200 serie 7">
                         <a href="/C._200_serie_7" title="C. 200 serie 7">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -777,15 +777,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="C. 202">
                     <a href="/C._202" title="C. 202">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -804,15 +804,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="C. 202EC">
                     <a href="/C._202EC" title="C. 202EC">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -833,15 +833,15 @@ export function ItalyAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="F.C.20 Bis">
                     <a href="/F.C.20_Bis" title="F.C.20 Bis">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -860,15 +860,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ju 87 D-3 (Italy)">
                     <a href="/Ju_87_D-3_(Italy)" title="Ju 87 D-3 (Italy)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -887,15 +887,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="P.108A serie 2">
                     <a href="/P.108A_serie_2" title="P.108A serie 2">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -921,15 +921,15 @@ export function ItalyAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="S.M.79 serie 1">
                         <a href="/S.M.79_serie_1" title="S.M.79 serie 1">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -948,15 +948,15 @@ export function ItalyAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="S.M.79 serie 8">
                         <a href="/S.M.79_serie_8" title="S.M.79 serie 8">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -998,15 +998,15 @@ export function ItalyAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="S.M.79 AS">
                         <a href="/S.M.79_AS" title="S.M.79 AS">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1025,15 +1025,15 @@ export function ItalyAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="S.M.79 bis/T.M">
                         <a href="/S.M.79_bis/T.M" title="S.M.79 bis/T.M">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1052,15 +1052,15 @@ export function ItalyAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="S.M.79 B">
                         <a href="/S.M.79_B" title="S.M.79 B">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1103,15 +1103,15 @@ export function ItalyAircraft() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Re.2001 gruppo 22">
                     <a href="/Re.2001_gruppo_22" title="Re.2001 gruppo 22">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1135,15 +1135,15 @@ export function ItalyAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="IAR-81C">
                     <a href="/IAR-81C" title="IAR-81C">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1169,15 +1169,15 @@ export function ItalyAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ro.57 Quadriarma">
                     <a href="/Ro.57_Quadriarma" title="Ro.57 Quadriarma">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1201,15 +1201,15 @@ export function ItalyAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="C. 202D">
                     <a href="/C._202D" title="C. 202D">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1248,15 +1248,15 @@ export function ItalyAircraft() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Re.2001 CN">
                     <a href="/Re.2001_CN" title="Re.2001 CN">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1290,15 +1290,15 @@ export function ItalyAircraft() {
                     style={{ display: "none", position: "absolute" }}
                   >
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="C. 205 serie 1">
                         <a href="/C._205_serie_1" title="C. 205 serie 1">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1317,15 +1317,15 @@ export function ItalyAircraft() {
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
                     </div>
                     <div className="tree-item">
-                      <div className="tree-item-background">
+                      <div className="tree-item-background" id="C. 205 serie 3">
                         <a href="/C._205_serie_3" title="C. 205 serie 3">
                           <img
                             alt="Item own.png"
                             src="/images/Item_own.png"
                             className="tree-item-js"
-                            data-file-width={120}
+                            data-file-width={160}
                             data-file-height={48}
-                            width={120}
+                            width={160}
                             height={48}
                           />
                         </a>
@@ -1362,15 +1362,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="G.55 sottoserie 0">
                     <a href="/G.55_sottoserie_0" title="G.55 sottoserie 0">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1389,15 +1389,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="G.55 serie 1">
                     <a href="/G.55_serie_1" title="G.55 serie 1">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1418,15 +1418,15 @@ export function ItalyAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="SM.91">
                     <a href="/SM.91" title="SM.91">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1455,15 +1455,15 @@ export function ItalyAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Z.1007 bis serie 3">
                     <a href="/Z.1007_bis_serie_3" title="Z.1007 bis serie 3">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1482,15 +1482,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Z.1007 bis serie 5">
                     <a href="/Z.1007_bis_serie_5" title="Z.1007 bis serie 5">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1509,15 +1509,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="P.108B serie 1">
                     <a href="/P.108B_serie_1" title="P.108B serie 1">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1538,15 +1538,15 @@ export function ItalyAircraft() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Spitfire Mk Vb/trop (Italy)">
                     <a href="/Spitfire_Mk_Vb/trop_(Italy)" title="Spitfire Mk Vb/trop (Italy)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1570,15 +1570,15 @@ export function ItalyAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Hs 129 B-2 (Romania) (Italy)">
                     <a href="/Hs_129_B-2_(Romania)_(Italy)" title="Hs 129 B-2 (Romania) (Italy)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1602,15 +1602,15 @@ export function ItalyAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Bf 110 G-4 (Italy)">
                     <a href="/Bf_110_G-4_(Italy)" title="Bf 110 G-4 (Italy)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1658,15 +1658,15 @@ export function ItalyAircraft() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Re.2005 serie 0">
                     <a href="/Re.2005_serie_0" title="Re.2005 serie 0">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1695,15 +1695,15 @@ export function ItalyAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="C. 205N2">
                     <a href="/C._205N2" title="C. 205N2">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1722,15 +1722,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Bf 109 G-14/AS (Italy)">
                     <a href="/Bf_109_G-14/AS_(Italy)" title="Bf 109 G-14/AS (Italy)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1749,15 +1749,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="G.56">
                     <a href="/G.56" title="G.56">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1775,15 +1775,15 @@ export function ItalyAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="SM.92">
                     <a href="/SM.92" title="SM.92">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1812,15 +1812,15 @@ export function ItalyAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="P.108B serie 2">
                     <a href="/P.108B_serie_2" title="P.108B serie 2">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1838,15 +1838,15 @@ export function ItalyAircraft() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="G.55S">
                     <a href="/G.55S" title="G.55S">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1870,15 +1870,15 @@ export function ItalyAircraft() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Bf 109 G-2 (Italy)">
                     <a href="/Bf_109_G-2_(Italy)" title="Bf 109 G-2 (Italy)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1926,15 +1926,15 @@ export function ItalyAircraft() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Vampire FB 52A">
                     <a href="/Vampire_FB_52A" title="Vampire FB 52A">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1953,15 +1953,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="CL-13 Mk.4">
                     <a href="/CL-13_Mk.4" title="CL-13 Mk.4">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -1982,15 +1982,15 @@ export function ItalyAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="G.91 pre-serie">
                     <a href="/G.91_pre-serie" title="G.91 pre-serie">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2009,15 +2009,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="G.91 R/1">
                     <a href="/G.91_R/1" title="G.91 R/1">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2038,15 +2038,15 @@ export function ItalyAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="F-84G-21-RE (Italy)">
                     <a href="/F-84G-21-RE_(Italy)" title="F-84G-21-RE (Italy)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2065,15 +2065,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="F-84F (Italy)">
                     <a href="/F-84F_(Italy)" title="F-84F (Italy)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2092,15 +2092,15 @@ export function ItalyAircraft() {
               <td />
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="G.91 R/4">
                     <a href="/G.91_R/4" title="G.91 R/4">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2148,15 +2148,15 @@ export function ItalyAircraft() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="F-86K (Italy)">
                     <a href="/F-86K_(Italy)" title="F-86K (Italy)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2175,15 +2175,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="F-104G (Italy)">
                     <a href="/F-104G_(Italy)" title="F-104G (Italy)">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2202,15 +2202,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="F-104S">
                     <a href="/F-104S" title="F-104S">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2231,15 +2231,15 @@ export function ItalyAircraft() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Sagittario 2">
                     <a href="/Sagittario_2" title="Sagittario 2">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2258,15 +2258,15 @@ export function ItalyAircraft() {
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
                 </div>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="G.91 YS">
                     <a href="/G.91_YS" title="G.91 YS">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2286,15 +2286,15 @@ export function ItalyAircraft() {
               <td />
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="Ariete (Fighter)">
                     <a href="/Ariete_(Fighter)" title="Ariete (Fighter)">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2334,15 +2334,15 @@ export function ItalyAircraft() {
               </th>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="F-104S.ASA">
                     <a href="/F-104S.ASA" title="F-104S.ASA">
                       <img
                         alt="Item own.png"
                         src="/images/Item_own.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -2423,24 +2423,6 @@ export function ItalyAircraft() {
       <h2>
         <span className="mw-headline" id="Media">
           Media
-        </span>
-        <span className="mw-editsection">
-          <span className="mw-editsection-bracket">[</span>
-          <a
-            href="/index.php?title=Category:Italy_aircraft&veaction=edit&section=1"
-            className="mw-editsection-visualeditor"
-            title="Edit section: Media"
-          >
-            edit
-          </a>
-          <span className="mw-editsection-divider"> | </span>
-          <a
-            href="/index.php?title=Category:Italy_aircraft&action=edit&section=1"
-            title="Edit section: Media"
-          >
-            edit source
-          </a>
-          <span className="mw-editsection-bracket">]</span>
         </span>
       </h2>
       <div className="video_gallery">

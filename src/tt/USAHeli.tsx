@@ -51,15 +51,15 @@ export function USAHeli() {
                     <tr>
                       <td>
                         <div className="tree-item">
-                          <div className="tree-item-background">
+                          <div className="tree-item-background" id="AH-1G">
                             <a href="/AH-1G" title="AH-1G">
                               <img
                                 alt="Item own.png"
                                 src="/images/Item_own.png"
                                 className="tree-item-js"
-                                data-file-width={120}
+                                data-file-width={160}
                                 data-file-height={48}
-                                width={120}
+                                width={160}
                                 height={48}
                               />
                             </a>
@@ -86,15 +86,15 @@ export function USAHeli() {
                     <tr>
                       <td>
                         <div className="tree-item">
-                          <div className="tree-item-background">
+                          <div className="tree-item-background" id="UH-1B">
                             <a href="/UH-1B" title="UH-1B">
                               <img
                                 alt="Item own.png"
                                 src="/images/Item_own.png"
                                 className="tree-item-js"
-                                data-file-width={120}
+                                data-file-width={160}
                                 data-file-height={48}
-                                width={120}
+                                width={160}
                                 height={48}
                               />
                             </a>
@@ -117,15 +117,15 @@ export function USAHeli() {
                       </td>
                       <td>
                         <div className="tree-item">
-                          <div className="tree-item-background">
+                          <div className="tree-item-background" id="UH-1C">
                             <a href="/UH-1C" title="UH-1C">
                               <img
                                 alt="Item own.png"
                                 src="/images/Item_own.png"
                                 className="tree-item-js"
-                                data-file-width={120}
+                                data-file-width={160}
                                 data-file-height={48}
-                                width={120}
+                                width={160}
                                 height={48}
                               />
                             </a>
@@ -156,15 +156,15 @@ export function USAHeli() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="H-34">
                     <a href="/H-34" title="H-34">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -185,15 +185,15 @@ export function USAHeli() {
                   }}
                 />
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="UH-1C XM-30">
                     <a href="/UH-1C_XM-30" title="UH-1C XM-30">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -247,15 +247,15 @@ export function USAHeli() {
                       <td />
                       <td>
                         <div className="tree-item">
-                          <div className="tree-item-background">
+                          <div className="tree-item-background" id="AH-1F">
                             <a href="/AH-1F" title="AH-1F">
                               <img
                                 alt="Item own.png"
                                 src="/images/Item_own.png"
                                 className="tree-item-js"
-                                data-file-width={120}
+                                data-file-width={160}
                                 data-file-height={48}
-                                width={120}
+                                width={160}
                                 height={48}
                               />
                             </a>
@@ -282,15 +282,15 @@ export function USAHeli() {
                     <tr>
                       <td>
                         <div className="tree-item">
-                          <div className="tree-item-background">
+                          <div className="tree-item-background" id="AH-64A">
                             <a href="/AH-64A" title="AH-64A">
                               <img
                                 alt="Item own.png"
                                 src="/images/Item_own.png"
                                 className="tree-item-js"
-                                data-file-width={120}
+                                data-file-width={160}
                                 data-file-height={48}
-                                width={120}
+                                width={160}
                                 height={48}
                               />
                             </a>
@@ -331,15 +331,15 @@ export function USAHeli() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="YAH-64">
                     <a href="/YAH-64" title="YAH-64">
                       <img
                         alt="Item squad.png"
                         src="/images/Item_squad.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -365,15 +365,15 @@ export function USAHeli() {
               </td>
               <td>
                 <div className="tree-item">
-                  <div className="tree-item-background">
+                  <div className="tree-item-background" id="AH-64A Peten">
                     <a href="/AH-64A_Peten" title="AH-64A Peten">
                       <img
                         alt="Item prem.png"
                         src="/images/Item_prem.png"
                         className="tree-item-js"
-                        data-file-width={120}
+                        data-file-width={160}
                         data-file-height={48}
-                        width={120}
+                        width={160}
                         height={48}
                       />
                     </a>
@@ -424,15 +424,15 @@ export function USAHeli() {
                     <tr>
                       <td>
                         <div className="tree-item">
-                          <div className="tree-item-background">
+                          <div className="tree-item-background" id="AH-64D">
                             <a href="/AH-64D" title="AH-64D">
                               <img
                                 alt="Item own.png"
                                 src="/images/Item_own.png"
                                 className="tree-item-js"
-                                data-file-width={120}
+                                data-file-width={160}
                                 data-file-height={48}
-                                width={120}
+                                width={160}
                                 height={48}
                               />
                             </a>
@@ -451,15 +451,15 @@ export function USAHeli() {
                       <td />
                       <td>
                         <div className="tree-item">
-                          <div className="tree-item-background">
+                          <div className="tree-item-background" id="AH-1Z">
                             <a href="/AH-1Z" title="AH-1Z">
                               <img
                                 alt="Item own.png"
                                 src="/images/Item_own.png"
                                 className="tree-item-js"
-                                data-file-width={120}
+                                data-file-width={160}
                                 data-file-height={48}
-                                width={120}
+                                width={160}
                                 height={48}
                               />
                             </a>
