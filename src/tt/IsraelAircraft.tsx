@@ -1,4 +1,5 @@
 import { openfolder } from ".";
+import { Item_own, TechTreeImg, Item_prem } from "../TechTree";
 
 export function IsraelAircraft() {
   return (
@@ -39,26 +40,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Spitfire Mk IXc (Israel)">
                     <a href="/Spitfire_Mk_IXc_(Israel)" title="Spitfire Mk IXc (Israel)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Spitfire Mk&nbsp;IXc</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/spitfire_mk9c_iaf.png"
-                      alt="spitfire_mk9c_iaf.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="spitfire_mk9c_iaf" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -66,26 +54,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Spitfire Mk.IX (CW) (Israel)">
                     <a href="/Spitfire_Mk.IX_(CW)_(Israel)" title="Spitfire Mk.IX (CW) (Israel)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Spitfire Mk.IX (CW)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/spitfire_lf_mk9e_iaf.png"
-                      alt="spitfire_lf_mk9e_iaf.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="spitfire_lf_mk9e_iaf" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -95,26 +70,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="S-199">
                     <a href="/S-199" title="S-199">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">S-199</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/s_199.png"
-                      alt="s_199.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="s_199" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -122,26 +84,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="P-51D-20-NA (Israel)">
                     <a href="/P-51D-20-NA_(Israel)" title="P-51D-20-NA (Israel)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">P-51D-20-NA</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/p-51d-20-na_iaf.png"
-                      alt="p-51d-20-na_iaf.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="p-51d-20-na_iaf" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -151,26 +100,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="B-17G (Israel)">
                     <a href="/B-17G_(Israel)" title="B-17G (Israel)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">B-17G</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/b-17g_iaf.png"
-                      alt="b-17g_iaf.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="b-17g_iaf" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -187,26 +123,13 @@ export function IsraelAircraft() {
                       href="/Spitfire_LF_Mk.IX_Weizman%27s_(Israel)"
                       title="Spitfire LF Mk.IX Weizman's (Israel)"
                     >
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Spitfire LF Mk.IX Weizman&apos;s</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/spitfire_lf_mk9e_weisman.png"
-                      alt="spitfire_lf_mk9e_weisman.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="spitfire_lf_mk9e_weisman" type="aircraft" />
                 </div>
                 <div
                   style={{
@@ -243,26 +166,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Meteor NF.13 (Israel)">
                     <a href="/Meteor_NF.13_(Israel)" title="Meteor NF.13 (Israel)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Meteor&nbsp;NF.13</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/meteor_nfmk13.png"
-                      alt="meteor_nfmk13.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="meteor_nfmk13" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -270,26 +180,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Meteor F.8 (Israel)">
                     <a href="/Meteor_F.8_(Israel)" title="Meteor F.8 (Israel)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Meteor&nbsp;F.8</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/meteor_fmk8_iaf.png"
-                      alt="meteor_fmk8_iaf.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="meteor_fmk8_iaf" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -299,26 +196,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="M.D.450B Ouragan (Israel)">
                     <a href="/M.D.450B_Ouragan_(Israel)" title="M.D.450B Ouragan (Israel)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">M.D.450B Ouragan</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/md_450b_ouragan_iaf.png"
-                      alt="md_450b_ouragan_iaf.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="md_450b_ouragan_iaf" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -332,26 +216,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Vautour IIA (Israel)">
                     <a href="/Vautour_IIA_(Israel)" title="Vautour IIA (Israel)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Vautour IIA</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/so_4050_vautour_2a_israel_iaf.png"
-                      alt="so_4050_vautour_2a_israel_iaf.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="so_4050_vautour_2a_israel_iaf" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -359,26 +230,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Vautour IIN (Israel)">
                     <a href="/Vautour_IIN_(Israel)" title="Vautour IIN (Israel)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Vautour IIN</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/so_4050_vautour_2n_iaf.png"
-                      alt="so_4050_vautour_2n_iaf.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="so_4050_vautour_2n_iaf" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -388,26 +246,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="F-84F (Israel)">
                     <a href="/F-84F_(Israel)" title="F-84F (Israel)">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">F-84F</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/f-84f_israel_iaf.png"
-                      alt="f-84f_israel_iaf.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="f-84f_israel_iaf" type="aircraft" />
                 </div>
                 <div
                   style={{
@@ -444,26 +289,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Mystere IVA (Israel)">
                     <a href="/Mystere_IVA_(Israel)" title="Mystere IVA (Israel)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Mystere IVA</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/md_454_mystere_4a_iaf.png"
-                      alt="md_454_mystere_4a_iaf.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="md_454_mystere_4a_iaf" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -471,26 +303,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Sambad">
                     <a href="/Sambad" title="Sambad">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Sambad</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/md_460_sambad.png"
-                      alt="md_460_sambad.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="md_460_sambad" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -498,26 +317,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Sa'ar">
                     <a href="/Sa%27ar" title="Sa'ar">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Sa&apos;ar</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/md_460_saar.png"
-                      alt="md_460_saar.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="md_460_saar" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -527,15 +333,7 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="A-4H (Israel)">
                     <a href="/A-4H_(Israel)" title="A-4H (Israel)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
@@ -551,26 +349,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="A-4E Early (M) (Israel)">
                     <a href="/A-4E_Early_(M)_(Israel)" title="A-4E Early (M) (Israel)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">A-4E Early (M)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/a_4e_early_iaf.png"
-                      alt="a_4e_early_iaf.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="a_4e_early_iaf" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -578,15 +363,7 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="A-4N (Israel)">
                     <a href="/A-4N_(Israel)" title="A-4N (Israel)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
@@ -619,26 +396,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="A-4E (Israel)">
                     <a href="/A-4E_(Israel)" title="A-4E (Israel)">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">A-4E</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/a_4e_late_iaf.png"
-                      alt="a_4e_late_iaf.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="a_4e_late_iaf" type="aircraft" />
                 </div>
                 <div
                   style={{
@@ -675,26 +439,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Mirage IIICJ">
                     <a href="/Mirage_IIICJ" title="Mirage IIICJ">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Mirage IIICJ</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/mirage_3cj.png"
-                      alt="mirage_3cj.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="mirage_3cj" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -702,26 +453,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Kfir C.7">
                     <a href="/Kfir_C.7" title="Kfir C.7">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Kfir C.7</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/kfir_c7.png"
-                      alt="kfir_c7.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="kfir_c7" type="aircraft" />
                 </div>
                 <div
                   style={{
@@ -736,26 +474,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="F-4E Phantom II (Israel)">
                     <a href="/F-4E_Phantom_II_(Israel)" title="F-4E Phantom II (Israel)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">F-4E Phantom II</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/f-4e_iaf.png"
-                      alt="f-4e_iaf.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="f-4e_iaf" type="aircraft" />
                 </div>
                 <div
                   style={{
@@ -770,26 +495,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Nesher">
                     <a href="/Nesher" title="Nesher">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Nesher</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/nesher.png"
-                      alt="nesher.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="nesher" type="aircraft" />
                 </div>
                 <div
                   style={{
@@ -804,26 +516,13 @@ export function IsraelAircraft() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Kfir C.2">
                     <a href="/Kfir_C.2" title="Kfir C.2">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Kfir C.2</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/kfir_c2.png"
-                      alt="kfir_c2.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="kfir_c2" type="aircraft" />
                 </div>
                 <div
                   style={{

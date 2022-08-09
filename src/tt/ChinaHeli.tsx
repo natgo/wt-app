@@ -1,4 +1,5 @@
 import { openfolder } from ".";
+import { Item_prem, TechTreeImg } from "../TechTree";
 
 export function ChinaHeli() {
   return (
@@ -52,26 +53,13 @@ export function ChinaHeli() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Z-19E">
                     <a href="/Z-19E" title="Z-19E">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Z-19E</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/z_19e.png"
-                      alt="z_19e.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="z_19e" type="helicopter" />
                 </div>
                 <div
                   style={{

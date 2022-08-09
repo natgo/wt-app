@@ -1,4 +1,5 @@
 import { openfolder } from ".";
+import { Item_own, TechTreeImg, Item_prem } from "../TechTree";
 
 export function JapanHeli() {
   return (
@@ -53,26 +54,13 @@ export function JapanHeli() {
                         <div className="tree-item">
                           <div className="tree-item-background" id="UH-1B (Japan)">
                             <a href="/UH-1B_(Japan)" title="UH-1B (Japan)">
-                              <img
-                                alt="Item own.png"
-                                src="/images/Item_own.png"
-                                className="tree-item-js"
-                                data-file-width={160}
-                                data-file-height={48}
-                                width={160}
-                                height={48}
-                              />
+                              <Item_own />
                             </a>
                           </div>
                           <div className="tree-item-text">
                             <span className="tree-item-text-scroll">▅UH-1B</span>
                           </div>
-                          <div className="tree-item-img">
-                            <img
-                              src="https://encyclopedia.warthunder.com/slots/uh_1b_japan.png"
-                              alt="uh_1b_japan.png"
-                            />
-                          </div>
+                          <TechTreeImg vehicle="uh_1b_japan" type="helicopter" />
                         </div>
                       </td>
                     </tr>
@@ -117,26 +105,13 @@ export function JapanHeli() {
                         <div className="tree-item">
                           <div className="tree-item-background" id="AH-1S early">
                             <a href="/AH-1S_early" title="AH-1S early">
-                              <img
-                                alt="Item own.png"
-                                src="/images/Item_own.png"
-                                className="tree-item-js"
-                                data-file-width={160}
-                                data-file-height={48}
-                                width={160}
-                                height={48}
-                              />
+                              <Item_own />
                             </a>
                           </div>
                           <div className="tree-item-text">
                             <span className="tree-item-text-scroll">AH-1S early</span>
                           </div>
-                          <div className="tree-item-img">
-                            <img
-                              src="https://encyclopedia.warthunder.com/slots/ah_1s_early.png"
-                              alt="ah_1s_early.png"
-                            />
-                          </div>
+                          <TechTreeImg vehicle="ah_1s_early" type="helicopter" />
                         </div>
                       </td>
                     </tr>
@@ -152,26 +127,13 @@ export function JapanHeli() {
                         <div className="tree-item">
                           <div className="tree-item-background" id="AH-1S">
                             <a href="/AH-1S" title="AH-1S">
-                              <img
-                                alt="Item own.png"
-                                src="/images/Item_own.png"
-                                className="tree-item-js"
-                                data-file-width={160}
-                                data-file-height={48}
-                                width={160}
-                                height={48}
-                              />
+                              <Item_own />
                             </a>
                           </div>
                           <div className="tree-item-text">
                             <span className="tree-item-text-scroll">AH-1S</span>
                           </div>
-                          <div className="tree-item-img">
-                            <img
-                              src="https://encyclopedia.warthunder.com/slots/ah_1s_late.png"
-                              alt="ah_1s_late.png"
-                            />
-                          </div>
+                          <TechTreeImg vehicle="ah_1s_late" type="helicopter" />
                         </div>
                       </td>
                     </tr>
@@ -189,26 +151,13 @@ export function JapanHeli() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="AH-1S Kisarazu">
                     <a href="/AH-1S_Kisarazu" title="AH-1S Kisarazu">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">AH-1S Kisarazu</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/ah_1s.png"
-                      alt="ah_1s.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="ah_1s" type="helicopter" />
                 </div>
               </td>
               <td />
@@ -241,26 +190,13 @@ export function JapanHeli() {
                         <div className="tree-item">
                           <div className="tree-item-background" id="AH-64DJP">
                             <a href="/AH-64DJP" title="AH-64DJP">
-                              <img
-                                alt="Item own.png"
-                                src="/images/Item_own.png"
-                                className="tree-item-js"
-                                data-file-width={160}
-                                data-file-height={48}
-                                width={160}
-                                height={48}
-                              />
+                              <Item_own />
                             </a>
                           </div>
                           <div className="tree-item-text">
                             <span className="tree-item-text-scroll">AH-64DJP</span>
                           </div>
-                          <div className="tree-item-img">
-                            <img
-                              src="https://encyclopedia.warthunder.com/slots/ah_64d_japan.png"
-                              alt="ah_64d_japan.png"
-                            />
-                          </div>
+                          <TechTreeImg vehicle="ah_64d_japan" type="helicopter" />
                         </div>
                       </td>
                     </tr>

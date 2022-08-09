@@ -1,4 +1,5 @@
 import { openfolder } from ".";
+import { Item_own, TechTreeImg, Item_prem } from "../TechTree";
 
 export function JapanGround() {
   return (
@@ -39,26 +40,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ha-Go">
                     <a href="/Ha-Go" title="Ha-Go">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ha-Go</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_95_ha_go.png"
-                      alt="jp_type_95_ha_go.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_95_ha_go" type="ground" />
                 </div>
                 <div
                   style={{
@@ -71,26 +59,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ke-Ni">
                     <a href="/Ke-Ni" title="Ke-Ni">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ke-Ni</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_98_ke_ni.png"
-                      alt="jp_type_98_ke_ni.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_98_ke_ni" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -98,26 +73,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ka-Mi">
                     <a href="/Ka-Mi" title="Ka-Mi">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ka-Mi</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_2_ka_mi.png"
-                      alt="jp_type_2_ka_mi.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_2_ka_mi" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -127,26 +89,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="I-Go Ko">
                     <a href="/I-Go_Ko" title="I-Go Ko">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">I-Go Ko</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_89b_i_go_otsu.png"
-                      alt="jp_type_89b_i_go_otsu.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_89b_i_go_otsu" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -154,26 +103,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Chi-Ha">
                     <a href="/Chi-Ha" title="Chi-Ha">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Chi-Ha</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_97_chi_ha.png"
-                      alt="jp_type_97_chi_ha.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_97_chi_ha" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -181,26 +117,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ho-I">
                     <a href="/Ho-I" title="Ho-I">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ho-I</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_2_ho_i.png"
-                      alt="jp_type_2_ho_i.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_2_ho_i" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -210,26 +133,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ho-Ro">
                     <a href="/Ho-Ro" title="Ho-Ro">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ho-Ro</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_4_ho_ro.png"
-                      alt="jp_type_4_ho_ro.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_4_ho_ro" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -237,26 +147,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ro-Go Exp.">
                     <a href="/Ro-Go_Exp." title="Ro-Go Exp.">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ro-Go Exp.</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_hiro_sha.png"
-                      alt="jp_hiro_sha.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_hiro_sha" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -270,26 +167,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Type 94">
                     <a href="/Type_94" title="Type 94">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Type 94</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_94.png"
-                      alt="jp_type_94.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_94" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -297,26 +181,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ta-Se">
                     <a href="/Ta-Se" title="Ta-Se">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ta-Se</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_98_ta_se.png"
-                      alt="jp_type_98_ta_se.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_98_ta_se" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -330,26 +201,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ha-Go Commander">
                     <a href="/Ha-Go_Commander" title="Ha-Go Commander">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ha-Go Commander</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_95_ha_go_commander.png"
-                      alt="jp_type_95_ha_go_commander.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_95_ha_go_commander" type="ground" />
                 </div>
                 <div
                   style={{
@@ -362,26 +220,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ro-Go">
                     <a href="/Ro-Go" title="Ro-Go">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ro-Go</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_95_heavy.png"
-                      alt="jp_type_95_heavy.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_95_heavy" type="ground" />
                 </div>
                 <div
                   style={{
@@ -396,26 +241,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Chi-Ha Kai TD">
                     <a href="/Chi-Ha_Kai_TD" title="Chi-Ha Kai TD">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Chi-Ha Kai TD</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_97_kai_td.png"
-                      alt="jp_type_97_kai_td.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_97_kai_td" type="ground" />
                 </div>
                 <div
                   style={{
@@ -428,26 +260,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ka-Chi">
                     <a href="/Ka-Chi" title="Ka-Chi">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ka-Chi</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_3_ka_chi.png"
-                      alt="jp_type_3_ka_chi.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_3_ka_chi" type="ground" />
                 </div>
               </td>
             </tr>
@@ -490,26 +309,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Chi-Ha Kai">
                     <a href="/Chi-Ha_Kai" title="Chi-Ha Kai">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Chi-Ha Kai</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_97_kai.png"
-                      alt="jp_type_97_kai.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_97_kai" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -517,26 +323,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Chi-He">
                     <a href="/Chi-He" title="Chi-He">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Chi-He</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_1_chi_he.png"
-                      alt="jp_type_1_chi_he.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_1_chi_he" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -544,26 +337,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Chi-Nu">
                     <a href="/Chi-Nu" title="Chi-Nu">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Chi-Nu</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_3_chi_nu.png"
-                      alt="jp_type_3_chi_nu.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_3_chi_nu" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -573,26 +353,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ho-Ni I">
                     <a href="/Ho-Ni_I" title="Ho-Ni I">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ho-Ni I</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_3_ho_ni_i.png"
-                      alt="jp_type_3_ho_ni_i.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_3_ho_ni_i" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -600,26 +367,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ho-Ni III">
                     <a href="/Ho-Ni_III" title="Ho-Ni III">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ho-Ni III</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_3_ho_ni_iii.png"
-                      alt="jp_type_3_ho_ni_iii.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_3_ho_ni_iii" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -627,26 +381,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Chi-Ha LG">
                     <a href="/Chi-Ha_LG" title="Chi-Ha LG">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Chi-Ha LG</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_navy_120mm_spg.png"
-                      alt="jp_navy_120mm_spg.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_navy_120mm_spg" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -656,26 +397,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="M16 MGMC (Japan)">
                     <a href="/M16_MGMC_(Japan)" title="M16 MGMC (Japan)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">▅M16 MGMC</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_halftrack_m16.png"
-                      alt="jp_halftrack_m16.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_halftrack_m16" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -683,26 +411,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="So-Ki">
                     <a href="/So-Ki" title="So-Ki">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">So-Ki</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_95_so_ki.png"
-                      alt="jp_type_95_so_ki.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_95_so_ki" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -716,26 +431,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Chi-Ha Short Gun">
                     <a href="/Chi-Ha_Short_Gun" title="Chi-Ha Short Gun">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Chi-Ha Short Gun</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_97_chi_ha_12cm.png"
-                      alt="jp_type_97_chi_ha_12cm.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_97_chi_ha_12cm" type="ground" />
                 </div>
                 <div
                   style={{
@@ -748,26 +450,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Chi-He (5th Regiment)">
                     <a href="/Chi-He_(5th_Regiment)" title="Chi-He (5th Regiment)">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Chi-He (5th Regiment)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_1_chi_he_5th_regiment.png"
-                      alt="jp_type_1_chi_he_5th_regiment.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_1_chi_he_5th_regiment" type="ground" />
                 </div>
                 <div
                   style={{
@@ -804,26 +493,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="M24 (Japan)">
                     <a href="/M24_(Japan)" title="M24 (Japan)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">▅M24</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_m24_chaffee.png"
-                      alt="jp_m24_chaffee.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_m24_chaffee" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -831,26 +507,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="M4A3 (76) W (Japan)">
                     <a href="/M4A3_(76)_W_(Japan)" title="M4A3 (76) W (Japan)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">▅M4A3 (76) W</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_m4a3e8_76w_sherman.png"
-                      alt="jp_m4a3e8_76w_sherman.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_m4a3e8_76w_sherman" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -864,26 +527,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Chi-To">
                     <a href="/Chi-To" title="Chi-To">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Chi-To</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_4_chi_to.png"
-                      alt="jp_type_4_chi_to.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_4_chi_to" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -891,26 +541,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Chi-To Late">
                     <a href="/Chi-To_Late" title="Chi-To Late">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Chi-To Late</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_4_chi_to_late.png"
-                      alt="jp_type_4_chi_to_late.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_4_chi_to_late" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -918,26 +555,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Chi-Ri II">
                     <a href="/Chi-Ri_II" title="Chi-Ri II">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Chi-Ri II</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_5_chi_ri.png"
-                      alt="jp_type_5_chi_ri.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_5_chi_ri" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -947,26 +571,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Na-To">
                     <a href="/Na-To" title="Na-To">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Na-To</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_5_na_to.png"
-                      alt="jp_type_5_na_to.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_5_na_to" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -984,26 +595,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="M19A1 (Japan)">
                     <a href="/M19A1_(Japan)" title="M19A1 (Japan)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">▅M19A1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_m19.png"
-                      alt="jp_m19.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_m19" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -1021,26 +619,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Chi-Nu II">
                     <a href="/Chi-Nu_II" title="Chi-Nu II">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Chi-Nu II</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_3_chi_nu_75cm_type_5.png"
-                      alt="jp_type_3_chi_nu_75cm_type_5.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_3_chi_nu_75cm_type_5" type="ground" />
                 </div>
                 <div
                   style={{
@@ -1053,26 +638,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Heavy Tank No.6 (Japan)">
                     <a href="/Heavy_Tank_No.6_(Japan)" title="Heavy Tank No.6 (Japan)">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">▅Heavy Tank No.6</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_pzkpfw_vi_ausf_e_tiger.png"
-                      alt="jp_pzkpfw_vi_ausf_e_tiger.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_pzkpfw_vi_ausf_e_tiger" type="ground" />
                 </div>
                 <div
                   style={{
@@ -1109,26 +681,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="M41A1 (Japan)">
                     <a href="/M41A1_(Japan)" title="M41A1 (Japan)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">▅M41A1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_m41_walker_bulldog.png"
-                      alt="jp_m41_walker_bulldog.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_m41_walker_bulldog" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1136,26 +695,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Type 60 SPRG (C)">
                     <a href="/Type_60_SPRG_(C)" title="Type 60 SPRG (C)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Type 60 SPRG (C)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_60_sprg.png"
-                      alt="jp_type_60_sprg.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_60_sprg" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -1174,26 +720,13 @@ export function JapanGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="ST-A1">
                         <a href="/ST-A1" title="ST-A1">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">ST-A1</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/jp_st_a1.png"
-                          alt="jp_st_a1.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="jp_st_a1" type="ground" />
                     </div>
                     <div className="tree-arrow">
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1201,26 +734,13 @@ export function JapanGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="ST-A2">
                         <a href="/ST-A2" title="ST-A2">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">ST-A2</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/jp_st_a2.png"
-                          alt="jp_st_a2.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="jp_st_a2" type="ground" />
                     </div>
                   </div>
                   <div
@@ -1246,26 +766,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Type 61">
                     <a href="/Type_61" title="Type 61">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Type 61</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_61.png"
-                      alt="jp_type_61.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_61" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1273,26 +780,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="ST-A3">
                     <a href="/ST-A3" title="ST-A3">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">ST-A3</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_st_a3.png"
-                      alt="jp_st_a3.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_st_a3" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1302,26 +796,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="M36B2 (Japan)">
                     <a href="/M36B2_(Japan)" title="M36B2 (Japan)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">▅M36B2</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_m36b2_jgsdf.png"
-                      alt="jp_m36b2_jgsdf.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_m36b2_jgsdf" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1329,26 +810,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Type 75 SPH">
                     <a href="/Type_75_SPH" title="Type 75 SPH">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Type 75 SPH</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_75.png"
-                      alt="jp_type_75.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_75" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -1362,26 +830,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="M42 (Japan)">
                     <a href="/M42_(Japan)" title="M42 (Japan)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">▅M42</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_m42_duster.png"
-                      alt="jp_m42_duster.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_m42_duster" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -1399,26 +854,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ho-Ri Prototype">
                     <a href="/Ho-Ri_Prototype" title="Ho-Ri Prototype">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ho-Ri Prototype</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_5_ho_ri_prototype.png"
-                      alt="jp_type_5_ho_ri_prototype.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_5_ho_ri_prototype" type="ground" />
                 </div>
                 <div
                   style={{
@@ -1455,26 +897,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Type 60 ATM">
                     <a href="/Type_60_ATM" title="Type 60 ATM">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Type 60 ATM</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_60_atm.png"
-                      alt="jp_type_60_atm.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_60_atm" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1482,26 +911,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Type 87 RCV">
                     <a href="/Type_87_RCV" title="Type 87 RCV">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Type 87 RCV</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_87_rcv.png"
-                      alt="jp_type_87_rcv.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_87_rcv" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -1515,26 +931,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="M47 (Japan)">
                     <a href="/M47_(Japan)" title="M47 (Japan)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">▅M47</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_m47_patton_ii.png"
-                      alt="jp_m47_patton_ii.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_m47_patton_ii" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1542,26 +945,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="STB-1">
                     <a href="/STB-1" title="STB-1">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">STB-1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_st_b1.png"
-                      alt="jp_st_b1.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_st_b1" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1569,26 +959,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Type 74 (C)">
                     <a href="/Type_74_(C)" title="Type 74 (C)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Type 74 (C)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_74_c.png"
-                      alt="jp_type_74_c.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_74_c" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1598,26 +975,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ho-Ri Production">
                     <a href="/Ho-Ri_Production" title="Ho-Ri Production">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ho-Ri Production</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_5_ho_ri_production.png"
-                      alt="jp_type_5_ho_ri_production.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_5_ho_ri_production" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -1650,26 +1014,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Type 75 MLRS">
                     <a href="/Type_75_MLRS" title="Type 75 MLRS">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Type 75 MLRS</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_75_mlrs.png"
-                      alt="jp_type_75_mlrs.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_75_mlrs" type="ground" />
                 </div>
                 <div
                   style={{
@@ -1706,52 +1057,26 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Type 89">
                     <a href="/Type_89" title="Type 89">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Type 89</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_89.png"
-                      alt="jp_type_89.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_89" type="ground" />
                 </div>
               </td>
               <td>
                 <div className="tree-item">
                   <div className="tree-item-background" id="Type 74 (E)">
                     <a href="/Type_74_(E)" title="Type 74 (E)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Type 74 (E)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_74.png"
-                      alt="jp_type_74.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_74" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1759,26 +1084,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Type 74 (F)">
                     <a href="/Type_74_(F)" title="Type 74 (F)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Type 74 (F)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_74_f.png"
-                      alt="jp_type_74_f.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_74_f" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1799,26 +1111,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Type 87">
                     <a href="/Type_87" title="Type 87">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Type 87</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_87.png"
-                      alt="jp_type_87.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_87" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -1832,26 +1131,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Type 74 (G)">
                     <a href="/Type_74_(G)" title="Type 74 (G)">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Type 74 (G)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_74_mod_g_kai.png"
-                      alt="jp_type_74_mod_g_kai.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_74_mod_g_kai" type="ground" />
                 </div>
               </td>
               <td />
@@ -1890,26 +1176,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Type 90">
                     <a href="/Type_90" title="Type 90">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Type 90</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_90.png"
-                      alt="jp_type_90.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_90" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1917,26 +1190,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Type 90 (B)">
                     <a href="/Type_90_(B)" title="Type 90 (B)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Type 90 (B)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_90b.png"
-                      alt="jp_type_90b.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_90b" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1944,26 +1204,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Type 10">
                     <a href="/Type_10" title="Type 10">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Type 10</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_10.png"
-                      alt="jp_type_10.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_10" type="ground" />
                 </div>
                 <div
                   style={{
@@ -1978,26 +1225,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Type 16">
                     <a href="/Type_16" title="Type 16">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Type 16</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_16.png"
-                      alt="jp_type_16.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_16" type="ground" />
                 </div>
                 <div
                   style={{
@@ -2012,26 +1246,13 @@ export function JapanGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Type 93">
                     <a href="/Type_93" title="Type 93">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Type 93</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/jp_type_93.png"
-                      alt="jp_type_93.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="jp_type_93" type="ground" />
                 </div>
                 <div
                   style={{

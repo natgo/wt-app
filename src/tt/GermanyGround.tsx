@@ -1,4 +1,5 @@
 import { openfolder } from ".";
+import { Item_own, Item_prem, Item_squad, TechTreeImg } from "../TechTree";
 
 export function GermanyGround() {
   return (
@@ -39,26 +40,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Sd.Kfz.221 (s.Pz.B.41)">
                     <a href="/Sd.Kfz.221_(s.Pz.B.41)" title="Sd.Kfz.221 (s.Pz.B.41)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Sd.Kfz.221 (s.Pz.B.41)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_sdkfz_221_s_pz_b_41.png"
-                      alt="germ_sdkfz_221_s_pz_b_41.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_sdkfz_221_s_pz_b_41" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -66,26 +54,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="15cm sIG 33 B Sfl">
                     <a href="/15cm_sIG_33_B_Sfl" title="15cm sIG 33 B Sfl">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">15cm sIG 33 B Sfl</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_sturmpanzer_ii.png"
-                      alt="germ_sturmpanzer_ii.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_sturmpanzer_ii" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -93,26 +68,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Panzerjager I">
                     <a href="/Panzerjager_I" title="Panzerjager I">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Panzerjäger I</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_panzerjager_1.png"
-                      alt="germ_panzerjager_1.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_panzerjager_1" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -131,26 +93,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Pz.III E">
                         <a href="/Pz.III_E" title="Pz.III E">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Pz.III E</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_e.png"
-                          alt="germ_pzkpfw_iii_ausf_e.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_pzkpfw_iii_ausf_e" type="ground" />
                     </div>
                     <div className="tree-arrow">
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -158,26 +107,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Pz.III B">
                         <a href="/Pz.III_B" title="Pz.III B">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Pz.III B</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_b.png"
-                          alt="germ_pzkpfw_iii_ausf_b.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_pzkpfw_iii_ausf_b" type="ground" />
                     </div>
                   </div>
                   <div
@@ -208,26 +144,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Pz.III F">
                         <a href="/Pz.III_F" title="Pz.III F">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Pz.III F</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_f.png"
-                          alt="germ_pzkpfw_iii_ausf_f.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_pzkpfw_iii_ausf_f" type="ground" />
                     </div>
                     <div className="tree-arrow">
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -235,26 +158,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Pz.III J">
                         <a href="/Pz.III_J" title="Pz.III J">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Pz.III J</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_j_l42.png"
-                          alt="germ_pzkpfw_iii_ausf_j_l42.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_pzkpfw_iii_ausf_j_l42" type="ground" />
                     </div>
                   </div>
                   <div
@@ -292,26 +202,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Pz.II C">
                         <a href="/Pz.II_C" title="Pz.II C">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Pz.II C</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_ii_ausf_c.png"
-                          alt="germ_pzkpfw_ii_ausf_c.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_pzkpfw_ii_ausf_c" type="ground" />
                     </div>
                     <div className="tree-arrow">
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -319,26 +216,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Pz.II F">
                         <a href="/Pz.II_F" title="Pz.II F">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Pz.II F</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_ii_ausf_f.png"
-                          alt="germ_pzkpfw_ii_ausf_f.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_pzkpfw_ii_ausf_f" type="ground" />
                     </div>
                   </div>
                   <div
@@ -364,26 +248,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Pz.IV C">
                     <a href="/Pz.IV_C" title="Pz.IV C">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Pz.IV C</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_iv_ausf_c.png"
-                      alt="germ_pzkpfw_iv_ausf_c.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_iv_ausf_c" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -391,52 +262,26 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Pz.IV E">
                     <a href="/Pz.IV_E" title="Pz.IV E">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Pz.IV E</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_iv_ausf_e.png"
-                      alt="germ_pzkpfw_iv_ausf_e.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_iv_ausf_e" type="ground" />
                 </div>
               </td>
               <td>
                 <div className="tree-item">
                   <div className="tree-item-background" id="Flakpanzer I">
                     <a href="/Flakpanzer_I" title="Flakpanzer I">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Flakpanzer I</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_flakpanzer_i_ausf_a.png"
-                      alt="germ_flakpanzer_i_ausf_a.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_flakpanzer_i_ausf_a" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -444,26 +289,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Flakpanzer 38">
                     <a href="/Flakpanzer_38" title="Flakpanzer 38">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Flakpanzer 38</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_flakpanzer_38t_gepard.png"
-                      alt="germ_flakpanzer_38t_gepard.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_flakpanzer_38t_gepard" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -481,26 +313,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Pz.35(t)">
                     <a href="/Pz.35(t)" title="Pz.35(t)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Pz.35(t)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_35t.png"
-                      alt="germ_pzkpfw_35t.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_35t" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -513,26 +332,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Pz.38(t) A">
                         <a href="/Pz.38(t)_A" title="Pz.38(t) A">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Pz.38(t) A</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_38t_ausf_a.png"
-                          alt="germ_pzkpfw_38t_ausf_a.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_pzkpfw_38t_ausf_a" type="ground" />
                     </div>
                     <div className="tree-arrow">
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -540,26 +346,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Pz.38(t) F">
                         <a href="/Pz.38(t)_F" title="Pz.38(t) F">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Pz.38(t) F</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_38t_ausf_f.png"
-                          alt="germ_pzkpfw_38t_ausf_f.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_pzkpfw_38t_ausf_f" type="ground" />
                     </div>
                   </div>
                   <div
@@ -585,26 +378,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="StuG III A">
                     <a href="/StuG_III_A" title="StuG III A">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">StuG III A</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_stug_iii_ausf_a.png"
-                      alt="germ_stug_iii_ausf_a.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_stug_iii_ausf_a" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -618,26 +398,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Pz.II C TD">
                     <a href="/Pz.II_C_TD" title="Pz.II C TD">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Pz.II C TD</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_ii_ausf_c_td.png"
-                      alt="germ_pzkpfw_ii_ausf_c_td.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_ii_ausf_c_td" type="ground" />
                 </div>
                 <div
                   style={{
@@ -650,26 +417,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Pz.II C (DAK)">
                     <a href="/Pz.II_C_(DAK)" title="Pz.II C (DAK)">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Pz.II C (DAK)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_ii_ausf_c_dak.png"
-                      alt="germ_pzkpfw_ii_ausf_c_dak.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_ii_ausf_c_dak" type="ground" />
                 </div>
                 <div
                   style={{
@@ -682,26 +436,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Sd.Kfz. 140/1">
                     <a href="/Sd.Kfz._140/1" title="Sd.Kfz. 140/1">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Sd.Kfz. 140/1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_38t_aufklarungspanzer.png"
-                      alt="germ_pzkpfw_38t_aufklarungspanzer.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_38t_aufklarungspanzer" type="ground" />
                 </div>
                 <div
                   style={{
@@ -714,26 +455,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Nb.Fz.">
                     <a href="/Nb.Fz." title="Nb.Fz.">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Nb.Fz.</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_nbfz_vi.png"
-                      alt="germ_nbfz_vi.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_nbfz_vi" type="ground" />
                 </div>
                 <div
                   style={{
@@ -748,26 +476,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Sd.Kfz.251/10">
                     <a href="/Sd.Kfz.251/10" title="Sd.Kfz.251/10">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Sd.Kfz.251/10</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_sdkfz_251_10.png"
-                      alt="germ_sdkfz_251_10.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_sdkfz_251_10" type="ground" />
                 </div>
                 <div
                   style={{
@@ -780,26 +495,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Sd.Kfz.234/1">
                     <a href="/Sd.Kfz.234/1" title="Sd.Kfz.234/1">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Sd.Kfz.234/1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_sdkfz_234_1.png"
-                      alt="germ_sdkfz_234_1.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_sdkfz_234_1" type="ground" />
                 </div>
                 <div
                   style={{
@@ -812,26 +514,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Sd.Kfz.234/3">
                     <a href="/Sd.Kfz.234/3" title="Sd.Kfz.234/3">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Sd.Kfz.234/3</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_sdkfz_234_3.png"
-                      alt="germ_sdkfz_234_3.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_sdkfz_234_3" type="ground" />
                 </div>
                 <div
                   style={{
@@ -867,26 +556,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Sd.Kfz.234/2">
                     <a href="/Sd.Kfz.234/2" title="Sd.Kfz.234/2">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Sd.Kfz.234/2</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_sdkfz_234_2.png"
-                      alt="germ_sdkfz_234_2.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_sdkfz_234_2" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -899,26 +575,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Marder III">
                         <a href="/Marder_III" title="Marder III">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Marder III</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_38t_marder_iii.png"
-                          alt="germ_pzkpfw_38t_marder_iii.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_pzkpfw_38t_marder_iii" type="ground" />
                     </div>
                     <div className="tree-arrow">
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -926,26 +589,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Marder III H">
                         <a href="/Marder_III_H" title="Marder III H">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Marder III H</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_38t_marder_iii_ausf_h.png"
-                          alt="germ_pzkpfw_38t_marder_iii_ausf_h.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_pzkpfw_38t_marder_iii_ausf_h" type="ground" />
                     </div>
                   </div>
                   <div
@@ -971,26 +621,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Dicker Max">
                     <a href="/Dicker_Max" title="Dicker Max">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Dicker Max</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzsfl_iva_dickermax.png"
-                      alt="germ_pzsfl_iva_dickermax.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzsfl_iva_dickermax" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -1004,26 +641,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Pz.III J1">
                     <a href="/Pz.III_J1" title="Pz.III J1">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Pz.III J1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_j.png"
-                      alt="germ_pzkpfw_iii_ausf_j.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_iii_ausf_j" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1036,26 +660,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Pz.III L">
                         <a href="/Pz.III_L" title="Pz.III L">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Pz.III L</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_l.png"
-                          alt="germ_pzkpfw_iii_ausf_l.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_pzkpfw_iii_ausf_l" type="ground" />
                     </div>
                     <div className="tree-arrow">
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1063,26 +674,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Pz.III M">
                         <a href="/Pz.III_M" title="Pz.III M">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Pz.III M</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_m.png"
-                          alt="germ_pzkpfw_iii_ausf_m.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_pzkpfw_iii_ausf_m" type="ground" />
                     </div>
                   </div>
                   <div
@@ -1115,26 +713,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Pz.IV F1">
                     <a href="/Pz.IV_F1" title="Pz.IV F1">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Pz.IV F1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_iv_ausf_f.png"
-                      alt="germ_pzkpfw_iv_ausf_f.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_iv_ausf_f" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1147,26 +732,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Pz.IV F2">
                         <a href="/Pz.IV_F2" title="Pz.IV F2">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Pz.IV F2</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_iv_ausf_f2.png"
-                          alt="germ_pzkpfw_iv_ausf_f2.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_pzkpfw_iv_ausf_f2" type="ground" />
                     </div>
                     <div className="tree-arrow">
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1174,26 +746,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Pz.IV G">
                         <a href="/Pz.IV_G" title="Pz.IV G">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Pz.IV G</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_iv_ausf_g.png"
-                          alt="germ_pzkpfw_iv_ausf_g.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_pzkpfw_iv_ausf_g" type="ground" />
                     </div>
                   </div>
                   <div
@@ -1224,26 +783,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Pz.IV H">
                         <a href="/Pz.IV_H" title="Pz.IV H">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Pz.IV H</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_iv_ausf_h.png"
-                          alt="germ_pzkpfw_iv_ausf_h.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_pzkpfw_iv_ausf_h" type="ground" />
                     </div>
                     <div className="tree-arrow">
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1251,26 +797,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Pz.IV J">
                         <a href="/Pz.IV_J" title="Pz.IV J">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Pz.IV J</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_iv_ausf_j.png"
-                          alt="germ_pzkpfw_iv_ausf_j.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_pzkpfw_iv_ausf_j" type="ground" />
                     </div>
                   </div>
                   <div
@@ -1295,26 +828,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Sd.Kfz. 6/2">
                     <a href="/Sd.Kfz._6/2" title="Sd.Kfz. 6/2">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Sd.Kfz. 6/2</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_sdkfz_6_2_flak36.png"
-                      alt="germ_sdkfz_6_2_flak36.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_sdkfz_6_2_flak36" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1322,26 +842,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Sd.Kfz.251/21">
                     <a href="/Sd.Kfz.251/21" title="Sd.Kfz.251/21">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Sd.Kfz.251/21</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_sdkfz_251_21.png"
-                      alt="germ_sdkfz_251_21.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_sdkfz_251_21" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -1359,26 +866,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="StuH 42 G">
                     <a href="/StuH_42_G" title="StuH 42 G">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">StuH 42 G</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_stuh_iii_ausf_g.png"
-                      alt="germ_stuh_iii_ausf_g.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_stuh_iii_ausf_g" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1386,26 +880,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="StuG III F">
                     <a href="/StuG_III_F" title="StuG III F">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">StuG III F</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_stug_iii_ausf_f.png"
-                      alt="germ_stug_iii_ausf_f.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_stug_iii_ausf_f" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1413,26 +894,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="StuG III G">
                     <a href="/StuG_III_G" title="StuG III G">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">StuG III G</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_stug_iii_ausf_g.png"
-                      alt="germ_stug_iii_ausf_g.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_stug_iii_ausf_g" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -1446,26 +914,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Pz.III J1 TD">
                     <a href="/Pz.III_J1_TD" title="Pz.III J1 TD">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Pz.III J1 TD</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_j_td.png"
-                      alt="germ_pzkpfw_iii_ausf_j_td.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_iii_ausf_j_td" type="ground" />
                 </div>
                 <div
                   style={{
@@ -1478,26 +933,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Pz.III N">
                     <a href="/Pz.III_N" title="Pz.III N">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Pz.III N</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_n.png"
-                      alt="germ_pzkpfw_iii_ausf_n.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_iii_ausf_n" type="ground" />
                 </div>
                 <div
                   style={{
@@ -1510,26 +952,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="15 cm Pz.W.42">
                     <a href="/15_cm_Pz.W.42" title="15 cm Pz.W.42">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">15 cm Pz.W.42</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_panzerwerfer_42.png"
-                      alt="germ_panzerwerfer_42.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_panzerwerfer_42" type="ground" />
                 </div>
                 <div
                   style={{
@@ -1542,26 +971,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="T 34 747 (r) (Germany)">
                     <a href="/T_34_747_(r)_(Germany)" title="T 34 747 (r) (Germany)">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">▀T 34 747 (r)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_t_34_747.png"
-                      alt="germ_t_34_747.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_t_34_747" type="ground" />
                 </div>
                 <div
                   style={{
@@ -1576,26 +992,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Sd.Kfz.234/2 TD">
                     <a href="/Sd.Kfz.234/2_TD" title="Sd.Kfz.234/2 TD">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Sd.Kfz.234/2 TD</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_sdkfz_234_2_td.png"
-                      alt="germ_sdkfz_234_2_td.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_sdkfz_234_2_td" type="ground" />
                 </div>
                 <div
                   style={{
@@ -1608,26 +1011,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Pz.Sfl.Ic">
                     <a href="/Pz.Sfl.Ic" title="Pz.Sfl.Ic">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Pz.Sfl.Ic</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_ii_ausf_h.png"
-                      alt="germ_pzkpfw_ii_ausf_h.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_ii_ausf_h" type="ground" />
                 </div>
                 <div
                   style={{
@@ -1640,26 +1030,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Sd.Kfz.251/22">
                     <a href="/Sd.Kfz.251/22" title="Sd.Kfz.251/22">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Sd.Kfz.251/22</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_sdkfz_251_22.png"
-                      alt="germ_sdkfz_251_22.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_sdkfz_251_22" type="ground" />
                 </div>
                 <div
                   style={{
@@ -1695,26 +1072,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="8,8 cm Flak 37 Sfl.">
                     <a href="/8,8_cm_Flak_37_Sfl." title="8,8 cm Flak 37 Sfl.">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">8,8 cm Flak 37 Sfl.</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_sdkfz_9_flak37.png"
-                      alt="germ_sdkfz_9_flak37.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_sdkfz_9_flak37" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1722,26 +1086,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Sturer Emil">
                     <a href="/Sturer_Emil" title="Sturer Emil">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Sturer Emil</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzsflk40_sturer_emil.png"
-                      alt="germ_pzsflk40_sturer_emil.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzsflk40_sturer_emil" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1749,26 +1100,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Nashorn">
                     <a href="/Nashorn" title="Nashorn">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Nashorn</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_panzerjager_nashorn.png"
-                      alt="germ_panzerjager_nashorn.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_panzerjager_nashorn" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -1794,26 +1132,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Tiger H1">
                     <a href="/Tiger_H1" title="Tiger H1">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Tiger H1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_vi_ausf_h1_tiger.png"
-                      alt="germ_pzkpfw_vi_ausf_h1_tiger.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_vi_ausf_h1_tiger" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1821,26 +1146,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Tiger E">
                     <a href="/Tiger_E" title="Tiger E">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Tiger E</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_vi_ausf_e_tiger.png"
-                      alt="germ_pzkpfw_vi_ausf_e_tiger.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_vi_ausf_e_tiger" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -1870,26 +1182,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Panther D">
                     <a href="/Panther_D" title="Panther D">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Panther D</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_v_ausf_d_panther.png"
-                      alt="germ_pzkpfw_v_ausf_d_panther.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_v_ausf_d_panther" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -1923,26 +1222,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Wirbelwind">
                     <a href="/Wirbelwind" title="Wirbelwind">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Wirbelwind</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_flakpanzer_iv_wirbelwind.png"
-                      alt="germ_flakpanzer_iv_wirbelwind.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_flakpanzer_iv_wirbelwind" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1950,26 +1236,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ostwind">
                     <a href="/Ostwind" title="Ostwind">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ostwind</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_flakpanzer_iv_ostwind.png"
-                      alt="germ_flakpanzer_iv_ostwind.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_flakpanzer_iv_ostwind" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -1999,26 +1272,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Jagdpanzer 38(t)">
                     <a href="/Jagdpanzer_38(t)" title="Jagdpanzer 38(t)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Jagdpanzer 38(t)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_jgdpz_38t.png"
-                      alt="germ_jgdpz_38t.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_jgdpz_38t" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -2026,26 +1286,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Jagdpanzer IV">
                     <a href="/Jagdpanzer_IV" title="Jagdpanzer IV">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Jagdpanzer IV</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_jgdpz_iv_l48.png"
-                      alt="germ_jgdpz_iv_l48.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_jgdpz_iv_l48" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -2053,26 +1300,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Panzer IV/70(V)">
                     <a href="/Panzer_IV/70(V)" title="Panzer IV/70(V)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Panzer IV/70(V)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pz_iv_l70.png"
-                      alt="germ_pz_iv_l70.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pz_iv_l70" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -2098,26 +1332,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="KW II 754 (r) (Germany)">
                     <a href="/KW_II_754_(r)_(Germany)" title="KW II 754 (r) (Germany)">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">▀KW II 754 (r)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_kv_2_754r.png"
-                      alt="germ_kv_2_754r.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_kv_2_754r" type="ground" />
                 </div>
                 <div
                   style={{
@@ -2130,26 +1351,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Pz.Bef.Wg.IV J">
                     <a href="/Pz.Bef.Wg.IV_J" title="Pz.Bef.Wg.IV J">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Pz.Bef.Wg.IV J</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_panzerbefelhswagen_iv_ausf_j.png"
-                      alt="germ_panzerbefelhswagen_iv_ausf_j.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_panzerbefelhswagen_iv_ausf_j" type="ground" />
                 </div>
                 <div
                   style={{
@@ -2162,26 +1370,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Pz.Kpfw. Churchill (Germany)">
                     <a href="/Pz.Kpfw._Churchill_(Germany)" title="Pz.Kpfw. Churchill (Germany)">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">▀Pz.Kpfw. Churchill</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_infanterie_kampfpanzer_churchill.png"
-                      alt="germ_infanterie_kampfpanzer_churchill.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_infanterie_kampfpanzer_churchill" type="ground" />
                 </div>
                 <div
                   style={{
@@ -2194,26 +1389,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Brummbar">
                     <a href="/Brummbar" title="Brummbar">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Brummbär</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_sturmpanzer_iv_brummbar.png"
-                      alt="germ_sturmpanzer_iv_brummbar.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_sturmpanzer_iv_brummbar" type="ground" />
                 </div>
                 <div
                   style={{
@@ -2226,26 +1408,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Panzer IV/70(A)">
                     <a href="/Panzer_IV/70(A)" title="Panzer IV/70(A)">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Panzer IV/70(A)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pz_iv_l70_a.png"
-                      alt="germ_pz_iv_l70_a.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pz_iv_l70_a" type="ground" />
                 </div>
                 <div
                   style={{
@@ -2258,26 +1427,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="KW I C 756 (r) (Germany)">
                     <a href="/KW_I_C_756_(r)_(Germany)" title="KW I C 756 (r) (Germany)">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">▀KW I C 756 (r)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_kv_1_kwk_40.png"
-                      alt="germ_kv_1_kwk_40.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_kv_1_kwk_40" type="ground" />
                 </div>
                 <div
                   style={{
@@ -2292,26 +1448,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Sd.Kfz.234/4">
                     <a href="/Sd.Kfz.234/4" title="Sd.Kfz.234/4">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Sd.Kfz.234/4</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_sdkfz_234_4.png"
-                      alt="germ_sdkfz_234_4.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_sdkfz_234_4" type="ground" />
                 </div>
                 <div
                   style={{
@@ -2324,26 +1467,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="M4 748 (a) (Germany)">
                     <a href="/M4_748_(a)_(Germany)" title="M4 748 (a) (Germany)">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">▀M4 748 (a)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/us_m4a2_1944_germ.png"
-                      alt="us_m4a2_1944_germ.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="us_m4a2_1944_germ" type="ground" />
                 </div>
                 <div
                   style={{
@@ -2356,26 +1486,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="KV-IB (Germany)">
                     <a href="/KV-IB_(Germany)" title="KV-IB (Germany)">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">▀KV-IB</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_kv_1b_finland.png"
-                      alt="germ_kv_1b_finland.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_kv_1b_finland" type="ground" />
                 </div>
                 <div
                   style={{
@@ -2388,26 +1505,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="VFW">
                     <a href="/VFW" title="VFW">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">VFW</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_vsw_flak_41.png"
-                      alt="germ_vsw_flak_41.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_vsw_flak_41" type="ground" />
                 </div>
                 <div
                   style={{
@@ -2420,26 +1524,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ersatz M10">
                     <a href="/Ersatz_M10" title="Ersatz M10">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ersatz M10</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_v_ersatz_m10.png"
-                      alt="germ_pzkpfw_v_ersatz_m10.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_v_ersatz_m10" type="ground" />
                 </div>
                 <div
                   style={{
@@ -2452,26 +1543,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Tiger (Germany)">
                     <a href="/Tiger_(Germany)" title="Tiger (Germany)">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">␠Tiger</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_vi_ausf_h1_tiger_animal_version.png"
-                      alt="germ_pzkpfw_vi_ausf_h1_tiger_animal_version.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_vi_ausf_h1_tiger_animal_version" type="ground" />
                 </div>
                 <div
                   style={{
@@ -2484,26 +1562,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="VK 45.01 (P)">
                     <a href="/VK_45.01_(P)" title="VK 45.01 (P)">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">VK 45.01 (P)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_vi_tiger_p.png"
-                      alt="germ_pzkpfw_vi_tiger_p.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_vi_tiger_p" type="ground" />
                 </div>
                 <div
                   style={{
@@ -2539,26 +1604,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Waffentrager">
                     <a href="/Waffentrager" title="Waffentrager">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Waffenträger</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_waffentrager_krupp_steyr.png"
-                      alt="germ_waffentrager_krupp_steyr.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_waffentrager_krupp_steyr" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -2566,26 +1618,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="LeKPz M41">
                     <a href="/LeKPz_M41" title="LeKPz M41">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">leKPz M41</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_le_kpz_m41.png"
-                      alt="germ_le_kpz_m41.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_le_kpz_m41" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -2603,26 +1642,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Tiger II (P)">
                     <a href="/Tiger_II_(P)" title="Tiger II (P)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Tiger II (P)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_vi_ausf_b_tiger_iip.png"
-                      alt="germ_pzkpfw_vi_ausf_b_tiger_iip.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_vi_ausf_b_tiger_iip" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -2630,26 +1656,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Tiger II (H)">
                     <a href="/Tiger_II_(H)" title="Tiger II (H)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Tiger II (H)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_vi_ausf_b_tiger_iih.png"
-                      alt="germ_pzkpfw_vi_ausf_b_tiger_iih.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_vi_ausf_b_tiger_iih" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -2672,26 +1685,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Panther A">
                         <a href="/Panther_A" title="Panther A">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Panther A</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_v_ausf_a_panther.png"
-                          alt="germ_pzkpfw_v_ausf_a_panther.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_pzkpfw_v_ausf_a_panther" type="ground" />
                     </div>
                     <div className="tree-arrow">
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -2699,26 +1699,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Panther F">
                         <a href="/Panther_F" title="Panther F">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Panther F</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_v_ausf_f_panther.png"
-                          alt="germ_pzkpfw_v_ausf_f_panther.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_pzkpfw_v_ausf_f_panther" type="ground" />
                     </div>
                   </div>
                   <div
@@ -2744,26 +1731,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Panther G">
                     <a href="/Panther_G" title="Panther G">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Panther G</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_v_ausf_g_panther.png"
-                      alt="germ_pzkpfw_v_ausf_g_panther.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_v_ausf_g_panther" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -2781,26 +1755,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ostwind II">
                     <a href="/Ostwind_II" title="Ostwind II">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ostwind II</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_flakpanzer_iv_ostwind_2.png"
-                      alt="germ_flakpanzer_iv_ostwind_2.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_flakpanzer_iv_ostwind_2" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -2822,26 +1783,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Jagdpanther">
                     <a href="/Jagdpanther" title="Jagdpanther">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Jagdpanther</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_panzerjager_panther.png"
-                      alt="germ_panzerjager_panther.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_panzerjager_panther" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -2849,26 +1797,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="JPz 4-5">
                     <a href="/JPz_4-5" title="JPz 4-5">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">JPz 4-5</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_kanonenjagdpanzer.png"
-                      alt="germ_kanonenjagdpanzer.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_kanonenjagdpanzer" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -2876,26 +1811,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ferdinand">
                     <a href="/Ferdinand" title="Ferdinand">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ferdinand</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_panzerjager_tiger_p_ferdinand.png"
-                      alt="germ_panzerjager_tiger_p_ferdinand.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_panzerjager_tiger_p_ferdinand" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -2909,26 +1831,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Pz.Bef.Wg.VI P">
                     <a href="/Pz.Bef.Wg.VI_P" title="Pz.Bef.Wg.VI P">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Pz.Bef.Wg.VI P</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_panzerbefelhswagen_vi_p.png"
-                      alt="germ_panzerbefelhswagen_vi_p.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_panzerbefelhswagen_vi_p" type="ground" />
                 </div>
                 <div
                   style={{
@@ -2941,26 +1850,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Bfw. Jagdpanther">
                     <a href="/Bfw._Jagdpanther" title="Bfw. Jagdpanther">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Bfw. Jagdpanther</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_panzerbefelhswagen_jagdpanther.png"
-                      alt="germ_panzerbefelhswagen_jagdpanther.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_panzerbefelhswagen_jagdpanther" type="ground" />
                 </div>
                 <div
                   style={{
@@ -2973,26 +1869,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Elefant">
                     <a href="/Elefant" title="Elefant">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Elefant</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_panzerjager_tiger_p_elefant.png"
-                      alt="germ_panzerjager_tiger_p_elefant.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_panzerjager_tiger_p_elefant" type="ground" />
                 </div>
                 <div
                   style={{
@@ -3005,26 +1888,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Panther II">
                     <a href="/Panther_II" title="Panther II">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Panther II</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_panther_ii.png"
-                      alt="germ_panther_ii.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_panther_ii" type="ground" />
                 </div>
                 <div
                   style={{
@@ -3039,26 +1909,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Tiger II (H) Sla.16">
                     <a href="/Tiger_II_(H)_Sla.16" title="Tiger II (H) Sla.16">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Tiger II (H) Sla.16</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_vi_ausf_b_tiger_iih_sla.png"
-                      alt="germ_pzkpfw_vi_ausf_b_tiger_iih_sla.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_vi_ausf_b_tiger_iih_sla" type="ground" />
                 </div>
                 <div
                   style={{
@@ -3071,26 +1928,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ru 251">
                     <a href="/Ru_251" title="Ru 251">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ru 251</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_ru251.png"
-                      alt="germ_ru251.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_ru251" type="ground" />
                 </div>
                 <div
                   style={{
@@ -3103,26 +1947,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Flakpanzer 341">
                     <a href="/Flakpanzer_341" title="Flakpanzer 341">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Flakpanzer 341</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_flakpanzer_v_coelian.png"
-                      alt="germ_flakpanzer_v_coelian.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_flakpanzer_v_coelian" type="ground" />
                 </div>
                 <div
                   style={{
@@ -3158,26 +1989,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Marder A1-">
                     <a href="/Marder_A1-" title="Marder A1-">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Marder A1-</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_marder_1a1.png"
-                      alt="germ_marder_1a1.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_marder_1a1" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -3185,26 +2003,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="SPz BMP-1">
                     <a href="/SPz_BMP-1" title="SPz BMP-1">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">SPz BMP-1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_bmp_1_ddr.png"
-                      alt="germ_bmp_1_ddr.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_bmp_1_ddr" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -3212,26 +2017,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Marder 1A3">
                     <a href="/Marder_1A3" title="Marder 1A3">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Marder 1A3</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_marder_1a3.png"
-                      alt="germ_marder_1a3.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_marder_1a3" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -3241,26 +2033,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="M48A2 C">
                     <a href="/M48A2_C" title="M48A2 C">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">M48A2 C</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_mkpz_m48a2c.png"
-                      alt="germ_mkpz_m48a2c.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_mkpz_m48a2c" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -3278,26 +2057,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Leopard I">
                     <a href="/Leopard_I" title="Leopard I">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Leopard I</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_leopard_i.png"
-                      alt="germ_leopard_i.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_leopard_i" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -3315,26 +2081,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Kugelblitz">
                     <a href="/Kugelblitz" title="Kugelblitz">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Kugelblitz</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_flakpanzer_iv_kugelblitz.png"
-                      alt="germ_flakpanzer_iv_kugelblitz.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_flakpanzer_iv_kugelblitz" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -3342,26 +2095,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Wiesel 1A4">
                     <a href="/Wiesel_1A4" title="Wiesel 1A4">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Wiesel 1A4</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_wiesel_1_mk20.png"
-                      alt="germ_wiesel_1_mk20.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_wiesel_1_mk20" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -3375,26 +2115,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Jagdtiger">
                     <a href="/Jagdtiger" title="Jagdtiger">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Jagdtiger</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_panzerjager_tiger.png"
-                      alt="germ_panzerjager_tiger.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_panzerjager_tiger" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -3402,26 +2129,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="DF105">
                     <a href="/DF105" title="DF105">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">DF105</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_marder_df_105.png"
-                      alt="germ_marder_df_105.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_marder_df_105" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -3429,26 +2143,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="RakJPz 2">
                     <a href="/RakJPz_2" title="RakJPz 2">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">RakJPz 2</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_raketenjagdpanzer_2.png"
-                      alt="germ_raketenjagdpanzer_2.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_raketenjagdpanzer_2" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -3458,26 +2159,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="MKPz M47 G">
                     <a href="/MKPz_M47_G" title="MKPz M47 G">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">mKPz M47 G</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_mkpz_m47.png"
-                      alt="germ_mkpz_m47.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_mkpz_m47" type="ground" />
                 </div>
                 <div
                   style={{
@@ -3490,26 +2178,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Turm III">
                     <a href="/Turm_III" title="Turm III">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Turm III</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_erprobungstrager_3_achs_turm.png"
-                      alt="germ_erprobungstrager_3_achs_turm.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_erprobungstrager_3_achs_turm" type="ground" />
                 </div>
                 <div
                   style={{
@@ -3524,26 +2199,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Tiger II (10.5 cm Kw.K)">
                     <a href="/Tiger_II_(10.5_cm_Kw.K)" title="Tiger II (10.5 cm Kw.K)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Tiger II (10.5 cm Kw.K)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_vi_ausf_b_tiger_iih_kwk46.png"
-                      alt="germ_pzkpfw_vi_ausf_b_tiger_iih_kwk46.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_vi_ausf_b_tiger_iih_kwk46" type="ground" />
                 </div>
                 <div
                   style={{
@@ -3556,26 +2218,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="E-100">
                     <a href="/E-100" title="E-100">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">E-100</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_e_100.png"
-                      alt="germ_pzkpfw_e_100.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_e_100" type="ground" />
                 </div>
                 <div
                   style={{
@@ -3588,26 +2237,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Maus">
                     <a href="/Maus" title="Maus">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Maus</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_maus.png"
-                      alt="germ_pzkpfw_maus.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_pzkpfw_maus" type="ground" />
                 </div>
                 <div
                   style={{
@@ -3643,26 +2279,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="TAM">
                     <a href="/TAM" title="TAM">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">TAM</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_thyssen_henschel_tam.png"
-                      alt="germ_thyssen_henschel_tam.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_thyssen_henschel_tam" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -3670,26 +2293,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="PUMA">
                     <a href="/PUMA" title="PUMA">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">PUMA</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_schutzenpanzer_puma.png"
-                      alt="germ_schutzenpanzer_puma.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_schutzenpanzer_puma" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -3697,26 +2307,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Begleitpanzer 57">
                     <a href="/Begleitpanzer_57" title="Begleitpanzer 57">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Begleitpanzer 57</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_begleitpanzer_57.png"
-                      alt="germ_begleitpanzer_57.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_begleitpanzer_57" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -3724,26 +2321,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Radkampfwagen 90">
                     <a href="/Radkampfwagen_90" title="Radkampfwagen 90">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Radkampfwagen 90</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_radpanzer_90.png"
-                      alt="germ_radpanzer_90.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_radpanzer_90" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -3753,26 +2337,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="M48A2 G A2">
                     <a href="/M48A2_G_A2" title="M48A2 G A2">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">M48A2 G A2</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_mkpz_m48a2ga2.png"
-                      alt="germ_mkpz_m48a2ga2.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_mkpz_m48a2ga2" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -3780,26 +2351,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="M48 Super">
                     <a href="/M48_Super" title="M48 Super">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">M48 Super</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_mkpz_super_m48.png"
-                      alt="germ_mkpz_super_m48.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_mkpz_super_m48" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -3807,26 +2365,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="KPz-70">
                     <a href="/KPz-70" title="KPz-70">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">KPz-70</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_kpz_70.png"
-                      alt="germ_kpz_70.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_kpz_70" type="ground" />
                 </div>
               </td>
               <td>
@@ -3838,26 +2383,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Leopard A1A1">
                         <a href="/Leopard_A1A1" title="Leopard A1A1">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Leopard A1A1</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_leopard_i_a1.png"
-                          alt="germ_leopard_i_a1.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_leopard_i_a1" type="ground" />
                     </div>
                     <div className="tree-arrow">
                       <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -3865,26 +2397,13 @@ export function GermanyGround() {
                     <div className="tree-item">
                       <div className="tree-item-background" id="Leopard 1A5">
                         <a href="/Leopard_1A5" title="Leopard 1A5">
-                          <img
-                            alt="Item own.png"
-                            src="/images/Item_own.png"
-                            className="tree-item-js"
-                            data-file-width={160}
-                            data-file-height={48}
-                            width={160}
-                            height={48}
-                          />
+                          <Item_own />
                         </a>
                       </div>
                       <div className="tree-item-text">
                         <span className="tree-item-text-scroll">Leopard 1A5</span>
                       </div>
-                      <div className="tree-item-img">
-                        <img
-                          src="https://encyclopedia.warthunder.com/slots/germ_leopard_1a5.png"
-                          alt="germ_leopard_1a5.png"
-                        />
-                      </div>
+                      <TechTreeImg vehicle="germ_leopard_1a5" type="ground" />
                     </div>
                   </div>
                   <div
@@ -3910,26 +2429,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Leopard 2K">
                     <a href="/Leopard_2K" title="Leopard 2K">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Leopard 2K</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_leopard_2k.png"
-                      alt="germ_leopard_2k.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_leopard_2k" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -3937,26 +2443,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Leopard 2A4">
                     <a href="/Leopard_2A4" title="Leopard 2A4">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Leopard 2A4</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_leopard_2a4.png"
-                      alt="germ_leopard_2a4.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_leopard_2a4" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -3970,26 +2463,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Gepard">
                     <a href="/Gepard" title="Gepard">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Gepard</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_flakpz_i_gepard.png"
-                      alt="germ_flakpz_i_gepard.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_flakpz_i_gepard" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -3997,26 +2477,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Ozelot">
                     <a href="/Ozelot" title="Ozelot">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ozelot</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_wiesel_2_adwc.png"
-                      alt="germ_wiesel_2_adwc.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_wiesel_2_adwc" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -4034,26 +2501,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="RakJPz 2 (HOT)">
                     <a href="/RakJPz_2_(HOT)" title="RakJPz 2 (HOT)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">RakJPz 2 (HOT)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_raketenjagdpanzer_2_hot.png"
-                      alt="germ_raketenjagdpanzer_2_hot.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_raketenjagdpanzer_2_hot" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -4061,26 +2515,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="JaPz.K A2">
                     <a href="/JaPz.K_A2" title="JaPz.K A2">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">JaPz.K A2</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_sk105_a2.png"
-                      alt="germ_sk105_a2.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_sk105_a2" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -4088,52 +2529,26 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Wiesel 1A2">
                     <a href="/Wiesel_1A2" title="Wiesel 1A2">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Wiesel 1A2</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_wiesel_1_tow.png"
-                      alt="germ_wiesel_1_tow.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_wiesel_1_tow" type="ground" />
                 </div>
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <div className="tree-item">
                   <div className="tree-item-background" id="TAM 2IP">
                     <a href="/TAM_2IP" title="TAM 2IP">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">TAM 2IP</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_thyssen_henschel_tam_2ip.png"
-                      alt="germ_thyssen_henschel_tam_2ip.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_thyssen_henschel_tam_2ip" type="ground" />
                 </div>
                 <div
                   style={{
@@ -4146,26 +2561,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Leopard A1A1 (L/44)">
                     <a href="/Leopard_A1A1_(L/44)" title="Leopard A1A1 (L/44)">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Leopard A1A1 (L/44)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_leopard_a1a1_120.png"
-                      alt="germ_leopard_a1a1_120.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_leopard_a1a1_120" type="ground" />
                 </div>
                 <div
                   style={{
@@ -4178,26 +2580,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Leopard 2 (PzBtl 123)">
                     <a href="/Leopard_2_(PzBtl_123)" title="Leopard 2 (PzBtl 123)">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Leopard 2 (PzBtl 123)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_leopard_2a4_pzbtl_123.png"
-                      alt="germ_leopard_2a4_pzbtl_123.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_leopard_2a4_pzbtl_123" type="ground" />
                 </div>
                 <div
                   style={{
@@ -4212,26 +2601,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="VT1-2">
                     <a href="/VT1-2" title="VT1-2">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">VT1-2</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_vt_1_2.png"
-                      alt="germ_vt_1_2.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_vt_1_2" type="ground" />
                 </div>
                 <div
                   style={{
@@ -4244,26 +2620,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Class 3 (P)">
                     <a href="/Class_3_(P)" title="Class 3 (P)">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Class 3 (P)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_th_800_bismark.png"
-                      alt="germ_th_800_bismark.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_th_800_bismark" type="ground" />
                 </div>
                 <div
                   style={{
@@ -4276,26 +2639,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="C2A1">
                     <a href="/C2A1" title="C2A1">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">C2A1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_leopard_c2_mexas.png"
-                      alt="germ_leopard_c2_mexas.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_leopard_c2_mexas" type="ground" />
                 </div>
                 <div
                   style={{
@@ -4308,26 +2658,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="PT-16/T14 mod.">
                     <a href="/PT-16/T14_mod." title="PT-16/T14 mod.">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">PT-16/T14 mod.</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_leopard_2_pt14.png"
-                      alt="germ_leopard_2_pt14.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_leopard_2_pt14" type="ground" />
                 </div>
               </td>
             </tr>
@@ -4355,26 +2692,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="TAM 2C">
                     <a href="/TAM_2C" title="TAM 2C">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">TAM 2C</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_thyssen_henschel_tam_2c.png"
-                      alt="germ_thyssen_henschel_tam_2c.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_thyssen_henschel_tam_2c" type="ground" />
                 </div>
                 <div
                   style={{
@@ -4399,26 +2723,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Leopard 2A5">
                     <a href="/Leopard_2A5" title="Leopard 2A5">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Leopard 2A5</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_leopard_2a5.png"
-                      alt="germ_leopard_2a5.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_leopard_2a5" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -4426,26 +2737,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Leopard 2A6">
                     <a href="/Leopard_2A6" title="Leopard 2A6">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Leopard 2A6</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_leopard_2a6.png"
-                      alt="germ_leopard_2a6.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_leopard_2a6" type="ground" />
                 </div>
                 <div
                   style={{
@@ -4460,26 +2758,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="FlaRakPz 1">
                     <a href="/FlaRakPz_1" title="FlaRakPz 1">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">FlaRakPz 1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_flarakpz_1.png"
-                      alt="germ_flarakpz_1.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_flarakpz_1" type="ground" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -4487,26 +2772,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="FlaRakRad">
                     <a href="/FlaRakRad" title="FlaRakRad">
-                      <img
-                        alt="Item own.png"
-                        src="/images/Item_own.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_own />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">FlaRakRad</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_flarakrad.png"
-                      alt="germ_flarakrad.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_flarakrad" type="ground" />
                 </div>
                 <div
                   style={{
@@ -4531,26 +2803,13 @@ export function GermanyGround() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="Leopard 2 PL">
                     <a href="/Leopard_2_PL" title="Leopard 2 PL">
-                      <img
-                        alt="Item squad.png"
-                        src="/images/Item_squad.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_squad />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Leopard 2 PL</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/germ_leopard_2pl.png"
-                      alt="germ_leopard_2pl.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="germ_leopard_2pl" type="ground" />
                 </div>
                 <div
                   style={{

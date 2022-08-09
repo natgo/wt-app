@@ -1,3 +1,5 @@
+import { Item_own, Item_prem, TechTreeImg } from "../TechTree";
+
 export function BritainHeli() {
   return (
     <div className="mw-parser-output">
@@ -51,26 +53,13 @@ export function BritainHeli() {
                         <div className="tree-item">
                           <div className="tree-item-background" id="Scout AH.Mk.1">
                             <a href="/Scout_AH.Mk.1" title="Scout AH.Mk.1">
-                              <img
-                                alt="Item own.png"
-                                src="/images/Item_own.png"
-                                className="tree-item-js"
-                                data-file-width={160}
-                                data-file-height={48}
-                                width={160}
-                                height={48}
-                              />
+                              <Item_own />
                             </a>
                           </div>
                           <div className="tree-item-text">
                             <span className="tree-item-text-scroll">Scout AH.Mk.1</span>
                           </div>
-                          <div className="tree-item-img">
-                            <img
-                              src="https://encyclopedia.warthunder.com/slots/scout_ah_mk1.png"
-                              alt="scout_ah_mk1.png"
-                            />
-                          </div>
+                          <TechTreeImg vehicle="scout_ah_mk1" type="helicopter" />
                         </div>
                       </td>
                     </tr>
@@ -86,26 +75,13 @@ export function BritainHeli() {
                         <div className="tree-item">
                           <div className="tree-item-background" id="Wasp HAS.Mk.1">
                             <a href="/Wasp_HAS.Mk.1" title="Wasp HAS.Mk.1">
-                              <img
-                                alt="Item own.png"
-                                src="/images/Item_own.png"
-                                className="tree-item-js"
-                                data-file-width={160}
-                                data-file-height={48}
-                                width={160}
-                                height={48}
-                              />
+                              <Item_own />
                             </a>
                           </div>
                           <div className="tree-item-text">
                             <span className="tree-item-text-scroll">Wasp HAS.Mk.1</span>
                           </div>
-                          <div className="tree-item-img">
-                            <img
-                              src="https://encyclopedia.warthunder.com/slots/wasp_has_mk1.png"
-                              alt="wasp_has_mk1.png"
-                            />
-                          </div>
+                          <TechTreeImg vehicle="wasp_has_mk1" type="helicopter" />
                         </div>
                       </td>
                     </tr>
@@ -150,26 +126,13 @@ export function BritainHeli() {
                         <div className="tree-item">
                           <div className="tree-item-background" id="Lynx AH.Mk.1">
                             <a href="/Lynx_AH.Mk.1" title="Lynx AH.Mk.1">
-                              <img
-                                alt="Item own.png"
-                                src="/images/Item_own.png"
-                                className="tree-item-js"
-                                data-file-width={160}
-                                data-file-height={48}
-                                width={160}
-                                height={48}
-                              />
+                              <Item_own />
                             </a>
                           </div>
                           <div className="tree-item-text">
                             <span className="tree-item-text-scroll">Lynx AH.Mk.1</span>
                           </div>
-                          <div className="tree-item-img">
-                            <img
-                              src="https://encyclopedia.warthunder.com/slots/lynx_ah_mk1.png"
-                              alt="lynx_ah_mk1.png"
-                            />
-                          </div>
+                          <TechTreeImg vehicle="lynx_ah_mk1" type="helicopter" />
                         </div>
                       </td>
                     </tr>
@@ -187,26 +150,13 @@ export function BritainHeli() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="G-LYNX">
                     <a href="/G-LYNX" title="G-LYNX">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">G-LYNX</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/g_lynx.png"
-                      alt="g_lynx.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="g_lynx" type="helicopter" />
                 </div>
               </td>
               <td />
@@ -239,26 +189,13 @@ export function BritainHeli() {
                         <div className="tree-item">
                           <div className="tree-item-background" id="AH Mk.1 Apache">
                             <a href="/AH_Mk.1_Apache" title="AH Mk.1 Apache">
-                              <img
-                                alt="Item own.png"
-                                src="/images/Item_own.png"
-                                className="tree-item-js"
-                                data-file-width={160}
-                                data-file-height={48}
-                                width={160}
-                                height={48}
-                              />
+                              <Item_own />
                             </a>
                           </div>
                           <div className="tree-item-text">
                             <span className="tree-item-text-scroll">AH Mk.1 Apache</span>
                           </div>
-                          <div className="tree-item-img">
-                            <img
-                              src="https://encyclopedia.warthunder.com/slots/ah_mk1.png"
-                              alt="ah_mk1.png"
-                            />
-                          </div>
+                          <TechTreeImg vehicle="ah_mk1" type="helicopter" />
                         </div>
                       </td>
                     </tr>

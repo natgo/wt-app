@@ -1,4 +1,5 @@
 import { openfolder } from ".";
+import { Item_own, TechTreeImg, Item_prem } from "../TechTree";
 
 export function ItalyHeli() {
   return (
@@ -53,26 +54,13 @@ export function ItalyHeli() {
                         <div className="tree-item">
                           <div className="tree-item-background" id="AB 205 A-1">
                             <a href="/AB_205_A-1" title="AB 205 A-1">
-                              <img
-                                alt="Item own.png"
-                                src="/images/Item_own.png"
-                                className="tree-item-js"
-                                data-file-width={160}
-                                data-file-height={48}
-                                width={160}
-                                height={48}
-                              />
+                              <Item_own />
                             </a>
                           </div>
                           <div className="tree-item-text">
                             <span className="tree-item-text-scroll">AB 205 A-1</span>
                           </div>
-                          <div className="tree-item-img">
-                            <img
-                              src="https://encyclopedia.warthunder.com/slots/ab_205a_1.png"
-                              alt="ab_205a_1.png"
-                            />
-                          </div>
+                          <TechTreeImg vehicle="ab_205a_1" type="helicopter" />
                         </div>
                       </td>
                     </tr>
@@ -117,26 +105,13 @@ export function ItalyHeli() {
                         <div className="tree-item">
                           <div className="tree-item-background" id="A.109EOA-2">
                             <a href="/A.109EOA-2" title="A.109EOA-2">
-                              <img
-                                alt="Item own.png"
-                                src="/images/Item_own.png"
-                                className="tree-item-js"
-                                data-file-width={160}
-                                data-file-height={48}
-                                width={160}
-                                height={48}
-                              />
+                              <Item_own />
                             </a>
                           </div>
                           <div className="tree-item-text">
                             <span className="tree-item-text-scroll">A.109EOA-2</span>
                           </div>
-                          <div className="tree-item-img">
-                            <img
-                              src="https://encyclopedia.warthunder.com/slots/a_109_eoa2.png"
-                              alt="a_109_eoa2.png"
-                            />
-                          </div>
+                          <TechTreeImg vehicle="a_109_eoa2" type="helicopter" />
                         </div>
                       </td>
                     </tr>
@@ -154,26 +129,13 @@ export function ItalyHeli() {
                 <div className="tree-item">
                   <div className="tree-item-background" id="A-129 International (p)">
                     <a href="/A-129_International_(p)" title="A-129 International (p)">
-                      <img
-                        alt="Item prem.png"
-                        src="/images/Item_prem.png"
-                        className="tree-item-js"
-                        data-file-width={160}
-                        data-file-height={48}
-                        width={160}
-                        height={48}
-                      />
+                      <Item_prem />
                     </a>
                   </div>
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">A-129 International (p)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img
-                      src="https://encyclopedia.warthunder.com/slots/a_129_a.png"
-                      alt="a_129_a.png"
-                    />
-                  </div>
+                  <TechTreeImg vehicle="a_129_a" type="helicopter" />
                 </div>
               </td>
               <td />
@@ -206,26 +168,13 @@ export function ItalyHeli() {
                         <div className="tree-item">
                           <div className="tree-item-background" id="A129CBT">
                             <a href="/A129CBT" title="A129CBT">
-                              <img
-                                alt="Item own.png"
-                                src="/images/Item_own.png"
-                                className="tree-item-js"
-                                data-file-width={160}
-                                data-file-height={48}
-                                width={160}
-                                height={48}
-                              />
+                              <Item_own />
                             </a>
                           </div>
                           <div className="tree-item-text">
                             <span className="tree-item-text-scroll">A129CBT</span>
                           </div>
-                          <div className="tree-item-img">
-                            <img
-                              src="https://encyclopedia.warthunder.com/slots/a_129_cbt.png"
-                              alt="a_129_cbt.png"
-                            />
-                          </div>
+                          <TechTreeImg vehicle="a_129_cbt" type="helicopter" />
                         </div>
                       </td>
                     </tr>
