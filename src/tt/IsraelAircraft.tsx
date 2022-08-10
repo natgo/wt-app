@@ -339,9 +339,7 @@ export function IsraelAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">A-4H</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/a_4h.png" alt="a_4h.png" />
-                  </div>
+                  <TechTreeImg vehicle="a_4h" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -369,9 +367,7 @@ export function IsraelAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">A-4N</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/a_4n.png" alt="a_4n.png" />
-                  </div>
+                  <TechTreeImg vehicle="a_4n" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />

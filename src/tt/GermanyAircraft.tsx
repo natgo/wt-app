@@ -3429,9 +3429,7 @@ export function GermanyAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">F-4F Early</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/f-4f.png" alt="f-4f.png" />
-                  </div>
+                  <TechTreeImg vehicle="f-4f" type="aircraft" />
                 </div>
                 <div
                   style={{

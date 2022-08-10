@@ -9,6 +9,8 @@ import light_tank from "./img/def_light_tank_radar.svg";
 import medium_tank from "./img/def_medium_tank_radar.svg";
 import spaa from "./img/def_spaa_radar.svg";
 import tank_destroyer from "./img/def_tank_destroyer_radar.svg";
+import attack_helicopter from "./img/def_attack_helicopter_radar.svg";
+import utility_helicopter from "./img/def_utility_helicopter_radar.svg";
 
 import { useRecoilValue } from "recoil";
 import { Final } from "./atom";
@@ -58,11 +60,13 @@ export function Item_squad(): JSX.Element {
 export function TechTreeImg(props: { vehicle: string,type: string }): JSX.Element {
   const { vehicle, type } = props;
   const FinalValue = useRecoilValue(Final);
-  let fig_src = tank_destroyer;
+  let fig_src = attack_helicopter;
+  let br = "-1.0";
   if (type === "aircraft") {
     const fig = FinalValue.aircraft.find((curval)=>{
       return curval.intname === vehicle;
     });
+    br = fig?.rb_br;
     switch (fig?.normal_type) {
       case "type_fighter":
         fig_src = fighter;
@@ -76,9 +80,11 @@ export function TechTreeImg(props: { vehicle: string,type: string }): JSX.Elemen
     }
   }
   if (type === "ground") {
+    console.log(vehicle);
     const fig = FinalValue.ground.find((curval)=>{
-      return curval.intname === vehicle;
+      return curval.intname.toLowerCase() === vehicle;
     });
+    br = fig?.rb_br;
     switch (fig?.normal_type) {
       case "type_light_tank":
         fig_src=light_tank;
@@ -98,24 +104,26 @@ export function TechTreeImg(props: { vehicle: string,type: string }): JSX.Elemen
     }
   }
   if (type === "helicopter") {
-    const fig = FinalValue.helicopter.find((curval)=>{
+    const match = FinalValue.helicopter.find((curval)=>{
       return curval.intname === vehicle;
     });
-    switch (fig?.normal_type) {
+    br = fig?.rb_br;
+    switch (match?.normal_type) {
       case "type_utility_helicopter":
-        fig_src = fighter;
+        fig_src = utility_helicopter;
         break;
       case "type_attack_helicopter":
-        fig_src=bomber;
+        fig_src=attack_helicopter;
         break;
     }
   }
   return (
     <div className="tree-item-img">
+      
       <img
         src={`https://encyclopedia.warthunder.com/slots/${vehicle}.png`}
         alt={`${vehicle}.png`}
-      />
+      /><div className="br">{br}</div>
       <img src={fig_src} className="class" />
     </div>
   );

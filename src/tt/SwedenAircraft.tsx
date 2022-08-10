@@ -65,9 +65,7 @@ export function SwedenAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">J6B</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/j6b.png" alt="j6b.png" />
-                  </div>
+                  <TechTreeImg vehicle="j6b" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />

@@ -1108,9 +1108,7 @@ export function ItalyAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">G.56</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/g_56.png" alt="g_56.png" />
-                  </div>
+                  <TechTreeImg vehicle="g_56" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />

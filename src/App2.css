@@ -606,8 +606,18 @@ img.tree-item-js {
   margin: 5px;
   pointer-events: none;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 4fr 1fr auto;
+  grid-template-areas:
+  "a d d"
+  "a d d"
+  "a b c";
   width: 155px;
+}
+
+.tree-item-img .br {
+  justify-self: end;
+  align-self: end;
+  color: #ccc;
 }
 
 .tree-item-img img {
@@ -615,7 +625,8 @@ img.tree-item-js {
 }
 
 .tree-item-img img.class {
-  height: 16px;
+  width: 20px;
+  height: auto;
   justify-self: end;
   align-self: end;
 }

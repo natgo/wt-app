@@ -959,9 +959,7 @@ export function BritainAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">▄DB-7</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/db_7.png" alt="db_7.png" />
-                  </div>
+                  <TechTreeImg vehicle="db_7" type="aircraft" />
                 </div>
                 <div
                   style={{
@@ -1930,9 +1928,7 @@ export function BritainAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">MB.5</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/mb_5.png" alt="mb_5.png" />
-                  </div>
+                  <TechTreeImg vehicle="mb_5" type="aircraft" />
                 </div>
                 <div
                   style={{
@@ -2655,9 +2651,7 @@ export function BritainAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Phantom FG.1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/f-4k.png" alt="f-4k.png" />
-                  </div>
+                  <TechTreeImg vehicle="f-4k" type="aircraft" />
                 </div>
                 <div
                   style={{

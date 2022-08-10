@@ -342,9 +342,7 @@ export function ChinaAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">P-66</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/p-66.png" alt="p-66.png" />
-                  </div>
+                  <TechTreeImg vehicle="p-66" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1157,9 +1155,7 @@ export function ChinaAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Q-5A</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/q_5a.png" alt="q_5a.png" />
-                  </div>
+                  <TechTreeImg vehicle="q_5a" type="aircraft" />
                 </div>
               </td>
               <td />
@@ -1173,9 +1169,7 @@ export function ChinaAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">A-5C</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/a_5c.png" alt="a_5c.png" />
-                  </div>
+                  <TechTreeImg vehicle="a_5c" type="aircraft" />
                 </div>
               </td>
               <td />
@@ -1259,9 +1253,7 @@ export function ChinaAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">J-7E</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/j_7e.png" alt="j_7e.png" />
-                  </div>
+                  <TechTreeImg vehicle="j_7e" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1275,9 +1267,7 @@ export function ChinaAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">J-8B</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/j_8b.png" alt="j_8b.png" />
-                  </div>
+                  <TechTreeImg vehicle="j_8b" type="aircraft" />
                 </div>
                 <div
                   style={{

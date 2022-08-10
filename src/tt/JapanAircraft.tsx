@@ -46,9 +46,7 @@ export function JapanAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">A5M4</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/a5m4.png" alt="a5m4.png" />
-                  </div>
+                  <TechTreeImg vehicle="a5m4" type="aircraft" />
                 </div>
               </td>
               <td>
@@ -202,9 +200,7 @@ export function JapanAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">B5N2</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/b5n2.png" alt="b5n2.png" />
-                  </div>
+                  <TechTreeImg vehicle="b5n2" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -218,9 +214,7 @@ export function JapanAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">D3A1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/d3a1.png" alt="d3a1.png" />
-                  </div>
+                  <TechTreeImg vehicle="d3a1" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -240,9 +234,7 @@ export function JapanAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">F1M2</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/f1m2.png" alt="f1m2.png" />
-                  </div>
+                  <TechTreeImg vehicle="f1m2" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -526,9 +518,7 @@ export function JapanAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">J2M2</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/j2m2.png" alt="j2m2.png" />
-                  </div>
+                  <TechTreeImg vehicle="j2m2" type="aircraft" />
                 </div>
               </td>
               <td>
@@ -853,9 +843,7 @@ export function JapanAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">D4Y1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/d4y1.png" alt="d4y1.png" />
-                  </div>
+                  <TechTreeImg vehicle="d4y1" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -922,9 +910,7 @@ export function JapanAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">G4M1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/g4m1.png" alt="g4m1.png" />
-                  </div>
+                  <TechTreeImg vehicle="g4m1" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1065,9 +1051,7 @@ export function JapanAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">H8K3</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/h8k3.png" alt="h8k3.png" />
-                  </div>
+                  <TechTreeImg vehicle="h8k3" type="aircraft" />
                 </div>
                 <div
                   style={{
@@ -1239,9 +1223,7 @@ export function JapanAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">A7M2</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/a7m2.png" alt="a7m2.png" />
-                  </div>
+                  <TechTreeImg vehicle="a7m2" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1372,9 +1354,7 @@ export function JapanAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">B7A2</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/b7a2.png" alt="b7a2.png" />
-                  </div>
+                  <TechTreeImg vehicle="b7a2" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -1517,9 +1497,7 @@ export function JapanAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">A7M1 (NK9H)</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/a7m1.png" alt="a7m1.png" />
-                  </div>
+                  <TechTreeImg vehicle="a7m1" type="aircraft" />
                 </div>
                 <div
                   style={{
@@ -1736,9 +1714,7 @@ export function JapanAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">J7W1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/j7w1.png" alt="j7w1.png" />
-                  </div>
+                  <TechTreeImg vehicle="j7w1" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -1806,9 +1782,7 @@ export function JapanAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">J5N1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/j5n1.png" alt="j5n1.png" />
-                  </div>
+                  <TechTreeImg vehicle="j5n1" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1863,9 +1837,7 @@ export function JapanAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">G5N1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/g5n1.png" alt="g5n1.png" />
-                  </div>
+                  <TechTreeImg vehicle="g5n1" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -1879,9 +1851,7 @@ export function JapanAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">G8N1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/g8n1.png" alt="g8n1.png" />
-                  </div>
+                  <TechTreeImg vehicle="g8n1" type="aircraft" />
                 </div>
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
@@ -2010,9 +1980,7 @@ export function JapanAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">J6K1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/j6k1.png" alt="j6k1.png" />
-                  </div>
+                  <TechTreeImg vehicle="j6k1" type="aircraft" />
                 </div>
               </td>
             </tr>
@@ -2090,9 +2058,7 @@ export function JapanAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">Ki-200</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/j8m1.png" alt="j8m1.png" />
-                  </div>
+                  <TechTreeImg vehicle="j8m1" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
@@ -2214,9 +2180,7 @@ export function JapanAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">T-2</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/t2.png" alt="t2.png" />
-                  </div>
+                  <TechTreeImg vehicle="t2" type="aircraft" />
                 </div>
                 <div className="tree-arrow">
                   <img src="/images/Arrow-small.png" alt="Arrow.png" />
@@ -2230,9 +2194,7 @@ export function JapanAircraft() {
                   <div className="tree-item-text">
                     <span className="tree-item-text-scroll">F-1</span>
                   </div>
-                  <div className="tree-item-img">
-                    <img src="https://encyclopedia.warthunder.com/slots/f1.png" alt="f1.png" />
-                  </div>
+                  <TechTreeImg vehicle="f1" type="aircraft" />
                 </div>
               </td>
               <td />

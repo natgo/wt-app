@@ -179,7 +179,6 @@ export default function App(): JSX.Element {
   const finalSetValue = useSetRecoilState(Final);
   axios.get("http://localhost:5173/final.json").then((response) => {
     const final: FinalProp = response.data;
-    console.log(final.aircraft[0].intname);
     finalSetValue(final);
   });
 
