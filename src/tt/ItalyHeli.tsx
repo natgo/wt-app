@@ -1,5 +1,5 @@
 import { openfolder } from ".";
-import { Item_own, TechTreeImg, Item_prem } from "../TechTree";
+import { Arrow, EmptyDiv, Rank, Research, TechTreeItem } from "../TechTree";
 
 export function ItalyHeli() {
   return (
@@ -7,68 +7,37 @@ export function ItalyHeli() {
       <div className="tree">
         <table rules="rows" width="100%">
           <tbody>
-            <tr>
-              <th style={{ borderRight: "solid 1px #eeeeee" }} />
-              <th colSpan={1} style={{ borderRight: "solid 1px #eeeeee" }}>
-                <span>Researchable vehicles</span>
-              </th>
-              <th colSpan={2}>
-                <span>Premium vehicles</span>
-              </th>
-            </tr>
+            <Research research={1} premium={2} />
             <tr>
               <td colSpan={4} style={{ padding: 1, textAlign: "center" }}>
                 <p>
                   <span style={{ color: "#cccccc" }}>
                     Helicopters become available for research and purchase only with the ownership
-                    of at least one Rank 5 vehicle of the corresponding nation
+                    of at least one Rank 5 intname of the corresponding nation
                   </span>
                 </p>
               </td>
             </tr>
             <tr>
-              <th
-                style={{
-                  textAlign: "center",
-                  whiteSpace: "nowrap",
-                  verticalAlign: "middle",
-                  borderRight: "solid 1px #eeeeee",
-                  width: 32,
-                }}
-              >
-                <div
-                  style={{
-                    transform: "rotate(-90deg)",
-                    marginLeft: "-10em",
-                    marginRight: "-10em",
-                  }}
-                >
-                  V Rank
-                </div>
-              </th>
+              <Rank rank="V" />
               <td style={{ width: 400, paddingLeft: "20%" }}>
                 <table style={{ margin: 0, marginTop: "-7px" }} cellSpacing={0}>
                   <tbody>
                     <tr>
                       <td>
-                        <div className="tree-item">
-                          <div className="tree-item-background" id="AB 205 A-1">
-                            <a href="/AB_205_A-1" title="AB 205 A-1">
-                              <Item_own />
-                            </a>
-                          </div>
-                          <div className="tree-item-text">
-                            <span className="tree-item-text-scroll">AB 205 A-1</span>
-                          </div>
-                          <TechTreeImg vehicle="ab_205a_1" type="helicopter" />
-                        </div>
+                        <TechTreeItem
+                          link="/AB_205_A-1"
+                          title="AB 205 A-1"
+                          item_type="own"
+                          text="AB 205 A-1"
+                          intname="ab_205a_1"
+                          type="helicopter"
+                        />
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <div className="tree-arrow">
-                          <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                        </div>
+                        <Arrow type="small" />
                       </td>
                     </tr>
                   </tbody>
@@ -78,116 +47,62 @@ export function ItalyHeli() {
               <td />
             </tr>
             <tr>
-              <th
-                style={{
-                  textAlign: "center",
-                  whiteSpace: "nowrap",
-                  verticalAlign: "middle",
-                  borderRight: "solid 1px #eeeeee",
-                  width: 32,
-                }}
-              >
-                <div
-                  style={{
-                    transform: "rotate(-90deg)",
-                    marginLeft: "-10em",
-                    marginRight: "-10em",
-                  }}
-                >
-                  VI Rank
-                </div>
-              </th>
+              <Rank rank="VI" />
               <td style={{ width: 400, paddingLeft: "20%" }}>
                 <table style={{ margin: 0, marginTop: "-7px" }} cellSpacing={0}>
                   <tbody>
                     <tr>
                       <td>
-                        <div className="tree-item">
-                          <div className="tree-item-background" id="A.109EOA-2">
-                            <a href="/A.109EOA-2" title="A.109EOA-2">
-                              <Item_own />
-                            </a>
-                          </div>
-                          <div className="tree-item-text">
-                            <span className="tree-item-text-scroll">A.109EOA-2</span>
-                          </div>
-                          <TechTreeImg vehicle="a_109_eoa2" type="helicopter" />
-                        </div>
+                        <TechTreeItem
+                          link="/A.109EOA-2"
+                          title="A.109EOA-2"
+                          item_type="own"
+                          text="A.109EOA-2"
+                          intname="a_109_eoa2"
+                          type="helicopter"
+                        />
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <div className="tree-arrow">
-                          <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                        </div>
+                        <Arrow type="small" />
                       </td>
                     </tr>
                   </tbody>
                 </table>
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="A-129 International (p)">
-                    <a href="/A-129_International_(p)" title="A-129 International (p)">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">A-129 International (p)</span>
-                  </div>
-                  <TechTreeImg vehicle="a_129_a" type="helicopter" />
-                </div>
+                <TechTreeItem
+                  link="/A-129_International_(p)"
+                  title="A-129 International (p)"
+                  item_type="prem"
+                  text="A-129 International (p)"
+                  intname="a_129_a"
+                  type="helicopter"
+                />
               </td>
               <td />
             </tr>
             <tr>
-              <th
-                style={{
-                  textAlign: "center",
-                  whiteSpace: "nowrap",
-                  verticalAlign: "middle",
-                  borderRight: "solid 1px #eeeeee",
-                  width: 32,
-                }}
-              >
-                <div
-                  style={{
-                    transform: "rotate(-90deg)",
-                    marginLeft: "-10em",
-                    marginRight: "-10em",
-                  }}
-                >
-                  VII Rank
-                </div>
-              </th>
+              <Rank rank="VII" />
               <td style={{ width: 400, paddingLeft: "20%" }}>
                 <table style={{ margin: 0, marginTop: "-7px" }} cellSpacing={0}>
                   <tbody>
                     <tr>
                       <td>
-                        <div className="tree-item">
-                          <div className="tree-item-background" id="A129CBT">
-                            <a href="/A129CBT" title="A129CBT">
-                              <Item_own />
-                            </a>
-                          </div>
-                          <div className="tree-item-text">
-                            <span className="tree-item-text-scroll">A129CBT</span>
-                          </div>
-                          <TechTreeImg vehicle="a_129_cbt" type="helicopter" />
-                        </div>
+                        <TechTreeItem
+                          link="/A129CBT"
+                          title="A129CBT"
+                          item_type="own"
+                          text="A129CBT"
+                          intname="a_129_cbt"
+                          type="helicopter"
+                        />
                       </td>
                     </tr>
                   </tbody>
                 </table>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
-                />
+                <EmptyDiv />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }} />
               <td />

@@ -608,9 +608,9 @@ img.tree-item-js {
   display: grid;
   grid-template-columns: 4fr 1fr auto;
   grid-template-areas:
-  "a d d"
-  "a d d"
-  "a b c";
+    "a d d"
+    "a d d"
+    "a b c";
   width: 155px;
 }
 
@@ -672,21 +672,25 @@ img.tree-item-js {
   white-space: nowrap;
   overflow: hidden;
 }
+
 .tree-group-img {
   position: absolute;
   margin: 3px;
   margin-top: 9px;
   pointer-events: none;
 }
+
 .tree-group-img img {
   height: 42px;
 }
+
 .tree-arrow {
   position: relative;
   width: 160px;
   height: auto;
   margin: auto;
 }
+
 .tree-select-table {
   width: auto;
   height: 40px;
@@ -696,6 +700,7 @@ img.tree-item-js {
   background-color: #d4d4d4;
   border-radius: 7px 7px 0 0;
 }
+
 .tree-select-table a {
   color: #242e33;
   border-radius: 7px 7px 0 0;
@@ -703,6 +708,7 @@ img.tree-item-js {
   display: block;
   padding: 8px 50px;
 }
+
 .tree-select-table a.selflink {
   background-color: #242e33;
   color: #cccccc;
@@ -712,17 +718,21 @@ img.tree-item-js {
   font-weight: normal;
   pointer-events: none;
 }
+
 .userbox-img-scale img {
   width: 46px;
   height: auto;
 }
+
 .wt_banner.center .wt_banner_content {
   bottom: 0 !important;
   height: 100% !important;
 }
+
 .wt_banner.center .wt_banner_button {
   margin-top: 105px;
 }
+
 .buzz {
   background: #ffffff;
   padding: 2px 10px 10px;
@@ -731,10 +741,12 @@ img.tree-item-js {
   margin: 0 5px 12px;
   position: relative;
 }
+
 .buzz.frame {
   margin: 0 5px 12px 0;
   overflow-y: auto;
 }
+
 .buzz > a {
   display: block;
   position: absolute;
@@ -744,10 +756,12 @@ img.tree-item-js {
   text-decoration: none;
   background-image: none !important;
 }
+
 #metadata,
 .mw-imagepage-section-metadata {
   display: none;
 }
+
 .video_gallery {
   overflow: hidden;
   display: flex;

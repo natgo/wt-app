@@ -9,7 +9,8 @@ import * as tt from "./tt";
 import "./App2.css";
 import "./App3.css";
 import { CountryTab, Final, TypeTab } from "./atom";
-import {FinalProp } from "./types";
+import { FinalProp } from "./types";
+
 interface TabPanelProps {
   children?: React.ReactNode;
   index: number;

@@ -1,5 +1,5 @@
 import { openfolder } from ".";
-import { Item_own, TechTreeImg, Item_prem, Item_squad } from "../TechTree";
+import { Arrow, EmptyDiv, Rank, Research, TechTreeItem } from "../TechTree";
 
 export function USAAircraft() {
   return (
@@ -7,160 +7,93 @@ export function USAAircraft() {
       <div className="tree">
         <table rules="rows" width="100%">
           <tbody>
+            <Research research={5} premium={2} />
             <tr>
-              <th style={{ borderRight: "solid 1px #eeeeee" }} />
-              <th colSpan={5} style={{ borderRight: "solid 1px #eeeeee" }}>
-                <span>Researchable vehicles</span>
-              </th>
-              <th colSpan={2}>
-                <span>Premium vehicles</span>
-              </th>
-            </tr>
-            <tr>
-              <th
-                style={{
-                  textAlign: "center",
-                  whiteSpace: "nowrap",
-                  verticalAlign: "middle",
-                  borderRight: "solid 1px #eeeeee",
-                  width: 32,
-                }}
-              >
-                <div
-                  style={{
-                    transform: "rotate(-90deg)",
-                    marginLeft: "-10em",
-                    marginRight: "-10em",
-                  }}
-                >
-                  I Rank
-                </div>
-              </th>
+              <Rank rank="I" />
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-26A-34 M2">
-                    <a href="/P-26A-34_M2" title="P-26A-34 M2">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-26A-34&nbsp;M2</span>
-                  </div>
-                  <TechTreeImg vehicle="p-26a_34_m2" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-26A-33">
-                    <a href="/P-26A-33" title="P-26A-33">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-26A-33</span>
-                  </div>
-                  <TechTreeImg vehicle="p-26a_33" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-26B-35">
-                    <a href="/P-26B-35" title="P-26B-35">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-26B-35</span>
-                  </div>
-                  <TechTreeImg vehicle="p-26b_35" type="aircraft" />
-                </div>
+                <TechTreeItem
+                  link="/P-26A-34_M2"
+                  title="P-26A-34 M2"
+                  item_type="own"
+                  text="P-26A-34&nbsp;M2"
+                  intname="p-26a_34_m2"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/P-26A-33"
+                  title="P-26A-33"
+                  item_type="own"
+                  text="P-26A-33"
+                  intname="p-26a_33"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/P-26B-35"
+                  title="P-26B-35"
+                  item_type="own"
+                  text="P-26B-35"
+                  intname="p-26b_35"
+                  type="aircraft"
+                />
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-36A">
-                    <a href="/P-36A" title="P-36A">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-36A</span>
-                  </div>
-                  <TechTreeImg vehicle="p-36a" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-36C">
-                    <a href="/P-36C" title="P-36C">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-36C</span>
-                  </div>
-                  <TechTreeImg vehicle="p-36c" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-36G">
-                    <a href="/P-36G" title="P-36G">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-36G</span>
-                  </div>
-                  <TechTreeImg vehicle="p-36g" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <TechTreeItem
+                  link="/P-36A"
+                  title="P-36A"
+                  item_type="own"
+                  text="P-36A"
+                  intname="p-36a"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/P-36C"
+                  title="P-36C"
+                  item_type="own"
+                  text="P-36C"
+                  intname="p-36c"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/P-36G"
+                  title="P-36G"
+                  item_type="own"
+                  text="P-36G"
+                  intname="p-36g"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F3F-2">
-                    <a href="/F3F-2" title="F3F-2">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F3F-2</span>
-                  </div>
-                  <TechTreeImg vehicle="f3f-2" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F2A-1">
-                    <a href="/F2A-1" title="F2A-1">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F2A-1</span>
-                  </div>
-                  <TechTreeImg vehicle="f2a-1" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F2A-3">
-                    <a href="/F2A-3" title="F2A-3">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F2A-3</span>
-                  </div>
-                  <TechTreeImg vehicle="f2a-3" type="aircraft" />
-                </div>
+                <TechTreeItem
+                  link="/F3F-2"
+                  title="F3F-2"
+                  item_type="own"
+                  text="F3F-2"
+                  intname="f3f-2"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/F2A-1"
+                  title="F2A-1"
+                  item_type="own"
+                  text="F2A-1"
+                  intname="f2a-1"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/F2A-3"
+                  title="F2A-3"
+                  item_type="own"
+                  text="F2A-3"
+                  intname="f2a-3"
+                  type="aircraft"
+                />
               </td>
               <td>
                 <div style={{ position: "relative" }}>
@@ -168,31 +101,23 @@ export function USAAircraft() {
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="OS2U-1">
-                        <a href="/OS2U-1" title="OS2U-1">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">OS2U-1</span>
-                      </div>
-                      <TechTreeImg vehicle="os2u_1" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="OS2U-3">
-                        <a href="/OS2U-3" title="OS2U-3">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">OS2U-3</span>
-                      </div>
-                      <TechTreeImg vehicle="os2u_3" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/OS2U-1"
+                      title="OS2U-1"
+                      item_type="own"
+                      text="OS2U-1"
+                      intname="os2u_1"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/OS2U-3"
+                      title="OS2U-3"
+                      item_type="own"
+                      text="OS2U-3"
+                      intname="os2u_3"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -211,44 +136,29 @@ export function USAAircraft() {
                     </div>
                   </div>
                 </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
-                />
+                <EmptyDiv />
                 <div style={{ position: "relative" }}>
                   <div
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="SB2U-2">
-                        <a href="/SB2U-2" title="SB2U-2">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">SB2U-2</span>
-                      </div>
-                      <TechTreeImg vehicle="sb2u-2" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="SB2U-3">
-                        <a href="/SB2U-3" title="SB2U-3">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">SB2U-3</span>
-                      </div>
-                      <TechTreeImg vehicle="sb2u-3" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/SB2U-2"
+                      title="SB2U-2"
+                      item_type="own"
+                      text="SB2U-2"
+                      intname="sb2u-2"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/SB2U-3"
+                      title="SB2U-3"
+                      item_type="own"
+                      text="SB2U-3"
+                      intname="sb2u-3"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -267,69 +177,49 @@ export function USAAircraft() {
                     </div>
                   </div>
                 </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="SBD-3">
-                    <a href="/SBD-3" title="SBD-3">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">SBD-3</span>
-                  </div>
-                  <TechTreeImg vehicle="sbd-3" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/SBD-3"
+                  title="SBD-3"
+                  item_type="own"
+                  text="SBD-3"
+                  intname="sbd-3"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="TBD-1">
-                    <a href="/TBD-1" title="TBD-1">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">TBD-1</span>
-                  </div>
-                  <TechTreeImg vehicle="tbd-1_1938" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <TechTreeItem
+                  link="/TBD-1"
+                  title="TBD-1"
+                  item_type="own"
+                  text="TBD-1"
+                  intname="tbd-1_1938"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
                 <div style={{ position: "relative" }}>
                   <div
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="PBY-5 Catalina">
-                        <a href="/PBY-5_Catalina" title="PBY-5 Catalina">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">PBY-5&nbsp;Catalina</span>
-                      </div>
-                      <TechTreeImg vehicle="pby-5" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="PBY-5A Catalina">
-                        <a href="/PBY-5A_Catalina" title="PBY-5A Catalina">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">PBY-5A&nbsp;Catalina</span>
-                      </div>
-                      <TechTreeImg vehicle="pby-5a" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/PBY-5_Catalina"
+                      title="PBY-5 Catalina"
+                      item_type="own"
+                      text="PBY-5&nbsp;Catalina"
+                      intname="pby-5"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/PBY-5A_Catalina"
+                      title="PBY-5A Catalina"
+                      item_type="own"
+                      text="PBY-5A&nbsp;Catalina"
+                      intname="pby-5a"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -348,189 +238,101 @@ export function USAAircraft() {
                     </div>
                   </div>
                 </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="B-18A">
-                    <a href="/B-18A" title="B-18A">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">B-18A</span>
-                  </div>
-                  <TechTreeImg vehicle="b_18a" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/B-18A"
+                  title="B-18A"
+                  item_type="own"
+                  text="B-18A"
+                  intname="b_18a"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="Galer's F3F-2">
-                    <a href="/Galer%27s_F3F-2" title="Galer's F3F-2">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">Galer&apos;s F3F-2</span>
-                  </div>
-                  <TechTreeImg vehicle="f3f-2_galer" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/Galer%27s_F3F-2"
+                  title="Galer's F3F-2"
+                  item_type="prem"
+                  text="Galer's F3F-2"
+                  intname="f3f-2_galer"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="Thach's F2A-1">
-                    <a href="/Thach%27s_F2A-1" title="Thach's F2A-1">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">Thach&apos;s F2A-1</span>
-                  </div>
-                  <TechTreeImg vehicle="f2a-1_thach" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/Thach%27s_F2A-1"
+                  title="Thach's F2A-1"
+                  item_type="prem"
+                  text="Thach's F2A-1"
+                  intname="f2a-1_thach"
+                  type="aircraft"
                 />
+                <EmptyDiv />
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-26A-34">
-                    <a href="/P-26A-34" title="P-26A-34">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-26A-34</span>
-                  </div>
-                  <TechTreeImg vehicle="p-26a_34" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/P-26A-34"
+                  title="P-26A-34"
+                  item_type="prem"
+                  text="P-26A-34"
+                  intname="p-26a_34"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="Rasmussen's P-36A">
-                    <a href="/Rasmussen%27s_P-36A" title="Rasmussen's P-36A">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">Rasmussen&apos;s P-36A</span>
-                  </div>
-                  <TechTreeImg vehicle="p-36a_rasmussen" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/Rasmussen%27s_P-36A"
+                  title="Rasmussen's P-36A"
+                  item_type="prem"
+                  text="Rasmussen's P-36A"
+                  intname="p-36a_rasmussen"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="B-10B">
-                    <a href="/B-10B" title="B-10B">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">B-10B</span>
-                  </div>
-                  <TechTreeImg vehicle="b_10b" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/B-10B"
+                  title="B-10B"
+                  item_type="prem"
+                  text="B-10B"
+                  intname="b_10b"
+                  type="aircraft"
                 />
+                <EmptyDiv />
               </td>
             </tr>
             <tr>
-              <th
-                style={{
-                  textAlign: "center",
-                  whiteSpace: "nowrap",
-                  verticalAlign: "middle",
-                  borderRight: "solid 1px #eeeeee",
-                  width: 32,
-                }}
-              >
-                <div
-                  style={{
-                    transform: "rotate(-90deg)",
-                    marginLeft: "-10em",
-                    marginRight: "-10em",
-                  }}
-                >
-                  II Rank
-                </div>
-              </th>
+              <Rank rank="II" />
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-400">
-                    <a href="/P-400" title="P-400">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-400</span>
-                  </div>
-                  <TechTreeImg vehicle="p-400" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <TechTreeItem
+                  link="/P-400"
+                  title="P-400"
+                  item_type="own"
+                  text="P-400"
+                  intname="p-400"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
                 <div style={{ position: "relative" }}>
                   <div
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="P-39N-0">
-                        <a href="/P-39N-0" title="P-39N-0">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">P-39N-0</span>
-                      </div>
-                      <TechTreeImg vehicle="p-39n" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="P-39Q-5">
-                        <a href="/P-39Q-5" title="P-39Q-5">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">P-39Q-5</span>
-                      </div>
-                      <TechTreeImg vehicle="p-39q_5" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/P-39N-0"
+                      title="P-39N-0"
+                      item_type="own"
+                      text="P-39N-0"
+                      intname="p-39n"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/P-39Q-5"
+                      title="P-39Q-5"
+                      item_type="own"
+                      text="P-39Q-5"
+                      intname="p-39q_5"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -549,39 +351,29 @@ export function USAAircraft() {
                     </div>
                   </div>
                 </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <Arrow type="small" />
                 <div style={{ position: "relative" }}>
                   <div
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="P-38E">
-                        <a href="/P-38E" title="P-38E">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">P-38E</span>
-                      </div>
-                      <TechTreeImg vehicle="p-38e" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="P-38G-1">
-                        <a href="/P-38G-1" title="P-38G-1">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">P-38G-1</span>
-                      </div>
-                      <TechTreeImg vehicle="p-38g" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/P-38E"
+                      title="P-38E"
+                      item_type="own"
+                      text="P-38E"
+                      intname="p-38e"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/P-38G-1"
+                      title="P-38G-1"
+                      item_type="own"
+                      text="P-38G-1"
+                      intname="p-38g"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -617,53 +409,33 @@ export function USAAircraft() {
                 </div>
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-40E-1">
-                    <a href="/P-40E-1" title="P-40E-1">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-40E-1</span>
-                  </div>
-                  <TechTreeImg vehicle="p-40e" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-40F-10">
-                    <a href="/P-40F-10" title="P-40F-10">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-40F-10</span>
-                  </div>
-                  <TechTreeImg vehicle="p-40f_10" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-51">
-                    <a href="/P-51" title="P-51">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-51</span>
-                  </div>
-                  <TechTreeImg vehicle="p-51_mk1a_usaaf" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/P-40E-1"
+                  title="P-40E-1"
+                  item_type="own"
+                  text="P-40E-1"
+                  intname="p-40e"
+                  type="aircraft"
                 />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/P-40F-10"
+                  title="P-40F-10"
+                  item_type="own"
+                  text="P-40F-10"
+                  intname="p-40f_10"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/P-51"
+                  title="P-51"
+                  item_type="own"
+                  text="P-51"
+                  intname="p-51_mk1a_usaaf"
+                  type="aircraft"
+                />
+                <EmptyDiv />
               </td>
               <td>
                 <div style={{ position: "relative" }}>
@@ -671,31 +443,23 @@ export function USAAircraft() {
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="F4F-3">
-                        <a href="/F4F-3" title="F4F-3">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">F4F-3</span>
-                      </div>
-                      <TechTreeImg vehicle="f4f-3" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="F4F-4">
-                        <a href="/F4F-4" title="F4F-4">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">F4F-4</span>
-                      </div>
-                      <TechTreeImg vehicle="f4f-4" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/F4F-3"
+                      title="F4F-3"
+                      item_type="own"
+                      text="F4F-3"
+                      intname="f4f-3"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/F4F-4"
+                      title="F4F-4"
+                      item_type="own"
+                      text="F4F-4"
+                      intname="f4f-4"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -714,39 +478,29 @@ export function USAAircraft() {
                     </div>
                   </div>
                 </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <Arrow type="small" />
                 <div style={{ position: "relative" }}>
                   <div
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="F4U-1A">
-                        <a href="/F4U-1A" title="F4U-1A">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">F4U-1A</span>
-                      </div>
-                      <TechTreeImg vehicle="f4u-1a" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="F4U-1A (USMC)">
-                        <a href="/F4U-1A_(USMC)" title="F4U-1A (USMC)">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">F4U-1A (USMC)</span>
-                      </div>
-                      <TechTreeImg vehicle="f4u-1a_usmc" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/F4U-1A"
+                      title="F4U-1A"
+                      item_type="own"
+                      text="F4U-1A"
+                      intname="f4u-1a"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/F4U-1A_(USMC)"
+                      title="F4U-1A (USMC)"
+                      item_type="own"
+                      text="F4U-1A (USMC)"
+                      intname="f4u-1a_usmc"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -765,55 +519,35 @@ export function USAAircraft() {
                     </div>
                   </div>
                 </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
-                />
+                <EmptyDiv />
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="TBF-1C">
-                    <a href="/TBF-1C" title="TBF-1C">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">TBF-1C</span>
-                  </div>
-                  <TechTreeImg vehicle="tbf-1c" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="A-36">
-                    <a href="/A-36" title="A-36">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">A-36</span>
-                  </div>
-                  <TechTreeImg vehicle="p-51_a-36" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="A-20G-25">
-                    <a href="/A-20G-25" title="A-20G-25">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">A-20G-25</span>
-                  </div>
-                  <TechTreeImg vehicle="a-20g" type="aircraft" />
-                </div>
+                <TechTreeItem
+                  link="/TBF-1C"
+                  title="TBF-1C"
+                  item_type="own"
+                  text="TBF-1C"
+                  intname="tbf-1c"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/A-36"
+                  title="A-36"
+                  item_type="own"
+                  text="A-36"
+                  intname="p-51_a-36"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/A-20G-25"
+                  title="A-20G-25"
+                  item_type="own"
+                  text="A-20G-25"
+                  intname="a-20g"
+                  type="aircraft"
+                />
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
@@ -831,45 +565,32 @@ export function USAAircraft() {
                 </div>
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background">
-                    <a href="/PBM-1_%22Mariner%22" title='PBM-1 "Mariner"'>
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">PBM-1&nbsp;&quot;Mariner&quot;</span>
-                  </div>
-                  <TechTreeImg vehicle="pbm_1" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="B-34">
-                    <a href="/B-34" title="B-34">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">B-34</span>
-                  </div>
-                  <TechTreeImg vehicle="b_34" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="B-25J-1">
-                    <a href="/B-25J-1" title="B-25J-1">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">B-25J-1</span>
-                  </div>
-                  <TechTreeImg vehicle="b_25j_1" type="aircraft" />
-                </div>
+                <TechTreeItem
+                  link="/PBM-1_%22Mariner%22"
+                  title='PBM-1 "Mariner"'
+                  item_type="own"
+                  text='PBM-1&nbsp;"Mariner"'
+                  intname="pbm_1"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/B-34"
+                  title="B-34"
+                  item_type="own"
+                  text="B-34"
+                  intname="b_34"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/B-25J-1"
+                  title="B-25J-1"
+                  item_type="own"
+                  text="B-25J-1"
+                  intname="b_25j_1"
+                  type="aircraft"
+                />
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
@@ -887,284 +608,143 @@ export function USAAircraft() {
                 </div>
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="Ki-43-II (USA)">
-                    <a href="/Ki-43-II_(USA)" title="Ki-43-II (USA)">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">▃Ki-43-II</span>
-                  </div>
-                  <TechTreeImg vehicle="ki_43_2_late" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/Ki-43-II_(USA)"
+                  title="Ki-43-II (USA)"
+                  item_type="prem"
+                  text="▃Ki-43-II"
+                  intname="ki_43_2_late"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="Ki-61-Ib (USA)">
-                    <a href="/Ki-61-Ib_(USA)" title="Ki-61-Ib (USA)">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">▃Ki-61-Ib</span>
-                  </div>
-                  <TechTreeImg vehicle="ki_61_1a_otsu_usa" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/Ki-61-Ib_(USA)"
+                  title="Ki-61-Ib (USA)"
+                  item_type="prem"
+                  text="▃Ki-61-Ib"
+                  intname="ki_61_1a_otsu_usa"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-51A">
-                    <a href="/P-51A" title="P-51A">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-51A</span>
-                  </div>
-                  <TechTreeImg vehicle="p-51a_tl" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/P-51A"
+                  title="P-51A"
+                  item_type="prem"
+                  text="P-51A"
+                  intname="p-51a_tl"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="XP-38G">
-                    <a href="/XP-38G" title="XP-38G">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">XP-38G</span>
-                  </div>
-                  <TechTreeImg vehicle="p-38g_metal" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/XP-38G"
+                  title="XP-38G"
+                  item_type="prem"
+                  text="XP-38G"
+                  intname="p-38g_metal"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="XP-55">
-                    <a href="/XP-55" title="XP-55">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">XP-55</span>
-                  </div>
-                  <TechTreeImg vehicle="xp-55" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/XP-55"
+                  title="XP-55"
+                  item_type="prem"
+                  text="XP-55"
+                  intname="xp-55"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-40E-1 TD">
-                    <a href="/P-40E-1_TD" title="P-40E-1 TD">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-40E-1 TD</span>
-                  </div>
-                  <TechTreeImg vehicle="p-40e_td" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/P-40E-1_TD"
+                  title="P-40E-1 TD"
+                  item_type="own"
+                  text="P-40E-1 TD"
+                  intname="p-40e_td"
+                  type="aircraft"
                 />
+                <EmptyDiv />
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-40C">
-                    <a href="/P-40C" title="P-40C">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-40C</span>
-                  </div>
-                  <TechTreeImg vehicle="p-40c" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/P-40C"
+                  title="P-40C"
+                  item_type="prem"
+                  text="P-40C"
+                  intname="p-40c"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="YP-38">
-                    <a href="/YP-38" title="YP-38">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">YP-38</span>
-                  </div>
-                  <TechTreeImg vehicle="yp-38" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/YP-38"
+                  title="YP-38"
+                  item_type="prem"
+                  text="YP-38"
+                  intname="yp-38"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-43A-1">
-                    <a href="/P-43A-1" title="P-43A-1">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-43A-1</span>
-                  </div>
-                  <TechTreeImg vehicle="p-43a-1" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/P-43A-1"
+                  title="P-43A-1"
+                  item_type="prem"
+                  text="P-43A-1"
+                  intname="p-43a-1"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background">
-                    <a href="/PBM-3_%22Mariner%22" title='PBM-3 "Mariner"'>
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">PBM-3&nbsp;&quot;Mariner&quot;</span>
-                  </div>
-                  <TechTreeImg vehicle="pbm_3" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/PBM-3_%22Mariner%22"
+                  title='PBM-3 "Mariner"'
+                  item_type="prem"
+                  text='PBM-3&nbsp;"Mariner"'
+                  intname="pbm_3"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="PV-2D">
-                    <a href="/PV-2D" title="PV-2D">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">PV-2D</span>
-                  </div>
-                  <TechTreeImg vehicle="pv_2d" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/PV-2D"
+                  title="PV-2D"
+                  item_type="prem"
+                  text="PV-2D"
+                  intname="pv_2d"
+                  type="aircraft"
                 />
+                <EmptyDiv />
               </td>
             </tr>
             <tr>
-              <th
-                style={{
-                  textAlign: "center",
-                  whiteSpace: "nowrap",
-                  verticalAlign: "middle",
-                  borderRight: "solid 1px #eeeeee",
-                  width: 32,
-                }}
-              >
-                <div
-                  style={{
-                    transform: "rotate(-90deg)",
-                    marginLeft: "-10em",
-                    marginRight: "-10em",
-                  }}
-                >
-                  III Rank
-                </div>
-              </th>
+              <Rank rank="III" />
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-63A-5">
-                    <a href="/P-63A-5" title="P-63A-5">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-63A-5</span>
-                  </div>
-                  <TechTreeImg vehicle="p-63a-5" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <TechTreeItem
+                  link="/P-63A-5"
+                  title="P-63A-5"
+                  item_type="own"
+                  text="P-63A-5"
+                  intname="p-63a-5"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
                 <div style={{ position: "relative" }}>
                   <div
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="P-63A-10">
-                        <a href="/P-63A-10" title="P-63A-10">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">P-63A-10</span>
-                      </div>
-                      <TechTreeImg vehicle="p-63a-10" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="P-63C-5">
-                        <a href="/P-63C-5" title="P-63C-5">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">P-63C-5</span>
-                      </div>
-                      <TechTreeImg vehicle="p-63c-5" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/P-63A-10"
+                      title="P-63A-10"
+                      item_type="own"
+                      text="P-63A-10"
+                      intname="p-63a-10"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/P-63C-5"
+                      title="P-63C-5"
+                      item_type="own"
+                      text="P-63C-5"
+                      intname="p-63c-5"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -1196,64 +776,46 @@ export function USAAircraft() {
                 </div>
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-51C-10">
-                    <a href="/P-51C-10" title="P-51C-10">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-51C-10</span>
-                  </div>
-                  <TechTreeImg vehicle="p-51c-10-nt" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-47D-22-RE">
-                    <a href="/P-47D-22-RE" title="P-47D-22-RE">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-47D-22-RE</span>
-                  </div>
-                  <TechTreeImg vehicle="p-47d_22_re" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <TechTreeItem
+                  link="/P-51C-10"
+                  title="P-51C-10"
+                  item_type="own"
+                  text="P-51C-10"
+                  intname="p-51c-10-nt"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/P-47D-22-RE"
+                  title="P-47D-22-RE"
+                  item_type="own"
+                  text="P-47D-22-RE"
+                  intname="p-47d_22_re"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
                 <div style={{ position: "relative" }}>
                   <div
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="P-47D-25">
-                        <a href="/P-47D-25" title="P-47D-25">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">P-47D-25</span>
-                      </div>
-                      <TechTreeImg vehicle="p-47d" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="P-47D-28">
-                        <a href="/P-47D-28" title="P-47D-28">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">P-47D-28</span>
-                      </div>
-                      <TechTreeImg vehicle="p-47d-28" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/P-47D-25"
+                      title="P-47D-25"
+                      item_type="own"
+                      text="P-47D-25"
+                      intname="p-47d"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/P-47D-28"
+                      title="P-47D-28"
+                      item_type="own"
+                      text="P-47D-28"
+                      intname="p-47d-28"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -1281,50 +843,37 @@ export function USAAircraft() {
                 </div>
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F4U-1D">
-                    <a href="/F4U-1D" title="F4U-1D">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F4U-1D</span>
-                  </div>
-                  <TechTreeImg vehicle="f4u-1d" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <TechTreeItem
+                  link="/F4U-1D"
+                  title="F4U-1D"
+                  item_type="own"
+                  text="F4U-1D"
+                  intname="f4u-1d"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
                 <div style={{ position: "relative" }}>
                   <div
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="F6F-5">
-                        <a href="/F6F-5" title="F6F-5">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">F6F-5</span>
-                      </div>
-                      <TechTreeImg vehicle="f6f-3" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="F6F-5N">
-                        <a href="/F6F-5N" title="F6F-5N">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">F6F-5N</span>
-                      </div>
-                      <TechTreeImg vehicle="f6f-5n" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/F6F-5"
+                      title="F6F-5"
+                      item_type="own"
+                      text="F6F-5"
+                      intname="f6f-3"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/F6F-5N"
+                      title="F6F-5N"
+                      item_type="own"
+                      text="F6F-5N"
+                      intname="f6f-5n"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -1343,39 +892,29 @@ export function USAAircraft() {
                     </div>
                   </div>
                 </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <Arrow type="small" />
                 <div style={{ position: "relative" }}>
                   <div
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="F4U-1C">
-                        <a href="/F4U-1C" title="F4U-1C">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">F4U-1C</span>
-                      </div>
-                      <TechTreeImg vehicle="f4u-1c" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="F4U-4">
-                        <a href="/F4U-4" title="F4U-4">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">F4U-4</span>
-                      </div>
-                      <TechTreeImg vehicle="f4u-4" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/F4U-1C"
+                      title="F4U-1C"
+                      item_type="own"
+                      text="F4U-1C"
+                      intname="f4u-1c"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/F4U-4"
+                      title="F4U-4"
+                      item_type="own"
+                      text="F4U-4"
+                      intname="f4u-4"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -1408,31 +947,23 @@ export function USAAircraft() {
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="SB2C-1C">
-                        <a href="/SB2C-1C" title="SB2C-1C">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">SB2C-1C</span>
-                      </div>
-                      <TechTreeImg vehicle="sb2c_1c" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="SB2C-4">
-                        <a href="/SB2C-4" title="SB2C-4">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">SB2C-4</span>
-                      </div>
-                      <TechTreeImg vehicle="sb2c_4" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/SB2C-1C"
+                      title="SB2C-1C"
+                      item_type="own"
+                      text="SB2C-1C"
+                      intname="sb2c_1c"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/SB2C-4"
+                      title="SB2C-4"
+                      item_type="own"
+                      text="SB2C-4"
+                      intname="sb2c_4"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -1451,39 +982,29 @@ export function USAAircraft() {
                     </div>
                   </div>
                 </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <Arrow type="small" />
                 <div style={{ position: "relative" }}>
                   <div
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="PBJ-1J">
-                        <a href="/PBJ-1J" title="PBJ-1J">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">PBJ-1J</span>
-                      </div>
-                      <TechTreeImg vehicle="pbj_1j" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="PBJ-1H">
-                        <a href="/PBJ-1H" title="PBJ-1H">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">PBJ-1H</span>
-                      </div>
-                      <TechTreeImg vehicle="pbj_1h" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/PBJ-1J"
+                      title="PBJ-1J"
+                      item_type="own"
+                      text="PBJ-1J"
+                      intname="pbj_1j"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/PBJ-1H"
+                      title="PBJ-1H"
+                      item_type="own"
+                      text="PBJ-1H"
+                      intname="pbj_1h"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -1502,20 +1023,15 @@ export function USAAircraft() {
                     </div>
                   </div>
                 </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-61C-1">
-                    <a href="/P-61C-1" title="P-61C-1">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-61C-1</span>
-                  </div>
-                  <TechTreeImg vehicle="p-61c_1" type="aircraft" />
-                </div>
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/P-61C-1"
+                  title="P-61C-1"
+                  item_type="own"
+                  text="P-61C-1"
+                  intname="p-61c_1"
+                  type="aircraft"
+                />
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
@@ -1525,64 +1041,46 @@ export function USAAircraft() {
                 </div>
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="B-25J-20">
-                    <a href="/B-25J-20" title="B-25J-20">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">B-25J-20</span>
-                  </div>
-                  <TechTreeImg vehicle="b_25j_20" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="B-26B">
-                    <a href="/B-26B" title="B-26B">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">B-26B</span>
-                  </div>
-                  <TechTreeImg vehicle="b_26b_c" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <TechTreeItem
+                  link="/B-25J-20"
+                  title="B-25J-20"
+                  item_type="own"
+                  text="B-25J-20"
+                  intname="b_25j_20"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/B-26B"
+                  title="B-26B"
+                  item_type="own"
+                  text="B-26B"
+                  intname="b_26b_c"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
                 <div style={{ position: "relative" }}>
                   <div
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="B-17E">
-                        <a href="/B-17E" title="B-17E">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">B-17E</span>
-                      </div>
-                      <TechTreeImg vehicle="b-17e" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="B-17E/L">
-                        <a href="/B-17E/L" title="B-17E/L">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">B-17E/L</span>
-                      </div>
-                      <TechTreeImg vehicle="b-17e_late" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/B-17E"
+                      title="B-17E"
+                      item_type="own"
+                      text="B-17E"
+                      intname="b-17e"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/B-17E/L"
+                      title="B-17E/L"
+                      item_type="own"
+                      text="B-17E/L"
+                      intname="b-17e_late"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -1601,222 +1099,114 @@ export function USAAircraft() {
                     </div>
                   </div>
                 </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="PB4Y-2">
-                    <a href="/PB4Y-2" title="PB4Y-2">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">PB4Y-2</span>
-                  </div>
-                  <TechTreeImg vehicle="pb4y-2" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/PB4Y-2"
+                  title="PB4Y-2"
+                  item_type="own"
+                  text="PB4Y-2"
+                  intname="pb4y-2"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="A6M2 (USA)">
-                    <a href="/A6M2_(USA)" title="A6M2 (USA)">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">▃A6M2</span>
-                  </div>
-                  <TechTreeImg vehicle="a6m2_zero_usa" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/A6M2_(USA)"
+                  title="A6M2 (USA)"
+                  item_type="prem"
+                  text="▃A6M2"
+                  intname="a6m2_zero_usa"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="Bf 109 F-4 (USA)">
-                    <a href="/Bf_109_F-4_(USA)" title="Bf 109 F-4 (USA)">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">▃Bf&nbsp;109&nbsp;F-4</span>
-                  </div>
-                  <TechTreeImg vehicle="bf-109f-4_usa" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/Bf_109_F-4_(USA)"
+                  title="Bf 109 F-4 (USA)"
+                  item_type="prem"
+                  text="▃Bf&nbsp;109&nbsp;F-4"
+                  intname="bf-109f-4_usa"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="XP-50">
-                    <a href="/XP-50" title="XP-50">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">XP-50</span>
-                  </div>
-                  <TechTreeImg vehicle="xp-50" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/XP-50"
+                  title="XP-50"
+                  item_type="prem"
+                  text="XP-50"
+                  intname="xp-50"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="BTD-1">
-                    <a href="/BTD-1" title="BTD-1">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">BTD-1</span>
-                  </div>
-                  <TechTreeImg vehicle="btd-1" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/BTD-1"
+                  title="BTD-1"
+                  item_type="prem"
+                  text="BTD-1"
+                  intname="btd-1"
+                  type="aircraft"
                 />
+                <EmptyDiv />
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="XF5F">
-                    <a href="/XF5F" title="XF5F">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">XF5F</span>
-                  </div>
-                  <TechTreeImg vehicle="xf5f" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/XF5F"
+                  title="XF5F"
+                  item_type="prem"
+                  text="XF5F"
+                  intname="xf5f"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="Kingcobra (USA)">
-                    <a href="/Kingcobra_(USA)" title="Kingcobra (USA)">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">␠Kingcobra</span>
-                  </div>
-                  <TechTreeImg vehicle="p-63c-5_kingcobra_animal_version" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/Kingcobra_(USA)"
+                  title="Kingcobra (USA)"
+                  item_type="prem"
+                  text="␠Kingcobra"
+                  intname="p-63c-5_kingcobra_animal_version"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-61A-1">
-                    <a href="/P-61A-1" title="P-61A-1">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-61A-1</span>
-                  </div>
-                  <TechTreeImg vehicle="p-61a_1" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/P-61A-1"
+                  title="P-61A-1"
+                  item_type="prem"
+                  text="P-61A-1"
+                  intname="p-61a_1"
+                  type="aircraft"
                 />
+                <EmptyDiv />
               </td>
             </tr>
             <tr>
-              <th
-                style={{
-                  textAlign: "center",
-                  whiteSpace: "nowrap",
-                  verticalAlign: "middle",
-                  borderRight: "solid 1px #eeeeee",
-                  width: 32,
-                }}
-              >
-                <div
-                  style={{
-                    transform: "rotate(-90deg)",
-                    marginLeft: "-10em",
-                    marginRight: "-10em",
-                  }}
-                >
-                  IV Rank
-                </div>
-              </th>
+              <Rank rank="IV" />
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-38J-15">
-                    <a href="/P-38J-15" title="P-38J-15">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-38J-15</span>
-                  </div>
-                  <TechTreeImg vehicle="p-38j" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-38L-5-LO">
-                    <a href="/P-38L-5-LO" title="P-38L-5-LO">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-38L-5-LO</span>
-                  </div>
-                  <TechTreeImg vehicle="p-38l" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-82E">
-                    <a href="/F-82E" title="F-82E">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-82E</span>
-                  </div>
-                  <TechTreeImg vehicle="f-82e" type="aircraft" />
-                </div>
+                <TechTreeItem
+                  link="/P-38J-15"
+                  title="P-38J-15"
+                  item_type="own"
+                  text="P-38J-15"
+                  intname="p-38j"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/P-38L-5-LO"
+                  title="P-38L-5-LO"
+                  item_type="own"
+                  text="P-38L-5-LO"
+                  intname="p-38l"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/F-82E"
+                  title="F-82E"
+                  item_type="own"
+                  text="F-82E"
+                  intname="f-82e"
+                  type="aircraft"
+                />
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
@@ -1851,31 +1241,23 @@ export function USAAircraft() {
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="P-51D-5">
-                        <a href="/P-51D-5" title="P-51D-5">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">P-51D-5</span>
-                      </div>
-                      <TechTreeImg vehicle="p-51d-5" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="P-51D-30">
-                        <a href="/P-51D-30" title="P-51D-30">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">P-51D-30</span>
-                      </div>
-                      <TechTreeImg vehicle="p-51d-30_usaaf_korea" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/P-51D-5"
+                      title="P-51D-5"
+                      item_type="own"
+                      text="P-51D-5"
+                      intname="p-51d-5"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/P-51D-30"
+                      title="P-51D-30"
+                      item_type="own"
+                      text="P-51D-30"
+                      intname="p-51d-30_usaaf_korea"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -1894,34 +1276,24 @@ export function USAAircraft() {
                     </div>
                   </div>
                 </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-47N-15">
-                    <a href="/P-47N-15" title="P-47N-15">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-47N-15</span>
-                  </div>
-                  <TechTreeImg vehicle="p-47n-15" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-51H-5-NA">
-                    <a href="/P-51H-5-NA" title="P-51H-5-NA">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-51H-5-NA</span>
-                  </div>
-                  <TechTreeImg vehicle="p-51h-5_na" type="aircraft" />
-                </div>
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/P-47N-15"
+                  title="P-47N-15"
+                  item_type="own"
+                  text="P-47N-15"
+                  intname="p-47n-15"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/P-51H-5-NA"
+                  title="P-51H-5-NA"
+                  item_type="own"
+                  text="P-51H-5-NA"
+                  intname="p-51h-5_na"
+                  type="aircraft"
+                />
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
@@ -1951,50 +1323,37 @@ export function USAAircraft() {
                 </div>
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F4U-4B">
-                    <a href="/F4U-4B" title="F4U-4B">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F4U-4B</span>
-                  </div>
-                  <TechTreeImg vehicle="f4u-4b" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <TechTreeItem
+                  link="/F4U-4B"
+                  title="F4U-4B"
+                  item_type="own"
+                  text="F4U-4B"
+                  intname="f4u-4b"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
                 <div style={{ position: "relative" }}>
                   <div
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="F8F-1">
-                        <a href="/F8F-1" title="F8F-1">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">F8F-1</span>
-                      </div>
-                      <TechTreeImg vehicle="f8f1" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="F8F-1B">
-                        <a href="/F8F-1B" title="F8F-1B">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">F8F-1B</span>
-                      </div>
-                      <TechTreeImg vehicle="f8f1b" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/F8F-1"
+                      title="F8F-1"
+                      item_type="own"
+                      text="F8F-1"
+                      intname="f8f1"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/F8F-1B"
+                      title="F8F-1B"
+                      item_type="own"
+                      text="F8F-1B"
+                      intname="f8f1b"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -2013,20 +1372,15 @@ export function USAAircraft() {
                     </div>
                   </div>
                 </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F7F-1">
-                    <a href="/F7F-1" title="F7F-1">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F7F-1</span>
-                  </div>
-                  <TechTreeImg vehicle="f7f1" type="aircraft" />
-                </div>
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/F7F-1"
+                  title="F7F-1"
+                  item_type="own"
+                  text="F7F-1"
+                  intname="f7f1"
+                  type="aircraft"
+                />
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
@@ -2061,31 +1415,23 @@ export function USAAircraft() {
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="A-26B-10">
-                        <a href="/A-26B-10" title="A-26B-10">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">A-26B-10</span>
-                      </div>
-                      <TechTreeImg vehicle="a-26b_10" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="A-26B-50">
-                        <a href="/A-26B-50" title="A-26B-50">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">A-26B-50</span>
-                      </div>
-                      <TechTreeImg vehicle="a-26b" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/A-26B-10"
+                      title="A-26B-10"
+                      item_type="own"
+                      text="A-26B-10"
+                      intname="a-26b_10"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/A-26B-50"
+                      title="A-26B-50"
+                      item_type="own"
+                      text="A-26B-50"
+                      intname="a-26b"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -2104,53 +1450,38 @@ export function USAAircraft() {
                     </div>
                   </div>
                 </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="AM-1">
-                    <a href="/AM-1" title="AM-1">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">AM-1</span>
-                  </div>
-                  <TechTreeImg vehicle="am_1_mauler" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/AM-1"
+                  title="AM-1"
+                  item_type="own"
+                  text="AM-1"
+                  intname="am_1_mauler"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
                 <div style={{ position: "relative" }}>
                   <div
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="AD-2">
-                        <a href="/AD-2" title="AD-2">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">AD-2</span>
-                      </div>
-                      <TechTreeImg vehicle="douglas_ad_2" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="AD-4">
-                        <a href="/AD-4" title="AD-4">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">AD-4</span>
-                      </div>
-                      <TechTreeImg vehicle="douglas_ad_4" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/AD-2"
+                      title="AD-2"
+                      item_type="own"
+                      text="AD-2"
+                      intname="douglas_ad_2"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/AD-4"
+                      title="AD-4"
+                      item_type="own"
+                      text="AD-4"
+                      intname="douglas_ad_4"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -2198,45 +1529,32 @@ export function USAAircraft() {
                 </div>
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="B-17G-60-VE">
-                    <a href="/B-17G-60-VE" title="B-17G-60-VE">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">B-17G-60-VE</span>
-                  </div>
-                  <TechTreeImg vehicle="b-17g" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="B-24D-25-CO">
-                    <a href="/B-24D-25-CO" title="B-24D-25-CO">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">B-24D-25-CO</span>
-                  </div>
-                  <TechTreeImg vehicle="b_24d" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="B-29A-BN">
-                    <a href="/B-29A-BN" title="B-29A-BN">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">B-29A-BN</span>
-                  </div>
-                  <TechTreeImg vehicle="b-29" type="aircraft" />
-                </div>
+                <TechTreeItem
+                  link="/B-17G-60-VE"
+                  title="B-17G-60-VE"
+                  item_type="own"
+                  text="B-17G-60-VE"
+                  intname="b-17g"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/B-24D-25-CO"
+                  title="B-24D-25-CO"
+                  item_type="own"
+                  text="B-24D-25-CO"
+                  intname="b_24d"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/B-29A-BN"
+                  title="B-29A-BN"
+                  item_type="own"
+                  text="B-29A-BN"
+                  intname="b-29"
+                  type="aircraft"
+                />
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
@@ -2266,382 +1584,184 @@ export function USAAircraft() {
                 </div>
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-51D-10">
-                    <a href="/P-51D-10" title="P-51D-10">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-51D-10</span>
-                  </div>
-                  <TechTreeImg vehicle="p-51d-10" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/P-51D-10"
+                  title="P-51D-10"
+                  item_type="prem"
+                  text="P-51D-10"
+                  intname="p-51d-10"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-51D-20-NA">
-                    <a href="/P-51D-20-NA" title="P-51D-20-NA">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-51D-20-NA</span>
-                  </div>
-                  <TechTreeImg vehicle="p-51d-20-na" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/P-51D-20-NA"
+                  title="P-51D-20-NA"
+                  item_type="prem"
+                  text="P-51D-20-NA"
+                  intname="p-51d-20-na"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="XA-38">
-                    <a href="/XA-38" title="XA-38">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">XA-38</span>
-                  </div>
-                  <TechTreeImg vehicle="xa_38" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/XA-38"
+                  title="XA-38"
+                  item_type="prem"
+                  text="XA-38"
+                  intname="xa_38"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="Bostwick's P-47M-1-RE">
-                    <a href="/Bostwick%27s_P-47M-1-RE" title="Bostwick's P-47M-1-RE">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-47M-1-RE</span>
-                  </div>
-                  <TechTreeImg vehicle="p-47m-1-re" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/Bostwick%27s_P-47M-1-RE"
+                  title="Bostwick's P-47M-1-RE"
+                  item_type="prem"
+                  text="P-47M-1-RE"
+                  intname="p-47m-1-re"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="Lanovski's P-47M-1-RE">
-                    <a href="/Lanovski%27s_P-47M-1-RE" title="Lanovski's P-47M-1-RE">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">⋠P-47M-1-RE</span>
-                  </div>
-                  <TechTreeImg vehicle="p-47m-1-re_boxted" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/Lanovski%27s_P-47M-1-RE"
+                  title="Lanovski's P-47M-1-RE"
+                  item_type="prem"
+                  text="⋠P-47M-1-RE"
+                  intname="p-47m-1-re_boxted"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="Fw 190 A-8 (USA)">
-                    <a href="/Fw_190_A-8_(USA)" title="Fw 190 A-8 (USA)">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">▃Fw&nbsp;190&nbsp;A-8</span>
-                  </div>
-                  <TechTreeImg vehicle="fw-190a-8_usa" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/Fw_190_A-8_(USA)"
+                  title="Fw 190 A-8 (USA)"
+                  item_type="prem"
+                  text="▃Fw&nbsp;190&nbsp;A-8"
+                  intname="fw-190a-8_usa"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="Spitfire LF Mk IXc (USA)">
-                    <a href="/Spitfire_LF_Mk_IXc_(USA)" title="Spitfire LF Mk IXc (USA)">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">▃Spitfire&nbsp;LF Mk IXc</span>
-                  </div>
-                  <TechTreeImg vehicle="spitfire_ix_usa" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/Spitfire_LF_Mk_IXc_(USA)"
+                  title="Spitfire LF Mk IXc (USA)"
+                  item_type="prem"
+                  text="▃Spitfire&nbsp;LF Mk IXc"
+                  intname="spitfire_ix_usa"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="A2D-1">
-                    <a href="/A2D-1" title="A2D-1">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">A2D-1</span>
-                  </div>
-                  <TechTreeImg vehicle="a2d" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/A2D-1"
+                  title="A2D-1"
+                  item_type="prem"
+                  text="A2D-1"
+                  intname="a2d"
+                  type="aircraft"
                 />
+                <EmptyDiv />
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="Bong's P-38J-15">
-                    <a href="/Bong%27s_P-38J-15" title="Bong's P-38J-15">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">Bong&apos;s P-38J-15</span>
-                  </div>
-                  <TechTreeImg vehicle="p-38j_marge" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/Bong%27s_P-38J-15"
+                  title="Bong's P-38J-15"
+                  item_type="prem"
+                  text="Bong's P-38J-15"
+                  intname="p-38j_marge"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-38K">
-                    <a href="/P-38K" title="P-38K">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-38K</span>
-                  </div>
-                  <TechTreeImg vehicle="p-38k" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/P-38K"
+                  title="P-38K"
+                  item_type="prem"
+                  text="P-38K"
+                  intname="p-38k"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="P-59A">
-                    <a href="/P-59A" title="P-59A">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">P-59A</span>
-                  </div>
-                  <TechTreeImg vehicle="p-59a" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/P-59A"
+                  title="P-59A"
+                  item_type="prem"
+                  text="P-59A"
+                  intname="p-59a"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="A-26C-45">
-                    <a href="/A-26C-45" title="A-26C-45">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">A-26C-45</span>
-                  </div>
-                  <TechTreeImg vehicle="a-26c" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/A-26C-45"
+                  title="A-26C-45"
+                  item_type="own"
+                  text="A-26C-45"
+                  intname="a-26c"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="A-26C-45DT">
-                    <a href="/A-26C-45DT" title="A-26C-45DT">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">A-26C-45DT</span>
-                  </div>
-                  <TechTreeImg vehicle="a-26c-45-dt" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/A-26C-45DT"
+                  title="A-26C-45DT"
+                  item_type="prem"
+                  text="A-26C-45DT"
+                  intname="a-26c-45-dt"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F4U-4B VMF-214">
-                    <a href="/F4U-4B_VMF-214" title="F4U-4B VMF-214">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F4U-4B VMF-214</span>
-                  </div>
-                  <TechTreeImg vehicle="f4u-4b_vmf_214" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/F4U-4B_VMF-214"
+                  title="F4U-4B VMF-214"
+                  item_type="prem"
+                  text="F4U-4B VMF-214"
+                  intname="f4u-4b_vmf_214"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="AU-1">
-                    <a href="/AU-1" title="AU-1">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">AU-1</span>
-                  </div>
-                  <TechTreeImg vehicle="f4u-6_au-1" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/AU-1"
+                  title="AU-1"
+                  item_type="prem"
+                  text="AU-1"
+                  intname="f4u-6_au-1"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F2G-1">
-                    <a href="/F2G-1" title="F2G-1">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F2G-1</span>
-                  </div>
-                  <TechTreeImg vehicle="f2g-1" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/F2G-1"
+                  title="F2G-1"
+                  item_type="prem"
+                  text="F2G-1"
+                  intname="f2g-1"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F7F-3">
-                    <a href="/F7F-3" title="F7F-3">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F7F-3</span>
-                  </div>
-                  <TechTreeImg vehicle="f7f3" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/F7F-3"
+                  title="F7F-3"
+                  item_type="prem"
+                  text="F7F-3"
+                  intname="f7f3"
+                  type="aircraft"
                 />
+                <EmptyDiv />
               </td>
             </tr>
             <tr>
-              <th
-                style={{
-                  textAlign: "center",
-                  whiteSpace: "nowrap",
-                  verticalAlign: "middle",
-                  borderRight: "solid 1px #eeeeee",
-                  width: 32,
-                }}
-              >
-                <div
-                  style={{
-                    transform: "rotate(-90deg)",
-                    marginLeft: "-10em",
-                    marginRight: "-10em",
-                  }}
-                >
-                  V Rank
-                </div>
-              </th>
+              <Rank rank="V" />
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-80A-5">
-                    <a href="/F-80A-5" title="F-80A-5">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-80A-5</span>
-                  </div>
-                  <TechTreeImg vehicle="f-80a" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-80C-10">
-                    <a href="/F-80C-10" title="F-80C-10">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-80C-10</span>
-                  </div>
-                  <TechTreeImg vehicle="f-80" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <TechTreeItem
+                  link="/F-80A-5"
+                  title="F-80A-5"
+                  item_type="own"
+                  text="F-80A-5"
+                  intname="f-80a"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/F-80C-10"
+                  title="F-80C-10"
+                  item_type="own"
+                  text="F-80C-10"
+                  intname="f-80"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
               </td>
               <td>
                 <div style={{ position: "relative" }}>
@@ -2649,31 +1769,23 @@ export function USAAircraft() {
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="F-84B-26">
-                        <a href="/F-84B-26" title="F-84B-26">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">F-84B-26</span>
-                      </div>
-                      <TechTreeImg vehicle="f-84b" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="F-84G-21-RE">
-                        <a href="/F-84G-21-RE" title="F-84G-21-RE">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">F-84G-21-RE</span>
-                      </div>
-                      <TechTreeImg vehicle="f-84g" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/F-84B-26"
+                      title="F-84B-26"
+                      item_type="own"
+                      text="F-84B-26"
+                      intname="f-84b"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/F-84G-21-RE"
+                      title="F-84G-21-RE"
+                      item_type="own"
+                      text="F-84G-21-RE"
+                      intname="f-84g"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -2692,39 +1804,29 @@ export function USAAircraft() {
                     </div>
                   </div>
                 </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <Arrow type="small" />
                 <div style={{ position: "relative" }}>
                   <div
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="F-86A-5">
-                        <a href="/F-86A-5" title="F-86A-5">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">F-86A-5</span>
-                      </div>
-                      <TechTreeImg vehicle="f-86a-5" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="F-86F-25">
-                        <a href="/F-86F-25" title="F-86F-25">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">F-86F-25</span>
-                      </div>
-                      <TechTreeImg vehicle="f-86f-25" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/F-86A-5"
+                      title="F-86A-5"
+                      item_type="own"
+                      text="F-86A-5"
+                      intname="f-86a-5"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/F-86F-25"
+                      title="F-86F-25"
+                      item_type="own"
+                      text="F-86F-25"
+                      intname="f-86f-25"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -2743,55 +1845,40 @@ export function USAAircraft() {
                     </div>
                   </div>
                 </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <Arrow type="small" />
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F2H-2">
-                    <a href="/F2H-2" title="F2H-2">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F2H-2</span>
-                  </div>
-                  <TechTreeImg vehicle="f2h-2" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <TechTreeItem
+                  link="/F2H-2"
+                  title="F2H-2"
+                  item_type="own"
+                  text="F2H-2"
+                  intname="f2h-2"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
                 <div style={{ position: "relative" }}>
                   <div
                     className="tree-group-collapse"
                     style={{ display: "none", position: "absolute" }}
                   >
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="F9F-2">
-                        <a href="/F9F-2" title="F9F-2">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">F9F-2</span>
-                      </div>
-                      <TechTreeImg vehicle="f9f-2" type="aircraft" />
-                    </div>
-                    <div className="tree-arrow">
-                      <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                    </div>
-                    <div className="tree-item">
-                      <div className="tree-item-background" id="F9F-5">
-                        <a href="/F9F-5" title="F9F-5">
-                          <Item_own />
-                        </a>
-                      </div>
-                      <div className="tree-item-text">
-                        <span className="tree-item-text-scroll">F9F-5</span>
-                      </div>
-                      <TechTreeImg vehicle="f9f-5" type="aircraft" />
-                    </div>
+                    <TechTreeItem
+                      link="/F9F-2"
+                      title="F9F-2"
+                      item_type="own"
+                      text="F9F-2"
+                      intname="f9f-2"
+                      type="aircraft"
+                    />
+                    <Arrow type="small" />
+                    <TechTreeItem
+                      link="/F9F-5"
+                      title="F9F-5"
+                      item_type="own"
+                      text="F9F-5"
+                      intname="f9f-5"
+                      type="aircraft"
+                    />
                   </div>
                   <div
                     className="tree-group"
@@ -2810,173 +1897,100 @@ export function USAAircraft() {
                     </div>
                   </div>
                 </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <Arrow type="small" />
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F3D-1">
-                    <a href="/F3D-1" title="F3D-1">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F3D-1</span>
-                  </div>
-                  <TechTreeImg vehicle="f3d_1" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-84F">
-                    <a href="/F-84F" title="F-84F">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-84F</span>
-                  </div>
-                  <TechTreeImg vehicle="f-84f" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <TechTreeItem
+                  link="/F3D-1"
+                  title="F3D-1"
+                  item_type="own"
+                  text="F3D-1"
+                  intname="f3d_1"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/F-84F"
+                  title="F-84F"
+                  item_type="own"
+                  text="F-84F"
+                  intname="f-84f"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="B-57A">
-                    <a href="/B-57A" title="B-57A">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">B-57A</span>
-                  </div>
-                  <TechTreeImg vehicle="b-57" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="B-57B">
-                    <a href="/B-57B" title="B-57B">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">B-57B</span>
-                  </div>
-                  <TechTreeImg vehicle="b-57b" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
+                <TechTreeItem
+                  link="/B-57A"
+                  title="B-57A"
+                  item_type="own"
+                  text="B-57A"
+                  intname="b-57"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/B-57B"
+                  title="B-57B"
+                  item_type="own"
+                  text="B-57B"
+                  intname="b-57b"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-89B">
-                    <a href="/F-89B" title="F-89B">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-89B</span>
-                  </div>
-                  <TechTreeImg vehicle="f-89b" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-89D">
-                    <a href="/F-89D" title="F-89D">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-89D</span>
-                  </div>
-                  <TechTreeImg vehicle="f-89d" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/F-89B"
+                  title="F-89B"
+                  item_type="prem"
+                  text="F-89B"
+                  intname="f-89b"
+                  type="aircraft"
                 />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/F-89D"
+                  title="F-89D"
+                  item_type="prem"
+                  text="F-89D"
+                  intname="f-89d"
+                  type="aircraft"
+                />
+                <EmptyDiv />
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-86F-35">
-                    <a href="/F-86F-35" title="F-86F-35">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-86F-35</span>
-                  </div>
-                  <TechTreeImg vehicle="f-86f-35" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/F-86F-35"
+                  title="F-86F-35"
+                  item_type="prem"
+                  text="F-86F-35"
+                  intname="f-86f-35"
+                  type="aircraft"
                 />
+                <EmptyDiv />
               </td>
             </tr>
             <tr>
-              <th
-                style={{
-                  textAlign: "center",
-                  whiteSpace: "nowrap",
-                  verticalAlign: "middle",
-                  borderRight: "solid 1px #eeeeee",
-                  width: 32,
-                }}
-              >
-                <div
-                  style={{
-                    transform: "rotate(-90deg)",
-                    marginLeft: "-10em",
-                    marginRight: "-10em",
-                  }}
-                >
-                  VI Rank
-                </div>
-              </th>
+              <Rank rank="VI" />
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-104A">
-                    <a href="/F-104A" title="F-104A">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-104A</span>
-                  </div>
-                  <TechTreeImg vehicle="f-104a" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-104C">
-                    <a href="/F-104C" title="F-104C">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-104C</span>
-                  </div>
-                  <TechTreeImg vehicle="f-104c" type="aircraft" />
-                </div>
+                <TechTreeItem
+                  link="/F-104A"
+                  title="F-104A"
+                  item_type="own"
+                  text="F-104A"
+                  intname="f-104a"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/F-104C"
+                  title="F-104C"
+                  item_type="own"
+                  text="F-104C"
+                  intname="f-104c"
+                  type="aircraft"
+                />
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
@@ -2990,45 +2004,32 @@ export function USAAircraft() {
                 </div>
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-86F-2">
-                    <a href="/F-86F-2" title="F-86F-2">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-86F-2</span>
-                  </div>
-                  <TechTreeImg vehicle="f-86f-2" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-100D">
-                    <a href="/F-100D" title="F-100D">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-100D</span>
-                  </div>
-                  <TechTreeImg vehicle="f-100d" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-4C Phantom II">
-                    <a href="/F-4C_Phantom_II" title="F-4C Phantom II">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-4C Phantom II</span>
-                  </div>
-                  <TechTreeImg vehicle="f-4c" type="aircraft" />
-                </div>
+                <TechTreeItem
+                  link="/F-86F-2"
+                  title="F-86F-2"
+                  item_type="own"
+                  text="F-86F-2"
+                  intname="f-86f-2"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/F-100D"
+                  title="F-100D"
+                  item_type="own"
+                  text="F-100D"
+                  intname="f-100d"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/F-4C_Phantom_II"
+                  title="F-4C Phantom II"
+                  item_type="own"
+                  text="F-4C Phantom II"
+                  intname="f-4c"
+                  type="aircraft"
+                />
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
@@ -3038,45 +2039,32 @@ export function USAAircraft() {
                 </div>
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F9F-8">
-                    <a href="/F9F-8" title="F9F-8">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F9F-8</span>
-                  </div>
-                  <TechTreeImg vehicle="f9f-8" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F3H-2">
-                    <a href="/F3H-2" title="F3H-2">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F3H-2</span>
-                  </div>
-                  <TechTreeImg vehicle="f3h-2" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F8U-2">
-                    <a href="/F8U-2" title="F8U-2">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F8U-2</span>
-                  </div>
-                  <TechTreeImg vehicle="f8u-2" type="aircraft" />
-                </div>
+                <TechTreeItem
+                  link="/F9F-8"
+                  title="F9F-8"
+                  item_type="own"
+                  text="F9F-8"
+                  intname="f9f-8"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/F3H-2"
+                  title="F3H-2"
+                  item_type="own"
+                  text="F3H-2"
+                  intname="f3h-2"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/F8U-2"
+                  title="F8U-2"
+                  item_type="own"
+                  text="F8U-2"
+                  intname="f8u-2"
+                  type="aircraft"
+                />
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
@@ -3086,45 +2074,32 @@ export function USAAircraft() {
                 </div>
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="A-4B">
-                    <a href="/A-4B" title="A-4B">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">A-4B</span>
-                  </div>
-                  <TechTreeImg vehicle="a_4b" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="FJ-4B">
-                    <a href="/FJ-4B" title="FJ-4B">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">FJ-4B</span>
-                  </div>
-                  <TechTreeImg vehicle="fj_4b" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="AV-8C">
-                    <a href="/AV-8C" title="AV-8C">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">AV-8C</span>
-                  </div>
-                  <TechTreeImg vehicle="av_8c" type="aircraft" />
-                </div>
+                <TechTreeItem
+                  link="/A-4B"
+                  title="A-4B"
+                  item_type="own"
+                  text="A-4B"
+                  intname="a_4b"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/FJ-4B"
+                  title="FJ-4B"
+                  item_type="own"
+                  text="FJ-4B"
+                  intname="fj_4b"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/AV-8C"
+                  title="AV-8C"
+                  item_type="own"
+                  text="AV-8C"
+                  intname="av_8c"
+                  type="aircraft"
+                />
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
@@ -3134,329 +2109,171 @@ export function USAAircraft() {
                 </div>
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-105D">
-                    <a href="/F-105D" title="F-105D">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-105D</span>
-                  </div>
-                  <TechTreeImg vehicle="f-105d" type="aircraft" />
-                </div>
+                <TechTreeItem
+                  link="/F-105D"
+                  title="F-105D"
+                  item_type="own"
+                  text="F-105D"
+                  intname="f-105d"
+                  type="aircraft"
+                />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="A-4E Early">
-                    <a href="/A-4E_Early" title="A-4E Early">
-                      <Item_squad />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">A-4E Early</span>
-                  </div>
-                  <TechTreeImg vehicle="a_4e_early" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/A-4E_Early"
+                  title="A-4E Early"
+                  item_type="squad"
+                  text="A-4E Early"
+                  intname="a_4e_early"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="AV-8A">
-                    <a href="/AV-8A" title="AV-8A">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">AV-8A</span>
-                  </div>
-                  <TechTreeImg vehicle="av_8a" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/AV-8A"
+                  title="AV-8A"
+                  item_type="prem"
+                  text="AV-8A"
+                  intname="av_8a"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="A-10A">
-                    <a href="/A-10A" title="A-10A">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">A-10A</span>
-                  </div>
-                  <TechTreeImg vehicle="a_10a_early" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/A-10A"
+                  title="A-10A"
+                  item_type="prem"
+                  text="A-10A"
+                  intname="a_10a_early"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-5C">
-                    <a href="/F-5C" title="F-5C">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-5C</span>
-                  </div>
-                  <TechTreeImg vehicle="f-5c" type="aircraft" />
-                </div>
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/F-5C"
+                  title="F-5C"
+                  item_type="prem"
+                  text="F-5C"
+                  intname="f-5c"
+                  type="aircraft"
+                />
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="FJ-4B VMF-232">
-                    <a href="/FJ-4B_VMF-232" title="FJ-4B VMF-232">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">FJ-4B VMF-232</span>
-                  </div>
-                  <TechTreeImg vehicle="fj_4b_agm_12b" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/FJ-4B_VMF-232"
+                  title="FJ-4B VMF-232"
+                  item_type="own"
+                  text="FJ-4B VMF-232"
+                  intname="fj_4b_agm_12b"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F11F-1">
-                    <a href="/F11F-1" title="F11F-1">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F11F-1</span>
-                  </div>
-                  <TechTreeImg vehicle="f11f_1_late" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/F11F-1"
+                  title="F11F-1"
+                  item_type="own"
+                  text="F11F-1"
+                  intname="f11f_1_late"
+                  type="aircraft"
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-5A">
-                    <a href="/F-5A" title="F-5A">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-5A</span>
-                  </div>
-                  <TechTreeImg vehicle="f-5a" type="aircraft" />
-                </div>
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/F-5A"
+                  title="F-5A"
+                  item_type="own"
+                  text="F-5A"
+                  intname="f-5a"
+                  type="aircraft"
+                />
               </td>
             </tr>
             <tr>
-              <th
-                style={{
-                  textAlign: "center",
-                  whiteSpace: "nowrap",
-                  verticalAlign: "middle",
-                  borderRight: "solid 1px #eeeeee",
-                  width: 32,
-                }}
-              >
-                <div
-                  style={{
-                    transform: "rotate(-90deg)",
-                    marginLeft: "-10em",
-                    marginRight: "-10em",
-                  }}
-                >
-                  VII Rank
-                </div>
-              </th>
+              <Rank rank="VII" />
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-5E">
-                    <a href="/F-5E" title="F-5E">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-5E</span>
-                  </div>
-                  <TechTreeImg vehicle="f-5e" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/F-5E"
+                  title="F-5E"
+                  item_type="own"
+                  text="F-5E"
+                  intname="f-5e"
+                  type="aircraft"
                 />
+                <EmptyDiv />
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-4E Phantom II">
-                    <a href="/F-4E_Phantom_II" title="F-4E Phantom II">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-4E Phantom II</span>
-                  </div>
-                  <TechTreeImg vehicle="f-4e" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/F-4E_Phantom_II"
+                  title="F-4E Phantom II"
+                  item_type="own"
+                  text="F-4E Phantom II"
+                  intname="f-4e"
+                  type="aircraft"
                 />
+                <EmptyDiv />
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-8E">
-                    <a href="/F-8E" title="F-8E">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-8E</span>
-                  </div>
-                  <TechTreeImg vehicle="f-8e" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-4J Phantom II">
-                    <a href="/F-4J_Phantom_II" title="F-4J Phantom II">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-4J Phantom II</span>
-                  </div>
-                  <TechTreeImg vehicle="f-4j" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="F-14A Early">
-                    <a href="/F-14A_Early" title="F-14A Early">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">F-14A Early</span>
-                  </div>
-                  <TechTreeImg vehicle="f_14a_early" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/F-8E"
+                  title="F-8E"
+                  item_type="own"
+                  text="F-8E"
+                  intname="f-8e"
+                  type="aircraft"
                 />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/F-4J_Phantom_II"
+                  title="F-4J Phantom II"
+                  item_type="own"
+                  text="F-4J Phantom II"
+                  intname="f-4j"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/F-14A_Early"
+                  title="F-14A Early"
+                  item_type="own"
+                  text="F-14A Early"
+                  intname="f_14a_early"
+                  type="aircraft"
+                />
+                <EmptyDiv />
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="A-10A Late">
-                    <a href="/A-10A_Late" title="A-10A Late">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">A-10A Late</span>
-                  </div>
-                  <TechTreeImg vehicle="a_10a_late" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="A-7D">
-                    <a href="/A-7D" title="A-7D">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">A-7D</span>
-                  </div>
-                  <TechTreeImg vehicle="a_7d" type="aircraft" />
-                </div>
-                <div className="tree-arrow">
-                  <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                </div>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="A-7E">
-                    <a href="/A-7E" title="A-7E">
-                      <Item_own />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">A-7E</span>
-                  </div>
-                  <TechTreeImg vehicle="a_7e" type="aircraft" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/A-10A_Late"
+                  title="A-10A Late"
+                  item_type="own"
+                  text="A-10A Late"
+                  intname="a_10a_late"
+                  type="aircraft"
                 />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/A-7D"
+                  title="A-7D"
+                  item_type="own"
+                  text="A-7D"
+                  intname="a_7d"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/A-7E"
+                  title="A-7E"
+                  item_type="own"
+                  text="A-7E"
+                  intname="a_7e"
+                  type="aircraft"
+                />
+                <EmptyDiv />
               </td>
               <td>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
-                />
+                <EmptyDiv />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
-                />
+                <EmptyDiv />
               </td>
               <td>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
-                />
+                <EmptyDiv />
               </td>
             </tr>
           </tbody>

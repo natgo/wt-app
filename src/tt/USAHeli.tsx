@@ -1,5 +1,5 @@
 import { openfolder } from ".";
-import { Item_own, TechTreeImg, Item_prem, Item_squad } from "../TechTree";
+import { Arrow, EmptyDiv, Rank, Research, TechTreeItem } from "../TechTree";
 
 export function USAHeli() {
   return (
@@ -7,83 +7,49 @@ export function USAHeli() {
       <div className="tree">
         <table rules="rows" width="100%">
           <tbody>
-            <tr>
-              <th style={{ borderRight: "solid 1px #eeeeee" }} />
-              <th colSpan={1} style={{ borderRight: "solid 1px #eeeeee" }}>
-                <span>Researchable vehicles</span>
-              </th>
-              <th colSpan={2}>
-                <span>Premium vehicles</span>
-              </th>
-            </tr>
+            <Research research={1} premium={2} />
             <tr>
               <td colSpan={4} style={{ padding: 1, textAlign: "center" }}>
                 <p>
                   <span style={{ color: "#cccccc" }}>
                     Helicopters become available for research and purchase only with the ownership
-                    of at least one Rank 5 vehicle of the corresponding nation
+                    of at least one Rank 5 intname of the corresponding nation
                   </span>
                 </p>
               </td>
             </tr>
             <tr>
-              <th
-                style={{
-                  textAlign: "center",
-                  whiteSpace: "nowrap",
-                  verticalAlign: "middle",
-                  borderRight: "solid 1px #eeeeee",
-                  width: 32,
-                }}
-              >
-                <div
-                  style={{
-                    transform: "rotate(-90deg)",
-                    marginLeft: "-10em",
-                    marginRight: "-10em",
-                  }}
-                >
-                  V Rank
-                </div>
-              </th>
+              <Rank rank="V" />
               <td style={{ width: 500, paddingLeft: "18%" }}>
                 <table style={{ margin: 0, marginTop: "-7px" }} cellSpacing={0}>
                   <tbody>
                     <tr>
                       <td>
-                        <div className="tree-item">
-                          <div className="tree-item-background" id="AH-1G">
-                            <a href="/AH-1G" title="AH-1G">
-                              <Item_own />
-                            </a>
-                          </div>
-                          <div className="tree-item-text">
-                            <span className="tree-item-text-scroll">AH-1G</span>
-                          </div>
-                          <TechTreeImg vehicle="ah_1g" type="helicopter" />
-                        </div>
+                        <TechTreeItem
+                          link="/AH-1G"
+                          title="AH-1G"
+                          item_type="own"
+                          text="AH-1G"
+                          intname="ah_1g"
+                          type="helicopter"
+                        />
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <div className="tree-arrow">
-                          <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                        </div>
+                        <Arrow type="small" />
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <div className="tree-item">
-                          <div className="tree-item-background" id="UH-1B">
-                            <a href="/UH-1B" title="UH-1B">
-                              <Item_own />
-                            </a>
-                          </div>
-                          <div className="tree-item-text">
-                            <span className="tree-item-text-scroll">UH-1B</span>
-                          </div>
-                          <TechTreeImg vehicle="uh_1b" type="helicopter" />
-                        </div>
+                        <TechTreeItem
+                          link="/UH-1B"
+                          title="UH-1B"
+                          item_type="own"
+                          text="UH-1B"
+                          intname="uh_1b"
+                          type="helicopter"
+                        />
                       </td>
                       <td>
                         <div className="tree-arrow-right">
@@ -91,93 +57,57 @@ export function USAHeli() {
                         </div>
                       </td>
                       <td>
-                        <div className="tree-item">
-                          <div className="tree-item-background" id="UH-1C">
-                            <a href="/UH-1C" title="UH-1C">
-                              <Item_own />
-                            </a>
-                          </div>
-                          <div className="tree-item-text">
-                            <span className="tree-item-text-scroll">UH-1C</span>
-                          </div>
-                          <TechTreeImg vehicle="uh_1c" type="helicopter" />
-                        </div>
+                        <TechTreeItem
+                          link="/UH-1C"
+                          title="UH-1C"
+                          item_type="own"
+                          text="UH-1C"
+                          intname="uh_1c"
+                          type="helicopter"
+                        />
                       </td>
                     </tr>
                     <tr>
                       <td />
                       <td />
                       <td>
-                        <div className="tree-arrow">
-                          <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                        </div>
+                        <Arrow type="small" />
                       </td>
                     </tr>
                   </tbody>
                 </table>
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="H-34">
-                    <a href="/H-34" title="H-34">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">H-34</span>
-                  </div>
-                  <TechTreeImg vehicle="h_34" type="helicopter" />
-                </div>
+                <TechTreeItem
+                  link="/H-34"
+                  title="H-34"
+                  item_type="prem"
+                  text="H-34"
+                  intname="h_34"
+                  type="helicopter"
+                />
                 <div
                   style={{
                     position: "relative",
-                    width: 120,
+                    width: 160,
                     height: 44,
                     margin: "auto",
                   }}
                 />
-                <div className="tree-item">
-                  <div className="tree-item-background" id="UH-1C XM-30">
-                    <a href="/UH-1C_XM-30" title="UH-1C XM-30">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">UH-1C XM-30</span>
-                  </div>
-                  <TechTreeImg vehicle="uh_1c_xm_30" type="helicopter" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/UH-1C_XM-30"
+                  title="UH-1C XM-30"
+                  item_type="prem"
+                  text="UH-1C XM-30"
+                  intname="uh_1c_xm_30"
+                  type="helicopter"
                 />
+                <EmptyDiv />
               </td>
               <td />
             </tr>
             <tr>
-              <th
-                style={{
-                  textAlign: "center",
-                  whiteSpace: "nowrap",
-                  verticalAlign: "middle",
-                  borderRight: "solid 1px #eeeeee",
-                  width: 32,
-                }}
-              >
-                <div
-                  style={{
-                    transform: "rotate(-90deg)",
-                    marginLeft: "-10em",
-                    marginRight: "-10em",
-                  }}
-                >
-                  VI Rank
-                </div>
-              </th>
+              <Rank rank="VI" />
               <td style={{ width: 500, paddingLeft: "18%" }}>
                 <table style={{ margin: 0, marginTop: "-7px" }} cellSpacing={0}>
                   <tbody>
@@ -185,17 +115,14 @@ export function USAHeli() {
                       <td />
                       <td />
                       <td>
-                        <div className="tree-item">
-                          <div className="tree-item-background" id="AH-1F">
-                            <a href="/AH-1F" title="AH-1F">
-                              <Item_own />
-                            </a>
-                          </div>
-                          <div className="tree-item-text">
-                            <span className="tree-item-text-scroll">AH-1F</span>
-                          </div>
-                          <TechTreeImg vehicle="ah_1f" type="helicopter" />
-                        </div>
+                        <TechTreeItem
+                          link="/AH-1F"
+                          title="AH-1F"
+                          item_type="own"
+                          text="AH-1F"
+                          intname="ah_1f"
+                          type="helicopter"
+                        />
                       </td>
                     </tr>
                     <tr>
@@ -207,17 +134,14 @@ export function USAHeli() {
                     </tr>
                     <tr>
                       <td>
-                        <div className="tree-item">
-                          <div className="tree-item-background" id="AH-64A">
-                            <a href="/AH-64A" title="AH-64A">
-                              <Item_own />
-                            </a>
-                          </div>
-                          <div className="tree-item-text">
-                            <span className="tree-item-text-scroll">AH-64A</span>
-                          </div>
-                          <TechTreeImg vehicle="ah_64a" type="helicopter" />
-                        </div>
+                        <TechTreeItem
+                          link="/AH-64A"
+                          title="AH-64A"
+                          item_type="own"
+                          text="AH-64A"
+                          intname="ah_64a"
+                          type="helicopter"
+                        />
                       </td>
                       <td />
                       <td rowSpan={2}>
@@ -234,111 +158,65 @@ export function USAHeli() {
                     </tr>
                     <tr>
                       <td>
-                        <div className="tree-arrow">
-                          <img src="/images/Arrow-small.png" alt="Arrow.png" />
-                        </div>
+                        <Arrow type="small" />
                       </td>
                     </tr>
                   </tbody>
                 </table>
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="YAH-64">
-                    <a href="/YAH-64" title="YAH-64">
-                      <Item_squad />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">YAH-64</span>
-                  </div>
-                  <TechTreeImg vehicle="yah_64" type="helicopter" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/YAH-64"
+                  title="YAH-64"
+                  item_type="squad"
+                  text="YAH-64"
+                  intname="yah_64"
+                  type="helicopter"
                 />
+                <EmptyDiv />
               </td>
               <td>
-                <div className="tree-item">
-                  <div className="tree-item-background" id="AH-64A Peten">
-                    <a href="/AH-64A_Peten" title="AH-64A Peten">
-                      <Item_prem />
-                    </a>
-                  </div>
-                  <div className="tree-item-text">
-                    <span className="tree-item-text-scroll">AH-64A Peten</span>
-                  </div>
-                  <TechTreeImg vehicle="ah_64a_peten" type="helicopter" />
-                </div>
-                <div
-                  style={{
-                    position: "relative",
-                    width: 120,
-                    height: 30,
-                    margin: "auto",
-                  }}
+                <TechTreeItem
+                  link="/AH-64A_Peten"
+                  title="AH-64A Peten"
+                  item_type="prem"
+                  text="AH-64A Peten"
+                  intname="ah_64a_peten"
+                  type="helicopter"
                 />
+                <EmptyDiv />
               </td>
             </tr>
             <tr>
-              <th
-                style={{
-                  textAlign: "center",
-                  whiteSpace: "nowrap",
-                  verticalAlign: "middle",
-                  borderRight: "solid 1px #eeeeee",
-                  width: 32,
-                }}
-              >
-                <div
-                  style={{
-                    transform: "rotate(-90deg)",
-                    marginLeft: "-10em",
-                    marginRight: "-10em",
-                  }}
-                >
-                  VII Rank
-                </div>
-              </th>
+              <Rank rank="VII" />
               <td style={{ width: 500, paddingLeft: "18%" }}>
                 <table style={{ margin: 0, marginTop: "-7px" }} cellSpacing={0}>
                   <tbody>
                     <tr>
                       <td>
-                        <div className="tree-item">
-                          <div className="tree-item-background" id="AH-64D">
-                            <a href="/AH-64D" title="AH-64D">
-                              <Item_own />
-                            </a>
-                          </div>
-                          <div className="tree-item-text">
-                            <span className="tree-item-text-scroll">AH-64D</span>
-                          </div>
-                          <TechTreeImg vehicle="ah_64d" type="helicopter" />
-                        </div>
+                        <TechTreeItem
+                          link="/AH-64D"
+                          title="AH-64D"
+                          item_type="own"
+                          text="AH-64D"
+                          intname="ah_64d"
+                          type="helicopter"
+                        />
                       </td>
                       <td />
                       <td>
-                        <div className="tree-item">
-                          <div className="tree-item-background" id="AH-1Z">
-                            <a href="/AH-1Z" title="AH-1Z">
-                              <Item_own />
-                            </a>
-                          </div>
-                          <div className="tree-item-text">
-                            <span className="tree-item-text-scroll">AH-1Z</span>
-                          </div>
-                          <TechTreeImg vehicle="ah_1z" type="helicopter" />
-                        </div>
+                        <TechTreeItem
+                          link="/AH-1Z"
+                          title="AH-1Z"
+                          item_type="own"
+                          text="AH-1Z"
+                          intname="ah_1z"
+                          type="helicopter"
+                        />
                         <div
                           style={{
                             position: "relative",
-                            width: 120,
+                            width: 160,
                             height: 30,
                             margin: "auto",
                           }}

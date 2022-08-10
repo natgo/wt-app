@@ -1,6 +1,5 @@
 export type { FinalProp };
 
-
 interface FinalProp {
   updated: Date;
   ground: GroundProps[];
