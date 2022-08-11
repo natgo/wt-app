@@ -1,5 +1,4 @@
-import { openfolder } from ".";
-import { Arrow, EmptyDiv, Rank, Research, TechTreeItem } from "../TechTree";
+import { Arrow, EmptyDiv, MediaHead, Rank, Research, TechTreeItem, TreeFolder } from "../TechTree";
 
 export function BritainGround() {
   return (
@@ -136,87 +135,45 @@ export function BritainGround() {
             <tr>
               <Rank rank="II" />
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Crusader_II"
-                      title="Crusader II"
-                      item_type="own"
-                      text="Crusader II"
-                      intname="uk_crusader_mk_2"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Crusader_III"
-                      title="Crusader III"
-                      item_type="own"
-                      text="Crusader III"
-                      intname="uk_crusader_mk_3"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Crusader</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/uk_crusader_group.png"
-                        alt="uk_crusader_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Crusader" img="uk_crusader_group">
+                  <TechTreeItem
+                    link="/Crusader_II"
+                    title="Crusader II"
+                    item_type="own"
+                    text="Crusader II"
+                    intname="uk_crusader_mk_2"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Crusader_III"
+                    title="Crusader III"
+                    item_type="own"
+                    text="Crusader III"
+                    intname="uk_crusader_mk_3"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Cromwell_V"
-                      title="Cromwell V"
-                      item_type="own"
-                      text="Cromwell V"
-                      intname="uk_a27m_cromwell_5"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Cromwell_I"
-                      title="Cromwell I"
-                      item_type="own"
-                      text="Cromwell I"
-                      intname="uk_a27m_cromwell_1"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Cromwell</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/uk_cromwell_group.png"
-                        alt="uk_cromwell_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Cromwell" img="uk_cromwell_group">
+                  <TechTreeItem
+                    link="/Cromwell_V"
+                    title="Cromwell V"
+                    item_type="own"
+                    text="Cromwell V"
+                    intname="uk_a27m_cromwell_5"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Cromwell_I"
+                    title="Cromwell I"
+                    item_type="own"
+                    text="Cromwell I"
+                    intname="uk_a27m_cromwell_1"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/Sherman_II"
@@ -228,55 +185,34 @@ export function BritainGround() {
                 />
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Valentine_I"
-                      title="Valentine I"
-                      item_type="own"
-                      text="Valentine I"
-                      intname="uk_valentine_mk_1"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Valentine_XI"
-                      title="Valentine XI"
-                      item_type="own"
-                      text="Valentine XI"
-                      intname="uk_valentine_mk_11"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Valentine_IX"
-                      title="Valentine IX"
-                      item_type="own"
-                      text="Valentine IX"
-                      intname="uk_valentine_mk_9"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Valentine</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/uk_valentine_mk_11_9_group.png"
-                        alt="uk_valentine_mk_11_9_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Valentine" img="uk_valentine_mk_11_9_group">
+                  <TechTreeItem
+                    link="/Valentine_I"
+                    title="Valentine I"
+                    item_type="own"
+                    text="Valentine I"
+                    intname="uk_valentine_mk_1"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Valentine_XI"
+                    title="Valentine XI"
+                    item_type="own"
+                    text="Valentine XI"
+                    intname="uk_valentine_mk_11"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Valentine_IX"
+                    title="Valentine IX"
+                    item_type="own"
+                    text="Valentine IX"
+                    intname="uk_valentine_mk_9"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/Matilda_III"
@@ -910,46 +846,25 @@ export function BritainGround() {
             <tr>
               <Rank rank="VI" />
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Chieftain_Mk_3"
-                      title="Chieftain Mk 3"
-                      item_type="own"
-                      text="Chieftain Mk 3"
-                      intname="uk_chieftain_mk_3"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Chieftain_Mk_5"
-                      title="Chieftain Mk 5"
-                      item_type="own"
-                      text="Chieftain Mk 5"
-                      intname="uk_chieftain_mk_5"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Chieftain 3/5</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/uk_chieftain_mk_3_5_group.png"
-                        alt="uk_chieftain_mk_3_5_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Chieftain 3/5" img="uk_chieftain_mk_3_5_group">
+                  <TechTreeItem
+                    link="/Chieftain_Mk_3"
+                    title="Chieftain Mk 3"
+                    item_type="own"
+                    text="Chieftain Mk 3"
+                    intname="uk_chieftain_mk_3"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Chieftain_Mk_5"
+                    title="Chieftain Mk 5"
+                    item_type="own"
+                    text="Chieftain Mk 5"
+                    intname="uk_chieftain_mk_5"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/Chieftain_Mk_10"
@@ -1202,193 +1117,38 @@ export function BritainGround() {
           </tbody>
         </table>
       </div>
-      <h2>
-        <span className="mw-headline" id="Media">
-          Media
-        </span>
-      </h2>
+      <MediaHead />
       <div className="video_gallery">
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/YRzCNF9IvDs?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>African armor</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/kcOqzAKOc88?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>intname overview: British tanks</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/ItOZD40Vmw8?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>British ground forces Tier I - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/e2sOg1kxgyY?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>British ground forces Tier II - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/IVF-kTJHhz4?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>British ground forces Tier III - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/UBBAoWVlOfo?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>British ground forces Tier IV - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/YaYATCRAELY?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>British ground forces Tier V - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/OB2-pfy1K9I?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>British ground forces Tier VI - Review and Analysis (part 1)</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/gryGwqSmS8Y?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>British ground forces Tier VI &amp; VII - Review and Analysis (part 2)</b> -{" "}
-            <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/wm9tv2seEPI?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>British ground forces addendum + Talisman guide</b> - <i>Oxy</i>
-          </div>
-        </div>
+        <a href="https://yewtu.be/YRzCNF9IvDs">
+          <b>African armor</b> - <i>War Thunder Official Channel</i>
+        </a>
+        <a href="https://yewtu.be/kcOqzAKOc88">
+          <b>Vehicle overview: British tanks</b> - <i>War Thunder Official Channel</i>
+        </a>
+        <a href="https://yewtu.be/ItOZD40Vmw8">
+          <b>British ground forces Tier I - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/e2sOg1kxgyY">
+          <b>British ground forces Tier II - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/IVF-kTJHhz4">
+          <b>British ground forces Tier III - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/UBBAoWVlOfo">
+          <b>British ground forces Tier IV - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/YaYATCRAELY">
+          <b>British ground forces Tier V - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/OB2-pfy1K9I">
+          <b>British ground forces Tier VI - Review and Analysis (part 1)</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/gryGwqSmS8Y">
+          <b>British ground forces Tier VI &amp; VII - Review and Analysis (part 2)</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/wm9tv2seEPI">
+          <b>British ground forces addendum + Talisman guide</b> - <i>Oxy</i>
+        </a>
       </div>
     </div>
   );

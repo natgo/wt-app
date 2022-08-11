@@ -1,5 +1,4 @@
-import { openfolder } from ".";
-import { Arrow, EmptyDiv, Rank, Research, TechTreeItem } from "../TechTree";
+import { Arrow, EmptyDiv, MediaHead, Rank, Research, TechTreeItem, TreeFolder } from "../TechTree";
 
 export function ItalyGround() {
   return (
@@ -46,46 +45,25 @@ export function ItalyGround() {
                   type="ground"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/M13/40_(I)"
-                      title="M13/40 (I)"
-                      item_type="own"
-                      text="M13/40 (I)"
-                      intname="it_m13_40_serie_1"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/M13/40_(III)"
-                      title="M13/40 (III)"
-                      item_type="own"
-                      text="M13/40 (III)"
-                      intname="it_m13_40_serie_3"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">M13/40 I/III</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/it_m13_40_group.png"
-                        alt="it_m13_40_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="M13/40 I/III" img="it_m13_40_group">
+                  <TechTreeItem
+                    link="/M13/40_(I)"
+                    title="M13/40 (I)"
+                    item_type="own"
+                    text="M13/40 (I)"
+                    intname="it_m13_40_serie_1"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/M13/40_(III)"
+                    title="M13/40 (III)"
+                    item_type="own"
+                    text="M13/40 (III)"
+                    intname="it_m13_40_serie_3"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/M14/41"
@@ -261,46 +239,25 @@ export function ItalyGround() {
                 </div>
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/75/18_M41"
-                      title="75/18 M41"
-                      item_type="own"
-                      text="75/18 M41"
-                      intname="it_semovente_m41_75_18"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/75/32_M41"
-                      title="75/32 M41"
-                      item_type="own"
-                      text="75/32 M41"
-                      intname="it_semovente_m41_75_32"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">M41 (75/18 75/32)</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/it_semovente_m41_group.png"
-                        alt="it_semovente_m41_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="M41 (75/18 75/32)" img="it_semovente_m41_group">
+                  <TechTreeItem
+                    link="/75/18_M41"
+                    title="75/18 M41"
+                    item_type="own"
+                    text="75/18 M41"
+                    intname="it_semovente_m41_75_18"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/75/32_M41"
+                    title="75/32 M41"
+                    item_type="own"
+                    text="75/32 M41"
+                    intname="it_semovente_m41_75_32"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/75/34_M42"
@@ -311,46 +268,25 @@ export function ItalyGround() {
                   type="ground"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/105/25_M43"
-                      title="105/25 M43"
-                      item_type="own"
-                      text="105/25 M43"
-                      intname="it_semovente_m43_105"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/75/34_M43"
-                      title="75/34 M43"
-                      item_type="own"
-                      text="75/34 M43"
-                      intname="it_semovente_m43_75_34"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">M43 (105/25 75/34)</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/it_semovente_m43_group.png"
-                        alt="it_semovente_m43_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="M43 (105/25 75/34)" img="it_semovente_m43_group">
+                  <TechTreeItem
+                    link="/105/25_M43"
+                    title="105/25 M43"
+                    item_type="own"
+                    text="105/25 M43"
+                    intname="it_semovente_m43_105"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/75/34_M43"
+                    title="75/34 M43"
+                    item_type="own"
+                    text="75/34 M43"
+                    intname="it_semovente_m43_75_34"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
@@ -901,156 +837,32 @@ export function ItalyGround() {
           </tbody>
         </table>
       </div>
-      <h2>
-        <span className="mw-headline" id="Media">
-          Media
-        </span>
-      </h2>
+      <MediaHead />
       <div className="video_gallery">
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/LcDWEzB8TKE?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Italian ground forces: speed and firepower</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/584AxCngmho?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Italian ground forces Tier I - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/ajd08SXOFXk?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Italian ground forces Tier II - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/Hj2A9I_nJ_A?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Italian ground forces Tier III - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/yYOVd6rMmU4?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Italian ground forces Tier IV - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/weVBbUvQfHo?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Italian ground forces Tier V - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/V5u7dkD46-8?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Italian ground forces Tier VI &amp; VII - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/4zcqjXX_ZY4?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Italian ground forces addendum</b> - <i>Oxy</i>
-          </div>
-        </div>
+        <a href="https://yewtu.be/LcDWEzB8TKE">
+          <b>Italian ground forces: speed and firepower</b> - <i>War Thunder Official Channel</i>
+        </a>
+        <a href="https://yewtu.be/584AxCngmho">
+          <b>Italian ground forces Tier I - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/ajd08SXOFXk">
+          <b>Italian ground forces Tier II - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/Hj2A9I_nJ_A">
+          <b>Italian ground forces Tier III - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/yYOVd6rMmU4">
+          <b>Italian ground forces Tier IV - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/weVBbUvQfHo">
+          <b>Italian ground forces Tier V - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/V5u7dkD46-8">
+          <b>Italian ground forces Tier VI &amp; VII - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/4zcqjXX_ZY4">
+          <b>Italian ground forces addendum</b> - <i>Oxy</i>
+        </a>
       </div>
     </div>
   );

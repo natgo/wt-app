@@ -1,5 +1,4 @@
-import { openfolder } from ".";
-import { Arrow, EmptyDiv, Rank, Research, TechTreeItem } from "../TechTree";
+import { Arrow, EmptyDiv, MediaHead, Rank, Research, TechTreeItem, TreeFolder } from "../TechTree";
 
 export function IsraelGround() {
   return (
@@ -321,30 +320,11 @@ export function IsraelGround() {
           </tbody>
         </table>
       </div>
-      <h2>
-        <span className="mw-headline" id="Media">
-          Media
-        </span>
-      </h2>
+      <MediaHead />
       <div className="video_gallery">
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/XxBUWKsv0LU?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Climbing the Ranks: Israeli Armor</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
+        <a href="https://yewtu.be/XxBUWKsv0LU">
+          <b>Climbing the Ranks: Israeli Armor</b> - <i>War Thunder Official Channel</i>
+        </a>
       </div>
     </div>
   );

@@ -1,5 +1,4 @@
-import { openfolder } from ".";
-import { Arrow, EmptyDiv, Rank, Research, TechTreeItem } from "../TechTree";
+import { Arrow, EmptyDiv, MediaHead, Rank, Research, TechTreeItem, TreeFolder } from "../TechTree";
 
 export function IsraelAircraft() {
   return (
@@ -302,66 +301,17 @@ export function IsraelAircraft() {
           </tbody>
         </table>
       </div>
-      <h2>
-        <span className="mw-headline" id="Media">
-          Media
-        </span>
-      </h2>
+      <MediaHead />
       <div className="video_gallery">
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/ZRZdHE3G3CY?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Climbing the Ranks: Israeli Aircraft</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/1gnpWiH1e08?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Israeli Air Forces Rank V - Tutorial And Guide</b> - <i>Jengar</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/DtktcYtzNmA?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Israeli Air Forces Rank IV - Tutorial and Guide</b> - <i>Jengar</i>
-          </div>
-        </div>
+        <a href="https://yewtu.be/ZRZdHE3G3CY">
+          <b>Climbing the Ranks: Israeli Aircraft</b> - <i>War Thunder Official Channel</i>
+        </a>
+        <a href="https://yewtu.be/1gnpWiH1e08">
+          <b>Israeli Air Forces Rank V - Tutorial And Guide</b> - <i>Jengar</i>
+        </a>
+        <a href="https://yewtu.be/DtktcYtzNmA">
+          <b>Israeli Air Forces Rank IV - Tutorial and Guide</b> - <i>Jengar</i>
+        </a>
       </div>
     </div>
   );

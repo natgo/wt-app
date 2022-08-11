@@ -1,5 +1,4 @@
-import { openfolder } from ".";
-import { Arrow, EmptyDiv, Rank, Research, TechTreeItem } from "../TechTree";
+import { Arrow, EmptyDiv, MediaHead, Rank, Research, TechTreeItem, TreeFolder } from "../TechTree";
 
 export function SwedenGround() {
   return (
@@ -684,48 +683,14 @@ export function SwedenGround() {
           </tbody>
         </table>
       </div>
-      <h2>
-        <span className="mw-headline" id="Media">
-          Media
-        </span>
-      </h2>
+      <MediaHead />
       <div className="video_gallery">
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/LC_oqR7HTBQ?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Sound Recording Swedish Tanks</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/YjidJ7K95Lc?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Climbing the ranks with Swedish tanks</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
+        <a href="https://yewtu.be/LC_oqR7HTBQ">
+          <b>Sound Recording Swedish Tanks</b> - <i>War Thunder Official Channel</i>
+        </a>
+        <a href="https://yewtu.be/YjidJ7K95Lc">
+          <b>Climbing the ranks with Swedish tanks</b> - <i>War Thunder Official Channel</i>
+        </a>
       </div>
     </div>
   );

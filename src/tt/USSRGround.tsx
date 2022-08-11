@@ -1,5 +1,4 @@
-import { openfolder } from ".";
-import { Arrow, EmptyDiv, Rank, Research, TechTreeItem } from "../TechTree";
+import { Arrow, EmptyDiv, MediaHead, Rank, Research, TechTreeItem, TreeFolder } from "../TechTree";
 
 export function USSRGround() {
   return (
@@ -297,46 +296,25 @@ export function USSRGround() {
                   type="ground"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/T-34_(1940)"
-                      title="T-34 (1940)"
-                      item_type="own"
-                      text="T-34 (1940)"
-                      intname="ussr_t_34_1941_l_11"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/T-34_(1941)"
-                      title="T-34 (1941)"
-                      item_type="own"
-                      text="T-34 (1941)"
-                      intname="ussr_t_34_1941"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">T-34</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/ussr_t_34_40_41_group.png"
-                        alt="ussr_t_34_40_41_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="T-34" img="ussr_t_34_40_41_group">
+                  <TechTreeItem
+                    link="/T-34_(1940)"
+                    title="T-34 (1940)"
+                    item_type="own"
+                    text="T-34 (1940)"
+                    intname="ussr_t_34_1941_l_11"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/T-34_(1941)"
+                    title="T-34 (1941)"
+                    item_type="own"
+                    text="T-34 (1941)"
+                    intname="ussr_t_34_1941"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/T-34_(1942)"
@@ -358,46 +336,25 @@ export function USSRGround() {
                 <EmptyDiv />
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/T-28"
-                      title="T-28"
-                      item_type="own"
-                      text="T-28"
-                      intname="ussr_t_28"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/T-28E"
-                      title="T-28E"
-                      item_type="own"
-                      text="T-28E"
-                      intname="ussr_t_28e"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">T-28/T-28E</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/ussr_t_28_t_28e_group.png"
-                        alt="ussr_t_28_t_28e_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="T-28/T-28E" img="ussr_t_28_t_28e_group">
+                  <TechTreeItem
+                    link="/T-28"
+                    title="T-28"
+                    item_type="own"
+                    text="T-28"
+                    intname="ussr_t_28"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/T-28E"
+                    title="T-28E"
+                    item_type="own"
+                    text="T-28E"
+                    intname="ussr_t_28e"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/KV-1_(L-11)"
@@ -795,87 +752,45 @@ export function USSRGround() {
                 </div>
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/SU-152"
-                      title="SU-152"
-                      item_type="own"
-                      text="SU-152"
-                      intname="ussr_su_152"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/ISU-152"
-                      title="ISU-152"
-                      item_type="own"
-                      text="ISU-152"
-                      intname="ussr_isu_152"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">SU-152/ISU-152</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/ussr_su_isu_group.png"
-                        alt="ussr_su_isu_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="SU-152/ISU-152" img="ussr_su_isu_group">
+                  <TechTreeItem
+                    link="/SU-152"
+                    title="SU-152"
+                    item_type="own"
+                    text="SU-152"
+                    intname="ussr_su_152"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/ISU-152"
+                    title="ISU-152"
+                    item_type="own"
+                    text="ISU-152"
+                    intname="ussr_isu_152"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/SU-85"
-                      title="SU-85"
-                      item_type="own"
-                      text="SU-85"
-                      intname="ussr_su_85_1943"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/SU-85M"
-                      title="SU-85M"
-                      item_type="own"
-                      text="SU-85M"
-                      intname="ussr_su_85m"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">SU-85</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/ussr_su_85_group.png"
-                        alt="ussr_su_85_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="SU-85" img="ussr_su_85_group">
+                  <TechTreeItem
+                    link="/SU-85"
+                    title="SU-85"
+                    item_type="own"
+                    text="SU-85"
+                    intname="ussr_su_85_1943"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/SU-85M"
+                    title="SU-85M"
+                    item_type="own"
+                    text="SU-85M"
+                    intname="ussr_su_85m"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/ISU-122"
@@ -1063,53 +978,32 @@ export function USSRGround() {
                   type="ground"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
+                <TreeFolder name="IS-2 (1944)" img="ussr_is_2_1944_group">
+                  <TechTreeItem
+                    link="/IS-2_(1944)"
+                    title="IS-2 (1944)"
+                    item_type="own"
+                    text="IS-2 (1944)"
+                    intname="ussr_is_2_1944"
+                    type="ground"
+                  />
                   <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/IS-2_(1944)"
-                      title="IS-2 (1944)"
-                      item_type="own"
-                      text="IS-2 (1944)"
-                      intname="ussr_is_2_1944"
-                      type="ground"
-                    />
-                    <div
-                      style={{
-                        position: "relative",
-                        width: 160,
-                        height: 30,
-                        margin: "auto",
-                      }}
-                    />
-                    <TechTreeItem
-                      link="/IS-2_No.321"
-                      title="IS-2 No.321"
-                      item_type="own"
-                      text="IS-2 No.321"
-                      intname="ussr_is_2_1944_321"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
+                    style={{
+                      position: "relative",
+                      width: 160,
+                      height: 30,
+                      margin: "auto",
                     }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">IS-2 (1944)</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/ussr_is_2_1944_group.png"
-                        alt="ussr_is_2_1944_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                  />
+                  <TechTreeItem
+                    link="/IS-2_No.321"
+                    title="IS-2 No.321"
+                    item_type="own"
+                    text="IS-2 No.321"
+                    intname="ussr_is_2_1944_321"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
@@ -1331,46 +1225,25 @@ export function USSRGround() {
                   type="ground"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/T-54_(1947)"
-                      title="T-54 (1947)"
-                      item_type="own"
-                      text="T-54 (1947)"
-                      intname="ussr_t_54_1947"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/T-54_(1951)"
-                      title="T-54 (1951)"
-                      item_type="own"
-                      text="T-54 (1951)"
-                      intname="ussr_t_54_1951"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">T-54</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/ussr_t_54_group.png"
-                        alt="ussr_t_54_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="T-54" img="ussr_t_54_group">
+                  <TechTreeItem
+                    link="/T-54_(1947)"
+                    title="T-54 (1947)"
+                    item_type="own"
+                    text="T-54 (1947)"
+                    intname="ussr_t_54_1947"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/T-54_(1951)"
+                    title="T-54 (1951)"
+                    item_type="own"
+                    text="T-54 (1951)"
+                    intname="ussr_t_54_1951"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
               </td>
               <td>
@@ -1503,46 +1376,25 @@ export function USSRGround() {
                   type="ground"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/T-62"
-                      title="T-62"
-                      item_type="own"
-                      text="T-62"
-                      intname="ussr_t_62"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/T-62M-1"
-                      title="T-62M-1"
-                      item_type="own"
-                      text="T-62M-1"
-                      intname="ussr_t_62m1"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">T-62</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/t_62_group.png"
-                        alt="t_62_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="T-62" img="t_62_group">
+                  <TechTreeItem
+                    link="/T-62"
+                    title="T-62"
+                    item_type="own"
+                    text="T-62"
+                    intname="ussr_t_62"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/T-62M-1"
+                    title="T-62M-1"
+                    item_type="own"
+                    text="T-62M-1"
+                    intname="ussr_t_62m1"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/T-72A"
@@ -1553,46 +1405,25 @@ export function USSRGround() {
                   type="ground"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/T-72B"
-                      title="T-72B"
-                      item_type="own"
-                      text="T-72B"
-                      intname="ussr_t_72b"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/T-72B_(1989)"
-                      title="T-72B (1989)"
-                      item_type="own"
-                      text="T-72B (1989)"
-                      intname="ussr_t_72b_1989"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">T-72B</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/t_72b_group.png"
-                        alt="t_72b_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="T-72B" img="t_72b_group">
+                  <TechTreeItem
+                    link="/T-72B"
+                    title="T-72B"
+                    item_type="own"
+                    text="T-72B"
+                    intname="ussr_t_72b"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/T-72B_(1989)"
+                    title="T-72B (1989)"
+                    item_type="own"
+                    text="T-72B (1989)"
+                    intname="ussr_t_72b_1989"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
               </td>
               <td>
@@ -1897,156 +1728,32 @@ export function USSRGround() {
           </tbody>
         </table>
       </div>
-      <h2>
-        <span className="mw-headline" id="Media">
-          Media
-        </span>
-      </h2>
+      <MediaHead />
       <div className="video_gallery">
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/4tLiivpJ7nk?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Book of Records USSR</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/klfkO6hJQGk?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Climbing the ranks with Soviet tanks</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/z5ZZzHNPYi4?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Russian ground forces Tier I - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/TXWa-Nnc6IE?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Russian ground forces Tier II - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/MRlEuQRfHdk?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Russian ground forces Tier III - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/nw2LFVdhm5s?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Russian ground forces Tier IV - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/XtuTkDhE3OQ?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Russian ground forces Tier V - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/idwfz6_Nl6I?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Russian ground forces Tier VI/VII - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
+        <a href="https://yewtu.be/4tLiivpJ7nk">
+          <b>Book of Records USSR</b> - <i>War Thunder Official Channel</i>
+        </a>
+        <a href="https://yewtu.be/klfkO6hJQGk">
+          <b>Climbing the ranks with Soviet tanks</b> - <i>War Thunder Official Channel</i>
+        </a>
+        <a href="https://yewtu.be/z5ZZzHNPYi4">
+          <b>Russian ground forces Tier I - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/TXWa-Nnc6IE">
+          <b>Russian ground forces Tier II - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/MRlEuQRfHdk">
+          <b>Russian ground forces Tier III - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/nw2LFVdhm5s">
+          <b>Russian ground forces Tier IV - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/XtuTkDhE3OQ">
+          <b>Russian ground forces Tier V - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/idwfz6_Nl6I">
+          <b>Russian ground forces Tier VI/VII - Review and Analysis</b> - <i>Oxy</i>
+        </a>
       </div>
     </div>
   );

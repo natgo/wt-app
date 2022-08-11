@@ -1,5 +1,4 @@
-import { openfolder } from ".";
-import { Arrow, EmptyDiv, Rank, Research, TechTreeItem } from "../TechTree";
+import { Arrow, EmptyDiv, MediaHead, Rank, Research, TechTreeItem, TreeFolder } from "../TechTree";
 
 export function ChinaAircraft() {
   return (
@@ -37,96 +36,54 @@ export function ChinaAircraft() {
                 </div>
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/I-15bis_(China)"
-                      title="I-15bis (China)"
-                      item_type="own"
-                      text="␗I-15bis"
-                      intname="i-15bis_china"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/I-153_M-62_(China)"
-                      title="I-153 M-62 (China)"
-                      item_type="own"
-                      text="␗I-153&nbsp;M-62"
-                      intname="i-153_m62_china"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">I-15</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/i-15_china_group.png"
-                        alt="i-15_china_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="I-15" img="i-15_china_group">
+                  <TechTreeItem
+                    link="/I-15bis_(China)"
+                    title="I-15bis (China)"
+                    item_type="own"
+                    text="␗I-15bis"
+                    intname="i-15bis_china"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/I-153_M-62_(China)"
+                    title="I-153 M-62 (China)"
+                    item_type="own"
+                    text="␗I-153&nbsp;M-62"
+                    intname="i-153_m62_china"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/I-16_Chung_28_(China)"
-                      title="I-16 Chung 28 (China)"
-                      item_type="own"
-                      text="␗I-16&nbsp;Chung 28"
-                      intname="i-16_chung_28"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/I-16_type_5_(China)"
-                      title="I-16 type 5 (China)"
-                      item_type="own"
-                      text="␗I-16&nbsp;type&nbsp;5"
-                      intname="i-16_type5_1935_china"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/I-16_type_10_(China)"
-                      title="I-16 type 10 (China)"
-                      item_type="own"
-                      text="␗I-16&nbsp;type&nbsp;10"
-                      intname="i-16_type10_china"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">I-16</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/i-16_china_group.png"
-                        alt="i-16_china_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="I-16" img="i-16_china_group">
+                  <TechTreeItem
+                    link="/I-16_Chung_28_(China)"
+                    title="I-16 Chung 28 (China)"
+                    item_type="own"
+                    text="␗I-16&nbsp;Chung 28"
+                    intname="i-16_chung_28"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/I-16_type_5_(China)"
+                    title="I-16 type 5 (China)"
+                    item_type="own"
+                    text="␗I-16&nbsp;type&nbsp;5"
+                    intname="i-16_type5_1935_china"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/I-16_type_10_(China)"
+                    title="I-16 type 10 (China)"
+                    item_type="own"
+                    text="␗I-16&nbsp;type&nbsp;10"
+                    intname="i-16_type10_china"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/Ki-27_otsu_(China)"
@@ -574,46 +531,25 @@ export function ChinaAircraft() {
                 </div>
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/MiG-9_(China)"
-                      title="MiG-9 (China)"
-                      item_type="own"
-                      text="␗MiG-9"
-                      intname="mig-9_china"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/MiG-9_(l)_(China)"
-                      title="MiG-9 (l) (China)"
-                      item_type="own"
-                      text="␗MiG-9 (l)"
-                      intname="mig-9_late_china"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">MiG-9</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/mig-9_china_group.png"
-                        alt="mig-9_china_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="MiG-9" img="mig-9_china_group">
+                  <TechTreeItem
+                    link="/MiG-9_(China)"
+                    title="MiG-9 (China)"
+                    item_type="own"
+                    text="␗MiG-9"
+                    intname="mig-9_china"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/MiG-9_(l)_(China)"
+                    title="MiG-9 (l) (China)"
+                    item_type="own"
+                    text="␗MiG-9 (l)"
+                    intname="mig-9_late_china"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/J-2"

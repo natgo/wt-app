@@ -1,5 +1,4 @@
-import { openfolder } from ".";
-import { Arrow, EmptyDiv, Rank, Research, TechTreeItem } from "../TechTree";
+import { Arrow, EmptyDiv, MediaHead, Rank, Research, TechTreeItem, TreeFolder } from "../TechTree";
 
 export function JapanAircraft() {
   return (
@@ -21,71 +20,50 @@ export function JapanAircraft() {
                 />
               </td>
               <td>
-                <div style={{ position: "relative" }}>
+                <TreeFolder name="Ki-10" img="ki-10_group">
+                  <TechTreeItem
+                    link="/Ki-10-I"
+                    title="Ki-10-I"
+                    item_type="own"
+                    text="Ki-10-I"
+                    intname="ki_10_1"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Ki-10-II"
+                    title="Ki-10-II"
+                    item_type="own"
+                    text="Ki-10-II"
+                    intname="ki_10_2"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Ki-10-I_C"
+                    title="Ki-10-I C"
+                    item_type="own"
+                    text="Ki-10-I&nbsp;C"
+                    intname="ki_10_1_commander"
+                    type="aircraft"
+                  />
                   <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Ki-10-I"
-                      title="Ki-10-I"
-                      item_type="own"
-                      text="Ki-10-I"
-                      intname="ki_10_1"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Ki-10-II"
-                      title="Ki-10-II"
-                      item_type="own"
-                      text="Ki-10-II"
-                      intname="ki_10_2"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Ki-10-I_C"
-                      title="Ki-10-I C"
-                      item_type="own"
-                      text="Ki-10-I&nbsp;C"
-                      intname="ki_10_1_commander"
-                      type="aircraft"
-                    />
-                    <div
-                      style={{
-                        position: "relative",
-                        width: 160,
-                        height: 30,
-                        margin: "auto",
-                      }}
-                    />
-                    <TechTreeItem
-                      link="/Ki-10-II_C"
-                      title="Ki-10-II C"
-                      item_type="own"
-                      text="Ki-10-II&nbsp;C"
-                      intname="ki_10_2_commander"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
+                    style={{
+                      position: "relative",
+                      width: 160,
+                      height: 30,
+                      margin: "auto",
                     }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Ki-10</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/ki-10_group.png"
-                        alt="ki-10_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                  />
+                  <TechTreeItem
+                    link="/Ki-10-II_C"
+                    title="Ki-10-II C"
+                    item_type="own"
+                    text="Ki-10-II&nbsp;C"
+                    intname="ki_10_2_commander"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/Ki-27_otsu"
@@ -170,46 +148,25 @@ export function JapanAircraft() {
                   type="aircraft"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/H6K4"
-                      title="H6K4"
-                      item_type="own"
-                      text="H6K4"
-                      intname="h6k4"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/H8K2"
-                      title="H8K2"
-                      item_type="own"
-                      text="H8K2"
-                      intname="h8k2"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">H6K/H8K</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/h6k_h8k_group.png"
-                        alt="h6k_h8k_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="H6K/H8K" img="h6k_h8k_group">
+                  <TechTreeItem
+                    link="/H6K4"
+                    title="H6K4"
+                    item_type="own"
+                    text="H6K4"
+                    intname="h6k4"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/H8K2"
+                    title="H8K2"
+                    item_type="own"
+                    text="H8K2"
+                    intname="h8k2"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
@@ -256,87 +213,45 @@ export function JapanAircraft() {
             <tr>
               <Rank rank="II" />
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/A6M2-N"
-                      title="A6M2-N"
-                      item_type="own"
-                      text="A6M2-N"
-                      intname="a6m2_n_zero"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/N1K1"
-                      title="N1K1"
-                      item_type="own"
-                      text="N1K1"
-                      intname="n1k1_kyuofu"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">A6M2/N1K1</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/a6m2_n1k1_group.png"
-                        alt="a6m2_n1k1_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="A6M2/N1K1" img="a6m2_n1k1_group">
+                  <TechTreeItem
+                    link="/A6M2-N"
+                    title="A6M2-N"
+                    item_type="own"
+                    text="A6M2-N"
+                    intname="a6m2_n_zero"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/N1K1"
+                    title="N1K1"
+                    item_type="own"
+                    text="N1K1"
+                    intname="n1k1_kyuofu"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/A6M2_mod._11"
-                      title="A6M2 mod. 11"
-                      item_type="own"
-                      text="A6M2 mod. 11"
-                      intname="a6m2_mod11"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/A6M2"
-                      title="A6M2"
-                      item_type="own"
-                      text="A6M2"
-                      intname="a6m2_zero"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">A6M2</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/a6m2_group.png"
-                        alt="a6m2_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="A6M2" img="a6m2_group">
+                  <TechTreeItem
+                    link="/A6M2_mod._11"
+                    title="A6M2 mod. 11"
+                    item_type="own"
+                    text="A6M2 mod. 11"
+                    intname="a6m2_mod11"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/A6M2"
+                    title="A6M2"
+                    item_type="own"
+                    text="A6M2"
+                    intname="a6m2_zero"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/J2M2"
@@ -348,179 +263,95 @@ export function JapanAircraft() {
                 />
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Ki-43-I"
-                      title="Ki-43-I"
-                      item_type="own"
-                      text="Ki-43-I"
-                      intname="ki_43_1"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Ki-43-II"
-                      title="Ki-43-II"
-                      item_type="own"
-                      text="Ki-43-II"
-                      intname="ki_43_2"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Ki-43</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/ki-43_group.png"
-                        alt="ki-43_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Ki-43" img="ki-43_group">
+                  <TechTreeItem
+                    link="/Ki-43-I"
+                    title="Ki-43-I"
+                    item_type="own"
+                    text="Ki-43-I"
+                    intname="ki_43_1"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Ki-43-II"
+                    title="Ki-43-II"
+                    item_type="own"
+                    text="Ki-43-II"
+                    intname="ki_43_2"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Ki-44-I"
-                      title="Ki-44-I"
-                      item_type="own"
-                      text="Ki-44-I"
-                      intname="ki_44_1"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Ki-44-II_hei"
-                      title="Ki-44-II hei"
-                      item_type="own"
-                      text="Ki-44-II hei"
-                      intname="ki_44_2_hei"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Ki-44</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/ki_44_group.png"
-                        alt="ki_44_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Ki-44" img="ki_44_group">
+                  <TechTreeItem
+                    link="/Ki-44-I"
+                    title="Ki-44-I"
+                    item_type="own"
+                    text="Ki-44-I"
+                    intname="ki_44_1"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Ki-44-II_hei"
+                    title="Ki-44-II hei"
+                    item_type="own"
+                    text="Ki-44-II hei"
+                    intname="ki_44_2_hei"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Ki-61-I_ko"
-                      title="Ki-61-I ko"
-                      item_type="own"
-                      text="Ki-61-I ko"
-                      intname="ki_61_1a_ko"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Ki-61-I_otsu"
-                      title="Ki-61-I otsu"
-                      item_type="own"
-                      text="Ki-61-I otsu"
-                      intname="ki_61_1a_otsu"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Ki-100"
-                      title="Ki-100"
-                      item_type="own"
-                      text="Ki-100"
-                      intname="ki_100_early"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Ki-61</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/ki_61_group.png"
-                        alt="ki_61_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Ki-61" img="ki_61_group">
+                  <TechTreeItem
+                    link="/Ki-61-I_ko"
+                    title="Ki-61-I ko"
+                    item_type="own"
+                    text="Ki-61-I ko"
+                    intname="ki_61_1a_ko"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Ki-61-I_otsu"
+                    title="Ki-61-I otsu"
+                    item_type="own"
+                    text="Ki-61-I otsu"
+                    intname="ki_61_1a_otsu"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Ki-100"
+                    title="Ki-100"
+                    item_type="own"
+                    text="Ki-100"
+                    intname="ki_100_early"
+                    type="aircraft"
+                  />
+                </TreeFolder>
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Ki-45_otsu"
-                      title="Ki-45 otsu"
-                      item_type="own"
-                      text="Ki-45&nbsp;otsu"
-                      intname="ki-45_otsu"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Ki-45_hei"
-                      title="Ki-45 hei"
-                      item_type="own"
-                      text="Ki-45&nbsp;hei"
-                      intname="ki-45_hei"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Ki-45</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/ki-45_group.png"
-                        alt="ki-45_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Ki-45" img="ki-45_group">
+                  <TechTreeItem
+                    link="/Ki-45_otsu"
+                    title="Ki-45 otsu"
+                    item_type="own"
+                    text="Ki-45&nbsp;otsu"
+                    intname="ki-45_otsu"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Ki-45_hei"
+                    title="Ki-45 hei"
+                    item_type="own"
+                    text="Ki-45&nbsp;hei"
+                    intname="ki-45_hei"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/Ki-45_ko"
@@ -542,55 +373,34 @@ export function JapanAircraft() {
                 <Arrow type="small" />
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/B6N1_Model_11"
-                      title="B6N1 Model 11"
-                      item_type="own"
-                      text="B6N1 Model 11"
-                      intname="b6n1"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/B6N2_Model_12"
-                      title="B6N2 Model 12"
-                      item_type="own"
-                      text="B6N2 Model 12"
-                      intname="b6n2"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/B6N2a_Model_12Ko"
-                      title="B6N2a Model 12Ko"
-                      item_type="own"
-                      text="B6N2a Model 12Ko"
-                      intname="b6n2a"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">B6N</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/b6n_group.png"
-                        alt="b6n_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="B6N" img="b6n_group">
+                  <TechTreeItem
+                    link="/B6N1_Model_11"
+                    title="B6N1 Model 11"
+                    item_type="own"
+                    text="B6N1 Model 11"
+                    intname="b6n1"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/B6N2_Model_12"
+                    title="B6N2 Model 12"
+                    item_type="own"
+                    text="B6N2 Model 12"
+                    intname="b6n2"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/B6N2a_Model_12Ko"
+                    title="B6N2a Model 12Ko"
+                    item_type="own"
+                    text="B6N2a Model 12Ko"
+                    intname="b6n2a"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/D4Y1"
@@ -601,46 +411,25 @@ export function JapanAircraft() {
                   type="aircraft"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/D4Y2"
-                      title="D4Y2"
-                      item_type="own"
-                      text="D4Y2"
-                      intname="d4y2"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/D4Y3_Ko"
-                      title="D4Y3 Ko"
-                      item_type="own"
-                      text="D4Y3 Ko"
-                      intname="d4y3"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">D4Y</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/d4y_group.png"
-                        alt="d4y_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="D4Y" img="d4y_group">
+                  <TechTreeItem
+                    link="/D4Y2"
+                    title="D4Y2"
+                    item_type="own"
+                    text="D4Y2"
+                    intname="d4y2"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/D4Y3_Ko"
+                    title="D4Y3 Ko"
+                    item_type="own"
+                    text="D4Y3 Ko"
+                    intname="d4y3"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
               </td>
               <td>
@@ -734,105 +523,63 @@ export function JapanAircraft() {
             <tr>
               <Rank rank="III" />
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/A6M3"
-                      title="A6M3"
-                      item_type="own"
-                      text="A6M3"
-                      intname="a6m3_zero"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/A6M3_mod._22"
-                      title="A6M3 mod. 22"
-                      item_type="own"
-                      text="A6M3 mod.&nbsp;22"
-                      intname="a6m3_mod22_zero"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/A6M3_mod._22Ko"
-                      title="A6M3 mod. 22Ko"
-                      item_type="own"
-                      text="A6M3&nbsp;mod.&nbsp;22Ko"
-                      intname="a6m3_mod22ko_zero"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">A6M3</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/a6m3_mod22_group.png"
-                        alt="a6m3_mod22_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="A6M3" img="a6m3_mod22_group">
+                  <TechTreeItem
+                    link="/A6M3"
+                    title="A6M3"
+                    item_type="own"
+                    text="A6M3"
+                    intname="a6m3_zero"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/A6M3_mod._22"
+                    title="A6M3 mod. 22"
+                    item_type="own"
+                    text="A6M3 mod.&nbsp;22"
+                    intname="a6m3_mod22_zero"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/A6M3_mod._22Ko"
+                    title="A6M3 mod. 22Ko"
+                    item_type="own"
+                    text="A6M3&nbsp;mod.&nbsp;22Ko"
+                    intname="a6m3_mod22ko_zero"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/A6M5"
-                      title="A6M5"
-                      item_type="own"
-                      text="A6M5"
-                      intname="a6m5_zero"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/A6M5_otsu"
-                      title="A6M5 otsu"
-                      item_type="own"
-                      text="A6M5&nbsp;otsu"
-                      intname="a6m5otsu"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/A6M5_Hei"
-                      title="A6M5 Hei"
-                      item_type="own"
-                      text="A6M5&nbsp;Hei"
-                      intname="a6m5hei"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">A6M5</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/a6m5_group.png"
-                        alt="a6m5_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="A6M5" img="a6m5_group">
+                  <TechTreeItem
+                    link="/A6M5"
+                    title="A6M5"
+                    item_type="own"
+                    text="A6M5"
+                    intname="a6m5_zero"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/A6M5_otsu"
+                    title="A6M5 otsu"
+                    item_type="own"
+                    text="A6M5&nbsp;otsu"
+                    intname="a6m5otsu"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/A6M5_Hei"
+                    title="A6M5 Hei"
+                    item_type="own"
+                    text="A6M5&nbsp;Hei"
+                    intname="a6m5hei"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/A7M2"
@@ -854,46 +601,25 @@ export function JapanAircraft() {
                   type="aircraft"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Ki-61-I_hei"
-                      title="Ki-61-I hei"
-                      item_type="own"
-                      text="Ki-61-I hei"
-                      intname="ki_61_1a_hei"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Ki-61-I_tei"
-                      title="Ki-61-I tei"
-                      item_type="own"
-                      text="Ki-61-I tei"
-                      intname="ki_61_1a_tei"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Ki-61-I late</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/ki_61_late_group.png"
-                        alt="ki_61_late_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Ki-61-I late" img="ki_61_late_group">
+                  <TechTreeItem
+                    link="/Ki-61-I_hei"
+                    title="Ki-61-I hei"
+                    item_type="own"
+                    text="Ki-61-I hei"
+                    intname="ki_61_1a_hei"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Ki-61-I_tei"
+                    title="Ki-61-I tei"
+                    item_type="own"
+                    text="Ki-61-I tei"
+                    intname="ki_61_1a_tei"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/Ki-61-II_Otsu_Kai"
@@ -971,46 +697,25 @@ export function JapanAircraft() {
                   type="aircraft"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Ki-67-I_Ko"
-                      title="Ki-67-I Ko"
-                      item_type="own"
-                      text="Ki-67-I Ko"
-                      intname="ki_67_1_ko"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Ki-67-I_otsu"
-                      title="Ki-67-I otsu"
-                      item_type="own"
-                      text="Ki-67-I otsu"
-                      intname="ki_67_1_otsu"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Ki-67</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/ki_67_group.png"
-                        alt="ki_67_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Ki-67" img="ki_67_group">
+                  <TechTreeItem
+                    link="/Ki-67-I_Ko"
+                    title="Ki-67-I Ko"
+                    item_type="own"
+                    text="Ki-67-I Ko"
+                    intname="ki_67_1_ko"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Ki-67-I_otsu"
+                    title="Ki-67-I otsu"
+                    item_type="own"
+                    text="Ki-67-I otsu"
+                    intname="ki_67_1_otsu"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
@@ -1075,96 +780,54 @@ export function JapanAircraft() {
             <tr>
               <Rank rank="IV" />
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/N1K1-Ja"
-                      title="N1K1-Ja"
-                      item_type="own"
-                      text="N1K1-Ja"
-                      intname="n1k1_ja"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/N1K2-J"
-                      title="N1K2-J"
-                      item_type="own"
-                      text="N1K2-J"
-                      intname="n1k2_j"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/N1K2-Ja"
-                      title="N1K2-Ja"
-                      item_type="own"
-                      text="N1K2-Ja"
-                      intname="n1k2_jko"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">N1K</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/n1k2_group.png"
-                        alt="n1k2_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="N1K" img="n1k2_group">
+                  <TechTreeItem
+                    link="/N1K1-Ja"
+                    title="N1K1-Ja"
+                    item_type="own"
+                    text="N1K1-Ja"
+                    intname="n1k1_ja"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/N1K2-J"
+                    title="N1K2-J"
+                    item_type="own"
+                    text="N1K2-J"
+                    intname="n1k2_j"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/N1K2-Ja"
+                    title="N1K2-Ja"
+                    item_type="own"
+                    text="N1K2-Ja"
+                    intname="n1k2_jko"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/J2M3"
-                      title="J2M3"
-                      item_type="own"
-                      text="J2M3"
-                      intname="j2m3"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/J2M5"
-                      title="J2M5"
-                      item_type="own"
-                      text="J2M5"
-                      intname="j2m5"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">J2M</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/j2m_group.png"
-                        alt="j2m_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="J2M" img="j2m_group">
+                  <TechTreeItem
+                    link="/J2M3"
+                    title="J2M3"
+                    item_type="own"
+                    text="J2M3"
+                    intname="j2m3"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/J2M5"
+                    title="J2M5"
+                    item_type="own"
+                    text="J2M5"
+                    intname="j2m5"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/J7W1"
@@ -1529,66 +1192,17 @@ export function JapanAircraft() {
           </tbody>
         </table>
       </div>
-      <h2>
-        <span className="mw-headline" id="Media">
-          Media
-        </span>
-      </h2>
+      <MediaHead />
       <div className="video_gallery">
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/mF2Umflo4Uk?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Mitsubishi Aircraft</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/oR8GNZF9qj4?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Japanese Air Forces Rank I - Tutorial and Guide</b> - <i>Jengar</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/qiq8SUqodU8?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Climbing the ranks with Japanese aircraft</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
+        <a href="https://yewtu.be/mF2Umflo4Uk">
+          <b>Mitsubishi Aircraft</b> - <i>War Thunder Official Channel</i>
+        </a>
+        <a href="https://yewtu.be/oR8GNZF9qj4">
+          <b>Japanese Air Forces Rank I - Tutorial and Guide</b> - <i>Jengar</i>
+        </a>
+        <a href="https://yewtu.be/qiq8SUqodU8">
+          <b>Climbing the ranks with Japanese aircraft</b> - <i>War Thunder Official Channel</i>
+        </a>
       </div>
     </div>
   );

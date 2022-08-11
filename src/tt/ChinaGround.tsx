@@ -1,5 +1,4 @@
-import { openfolder } from ".";
-import { Arrow, EmptyDiv, Rank, Research, TechTreeItem } from "../TechTree";
+import { Arrow, EmptyDiv, MediaHead, Rank, Research, TechTreeItem, TreeFolder } from "../TechTree";
 
 export function ChinaGround() {
   return (
@@ -88,46 +87,25 @@ export function ChinaGround() {
             <tr>
               <Rank rank="II" />
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/M3A3_Stuart_(China)"
-                      title="M3A3 Stuart (China)"
-                      item_type="own"
-                      text="␗M3A3 Stuart"
-                      intname="cn_m3a3_stuart"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/M5A1_(China)"
-                      title="M5A1 (China)"
-                      item_type="own"
-                      text="␗M5A1"
-                      intname="cn_m5a1_stuart"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">␗M3/M5</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/cn_m3_m5_stuart_group.png"
-                        alt="cn_m3_m5_stuart_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="␗M3/M5" img="cn_m3_m5_stuart_group">
+                  <TechTreeItem
+                    link="/M3A3_Stuart_(China)"
+                    title="M3A3 Stuart (China)"
+                    item_type="own"
+                    text="␗M3A3 Stuart"
+                    intname="cn_m3a3_stuart"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/M5A1_(China)"
+                    title="M5A1 (China)"
+                    item_type="own"
+                    text="␗M5A1"
+                    intname="cn_m5a1_stuart"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/M24_(China)"

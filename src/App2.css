@@ -601,12 +601,20 @@ img.tree-item-js {
   overflow: hidden;
 }
 
+.br_container {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+
+.tree-group-img,
 .tree-item-img {
   position: absolute;
   margin: 5px;
   pointer-events: none;
   display: grid;
-  grid-template-columns: 4fr 1fr auto;
+  grid-template-columns: 4fr 3fr auto;
   grid-template-areas:
     "a d d"
     "a d d"
@@ -614,7 +622,7 @@ img.tree-item-js {
   width: 155px;
 }
 
-.tree-item-img .br {
+.br {
   justify-self: end;
   align-self: end;
   color: #ccc;
@@ -623,7 +631,7 @@ img.tree-item-js {
 .tree-item-img img {
   height: 42px;
 }
-
+.tree-group-img img.class,
 .tree-item-img img.class {
   width: 20px;
   height: auto;
@@ -673,15 +681,8 @@ img.tree-item-js {
   overflow: hidden;
 }
 
-.tree-group-img {
-  position: absolute;
-  margin: 3px;
-  margin-top: 9px;
-  pointer-events: none;
-}
-
 .tree-group-img img {
-  height: 42px;
+  height: 46px;
 }
 
 .tree-arrow {
@@ -689,6 +690,8 @@ img.tree-item-js {
   width: 160px;
   height: auto;
   margin: auto;
+  display: grid;
+  justify-content: center;
 }
 
 .tree-select-table {
@@ -764,8 +767,7 @@ img.tree-item-js {
 
 .video_gallery {
   overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
 }
 .video_gallery .video {
   border: 1px solid #dbe0e2;

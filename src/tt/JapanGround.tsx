@@ -1,5 +1,4 @@
-import { openfolder } from ".";
-import { Arrow, EmptyDiv, Rank, Research, TechTreeItem } from "../TechTree";
+import { Arrow, EmptyDiv, MediaHead, Rank, Research, TechTreeItem, TreeFolder } from "../TechTree";
 
 export function JapanGround() {
   return (
@@ -433,46 +432,25 @@ export function JapanGround() {
                 </div>
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/ST-A1"
-                      title="ST-A1"
-                      item_type="own"
-                      text="ST-A1"
-                      intname="jp_st_a1"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/ST-A2"
-                      title="ST-A2"
-                      item_type="own"
-                      text="ST-A2"
-                      intname="jp_st_a2"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">ST-A</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/jp_st_group.png"
-                        alt="jp_st_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="ST-A" img="jp_st_group">
+                  <TechTreeItem
+                    link="/ST-A1"
+                    title="ST-A1"
+                    item_type="own"
+                    text="ST-A1"
+                    intname="jp_st_a1"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/ST-A2"
+                    title="ST-A2"
+                    item_type="own"
+                    text="ST-A2"
+                    intname="jp_st_a2"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/Type_61"
@@ -797,104 +775,25 @@ export function JapanGround() {
           </tbody>
         </table>
       </div>
-      <h2>
-        <span className="mw-headline" id="Media">
-          Media
-        </span>
-      </h2>
+      <MediaHead />
       <div className="video_gallery">
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/nMRCUrSEh_k?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Japanese Tanks</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/z6xmzvE-nWM?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Climbing the ranks with Japanese tanks</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/fa1_8SqJcT0?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>The Shooting Range #97</b> - <i>Special</i> section at 11:19 discusses Japanese
-            premium tanks.
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/NRYaVOD5EB0?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Crash Course: Japanese Tanks</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/h3sz4jizQO4?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>How To Pronounce Japanese Tank Names (And What They Mean)</b> - <i>NUSensei</i> -
-            (1.69 Patch - 2017)
-          </div>
-        </div>
+        <a href="https://yewtu.be/nMRCUrSEh_k">
+          <b>Japanese Tanks</b> - <i>War Thunder Official Channel</i>
+        </a>
+        <a href="https://yewtu.be/z6xmzvE-nWM">
+          <b>Climbing the ranks with Japanese tanks</b> - <i>War Thunder Official Channel</i>
+        </a>
+        <a href="https://yewtu.be/fa1_8SqJcT0">
+          <b>The Shooting Range #97</b> - <i>Special</i> section at 11:19 discusses Japanese premium
+          tanks.
+        </a>
+        <a href="https://yewtu.be/NRYaVOD5EB0">
+          <b>Crash Course: Japanese Tanks</b> - <i>War Thunder Official Channel</i>
+        </a>
+        <a href="https://yewtu.be/h3sz4jizQO4">
+          <b>How To Pronounce Japanese Tank Names (And What They Mean)</b> - <i>NUSensei</i> - (1.69
+          Patch - 2017)
+        </a>
       </div>
     </div>
   );

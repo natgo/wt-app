@@ -1,5 +1,4 @@
-import { openfolder } from ".";
-import { Arrow, EmptyDiv, Rank, Research, TechTreeItem } from "../TechTree";
+import { Arrow, EmptyDiv, MediaHead, Rank, Research, TechTreeItem, TreeFolder } from "../TechTree";
 
 export function USAGround() {
   return (
@@ -20,46 +19,25 @@ export function USAGround() {
                   type="ground"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/M3_Stuart"
-                      title="M3 Stuart"
-                      item_type="own"
-                      text="M3 Stuart"
-                      intname="us_m3_stuart"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/M3A1_Stuart"
-                      title="M3A1 Stuart"
-                      item_type="own"
-                      text="M3A1 Stuart"
-                      intname="us_m3a1_stuart"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">M3/M3A1 Stuart</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/m3_light_group.png"
-                        alt="m3_light_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="M3/M3A1 Stuart" img="m3_light_group">
+                  <TechTreeItem
+                    link="/M3_Stuart"
+                    title="M3 Stuart"
+                    item_type="own"
+                    text="M3 Stuart"
+                    intname="us_m3_stuart"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/M3A1_Stuart"
+                    title="M3A1 Stuart"
+                    item_type="own"
+                    text="M3A1 Stuart"
+                    intname="us_m3a1_stuart"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
@@ -839,130 +817,67 @@ export function USAGround() {
                 </div>
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/M46"
-                      title="M46"
-                      item_type="own"
-                      text="M46"
-                      intname="us_m46_patton"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/M47"
-                      title="M47"
-                      item_type="own"
-                      text="M47"
-                      intname="us_m47_patton_ii"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">M46/M47</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/us_m46_m47_group.png"
-                        alt="us_m46_m47_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="M46/M47" img="us_m46_m47_group">
+                  <TechTreeItem
+                    link="/M46"
+                    title="M46"
+                    item_type="own"
+                    text="M46"
+                    intname="us_m46_patton"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/M47"
+                    title="M47"
+                    item_type="own"
+                    text="M47"
+                    intname="us_m47_patton_ii"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/M48A1"
-                      title="M48A1"
-                      item_type="own"
-                      text="M48A1"
-                      intname="us_m48a1_patton_iii"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/M60"
-                      title="M60"
-                      item_type="own"
-                      text="M60"
-                      intname="us_m60"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">M48/M60</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/us_m48_m60_group.png"
-                        alt="us_m48_m60_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="M48/M60" img="us_m48_m60_group">
+                  <TechTreeItem
+                    link="/M48A1"
+                    title="M48A1"
+                    item_type="own"
+                    text="M48A1"
+                    intname="us_m48a1_patton_iii"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/M60"
+                    title="M60"
+                    item_type="own"
+                    text="M60"
+                    intname="us_m60"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/T32"
-                      title="T32"
-                      item_type="own"
-                      text="T32"
-                      intname="us_t32"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/T32E1"
-                      title="T32E1"
-                      item_type="own"
-                      text="T32E1"
-                      intname="us_t32e1"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">T32/T32E1</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/us_t32_group.png"
-                        alt="us_t32_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="T32/T32E1" img="us_t32_group">
+                  <TechTreeItem
+                    link="/T32"
+                    title="T32"
+                    item_type="own"
+                    text="T32"
+                    intname="us_t32"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/T32E1"
+                    title="T32E1"
+                    item_type="own"
+                    text="T32E1"
+                    intname="us_t32e1"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/M103"
@@ -1115,46 +1030,25 @@ export function USAGround() {
                   type="ground"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/XM-803"
-                      title="XM-803"
-                      item_type="own"
-                      text="XM-803"
-                      intname="us_xm_803"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/MBT-70"
-                      title="MBT-70"
-                      item_type="own"
-                      text="MBT-70"
-                      intname="us_mbt_70"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">MBT/XM</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/us_mbt_xm_group.png"
-                        alt="us_mbt_xm_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="MBT/XM" img="us_mbt_xm_group">
+                  <TechTreeItem
+                    link="/XM-803"
+                    title="XM-803"
+                    item_type="own"
+                    text="XM-803"
+                    intname="us_xm_803"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/MBT-70"
+                    title="MBT-70"
+                    item_type="own"
+                    text="MBT-70"
+                    intname="us_mbt_70"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/M1_Abrams"
@@ -1409,120 +1303,26 @@ export function USAGround() {
           </tbody>
         </table>
       </div>
-      <h2>
-        <span className="mw-headline" id="Media">
-          Media
-        </span>
-      </h2>
+      <MediaHead />
       <div className="video_gallery">
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/eiMde1jVPkM?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>American ground forces Rank V</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/rXZ0G3sAKQc?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>American ground forces Rank IV</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/_QaAt6D52Kg?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>American ground forces Rank III - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/QzkUxYDTt1U?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>American ground forces Rank II - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/3G6fGMDbdgE?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>American ground forces Rank I - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/aSP1Bps2w0w?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Climbing the ranks with American vehicles</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
+        <a href="https://yewtu.be/eiMde1jVPkM">
+          <b>American ground forces Rank V</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/rXZ0G3sAKQc">
+          <b>American ground forces Rank IV</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/_QaAt6D52Kg">
+          <b>American ground forces Rank III - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/QzkUxYDTt1U">
+          <b>American ground forces Rank II - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/3G6fGMDbdgE">
+          <b>American ground forces Rank I - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/aSP1Bps2w0w">
+          <b>Climbing the ranks with American vehicles</b> - <i>War Thunder Official Channel</i>
+        </a>
       </div>
     </div>
   );

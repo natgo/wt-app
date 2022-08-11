@@ -1,5 +1,4 @@
-import { openfolder } from ".";
-import { Arrow, EmptyDiv, Rank, Research, TechTreeItem } from "../TechTree";
+import { Arrow, EmptyDiv, MediaHead, Rank, Research, TechTreeItem, TreeFolder } from "../TechTree";
 
 export function USSRAircraft() {
   return (
@@ -14,114 +13,72 @@ export function USSRAircraft() {
                 <EmptyDiv />
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/I-15_WR"
-                      title="I-15 WR"
-                      item_type="own"
-                      text="I-15&nbsp;WR"
-                      intname="i-15_1934"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/I-15_M-22"
-                      title="I-15 M-22"
-                      item_type="own"
-                      text="I-15&nbsp;M-22"
-                      intname="i-15_1935"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/I-15R"
-                      title="I-15R"
-                      item_type="own"
-                      text="I-15R"
-                      intname="i-15_1935_moscow"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">I-15</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/i-15_group.png"
-                        alt="i-15_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="I-15" img="i-15_group">
+                  <TechTreeItem
+                    link="/I-15_WR"
+                    title="I-15 WR"
+                    item_type="own"
+                    text="I-15&nbsp;WR"
+                    intname="i-15_1934"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/I-15_M-22"
+                    title="I-15 M-22"
+                    item_type="own"
+                    text="I-15&nbsp;M-22"
+                    intname="i-15_1935"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/I-15R"
+                    title="I-15R"
+                    item_type="own"
+                    text="I-15R"
+                    intname="i-15_1935_moscow"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/I-16_type_5"
-                      title="I-16 type 5"
-                      item_type="own"
-                      text="I-16&nbsp;type&nbsp;5"
-                      intname="i-16_type5"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/I-16_type_10"
-                      title="I-16 type 10"
-                      item_type="own"
-                      text="I-16&nbsp;type&nbsp;10"
-                      intname="i-16_type10"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/I-16_type_18"
-                      title="I-16 type 18"
-                      item_type="own"
-                      text="I-16&nbsp;type&nbsp;18"
-                      intname="i-16_type18"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/I-16_type_24"
-                      title="I-16 type 24"
-                      item_type="own"
-                      text="I-16&nbsp;type&nbsp;24"
-                      intname="i-16_type24"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">I-16</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/i-16_group.png"
-                        alt="i-16_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="I-16" img="i-16_group">
+                  <TechTreeItem
+                    link="/I-16_type_5"
+                    title="I-16 type 5"
+                    item_type="own"
+                    text="I-16&nbsp;type&nbsp;5"
+                    intname="i-16_type5"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/I-16_type_10"
+                    title="I-16 type 10"
+                    item_type="own"
+                    text="I-16&nbsp;type&nbsp;10"
+                    intname="i-16_type10"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/I-16_type_18"
+                    title="I-16 type 18"
+                    item_type="own"
+                    text="I-16&nbsp;type&nbsp;18"
+                    intname="i-16_type18"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/I-16_type_24"
+                    title="I-16 type 24"
+                    item_type="own"
+                    text="I-16&nbsp;type&nbsp;24"
+                    intname="i-16_type24"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
@@ -168,64 +125,43 @@ export function USSRAircraft() {
                   type="aircraft"
                 />
                 <EmptyDiv />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/BB-1"
-                      title="BB-1"
-                      item_type="own"
-                      text="BB-1"
-                      intname="bb-1"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Su-2_MV-5"
-                      title="Su-2 MV-5"
-                      item_type="own"
-                      text="Su-2&nbsp;MV-5"
-                      intname="su-2_mv5"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Su-2_TSS-1"
-                      title="Su-2 TSS-1"
-                      item_type="own"
-                      text="Su-2&nbsp;TSS-1"
-                      intname="su-2_tss1"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Su-2_(M-82)"
-                      title="Su-2 (M-82)"
-                      item_type="own"
-                      text="Su-2&nbsp;(M-82)"
-                      intname="su-2_m82"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Su-2</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/su-2_group.png"
-                        alt="su-2_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Su-2" img="su-2_group">
+                  <TechTreeItem
+                    link="/BB-1"
+                    title="BB-1"
+                    item_type="own"
+                    text="BB-1"
+                    intname="bb-1"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Su-2_MV-5"
+                    title="Su-2 MV-5"
+                    item_type="own"
+                    text="Su-2&nbsp;MV-5"
+                    intname="su-2_mv5"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Su-2_TSS-1"
+                    title="Su-2 TSS-1"
+                    item_type="own"
+                    text="Su-2&nbsp;TSS-1"
+                    intname="su-2_tss1"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Su-2_(M-82)"
+                    title="Su-2 (M-82)"
+                    item_type="own"
+                    text="Su-2&nbsp;(M-82)"
+                    intname="su-2_m82"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/Yak-2_KABB"
@@ -248,96 +184,75 @@ export function USSRAircraft() {
                 </div>
               </td>
               <td>
-                <div style={{ position: "relative" }}>
+                <TreeFolder name="SB" img="sb_group">
+                  <TechTreeItem
+                    link="/SB_2M-100"
+                    title="SB 2M-100"
+                    item_type="own"
+                    text="SB&nbsp;2M-100"
+                    intname="sb_2m_100"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/SB_2M-103"
+                    title="SB 2M-103"
+                    item_type="own"
+                    text="SB&nbsp;2M-103"
+                    intname="sb_2m_103c"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/SB_2M-103U_MV-3"
+                    title="SB 2M-103U MV-3"
+                    item_type="own"
+                    text="SB&nbsp;2M-103U&nbsp;MV-3"
+                    intname="sb_2m_103u_mv3"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/SB_2M-105"
+                    title="SB 2M-105"
+                    item_type="own"
+                    text="SB&nbsp;2M-105"
+                    intname="sb_2m_105"
+                    type="aircraft"
+                  />
                   <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/SB_2M-100"
-                      title="SB 2M-100"
-                      item_type="own"
-                      text="SB&nbsp;2M-100"
-                      intname="sb_2m_100"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/SB_2M-103"
-                      title="SB 2M-103"
-                      item_type="own"
-                      text="SB&nbsp;2M-103"
-                      intname="sb_2m_103c"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/SB_2M-103U_MV-3"
-                      title="SB 2M-103U MV-3"
-                      item_type="own"
-                      text="SB&nbsp;2M-103U&nbsp;MV-3"
-                      intname="sb_2m_103u_mv3"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/SB_2M-105"
-                      title="SB 2M-105"
-                      item_type="own"
-                      text="SB&nbsp;2M-105"
-                      intname="sb_2m_105"
-                      type="aircraft"
-                    />
-                    <div
-                      style={{
-                        position: "relative",
-                        width: 160,
-                        height: 30,
-                        margin: "auto",
-                      }}
-                    />
-                    <TechTreeItem
-                      link="/SB_2M-103U"
-                      title="SB 2M-103U"
-                      item_type="own"
-                      text="SB&nbsp;2M-103U"
-                      intname="sb_2m_103u"
-                      type="aircraft"
-                    />
-                    <div
-                      style={{
-                        position: "relative",
-                        width: 160,
-                        height: 30,
-                        margin: "auto",
-                      }}
-                    />
-                    <TechTreeItem
-                      link="/SB_2M-103_MV-3"
-                      title="SB 2M-103 MV-3"
-                      item_type="own"
-                      text="SB&nbsp;2M-103&nbsp;MV-3"
-                      intname="sb_2m_103_mv3"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
+                    style={{
+                      position: "relative",
+                      width: 160,
+                      height: 30,
+                      margin: "auto",
                     }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">SB</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/sb_group.png"
-                        alt="sb_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                  />
+                  <TechTreeItem
+                    link="/SB_2M-103U"
+                    title="SB 2M-103U"
+                    item_type="own"
+                    text="SB&nbsp;2M-103U"
+                    intname="sb_2m_103u"
+                    type="aircraft"
+                  />
+                  <div
+                    style={{
+                      position: "relative",
+                      width: 160,
+                      height: 30,
+                      margin: "auto",
+                    }}
+                  />
+                  <TechTreeItem
+                    link="/SB_2M-103_MV-3"
+                    title="SB 2M-103 MV-3"
+                    item_type="own"
+                    text="SB&nbsp;2M-103&nbsp;MV-3"
+                    intname="sb_2m_103_mv3"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/Yak-4"
@@ -457,46 +372,25 @@ export function USSRAircraft() {
             <tr>
               <Rank rank="II" />
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Yak-1"
-                      title="Yak-1"
-                      item_type="own"
-                      text="Yak-1"
-                      intname="yak-1_early"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Yak-1B"
-                      title="Yak-1B"
-                      item_type="own"
-                      text="Yak-1B"
-                      intname="yak-1b"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Yak-1</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/yak-9_group.png"
-                        alt="yak-9_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Yak-1" img="yak-9_group">
+                  <TechTreeItem
+                    link="/Yak-1"
+                    title="Yak-1"
+                    item_type="own"
+                    text="Yak-1"
+                    intname="yak-1_early"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Yak-1B"
+                    title="Yak-1B"
+                    item_type="own"
+                    text="Yak-1B"
+                    intname="yak-1b"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/Yak-7B"
@@ -507,88 +401,46 @@ export function USSRAircraft() {
                   type="aircraft"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Yak-9"
-                      title="Yak-9"
-                      item_type="own"
-                      text="Yak-9"
-                      intname="yak-9"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Yak-9B"
-                      title="Yak-9B"
-                      item_type="own"
-                      text="Yak-9B"
-                      intname="yak-9b"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Yak-9</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/yak-9_group.png"
-                        alt="yak-9_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Yak-9" img="yak-9_group">
+                  <TechTreeItem
+                    link="/Yak-9"
+                    title="Yak-9"
+                    item_type="own"
+                    text="Yak-9"
+                    intname="yak-9"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Yak-9B"
+                    title="Yak-9B"
+                    item_type="own"
+                    text="Yak-9B"
+                    intname="yak-9b"
+                    type="aircraft"
+                  />
+                </TreeFolder>
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/MiG-3-15"
-                      title="MiG-3-15"
-                      item_type="own"
-                      text="MiG-3-15"
-                      intname="mig_3_series_1_15"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/MiG-3-15_(BK)"
-                      title="MiG-3-15 (BK)"
-                      item_type="own"
-                      text="MiG-3-15 (BK)"
-                      intname="mig_3_series_1_15_bk_pod"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">MiG-3</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/mig_3_series_group.png"
-                        alt="mig_3_series_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="MiG-3" img="mig_3_series_group">
+                  <TechTreeItem
+                    link="/MiG-3-15"
+                    title="MiG-3-15"
+                    item_type="own"
+                    text="MiG-3-15"
+                    intname="mig_3_series_1_15"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/MiG-3-15_(BK)"
+                    title="MiG-3-15 (BK)"
+                    item_type="own"
+                    text="MiG-3-15 (BK)"
+                    intname="mig_3_series_1_15_bk_pod"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/MiG-3-34"
@@ -620,87 +472,45 @@ export function USSRAircraft() {
                 </div>
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/LaGG-3-8"
-                      title="LaGG-3-8"
-                      item_type="own"
-                      text="LaGG-3-8"
-                      intname="lagg-3-8"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/LaGG-3-11"
-                      title="LaGG-3-11"
-                      item_type="own"
-                      text="LaGG-3-11"
-                      intname="lagg-3-11"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">LaGG-3 (e)</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/lagg-3_group.png"
-                        alt="lagg-3_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="LaGG-3 (e)" img="lagg-3_group">
+                  <TechTreeItem
+                    link="/LaGG-3-8"
+                    title="LaGG-3-8"
+                    item_type="own"
+                    text="LaGG-3-8"
+                    intname="lagg-3-8"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/LaGG-3-11"
+                    title="LaGG-3-11"
+                    item_type="own"
+                    text="LaGG-3-11"
+                    intname="lagg-3-11"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/LaGG-3-35"
-                      title="LaGG-3-35"
-                      item_type="own"
-                      text="LaGG-3-35"
-                      intname="lagg-3-35"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/LaGG-3-66"
-                      title="LaGG-3-66"
-                      item_type="own"
-                      text="LaGG-3-66"
-                      intname="lagg-3-66"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">LaGG-3 (l)</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/lagg-3_late_group.png"
-                        alt="lagg-3_late_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="LaGG-3 (l)" img="lagg-3_late_group">
+                  <TechTreeItem
+                    link="/LaGG-3-35"
+                    title="LaGG-3-35"
+                    item_type="own"
+                    text="LaGG-3-35"
+                    intname="lagg-3-35"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/LaGG-3-66"
+                    title="LaGG-3-66"
+                    item_type="own"
+                    text="LaGG-3-66"
+                    intname="lagg-3-66"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/La-5"
@@ -713,46 +523,25 @@ export function USSRAircraft() {
                 <EmptyDiv />
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Pe-3_(e)"
-                      title="Pe-3 (e)"
-                      item_type="own"
-                      text="Pe-3 (e)"
-                      intname="pe-3_early"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Pe-3"
-                      title="Pe-3"
-                      item_type="own"
-                      text="Pe-3"
-                      intname="pe-3"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Pe-3</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/pe-3_group.png"
-                        alt="pe-3_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Pe-3" img="pe-3_group">
+                  <TechTreeItem
+                    link="/Pe-3_(e)"
+                    title="Pe-3 (e)"
+                    item_type="own"
+                    text="Pe-3 (e)"
+                    intname="pe-3_early"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Pe-3"
+                    title="Pe-3"
+                    item_type="own"
+                    text="Pe-3"
+                    intname="pe-3"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/IL-2_(1941)"
@@ -802,55 +591,34 @@ export function USSRAircraft() {
                   type="aircraft"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Pe-2-1"
-                      title="Pe-2-1"
-                      item_type="own"
-                      text="Pe-2-1"
-                      intname="pe-2-1"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Pe-2-31"
-                      title="Pe-2-31"
-                      item_type="own"
-                      text="Pe-2-31"
-                      intname="pe-2-31"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Pe-2-83"
-                      title="Pe-2-83"
-                      item_type="own"
-                      text="Pe-2-83"
-                      intname="pe-2-83"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Pe-2 (e)</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/pe-2_group.png"
-                        alt="pe-2_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Pe-2 (e)" img="pe-2_group">
+                  <TechTreeItem
+                    link="/Pe-2-1"
+                    title="Pe-2-1"
+                    item_type="own"
+                    text="Pe-2-1"
+                    intname="pe-2-1"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Pe-2-31"
+                    title="Pe-2-31"
+                    item_type="own"
+                    text="Pe-2-31"
+                    intname="pe-2-31"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Pe-2-83"
+                    title="Pe-2-83"
+                    item_type="own"
+                    text="Pe-2-83"
+                    intname="pe-2-83"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
@@ -970,46 +738,25 @@ export function USSRAircraft() {
                   type="aircraft"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Yak-3"
-                      title="Yak-3"
-                      item_type="own"
-                      text="Yak-3"
-                      intname="yak-3"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Yak-3P"
-                      title="Yak-3P"
-                      item_type="own"
-                      text="Yak-3P"
-                      intname="yak-3p"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Yak-3</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/yak-3_group.png"
-                        alt="yak-3_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Yak-3" img="yak-3_group">
+                  <TechTreeItem
+                    link="/Yak-3"
+                    title="Yak-3"
+                    item_type="own"
+                    text="Yak-3"
+                    intname="yak-3"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Yak-3P"
+                    title="Yak-3P"
+                    item_type="own"
+                    text="Yak-3P"
+                    intname="yak-3p"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
@@ -1119,46 +866,25 @@ export function USSRAircraft() {
                   type="aircraft"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/IL-2-37"
-                      title="IL-2-37"
-                      item_type="own"
-                      text="IL-2-37"
-                      intname="il_2_37_1943"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/IL-2M_(1943)"
-                      title="IL-2M (1943)"
-                      item_type="own"
-                      text="IL-2M (1943)"
-                      intname="il_2m_1943"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">IL-2M</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/il-2m_group.png"
-                        alt="il-2m_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="IL-2M" img="il-2m_group">
+                  <TechTreeItem
+                    link="/IL-2-37"
+                    title="IL-2-37"
+                    item_type="own"
+                    text="IL-2-37"
+                    intname="il_2_37_1943"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/IL-2M_(1943)"
+                    title="IL-2M (1943)"
+                    item_type="own"
+                    text="IL-2M (1943)"
+                    intname="il_2m_1943"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/IL-2M_type_3"
@@ -1189,78 +915,57 @@ export function USSRAircraft() {
                 </div>
               </td>
               <td>
-                <div style={{ position: "relative" }}>
+                <TreeFolder name="Yer-2" img="er-2_group">
+                  <TechTreeItem
+                    link="/Yer-2_(M-105)"
+                    title="Yer-2 (M-105)"
+                    item_type="own"
+                    text="Yer-2&nbsp;(M-105)"
+                    intname="er-2_m105_mv3"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Yer-2_(M-105R)_LU"
+                    title="Yer-2 (M-105R) LU"
+                    item_type="own"
+                    text="Yer-2&nbsp;(M-105R)&nbsp;LU"
+                    intname="er-2_m105r_lu2b"
+                    type="aircraft"
+                  />
                   <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Yer-2_(M-105)"
-                      title="Yer-2 (M-105)"
-                      item_type="own"
-                      text="Yer-2&nbsp;(M-105)"
-                      intname="er-2_m105_mv3"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Yer-2_(M-105R)_LU"
-                      title="Yer-2 (M-105R) LU"
-                      item_type="own"
-                      text="Yer-2&nbsp;(M-105R)&nbsp;LU"
-                      intname="er-2_m105r_lu2b"
-                      type="aircraft"
-                    />
-                    <div
-                      style={{
-                        position: "relative",
-                        width: 160,
-                        height: 30,
-                        margin: "auto",
-                      }}
-                    />
-                    <TechTreeItem
-                      link="/Yer-2_(M-105)_TAT"
-                      title="Yer-2 (M-105) TAT"
-                      item_type="own"
-                      text="Yer-2&nbsp;(M-105)&nbsp;TAT"
-                      intname="er-2_m105_tat"
-                      type="aircraft"
-                    />
-                    <div
-                      style={{
-                        position: "relative",
-                        width: 160,
-                        height: 30,
-                        margin: "auto",
-                      }}
-                    />
-                    <TechTreeItem
-                      link="/Yer-2_(M-105R)_TAT"
-                      title="Yer-2 (M-105R) TAT"
-                      item_type="own"
-                      text="Yer-2&nbsp;(M-105R)&nbsp;TAT"
-                      intname="er-2_m105r_tat"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
+                    style={{
+                      position: "relative",
+                      width: 160,
+                      height: 30,
+                      margin: "auto",
                     }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Yer-2</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/er-2_group.png"
-                        alt="er-2_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                  />
+                  <TechTreeItem
+                    link="/Yer-2_(M-105)_TAT"
+                    title="Yer-2 (M-105) TAT"
+                    item_type="own"
+                    text="Yer-2&nbsp;(M-105)&nbsp;TAT"
+                    intname="er-2_m105_tat"
+                    type="aircraft"
+                  />
+                  <div
+                    style={{
+                      position: "relative",
+                      width: 160,
+                      height: 30,
+                      margin: "auto",
+                    }}
+                  />
+                  <TechTreeItem
+                    link="/Yer-2_(M-105R)_TAT"
+                    title="Yer-2 (M-105R) TAT"
+                    item_type="own"
+                    text="Yer-2&nbsp;(M-105R)&nbsp;TAT"
+                    intname="er-2_m105r_tat"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/Pe-8"
@@ -1271,46 +976,25 @@ export function USSRAircraft() {
                   type="aircraft"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Pe-2-110"
-                      title="Pe-2-110"
-                      item_type="own"
-                      text="Pe-2-110"
-                      intname="pe-2-110"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Pe-2-359"
-                      title="Pe-2-359"
-                      item_type="own"
-                      text="Pe-2-359"
-                      intname="pe-2-359"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Pe-2 (l)</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/pe-2_late_group.png"
-                        alt="pe-2_late_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Pe-2 (l)" img="pe-2_late_group">
+                  <TechTreeItem
+                    link="/Pe-2-110"
+                    title="Pe-2-110"
+                    item_type="own"
+                    text="Pe-2-110"
+                    intname="pe-2-110"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Pe-2-359"
+                    title="Pe-2-359"
+                    item_type="own"
+                    text="Pe-2-359"
+                    intname="pe-2-359"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
@@ -1447,46 +1131,25 @@ export function USSRAircraft() {
             <tr>
               <Rank rank="IV" />
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Yak-9U"
-                      title="Yak-9U"
-                      item_type="own"
-                      text="Yak-9U"
-                      intname="yak-9u"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Yak-9P"
-                      title="Yak-9P"
-                      item_type="own"
-                      text="Yak-9P"
-                      intname="yak-9p"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Yak-9U/P</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/yak-9up_group.png"
-                        alt="yak-9up_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Yak-9U/P" img="yak-9up_group">
+                  <TechTreeItem
+                    link="/Yak-9U"
+                    title="Yak-9U"
+                    item_type="own"
+                    text="Yak-9U"
+                    intname="yak-9u"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Yak-9P"
+                    title="Yak-9P"
+                    item_type="own"
+                    text="Yak-9P"
+                    intname="yak-9p"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/Yak-3U"
@@ -1612,46 +1275,25 @@ export function USSRAircraft() {
                   type="aircraft"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/IL-10"
-                      title="IL-10"
-                      item_type="own"
-                      text="IL-10"
-                      intname="il-10"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/IL-10_(1946)"
-                      title="IL-10 (1946)"
-                      item_type="own"
-                      text="IL-10 (1946)"
-                      intname="il-10_1946"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">IL-10</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/il-10_group.png"
-                        alt="il-10_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="IL-10" img="il-10_group">
+                  <TechTreeItem
+                    link="/IL-10"
+                    title="IL-10"
+                    item_type="own"
+                    text="IL-10"
+                    intname="il-10"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/IL-10_(1946)"
+                    title="IL-10 (1946)"
+                    item_type="own"
+                    text="IL-10 (1946)"
+                    intname="il-10_1946"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/Su-6_(M-71F)"
@@ -1678,96 +1320,54 @@ export function USSRAircraft() {
                 </div>
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Yer-2_(ACh-30B)_(e)"
-                      title="Yer-2 (ACh-30B) (e)"
-                      item_type="own"
-                      text="Yer-2&nbsp;(ACh-30B) (e)"
-                      intname="er-2_ach30b_early"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Yer-2_(ACh-30B)_(l)"
-                      title="Yer-2 (ACh-30B) (l)"
-                      item_type="own"
-                      text="Yer-2&nbsp;(ACh-30B) (l)"
-                      intname="er-2_ach30b_late"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Yer-2 (l)</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/er-2_ach30b_group.png"
-                        alt="er-2_ach30b_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Yer-2 (l)" img="er-2_ach30b_group">
+                  <TechTreeItem
+                    link="/Yer-2_(ACh-30B)_(e)"
+                    title="Yer-2 (ACh-30B) (e)"
+                    item_type="own"
+                    text="Yer-2&nbsp;(ACh-30B) (e)"
+                    intname="er-2_ach30b_early"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Yer-2_(ACh-30B)_(l)"
+                    title="Yer-2 (ACh-30B) (l)"
+                    item_type="own"
+                    text="Yer-2&nbsp;(ACh-30B) (l)"
+                    intname="er-2_ach30b_late"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Tu-2S"
-                      title="Tu-2S"
-                      item_type="own"
-                      text="Tu-2S"
-                      intname="tu-2"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Tu-2S-44"
-                      title="Tu-2S-44"
-                      item_type="own"
-                      text="Tu-2S-44"
-                      intname="tu-2_postwar"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Tu-2S-59"
-                      title="Tu-2S-59"
-                      item_type="own"
-                      text="Tu-2S-59"
-                      intname="tu-2_postwar_late"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Tu-2</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/tu-2_group.png"
-                        alt="tu-2_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Tu-2" img="tu-2_group">
+                  <TechTreeItem
+                    link="/Tu-2S"
+                    title="Tu-2S"
+                    item_type="own"
+                    text="Tu-2S"
+                    intname="tu-2"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Tu-2S-44"
+                    title="Tu-2S-44"
+                    item_type="own"
+                    text="Tu-2S-44"
+                    intname="tu-2_postwar"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Tu-2S-59"
+                    title="Tu-2S-59"
+                    item_type="own"
+                    text="Tu-2S-59"
+                    intname="tu-2_postwar_late"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
@@ -1895,55 +1495,34 @@ export function USSRAircraft() {
             <tr>
               <Rank rank="V" />
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Yak-15P"
-                      title="Yak-15P"
-                      item_type="own"
-                      text="Yak-15P"
-                      intname="yak-15_early"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Yak-15"
-                      title="Yak-15"
-                      item_type="own"
-                      text="Yak-15"
-                      intname="yak-15"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Yak-17"
-                      title="Yak-17"
-                      item_type="own"
-                      text="Yak-17"
-                      intname="yak-17"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Yak-15/17</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/yak-15_group.png"
-                        alt="yak-15_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Yak-15/17" img="yak-15_group">
+                  <TechTreeItem
+                    link="/Yak-15P"
+                    title="Yak-15P"
+                    item_type="own"
+                    text="Yak-15P"
+                    intname="yak-15_early"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Yak-15"
+                    title="Yak-15"
+                    item_type="own"
+                    text="Yak-15"
+                    intname="yak-15"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Yak-17"
+                    title="Yak-17"
+                    item_type="own"
+                    text="Yak-17"
+                    intname="yak-17"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/Yak-23"
@@ -1965,87 +1544,45 @@ export function USSRAircraft() {
                 <Arrow type="small" />
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/MiG-9"
-                      title="MiG-9"
-                      item_type="own"
-                      text="MiG-9"
-                      intname="mig-9"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/MiG-9_(l)"
-                      title="MiG-9 (l)"
-                      item_type="own"
-                      text="MiG-9&nbsp;(l)"
-                      intname="mig-9_ussr"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">MiG-9</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/mig-9_group.png"
-                        alt="mig-9_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="MiG-9" img="mig-9_group">
+                  <TechTreeItem
+                    link="/MiG-9"
+                    title="MiG-9"
+                    item_type="own"
+                    text="MiG-9"
+                    intname="mig-9"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/MiG-9_(l)"
+                    title="MiG-9 (l)"
+                    item_type="own"
+                    text="MiG-9&nbsp;(l)"
+                    intname="mig-9_ussr"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/MiG-15"
-                      title="MiG-15"
-                      item_type="own"
-                      text="MiG-15"
-                      intname="mig-15_ns23"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/MiG-15bis"
-                      title="MiG-15bis"
-                      item_type="own"
-                      text="MiG-15bis"
-                      intname="mig-15"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">MiG-15</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/mig-15_group.png"
-                        alt="mig-15_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="MiG-15" img="mig-15_group">
+                  <TechTreeItem
+                    link="/MiG-15"
+                    title="MiG-15"
+                    item_type="own"
+                    text="MiG-15"
+                    intname="mig-15_ns23"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/MiG-15bis"
+                    title="MiG-15bis"
+                    item_type="own"
+                    text="MiG-15bis"
+                    intname="mig-15"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/MiG-17"
@@ -2297,46 +1834,25 @@ export function USSRAircraft() {
                 <EmptyDiv />
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/MiG-21SMT"
-                      title="MiG-21SMT"
-                      item_type="own"
-                      text="MiG-21SMT"
-                      intname="mig-21_smt"
-                      type="aircraft"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/MiG-21bis"
-                      title="MiG-21bis"
-                      item_type="own"
-                      text="MiG-21bis"
-                      intname="mig-21_bis"
-                      type="aircraft"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">MiG-21</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/mig-21_group.png"
-                        alt="mig-21_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="MiG-21" img="mig-21_group">
+                  <TechTreeItem
+                    link="/MiG-21SMT"
+                    title="MiG-21SMT"
+                    item_type="own"
+                    text="MiG-21SMT"
+                    intname="mig-21_smt"
+                    type="aircraft"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/MiG-21bis"
+                    title="MiG-21bis"
+                    item_type="own"
+                    text="MiG-21bis"
+                    intname="mig-21_bis"
+                    type="aircraft"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/MiG-23M"
@@ -2418,156 +1934,32 @@ export function USSRAircraft() {
           </tbody>
         </table>
       </div>
-      <h2>
-        <span className="mw-headline" id="Media">
-          Media
-        </span>
-      </h2>
+      <MediaHead />
       <div className="video_gallery">
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/fKrdTWqmgAY?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Yakovlev Aircraft</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/a3V1Ss-sIOs?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>USSR Air Forces Rank V - Tutorial and Guide</b> - <i>Jengar</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/NRis-UEnGjI?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>USSR Air Forces Rank IV - Tutorial and Guide</b> - <i>Jengar</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/BxECg8eQaQY?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>USSR Air Forces Rank III - Tutorial and Guide</b> - <i>Jengar</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/IFPHS0Ak4wU?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>USSR Air Forces Rank II - Tutorial and Guide</b> - <i>Jengar</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/p1PmpdL6XWU?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>USSR Air Forces Rank I - Tutorial and Guide</b> - <i>Jengar</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/9-X9YgVk1G4?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>MiG Alert</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/i_s87Tc_Ycs?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Climbing the ranks with USSR aircraft</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
+        <a href="https://yewtu.be/fKrdTWqmgAY">
+          <b>Yakovlev Aircraft</b> - <i>War Thunder Official Channel</i>
+        </a>
+        <a href="https://yewtu.be/a3V1Ss-sIOs">
+          <b>USSR Air Forces Rank V - Tutorial and Guide</b> - <i>Jengar</i>
+        </a>
+        <a href="https://yewtu.be/NRis-UEnGjI">
+          <b>USSR Air Forces Rank IV - Tutorial and Guide</b> - <i>Jengar</i>
+        </a>
+        <a href="https://yewtu.be/BxECg8eQaQY">
+          <b>USSR Air Forces Rank III - Tutorial and Guide</b> - <i>Jengar</i>
+        </a>
+        <a href="https://yewtu.be/IFPHS0Ak4wU">
+          <b>USSR Air Forces Rank II - Tutorial and Guide</b> - <i>Jengar</i>
+        </a>
+        <a href="https://yewtu.be/p1PmpdL6XWU">
+          <b>USSR Air Forces Rank I - Tutorial and Guide</b> - <i>Jengar</i>
+        </a>
+        <a href="https://yewtu.be/9-X9YgVk1G4">
+          <b>MiG Alert</b> - <i>War Thunder Official Channel</i>
+        </a>
+        <a href="https://yewtu.be/i_s87Tc_Ycs">
+          <b>Climbing the ranks with USSR aircraft</b> - <i>War Thunder Official Channel</i>
+        </a>
       </div>
     </div>
   );

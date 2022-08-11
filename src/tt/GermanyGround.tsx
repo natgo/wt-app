@@ -1,5 +1,4 @@
-import { openfolder } from ".";
-import { Arrow, EmptyDiv, Rank, Research, TechTreeItem } from "../TechTree";
+import { Arrow, EmptyDiv, MediaHead, Rank, Research, TechTreeItem, TreeFolder } from "../TechTree";
 
 export function GermanyGround() {
   return (
@@ -46,130 +45,67 @@ export function GermanyGround() {
                 </div>
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Pz.III_E"
-                      title="Pz.III E"
-                      item_type="own"
-                      text="Pz.III E"
-                      intname="germ_pzkpfw_iii_ausf_e"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Pz.III_B"
-                      title="Pz.III B"
-                      item_type="own"
-                      text="Pz.III B"
-                      intname="germ_pzkpfw_iii_ausf_b"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Pz.III B/E</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/germ_prewar_pz_iii_group.png"
-                        alt="germ_prewar_pz_iii_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Pz.III B/E" img="germ_prewar_pz_iii_group">
+                  <TechTreeItem
+                    link="/Pz.III_E"
+                    title="Pz.III E"
+                    item_type="own"
+                    text="Pz.III E"
+                    intname="germ_pzkpfw_iii_ausf_e"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Pz.III_B"
+                    title="Pz.III B"
+                    item_type="own"
+                    text="Pz.III B"
+                    intname="germ_pzkpfw_iii_ausf_b"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Pz.III_F"
-                      title="Pz.III F"
-                      item_type="own"
-                      text="Pz.III F"
-                      intname="germ_pzkpfw_iii_ausf_f"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Pz.III_J"
-                      title="Pz.III J"
-                      item_type="own"
-                      text="Pz.III J"
-                      intname="germ_pzkpfw_iii_ausf_j_l42"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Pz.III F/J</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/germ_pz_iii_early_group.png"
-                        alt="germ_pz_iii_early_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Pz.III F/J" img="germ_pz_iii_early_group">
+                  <TechTreeItem
+                    link="/Pz.III_F"
+                    title="Pz.III F"
+                    item_type="own"
+                    text="Pz.III F"
+                    intname="germ_pzkpfw_iii_ausf_f"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Pz.III_J"
+                    title="Pz.III J"
+                    item_type="own"
+                    text="Pz.III J"
+                    intname="germ_pzkpfw_iii_ausf_j_l42"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <EmptyDiv />
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Pz.II_C"
-                      title="Pz.II C"
-                      item_type="own"
-                      text="Pz.II C"
-                      intname="germ_pzkpfw_ii_ausf_c"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Pz.II_F"
-                      title="Pz.II F"
-                      item_type="own"
-                      text="Pz.II F"
-                      intname="germ_pzkpfw_ii_ausf_f"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Pz.II C/F</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_ii_early_group.png"
-                        alt="germ_pzkpfw_ii_early_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Pz.II C/F" img="germ_pzkpfw_ii_early_group">
+                  <TechTreeItem
+                    link="/Pz.II_C"
+                    title="Pz.II C"
+                    item_type="own"
+                    text="Pz.II C"
+                    intname="germ_pzkpfw_ii_ausf_c"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Pz.II_F"
+                    title="Pz.II F"
+                    item_type="own"
+                    text="Pz.II F"
+                    intname="germ_pzkpfw_ii_ausf_f"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/Pz.IV_C"
@@ -229,46 +165,25 @@ export function GermanyGround() {
                   type="ground"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Pz.38(t)_A"
-                      title="Pz.38(t) A"
-                      item_type="own"
-                      text="Pz.38(t) A"
-                      intname="germ_pzkpfw_38t_ausf_a"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Pz.38(t)_F"
-                      title="Pz.38(t) F"
-                      item_type="own"
-                      text="Pz.38(t) F"
-                      intname="germ_pzkpfw_38t_ausf_f"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Pz.38(t) A/F</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_38t_group.png"
-                        alt="germ_pzkpfw_38t_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Pz.38(t) A/F" img="germ_pzkpfw_38t_group">
+                  <TechTreeItem
+                    link="/Pz.38(t)_A"
+                    title="Pz.38(t) A"
+                    item_type="own"
+                    text="Pz.38(t) A"
+                    intname="germ_pzkpfw_38t_ausf_a"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Pz.38(t)_F"
+                    title="Pz.38(t) F"
+                    item_type="own"
+                    text="Pz.38(t) F"
+                    intname="germ_pzkpfw_38t_ausf_f"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/StuG_III_A"
@@ -366,46 +281,25 @@ export function GermanyGround() {
                   type="ground"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Marder_III"
-                      title="Marder III"
-                      item_type="own"
-                      text="Marder III"
-                      intname="germ_pzkpfw_38t_marder_iii"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Marder_III_H"
-                      title="Marder III H"
-                      item_type="own"
-                      text="Marder III H"
-                      intname="germ_pzkpfw_38t_marder_iii_ausf_h"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Marder III/III H</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/germ_marder_iii_group.png"
-                        alt="germ_marder_iii_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Marder III/III H" img="germ_marder_iii_group">
+                  <TechTreeItem
+                    link="/Marder_III"
+                    title="Marder III"
+                    item_type="own"
+                    text="Marder III"
+                    intname="germ_pzkpfw_38t_marder_iii"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Marder_III_H"
+                    title="Marder III H"
+                    item_type="own"
+                    text="Marder III H"
+                    intname="germ_pzkpfw_38t_marder_iii_ausf_h"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/Dicker_Max"
@@ -433,46 +327,25 @@ export function GermanyGround() {
                   type="ground"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Pz.III_L"
-                      title="Pz.III L"
-                      item_type="own"
-                      text="Pz.III L"
-                      intname="germ_pzkpfw_iii_ausf_l"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Pz.III_M"
-                      title="Pz.III M"
-                      item_type="own"
-                      text="Pz.III M"
-                      intname="germ_pzkpfw_iii_ausf_m"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Pz.III L/M</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_group.png"
-                        alt="germ_pzkpfw_iii_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Pz.III L/M" img="germ_pzkpfw_iii_group">
+                  <TechTreeItem
+                    link="/Pz.III_L"
+                    title="Pz.III L"
+                    item_type="own"
+                    text="Pz.III L"
+                    intname="germ_pzkpfw_iii_ausf_l"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Pz.III_M"
+                    title="Pz.III M"
+                    item_type="own"
+                    text="Pz.III M"
+                    intname="germ_pzkpfw_iii_ausf_m"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <EmptyDiv />
               </td>
               <td>
@@ -485,87 +358,45 @@ export function GermanyGround() {
                   type="ground"
                 />
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Pz.IV_F2"
-                      title="Pz.IV F2"
-                      item_type="own"
-                      text="Pz.IV F2"
-                      intname="germ_pzkpfw_iv_ausf_f2"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Pz.IV_G"
-                      title="Pz.IV G"
-                      item_type="own"
-                      text="Pz.IV G"
-                      intname="germ_pzkpfw_iv_ausf_g"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Pz.IV F2/G</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/pzkpfw_iv_fg_group.png"
-                        alt="pzkpfw_iv_fg_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Pz.IV F2/G" img="pzkpfw_iv_fg_group">
+                  <TechTreeItem
+                    link="/Pz.IV_F2"
+                    title="Pz.IV F2"
+                    item_type="own"
+                    text="Pz.IV F2"
+                    intname="germ_pzkpfw_iv_ausf_f2"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Pz.IV_G"
+                    title="Pz.IV G"
+                    item_type="own"
+                    text="Pz.IV G"
+                    intname="germ_pzkpfw_iv_ausf_g"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Pz.IV_H"
-                      title="Pz.IV H"
-                      item_type="own"
-                      text="Pz.IV H"
-                      intname="germ_pzkpfw_iv_ausf_h"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Pz.IV_J"
-                      title="Pz.IV J"
-                      item_type="own"
-                      text="Pz.IV J"
-                      intname="germ_pzkpfw_iv_ausf_j"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Pz.IV H/J</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_iv_late_group.png"
-                        alt="germ_pzkpfw_iv_late_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Pz.IV H/J" img="germ_pzkpfw_iv_late_group">
+                  <TechTreeItem
+                    link="/Pz.IV_H"
+                    title="Pz.IV H"
+                    item_type="own"
+                    text="Pz.IV H"
+                    intname="germ_pzkpfw_iv_ausf_h"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Pz.IV_J"
+                    title="Pz.IV J"
+                    item_type="own"
+                    text="Pz.IV J"
+                    intname="germ_pzkpfw_iv_ausf_j"
+                    type="ground"
+                  />
+                </TreeFolder>
               </td>
               <td>
                 <TechTreeItem
@@ -1102,46 +933,25 @@ export function GermanyGround() {
                 </div>
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Panther_A"
-                      title="Panther A"
-                      item_type="own"
-                      text="Panther A"
-                      intname="germ_pzkpfw_v_ausf_a_panther"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Panther_F"
-                      title="Panther F"
-                      item_type="own"
-                      text="Panther F"
-                      intname="germ_pzkpfw_v_ausf_f_panther"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Panther A/F</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/germ_pzkpfw_v_a_g_group.png"
-                        alt="germ_pzkpfw_v_a_g_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Panther A/F" img="germ_pzkpfw_v_a_g_group">
+                  <TechTreeItem
+                    link="/Panther_A"
+                    title="Panther A"
+                    item_type="own"
+                    text="Panther A"
+                    intname="germ_pzkpfw_v_ausf_a_panther"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Panther_F"
+                    title="Panther F"
+                    item_type="own"
+                    text="Panther F"
+                    intname="germ_pzkpfw_v_ausf_f_panther"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/Panther_G"
@@ -1538,46 +1348,25 @@ export function GermanyGround() {
                 />
               </td>
               <td>
-                <div style={{ position: "relative" }}>
-                  <div
-                    className="tree-group-collapse"
-                    style={{ display: "none", position: "absolute" }}
-                  >
-                    <TechTreeItem
-                      link="/Leopard_A1A1"
-                      title="Leopard A1A1"
-                      item_type="own"
-                      text="Leopard A1A1"
-                      intname="germ_leopard_i_a1"
-                      type="ground"
-                    />
-                    <Arrow type="small" />
-                    <TechTreeItem
-                      link="/Leopard_1A5"
-                      title="Leopard 1A5"
-                      item_type="own"
-                      text="Leopard 1A5"
-                      intname="germ_leopard_1a5"
-                      type="ground"
-                    />
-                  </div>
-                  <div
-                    className="tree-group"
-                    onClick={(event) => {
-                      openfolder(event);
-                    }}
-                  >
-                    <div className="tree-group-text">
-                      <span className="tree-item-text-scroll">Leopard A1A1/1A5</span>
-                    </div>
-                    <div className="tree-group-img">
-                      <img
-                        src="https://encyclopedia.warthunder.com/slots/germ_leopard_1_late_group.png"
-                        alt="germ_leopard_1_late_group.png"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <TreeFolder name="Leopard A1A1/1A5" img="germ_leopard_1_late_group">
+                  <TechTreeItem
+                    link="/Leopard_A1A1"
+                    title="Leopard A1A1"
+                    item_type="own"
+                    text="Leopard A1A1"
+                    intname="germ_leopard_i_a1"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Leopard_1A5"
+                    title="Leopard 1A5"
+                    item_type="own"
+                    text="Leopard 1A5"
+                    intname="germ_leopard_1a5"
+                    type="ground"
+                  />
+                </TreeFolder>
                 <Arrow type="small" />
                 <TechTreeItem
                   link="/Leopard_2K"
@@ -1806,138 +1595,29 @@ export function GermanyGround() {
           </tbody>
         </table>
       </div>
-      <h2>
-        <span className="mw-headline" id="Media">
-          Media
-        </span>
-      </h2>
+      <MediaHead />
       <div className="video_gallery">
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/zSQjqu6dcg8?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Climbing the ranks with German tanks</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/ECz5ah4dMvQ?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Germany ground forces Tier I - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/fMjYjmXwzwA?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Germany ground forces Tier II - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/GsCIbQ6TKIQ?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Germany ground forces Tier III - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/XHXnRCjJI6g?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Germany ground forces Tier IV - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/UH1uxsgZle8?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Germany ground forces Tier V - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/Htx2jqp0aEA?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Germany ground forces Tier VI &amp; VII - Review and Analysis</b> - <i>Oxy</i>
-          </div>
-        </div>
+        <a href="https://yewtu.be/zSQjqu6dcg8">
+          <b>Climbing the ranks with German tanks</b> - <i>War Thunder Official Channel</i>
+        </a>
+        <a href="https://yewtu.be/ECz5ah4dMvQ">
+          <b>Germany ground forces Tier I - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/fMjYjmXwzwA">
+          <b>Germany ground forces Tier II - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/GsCIbQ6TKIQ">
+          <b>Germany ground forces Tier III - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/XHXnRCjJI6g">
+          <b>Germany ground forces Tier IV - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/UH1uxsgZle8">
+          <b>Germany ground forces Tier V - Review and Analysis</b> - <i>Oxy</i>
+        </a>
+        <a href="https://yewtu.be/Htx2jqp0aEA">
+          <b>Germany ground forces Tier VI &amp; VII - Review and Analysis</b> - <i>Oxy</i>
+        </a>
       </div>
     </div>
   );

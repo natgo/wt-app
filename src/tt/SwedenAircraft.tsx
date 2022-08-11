@@ -1,5 +1,4 @@
-import { openfolder } from ".";
-import { Arrow, EmptyDiv, Rank, Research, TechTreeItem } from "../TechTree";
+import { Arrow, EmptyDiv, MediaHead, Rank, Research, TechTreeItem, TreeFolder } from "../TechTree";
 
 export function SwedenAircraft() {
   return (
@@ -519,138 +518,29 @@ export function SwedenAircraft() {
           </tbody>
         </table>
       </div>
-      <h2>
-        <span className="mw-headline" id="Media">
-          Media
-        </span>
-      </h2>
+      <MediaHead />
       <div className="video_gallery">
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/5TYuG36QnPU?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>SAAB</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/diNkuJ7lies?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Swedish Air Forces Rank V - Tutorial and Guide</b> - <i>Jengar</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/lQoLGbMZUkg?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Swedish Air Forces Rank IV - Tutorial and Guide</b> - <i>Jengar</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/csnduubxnyk?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Swedish Air Forces Rank III - Tutorial and Guide</b> - <i>Jengar</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/VcyQiD2NLCU?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Swedish Air Forces Rank II - Tutorial and Guide</b> - <i>Jengar</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/W4o7KCDAa8U?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Swedish Air Forces Rank I - Tutorial and Guide</b> - <i>Jengar</i>
-          </div>
-        </div>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/30a5sfsoX_4?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Climbing the ranks with Swedish aircraft</b> - <i>War Thunder Official Channel</i>
-          </div>
-        </div>
+        <a href="https://yewtu.be/5TYuG36QnPU">
+          <b>SAAB</b> - <i>War Thunder Official Channel</i>
+        </a>
+        <a href="https://yewtu.be/diNkuJ7lies">
+          <b>Swedish Air Forces Rank V - Tutorial and Guide</b> - <i>Jengar</i>
+        </a>
+        <a href="https://yewtu.be/lQoLGbMZUkg">
+          <b>Swedish Air Forces Rank IV - Tutorial and Guide</b> - <i>Jengar</i>
+        </a>
+        <a href="https://yewtu.be/csnduubxnyk">
+          <b>Swedish Air Forces Rank III - Tutorial and Guide</b> - <i>Jengar</i>
+        </a>
+        <a href="https://yewtu.be/VcyQiD2NLCU">
+          <b>Swedish Air Forces Rank II - Tutorial and Guide</b> - <i>Jengar</i>
+        </a>
+        <a href="https://yewtu.be/W4o7KCDAa8U">
+          <b>Swedish Air Forces Rank I - Tutorial and Guide</b> - <i>Jengar</i>
+        </a>
+        <a href="https://yewtu.be/30a5sfsoX_4">
+          <b>Climbing the ranks with Swedish aircraft</b> - <i>War Thunder Official Channel</i>
+        </a>
       </div>
     </div>
   );
