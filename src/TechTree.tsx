@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useRecoilValue } from "recoil";
 
 import { Final } from "./atom";
@@ -16,7 +17,7 @@ import tank_destroyer from "./img/def_tank_destroyer_radar.svg";
 import utility_helicopter from "./img/def_utility_helicopter_radar.svg";
 import { openfolder } from "./tt";
 
-export function Item(props: { type: "own" | "prem" | "squad" }): JSX.Element {
+export function ItemImg(props: { type: "own" | "prem" | "squad" }): JSX.Element {
   const { type } = props;
   let src = squad_img;
   switch (type) {
@@ -112,9 +113,9 @@ export function TechTreeItem(props: {
   return (
     <div className="tree-item">
       <div className="tree-item-background" id={title}>
-        <a href={link} title={title}>
-          <Item type={item_type} />
-        </a>
+        <Link to={"/techtree" + link} title={title}>
+          <ItemImg type={item_type} />
+        </Link>
       </div>
       <div className="tree-item-text">
         <span className="tree-item-text-scroll">{text}</span>
@@ -215,8 +216,6 @@ export function EmptyDiv(): JSX.Element {
 
 export function TreeFolder(props: { children: React.ReactElement[]; name: string; img: string }) {
   const { children, name, img } = props;
-  console.log(typeof children);
-  console.log(children);
   const FinalValue = useRecoilValue(Final);
   let fig_src = attack_helicopter;
   let br: string | undefined = "-1.0";
@@ -312,7 +311,6 @@ export function TreeFolder(props: { children: React.ReactElement[]; name: string
     }
   }
   brarr.sort();
-  console.log(brarr);
   let groupbr = "-1.0";
   if (br === brarr[brarr.length - 1]) {
     if (br > brarr[0]) {
