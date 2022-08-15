@@ -29,7 +29,8 @@ interface FinalProps {
   ab_sl_multiplyer: number;
   rb_sl_multiplyer: number;
   sb_sl_multiplyer: number;
-  is_prem: boolean;
+  prem_type: string;
+  cost_gold: number | undefined;
 }
 
 interface GroundProps extends FinalProps {
