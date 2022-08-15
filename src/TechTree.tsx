@@ -110,10 +110,15 @@ export function TechTreeItem(props: {
         break;
     }
   }
+  let itemLink = link;
+  if (link.includes("/", 1)) {
+    console.log(link);
+    itemLink = "/" + link.substring(1).replace("/", "+");
+  }
   return (
     <div className="tree-item">
       <div className="tree-item-background" id={title}>
-        <Link to={"/techtree" + link} title={title}>
+        <Link to={"/techtree" + encodeURI(itemLink)} title={title}>
           <ItemImg type={item_type} />
         </Link>
       </div>
