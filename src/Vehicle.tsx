@@ -8,10 +8,9 @@ export function Vehicle(): JSX.Element {
   console.log(params);
   return (
     <SpecsCard
-      intname={"germ_vt_1_2"}
+      intname={"b_48_firecrest"}
       link={params.vehicleId}
-      type="ground"
-      text="Fury&nbsp;Mk I"
+      type="aircraft"
       item_type={"own"}
     />
   );
