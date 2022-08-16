@@ -7,7 +7,7 @@ interface FinalProp {
   helicopter: FinalProps[];
 }
 
-interface FinalProps {
+export interface FinalProps {
   intname: string;
   wikiname: string;
   normal_type: string;
@@ -31,6 +31,7 @@ interface FinalProps {
   sb_sl_multiplyer: number;
   prem_type: string;
   cost_gold: number | undefined;
+  hidden: boolean;
 }
 
 interface GroundProps extends FinalProps {

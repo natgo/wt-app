@@ -1,78 +1,17 @@
-import { useRecoilValue } from "recoil";
-
 import { VehiclePrice } from "./VehiclePrice";
-import { Final } from "./atom";
+
+import { FinalProps } from "./types";
 
 export function SpecsCard(props: {
-  intname: string;
+  vehicle: FinalProps;
   link?: string;
   type: string;
   item_type: "own" | "prem" | "squad";
-}) {
-  const { intname, link, type, item_type } = props;
-  const FinalValue = useRecoilValue(Final);
-  let extype: string | undefined = "kolmio";
-  let ab_br: string | undefined = "-1.0";
-  let rb_br: string | undefined = "-1.0";
-  let sb_br: string | undefined = "-1.0";
-  let country_code: string | undefined = "country_viro";
-  let text: string | undefined = "Virolainen P-69";
-  let rank_numeric: number | undefined = -1;
-  let prem: string | undefined = "false";
-  let reqRP: number | undefined = -1;
-  let reqSL: number | undefined = -1;
-  let costGold: number | undefined = -1;
+}): JSX.Element {
+  const { vehicle, link } = props;
 
-  if (type === "aircraft") {
-    const match = FinalValue.aircraft.find((curval) => {
-      return curval.intname.toLowerCase() === intname;
-    });
-    ab_br = match?.ab_br;
-    rb_br = match?.rb_br;
-    sb_br = match?.sb_br;
-    extype = match?.normal_type;
-    country_code = match?.country;
-    rank_numeric = match?.rank;
-    prem = match?.prem_type;
-    reqRP = match?.reqRP;
-    reqSL = match?.sl_price;
-    costGold = match?.cost_gold;
-    text = match?.wikiname;
-  }
-  if (type === "ground") {
-    const match = FinalValue.ground.find((curval) => {
-      return curval.intname.toLowerCase() === intname;
-    });
-    ab_br = match?.ab_br;
-    rb_br = match?.rb_br;
-    sb_br = match?.sb_br;
-    extype = match?.normal_type;
-    country_code = match?.country;
-    rank_numeric = match?.rank;
-    prem = match?.prem_type;
-    reqRP = match?.reqRP;
-    reqSL = match?.sl_price;
-    costGold = match?.cost_gold;
-    text = match?.wikiname;
-  }
-  if (type === "helicopter") {
-    const match = FinalValue.helicopter.find((curval) => {
-      return curval.intname.toLowerCase() === intname;
-    });
-    ab_br = match?.ab_br;
-    rb_br = match?.rb_br;
-    sb_br = match?.sb_br;
-    extype = match?.normal_type;
-    country_code = match?.country;
-    rank_numeric = match?.rank;
-    prem = match?.prem_type;
-    reqRP = match?.reqRP;
-    reqSL = match?.sl_price;
-    costGold = match?.cost_gold;
-    text = match?.wikiname;
-  }
   let vehicle_type = "Viron Paras";
-  switch (extype) {
+  switch (vehicle.normal_type) {
     case "type_tank_destroyer":
       vehicle_type = "Tank destroyer";
       break;
@@ -103,7 +42,7 @@ export function SpecsCard(props: {
   }
 
   let rank = "IX";
-  switch (rank_numeric) {
+  switch (vehicle.rank) {
     case 1:
       rank = "I";
       break;
@@ -126,11 +65,11 @@ export function SpecsCard(props: {
       rank = "VII";
       break;
   }
-  console.log(prem);
+
   let country: string | undefined = "Viro";
   const flag: string[] = [];
   const thumb_base = "https://wiki.warthunder.com/images/thumb/";
-  switch (country_code) {
+  switch (vehicle.country) {
     case "country_usa":
       country = "USA";
       flag.push(
@@ -211,11 +150,11 @@ export function SpecsCard(props: {
       );
       break;
   }
-  console.log(costGold);
+
   return (
-    <div className="specs_card_main" data-code={intname}>
+    <div className="specs_card_main" data-code={vehicle.intname}>
       <div className="specs_card_mobile_info">
-        <div className="general_info_name">{text}</div>
+        <div className="general_info_name">{vehicle.wikiname}</div>
         <div className="general_info_neighbors"></div>
       </div>
       <div className="specs_card_main_slider">
@@ -223,8 +162,8 @@ export function SpecsCard(props: {
         <div className="specs_card_main_slider_system">
           <div>
             <img
-              src={`https://encyclopedia.warthunder.com/images/${intname}.png`}
-              alt={`${intname}.png`}
+              src={`https://encyclopedia.warthunder.com/images/${vehicle.intname}.png`}
+              alt={`${vehicle.intname}.png`}
             />
           </div>
           <div>
@@ -246,7 +185,7 @@ export function SpecsCard(props: {
         </div>
       </div>
       <div className="specs_card_main_info">
-        <div className="general_info_name">{text}</div>
+        <div className="general_info_name">{vehicle.wikiname}</div>
         <div className="general_info_neighbors"></div>
         <div className="general_info">
           <div className="general_info_nation">
@@ -310,9 +249,9 @@ export function SpecsCard(props: {
                 </td>
               </tr>
               <tr>
-                <td>{ab_br}</td>
-                <td>{rb_br}</td>
-                <td>{sb_br}</td>
+                <td>{vehicle.ab_br}</td>
+                <td>{vehicle.rb_br}</td>
+                <td>{vehicle.sb_br}</td>
               </tr>
             </table>
           </div>
@@ -326,11 +265,12 @@ export function SpecsCard(props: {
           </div>
         </div>
         <VehiclePrice
-          intname={intname}
-          prem={prem}
-          reqRP={reqRP}
-          reqSL={reqSL}
-          costGold={costGold}
+          intname={vehicle.intname}
+          prem={vehicle.prem_type}
+          reqRP={vehicle.reqRP}
+          reqSL={vehicle.sl_price}
+          costGold={vehicle.cost_gold}
+          hidden={vehicle.hidden}
         />
         <div className="general_info_buttons">
           <div className="general_info_buttons_container">

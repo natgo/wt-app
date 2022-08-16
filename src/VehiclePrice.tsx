@@ -4,8 +4,9 @@ export function VehiclePrice(props: {
   reqRP: number | undefined;
   reqSL: number | undefined;
   costGold: number | undefined;
+  hidden: boolean | undefined;
 }): JSX.Element {
-  const { prem, reqRP, reqSL, costGold } = props;
+  const { prem, reqRP, reqSL, costGold, hidden } = props;
   let rp = "Not Free";
   if (reqRP === undefined) {
     rp = "Free";
@@ -22,19 +23,59 @@ export function VehiclePrice(props: {
       sl = reqSL.toLocaleString();
     }
   }
-  if (prem === "false") {
-    return (
-      <div className="general_info_price">
-        <div className="general_info_price_research">
-          <span className="desc">Research:</span>
-          <span className="value">{rp}</span>
+  if (prem === "false" && hidden === false) {
+    if (sl === "Free") {
+      return (
+        <div className="general_info_price">
+          <div className="general_info_price_research">
+            <span className="desc">Research:</span>
+            <span className="value">{rp}</span>
+          </div>
+          <div className="general_info_price_buy">
+            <span className="desc">Purchase:</span>
+            <span className="value">{sl}</span>
+          </div>
         </div>
-        <div className="general_info_price_buy">
-          <span className="desc">Purchase:</span>
-          <span className="value">{sl}</span>
+      );
+    } else {
+      return (
+        <div className="general_info_price">
+          <div className="general_info_price_research">
+            <span className="desc">Research:</span>
+            <span className="value">
+              {rp}
+              <a href="/Research_Points" title="Research Points">
+                <img
+                  alt="Specs-Card-Exp.png"
+                  src="https://wiki.warthunder.com/images/thumb/4/4f/Specs-Card-Exp.png/14px-Specs-Card-Exp.png"
+                  width="14"
+                  height="22"
+                  srcSet="/images/4/4f/Specs-Card-Exp.png 1.5x"
+                  data-file-width="16"
+                  data-file-height="25"
+                />
+              </a>
+            </span>
+          </div>
+          <div className="general_info_price_buy">
+            <span className="desc">Purchase:</span>
+            <span className="value">
+              {sl}
+              <a href="/Silver_Lions" title="Silver Lions">
+                <img
+                  alt="Specs-Card-Lion.png"
+                  src="https://wiki.warthunder.com/images/c/c1/Specs-Card-Lion.png"
+                  width="24"
+                  height="24"
+                  data-file-width="24"
+                  data-file-height="24"
+                />
+              </a>
+            </span>
+          </div>
         </div>
-      </div>
-    );
+      );
+    }
   } else {
     if (prem === "gold") {
       return (
@@ -58,7 +99,7 @@ export function VehiclePrice(props: {
         </div>
       );
     } else {
-      if (prem === "event") {
+      if (prem === "event" || (prem === "false" && hidden === true) || prem === "store") {
         return (
           <div className="general_info_price">
             <div className="general_info_price_buy" style={{ width: "100%" }}>
