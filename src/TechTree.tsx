@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
-import { useRecoilValue } from "recoil";
 
-import { Final } from "./atom";
 import own_img from "./img/Item_own.png";
 import prem_img from "./img/Item_prem.png";
 import squad_img from "./img/Item_squad.png";
@@ -16,6 +14,7 @@ import spaa from "./img/def_spaa_radar.svg";
 import tank_destroyer from "./img/def_tank_destroyer_radar.svg";
 import utility_helicopter from "./img/def_utility_helicopter_radar.svg";
 import { openfolder } from "./tt";
+import { QueryVehicle } from "./Vehicle";
 
 export function ItemImg(props: { type: "own" | "prem" | "squad" }): JSX.Element {
   const { type } = props;
@@ -53,63 +52,44 @@ export function TechTreeItem(props: {
   item_type: "own" | "prem" | "squad";
 }): JSX.Element {
   const { intname, type, link, text, title, item_type } = props;
-  const FinalValue = useRecoilValue(Final);
   let fig_src = attack_helicopter;
   let br: string | undefined = "-1.0";
-  if (type === "aircraft") {
-    const match = FinalValue.aircraft.find((curval) => {
-      return curval.intname.toLowerCase() === intname;
-    });
-    br = match?.rb_br;
-    switch (match?.normal_type) {
-      case "type_fighter":
-        fig_src = fighter;
-        break;
-      case "type_bomber":
-        fig_src = bomber;
-        break;
-      case "type_assault":
-        fig_src = assault;
-        break;
-    }
+  const match = QueryVehicle(intname,"intname");
+  br = match?.rb_br;
+
+  switch (match?.normal_type) {
+    case "type_fighter":
+      fig_src = fighter;
+      break;
+    case "type_bomber":
+      fig_src = bomber;
+      break;
+    case "type_assault":
+      fig_src = assault;
+      break;
+    case "type_light_tank":
+      fig_src = light_tank;
+      break;
+    case "type_medium_tank":
+      fig_src = medium_tank;
+      break;
+    case "type_heavy_tank":
+      fig_src = heavy_tank;
+      break;
+    case "type_tank_destroyer":
+      fig_src = tank_destroyer;
+      break;
+    case "type_spaa":
+      fig_src = spaa;
+      break;
+    case "type_utility_helicopter":
+      fig_src = utility_helicopter;
+      break;
+    case "type_attack_helicopter":
+      fig_src = attack_helicopter;
+      break;
   }
-  if (type === "ground") {
-    const match = FinalValue.ground.find((curval) => {
-      return curval.intname.toLowerCase() === intname;
-    });
-    br = match?.rb_br;
-    switch (match?.normal_type) {
-      case "type_light_tank":
-        fig_src = light_tank;
-        break;
-      case "type_medium_tank":
-        fig_src = medium_tank;
-        break;
-      case "type_heavy_tank":
-        fig_src = heavy_tank;
-        break;
-      case "type_tank_destroyer":
-        fig_src = tank_destroyer;
-        break;
-      case "type_spaa":
-        fig_src = spaa;
-        break;
-    }
-  }
-  if (type === "helicopter") {
-    const match = FinalValue.helicopter.find((curval) => {
-      return curval.intname.toLowerCase() === intname;
-    });
-    br = match?.rb_br;
-    switch (match?.normal_type) {
-      case "type_utility_helicopter":
-        fig_src = utility_helicopter;
-        break;
-      case "type_attack_helicopter":
-        fig_src = attack_helicopter;
-        break;
-    }
-  }
+  
   let itemLink = link;
   if (link.includes("/", 1)) {
     console.log(link);
@@ -221,100 +201,55 @@ export function EmptyDiv(): JSX.Element {
 
 export function TreeFolder(props: { children: React.ReactElement[]; name: string; img: string }) {
   const { children, name, img } = props;
-  const FinalValue = useRecoilValue(Final);
   let fig_src = attack_helicopter;
   let br: string | undefined = "-1.0";
   const brarr: string[] = [];
-  if (children[0].props.type === "aircraft") {
-    const match = FinalValue.aircraft.find((curval) => {
-      return curval.intname.toLowerCase() === children[0].props.intname;
-    });
-    br = match?.rb_br;
-    children.forEach((element) => {
-      if (element.props) {
-        if (element.props.intname) {
-          const match = FinalValue.aircraft.find((curval) => {
-            return curval.intname.toLowerCase() === element.props.intname;
-          });
-          if (match) {
-            brarr.push(match.rb_br);
-          }
+  const match = QueryVehicle(children[0].props.intname,"intname");
+  br = match?.rb_br;
+  children.forEach((element) => {
+    if (element.props) {
+      if (element.props.intname) {
+        const match = QueryVehicle(element.props.intname,"intname");
+        if (match) {
+          brarr.push(match.rb_br);
         }
       }
-    });
-    switch (match?.normal_type) {
-      case "type_fighter":
-        fig_src = fighter;
-        break;
-      case "type_bomber":
-        fig_src = bomber;
-        break;
-      case "type_assault":
-        fig_src = assault;
-        break;
     }
+  });
+  
+  switch (match?.normal_type) {
+    case "type_fighter":
+      fig_src = fighter;
+      break;
+    case "type_bomber":
+      fig_src = bomber;
+      break;
+    case "type_assault":
+      fig_src = assault;
+      break;
+    case "type_light_tank":
+      fig_src = light_tank;
+      break;
+    case "type_medium_tank":
+      fig_src = medium_tank;
+      break;
+    case "type_heavy_tank":
+      fig_src = heavy_tank;
+      break;
+    case "type_tank_destroyer":
+      fig_src = tank_destroyer;
+      break;
+    case "type_spaa":
+      fig_src = spaa;
+      break;
+    case "type_utility_helicopter":
+      fig_src = utility_helicopter;
+      break;
+    case "type_attack_helicopter":
+      fig_src = attack_helicopter;
+      break;
   }
-  if (children[0].props.type === "ground") {
-    const match = FinalValue.ground.find((curval) => {
-      return curval.intname.toLowerCase() === children[0].props.intname;
-    });
-    br = match?.rb_br;
-    children.forEach((element) => {
-      if (element.props) {
-        if (element.props.intname) {
-          const match = FinalValue.ground.find((curval) => {
-            return curval.intname.toLowerCase() === element.props.intname;
-          });
-          if (match) {
-            brarr.push(match.rb_br);
-          }
-        }
-      }
-    });
-    switch (match?.normal_type) {
-      case "type_light_tank":
-        fig_src = light_tank;
-        break;
-      case "type_medium_tank":
-        fig_src = medium_tank;
-        break;
-      case "type_heavy_tank":
-        fig_src = heavy_tank;
-        break;
-      case "type_tank_destroyer":
-        fig_src = tank_destroyer;
-        break;
-      case "type_spaa":
-        fig_src = spaa;
-        break;
-    }
-  }
-  if (children[0].props.type === "helicopter") {
-    const match = FinalValue.helicopter.find((curval) => {
-      return curval.intname.toLowerCase() === children[0].props.intname;
-    });
-    br = match?.rb_br;
-    children.forEach((element) => {
-      if (element.props) {
-        if (element.props.intname) {
-          const match = FinalValue.helicopter.find((curval) => {
-            return curval.intname.toLowerCase() === element.props.intname;
-          });
-          if (match) {
-            brarr.push(match.rb_br);
-          }
-        }
-      }
-    });
-    switch (match?.normal_type) {
-      case "type_utility_helicopter":
-        fig_src = utility_helicopter;
-        break;
-      case "type_attack_helicopter":
-        fig_src = attack_helicopter;
-        break;
-    }
-  }
+
   brarr.sort();
   let groupbr = "-1.0";
   if (br === brarr[brarr.length - 1]) {

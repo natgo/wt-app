@@ -1,11 +1,9 @@
 import { VehiclePrice } from "./VehiclePrice";
-
 import { FinalProps } from "./types";
 
 export function SpecsCard(props: {
   vehicle: FinalProps;
   link?: string;
-  type: string;
   item_type: "own" | "prem" | "squad";
 }): JSX.Element {
   const { vehicle, link } = props;
@@ -111,6 +109,7 @@ export function SpecsCard(props: {
       );
       break;
     case "country_france":
+      country = "France";
       flag.push(
         thumb_base + "7/73/France_flag.png/45px-France_flag.png",
         thumb_base + "7/73/France_flag.png/68px-France_flag.png",
@@ -231,28 +230,30 @@ export function SpecsCard(props: {
               :
             </div>
             <table rules="all">
-              <tr>
-                <td>
-                  <a href="/Arcade_Battles" className="mw-redirect" title="Arcade Battles">
-                    AB
-                  </a>
-                </td>
-                <td>
-                  <a href="/Realistic_Battles" className="mw-redirect" title="Realistic Battles">
-                    RB
-                  </a>
-                </td>
-                <td>
-                  <a href="/Simulator_Battles" className="mw-redirect" title="Simulator Battles">
-                    SB
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>{vehicle.ab_br}</td>
-                <td>{vehicle.rb_br}</td>
-                <td>{vehicle.sb_br}</td>
-              </tr>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="/Arcade_Battles" className="mw-redirect" title="Arcade Battles">
+                      AB
+                    </a>
+                  </td>
+                  <td>
+                    <a href="/Realistic_Battles" className="mw-redirect" title="Realistic Battles">
+                      RB
+                    </a>
+                  </td>
+                  <td>
+                    <a href="/Simulator_Battles" className="mw-redirect" title="Simulator Battles">
+                      SB
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>{vehicle.ab_br}</td>
+                  <td>{vehicle.rb_br}</td>
+                  <td>{vehicle.sb_br}</td>
+                </tr>
+              </tbody>
             </table>
           </div>
           <div className="general_info_class">

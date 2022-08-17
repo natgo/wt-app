@@ -4,36 +4,64 @@ import { useRecoilValue } from "recoil";
 import "./App2.css";
 import { SpecsCard } from "./VehicleItem";
 import { Final } from "./atom";
+import { FinalProps } from "./types";
 
-function QueryVehicle(vehicleId: string) {
+export function QueryVehicle(vehicle: string, type: "intname"|"wikiname"): FinalProps | undefined {
   const FinalValue = useRecoilValue(Final);
-  console.log(decodeURI(vehicleId).replace(/_/g, " ").toLowerCase());
-  const matchAir = FinalValue.aircraft.find((curval) => {
-    return curval.wikiname.toLowerCase() === decodeURI(vehicleId).replace(/_/g, " ").toLowerCase();
-  });
-  const matchGround = FinalValue.ground.find((curval) => {
-    return curval.wikiname.toLowerCase() === decodeURI(vehicleId).replace(/_/g, " ").toLowerCase();
-  });
-  const matchHelicopter = FinalValue.helicopter.find((curval) => {
-    return curval.wikiname.toLowerCase() === decodeURI(vehicleId).replace(/_/g, " ").toLowerCase();
-  });
-  if (matchAir) {
-    return matchAir;
-  }
-  if (matchGround) {
-    return matchGround;
-  }
-  if (matchHelicopter) {
-    return matchHelicopter;
+  console.log(vehicle);
+  if (type === "wikiname") {
+    const matchAir = FinalValue.aircraft.find((curval) => {
+      return curval.wikiname.toLowerCase() === decodeURI(vehicle).replace(/_/g, " ").toLowerCase();
+    });
+    const matchGround = FinalValue.ground.find((curval) => {
+      return curval.wikiname.toLowerCase() === decodeURI(vehicle).replace(/_/g, " ").toLowerCase();
+    });
+    const matchHelicopter = FinalValue.helicopter.find((curval) => {
+      return curval.wikiname.toLowerCase() === decodeURI(vehicle).replace(/_/g, " ").toLowerCase();
+    });
+    if (matchAir) {
+      return matchAir;
+    }
+    if (matchGround) {
+      return matchGround;
+    }
+    if (matchHelicopter) {
+      return matchHelicopter;
+    }
+  } else {
+    const matchAir = FinalValue.aircraft.find((curval) => {
+      return curval.intname.toLowerCase() === vehicle.toLowerCase();
+    });
+    const matchGround = FinalValue.ground.find((curval) => {
+      return curval.intname.toLowerCase() === vehicle.toLowerCase();
+    });
+    const matchHelicopter = FinalValue.helicopter.find((curval) => {
+      return curval.intname.toLowerCase() === vehicle.toLowerCase();
+    });
+    if (matchAir) {
+      return matchAir;
+    }
+    if (matchGround) {
+      return matchGround;
+    }
+    if (matchHelicopter) {
+      return matchHelicopter;
+    }
   }
 }
 
 export function Vehicle(): JSX.Element {
   const params = useParams();
-  console.log(params.vehicleId);
-  const match = QueryVehicle(params.vehicleId.replace(/\+/g, "/"));
-  console.log(match);
-  return (
-    <SpecsCard vehicle={match} link={params.vehicleId} type="ground" item_type={"own"} />
-  );
+  if (params.vehicleId) {
+    console.log(params.vehicleId);
+    const match = QueryVehicle(params.vehicleId.replace(/\+/g, "/"),"wikiname");
+    console.log(match);
+    if (match) {
+      return <SpecsCard vehicle={match} link={params.vehicleId} item_type={"own"} />;
+    } else {
+      return <b>No Match</b>;
+    }
+  } else {
+    return <b>Not a vehicle.</b>;
+  }
 }
