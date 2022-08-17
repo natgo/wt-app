@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { useRecoilValue } from "recoil";
 
 import "./App2.css";
-import { SpecsCard } from "./VehicleItem";
+import { SpecsCard, Survivability } from "./VehicleItem";
 import { Final } from "./atom";
 import { FinalProps } from "./types";
 
@@ -57,7 +57,12 @@ export function Vehicle(): JSX.Element {
     const match = QueryVehicle(params.vehicleId.replace(/\+/g, "/"),"wikiname");
     console.log(match);
     if (match) {
-      return <SpecsCard vehicle={match} link={params.vehicleId} item_type={"own"} />;
+      return (
+        <div>
+          <SpecsCard vehicle={match} link={params.vehicleId} item_type={"own"} />
+          <Survivability vehicle={match} />
+        </div>
+      );
     } else {
       return <b>No Match</b>;
     }
