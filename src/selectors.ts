@@ -1,7 +1,7 @@
 import axios from "axios";
-import { setRecoil } from "recoil-nexus";
+import { getRecoil, setRecoil } from "recoil-nexus";
 
-import { dialogue } from "./atom";
+import { Final, dialogue } from "./atom";
 import br from "./br";
 import lookup from "./lookup";
 
@@ -27,87 +27,48 @@ async function getBR() {
   }
 }
 
-async function getcsv() {
-  //get the wiki csv
-  try {
-    const response = await axios.get("./wiki.csv");
-    return response.data;
-  } catch (error) {
-    console.error(error);
-  }
-}
-
-function csvJSON(csv: string) {
-  const lines = csv.split("\n");
-
-  const result: { name: string; rb_br: number; cls: string }[] = [];
-
-  const headers = lines[0].split(",");
-
-  for (let i = 1; i < lines.length; i++) {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const obj: any = {
-      name: "",
-      rb_br: 0,
-      cls: "",
-    };
-    // eslint-disable-next-line security/detect-object-injection
-    const currentline = lines[i].split(",");
-
-    for (let j = 0; j < headers.length; j++) {
-      // eslint-disable-next-line security/detect-object-injection
-      obj[headers[j]] = currentline[j];
-    }
-
-    result.push(obj);
-  }
-  return result;
-}
-
 export default async function changeParsed(sakke: { name: string; id: number }[]) {
-  const file = await getcsv();
-  const arr = csvJSON(file);
-  const ress = arr.filter(air);
+  const arr = getRecoil(Final);
 
-  function air(vehicle: { cls: string }): boolean {
-    return vehicle.cls === "Aviation";
-  }
   const brb: string = await getBR();
 
-  let inter: { name: string; id: number; br: number }[] = [];
-  const result: { name: string; id: number; br: number }[] = [];
+  let inter: { name: string; id: number; br: string; num_br: number }[] = [];
+  const result: { name: string; id: number; br: string; num_br: number }[] = [];
 
-  sakke.forEach((ele) => {
-    let element = ele.name.replace(/\s/g, "_");
+  sakke.forEach((sakkeFEelement) => {
+    let element = sakkeFEelement.name;
     element = lookup(element);
-    if (element[element.length - 2] == "." && element[element.length - 1] == ".") {
+    if (element[element.length - 2] === "." && element[element.length - 1] === ".") {
       console.log(element);
       element = element.substring(0, element.length - 2);
       // wiki = wk.csv to json
-      ress.forEach((ement) => {
-        if (ement.name.search(element) === 0) {
-          if (ement.name[ement.name.length - 1] === ")") {
+      arr.aircraft.forEach((ement) => {
+        if (ement.wikiname.search(element) === 0) {
+          if (ement.wikiname[ement.wikiname.length - 1] === ")") {
             // empty
           } else {
             const object = {
-              name: ement.name,
+              name: ement.wikiname,
               br: ement.rb_br,
+              num_br: ement.rb_realbr,
               id: result.length + 1,
             };
             inter.push(object);
           }
         }
       });
-      inter.sort((a, b) => a.br - b.br);
+      inter.sort((a, b) => a.num_br - b.num_br);
       console.log(inter);
       result.push(inter[0]);
       inter = [];
     } else {
-      ress.forEach((elemen) => {
-        if (elemen.name == element) {
+      arr.aircraft.forEach((elemen) => {
+        console.log(element);
+        if (elemen.wikiname == element) {
           const object = {
-            name: elemen.name,
+            name: elemen.wikiname,
             br: elemen.rb_br,
+            num_br: elemen.rb_realbr,
             id: result.length + 1,
           };
           result.push(object);
@@ -115,13 +76,14 @@ export default async function changeParsed(sakke: { name: string; id: number }[]
       });
     }
   });
-  result.sort((a, b) => b.br - a.br);
-  const final: { name: string; id: number; br: string }[] = [];
+  result.sort((a, b) => b.num_br - a.num_br);
+  const final: { name: string; id: number; br: string; num_br: number }[] = [];
   result.forEach((element) => {
     final.push({
       name: element.name,
       id: element.id,
-      br: element.br.toString(),
+      br: element.br,
+      num_br: element.num_br,
     });
   });
   console.log(final);

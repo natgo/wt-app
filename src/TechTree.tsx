@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+import { QueryVehicle } from "./Vehicle";
 import own_img from "./img/Item_own.png";
 import prem_img from "./img/Item_prem.png";
 import squad_img from "./img/Item_squad.png";
@@ -14,7 +15,6 @@ import spaa from "./img/def_spaa_radar.svg";
 import tank_destroyer from "./img/def_tank_destroyer_radar.svg";
 import utility_helicopter from "./img/def_utility_helicopter_radar.svg";
 import { openfolder } from "./tt";
-import { QueryVehicle } from "./Vehicle";
 
 export function ItemImg(props: { type: "own" | "prem" | "squad" }): JSX.Element {
   const { type } = props;
@@ -54,7 +54,7 @@ export function TechTreeItem(props: {
   const { intname, type, link, text, title, item_type } = props;
   let fig_src = attack_helicopter;
   let br: string | undefined = "-1.0";
-  const match = QueryVehicle(intname,"intname");
+  const match = QueryVehicle(intname, "intname");
   br = match?.rb_br;
 
   switch (match?.normal_type) {
@@ -89,7 +89,7 @@ export function TechTreeItem(props: {
       fig_src = attack_helicopter;
       break;
   }
-  
+
   let itemLink = link;
   if (link.includes("/", 1)) {
     console.log(link);
@@ -204,19 +204,19 @@ export function TreeFolder(props: { children: React.ReactElement[]; name: string
   let fig_src = attack_helicopter;
   let br: string | undefined = "-1.0";
   const brarr: string[] = [];
-  const match = QueryVehicle(children[0].props.intname,"intname");
+  const match = QueryVehicle(children[0].props.intname, "intname");
   br = match?.rb_br;
   children.forEach((element) => {
     if (element.props) {
       if (element.props.intname) {
-        const match = QueryVehicle(element.props.intname,"intname");
+        const match = QueryVehicle(element.props.intname, "intname");
         if (match) {
           brarr.push(match.rb_br);
         }
       }
     }
   });
-  
+
   switch (match?.normal_type) {
     case "type_fighter":
       fig_src = fighter;

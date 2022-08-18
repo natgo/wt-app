@@ -6,6 +6,10 @@ import { RecoilRoot } from "recoil";
 import RecoilNexus from "recoil-nexus";
 
 import App from "./App";
+import Dashboard from "./Dashboard";
+import { Data } from "./Data";
+import { MiniDrawer } from "./Drawer";
+import { Home } from "./Home";
 import { Vehicle } from "./Vehicle";
 import "./index.css";
 
@@ -17,10 +21,15 @@ root.render(
     <BrowserRouter>
       <RecoilRoot>
         <RecoilNexus />
-        <Routes>
-          <Route path="/techtree/" element={<App />}></Route>
-          <Route path="/techtree/:vehicleId" element={<Vehicle />}></Route>
-        </Routes>
+        <MiniDrawer>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/techtree/" element={<App />} />
+            <Route path="/data/" element={<Data />} />
+            <Route path="/techtree/:vehicleId" element={<Vehicle />} />
+            <Route path="/calculator/" element={<Dashboard />} />
+          </Routes>
+        </MiniDrawer>
       </RecoilRoot>
     </BrowserRouter>
   </React.StrictMode>,

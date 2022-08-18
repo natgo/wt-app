@@ -1,9 +1,9 @@
 export default function lookup(element: string): string {
-  if (element == "Spitfire_Mk_la") {
-    element = "Spitfire_Mk_Ia";
+  if (element == "Spitfire Mk la") {
+    element = "Spitfire Mk Ia";
   }
   if (element[0] == "*") {
-    element = element.substring(1, element.length) + "_(China)";
+    element = element.substring(1, element.length) + " (China)";
   }
   if (element == "Ki-44-1") {
     element = "Ki-44-I";
@@ -14,38 +14,38 @@ export default function lookup(element: string): string {
   if (element == "Ki-61-11 Kai") {
     element = "Ki-61-II Kai";
   }
-  if (element == "LBf_109_E-7") {
-    element = "Bf_109_E-7_(Japan)";
+  if (element == "LBf 109 E-7") {
+    element = "Bf 109 E-7 (Japan)";
   }
-  if (element == "OSpitfire_Mk_V.") {
-    element = "Spitfire_Mk_Vb/trop_(Italy)";
+  if (element == "OSpitfire Mk V.") {
+    element = "Spitfire Mk Vb/trop (Italy)";
   }
-  if (element == "Bf_110_G7") {
-    element = "Bf_110_C-7";
+  if (element == "Bf 110 G7") {
+    element = "Bf 110 C-7";
   }
   if (element == "B-25)-20") {
     element = "B-25J-20";
   }
-  if (element == "SE_F4U-1A'") {
-    element = "F4U-1A_(Japan)";
+  if (element == "SE F4U-1A'") {
+    element = "F4U-1A (Japan)";
   }
-  if (element == "Ar_234_C3") {
-    element = "Ar_234_C-3";
+  if (element == "Ar 234 C3") {
+    element = "Ar 234 C-3";
   }
-  if (element == "Spithre_F_Mk_24") {
-    element = "Spitfire_F_Mk_24";
+  if (element == "Spithre F Mk 24") {
+    element = "Spitfire F Mk 24";
   }
   if (element == "P.400") {
     element = "P-400";
   }
-  if (element == "TBD_1") {
+  if (element == "TBD 1") {
     element = "TBD-1";
   }
-  if (element == "PBY_5_Catalina") {
-    element = "PBY-5_Catalina";
+  if (element == "PBY 5 Catalina") {
+    element = "PBY-5 Catalina";
   }
-  if (element == "Beaufort_Mk_Vill") {
-    element = "Beaufort_Mk_VIII";
+  if (element == "Beaufort Mk Vill") {
+    element = "Beaufort Mk VIII";
   }
   return element;
 }

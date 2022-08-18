@@ -14,7 +14,7 @@ export interface FinalProps {
   extended_type: string[];
   country: string;
   rank: number;
-  crew:number;
+  crew: number;
   sl_price: number;
   reqRP: number;
   ab_br: string;

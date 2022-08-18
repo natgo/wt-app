@@ -160,14 +160,6 @@ function DashboardContent() {
   return (
     <ThemeProvider theme={mdTheme}>
       <Box sx={{ display: "flex" }}>
-        <CssBaseline />
-        <AppBar position="absolute">
-          <Toolbar>
-            <Typography component="h1" variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>
-              Air RB Br calculator
-            </Typography>
-          </Toolbar>
-        </AppBar>
         <Box
           component="main"
           sx={{

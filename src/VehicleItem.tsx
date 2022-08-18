@@ -286,28 +286,30 @@ export function SpecsCard(props: {
   );
 }
 
-export function Survivability(props: {
-  vehicle: FinalProps;
-}): JSX.Element {
+export function Survivability(props: { vehicle: FinalProps }): JSX.Element {
   const { vehicle } = props;
-  return(
+  return (
     <div className="specs_info">
       <div className="specs_feature"></div>
       <div className="specs_char">
         <div className="specs_char_block">
           <div className="specs_char_line head">
-            <span className="name">Armour</span><span className="value">front / side / back</span>
+            <span className="name">Armour</span>
+            <span className="value">front / side / back</span>
           </div>
           <div className="specs_char_line indent">
-            <span className="name">Hull</span><span className="value">20 / 25 / 15</span>
+            <span className="name">Hull</span>
+            <span className="value">20 / 25 / 15</span>
           </div>
           <div className="specs_char_line indent">
-            <span className="name">Turret</span><span className="value">20 / 25 / 15</span>
+            <span className="name">Turret</span>
+            <span className="value">20 / 25 / 15</span>
           </div>
         </div>
         <div className="specs_char_block">
           <div className="specs_char_line head">
-            <span className="name">Crew</span><span className="value">{vehicle.crew} people</span>
+            <span className="name">Crew</span>
+            <span className="value">{vehicle.crew} people</span>
           </div>
         </div>
       </div>

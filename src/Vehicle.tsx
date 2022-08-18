@@ -6,7 +6,10 @@ import { SpecsCard, Survivability } from "./VehicleItem";
 import { Final } from "./atom";
 import { FinalProps } from "./types";
 
-export function QueryVehicle(vehicle: string, type: "intname"|"wikiname"): FinalProps | undefined {
+export function QueryVehicle(
+  vehicle: string,
+  type: "intname" | "wikiname",
+): FinalProps | undefined {
   const FinalValue = useRecoilValue(Final);
   console.log(vehicle);
   if (type === "wikiname") {
@@ -54,7 +57,7 @@ export function Vehicle(): JSX.Element {
   const params = useParams();
   if (params.vehicleId) {
     console.log(params.vehicleId);
-    const match = QueryVehicle(params.vehicleId.replace(/\+/g, "/"),"wikiname");
+    const match = QueryVehicle(params.vehicleId.replace(/\+/g, "/"), "wikiname");
     console.log(match);
     if (match) {
       return (
