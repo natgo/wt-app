@@ -2,3 +2,12 @@
   width: 100%;
   height: 100%;
 }
+
+.dropzone {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  cursor: pointer;
+}

@@ -31,7 +31,7 @@ specifiers:
   recoil: 0.7.5
   recoil-nexus: 0.4.0
   recoil-persist: 4.2.0
-  rollup: 2.78.0
+  rollup: 2.78.1
   rollup-plugin-visualizer: 5.7.1
   stylelint: 14.10.0
   stylelint-config-standard: 27.0.0
@@ -71,8 +71,8 @@ devDependencies:
   postcss: 8.4.16
   postcss-short: 5.0.0
   prettier: 2.7.1
-  rollup: 2.78.0
-  rollup-plugin-visualizer: 5.7.1_rollup@2.78.0
+  rollup: 2.78.1
+  rollup-plugin-visualizer: 5.7.1_rollup@2.78.1
   stylelint: 14.10.0
   stylelint-config-standard: 27.0.0_stylelint@14.10.0
   typescript: 4.7.4
@@ -3736,7 +3736,7 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-visualizer/5.7.1_rollup@2.78.0:
+  /rollup-plugin-visualizer/5.7.1_rollup@2.78.1:
     resolution: {integrity: sha512-E/IgOMnmXKlc6ICyf53ok1b6DxPeNVUs3R0kYYPuDpGfofT4bkiG+KtSMlGjMACFmfwbbqTVDZBIF7sMZVKJbA==}
     engines: {node: '>=14'}
     hasBin: true
@@ -3745,7 +3745,7 @@ packages:
     dependencies:
       nanoid: 3.3.4
       open: 8.4.0
-      rollup: 2.78.0
+      rollup: 2.78.1
       source-map: 0.7.4
       yargs: 17.5.1
     dev: true
@@ -3758,8 +3758,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /rollup/2.78.0:
-    resolution: {integrity: sha512-4+YfbQC9QEVvKTanHhIAFVUFSRsezvQF8vFOJwtGfb9Bb+r014S+qryr9PSmw8x6sMnPkmFBGAvIFVQxvJxjtg==}
+  /rollup/2.78.1:
+    resolution: {integrity: sha512-VeeCgtGi4P+o9hIg+xz4qQpRl6R401LWEXBmxYKOV4zlF82lyhgh2hTZnheFUbANE8l2A41F458iwj2vEYaXJg==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:

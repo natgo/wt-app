@@ -3,11 +3,9 @@ import { useDropzone } from "react-dropzone";
 import { useRecoilValue, useSetRecoilState } from "recoil";
 
 import {
-  AppBar,
   Box,
   Button,
   Container,
-  CssBaseline,
   Dialog,
   DialogActions,
   DialogContent,
@@ -15,21 +13,20 @@ import {
   Grid,
   Paper,
   TextField,
-  Toolbar,
   Typography,
 } from "@mui/material";
-import { ThemeProvider, createTheme } from "@mui/material/styles";
 
 import { ajax } from "jquery";
 
 import { Corrected, Parsed, base64Image, brb, dialogue } from "./atom";
 import changeParsed from "./selectors";
 
-function MyDropzone(): JSX.Element {
+function Dropzone(): JSX.Element {
   const setCorrected = useSetRecoilState(Corrected);
   const setParsed = useSetRecoilState(Parsed);
   const setImage = useSetRecoilState(base64Image);
   const setBRB = useSetRecoilState(brb);
+
   const onDrop = React.useCallback(
     (acceptedFiles: Blob[]) => {
       console.log(acceptedFiles);
@@ -100,8 +97,6 @@ function MyDropzone(): JSX.Element {
   );
 }
 
-const mdTheme = createTheme();
-
 function ParsedImage() {
   const b64Image = useRecoilValue(base64Image);
   if (b64Image === "") {
@@ -149,8 +144,8 @@ function Confidence() {
   }
 }
 
-function DashboardContent() {
-  const open: boolean = useRecoilValue(dialogue);
+export default function Dashboard() {
+  const open = useRecoilValue(dialogue);
   const setBRB = useSetRecoilState(brb);
   const setOpen = useSetRecoilState(dialogue);
 
@@ -158,112 +153,103 @@ function DashboardContent() {
   const correct = useRecoilValue(Corrected);
   const br = useRecoilValue(brb);
   return (
-    <ThemeProvider theme={mdTheme}>
-      <Box sx={{ display: "flex" }}>
-        <Box
-          component="main"
-          sx={{
-            backgroundColor: (theme) =>
-              theme.palette.mode === "light" ? theme.palette.grey[100] : theme.palette.grey[900],
-            flexGrow: 1,
-            height: "100vh",
-            overflow: "auto",
-          }}
-        >
-          <Toolbar />
-          <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
-            <Grid container spacing={3}>
-              {/* Dropzone */}
-              <Grid item xs={12} md={8} lg={9}>
-                <Paper
-                  sx={{
-                    p: 2,
-                    display: "flex",
-                    flexDirection: "column",
-                    height: 240,
-                  }}
-                >
-                  <MyDropzone />
-                </Paper>
-              </Grid>
-              {/* BR */}
-              <Grid item xs={12} md={4} lg={3}>
-                <Paper
-                  sx={{
-                    p: 2,
-                    display: "flex",
-                    flexDirection: "column",
-                    height: 240,
-                  }}
-                >
-                  <Typography>Your br: {br}</Typography>
-                  <Br />
-                  <Confidence />
-                </Paper>
-              </Grid>
-              {/* Parsed text */}
-              <Grid item xs={12}>
-                <Paper
-                  sx={{
-                    p: 2,
-                    display: "grid",
-                    gridTemplateRows: "min-content 1fr",
-                    minHeight: "400px",
-                  }}
-                >
-                  <ParsedImage />
-                  <Typography style={{ gridColumn: "2/3" }}>Parsed text: </Typography>
-                  <Typography style={{ gridColumn: "3/4" }}>Corrected text: </Typography>
-                  <div style={{ gridColumn: "2/3" }}>
-                    {parsed.map(({ name, id }) => {
-                      return <div key={id}>{name}</div>;
-                    })}
-                  </div>
-                  <div style={{ gridColumn: "3/4" }}>
-                    {correct.map(({ name, id, br }) => {
-                      return (
-                        <div key={id}>
-                          {name} | BR: {br}
-                        </div>
-                      );
-                    })}
-                  </div>
-                </Paper>
-                <Dialog open={open}>
-                  <DialogTitle>Input BR:</DialogTitle>
-                  <DialogContent>
-                    <TextField
-                      autoFocus
-                      margin="dense"
-                      id="name"
-                      label="BR"
-                      type="text"
-                      fullWidth
-                      variant="standard"
-                    />
-                  </DialogContent>
-                  <DialogActions>
-                    <Button
-                      onClick={() => {
-                        const inp = document.getElementById("name") as HTMLInputElement;
-                        console.log(inp.value);
-                        setBRB(() => inp.value);
-                        setOpen(() => false);
-                      }}
-                    >
-                      Ok
-                    </Button>
-                  </DialogActions>
-                </Dialog>
-              </Grid>
+    <Box sx={{ display: "flex" }}>
+      <Box
+        component="main"
+        sx={{
+          flexGrow: 1,
+          height: "100vh",
+          overflow: "auto",
+        }}
+      >
+        <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+          <Grid container spacing={3}>
+            {/* Dropzone */}
+            <Grid item xs={12} md={8} lg={9}>
+              <Paper
+                sx={{
+                  p: 2,
+                  display: "flex",
+                  flexDirection: "column",
+                  height: 240,
+                }}
+              >
+                <Dropzone />
+              </Paper>
             </Grid>
-          </Container>
-        </Box>
+            {/* BR */}
+            <Grid item xs={12} md={4} lg={3}>
+              <Paper
+                sx={{
+                  p: 2,
+                  display: "flex",
+                  flexDirection: "column",
+                  height: 240,
+                }}
+              >
+                <Typography>Your br: {br}</Typography>
+                <Br />
+                <Confidence />
+              </Paper>
+            </Grid>
+            {/* Parsed text */}
+            <Grid item xs={12}>
+              <Paper
+                sx={{
+                  p: 2,
+                  display: "grid",
+                  gridTemplateRows: "min-content 1fr",
+                  minHeight: "400px",
+                }}
+              >
+                <ParsedImage />
+                <Typography style={{ gridColumn: "2/3" }}>Parsed text: </Typography>
+                <Typography style={{ gridColumn: "3/4" }}>Corrected text: </Typography>
+                <div style={{ gridColumn: "2/3" }}>
+                  {parsed.map(({ name, id }) => {
+                    return <div key={id}>{name}</div>;
+                  })}
+                </div>
+                <div style={{ gridColumn: "3/4" }}>
+                  {correct.map(({ name, id, br }) => {
+                    return (
+                      <div key={id}>
+                        {name} | BR: {br}
+                      </div>
+                    );
+                  })}
+                </div>
+              </Paper>
+              <Dialog open={open}>
+                <DialogTitle>Input BR:</DialogTitle>
+                <DialogContent>
+                  <TextField
+                    autoFocus
+                    margin="dense"
+                    id="name"
+                    label="BR"
+                    type="text"
+                    fullWidth
+                    variant="standard"
+                  />
+                </DialogContent>
+                <DialogActions>
+                  <Button
+                    onClick={() => {
+                      const inp = document.getElementById("name") as HTMLInputElement;
+                      console.log(inp.value);
+                      setBRB(() => inp.value);
+                      setOpen(() => false);
+                    }}
+                  >
+                    Ok
+                  </Button>
+                </DialogActions>
+              </Dialog>
+            </Grid>
+          </Grid>
+        </Container>
       </Box>
-    </ThemeProvider>
+    </Box>
   );
-}
-
-export default function Dashboard() {
-  return <DashboardContent />;
 }

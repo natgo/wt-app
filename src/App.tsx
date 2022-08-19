@@ -2,14 +2,12 @@ import { useRecoilValue, useSetRecoilState } from "recoil";
 
 import { Box, Tab, Tabs } from "@mui/material";
 
-import axios from "axios";
 import $ from "jquery";
 
 import * as tt from "./tt";
 import "./App2.css";
 import "./App3.css";
-import { CountryTab, Final, TypeTab } from "./atom";
-import { FinalProp } from "./types";
+import { CountryTab, TypeTab } from "./atom";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -177,11 +175,6 @@ function CountryTabs(props: TypeProps): JSX.Element {
 export default function App(): JSX.Element {
   const countryValue = useRecoilValue(CountryTab);
   const countrySetValue = useSetRecoilState(CountryTab);
-  const finalSetValue = useSetRecoilState(Final);
-  axios.get("http://localhost:5173/final.json").then((response) => {
-    const final: FinalProp = response.data;
-    finalSetValue(final);
-  });
 
   const handleCountryChange = (event: React.SyntheticEvent, newValue: number) => {
     countrySetValue(newValue);
