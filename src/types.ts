@@ -35,7 +35,9 @@ export interface FinalProps {
   hidden: boolean;
 }
 
-interface GroundProps extends FinalProps {
+export interface GroundProps extends FinalProps {
   mass: number;
   horsepower: number;
+  turret_armour?: number[];
+  hull_armour?: number[];
 }
