@@ -294,22 +294,99 @@ export function Survivability(props: { vehicle: GroundProps }): JSX.Element {
       <div className="specs_char">
         <div className="specs_char_block">
           <div className="specs_char_line head">
-            <span className="name">Armour</span>
+            <span className="name">Armour (Not accurate)</span>
             <span className="value">front / side / back</span>
           </div>
           <div className="specs_char_line indent">
             <span className="name">Hull</span>
-            <span className="value">{vehicle} / 25 / 15</span>
+            <span className="value">
+              {vehicle.hull_armour[0]} / {vehicle.hull_armour[1]} / {vehicle.hull_armour[2]}
+            </span>
           </div>
           <div className="specs_char_line indent">
             <span className="name">Turret</span>
-            <span className="value">20 / 25 / 15</span>
+            <span className="value">
+              {vehicle.turret_armour[0]} / {vehicle.turret_armour[1]} / {vehicle.turret_armour[2]}
+            </span>
           </div>
         </div>
         <div className="specs_char_block">
           <div className="specs_char_line head">
             <span className="name">Crew</span>
             <span className="value">{vehicle.crew} people</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export function Mobility(props: { vehicle: GroundProps }): JSX.Element {
+  const { vehicle } = props;
+  return (
+    <div className="specs_info">
+      <div className="specs_feature"></div>
+      <div className="specs_char">
+        <div className="specs_char_block">
+          <div className="specs_char_line head">
+            <span className="name">Speed</span>
+            <span className="value">forward / back</span>
+          </div>
+          <div className="specs_char_line indent">
+            <span className="name">AB</span>
+            <span className="value">N/A km/h</span>
+          </div>
+          <div className="specs_char_line indent">
+            <span className="name">RB and SB</span>
+            <span className="value">N/A km/h</span>
+          </div>
+        </div>
+        <div className="specs_char_block">
+          <div className="specs_char_line head">
+            <span className="name">Number of gears</span>
+            <span className="value">{vehicle.gears_forward} forward</span>
+          </div>
+          <div className="specs_char_line indent">
+            <span className="name"></span>
+            <span className="value">{vehicle.gears_backward} back</span>
+          </div>
+        </div>
+        <div className="specs_char_block">
+          <div className="specs_char_line head">
+            <span className="name">Weight</span>
+            <span className="value">{(vehicle.mass / 1000).toFixed(1)} t</span>
+          </div>
+        </div>
+        <div className="specs_char_block">
+          <div className="specs_char_line head">
+            <span className="name">Engine power</span>
+            <span className="value"></span>
+          </div>
+          <div className="specs_char_line indent">
+            <span className="name">AB</span>
+            <span className="value">{(vehicle.horsepower * 1.908).toFixed(0)} hp</span>
+          </div>
+          <div className="specs_char_line indent">
+            <span className="name">RB and SB</span>
+            <span className="value">{vehicle.horsepower} hp</span>
+          </div>
+        </div>
+        <div className="specs_char_block">
+          <div className="specs_char_line head">
+            <span className="name">Power-to-weight ratio</span>
+            <span className="value"></span>
+          </div>
+          <div className="specs_char_line indent">
+            <span className="name">AB</span>
+            <span className="value">
+              {((vehicle.horsepower * 1.908) / (vehicle.mass / 1000)).toFixed(1)} hp/t
+            </span>
+          </div>
+          <div className="specs_char_line indent">
+            <span className="name">RB and SB</span>
+            <span className="value">
+              {(vehicle.horsepower / (vehicle.mass / 1000)).toFixed(1)} hp/t
+            </span>
           </div>
         </div>
       </div>

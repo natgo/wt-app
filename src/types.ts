@@ -38,6 +38,8 @@ export interface FinalProps {
 export interface GroundProps extends FinalProps {
   mass: number;
   horsepower: number;
-  turret_armour?: number[];
-  hull_armour?: number[];
+  turret_armour: number[];
+  hull_armour: number[];
+  gears_forward: number;
+  gears_backward: number;
 }

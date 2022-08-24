@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { useRecoilValue } from "recoil";
 
 import "./App2.css";
-import { SpecsCard, Survivability } from "./VehicleItem";
+import { Mobility, SpecsCard, Survivability } from "./VehicleItem";
 import { Final } from "./atom";
 import { FinalProps } from "./types";
 
@@ -64,6 +64,7 @@ export function Vehicle(): JSX.Element {
         <div>
           <SpecsCard vehicle={match} link={params.vehicleId} item_type={"own"} />
           <Survivability vehicle={match} />
+          <Mobility vehicle={match} />
         </div>
       );
     } else {
