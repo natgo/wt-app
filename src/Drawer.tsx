@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
 
-import { AccountTree, Calculate, DataObject, Home } from "@mui/icons-material";
+import { AccountTree, Brush, Calculate, DataObject, Home } from "@mui/icons-material";
 import {
   Box,
   List,
@@ -48,7 +48,7 @@ export function MiniDrawer(props: { children: React.ReactNode }) {
     <Box sx={{ display: "flex" }}>
       <Drawer variant="permanent">
         <List>
-          {["Home", "Techtree", "WT Data Project (External)", "Air RB BR Calculator"].map(
+          {["Home", "Techtree", "WT Data Project (External)", "Air RB BR Calculator", "Skins"].map(
             (text) => {
               let Icon = <AccountTree />;
               let link = "/";
@@ -69,6 +69,9 @@ export function MiniDrawer(props: { children: React.ReactNode }) {
                   link = "/";
                   Icon = <Home />;
                   break;
+                case "Skins":
+                  link = "/skins";
+                  Icon = <Brush />;
               }
               return (
                 <ListItem key={text} disablePadding sx={{ display: "block" }}>

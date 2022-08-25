@@ -9,13 +9,13 @@ import "./App2.css";
 import "./App3.css";
 import { CountryTab, TypeTab } from "./atom";
 
-interface TabPanelProps {
+export interface TabPanelProps {
   children?: React.ReactNode;
   index: number;
   value: number;
 }
 
-function TabPanel(props: TabPanelProps): JSX.Element {
+export function TabPanel(props: TabPanelProps): JSX.Element {
   const { children, value, index, ...other } = props;
 
   return (
@@ -47,7 +47,7 @@ function TypeTabs() {
   );
 }
 
-interface TypeProp {
+export interface TypeProp {
   type:
     | "USA"
     | "Germany"
@@ -60,7 +60,7 @@ interface TypeProp {
     | "Sweden"
     | "Israel";
 }
-interface TypeProps extends TypeProp {
+export interface TypeProps extends TypeProp {
   index: number;
 }
 

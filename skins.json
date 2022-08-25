@@ -1,0 +1,686 @@
+{
+  "historical": {
+    "USA": {
+      "ungrouped": [
+        {
+          "intnames":["f2a-3"],
+          "dislayname": "F2A-3",
+          "post": "547596"
+        }
+      ],
+      "grouped": {
+        "P-36": [
+          {
+            "intnames":["p-36a","p-36c"],
+            "dislayname": "P-36A,C",
+            "post": "551009"
+          },
+          {
+            "intnames":["p-36c"],
+            "dislayname": "H-75A-4",
+            "post": "591893"
+          },
+          {
+            "intnames":["p-36a","p-36a_rasmussen","p-36c","p-36g"],
+            "dislayname": "H-75A-1",
+            "post": "312296"
+          },
+          {
+            "intnames":["p-36a","p-36a_rasmussen","p-36c","p-36g"],
+            "dislayname": "H-75A-2",
+            "post": "312367"
+          },
+          {
+            "intnames":["p-36a","p-36a_rasmussen","p-36c","p-36g"],
+            "dislayname": "H-75A-3",
+            "post": "312442"
+          },
+          {
+            "intnames":["p-36a","p-36a_rasmussen","p-36c","p-36g"],
+            "dislayname": "H-75A-4",
+            "post": "313199"
+          },
+          {
+            "intnames":["p-36a","p-36a_rasmussen","p-36c","p-36g"],
+            "dislayname": "H-75A-6",
+            "post": "313825"
+          }
+        ],
+        "P-40": [
+          {
+            "intnames":["p-40e"],
+            "dislayname": "P-40E-1",
+            "post": "986993"
+          },
+          {
+            "intnames":["p-40e"],
+            "dislayname": "P-40E-1",
+            "post": "828599"
+          }
+        ]
+      }
+    },
+    "Germany": {"aircraft":{
+      "ungrouped":[
+        {
+          "intnames":["do_17z_2"],
+          "dislayname": "Do 17 Z-2",
+          "post": "287547"
+        },
+        {
+          "intnames":["fw-190a-5_cannons.blk"],
+          "dislayname": "Fw 109 A-5 \"Väinö\"",
+          "post": "647662",
+          "type":"semi"
+        }
+      ],
+      "grouped":{
+        "Ar 196": [
+          {
+            "intnames":["arado-196a-3"],
+            "dislayname": "Ar 196",
+            "post": "926481"
+          },
+          {
+            "intnames":["arado-196a-3"],
+            "dislayname": "Ar 196 Post war",
+            "post": "926501",
+            "type": "semi"
+          }
+        ],
+        "H-75A-2": [
+          {
+            "intnames":["h-75a-2_finland"],
+            "dislayname": "H-75A-2 (800€)",
+            "post": "861436"
+          },
+          {
+            "intnames":["h-75a-2_finland"],
+            "dislayname": "H-75A-2 (800€)",
+            "post": "839516"
+          }
+        ],
+        "Bf 109": [
+          {
+            "intnames":["bf-109f-4"],
+            "dislayname": "Bf 109 F-4 Stab. III/JG 54",
+            "post": "658199"
+          },
+          {
+            "intnames":["bf-109f-4"],
+            "dislayname": "Bf 109 F-4 Stab. II/JG 5",
+            "post": "18309",
+            "camo": "winter"
+          },
+          {
+            "intnames":["bf-109g-2","bf-109g-2_romania"],
+            "dislayname": "Bf 109 G-2 MT 213",
+            "post": "416015"
+          },
+          {
+            "intnames":["bf-109g-2"],
+            "dislayname": "Bf 109 G-2 Stab. VIII/JG V",
+            "post": "948602",
+            "camo":"winter"
+          },
+          {
+            "intnames":["bf-109g-6"],
+            "dislayname": "Bf 109 G-6 Stab. IV/JG 4 \"Eismeer\"",
+            "post": "948372"
+          },
+          {
+            "intnames":["bf-109f-1","bf-109f-2","bf-109f-4","bf-109f-4_trop","bf-109f-4_usa","bf-109g-2","bf-109g-2_hungary","bf-109g-2_romania","bf-109g-6","bf-109g-6_finland"],
+            "dislayname": "Bf 109 G-6 MT-415 Eino Luukkanen",
+            "post": "986576"
+          },
+          {
+            "intnames":["bf-109f-1","bf-109f-2","bf-109f-4","bf-109f-4_trop","bf-109g-2","bf-109g-6","bf-109g-6_finland"],
+            "dislayname": "Bf 109 G-6 MT-508",
+            "post": "988958"
+          }
+        ]
+      }},
+      "ground":{
+        "ungrouped":[
+          {
+            "intnames":["germ_leopard_2k"],
+            "dislayname": "Leopard 2K",
+            "post": "724323",
+            "type":"semi"
+          },
+          {
+            "intnames":["germ_leopard_I_a1"],
+            "dislayname": "Leopard A1A1",
+            "post": "627007",
+            "type":"semi"
+          }
+        ],
+        "grouped":{
+          "panzer":[
+            {
+              "intnames":["germ_pzkpfw_II_ausf_H"],
+              "dislayname": "Panzer II Ausf. H",
+              "post": "755881",
+              "type":"semi"
+            },
+            {
+              "intnames":["germ_pzkpfw_III_ausf_M"],
+              "dislayname": "Panzer III Ausf. M \"Kettu\"",
+              "post": "928997",
+              "type":"semi"
+            },
+            {
+              "intnames":["germ_pzkpfw_IV_ausf_J"],
+              "dislayname": "Panzer IV Ausf. J",
+              "post": "960342"
+            }
+          ],
+          "KW":[
+            {
+              "intnames":["germ_kv_2_754r"],
+              "dislayname": "KW II 754 (r)",
+              "post": "741041",
+              "type":"semi"
+            },
+            {
+              "intnames":["germ_kv_1_kwk_40"],
+              "dislayname": "KW I C 756 (r)",
+              "post": "984844",
+              "type":"semi"
+            },
+            {
+              "intnames":["germ_kv_1_kwk_40"],
+              "dislayname": "KW I C 756 (r)",
+              "post": "524511",
+              "type":"semi"
+            },
+            {
+              "intnames":["germ_kv_1B_finland"],
+              "dislayname": "KV-1B \"622\"",
+              "post": "879944"
+            }
+          ],
+          "Leopard 2A4": [
+            {
+              "intnames":["germ_leopard_2a4"],
+              "dislayname": "Leopard 2A4",
+              "post": "750346"
+            },
+            {
+              "intnames":["germ_leopard_2a4"],
+              "dislayname": "Leopard 2A4 Winter",
+              "post": "750363",
+              "camo":"winter"
+            }
+          ],
+          "Leopard 2A6": [
+            {
+              "intnames":["germ_leopard_2a6"],
+              "dislayname": "Leopard 2A6 Ps 274-226 2017 4K",
+              "post": "943714"
+            },
+            {
+              "intnames":["germ_leopard_2a6"],
+              "dislayname": "Leopard 2A6 Winter Ps 274-262 4K",
+              "post": "831844",
+              "camo":"winter"
+            },
+            {
+              "intnames":["germ_leopard_2a6"],
+              "dislayname": "Leopard 2A6 Ps 274-237 2017 8K",
+              "post": "943609"
+            }
+          ],
+          "StuG III \"Sturmi\"": [
+            {
+              "intnames":["germ_stug_III_ausf_G"],
+              "dislayname": "StuG III G Bubi",
+              "post": "872399"
+            },
+            {
+              "intnames":["germ_stug_III_ausf_G"],
+              "dislayname": "StuG III G Aino",
+              "post": "755671"
+            },
+            {
+              "intnames":["germ_stug_III_ausf_G"],
+              "dislayname": "StuG III G Toini",
+              "post": "649239"
+            },
+            {
+              "intnames":["germ_stug_III_ausf_F"],
+              "dislayname": "StuG III G Parola",
+              "post": "321250"
+            },
+            {
+              "intnames":["germ_stug_III_ausf_F"],
+              "dislayname": "StuG III F",
+              "post": "290653"
+            }
+          ]
+        }
+      }
+    },
+    "USSR": {
+      "aircraft":{
+        "ungrouped":[
+          {
+            "intnames":["i-15bis"],
+            "dislayname": "I-15bis",
+            "post": "694798"
+          },
+          {
+            "intnames":["lagg-3-35"],
+            "dislayname": "LaGG-3-35",
+            "post": "733114",
+            "type":"semi"
+          },
+          {
+            "intnames":["sb_2m_105"],
+            "dislayname": "SB 2M-105",
+            "post": "135580"
+          },
+          {
+            "intnames":["itp_m1"],
+            "dislayname": "ITP (M-1)",
+            "post": "1013921",
+            "type":"semi"
+          },
+          {
+            "intnames":["pe-2-205","pe-3_bis"],
+            "dislayname": "Pe-3bis",
+            "post": "550480",
+            "type":"semi"
+          },
+          {
+            "intnames":["pe-3_early"],
+            "dislayname": "Pe-3 (e)",
+            "post": "77680",
+            "type":"semi"
+          },
+          {
+            "intnames":["mi_4av"],
+            "dislayname": "Mil Mi-4 (HR-3)",
+            "post": "840237",
+            "type":"semi"
+          }
+        ],
+        "grouped":{
+          "I-16": [
+            {
+              "intnames":["i-16_type5"],
+              "dislayname": "I-16 type 5",
+              "post": "482029"
+            },
+            {
+              "intnames":["i-16_type27"],
+              "dislayname": "I-16 type 27",
+              "post": "330692"
+            }
+          ],
+          "MiG-21": [
+            {
+              "intnames":["mig-21_f13"],
+              "dislayname": "MG-47",
+              "post": "858221"
+            },
+            {
+              "intnames":["mig-21_f13"],
+              "dislayname": "MG-48",
+              "post": "857564"
+            },
+            {
+              "intnames":["mig-21_f13"],
+              "dislayname": "MG-77",
+              "post": "858402"
+            },
+            {
+              "intnames":["mig-21_mf"],
+              "dislayname": "MG-129 1986",
+              "post": "936697"
+            },
+            {
+              "intnames":["mig-21_bis"],
+              "dislayname": "MG-192 1988",
+              "post": "943554"
+            },
+            {
+              "intnames":["mig-21_bis"],
+              "dislayname": "MG-116",
+              "post": "988275"
+            }
+          ]
+        }
+      },
+      "ground":{
+      "ungrouped":[
+        {
+          "intnames":["ussr_zis_30"],
+          "dislayname": "ZiS-30",
+          "post": "881751",
+          "type":"semi"
+        },
+        {
+          "intnames":["ussr_zsu_23_4"],
+          "dislayname": "ZSU-23-4",
+          "post": "911335",
+          "type":"semi"
+        },
+        {
+          "intnames":["ussr_pt_76b"],
+          "dislayname": "PT-76b Parola 1981",
+          "post": "297380"
+        },
+        {
+          "intnames":["ussr_t_26_1940"],
+          "dislayname": "T-26 \"Vangittu\" Parola",
+          "post": "982939"
+        },
+        {
+          "intnames":["ussr_pzkpfw_III_ausf_J_L42"],
+          "dislayname": "T-III",
+          "post": "998217",
+          "type":"semi"
+        },
+        {
+          "intnames":["ussr_kv_2_1939"],
+          "dislayname": "KV-2 (1939)",
+          "post": "998060",
+          "type":"semi"
+        },
+        {
+          "intnames":["ussr_t_70"],
+          "dislayname": "T-70",
+          "post": "207505"
+        }
+      ],
+      "grouped":{
+        "T-50": [
+          {
+            "intnames":["ussr_t_50"],
+            "dislayname": "T-50",
+            "post": "145083"
+          },
+          {
+            "intnames":["ussr_t_50"],
+            "dislayname": "T-50",
+            "post": "882047",
+            "type":"semi"
+          }
+        ],
+        "MT-LB": [
+          {
+            "intnames":["ussr_9p149"],
+            "dislayname": "MT-LB Ps 676-62",
+            "post": "1008650",
+            "type":"semi"
+          },
+          {
+            "intnames":["ussr_9p149"],
+            "dislayname": "MT-LB Ps 686-175",
+            "post": "1045064",
+            "type":"semi"
+          }
+        ],
+        "BT": [
+          {
+            "intnames":["ussr_bt_5"],
+            "dislayname": "BT-5",
+            "post": "271396"
+          },
+          {
+            "intnames":["ussr_bt_7"],
+            "dislayname": "BT-7",
+            "post": "659606"
+          }
+        ],
+        "T-28": [
+          {
+            "intnames":["ussr_t_28_1938"],
+            "dislayname": "T-28",
+            "post": "991259"
+          },
+          {
+            "intnames":["ussr_t_28"],
+            "dislayname": "T-28 Winter",
+            "post": "594233"
+          }
+        ],
+        "T-34": [
+          {
+            "intnames":["ussr_t_34_85_zis_53"],
+            "dislayname": "T-34-85 Post-War",
+            "post": "818139"
+          },
+          {
+            "intnames":["ussr_t_34_85_zis_53"],
+            "dislayname": "T-34-85 Ps255-3",
+            "post": "612486"
+          },
+          {
+            "intnames":["cn_t_34_85_d_5t"],
+            "dislayname": "T-34-85 Ps255-3",
+            "post": "866641"
+          },
+          {
+            "intnames":["ussr_t_34_1941"],
+            "dislayname": "T-34 (1941)",
+            "post": "609158"
+          },
+          {
+            "intnames":["ussr_t_34_1942"],
+            "dislayname": "T-34 (1942) Ps 231-5",
+            "post": "818140"
+          },
+          {
+            "intnames":["germ_t_34_747"],
+            "dislayname": "T-34-747(r) 1943",
+            "post": "943988",
+            "type":"semi"
+          },
+          {
+            "intnames":["germ_t_34_747"],
+            "dislayname": "T-34-747(r) \"Anna\"",
+            "post": "741167",
+            "type":"semi"
+          },
+          {
+            "intnames":["ussr_t_34_1942"],
+            "dislayname": "T-34 (1942) Parola",
+            "post": "397395"
+          },
+          {
+            "intnames":["ussr_t_34_1942"],
+            "dislayname": "T-34 (1942)",
+            "post": "929795",
+            "type":"semi"
+          }
+        ],
+        "KV-1": [
+          {
+            "intnames":["ussr_kv_1_zis_5"],
+            "dislayname": "KV-1 1942 Parola",
+            "post": "677628"
+          },
+          {
+            "intnames":["ussr_kv_1_zis_5"],
+            "dislayname": "KV-1 (ZiS-5) \"Marja\"",
+            "post": "930115"
+          },
+          {
+            "intnames":["ussr_kv_1_L_11"],
+            "dislayname": "KV-1 (L-11) \"Lotta\"",
+            "post": "929754"
+          },
+          {
+            "intnames":["ussr_kv_1e"],
+            "dislayname": "KV-1E",
+            "post": "524182"
+          },
+          {
+            "intnames":["ussr_kv_1_zis_5"],
+            "dislayname": "KV-1 (ZiS-5)",
+            "post": "524030"
+          }
+        ],
+        "T-54 \"Nikita\"": [
+          {
+            "intnames":["ussr_t_54_1951"],
+            "dislayname": "T-54 (1951) 1981 camo",
+            "post": "255047"
+          },
+          {
+            "intnames":["ussr_t_54_1951"],
+            "dislayname": "T-54 (1951) Parloa",
+            "post": "249889"
+          },
+          {
+            "intnames":["ussr_t_54_1951"],
+            "dislayname": "T-54 (1951) PS261-1",
+            "post": "1013767"
+          },
+          {
+            "intnames":["ussr_t_54_1951"],
+            "dislayname": "T-54 (1951) Winter",
+            "post": "1036040",
+            "camo":"winter"
+          },
+          {
+            "intnames":["ussr_t_54_1947"],
+            "dislayname": "T-54 (1947)",
+            "post": "973142",
+            "type":"semi"
+          }
+        ],
+        "T-55": [
+          {
+            "intnames":["ussr_t_55a"],
+            "dislayname": "T-55A",
+            "post": "632638"
+          },
+          {
+            "intnames":["ussr_t_55_amd_1"],
+            "dislayname": "T-55AMD Parola",
+            "post": "1037508",
+            "type":"semi"
+          }
+        ],
+        "T-72": [
+          {
+            "intnames":["ussr_t_72a"],
+            "dislayname": "T-72-M1 Parola",
+            "post": "825561"
+          },
+          {
+            "intnames":["ussr_t_72a"],
+            "dislayname": "T-72A Teltta",
+            "post": "1032928"
+          },
+          {
+            "intnames":["ussr_t_72a"],
+            "dislayname": "T-72A Ps 264-98",
+            "post": "1012477"
+          },
+          {
+            "intnames":["ussr_t_72a"],
+            "dislayname": "T-72A Huono",
+            "post": "980646"
+          }
+        ],
+        "BMP-1": [
+          {
+            "intnames":["ussr_bmp_1"],
+            "dislayname": "BMP-1 Summer",
+            "post": "675405"
+          },
+          {
+            "intnames":["ussr_bmp_1"],
+            "dislayname": "BMP-1 Winter",
+            "post": "819884",
+            "camo":"winter"
+          },
+          {
+            "intnames":["ussr_bmp_1"],
+            "dislayname": "BMP-1 Fall",
+            "post": "820139",
+            "camo":"fall"
+          },
+          {
+            "intnames":["ussr_bmp_1"],
+            "dislayname": "BMP-1 Ps 152-83",
+            "post": "1029820"
+          }
+        ],
+        "BMP-2": [
+          {
+            "intnames":["ussr_bmp_2"],
+            "dislayname": "BMP-2",
+            "post": "853985"
+          },
+          {
+            "intnames":["ussr_bmp_2"],
+            "dislayname": "BMP-2 Ps 153-144",
+            "post": "776802"
+          }
+        ],
+        "BMP-2M": [
+          {
+            "intnames":["ussr_bmp_2m"],
+            "dislayname": "BMP-2M",
+            "post": "972190",
+            "type":"semi"
+          },
+          {
+            "intnames":["ussr_bmp_2m"],
+            "dislayname": "BMP-2M Huono",
+            "post": "1000405",
+            "type":"semi"
+          }
+        ],
+        "ZSU-57-2": [
+          {
+            "intnames":["ussr_zsu_57_2"],
+            "dislayname": "ZSU-57-2 1970s",
+            "post": "911511"
+          },
+          {
+            "intnames":["ussr_zsu_57_2"],
+            "dislayname": "ZSU-57-2 Parola",
+            "post": "1034569"
+          }
+        ],
+        "ISU-152": [
+          {
+            "intnames":["ussr_isu_152"],
+            "dislayname": "ISU-152 Parola",
+            "post": "753379"
+          },
+          {
+            "intnames":["ussr_isu_152"],
+            "dislayname": "ISU-152 \"Jättiläinen\"",
+            "post": "1022553"
+          }
+        ]
+      }
+    }
+    },
+    "Britain": {
+      "aircraft":{
+        "ungrouped":[
+  
+        ],
+        "grouped":{
+  
+        }
+      },
+      "ground":{
+      "ungrouped":[
+
+      ],
+      "grouped":{
+
+      }
+    }
+    }
+  }
+}

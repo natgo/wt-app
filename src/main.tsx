@@ -12,6 +12,7 @@ import { MiniDrawer } from "./Drawer";
 import { Home } from "./Home";
 import { Vehicle } from "./Vehicle";
 import "./index.css";
+import { Skins } from "./Skins";
 
 const container = document.getElementById("root");
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
@@ -28,6 +29,7 @@ root.render(
             <Route path="/data/" element={<Data />} />
             <Route path="/techtree/:vehicleId" element={<Vehicle />} />
             <Route path="/calculator/" element={<Dashboard />} />
+            <Route path="/skins/" element={<Skins />} />
           </Routes>
         </MiniDrawer>
       </RecoilRoot>
