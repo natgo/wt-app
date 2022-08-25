@@ -18,6 +18,18 @@ export const CountryTab = atom<number>({
   effects_UNSTABLE: [persistAtom],
 });
 
+export const SkinTypeTab = atom<number>({
+  key: "SkinTypeTab",
+  default: 0,
+  effects_UNSTABLE: [persistAtom],
+});
+
+export const SkinCountryTab = atom<number>({
+  key: "SkinCountryTab",
+  default: 0,
+  effects_UNSTABLE: [persistAtom],
+});
+
 export const Final = atom<FinalProp>({
   key: "Final",
   default: {

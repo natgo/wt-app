@@ -1,11 +1,11 @@
 import { Tab, Tabs } from "@mui/material";
 import { useRecoilValue, useSetRecoilState } from "recoil";
 import { TabPanel, TypeProp, TypeProps } from "./App";
-import { TypeTab, CountryTab } from "./atom";
+import { SkinTypeTab, SkinCountryTab } from "./atom";
 import * as skins from "./skins";
 function TypeTabs() {
-  const value = useRecoilValue(TypeTab);
-  const setValue = useSetRecoilState(TypeTab);
+  const value = useRecoilValue(SkinTypeTab);
+  const setValue = useSetRecoilState(SkinTypeTab);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
@@ -73,8 +73,8 @@ function Fictional(props: TypeProp): JSX.Element {
 
 function CountryTabs(props: TypeProps): JSX.Element {
   const { type, index } = props;
-  const typeValue = useRecoilValue(TypeTab);
-  const countryValue = useRecoilValue(CountryTab);
+  const typeValue = useRecoilValue(SkinTypeTab);
+  const countryValue = useRecoilValue(SkinCountryTab);
 
   return (
     <TabPanel value={countryValue} index={index}>
