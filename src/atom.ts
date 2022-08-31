@@ -2,7 +2,7 @@ import { atom } from "recoil";
 
 import { recoilPersist } from "recoil-persist";
 
-import { FinalProp } from "./types";
+import { FinalProp, SkinsProp } from "./types";
 
 const { persistAtom } = recoilPersist();
 
@@ -29,6 +29,12 @@ export const SkinCountryTab = atom<number>({
   default: 0,
   effects_UNSTABLE: [persistAtom],
 });
+
+export const SkinAtom =atom<SkinsProp>({
+  key: "Skins",
+  default: {},
+  effects_UNSTABLE: [persistAtom],
+})
 
 export const Final = atom<FinalProp>({
   key: "Final",

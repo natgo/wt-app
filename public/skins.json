@@ -1,63 +1,65 @@
 {
   "historical": {
     "USA": {
-      "ungrouped": [
-        {
-          "intnames": ["f2a-3"],
-          "dislayname": "F2A-3",
-          "post": "547596"
-        }
-      ],
-      "grouped": {
-        "P-36": [
+      "aircraft": {
+        "ungrouped": [
           {
-            "intnames": ["p-36a", "p-36c"],
-            "dislayname": "P-36A,C",
-            "post": "551009"
-          },
-          {
-            "intnames": ["p-36c"],
-            "dislayname": "H-75A-4",
-            "post": "591893"
-          },
-          {
-            "intnames": ["p-36a", "p-36a_rasmussen", "p-36c", "p-36g"],
-            "dislayname": "H-75A-1",
-            "post": "312296"
-          },
-          {
-            "intnames": ["p-36a", "p-36a_rasmussen", "p-36c", "p-36g"],
-            "dislayname": "H-75A-2",
-            "post": "312367"
-          },
-          {
-            "intnames": ["p-36a", "p-36a_rasmussen", "p-36c", "p-36g"],
-            "dislayname": "H-75A-3",
-            "post": "312442"
-          },
-          {
-            "intnames": ["p-36a", "p-36a_rasmussen", "p-36c", "p-36g"],
-            "dislayname": "H-75A-4",
-            "post": "313199"
-          },
-          {
-            "intnames": ["p-36a", "p-36a_rasmussen", "p-36c", "p-36g"],
-            "dislayname": "H-75A-6",
-            "post": "313825"
+            "intnames": ["f2a-3"],
+            "dislayname": "F2A-3",
+            "post": "547596"
           }
         ],
-        "P-40": [
-          {
-            "intnames": ["p-40e"],
-            "dislayname": "P-40E-1",
-            "post": "986993"
-          },
-          {
-            "intnames": ["p-40e"],
-            "dislayname": "P-40E-1",
-            "post": "828599"
-          }
-        ]
+        "grouped": {
+          "P-36": [
+            {
+              "intnames": ["p-36a", "p-36c"],
+              "dislayname": "P-36A,C",
+              "post": "551009"
+            },
+            {
+              "intnames": ["p-36c"],
+              "dislayname": "H-75A-4",
+              "post": "591893"
+            },
+            {
+              "intnames": ["p-36a", "p-36a_rasmussen", "p-36c", "p-36g"],
+              "dislayname": "H-75A-1",
+              "post": "312296"
+            },
+            {
+              "intnames": ["p-36a", "p-36a_rasmussen", "p-36c", "p-36g"],
+              "dislayname": "H-75A-2",
+              "post": "312367"
+            },
+            {
+              "intnames": ["p-36a", "p-36a_rasmussen", "p-36c", "p-36g"],
+              "dislayname": "H-75A-3",
+              "post": "312442"
+            },
+            {
+              "intnames": ["p-36a", "p-36a_rasmussen", "p-36c", "p-36g"],
+              "dislayname": "H-75A-4",
+              "post": "313199"
+            },
+            {
+              "intnames": ["p-36a", "p-36a_rasmussen", "p-36c", "p-36g"],
+              "dislayname": "H-75A-6",
+              "post": "313825"
+            }
+          ],
+          "P-40": [
+            {
+              "intnames": ["p-40e"],
+              "dislayname": "P-40E-1",
+              "post": "986993"
+            },
+            {
+              "intnames": ["p-40e"],
+              "dislayname": "P-40E-1",
+              "post": "828599"
+            }
+          ]
+        }
       }
     },
     "Germany": {
@@ -103,10 +105,10 @@
           ],
           "Bf 109": [
             {
-              "intnames": ["bf-109a_1","bf-109b_2"],
+              "intnames": ["bf-109a_1", "bf-109b_2"],
               "dislayname": "Bf 109B",
               "post": "946372",
-              "type":"semi"
+              "type": "semi"
             },
             {
               "intnames": ["bf-109f-4"],
@@ -756,16 +758,6 @@
         }
       }
     },
-    "Japan": {
-      "aircraft": {
-        "ungrouped": [],
-        "grouped": {}
-      },
-      "ground": {
-        "ungrouped": [],
-        "grouped": {}
-      }
-    },
     "Italy": {
       "aircraft": {
         "grouped": {
@@ -783,213 +775,213 @@
           ]
         }
       }
-    }
-  },
-  "France": {
-    "aircraft": {
-      "ungrouped": [
-        {
-          "intnames": ["caudron_cr714"],
-          "dislayname": "C.R.714 CA-556",
-          "post": "676268"
-        },
-        {
-          "intnames": ["ms_406c1"],
-          "dislayname": "M.S.406C1 MS-311",
-          "post": "688968"
+    },
+    "France": {
+      "aircraft": {
+        "ungrouped": [
+          {
+            "intnames": ["caudron_cr714"],
+            "dislayname": "C.R.714 CA-556",
+            "post": "676268"
+          },
+          {
+            "intnames": ["ms_406c1"],
+            "dislayname": "M.S.406C1 MS-311",
+            "post": "688968"
+          }
+        ],
+        "grouped": {
+          "M.S. 410": [
+            {
+              "intnames": ["ms_410c1"],
+              "dislayname": "M.S. 410 C1 MS-623 Yellow",
+              "post": "958085"
+            },
+            {
+              "intnames": ["ms_410c1"],
+              "dislayname": "M.S. 410 C1 MS-624 White",
+              "post": "957666"
+            }
+          ]
         }
-      ],
-      "grouped": {
-        "M.S. 410": [
-          {
-            "intnames": ["ms_410c1"],
-            "dislayname": "M.S. 410 C1 MS-623 Yellow",
-            "post": "958085"
-          },
-          {
-            "intnames": ["ms_410c1"],
-            "dislayname": "M.S. 410 C1 MS-624 White",
-            "post": "957666"
-          }
-        ]
-      }
-    }
-  },
-  "Sweden": {
-    "aircraft": {
-      "ungrouped": [
-        {
-          "intnames": ["fokker_d21_mod20"],
-          "dislayname": "Fokker D.XXI",
-          "post": "974625"
-        },
-        {
-          "intnames": ["saab_b17a"],
-          "dislayname": "B17A",
-          "post": "908717"
-        },
-        {
-          "intnames": ["gladiator_j8a"],
-          "dislayname": "J8A Winter",
-          "post": "874769"
-        },
-        {
-          "intnames": ["saab_j35a"],
-          "dislayname": "J35A DK-206",
-          "post": "1042041"
-        },
-        {
-          "intnames": ["ffvs_j22_a", "ffvs_j22_b"],
-          "dislayname": "VL Myrsky",
-          "post": "900591",
-          "type": "semi"
-        }
-      ],
-      "grouped": {
-        "Pyörremyrsky": [
-          {
-            "intnames": ["pyorremyrsky"],
-            "dislayname": "VL Pyörremyrsky Post-war",
-            "post": "1013375",
-            "type": "semi"
-          },
-          {
-            "intnames": ["pyorremyrsky"],
-            "dislayname": "Valmet L-90 Redigo",
-            "post": "910811",
-            "type": "semi"
-          }
-        ],
-        "J28B": [
-          {
-            "intnames": ["vampire_fb5_j28b"],
-            "dislayname": "J28B VA-2",
-            "post": "972342"
-          },
-          {
-            "intnames": ["vampire_fb5_j28b"],
-            "dislayname": "J28B VA-2 parempi",
-            "post": "969766"
-          }
-        ],
-        "J6B": [
-          {
-            "intnames": ["j6b"],
-            "dislayname": "J6B",
-            "post": "990402"
-          },
-          {
-            "intnames": ["j6b"],
-            "dislayname": "J6B parempi",
-            "post": "876736"
-          }
-        ],
-        "VL Myrsky": [
-          {
-            "intnames": ["vl_myrsky_2_late"],
-            "dislayname": "VL Myrsky 1944",
-            "post": "1000863"
-          },
-          {
-            "intnames": ["vl_myrsky_2_late"],
-            "dislayname": "VL Myrsky Post-war",
-            "post": "1001483"
-          },
-          {
-            "intnames": ["vl_myrsky_2_late"],
-            "dislayname": "VL Myrsky Unpainted",
-            "post": "1000535",
-            "type": "semi"
-          }
-        ],
-        "Mörkö Morane": [
-          {
-            "intnames": ["morko_morane"],
-            "dislayname": "M.S. 406 Urho Lehtovaara",
-            "post": "1041968"
-          },
-          {
-            "intnames": ["ms_405c1", "ms_406c1", "morko_morane"],
-            "dislayname": "M.S. 406 MS-328 Musta \"8\"",
-            "post": "1043070"
-          }
-        ]
       }
     },
-    "ground": {
-      "ungrouped": [
-        {
-          "intnames": ["sw_veak_40"],
-          "dislayname": "ItPsv 66 VEAK-40",
-          "post": "1004010",
-          "type": "semi"
-        },
-        {
-          "intnames": ["sw_lvkv_42"],
-          "dislayname": "LVKV 42",
-          "post": "967369",
-          "type": "semi"
-        },
-        {
-          "intnames": ["sw_strv_m41_s2"],
-          "dislayname": "Strv M/41",
-          "post": "965225"
+    "Sweden": {
+      "aircraft": {
+        "ungrouped": [
+          {
+            "intnames": ["fokker_d21_mod20"],
+            "dislayname": "Fokker D.XXI",
+            "post": "974625"
+          },
+          {
+            "intnames": ["saab_b17a"],
+            "dislayname": "B17A",
+            "post": "908717"
+          },
+          {
+            "intnames": ["gladiator_j8a"],
+            "dislayname": "J8A Winter",
+            "post": "874769"
+          },
+          {
+            "intnames": ["saab_j35a"],
+            "dislayname": "J35A DK-206",
+            "post": "1042041"
+          },
+          {
+            "intnames": ["ffvs_j22_a", "ffvs_j22_b"],
+            "dislayname": "VL Myrsky",
+            "post": "900591",
+            "type": "semi"
+          }
+        ],
+        "grouped": {
+          "Pyörremyrsky": [
+            {
+              "intnames": ["pyorremyrsky"],
+              "dislayname": "VL Pyörremyrsky Post-war",
+              "post": "1013375",
+              "type": "semi"
+            },
+            {
+              "intnames": ["pyorremyrsky"],
+              "dislayname": "Valmet L-90 Redigo",
+              "post": "910811",
+              "type": "semi"
+            }
+          ],
+          "J28B": [
+            {
+              "intnames": ["vampire_fb5_j28b"],
+              "dislayname": "J28B VA-2",
+              "post": "972342"
+            },
+            {
+              "intnames": ["vampire_fb5_j28b"],
+              "dislayname": "J28B VA-2 parempi",
+              "post": "969766"
+            }
+          ],
+          "J6B": [
+            {
+              "intnames": ["j6b"],
+              "dislayname": "J6B",
+              "post": "990402"
+            },
+            {
+              "intnames": ["j6b"],
+              "dislayname": "J6B parempi",
+              "post": "876736"
+            }
+          ],
+          "VL Myrsky": [
+            {
+              "intnames": ["vl_myrsky_2_late"],
+              "dislayname": "VL Myrsky 1944",
+              "post": "1000863"
+            },
+            {
+              "intnames": ["vl_myrsky_2_late"],
+              "dislayname": "VL Myrsky Post-war",
+              "post": "1001483"
+            },
+            {
+              "intnames": ["vl_myrsky_2_late"],
+              "dislayname": "VL Myrsky Unpainted",
+              "post": "1000535",
+              "type": "semi"
+            }
+          ],
+          "Mörkö Morane": [
+            {
+              "intnames": ["morko_morane"],
+              "dislayname": "M.S. 406 Urho Lehtovaara",
+              "post": "1041968"
+            },
+            {
+              "intnames": ["ms_405c1", "ms_406c1", "morko_morane"],
+              "dislayname": "M.S. 406 MS-328 Musta \"8\"",
+              "post": "1043070"
+            }
+          ]
         }
-      ],
-      "grouped": {
-        "ItO 90": [
+      },
+      "ground": {
+        "ungrouped": [
           {
-            "intnames": ["sw_crotale_ng"],
-            "dislayname": "ItO 90M Ps 477-31 2019",
-            "post": "981934"
+            "intnames": ["sw_veak_40"],
+            "dislayname": "ItPsv 66 VEAK-40",
+            "post": "1004010",
+            "type": "semi"
           },
           {
-            "intnames": ["sw_crotale_ng"],
-            "dislayname": "ItO 90 Ps 477-44 2007",
-            "post": "984154"
+            "intnames": ["sw_lvkv_42"],
+            "dislayname": "LVKV 42",
+            "post": "967369",
+            "type": "semi"
           },
           {
-            "intnames": ["sw_crotale_ng"],
-            "dislayname": "ItO 90 Ps 477-27 Non-Standard",
-            "post": "982019"
+            "intnames": ["sw_strv_m41_s2"],
+            "dislayname": "Strv M/41",
+            "post": "965225"
           }
         ],
-        "L-62 Anti II": [
-          {
-            "intnames": ["sw_l_62_anti_II"],
-            "dislayname": "L-62 Anti II Ilmantorjuntamuseo 4K",
-            "post": "1041547"
-          },
-          {
-            "intnames": ["sw_l_62_anti_II"],
-            "dislayname": "L-62 Anti II Ilmantorjuntamuseo 8K",
-            "post": "912426"
-          },
-          {
-            "intnames": ["sw_l_62_anti_II"],
-            "dislayname": "L-62 Anti II Ps 445-5",
-            "post": "1035237"
-          }
-        ],
-        "CV90": [
-          {
-            "intnames": ["sw_strf_90c"],
-            "dislayname": "CV 9040C",
-            "post": "998000"
-          },
-          {
-            "intnames": ["sw_cv_90120"],
-            "dislayname": "CV 90120",
-            "post": "987424"
-          }
-        ]
+        "grouped": {
+          "ItO 90": [
+            {
+              "intnames": ["sw_crotale_ng"],
+              "dislayname": "ItO 90M Ps 477-31 2019",
+              "post": "981934"
+            },
+            {
+              "intnames": ["sw_crotale_ng"],
+              "dislayname": "ItO 90 Ps 477-44 2007",
+              "post": "984154"
+            },
+            {
+              "intnames": ["sw_crotale_ng"],
+              "dislayname": "ItO 90 Ps 477-27 Non-Standard",
+              "post": "982019"
+            }
+          ],
+          "L-62 Anti II": [
+            {
+              "intnames": ["sw_l_62_anti_II"],
+              "dislayname": "L-62 Anti II Ilmantorjuntamuseo 4K",
+              "post": "1041547"
+            },
+            {
+              "intnames": ["sw_l_62_anti_II"],
+              "dislayname": "L-62 Anti II Ilmantorjuntamuseo 8K",
+              "post": "912426"
+            },
+            {
+              "intnames": ["sw_l_62_anti_II"],
+              "dislayname": "L-62 Anti II Ps 445-5",
+              "post": "1035237"
+            }
+          ],
+          "CV90": [
+            {
+              "intnames": ["sw_strf_90c"],
+              "dislayname": "CV 9040C",
+              "post": "998000"
+            },
+            {
+              "intnames": ["sw_cv_90120"],
+              "dislayname": "CV 90120",
+              "post": "987424"
+            }
+          ]
+        }
       }
     }
   },
   "fictional": {
-    "USA":{
-      "aircraft":{
-        "ungrouped":[
+    "USA": {
+      "aircraft": {
+        "ungrouped": [
           {
             "intnames": ["sbd-3"],
             "dislayname": "SBD-3",
@@ -1005,34 +997,28 @@
             "dislayname": "F-86A-5",
             "post": "453983"
           }
-        ],
-        "grouped":{
-          
-        }
+        ]
       },
-      "ground":{
-        "ungrouped":[
+      "ground": {
+        "ungrouped": [
           {
             "intnames": ["us_xm1_gm"],
             "dislayname": "XM-1",
             "post": "919024"
           }
-        ],
-        "grouped":{
-          
-        }
+        ]
       }
     },
-    "Germany":{
-      "aircraft":{
-        "ungrouped":[
+    "Germany": {
+      "aircraft": {
+        "ungrouped": [
           {
             "intnames": ["fw_200c_1"],
             "dislayname": "Fw 200 Finnair",
             "post": "201761"
           },
           {
-            "intnames": ["hs-129b-2","hs-129b-2_romania","hs-129b-2_romania_italy","hs-129b-3"],
+            "intnames": ["hs-129b-2", "hs-129b-2_romania", "hs-129b-2_romania_italy", "hs-129b-3"],
             "dislayname": "Hs 129B",
             "post": "930659"
           },
@@ -1042,12 +1028,12 @@
             "post": "390120"
           },
           {
-            "intnames": ["a7he1","he_112b_0","he_112b_1","he_112b_2"],
+            "intnames": ["a7he1", "he_112b_0", "he_112b_1", "he_112b_2"],
             "dislayname": "He 122B",
             "post": "1021453"
           },
           {
-            "intnames": ["fw-190d-12","fw-190d-13","fw-190d-9"],
+            "intnames": ["fw-190d-12", "fw-190d-13", "fw-190d-9"],
             "dislayname": "Fw 190D-9 Dora",
             "post": "75488"
           },
@@ -1062,7 +1048,7 @@
             "post": "583711"
           }
         ],
-        "grouped":{
+        "grouped": {
           "Ar 234": [
             {
               "intnames": ["arado-234"],
@@ -1080,7 +1066,7 @@
               "post": "964036"
             }
           ],
-          "Me 262":[
+          "Me 262": [
             {
               "intnames": ["me-262a-1a"],
               "dislayname": "Me 262 A-1a",
@@ -1099,8 +1085,8 @@
           ]
         }
       },
-      "ground":{
-        "ungrouped":[
+      "ground": {
+        "ungrouped": [
           {
             "intnames": ["germ_pzkpfw_VI_ausf_h1_tiger"],
             "dislayname": "Tiger H1",
@@ -1110,7 +1096,7 @@
             "intnames": ["germ_ru251"],
             "dislayname": "Ru 251",
             "post": "683822",
-            "camo":["summer","fall","winter"]
+            "camo": ["summer", "fall", "winter"]
           },
           {
             "intnames": ["germ_flarakrad"],
@@ -1125,21 +1111,21 @@
         ]
       }
     },
-    "USSR":{
-      "aircraft":{
-        "ungrouped":[
+    "USSR": {
+      "aircraft": {
+        "ungrouped": [
           {
             "intnames": ["la-5_type37_early"],
             "dislayname": "La-5",
             "post": "627195"
           },
           {
-            "intnames": ["la-7","la-7_dolgushin","la-7b-20"],
+            "intnames": ["la-7", "la-7_dolgushin", "la-7b-20"],
             "dislayname": "La-7",
             "post": "915493"
           },
           {
-            "intnames": ["il-10","il-10_1946","il-10_1946_china"],
+            "intnames": ["il-10", "il-10_1946", "il-10_1946_china"],
             "dislayname": "Il-10 (1946)",
             "post": "1016352"
           },
@@ -1159,17 +1145,14 @@
             "post": "837689"
           },
           {
-            "intnames": ["mig-15bis_ish","so_4050_vautour_2a_iaf"],
+            "intnames": ["mig-15bis_ish", "so_4050_vautour_2a_iaf"],
             "dislayname": "MiG 15bis ISH & Vautour 2A IAF",
             "post": "819782"
           }
-        ],
-        "grouped":{
-          
-        }
+        ]
       },
-      "ground":{
-        "ungrouped":[
+      "ground": {
+        "ungrouped": [
           {
             "intnames": ["ussr_gaz_4m"],
             "dislayname": "GAZ AAA 4M",
@@ -1204,7 +1187,7 @@
             "intnames": ["ussr_object_120"],
             "dislayname": "Object 120",
             "post": "662355",
-            "camo":["summer","desert","winter"]
+            "camo": ["summer", "desert", "winter"]
           },
           {
             "intnames": ["ussr_su_100Y"],
@@ -1224,25 +1207,25 @@
         ]
       }
     },
-    "Britain":{
-      "aircraft":{
-        "ungrouped":[
+    "Britain": {
+      "aircraft": {
+        "ungrouped": [
           {
-            "intnames": ["seafire_fr47","spitfire_f24"],
+            "intnames": ["seafire_fr47", "spitfire_f24"],
             "dislayname": "Spitfire F",
             "post": "756614"
           },
           {
-            "intnames": ["mosquito_fb_mk26_china","mosquito_fb_mk6"],
+            "intnames": ["mosquito_fb_mk26_china", "mosquito_fb_mk6"],
             "dislayname": "VL Vihuri",
             "post": "996846"
           }
         ]
       }
     },
-    "Japan":{
-      "aircraft":{
-        "ungrouped":[
+    "Japan": {
+      "aircraft": {
+        "ungrouped": [
           {
             "intnames": ["ki_10_2"],
             "dislayname": "Ki 10 II",
@@ -1251,9 +1234,9 @@
         ]
       }
     },
-    "Italy":{
-      "ground":{
-        "ungrouped":[
+    "Italy": {
+      "ground": {
+        "ungrouped": [
           {
             "intnames": ["it_of_40_mk_2a"],
             "dislayname": "OF-40 Mk.2A",
@@ -1262,9 +1245,9 @@
         ]
       }
     },
-    "France":{
-      "ground":{
-        "ungrouped":[
+    "France": {
+      "ground": {
+        "ungrouped": [
           {
             "intnames": ["fr_amx_10rc"],
             "dislayname": "AMX-10RC",
@@ -1273,10 +1256,10 @@
         ]
       }
     },
-    "Sweden":{
-      "aircraft":{
-        "grouped":{
-          "Pyörremyrsky":[
+    "Sweden": {
+      "aircraft": {
+        "grouped": {
+          "Pyörremyrsky": [
             {
               "intnames": ["pyorremyrsky"],
               "dislayname": "VL Pyörremyrsky War-time",
@@ -1290,8 +1273,8 @@
           ]
         }
       },
-      "ground":{
-        "ungrouped":[
+      "ground": {
+        "ungrouped": [
           {
             "intnames": ["sw_strv_103_0"],
             "dislayname": "Strv 103-0",
