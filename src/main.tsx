@@ -10,9 +10,9 @@ import Dashboard from "./Dashboard";
 import { Data } from "./Data";
 import { MiniDrawer } from "./Drawer";
 import { Home } from "./Home";
+import { Skins } from "./Skins";
 import { Vehicle } from "./Vehicle";
 import "./index.css";
-import { Skins } from "./Skins";
 
 const container = document.getElementById("root");
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion

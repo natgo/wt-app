@@ -71,7 +71,7 @@
             "post": "287547"
           },
           {
-            "intnames": ["fw-190a-5_cannons.blk"],
+            "intnames": ["fw-190a-5_cannons"],
             "dislayname": "Fw 109 A-5 \"Väinö\"",
             "post": "647662",
             "type": "semi"
@@ -971,7 +971,8 @@
             {
               "intnames": ["sw_cv_90120"],
               "dislayname": "CV 90120",
-              "post": "987424"
+              "post": "987424",
+              "type": "semi"
             }
           ]
         }

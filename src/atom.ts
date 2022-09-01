@@ -30,11 +30,11 @@ export const SkinCountryTab = atom<number>({
   effects_UNSTABLE: [persistAtom],
 });
 
-export const SkinAtom =atom<SkinsProp>({
+export const SkinAtom = atom<SkinsProp>({
   key: "Skins",
   default: {},
   effects_UNSTABLE: [persistAtom],
-})
+});
 
 export const Final = atom<FinalProp>({
   key: "Final",

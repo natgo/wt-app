@@ -1,5 +1,5 @@
 export type { FinalProp };
-export type {SkinsProp};
+export type { SkinsProp };
 interface FinalProp {
   updated: Date;
   ground: GroundProps[];
@@ -46,58 +46,65 @@ export interface GroundProps extends FinalProps {
 
 interface SkinsProp {
   historical: Historical;
-  fictional:  Fictional;
+  fictional: Fictional;
 }
 
 export interface Fictional {
-  USA:     Countries;
+  USA: Countries;
   Germany: Countries;
-  USSR:    Countries;
+  USSR: Countries;
   "Great Britain": Countries;
   China: Countries;
-  Japan:   Countries;
-  Italy:   Countries;
-  France:  Countries;
-  Sweden:  Countries;
+  Japan: Countries;
+  Italy: Countries;
+  France: Countries;
+  Sweden: Countries;
   Israel?: Countries;
 }
 
 export interface Ungrouped {
-  intnames:   string[];
+  intnames: string[];
   dislayname: string;
-  post:       string;
-  camo?:      Array<Camo>;
-  type?:      Type;
+  post: string;
+  camo?: Array<Camo>;
+  type?: Type;
 }
 
 export enum Type {
   Semi = "semi",
 }
 
-export type Camo = "summer"|"desert"|"fall"|"winter"
+export type Camo = "summer" | "desert" | "fall" | "winter";
 
-export type Country  ="USA"|"Germany"|"USSR"|"Britain"|"Japan"|"Italy"|"France"|"Sweden"
+export type Country =
+  | "USA"
+  | "Germany"
+  | "USSR"
+  | "Britain"
+  | "Japan"
+  | "Italy"
+  | "France"
+  | "Sweden";
 
 export interface Countries {
   aircraft?: Aircraft;
-  ground?:   Aircraft;
+  ground?: Aircraft;
 }
 
 export interface Aircraft {
   ungrouped: Ungrouped[];
-  grouped: Record<Country,Ungrouped[]>;
+  grouped: Record<string, Ungrouped[]>;
 }
 
-
 export interface Historical {
-  USA:     Countries;
+  USA: Countries;
   Germany: Countries;
-  USSR:    Countries;
+  USSR: Countries;
   "Great Britain": Countries;
   China?: Countries;
-  Japan?:   Countries;
-  Italy:   Countries;
-  France:  Countries;
-  Sweden:  Countries;
+  Japan?: Countries;
+  Italy: Countries;
+  France: Countries;
+  Sweden: Countries;
   Israel?: Countries;
 }

@@ -8,8 +8,7 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/jsx-runtime",
-    "plugin:react-hooks/recommended",
-    "plugin:security/recommended"
+    "plugin:react-hooks/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -21,8 +20,7 @@ module.exports = {
   },
   "plugins": [
     "react",
-    "@typescript-eslint",
-    "security"
+    "@typescript-eslint"
   ],
   "rules": {
     "indent": [
