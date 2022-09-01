@@ -50,25 +50,23 @@ interface SkinsProp {
 }
 
 export interface Fictional {
-  USA:     Usa;
-  Germany: FictionalGermany;
-  USSR:    Usa;
-  Britain: Britain;
-  Japan:   Britain;
-  Italy:   France;
-  France:  France;
-  Sweden:  FictionalSweden;
-}
-
-export interface Britain {
-  aircraft: Aircraft;
+  USA:     Countries;
+  Germany: Countries;
+  USSR:    Countries;
+  "Great Britain": Countries;
+  China: Countries;
+  Japan:   Countries;
+  Italy:   Countries;
+  France:  Countries;
+  Sweden:  Countries;
+  Israel?: Countries;
 }
 
 export interface Ungrouped {
   intnames:   string[];
   dislayname: string;
   post:       string;
-  camo?:      string[];
+  camo?:      Array<Camo>;
   type?:      Type;
 }
 
@@ -76,16 +74,13 @@ export enum Type {
   Semi = "semi",
 }
 
+export type Camo = "summer"|"desert"|"fall"|"winter"
+
 export type Country  ="USA"|"Germany"|"USSR"|"Britain"|"Japan"|"Italy"|"France"|"Sweden"
 
-
-export interface France {
-  ground: Aircraft;
-}
-
-export interface FictionalGermany {
-  aircraft: Aircraft;
-  ground:   Aircraft;
+export interface Countries {
+  aircraft?: Aircraft;
+  ground?:   Aircraft;
 }
 
 export interface Aircraft {
@@ -93,54 +88,16 @@ export interface Aircraft {
   grouped: Record<Country,Ungrouped[]>;
 }
 
-export interface FictionalSweden {
-  aircraft: Aircraft;
-  ground:   Aircraft;
-}
-
-export interface Usa {
-  aircraft: Aircraft;
-  ground:   Aircraft;
-}
 
 export interface Historical {
-  USA:     HistoricalUSA;
-  Germany: HistoricalGermany;
-  USSR:    Ussr;
-  Britain: HistoricalBritain;
-  Italy:   Italy;
-  France:  HistoricalFrance;
-  Sweden:  HistoricalSweden;
-}
-
-export interface HistoricalBritain {
-  aircraft: Aircraft;
-  ground:   Aircraft;
-}
-
-export interface HistoricalFrance {
-  aircraft: Aircraft;
-}
-
-export interface HistoricalGermany {
-  aircraft: Aircraft;
-  ground:   Aircraft;
-}
-
-export interface Italy {
-  aircraft: Aircraft;
-}
-
-export interface HistoricalSweden {
-  aircraft: Aircraft;
-  ground:   Aircraft;
-}
-
-export interface HistoricalUSA {
-  aircraft: Aircraft;
-}
-
-export interface Ussr {
-  aircraft: Aircraft;
-  ground:   Aircraft;
+  USA:     Countries;
+  Germany: Countries;
+  USSR:    Countries;
+  "Great Britain": Countries;
+  China?: Countries;
+  Japan?:   Countries;
+  Italy:   Countries;
+  France:  Countries;
+  Sweden:  Countries;
+  Israel?: Countries;
 }

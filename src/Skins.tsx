@@ -22,18 +22,21 @@ function TypeTabs() {
 function Historical(props: TypeProp): JSX.Element {
   const { type } = props;
   const value = useRecoilValue(SkinAtom);
-  return(
-    <div>
-      {type} Historical skins
-      <div>
-        {value.historical.Sweden.ground.ungrouped.map((value)=> (
-          <div key={value.post}>
-            {value.dislayname}
-          </div>
-        ))}
+  console.log(value.historical[type]?.ground);
+  if (value.historical[type]?.ground?.ungrouped) {
+    return(
+      <div className="skincontainer">
+        <div>{type} Historical skins</div>
+        <div>
+          {value.historical[type]?.ground?.ungrouped.map((value)=> (
+            <div key={value.post}>
+              {value.dislayname}
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 function Fictional(props: TypeProp): JSX.Element {
@@ -87,7 +90,7 @@ export function Skins(): JSX.Element {
         <Tab label="Italy" />
         <Tab label="France" />
         <Tab label="Sweden" />
-        <Tab label="Israel" />
+        <Tab label="Israel" disabled />
       </Tabs>
 
       <CountryTabs type={"USA"} index={0} />
