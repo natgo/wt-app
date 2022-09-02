@@ -25,13 +25,20 @@
 
 .vehicle {
   display: flex;
-  grid-column: 2/3;
-  border-left: 1px black solid;
   padding-left: 10px;
 }
 
-.intnames {
-  margin-left: 10px;
+.group .vehicle {
+  border-left: 1px black solid;
+  grid-column: 2/3;
+}
+
+.ungrouped {
+  border: 1px black solid;
+  display: grid;
+  grid-template-rows: repeat(100, min-content);
+  margin-left: 50%;
+  height: min-content;
 }
 
 .group {
