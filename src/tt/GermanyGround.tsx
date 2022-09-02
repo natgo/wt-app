@@ -1317,7 +1317,13 @@ export function GermanyGround() {
                   intname="germ_radpanzer_90"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <div className="tree-arrow">
+                  <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
+                  <br />
+                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <br />
+                  <img src="/images/Arrow_head.png" alt="Arrow_head.png" />
+                </div>
               </td>
               <td>
                 <TechTreeItem
@@ -1390,6 +1396,10 @@ export function GermanyGround() {
                   <br />
                   <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
+                  <img src="/images/Arrow_center_small.png" alt="Arrow_center_small.png" />
+                  <br />
+                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <br />
                   <img src="/images/Arrow_head.png" alt="Arrow_head.png" />
                 </div>
               </td>
@@ -1413,6 +1423,10 @@ export function GermanyGround() {
                 />
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
+                  <br />
+                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <br />
+                  <img src="/images/Arrow_center_small.png" alt="Arrow_center_small.png" />
                   <br />
                   <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
@@ -1514,6 +1528,15 @@ export function GermanyGround() {
                   item_type="own"
                   text="PT-16/T14 mod."
                   intname="germ_leopard_2_pt14"
+                  type="ground"
+                />
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/Leopard_2AV"
+                  title="Leopard 2AV"
+                  item_type="own"
+                  text="Leopard 2AV"
+                  intname="germ_leopard_2av"
                   type="ground"
                 />
               </td>

@@ -24,12 +24,12 @@ root.render(
         <RecoilNexus />
         <MiniDrawer>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/techtree/" element={<App />} />
-            <Route path="/data/" element={<Data />} />
-            <Route path="/techtree/:vehicleId" element={<Vehicle />} />
-            <Route path="/calculator/" element={<Dashboard />} />
-            <Route path="/skins/" element={<Skins />} />
+            <Route path="/wt/" element={<Home />} />
+            <Route path="/wt/techtree/" element={<App />} />
+            <Route path="/wt/data/" element={<Data />} />
+            <Route path="/wt/techtree/:vehicleId" element={<Vehicle />} />
+            <Route path="/wt/calculator/" element={<Dashboard />} />
+            <Route path="/wt/skins/" element={<Skins />} />
           </Routes>
         </MiniDrawer>
       </RecoilRoot>

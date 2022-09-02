@@ -98,7 +98,7 @@ export function TechTreeItem(props: {
   return (
     <div className="tree-item">
       <div className="tree-item-background" id={title}>
-        <Link to={"/techtree" + encodeURI(itemLink)} title={title}>
+        <Link to={"/wt/techtree" + encodeURI(itemLink)} title={title}>
           <ItemImg type={item_type} />
         </Link>
       </div>
@@ -106,10 +106,7 @@ export function TechTreeItem(props: {
         <span className="tree-item-text-scroll">{text}</span>
       </div>
       <div className="tree-item-img">
-        <img
-          src={`https://encyclopedia.warthunder.com/slots/${intname}.png`}
-          alt={`${intname}.png`}
-        />
+        <img src={`/images/units/${intname}.png`} alt={`${intname}.png`} />
         <div className="br">{br}</div>
         <img src={fig_src} className="class" />
       </div>

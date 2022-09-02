@@ -1715,6 +1715,15 @@ export function USAAircraft() {
               </td>
               <td>
                 <TechTreeItem
+                  link="/F4D-1"
+                  title="F4D-1"
+                  item_type="own"
+                  text="F4D-1"
+                  intname="f4d_1"
+                  type="aircraft"
+                />
+                <EmptyDiv />
+                <TechTreeItem
                   link="/FJ-4B_VMF-232"
                   title="FJ-4B VMF-232"
                   item_type="own"

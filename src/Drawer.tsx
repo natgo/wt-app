@@ -51,26 +51,26 @@ export function MiniDrawer(props: { children: React.ReactNode }) {
           {["Home", "Techtree", "WT Data Project (External)", "Air RB BR Calculator", "Skins"].map(
             (text) => {
               let Icon = <AccountTree />;
-              let link = "/";
+              let link = "/wt/";
               switch (text) {
                 case "Techtree":
-                  link = "/techtree";
+                  link = "/wt/techtree";
                   Icon = <AccountTree />;
                   break;
                 case "WT Data Project (External)":
-                  link = "/data";
+                  link = "/wt/data";
                   Icon = <DataObject />;
                   break;
                 case "Air RB BR Calculator":
-                  link = "/calculator";
+                  link = "/wt/calculator";
                   Icon = <Calculate />;
                   break;
                 case "Home":
-                  link = "/";
+                  link = "/wt/";
                   Icon = <Home />;
                   break;
                 case "Skins":
-                  link = "/skins";
+                  link = "/wt/skins";
                   Icon = <Brush />;
               }
               return (

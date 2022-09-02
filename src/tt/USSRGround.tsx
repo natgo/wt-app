@@ -965,6 +965,10 @@ export function USSRGround() {
                   <br />
                   <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
+                  <img src="/images/Arrow_center_small.png" alt="Arrow_center_small.png" />
+                  <br />
+                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <br />
                   <img src="/images/Arrow_head.png" alt="Arrow_head.png" />
                 </div>
               </td>
@@ -1017,6 +1021,10 @@ export function USSRGround() {
                   <br />
                   <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
+                  <img src="/images/Arrow_center_small.png" alt="Arrow_center_small.png" />
+                  <br />
+                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <br />
                   <img src="/images/Arrow_head.png" alt="Arrow_head.png" />
                 </div>
               </td>
@@ -1040,6 +1048,10 @@ export function USSRGround() {
                 />
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
+                  <br />
+                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <br />
+                  <img src="/images/Arrow_center_small.png" alt="Arrow_center_small.png" />
                   <br />
                   <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
@@ -1090,6 +1102,10 @@ export function USSRGround() {
                   <br />
                   <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
+                  <img src="/images/Arrow_center_small.png" alt="Arrow_center_small.png" />
+                  <br />
+                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <br />
                   <img src="/images/Arrow_head.png" alt="Arrow_head.png" />
                 </div>
               </td>
@@ -1113,6 +1129,10 @@ export function USSRGround() {
                 />
                 <div className="tree-arrow">
                   <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
+                  <br />
+                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <br />
+                  <img src="/images/Arrow_center_small.png" alt="Arrow_center_small.png" />
                   <br />
                   <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
@@ -1181,6 +1201,15 @@ export function USSRGround() {
                   item_type="prem"
                   text='IS-2 "Revenge"'
                   intname="ussr_is_2_1944_revenge"
+                  type="ground"
+                />
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/Object_248"
+                  title="Object 248"
+                  item_type="prem"
+                  text="Object 248"
+                  intname="ussr_object_248"
                   type="ground"
                 />
                 <EmptyDiv />

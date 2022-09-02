@@ -467,6 +467,14 @@ export function ItalyGround() {
                 <EmptyDiv />
               </td>
               <td>
+                <TechTreeItem
+                  link="/Zrinyi_I"
+                  title="Zrinyi I"
+                  item_type="prem"
+                  text="Zrinyi I"
+                  intname="it_44m_zrinyi_1"
+                  type="ground"
+                />
                 <EmptyDiv />
               </td>
             </tr>
