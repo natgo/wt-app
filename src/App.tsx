@@ -67,7 +67,8 @@ export interface TypeProps extends TypeProp {
 function folder(): void {
   $(function () {
     $(document).on("click", "body", function () {
-      if (event.target.className != "tree-group") $(".tree-group-collapse").slideUp();
+      const tagret = event?.target as HTMLElement;
+      if (tagret.className != "tree-group") $(".tree-group-collapse").slideUp();
     });
   });
 }

@@ -5,7 +5,7 @@
   "browserslist": "> 0.5% in FI and last 2 versions and supports es6-module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc ; vite build",
     "preview": "vite preview",
     "pretty": "prettier -w src/ --plugin=./node_modules/@trivago/prettier-plugin-sort-imports/"
   },
@@ -33,6 +33,7 @@
     "@typescript-eslint/eslint-plugin": "5.36.1",
     "@typescript-eslint/parser": "5.36.1",
     "@vitejs/plugin-react": "2.0.1",
+    "autoprefixer": "^10.4.8",
     "cypress": "10.7.0",
     "cypress-file-upload": "5.0.8",
     "eslint": "8.23.0",
@@ -40,7 +41,6 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-security": "1.5.0",
     "postcss": "8.4.16",
-    "postcss-short": "5.0.0",
     "prettier": "2.7.1",
     "rollup": "2.79.0",
     "rollup-plugin-visualizer": "5.8.0",

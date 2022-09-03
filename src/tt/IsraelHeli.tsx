@@ -40,7 +40,7 @@ export function IsraelHeli() {
                       <td colSpan={3} style={{ textAlign: "center" }}>
                         <div className="tree-arrow-right">
                           <img
-                            src="/images/Arrow-down-and-right-down.png"
+                            src="./images/Arrow-down-and-right-down.png"
                             alt="Arrow-down-and-right-down.png"
                           />
                         </div>
@@ -50,11 +50,11 @@ export function IsraelHeli() {
                       <td>
                         <div style={{ marginTop: "-27px", marginLeft: "-3px" }}>
                           <div className="tree-arrow">
-                            <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
+                            <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
                             <br />
-                            <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                            <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                             <br />
-                            <img src="/images/Arrow_head.png" alt="Arrow_head.png" />
+                            <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
                           </div>
                         </div>
                       </td>

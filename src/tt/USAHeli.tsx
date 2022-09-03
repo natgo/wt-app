@@ -52,7 +52,7 @@ export function USAHeli() {
                       </td>
                       <td>
                         <div className="tree-arrow-right">
-                          <img src="/images/Arrow-left.png" alt="Arrow-left.png" />
+                          <img src="./images/Arrow-left.png" alt="Arrow-left.png" />
                         </div>
                       </td>
                       <td>
@@ -127,7 +127,7 @@ export function USAHeli() {
                     <tr>
                       <td colSpan={3} style={{ textAlign: "center" }}>
                         <div className="tree-arrow-right">
-                          <img src="/images/Arrow-left-down.png" alt="Arrow-left-down.png" />
+                          <img src="./images/Arrow-left-down.png" alt="Arrow-left-down.png" />
                         </div>
                       </td>
                     </tr>
@@ -146,11 +146,11 @@ export function USAHeli() {
                       <td rowSpan={2}>
                         <div style={{ marginTop: "-25px", marginLeft: 8 }}>
                           <div className="tree-arrow">
-                            <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
+                            <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
                             <br />
-                            <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                            <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                             <br />
-                            <img src="/images/Arrow_head.png" alt="Arrow_head.png" />
+                            <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
                           </div>
                         </div>
                       </td>

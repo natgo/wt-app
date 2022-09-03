@@ -4,7 +4,7 @@ import { useRecoilValue } from "recoil";
 import "./App2.css";
 import { Mobility, SpecsCard, Survivability } from "./VehicleItem";
 import { Final } from "./atom";
-import { FinalProps } from "./types";
+import { FinalProps, GroundProps } from "./types";
 
 export function QueryVehicle(
   vehicle: string,
@@ -60,13 +60,21 @@ export function Vehicle(): JSX.Element {
     const match = QueryVehicle(params.vehicleId.replace(/\+/g, "/"), "wikiname");
     console.log(match);
     if (match) {
-      return (
-        <div>
-          <SpecsCard vehicle={match} link={params.vehicleId} item_type={"own"} />
-          <Survivability vehicle={match} />
-          <Mobility vehicle={match} />
-        </div>
-      );
+      if ("horsepower" in match) {
+        return (
+          <div>
+            <SpecsCard vehicle={match} link={params.vehicleId} item_type={"own"} />
+            <Survivability vehicle={match} />
+            <Mobility vehicle={match} />
+          </div>
+        );
+      } else {
+        return (
+          <div>
+            <SpecsCard vehicle={match} link={params.vehicleId} item_type={"own"} />
+          </div>
+        );
+      }
     } else {
       return <b>No Match</b>;
     }

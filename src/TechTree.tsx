@@ -1,19 +1,19 @@
 import { Link } from "react-router-dom";
 
 import { QueryVehicle } from "./Vehicle";
-import own_img from "./img/Item_own.png";
-import prem_img from "./img/Item_prem.png";
-import squad_img from "./img/Item_squad.png";
-import assault from "./img/def_assault_radar.svg";
-import attack_helicopter from "./img/def_attack_helicopter_radar.svg";
-import bomber from "./img/def_bomber_radar.svg";
-import fighter from "./img/def_fighter_radar.svg";
-import heavy_tank from "./img/def_heavy_tank_radar.svg";
-import light_tank from "./img/def_light_tank_radar.svg";
-import medium_tank from "./img/def_medium_tank_radar.svg";
-import spaa from "./img/def_spaa_radar.svg";
-import tank_destroyer from "./img/def_tank_destroyer_radar.svg";
-import utility_helicopter from "./img/def_utility_helicopter_radar.svg";
+import own_img from "./assets/img/Item_own.png";
+import prem_img from "./assets/img/Item_prem.png";
+import squad_img from "./assets/img/Item_squad.png";
+import assault from "./assets/img/def_assault_radar.svg";
+import attack_helicopter from "./assets/img/def_attack_helicopter_radar.svg";
+import bomber from "./assets/img/def_bomber_radar.svg";
+import fighter from "./assets/img/def_fighter_radar.svg";
+import heavy_tank from "./assets/img/def_heavy_tank_radar.svg";
+import light_tank from "./assets/img/def_light_tank_radar.svg";
+import medium_tank from "./assets/img/def_medium_tank_radar.svg";
+import spaa from "./assets/img/def_spaa_radar.svg";
+import tank_destroyer from "./assets/img/def_tank_destroyer_radar.svg";
+import utility_helicopter from "./assets/img/def_utility_helicopter_radar.svg";
 import { openfolder } from "./tt";
 
 export function ItemImg(props: { type: "own" | "prem" | "squad" }): JSX.Element {
@@ -106,7 +106,7 @@ export function TechTreeItem(props: {
         <span className="tree-item-text-scroll">{text}</span>
       </div>
       <div className="tree-item-img">
-        <img src={`/images/units/${intname}.png`} alt={`${intname}.png`} />
+        <img src={`./images/units/${intname}.png`} alt={`${intname}.png`} />
         <div className="br">{br}</div>
         <img src={fig_src} className="class" />
       </div>
@@ -165,7 +165,7 @@ export function Arrow(props: { type: string }): JSX.Element {
           justifyContent: "center",
         }}
       >
-        <img src="/images/Arrow-small.png" alt="Arrow.png" />
+        <img src="./images/Arrow-small.png" alt="Arrow.png" />
       </div>
     );
   } else {
@@ -177,7 +177,7 @@ export function Arrow(props: { type: string }): JSX.Element {
           justifyContent: "center",
         }}
       >
-        <img src="/images/Arrow-small.png" alt="Arrow.png" />
+        <img src="./images/Arrow-small.png" alt="Arrow.png" />
       </div>
     );
   }
@@ -273,7 +273,7 @@ export function TreeFolder(props: { children: React.ReactElement[]; name: string
           <span className="tree-item-text-scroll">{name}</span>
         </div>
         <div className="tree-group-img">
-          <img src={`https://encyclopedia.warthunder.com/slots/${img}.png`} alt={`${img}.png`} />
+          <img src={`./images/units/${img}.png`} alt={`${img}.png`} />
           <div className="br_container">
             <div className="br">{groupbr}</div>
             <img src={fig_src} className="class" />

@@ -19,11 +19,11 @@ export function ChinaGround() {
                   type="ground"
                 />
                 <div className="tree-arrow">
-                  <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
+                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
-                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
-                  <img src="/images/Arrow_head.png" alt="Arrow_head.png" />
+                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
                 </div>
               </td>
               <td>
@@ -116,11 +116,11 @@ export function ChinaGround() {
                   type="ground"
                 />
                 <div className="tree-arrow">
-                  <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
+                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
-                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
-                  <img src="/images/Arrow_head.png" alt="Arrow_head.png" />
+                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
                 </div>
               </td>
               <td>
@@ -162,15 +162,15 @@ export function ChinaGround() {
                   type="ground"
                 />
                 <div className="tree-arrow">
-                  <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
+                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
-                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
-                  <img src="/images/Arrow_center_small.png" alt="Arrow_center_small.png" />
+                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
                   <br />
-                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
-                  <img src="/images/Arrow_head.png" alt="Arrow_head.png" />
+                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
                 </div>
               </td>
               <td>
@@ -192,11 +192,11 @@ export function ChinaGround() {
                   type="ground"
                 />
                 <div className="tree-arrow">
-                  <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
+                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
-                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
-                  <img src="/images/Arrow_head.png" alt="Arrow_head.png" />
+                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
                 </div>
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
@@ -234,11 +234,11 @@ export function ChinaGround() {
                   type="ground"
                 />
                 <div className="tree-arrow">
-                  <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
+                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
-                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
-                  <img src="/images/Arrow_head.png" alt="Arrow_head.png" />
+                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
                 </div>
               </td>
               <td>
@@ -337,11 +337,11 @@ export function ChinaGround() {
                   type="ground"
                 />
                 <div className="tree-arrow">
-                  <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
+                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
-                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
-                  <img src="/images/Arrow_head.png" alt="Arrow_head.png" />
+                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
                 </div>
               </td>
               <td>
@@ -383,15 +383,15 @@ export function ChinaGround() {
                   type="ground"
                 />
                 <div className="tree-arrow">
-                  <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
+                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
-                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
-                  <img src="/images/Arrow_center_small.png" alt="Arrow_center_small.png" />
+                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
                   <br />
-                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
-                  <img src="/images/Arrow_head.png" alt="Arrow_head.png" />
+                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
                 </div>
               </td>
               <td>
@@ -499,11 +499,11 @@ export function ChinaGround() {
                   type="ground"
                 />
                 <div className="tree-arrow">
-                  <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
+                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
-                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
-                  <img src="/images/Arrow_head.png" alt="Arrow_head.png" />
+                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
                 </div>
               </td>
               <td>
@@ -619,19 +619,19 @@ export function ChinaGround() {
                   type="ground"
                 />
                 <div className="tree-arrow">
-                  <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
+                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
-                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
-                  <img src="/images/Arrow_center_small.png" alt="Arrow_center_small.png" />
+                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
                   <br />
-                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
-                  <img src="/images/Arrow_center_small.png" alt="Arrow_center_small.png" />
+                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
                   <br />
-                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
-                  <img src="/images/Arrow_head.png" alt="Arrow_head.png" />
+                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
                 </div>
               </td>
               <td>
@@ -653,15 +653,15 @@ export function ChinaGround() {
                   type="ground"
                 />
                 <div className="tree-arrow">
-                  <img src="/images/Arrow_tail.png" alt="Arrow_tail.png" />
+                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
-                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
-                  <img src="/images/Arrow_center_small.png" alt="Arrow_center_small.png" />
+                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
                   <br />
-                  <img src="/images/Arrow_center.png" alt="Arrow_center.png" />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
-                  <img src="/images/Arrow_head.png" alt="Arrow_head.png" />
+                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
                 </div>
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
@@ -699,6 +699,15 @@ export function ChinaGround() {
                   item_type="prem"
                   text="Т-62 №545"
                   intname="cn_t_62"
+                  type="ground"
+                />
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/cn_object_122tm"
+                  title="cn_object_122tm"
+                  item_type="squad"
+                  text="cn_object_122tm"
+                  intname="cn_object_122tm"
                   type="ground"
                 />
               </td>

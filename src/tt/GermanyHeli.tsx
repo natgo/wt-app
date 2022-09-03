@@ -47,7 +47,7 @@ export function GermanyHeli() {
                       <td />
                       <td colSpan={3} style={{ textAlign: "center" }}>
                         <div className="tree-arrow-right">
-                          <img src="/images/Arrow-left-down.png" alt="Arrow-left-down.png" />
+                          <img src="./images/Arrow-left-down.png" alt="Arrow-left-down.png" />
                         </div>
                       </td>
                       <td />
@@ -131,7 +131,7 @@ export function GermanyHeli() {
                       </td>
                       <td>
                         <div className="tree-arrow-right">
-                          <img src="/images/Arrow-left.png" alt="Arrow-left.png" />
+                          <img src="./images/Arrow-left.png" alt="Arrow-left.png" />
                         </div>
                       </td>
                       <td>

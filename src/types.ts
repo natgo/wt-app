@@ -10,6 +10,7 @@ interface FinalProp {
 export interface FinalProps {
   intname: string;
   wikiname: string;
+  type: "tank" | "aircraft" | "helicopter";
   normal_type: string;
   extended_type: string[];
   country: string;

@@ -50,7 +50,7 @@ export function FranceHeli() {
                       <td colSpan={3} style={{ textAlign: "center" }}>
                         <div className="tree-arrow-right">
                           <img
-                            src="/images/Arrow-down-and-right-down.png"
+                            src="./images/Arrow-down-and-right-down.png"
                             alt="Arrow-down-and-right-down.png"
                           />
                         </div>

@@ -13,6 +13,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.36.1
   '@typescript-eslint/parser': 5.36.1
   '@vitejs/plugin-react': 2.0.1
+  autoprefixer: ^10.4.8
   axios: 0.27.2
   cypress: 10.7.0
   cypress-file-upload: 5.0.8
@@ -22,7 +23,6 @@ specifiers:
   eslint-plugin-security: 1.5.0
   jquery: 3.6.1
   postcss: 8.4.16
-  postcss-short: 5.0.0
   prettier: 2.7.1
   react: 18.2.0
   react-dom: 18.2.0
@@ -62,6 +62,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.36.1_lbwfnm54o3pmr3ypeqp3btnera
   '@typescript-eslint/parser': 5.36.1_yqf6kl63nyoq5megxukfnom5rm
   '@vitejs/plugin-react': 2.0.1_vite@3.0.9
+  autoprefixer: 10.4.8_postcss@8.4.16
   cypress: 10.7.0
   cypress-file-upload: 5.0.8_cypress@10.7.0
   eslint: 8.23.0
@@ -69,7 +70,6 @@ devDependencies:
   eslint-plugin-react-hooks: 4.6.0_eslint@8.23.0
   eslint-plugin-security: 1.5.0
   postcss: 8.4.16
-  postcss-short: 5.0.0
   prettier: 2.7.1
   rollup: 2.79.0
   rollup-plugin-visualizer: 5.8.0_rollup@2.79.0
@@ -1247,6 +1247,22 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
+  /autoprefixer/10.4.8_postcss@8.4.16:
+    resolution: {integrity: sha512-75Jr6Q/XpTqEf6D2ltS5uMewJIx5irCU1oBYJrWjFenq/m12WRRrz6g15L1EIoYvPLXTbEry7rDOwrcYNj77xw==}
+    engines: {node: ^10 || ^12 || >=14}
+    hasBin: true
+    peerDependencies:
+      postcss: ^8.1.0
+    dependencies:
+      browserslist: 4.21.3
+      caniuse-lite: 1.0.30001373
+      fraction.js: 4.2.0
+      normalize-range: 0.1.2
+      picocolors: 1.0.0
+      postcss: 8.4.16
+      postcss-value-parser: 4.2.0
+    dev: true
+
   /aws-sign2/0.7.0:
     resolution: {integrity: sha512-08kcGqnYf/YmjoRhfxyu+CLxBjUtHLXLXX/vUfx9l2LYzG3c1m61nrpyFUZI6zeS+Li/wWMMidD9KgrqtGq3mA==}
     dev: true
@@ -2332,6 +2348,10 @@ packages:
       mime-types: 2.1.35
     dev: false
 
+  /fraction.js/4.2.0:
+    resolution: {integrity: sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==}
+    dev: true
+
   /fs-extra/9.1.0:
     resolution: {integrity: sha512-hcg3ZmepS30/7BSFqRvoo3DOMQu7IjqxO5nCDt+zM9XWjb33Wg7ziNT+Qvqbuc3+gWpzO02JubVyk2G4Zvo1OQ==}
     engines: {node: '>=10'}
@@ -3143,6 +3163,11 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
+  /normalize-range/0.1.2:
+    resolution: {integrity: sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==}
+    engines: {node: '>=0.10.0'}
+    dev: true
+
   /npm-run-path/4.0.1:
     resolution: {integrity: sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==}
     engines: {node: '>=8'}
@@ -3330,10 +3355,6 @@ packages:
     resolution: {integrity: sha512-7EAHlyLHI56VEIdK57uwHdHKIaAGbnXPiw0yWbarQZOKaKpvUIgW0jWRVLiatnM+XXlSwsanIBH/hzGMJulMow==}
     dev: true
 
-  /picocolors/0.2.1:
-    resolution: {integrity: sha512-cMlDqaLEqfSaW8Z7N5Jw+lyIW869EzT73/F5lhtY9cLGoVxSXznfgfXMO0Z5K0o0Q2TkTXq+0KFsdnSe3jDViA==}
-    dev: true
-
   /picocolors/1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
 
@@ -3345,13 +3366,6 @@ packages:
   /pify/2.3.0:
     resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==}
     engines: {node: '>=0.10.0'}
-    dev: true
-
-  /postcss-font-weights/5.0.0:
-    resolution: {integrity: sha512-n/1sLibDcRcFS4HcGVzB81eUdxjG8p3XZFvM3Q+0Szz+e8f64dV3bJyUMs7Nw8ZV4qmO293SUVmOMmmhNMkzjw==}
-    engines: {node: '>=6.0.0'}
-    dependencies:
-      postcss: 7.0.39
     dev: true
 
   /postcss-media-query-parser/0.2.3:
@@ -3379,88 +3393,8 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /postcss-short-border-radius/3.0.0:
-    resolution: {integrity: sha512-s4g/NSUFA71+s4fJMUFo/IqcJL1ZdmWSz90GctW/f3msdhetgaU2OuORYQtUB2HGX5BdsvBFai8FBv/D3/lrVQ==}
-    engines: {node: '>=6.0.0'}
-    dependencies:
-      postcss: 7.0.39
-    dev: true
-
-  /postcss-short-border/4.0.0:
-    resolution: {integrity: sha512-o9lZZ7yavQAs2Tj1BazltLBTDH4XdNtUuY15NhV6Nr1R+1sG4e9k2QZRhaOazPbntrw7pDHFqRwDYQND9DB8jw==}
-    engines: {node: '>=6.0.0'}
-    dependencies:
-      postcss: 7.0.39
-    dev: true
-
-  /postcss-short-color/4.0.0:
-    resolution: {integrity: sha512-2cIbOysfLRXweXDqVpt+csXNaAF46S150lN8SgItvKN3naWXfKSanYLefzF9xZ2eVl7qgkv7Fkd8NgNI0PZFHQ==}
-    engines: {node: '>=6.0.0'}
-    dependencies:
-      postcss: 7.0.39
-    dev: true
-
-  /postcss-short-font-size/5.0.0:
-    resolution: {integrity: sha512-CaEzUc/YSOq2PDblqZuSxdecmCqN5HbxLLLu5h53GoKJpXPNxrk6R9cfBvB/cO1LQyXNFtzZuQwL/JglkuBy4A==}
-    engines: {node: '>=6.0.0'}
-    dependencies:
-      postcss: 7.0.39
-    dev: true
-
-  /postcss-short-overflow/1.0.0:
-    resolution: {integrity: sha512-nYFZGCt4+/x3kyQjgX3unxx7942sU/7ZI3JE8jHdgJZ/c/sAOrwWyjrNdrdckJzUj1xrCYcrp+vcrj2wspsCJA==}
-    engines: {node: '>=6.0.0'}
-    dependencies:
-      postcss: 7.0.39
-    dev: true
-
-  /postcss-short-position/4.0.1:
-    resolution: {integrity: sha512-/k2v8v+Wwrb+nIcXqOuD32y6Yss1lci1fq7FMzsJsu7nfWHf48mpgPR/afliGdZvrXRRB9IW2aJbwugoOCgDsw==}
-    engines: {node: '>=6.0.0'}
-    dependencies:
-      postcss: 7.0.39
-    dev: true
-
-  /postcss-short-size/4.0.0:
-    resolution: {integrity: sha512-/RRw2JFj+7xmX+GO5HIp9+sVNZTm+bXWKwHlxxXcxEJDPng/dNeWGXIdExbuknqgDeDX/lv5YfgjD2g5TUtUtA==}
-    engines: {node: '>=6.0.0'}
-    dependencies:
-      postcss: 7.0.39
-    dev: true
-
-  /postcss-short-spacing/4.0.0:
-    resolution: {integrity: sha512-ThWP8vse9jtT26+l8fqfCriPVR7QGYUX7gEXYNPJ2+smD4XHpMJAmbhqa8aKuYsCMhvzeC9ZxCsR/B+nXA7iEw==}
-    engines: {node: '>=6.0.0'}
-    dependencies:
-      postcss: 7.0.39
-    dev: true
-
-  /postcss-short/5.0.0:
-    resolution: {integrity: sha512-7VvAeY8Bm01cK+honNsQIisaJsUdhdNTPlYuo7iQq80Fbjl844pVNBXhjXjVeXi/+dKK5aRtCNKod7U0hSeTug==}
-    engines: {node: '>=6.0.0'}
-    dependencies:
-      postcss: 7.0.39
-      postcss-font-weights: 5.0.0
-      postcss-short-border: 4.0.0
-      postcss-short-border-radius: 3.0.0
-      postcss-short-color: 4.0.0
-      postcss-short-font-size: 5.0.0
-      postcss-short-overflow: 1.0.0
-      postcss-short-position: 4.0.1
-      postcss-short-size: 4.0.0
-      postcss-short-spacing: 4.0.0
-    dev: true
-
   /postcss-value-parser/4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
-    dev: true
-
-  /postcss/7.0.39:
-    resolution: {integrity: sha512-yioayjNbHn6z1/Bywyb2Y4s3yvDAeXGOyxqD+LnVOinq6Mdmd++SW2wUNVzavyyHxd6+DxzWGIuosg6P1Rj8uA==}
-    engines: {node: '>=6.0.0'}
-    dependencies:
-      picocolors: 0.2.1
-      source-map: 0.6.1
     dev: true
 
   /postcss/8.4.16:
@@ -3899,11 +3833,6 @@ packages:
   /source-map/0.5.7:
     resolution: {integrity: sha512-LbrmJOMUSdEVxIKvdcJzQC+nQhe8FUZQTXQy6+I75skNgn3OoQ0DZA8YnFa7gp8tqtL3KPf1kmo0R5DoApeSGQ==}
     engines: {node: '>=0.10.0'}
-
-  /source-map/0.6.1:
-    resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
-    engines: {node: '>=0.10.0'}
-    dev: true
 
   /source-map/0.7.4:
     resolution: {integrity: sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==}

@@ -1,3 +1,8 @@
+import rpImg from "./assets/img/14px-Specs-Card-Exp.png";
+import squadImg from "./assets/img/23px-Specs-Card-Activity.png";
+import geImg from "./assets/img/Specs-Card-Eagle.png";
+import slImg from "./assets/img/Specs-Card-Lion.png";
+
 export function VehiclePrice(props: {
   intname: string;
   prem: string | undefined;
@@ -47,10 +52,10 @@ export function VehiclePrice(props: {
               <a href="/Research_Points" title="Research Points">
                 <img
                   alt="Specs-Card-Exp.png"
-                  src="https://wiki.warthunder.com/images/thumb/4/4f/Specs-Card-Exp.png/14px-Specs-Card-Exp.png"
+                  src={rpImg}
                   width="14"
                   height="22"
-                  srcSet="/images/4/4f/Specs-Card-Exp.png 1.5x"
+                  srcSet="./images/4/4f/Specs-Card-Exp.png 1.5x"
                   data-file-width="16"
                   data-file-height="25"
                 />
@@ -64,7 +69,7 @@ export function VehiclePrice(props: {
               <a href="/Silver_Lions" title="Silver Lions">
                 <img
                   alt="Specs-Card-Lion.png"
-                  src="https://wiki.warthunder.com/images/c/c1/Specs-Card-Lion.png"
+                  src={slImg}
                   width="24"
                   height="24"
                   data-file-width="24"
@@ -87,7 +92,7 @@ export function VehiclePrice(props: {
               <a href="/Golden_Eagles" title="Golden Eagles">
                 <img
                   alt="Specs-Card-Eagle.png"
-                  src="https://wiki.warthunder.com/images/f/f6/Specs-Card-Eagle.png"
+                  src={geImg}
                   width="24"
                   height="24"
                   data-file-width="24"
@@ -122,10 +127,10 @@ export function VehiclePrice(props: {
                 <a href="/Research_Points" title="Research Points">
                   <img
                     alt="Specs-Card-Activity.png"
-                    src="https://wiki.warthunder.com/images/thumb/5/56/Specs-Card-Activity.png/23px-Specs-Card-Activity.png"
+                    src={squadImg}
                     width="23"
                     height="23"
-                    srcSet="/images/5/56/Specs-Card-Activity.png 1.5x"
+                    srcSet="./images/5/56/Specs-Card-Activity.png 1.5x"
                     data-file-width="25"
                     data-file-height="25"
                   />
@@ -139,7 +144,7 @@ export function VehiclePrice(props: {
                 <a href="/Silver_Lions" title="Silver Lions">
                   <img
                     alt="Specs-Card-Lion.png"
-                    src="https://wiki.warthunder.com/images/c/c1/Specs-Card-Lion.png"
+                    src={slImg}
                     width="24"
                     height="24"
                     data-file-width="24"
