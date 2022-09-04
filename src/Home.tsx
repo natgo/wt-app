@@ -20,5 +20,11 @@ export function Home(): JSX.Element {
     skinsSetValue(skins);
   });
 
-  return <img src={ayskari} alt="äyskäri" style={{ width: "100%", height: "100%", maxWidth: "initial" }} />;
+  return (
+    <img
+      src={ayskari}
+      alt="äyskäri"
+      style={{ width: "100%", height: "100%", maxWidth: "initial" }}
+    />
+  );
 }

@@ -1,4 +1,7 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
+
+import { Button, Menu } from "@mui/material";
 
 import { QueryVehicle } from "./Vehicle";
 import own_img from "./assets/img/Item_own.png";
@@ -14,8 +17,6 @@ import medium_tank from "./assets/img/def_medium_tank_radar.svg";
 import spaa from "./assets/img/def_spaa_radar.svg";
 import tank_destroyer from "./assets/img/def_tank_destroyer_radar.svg";
 import utility_helicopter from "./assets/img/def_utility_helicopter_radar.svg";
-import { useState } from "react";
-import { Button, Menu } from "@mui/material";
 
 export function ItemImg(props: { type: "own" | "prem" | "squad" }): JSX.Element {
   const { type } = props;
@@ -284,7 +285,9 @@ export function TreeFolder(props: { children: React.ReactElement[]; name: string
           vertical: "top",
           horizontal: "left",
         }}
-      >{children}</Menu>
+      >
+        {children}
+      </Menu>
       <div
         className="tree-group"
         aria-controls={open ? "demo-positioned-menu" : undefined}

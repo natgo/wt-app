@@ -16,9 +16,10 @@ import {
   Typography,
 } from "@mui/material";
 
+import axios from "axios";
+
 import { Corrected, Parsed, base64Image, brb, dialogue } from "./atom";
 import changeParsed from "./selectors";
-import axios from "axios";
 
 function Dropzone(): JSX.Element {
   const setCorrected = useSetRecoilState(Corrected);
@@ -50,7 +51,7 @@ function Dropzone(): JSX.Element {
               formData.append("OCREngine", "2");
               formData.append("apikey", "K83430880088957");
 
-              axios.post("https://api.ocr.space/parse/image",formData).then(async (msg) => {
+              axios.post("https://api.ocr.space/parse/image", formData).then(async (msg) => {
                 console.log(msg);
 
                 const aray: [] = msg.data.ParsedResults[0].ParsedText.split("\n");
