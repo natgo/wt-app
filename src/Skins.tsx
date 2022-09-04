@@ -3,9 +3,12 @@ import { useRecoilValue, useSetRecoilState } from "recoil";
 import { Tab, Tabs, Tooltip, TooltipProps, styled, tooltipClasses } from "@mui/material";
 
 import { TabPanel, TypeProp, TypeProps } from "./App";
+import { Historical } from "./Historical";
+import { OtherTab } from "./OtherTab";
 import { QueryVehicle } from "./Vehicle";
-import { SkinAtom, SkinCountryTab, SkinTypeTab } from "./atom";
-import { SkinsProp } from "./types";
+import { SkinCountryTab, SkinTypeTab } from "./atom";
+import { SkinsProp, Ungrouped } from "./types";
+import { capitailze } from "./utils/Capitalize";
 
 const BlackTooltip = styled(({ className, ...props }: TooltipProps) => (
   <Tooltip {...props} arrow classes={{ popper: className }} />
@@ -18,7 +21,7 @@ const BlackTooltip = styled(({ className, ...props }: TooltipProps) => (
   },
 }));
 
-function TypeTabs() {
+function SkinTypeTabs() {
   const value = useRecoilValue(SkinTypeTab);
   const setValue = useSetRecoilState(SkinTypeTab);
 
@@ -40,7 +43,41 @@ interface SinkProp extends TypeProp {
   historical: "historical" | "fictional";
 }
 
-function Skin(props: SinkProp): JSX.Element | null {
+function ToolTipText(value: Ungrouped) {
+  return (
+    <div>
+      <div className="intnames">
+        {value.intnames.map((value) => (
+          <div key={value}>{QueryVehicle(value, "intname")?.wikiname}</div>
+        ))}
+      </div>
+      <div>
+        {value.camo?.map((value) => (
+          <div key={value}>{capitailze(value)}</div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+interface ToolTipProp {
+  value: Ungrouped;
+}
+
+function ToolTip(props: ToolTipProp): JSX.Element {
+  const { value } = props;
+  const postRoot = "https://live.warthunder.com/post/";
+
+  return (
+    <BlackTooltip title={ToolTipText(value)} placement="left-start">
+      <a target="_blank" rel="noopener noreferrer" href={postRoot + value.post} className="vehicle">
+        <span style={{ backgroundColor: value.type ? "pink" : "auto" }}>{value.dislayname}</span>
+      </a>
+    </BlackTooltip>
+  );
+}
+
+export function CountrySkin(props: SinkProp): JSX.Element | null {
   const { type, value, mode, historical } = props;
   let vehicleclass: "ground" | "aircraft" = "aircraft";
   let group: "grouped" | "ungrouped" = "ungrouped";
@@ -67,42 +104,12 @@ function Skin(props: SinkProp): JSX.Element | null {
   if (mapping === undefined) {
     return null;
   }
-  const postRoot = "https://live.warthunder.com/post/";
 
   if (group === "ungrouped") {
     return (
       <div className="ungrouped">
         {value[historical]?.[type]?.[vehicleclass]?.ungrouped.map((value) => (
-          <BlackTooltip
-            key={value.post}
-            title={
-              <div>
-                <div className="intnames">
-                  {value.intnames.map((value) => (
-                    <div key={value}>{QueryVehicle(value, "intname")?.wikiname}</div>
-                  ))}
-                </div>
-                <div>
-                  {value.camo?.map((value) => (
-                    <div key={value}>{value[0].toUpperCase() + value.substring(1)}</div>
-                  ))}
-                </div>
-              </div>
-            }
-            placement="left-start"
-          >
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={postRoot + value.post}
-              key={value.post}
-              className="vehicle"
-            >
-              <span style={{ backgroundColor: value.type ? "pink" : "auto" }}>
-                {value.dislayname}
-              </span>
-            </a>
-          </BlackTooltip>
+          <ToolTip value={value} key={value.post} />
         ))}
       </div>
     );
@@ -111,37 +118,9 @@ function Skin(props: SinkProp): JSX.Element | null {
     for (const property in value[historical]?.[type]?.[vehicleclass]?.grouped) {
       nodes.push(
         <div key={property} className="group">
-          <div className="group-text">{property[0].toUpperCase() + property.substring(1)}</div>
+          <div className="group-text">{capitailze(property)}</div>
           {value[historical]?.[type]?.[vehicleclass]?.grouped[property].map((value) => (
-            <BlackTooltip
-              key={value.post}
-              title={
-                <div>
-                  <div className="intnames">
-                    {value.intnames.map((value) => (
-                      <div key={value}>{QueryVehicle(value, "intname")?.wikiname}</div>
-                    ))}
-                  </div>
-                  <div>
-                    {value.camo?.map((value) => (
-                      <div key={value}>{value[0].toUpperCase() + value.substring(1)}</div>
-                    ))}
-                  </div>
-                </div>
-              }
-              placement="left-start"
-            >
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={postRoot + value.post}
-                className="vehicle"
-              >
-                <span style={{ backgroundColor: value.type ? "pink" : "auto" }}>
-                  {value.dislayname}
-                </span>
-              </a>
-            </BlackTooltip>
+            <ToolTip value={value} key={value.post} />
           ))}
         </div>,
       );
@@ -150,49 +129,19 @@ function Skin(props: SinkProp): JSX.Element | null {
   }
 }
 
-function Historical(props: TypeProp): JSX.Element {
-  const { type } = props;
-  const value = useRecoilValue(SkinAtom);
-  return (
-    <div className="skincontainer">
-      <div className="skintext">{type} Historical Ground Vehicle skins</div>
-      <Skin value={value} historical="historical" type={type} mode={"ground-ungrouped"} />
-      <Skin value={value} historical="historical" type={type} mode={"ground-grouped"} />
-      <div className="skintext">{type} Historical Aircraft skins</div>
-      <Skin value={value} historical="historical" type={type} mode={"air-ungrouped"} />
-      <Skin value={value} historical="historical" type={type} mode={"air-grouped"} />
-    </div>
-  );
-}
-
-function Fictional(props: TypeProp): JSX.Element {
-  const { type } = props;
-  const value = useRecoilValue(SkinAtom);
-  return (
-    <div className="skincontainer">
-      <div className="skintext">{type} Fictional Ground Vehicle skins</div>
-      <Skin value={value} historical="fictional" type={type} mode={"ground-ungrouped"} />
-      <Skin value={value} historical="fictional" type={type} mode={"ground-grouped"} />
-      <div className="skintext">{type} Fictional Aircraft skins</div>
-      <Skin value={value} historical="fictional" type={type} mode={"air-ungrouped"} />
-      <Skin value={value} historical="fictional" type={type} mode={"air-grouped"} />
-    </div>
-  );
-}
-
-function CountryTabs(props: TypeProps): JSX.Element {
+function SkinCountryTabs(props: TypeProps): JSX.Element {
   const { type, index } = props;
   const typeValue = useRecoilValue(SkinTypeTab);
   const countryValue = useRecoilValue(SkinCountryTab);
 
   return (
     <TabPanel value={countryValue} index={index}>
-      <TypeTabs />
+      <SkinTypeTabs />
       <TabPanel value={typeValue} index={0}>
-        <Historical type={type} />
+        <Historical type={type} historical="historical" />
       </TabPanel>
       <TabPanel value={typeValue} index={1}>
-        <Fictional type={type} />
+        <Historical type={type} historical="fictional" />
       </TabPanel>
     </TabPanel>
   );
@@ -223,18 +172,20 @@ export function Skins(): JSX.Element {
         <Tab label="France" />
         <Tab label="Sweden" />
         <Tab label="Israel" disabled />
+        <Tab label="Other" />
       </Tabs>
 
-      <CountryTabs type={"USA"} index={0} />
-      <CountryTabs type={"Germany"} index={1} />
-      <CountryTabs type={"USSR"} index={2} />
-      <CountryTabs type={"Great Britain"} index={3} />
-      <CountryTabs type={"Japan"} index={4} />
-      <CountryTabs type={"China"} index={5} />
-      <CountryTabs type={"Italy"} index={6} />
-      <CountryTabs type={"France"} index={7} />
-      <CountryTabs type={"Sweden"} index={8} />
-      <CountryTabs type={"Israel"} index={9} />
+      <SkinCountryTabs type={"USA"} index={0} />
+      <SkinCountryTabs type={"Germany"} index={1} />
+      <SkinCountryTabs type={"USSR"} index={2} />
+      <SkinCountryTabs type={"Great Britain"} index={3} />
+      <SkinCountryTabs type={"Japan"} index={4} />
+      <SkinCountryTabs type={"China"} index={5} />
+      <SkinCountryTabs type={"Italy"} index={6} />
+      <SkinCountryTabs type={"France"} index={7} />
+      <SkinCountryTabs type={"Sweden"} index={8} />
+      <SkinCountryTabs type={"Israel"} index={9} />
+      <OtherTab />
     </div>
   );
 }

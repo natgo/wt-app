@@ -6,7 +6,7 @@ import { RecoilRoot } from "recoil";
 import RecoilNexus from "recoil-nexus";
 
 import App from "./App";
-import Dashboard from "./Dashboard";
+import Calculator from "./Calculator";
 import { Data } from "./Data";
 import { MiniDrawer } from "./Drawer";
 import { Home } from "./Home";
@@ -16,7 +16,7 @@ import "./index.css";
 
 const container = document.getElementById("root");
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-const root = createRoot(container!); // createRoot(container!) if you use TypeScript
+const root = createRoot(container!);
 root.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -28,7 +28,7 @@ root.render(
             <Route path="/wt/techtree/" element={<App />} />
             <Route path="/wt/data/" element={<Data />} />
             <Route path="/wt/techtree/:vehicleId" element={<Vehicle />} />
-            <Route path="/wt/calculator/" element={<Dashboard />} />
+            <Route path="/wt/calculator/" element={<Calculator />} />
             <Route path="/wt/skins/" element={<Skins />} />
           </Routes>
         </MiniDrawer>

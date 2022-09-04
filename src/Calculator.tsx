@@ -144,7 +144,7 @@ function Confidence() {
   }
 }
 
-export default function Dashboard() {
+export default function Calculator() {
   const open = useRecoilValue(dialogue);
   const setBRB = useSetRecoilState(brb);
   const setOpen = useSetRecoilState(dialogue);

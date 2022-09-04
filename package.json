@@ -1,7 +1,7 @@
 {
   "name": "wt-tech-tree",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "browserslist": "> 0.5% in FI and last 2 versions and supports es6-module",
   "scripts": {
     "dev": "vite",

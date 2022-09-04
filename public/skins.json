@@ -299,11 +299,6 @@
       "aircraft": {
         "ungrouped": [
           {
-            "intnames": ["i-15bis"],
-            "dislayname": "I-15bis",
-            "post": "694798"
-          },
-          {
             "intnames": ["lagg-3-35"],
             "dislayname": "LaGG-3-35",
             "post": "733114",
@@ -348,8 +343,13 @@
             },
             {
               "intnames": ["i-16_type27"],
-              "dislayname": "I-16 type 27",
+              "dislayname": "I-16 type 27 huono",
               "post": "330692"
+            },
+            {
+              "intnames": ["i-16_type27"],
+              "dislayname": "I-16 type 27",
+              "post": "114006"
             }
           ],
           "MiG-21": [
@@ -485,6 +485,11 @@
               "intnames": ["ussr_t_34_85_zis_53"],
               "dislayname": "T-34-85 Post-War",
               "post": "818139"
+            },
+            {
+              "intnames": ["ussr_t_34_85_zis_53"],
+              "dislayname": "T-34-85 Post-War tummempi",
+              "post": "269456"
             },
             {
               "intnames": ["ussr_t_34_85_zis_53"],
