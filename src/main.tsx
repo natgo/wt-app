@@ -5,13 +5,13 @@ import { RecoilRoot } from "recoil";
 
 import RecoilNexus from "recoil-nexus";
 
-import App from "./App";
-import Calculator from "./Calculator";
+import App from "./Techtree/Techtree";
+import Calculator from "./Calculator/Calculator";
 import { Data } from "./Data";
 import { MiniDrawer } from "./Drawer";
 import { Home } from "./Home";
-import { Skins } from "./Skins";
-import { Vehicle } from "./Vehicle";
+import { Skins } from "./Skins/Skins";
+import { Vehicle } from "./Techtree/Vehicle";
 import "./index.css";
 
 const container = document.getElementById("root");

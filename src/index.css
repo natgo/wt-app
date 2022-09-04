@@ -50,6 +50,7 @@
 
 #groups {
   display: grid;
+  grid-column: 2/3;
 }
 
 .group-text {

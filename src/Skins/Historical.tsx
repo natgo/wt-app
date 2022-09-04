@@ -1,0 +1,30 @@
+import { useRecoilValue } from "recoil";
+
+import { SkinAtom } from "../atom";
+import { capitailze } from "../utils/Capitalize";
+
+import { CountrySkin } from "./CountrySkin";
+import { HistoricalProp } from "./types";
+
+export function Historical(props: HistoricalProp): JSX.Element {
+  const { type, historical } = props;
+  const value = useRecoilValue(SkinAtom);
+  return (
+    <div className="skincontainer">
+      {value[historical]?.[type]?.ground ? (
+        <div className="skintext">
+          {type} {capitailze(historical)} Ground Vehicle skins
+        </div>
+      ) : null}
+      <CountrySkin value={value} historical={historical} type={type} mode={"ground-ungrouped"} />
+      <CountrySkin value={value} historical={historical} type={type} mode={"ground-grouped"} />
+      {value[historical]?.[type]?.aircraft ? (
+        <div className="skintext">
+          {type} {capitailze(historical)} Aircraft skins
+        </div>
+      ) : null}
+      <CountrySkin value={value} historical={historical} type={type} mode={"air-ungrouped"} />
+      <CountrySkin value={value} historical={historical} type={type} mode={"air-grouped"} />
+    </div>
+  );
+}

@@ -10,6 +10,7 @@
     "^@mui/(.*)$",
     "<THIRD_PARTY_MODULES>",
     "^@/(.*)$",
+    "^../",
     "^[./]"
   ],
   "importOrderGroupNamespaceSpecifiers": true,

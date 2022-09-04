@@ -110,3 +110,17 @@ export interface Historical {
   Sweden: Countries;
   Israel?: Countries;
 }
+
+export interface TypeProp {
+  type:
+    | "USA"
+    | "Germany"
+    | "USSR"
+    | "Great Britain"
+    | "Japan"
+    | "China"
+    | "Italy"
+    | "France"
+    | "Sweden"
+    | "Israel";
+}

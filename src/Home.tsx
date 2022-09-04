@@ -2,7 +2,7 @@ import { useSetRecoilState } from "recoil";
 
 import axios from "axios";
 
-import ayskari from "./assets/img/as.png";
+import ayskari from "./assets/img/as.webp";
 import { Final, SkinAtom } from "./atom";
 import { FinalProp, SkinsProp } from "./types";
 
