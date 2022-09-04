@@ -69,6 +69,7 @@ export interface Ungrouped {
   post: string;
   camo?: Array<Camo>;
   type?: Type;
+  repack?:boolean;
 }
 
 export enum Type {

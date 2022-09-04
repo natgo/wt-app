@@ -157,6 +157,15 @@ export function OtherTab(): JSX.Element {
             i15bis (myös vituiks)
           </a>
         </div>
+        <div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://live.warthunder.com/post/139897/en/"
+          >
+            ju88a4 (ei toimi)
+          </a>
+        </div>
       </div>
     </TabPanel>
   );

@@ -1,5 +1,3 @@
-import $ from "jquery";
-
 import { BritainAircraft } from "./BritainAircraft";
 import { BritainGround } from "./BritainGround";
 import { BritainHeli } from "./BritainHeli";
@@ -30,12 +28,6 @@ import { USAHeli } from "./USAHeli";
 import { USSRAircraft } from "./USSRAircraft";
 import { USSRGround } from "./USSRGround";
 import { USSRHeli } from "./USSRHeli";
-
-export function openfolder(event: React.MouseEvent<HTMLDivElement, MouseEvent>) {
-  console.log("click");
-  $(".tree-group-collapse").slideUp();
-  $(event.currentTarget).siblings(".tree-group-collapse").slideToggle("slow");
-}
 
 export {
   BritainAircraft,

@@ -49,14 +49,16 @@
           ],
           "P-40": [
             {
-              "intnames": ["p-40e"],
-              "dislayname": "P-40E-1",
-              "post": "986993"
+              "intnames": ["p-40e","p-40e_china","p-40e_td","p-40e_ussr"],
+              "dislayname": "P-40E-1 [Repack]",
+              "post": "FAF P-40E [Repack].zip",
+              "repack": true
             },
             {
-              "intnames": ["p-40e"],
-              "dislayname": "P-40E-1",
-              "post": "828599"
+              "intnames": ["p-40e","p-40e_china","p-40e_td","p-40e_ussr"],
+              "dislayname": "P-40E-1 [Repack]",
+              "post": "Finnish+P40 [Repack].zip",
+              "repack":true
             }
           ]
         }

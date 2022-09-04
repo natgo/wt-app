@@ -738,15 +738,10 @@ img.tree-item-js {
   animation: scroll 2s infinite alternate linear;
 }
 
-.tree-group-collapse {
+#tree-group-collapse .MuiPaper-root {
   width: 160px;
   background: #405561;
-  margin: auto;
-  z-index: 100;
-  padding: 4%;
-  border: solid 1px;
-  left: 0;
-  right: 0;
+  padding: 5px;
   color: #242e33;
 }
 

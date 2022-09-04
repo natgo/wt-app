@@ -2,8 +2,6 @@ import { useRecoilValue, useSetRecoilState } from "recoil";
 
 import { Box, Tab, Tabs } from "@mui/material";
 
-import $ from "jquery";
-
 import * as tt from "./tt";
 import "./App2.css";
 import "./App3.css";
@@ -63,16 +61,6 @@ export interface TypeProp {
 export interface TypeProps extends TypeProp {
   index: number;
 }
-
-function folder(): void {
-  $(function () {
-    $(document).on("click", "body", function () {
-      const tagret = event?.target as HTMLElement;
-      if (tagret.className != "tree-group") $(".tree-group-collapse").slideUp();
-    });
-  });
-}
-folder();
 
 function Aircraft(props: TypeProp): JSX.Element {
   const { type } = props;

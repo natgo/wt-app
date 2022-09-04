@@ -66,11 +66,10 @@ interface ToolTipProp {
 
 function ToolTip(props: ToolTipProp): JSX.Element {
   const { value } = props;
-  const postRoot = "https://live.warthunder.com/post/";
 
   return (
     <BlackTooltip title={ToolTipText(value)} placement="left-start">
-      <a target="_blank" rel="noopener noreferrer" href={postRoot + value.post} className="vehicle">
+      <a target="_blank" rel="noopener noreferrer" href={value.repack? "https://natgo.xyz/files/wt/" + value.post : "https://live.warthunder.com/post/" + value.post} className="vehicle">
         <span style={{ backgroundColor: value.type ? "pink" : "auto" }}>{value.dislayname}</span>
       </a>
     </BlackTooltip>

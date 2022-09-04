@@ -16,10 +16,9 @@ import {
   Typography,
 } from "@mui/material";
 
-import { ajax } from "jquery";
-
 import { Corrected, Parsed, base64Image, brb, dialogue } from "./atom";
 import changeParsed from "./selectors";
+import axios from "axios";
 
 function Dropzone(): JSX.Element {
   const setCorrected = useSetRecoilState(Corrected);
@@ -30,7 +29,7 @@ function Dropzone(): JSX.Element {
   const onDrop = React.useCallback(
     (acceptedFiles: Blob[]) => {
       console.log(acceptedFiles);
-      acceptedFiles.forEach((file: Blob) => {
+      acceptedFiles.forEach((file) => {
         const reader = new FileReader();
 
         reader.onabort = () => console.log("file reading was aborted");
@@ -51,18 +50,10 @@ function Dropzone(): JSX.Element {
               formData.append("OCREngine", "2");
               formData.append("apikey", "K83430880088957");
 
-              ajax({
-                url: "https://api.ocr.space/parse/image",
-                data: formData,
-                dataType: "json",
-                cache: false,
-                contentType: false,
-                processData: false,
-                type: "POST",
-              }).done(async (msg) => {
+              axios.post("https://api.ocr.space/parse/image",formData).then(async (msg) => {
                 console.log(msg);
 
-                const aray: [] = msg.ParsedResults[0].ParsedText.split("\n");
+                const aray: [] = msg.data.ParsedResults[0].ParsedText.split("\n");
                 const sakke: { name: string; id: number }[] = [];
                 aray.forEach((element, index) => {
                   const obj = {
