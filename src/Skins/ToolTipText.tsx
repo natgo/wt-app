@@ -1,4 +1,4 @@
-import { QueryVehicle } from "../Techtree/Vehicle";
+import { QueryVehicle } from "../QueryVehicle";
 import { Ungrouped } from "../types";
 import { capitailze } from "../utils/Capitalize";
 

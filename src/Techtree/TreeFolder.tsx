@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu } from "@mui/material";
-import { QueryVehicle } from "./Vehicle";
+import { QueryVehicle } from "../QueryVehicle";
 import assault from "./assets/img/def_assault_radar.svg";
 import attack_helicopter from "./assets/img/def_attack_helicopter_radar.svg";
 import bomber from "./assets/img/def_bomber_radar.svg";
