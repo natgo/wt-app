@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
 
+import { QueryVehicle } from "../QueryVehicle";
+
 import "./App2.css";
 import { Mobility, SpecsCard, Survivability } from "./VehicleItem";
-import { GroundProps } from "../types";
-import { QueryVehicle } from "../QueryVehicle";
 
 export function Vehicle(): JSX.Element {
   const params = useParams();

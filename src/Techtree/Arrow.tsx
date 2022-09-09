@@ -1,5 +1,4 @@
-
-export function Arrow(props: { type: string; }): JSX.Element {
+export function Arrow(props: { type: string }): JSX.Element {
   const { type } = props;
   if (type === "small") {
     return (

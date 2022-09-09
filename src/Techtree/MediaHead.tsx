@@ -1,5 +1,3 @@
-
-
 export function MediaHead(): JSX.Element {
   return (
     <h2>

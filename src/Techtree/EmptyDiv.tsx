@@ -1,4 +1,3 @@
-
 export function EmptyDiv(): JSX.Element {
   return (
     <div
@@ -7,6 +6,7 @@ export function EmptyDiv(): JSX.Element {
         width: 160,
         height: 30,
         margin: "auto",
-      }} />
+      }}
+    />
   );
 }

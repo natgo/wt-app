@@ -1,5 +1,4 @@
-
-export function Research(props: { research: number; premium: number; }): JSX.Element {
+export function Research(props: { research: number; premium: number }): JSX.Element {
   const { research, premium } = props;
   return (
     <tr>

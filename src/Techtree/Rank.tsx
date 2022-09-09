@@ -1,5 +1,4 @@
-
-export function Rank(props: { rank: "I" | "II" | "III" | "IV" | "V" | "VI" | "VII"; }): JSX.Element {
+export function Rank(props: { rank: "I" | "II" | "III" | "IV" | "V" | "VI" | "VII" }): JSX.Element {
   const { rank } = props;
   return (
     <th

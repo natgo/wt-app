@@ -1,11 +1,11 @@
 import { useRecoilValue } from "recoil";
+
 import { Final } from "./atom";
 import { FinalProps } from "./types";
 
-
 export function QueryVehicle(
   vehicle: string,
-  type: "intname" | "wikiname"
+  type: "intname" | "wikiname",
 ): FinalProps | undefined {
   const FinalValue = useRecoilValue(Final);
   console.log(vehicle);

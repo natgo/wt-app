@@ -1,6 +1,9 @@
 import { useState } from "react";
+
 import { Menu } from "@mui/material";
+
 import { QueryVehicle } from "../QueryVehicle";
+
 import assault from "./assets/img/def_assault_radar.svg";
 import attack_helicopter from "./assets/img/def_attack_helicopter_radar.svg";
 import bomber from "./assets/img/def_bomber_radar.svg";
@@ -12,8 +15,11 @@ import spaa from "./assets/img/def_spaa_radar.svg";
 import tank_destroyer from "./assets/img/def_tank_destroyer_radar.svg";
 import utility_helicopter from "./assets/img/def_utility_helicopter_radar.svg";
 
-
-export function TreeFolder(props: { children: React.ReactElement[]; name: string; img: string; }): JSX.Element {
+export function TreeFolder(props: {
+  children: React.ReactElement[];
+  name: string;
+  img: string;
+}): JSX.Element {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
   const handleClick = (event: React.MouseEvent<HTMLElement>) => {

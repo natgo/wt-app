@@ -2,11 +2,12 @@ import { useRecoilValue, useSetRecoilState } from "recoil";
 
 import { Box, Tab, Tabs } from "@mui/material";
 
+import { CountryTab, TypeTab } from "../atom";
+import { TypeProp } from "../types";
+
 import * as tt from "./tt";
 import "./App2.css";
 import "./App3.css";
-import { CountryTab, TypeTab } from "../atom";
-import { TypeProp } from "../types";
 
 export interface TabPanelProps {
   children?: React.ReactNode;

@@ -1,10 +1,10 @@
-import { MediaHead } from "../MediaHead";
-import { TreeFolder } from "../TreeFolder";
-import { EmptyDiv } from "../EmptyDiv";
 import { Arrow } from "../Arrow";
-import { Research } from "../Research";
+import { EmptyDiv } from "../EmptyDiv";
+import { MediaHead } from "../MediaHead";
 import { Rank } from "../Rank";
+import { Research } from "../Research";
 import { TechTreeItem } from "../TechTreeItem";
+import { TreeFolder } from "../TreeFolder";
 
 export function SwedenAircraft() {
   return (
