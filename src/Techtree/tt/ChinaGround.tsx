@@ -651,6 +651,15 @@ export function ChinaGround() {
                 />
                 <Arrow type="small" />
                 <TechTreeItem
+                  link="/AFT09"
+                  title="AFT09"
+                  item_type="own"
+                  text="AFT09"
+                  intname="cn_hj_9"
+                  type="ground"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
                   link="/PTZ89"
                   title="PTZ89"
                   item_type="own"
@@ -660,10 +669,6 @@ export function ChinaGround() {
                 />
                 <div className="tree-arrow">
                   <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
                   <br />
                   <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />

@@ -275,12 +275,17 @@ export function BritainGround() {
                   intname="uk_armored_car_mk_2_aa"
                   type="ground"
                 />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/Crusader_AA_Mk_I"
+                  title="Crusader AA Mk I"
+                  item_type="own"
+                  text="Crusader AA Mk I"
+                  intname="uk_crusader_aa_mk_1"
+                  type="ground"
+                />
                 <div className="tree-arrow">
                   <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
                   <br />
                   <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
@@ -460,15 +465,6 @@ export function BritainGround() {
               </td>
               <td>
                 <TechTreeItem
-                  link="/Crusader_AA_Mk_I"
-                  title="Crusader AA Mk I"
-                  item_type="own"
-                  text="Crusader AA Mk I"
-                  intname="uk_crusader_aa_mk_1"
-                  type="ground"
-                />
-                <Arrow type="small" />
-                <TechTreeItem
                   link="/Crusader_AA_Mk_II"
                   title="Crusader AA Mk II"
                   item_type="own"
@@ -485,7 +481,18 @@ export function BritainGround() {
                   intname="uk_ystervark_spaa"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <div className="tree-arrow">
+                  <img
+                    src="./images/Arrow_tail.png"
+                    alt="Arrow_tail.png"
+                  /><br /><img
+                    src="./images/Arrow_center.png"
+                    alt="Arrow_center.png"
+                  /><br /><img
+                    src="./images/Arrow_head.png"
+                    alt="Arrow_head.png"
+                  />
+                </div>
               </td>
               <td>
                 <TechTreeItem
@@ -654,14 +661,20 @@ export function BritainGround() {
                 <Arrow type="small" />
               </td>
               <td>
+                <TechTreeItem
+                  link="/Skink"
+                  title="Skink"
+                  item_type="own"
+                  text="Skink"
+                  intname="uk_skink_aa"
+                  type="ground"
+                />
                 <div className="tree-arrow">
                   <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
                   <br />
                   <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
                   <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
                   <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />

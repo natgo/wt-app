@@ -111,29 +111,43 @@ export function IsraelGround() {
               <Rank rank="V" />
               <td>
                 <TechTreeItem
-                  link="/Magach_6"
-                  title="Magach 6"
+                  link="/Magach_3"
+                  title="Magach 3"
                   item_type="own"
-                  text="Magach 6"
-                  intname="il_magach_6"
+                  text="Magach 3"
+                  intname="il_magach_3_idf"
                   type="ground"
                 />
                 <Arrow type="small" />
+                <TreeFolder name="Magach 6/6A" img="il_magach_6_6a_group">
+                  <TechTreeItem
+                    link="/Magach_6"
+                    title="Magach 6"
+                    item_type="own"
+                    text="Magach 6"
+                    intname="il_magach_6"
+                    type="ground"
+                  />
+                  <Arrow type="small" />
+                  <TechTreeItem
+                    link="/Magach_6A"
+                    title="Magach 6A"
+                    item_type="own"
+                    text="Magach 6A"
+                    intname="il_magach_6a"
+                    type="ground"
+                  />
+                </TreeFolder>
+                <Arrow type="small" />
                 <TechTreeItem
-                  link="/Magach_6A"
-                  title="Magach 6A"
+                  link="/Magach_5"
+                  title="Magach 5"
                   item_type="own"
-                  text="Magach 6A"
-                  intname="il_magach_6a"
+                  text="Magach 5"
+                  intname="il_magach_5"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow type="small" />
               </td>
               <td>
                 <TechTreeItem
@@ -187,10 +201,10 @@ export function IsraelGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
-                  link="/Magach_3"
-                  title="Magach 3"
+                  link="/Magach_3_(ERA)"
+                  title="Magach 3 (ERA)"
                   item_type="prem"
-                  text="Magach 3"
+                  text="Magach 3 (ERA)"
                   intname="il_magach_3"
                   type="ground"
                 />
@@ -202,11 +216,38 @@ export function IsraelGround() {
               <Rank rank="VI" />
               <td>
                 <TechTreeItem
+                  link="/Magach_6R"
+                  title="Magach 6R"
+                  item_type="own"
+                  text="Magach 6R"
+                  intname="il_magach_6r"
+                  type="ground"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
                   link="/Magach_6B"
                   title="Magach 6B"
                   item_type="own"
                   text="Magach 6B"
                   intname="il_magach_6b"
+                  type="ground"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/Magach_6M"
+                  title="Magach 6M"
+                  item_type="own"
+                  text="Magach 6M"
+                  intname="il_magach_6m"
+                  type="ground"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/Magach_6C"
+                  title="Magach 6C"
+                  item_type="own"
+                  text="Magach 6C"
+                  intname="il_magach_6c"
                   type="ground"
                 />
                 <Arrow type="small" />
@@ -253,6 +294,15 @@ export function IsraelGround() {
                   item_type="own"
                   text="Merkava Mk.3B"
                   intname="il_merkava_mk_3b"
+                  type="ground"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/Merkava_Mk.3C"
+                  title="Merkava Mk.3C"
+                  item_type="own"
+                  text="Merkava Mk.3C"
+                  intname="il_merkava_mk_3c"
                   type="ground"
                 />
                 <Arrow type="small" />

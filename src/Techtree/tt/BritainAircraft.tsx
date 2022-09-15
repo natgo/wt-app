@@ -1431,7 +1431,16 @@ export function BritainAircraft() {
                   intname="jaguar_gr1a"
                   type="aircraft"
                 />
-                <EmptyDiv />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/Harrier_GR.7"
+                  title="Harrier GR.7"
+                  item_type="own"
+                  text="Harrier GR.7"
+                  intname="harrier_gr7"
+                  type="aircraft"
+                />
+                <EmptyDiv/>
               </td>
               <td>
                 <EmptyDiv />

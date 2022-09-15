@@ -1647,6 +1647,18 @@ export function USSRAircraft() {
                   intname="il_28sh"
                   type="aircraft"
                 />
+                <div className="tree-arrow">
+                  <img
+                    src="./images/Arrow_tail.png"
+                    alt="Arrow_tail.png"
+                  /><br /><img
+                    src="./images/Arrow_center.png"
+                    alt="Arrow_center.png"
+                  /><br /><img
+                    src="./images/Arrow_head.png"
+                    alt="Arrow_head.png"
+                  />
+                </div>
               </td>
               <td>
                 <TechTreeItem
@@ -1754,7 +1766,18 @@ export function USSRAircraft() {
                   intname="mig-21_f13"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <div className="tree-arrow">
+                  <img
+                    src="./images/Arrow_tail.png"
+                    alt="Arrow_tail.png"
+                  /><br /><img
+                    src="./images/Arrow_center.png"
+                    alt="Arrow_center.png"
+                  /><br /><img
+                    src="./images/Arrow_head.png"
+                    alt="Arrow_head.png"
+                  />
+                </div>
               </td>
               <td>
                 <TechTreeItem
@@ -1774,9 +1797,29 @@ export function USSRAircraft() {
                   intname="su-7bkl"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <div className="tree-arrow">
+                  <img
+                    src="./images/Arrow_tail.png"
+                    alt="Arrow_tail.png"
+                  /><br /><img
+                    src="./images/Arrow_center.png"
+                    alt="Arrow_center.png"
+                  /><br /><img
+                    src="./images/Arrow_head.png"
+                    alt="Arrow_head.png"
+                  />
+                </div>
               </td>
-              <td />
+              <td>
+                <TechTreeItem
+                  link="/Su-25"
+                  title="Su-25"
+                  item_type="own"
+                  text="Su-25"
+                  intname="su_25"
+                  type="aircraft"
+                />
+              </td>
               <td>
                 <TechTreeItem
                   link="/Yak-28B"
@@ -1787,11 +1830,22 @@ export function USSRAircraft() {
                   type="aircraft"
                 />
                 <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
+                  <img
+                    src="./images/Arrow_tail.png"
+                    alt="Arrow_tail.png"
+                  /><br /><img
+                    src="./images/Arrow_center.png"
+                    alt="Arrow_center.png"
+                  /><br /><img
+                    src="./images/Arrow_center_small.png"
+                    alt="Arrow_center_small.png"
+                  /><br /><img
+                    src="./images/Arrow_center.png"
+                    alt="Arrow_center.png"
+                  /><br /><img
+                    src="./images/Arrow_head.png"
+                    alt="Arrow_head.png"
+                  />
                 </div>
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
@@ -1813,6 +1867,14 @@ export function USSRAircraft() {
                   type="aircraft"
                 />
                 <EmptyDiv />
+                <TechTreeItem
+                  link="/Su-25K"
+                  title="Su-25K"
+                  item_type="prem"
+                  text="Su-25K"
+                  intname="su_25k"
+                  type="aircraft"
+                />
               </td>
               <td>
                 <TechTreeItem

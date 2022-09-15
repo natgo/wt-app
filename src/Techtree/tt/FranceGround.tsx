@@ -374,13 +374,16 @@ export function FranceGround() {
                   intname="fr_arl_44"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow type="small"/>
+                <TechTreeItem
+                  link="/M36B2_(France)"
+                  title="M36B2(France)"
+                  item_type="own"
+                  text="▄M36B2"
+                  intname="fr_m36b2_cefeo"
+                  type="ground"
+                />
+                <Arrow type="small"/>
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -467,10 +470,10 @@ export function FranceGround() {
                 />
                 <Arrow type="small" />
                 <TechTreeItem
-                  link="/AMX-50"
-                  title="AMX-50"
+                  link="/AMX-50_(TOA100)"
+                  title="AMX-50 (TOA100)"
                   item_type="own"
-                  text="AMX-50"
+                  text="AMX-50 (TOA100)"
                   intname="fr_amx_50"
                   type="ground"
                 />
@@ -840,25 +843,13 @@ export function FranceGround() {
         <a href="https://yewtu.be/rg_wXlgm-ZM">
           <b>Climbing the ranks with French tanks</b> - <i>War Thunder Official Channel</i>
         </a>
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/Ue0YqmjtEPo?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>Obtaining «secrit» documents in Saumur (How we prepared for the French)</b> -
-            <i>War Thunder Official Channel</i>
-          </div>
-        </div>
+        <a href="https://yewtu.be/Ue0YqmjtEPo">
+          <b>Obtaining «secrit» documents in Saumur (How we prepared for the French)</b> - <i>War Thunder Official Channel</i>
+        </a>
+        <a href="https://yewtu.be/WE6zWmBlfSk">
+          <b>The Shooting Range #318</b> - <i>Pages of History</i> section at 03:35 discusses early
+          WW2 French tanks.
+        </a>
       </div>
     </div>
   );

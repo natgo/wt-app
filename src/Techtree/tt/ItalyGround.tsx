@@ -774,6 +774,15 @@ export function ItalyGround() {
                   intname="it_of_40_mtca"
                   type="ground"
                 />
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/VRCC"
+                  title="VRCC"
+                  item_type="prem"
+                  text="VRCC"
+                  intname="it_vrcc_centauro"
+                  type="ground"
+                />
               </td>
               <td />
             </tr>

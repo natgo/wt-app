@@ -744,6 +744,15 @@ export function ItalyAircraft() {
                 />
                 <Arrow type="small" />
                 <TechTreeItem
+                  link="/G.91_Y"
+                  title="G.91 Y"
+                  item_type="own"
+                  text="G.91 Y"
+                  intname="fiat_g91_y"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
                   link="/G.91_YS"
                   title="G.91 YS"
                   item_type="own"

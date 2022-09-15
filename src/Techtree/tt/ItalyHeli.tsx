@@ -70,7 +70,18 @@ export function ItalyHeli() {
                     </tr>
                     <tr>
                       <td>
-                        <Arrow type="small" />
+                        <div className="tree-arrow">
+                          <img
+                            src="./images/Arrow_tail.png"
+                            alt="Arrow_tail.png"
+                          /><br /><img
+                            src="./images/Arrow_center.png"
+                            alt="Arrow_center.png"
+                          /><br /><img
+                            src="./images/Arrow_head.png"
+                            alt="Arrow_head.png"
+                          />
+                        </div>
                       </td>
                     </tr>
                   </tbody>
@@ -83,6 +94,15 @@ export function ItalyHeli() {
                   item_type="prem"
                   text="A-129 International (p)"
                   intname="a_129_a"
+                  type="helicopter"
+                />
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/T129"
+                  title="T129"
+                  item_type="prem"
+                  text="T129"
+                  intname="t_129_atak"
                   type="helicopter"
                 />
               </td>

@@ -676,10 +676,16 @@ export function JapanGround() {
                 <Arrow type="small" />
               </td>
               <td>
+                <TechTreeItem
+                  link="/Type_16_(P)"
+                  title="Type_16 (P)"
+                  item_type="own"
+                  text="Type_16 (P)"
+                  intname="jp_type_16_mcv_prot"
+                  type="ground"
+                />
                 <div className="tree-arrow">
                   <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
                   <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />

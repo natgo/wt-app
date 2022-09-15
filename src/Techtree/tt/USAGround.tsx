@@ -710,12 +710,17 @@ export function USAGround() {
                   intname="us_m36"
                   type="ground"
                 />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/M36B2"
+                  title="M36B2"
+                  item_type="own"
+                  text="M36B2"
+                  intname="us_m36b2"
+                  type="ground"
+                />
                 <div className="tree-arrow">
                   <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
                   <br />
                   <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
@@ -951,10 +956,10 @@ export function USAGround() {
               </td>
               <td>
                 <TechTreeItem
-                  link="/Magach_3_(USA)"
-                  title="Magach 3 (USA)"
+                  link="/Magach_3_(ERA)_(USA)"
+                  title="Magach 3 (ERA) (USA)"
                   item_type="prem"
-                  text="▃Magach 3"
+                  text="▃Magach 3 (ERA)"
                   intname="us_magach_3"
                   type="ground"
                 />

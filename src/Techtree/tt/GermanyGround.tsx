@@ -630,6 +630,15 @@ export function GermanyGround() {
               </td>
               <td>
                 <TechTreeItem
+                  link="/VK_3002_(M)"
+                  title="VK 3002 (M)"
+                  item_type="own"
+                  text="VK 3002 (M)"
+                  intname="germ_vk_3002m"
+                  type="ground"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
                   link="/Panther_D"
                   title="Panther D"
                   item_type="own"
@@ -639,10 +648,6 @@ export function GermanyGround() {
                 />
                 <div className="tree-arrow">
                   <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
                   <br />
                   <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
@@ -1626,6 +1631,9 @@ export function GermanyGround() {
       </div>
       <MediaHead />
       <div className="video_gallery">
+        <a href="https://yewtu.be/CBAvompXsWQ">
+          <b>The Shooting Range #319</b> - <i>Pages of History</i> section at 03:24 discusses German heavy tank building.
+        </a>
         <a href="https://yewtu.be/zSQjqu6dcg8">
           <b>Climbing the ranks with German tanks</b> - <i>War Thunder Official Channel</i>
         </a>

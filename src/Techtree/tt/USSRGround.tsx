@@ -827,12 +827,17 @@ export function USSRGround() {
                   intname="ussr_zis_43"
                   type="ground"
                 />
+                <Arrow type="small"/>
+                <TechTreeItem
+                  link="/ZSU-37"
+                  title="ZSU-37"
+                  item_type="own"
+                  text="ZSU-37"
+                  intname="ussr_zsu_37"
+                  type="ground"
+                />
                 <div className="tree-arrow">
                   <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
                   <br />
                   <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
@@ -1117,15 +1122,6 @@ export function USSRGround() {
               </td>
               <td>
                 <TechTreeItem
-                  link="/ZSU-37"
-                  title="ZSU-37"
-                  item_type="own"
-                  text="ZSU-37"
-                  intname="ussr_zsu_37"
-                  type="ground"
-                />
-                <Arrow type="small" />
-                <TechTreeItem
                   link="/BTR-ZD"
                   title="BTR-ZD"
                   item_type="own"
@@ -1135,6 +1131,10 @@ export function USSRGround() {
                 />
                 <div className="tree-arrow">
                   <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
+                  <br />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
+                  <br />
+                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
                   <br />
                   <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
@@ -1754,7 +1754,14 @@ export function USSRGround() {
                 <EmptyDiv />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
-                <EmptyDiv />
+                <TechTreeItem
+                  link="/T-80UK"
+                  title="T-80UK"
+                  item_type="squad"
+                  text="T-80UK"
+                  intname="ussr_t_80uk"
+                  type="ground"
+                />
               </td>
               <td>
                 <EmptyDiv />

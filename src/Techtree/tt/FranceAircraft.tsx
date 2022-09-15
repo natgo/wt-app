@@ -659,13 +659,16 @@ export function FranceAircraft() {
                   intname="f-84f_france"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="//S.O.4050_Vautour_IIN_(late)"
+                  title="S.O.4050 Vautour IIN (late)"
+                  item_type="own"
+                  text="S.O.4050 Vautour IIN (late)"
+                  intname="so_4050_vautour_2n_late"
+                  type="aircraft"
+                />
+                <Arrow type="small"/>
               </td>
               <td>
                 <TechTreeItem
@@ -843,6 +846,15 @@ export function FranceAircraft() {
                   item_type="own"
                   text="Mirage F1C"
                   intname="mirage_f1c"
+                  type="aircraft"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
+                  link="/Mirage_2000C-S5"
+                  title="Mirage 2000C-S5"
+                  item_type="own"
+                  text="Mirage 2000C-S5"
+                  intname="mirage_2000c_s5"
                   type="aircraft"
                 />
                 <EmptyDiv />

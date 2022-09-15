@@ -87,7 +87,18 @@ export function BritainHeli() {
                     </tr>
                     <tr>
                       <td>
-                        <Arrow type="small" />
+                        <div className="tree-arrow">
+                          <img
+                            src="./images/Arrow_tail.png"
+                            alt="Arrow_tail.png"
+                          /><br /><img
+                            src="./images/Arrow_center.png"
+                            alt="Arrow_center.png"
+                          /><br /><img
+                            src="./images/Arrow_head.png"
+                            alt="Arrow_head.png"
+                          />
+                        </div>
                       </td>
                     </tr>
                   </tbody>
@@ -100,6 +111,15 @@ export function BritainHeli() {
                   item_type="prem"
                   text="G-LYNX"
                   intname="g_lynx"
+                  type="helicopter"
+                />
+                <EmptyDiv/>
+                <TechTreeItem
+                  link="/Rooivalk_Mk1F_CSH"
+                  title="Rooivalk Mk1F CSH"
+                  item_type="prem"
+                  text="Rooivalk Mk1F CSH"
+                  intname="ah_2_rooivalk"
                   type="helicopter"
                 />
               </td>
@@ -124,9 +144,7 @@ export function BritainHeli() {
                     </tr>
                   </tbody>
                 </table>
-                <p>
-                  <br />
-                </p>
+                <EmptyDiv/>
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }} />
               <td />

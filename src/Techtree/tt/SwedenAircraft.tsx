@@ -46,10 +46,10 @@ export function SwedenAircraft() {
               </td>
               <td>
                 <TechTreeItem
-                  link="/B17BS"
-                  title="B17BS"
+                  link="/S17BS"
+                  title="S17BS"
                   item_type="own"
-                  text="B17BS"
+                  text="S17BS"
                   intname="saab_b17bs"
                   type="aircraft"
                 />
@@ -101,6 +101,14 @@ export function SwedenAircraft() {
                   type="aircraft"
                 />
                 <EmptyDiv />
+                <TechTreeItem
+                  link="/Ar_196_A-5_(Sweden)"
+                  title="Ar 196 A-5 (Sweden)"
+                  item_type="prem"
+                  text="▄Ar 196 A-5"
+                  intname="arado-196a-5"
+                  type="aircraft"
+                />
               </td>
               <td>
                 <EmptyDiv />

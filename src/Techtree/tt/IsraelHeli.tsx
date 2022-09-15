@@ -135,7 +135,7 @@ export function IsraelHeli() {
                           link="/AH-64A_(Israel)"
                           title="AH-64A (Israel)"
                           item_type="own"
-                          text="AH-64A Peten"
+                          text="AH-64A"
                           intname="ah_64a_iaf"
                           type="helicopter"
                         />
@@ -155,10 +155,10 @@ export function IsraelHeli() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
-                  link="/AH-64A_Peten_(Israel)"
-                  title="AH-64A Peten (Israel)"
+                  link="/AH-64A_Peten"
+                  title="AH-64A Peten"
                   item_type="prem"
-                  text="AH-64A Peten"
+                  text="AH-64A Peten"
                   intname="ah_64a_peten_iaf"
                   type="helicopter"
                 />

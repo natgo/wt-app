@@ -603,6 +603,15 @@ export function SwedenGround() {
                 />
                 <Arrow type="small" />
                 <TechTreeItem
+                  link="/Pbv_302_(BILL)"
+                  title="Pbv 302 (BILL)"
+                  item_type="own"
+                  text="Pbv 302 (BILL)"
+                  intname="sw_pbv_302_bill"
+                  type="ground"
+                />
+                <Arrow type="small" />
+                <TechTreeItem
                   link="/Strf_9040_BILL"
                   title="Strf 9040 BILL"
                   item_type="own"
@@ -613,15 +622,24 @@ export function SwedenGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
-                  link="/CV_90105_TML"
-                  title="CV 90105 TML"
+                  link="/CV_90105"
+                  title="CV 90105"
                   item_type="prem"
-                  text="CV 90105 TML"
+                  text="CV 90105"
                   intname="sw_cv_90105_tml"
                   type="ground"
                 />
               </td>
-              <td />
+              <td>
+                <TechTreeItem
+                  link="/CV_90105"
+                  title="CV 90105"
+                  item_type="prem"
+                  text="CV 90105"
+                  intname="sw_cv_90105_tml"
+                  type="ground"
+                />
+              </td>
             </tr>
             <tr>
               <Rank rank="VII" />
