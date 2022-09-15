@@ -182,10 +182,10 @@ export function USAHeli() {
               </td>
               <td>
                 <TechTreeItem
-                  link="/AH-64A_Peten"
-                  title="AH-64A Peten"
+                  link="/AH-64A_Peten_(USA)"
+                  title="AH-64A Peten (USA)"
                   item_type="prem"
-                  text="AH-64A Peten"
+                  text="▃AH-64A Peten"
                   intname="ah_64a_peten"
                   type="helicopter"
                 />

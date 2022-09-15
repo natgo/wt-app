@@ -137,25 +137,9 @@ export function ItalyHeli() {
       </div>
       <MediaHead />
       <div className="video_gallery">
-        <div className="video">
-          <div className="video_embed">
-            <div className="embedvideo autoResize" style={{}}>
-              <div className="embedvideowrap" style={{ width: 640 }}>
-                <iframe
-                  src="//yewtu.be/embed/wGrhRQ3yrFs?"
-                  allowFullScreen={true}
-                  width={640}
-                  height={360}
-                  frameBorder={0}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="video_desc">
-            <b>The Shooting Range #262</b> - <i>Pages of History</i> section at 03:44 discusses the
-            first Italian attack helicopters.
-          </div>
-        </div>
+        <a href="https://yewtu.be/wGrhRQ3yrFs">
+          <b>The Shooting Range #262</b> - <i>Pages of History</i> section at 03:44 discusses the first Italian attack helicopters.
+        </a>
       </div>
     </div>
   );
