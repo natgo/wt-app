@@ -91,6 +91,11 @@
               "dislayname": "Ar 196 Post war",
               "post": "926501",
               "type": "semi"
+            },
+            {
+              "intnames": ["arado-196a-5"],
+              "dislayname": "Ar 196 A5",
+              "post": "1051370"
             }
           ],
           "H-75A-2": [
@@ -247,6 +252,12 @@
               "intnames": ["germ_leopard_2a4_pzbtl_123"],
               "dislayname": "Leopard 2A4 Ps 273-88",
               "post": "1049364"
+            },
+            {
+              "intnames": ["germ_leopard_2a4_pzbtl_123"],
+              "dislayname": "Leopard 2A4 Ps 273-166",
+              "post": "1049963",
+              "camo":["winter"]
             }
           ],
           "Leopard 2A6": [
@@ -391,12 +402,6 @@
       "ground": {
         "ungrouped": [
           {
-            "intnames": ["ussr_zis_30"],
-            "dislayname": "ZiS-30",
-            "post": "881751",
-            "type": "semi"
-          },
-          {
             "intnames": ["ussr_zsu_23_4"],
             "dislayname": "ZSU-23-4",
             "post": "911335",
@@ -441,6 +446,20 @@
               "intnames": ["ussr_t_50"],
               "dislayname": "T-50",
               "post": "882047",
+              "type": "semi"
+            }
+          ],
+          "ZiS-30": [
+            {
+              "intnames": ["ussr_zis_30"],
+              "dislayname": "ZiS-30",
+              "post": "881751",
+              "type": "semi"
+            },
+            {
+              "intnames": ["ussr_zis_30"],
+              "dislayname": "ZiS-30 Bilinear",
+              "post": "1050894",
               "type": "semi"
             }
           ],
@@ -989,6 +1008,12 @@
               "intnames": ["sw_cv_90120"],
               "dislayname": "CV 90120",
               "post": "987424",
+              "type": "semi"
+            },
+            {
+              "intnames": ["sw_cv_90105_tml"],
+              "dislayname": "CV 90105",
+              "post": "1051566",
               "type": "semi"
             }
           ]
