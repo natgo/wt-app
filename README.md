@@ -24,3 +24,7 @@ In order to do a production build, run:
 ```bash
 pnpm build # npm run build
 ```
+
+# Todo
+- [ ] Add lint-staged
+- [ ] Make a CI/CD pipeline to website
