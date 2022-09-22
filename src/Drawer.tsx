@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
 
-import { AccountTree, Brush, Calculate, DataObject, Home } from "@mui/icons-material";
+import { AccountTree, Brush, Calculate, DataObject, GitHub, Home } from "@mui/icons-material";
 import {
   Box,
   List,
@@ -48,7 +48,7 @@ export function MiniDrawer(props: { children: React.ReactNode }) {
     <Box sx={{ display: "flex" }}>
       <Drawer variant="permanent">
         <List>
-          {["Home", "Techtree", "WT Data Project (External)", "Air RB BR Calculator", "Skins"].map(
+          {["Home", "Techtree", "WT Data Project (External)", "Air RB BR Calculator", "Skins", "Github"].map(
             (text) => {
               let Icon = <AccountTree />;
               let link = "/wt/";
@@ -72,7 +72,41 @@ export function MiniDrawer(props: { children: React.ReactNode }) {
                 case "Skins":
                   link = "/wt/skins";
                   Icon = <Brush />;
+                  break;
+                case "Github":
+                  link = "gh";
+                  Icon = <GitHub />;
+                  break;
               }
+              if (link === "gh") {
+                return (
+                  <ListItem key={text} disablePadding sx={{ display: "block" }}>
+                    <a href="https://github.com/natgo/wt-app" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
+                      <Tooltip title={text} placement="right">
+                        <ListItemButton
+                          sx={{
+                            minHeight: 48,
+                            justifyContent: "center",
+                            px: 2.5,
+                          }}
+                        >
+                          <ListItemIcon
+                            sx={{
+                              minWidth: 0,
+                              mr: "auto",
+                              justifyContent: "center",
+                            }}
+                          >
+                            {Icon}
+                          </ListItemIcon>
+                          <ListItemText primary={text} sx={{ opacity: 0 }} />
+                        </ListItemButton>
+                      </Tooltip>
+                    </a>
+                  </ListItem>
+                )
+              }
+
               return (
                 <ListItem key={text} disablePadding sx={{ display: "block" }}>
                   <Link to={link} style={{ textDecoration: "none", color: "inherit" }}>
