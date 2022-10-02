@@ -1000,6 +1000,10 @@ export function USAGround() {
                   <br />
                   <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
+                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
+                  <br />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
+                  <br />
                   <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
                 </div>
               </td>
@@ -1078,7 +1082,13 @@ export function USAGround() {
                   intname="us_m1a1_abrams"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <div className="tree-arrow">
+                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
+                  <br />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
+                  <br />
+                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
+                </div>
               </td>
               <td>
                 <TechTreeItem
@@ -1107,6 +1117,10 @@ export function USAGround() {
                   <br />
                   <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
+                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
+                  <br />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
+                  <br />
                   <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
                 </div>
               </td>
@@ -1121,6 +1135,10 @@ export function USAGround() {
                 />
                 <div className="tree-arrow">
                   <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
+                  <br />
+                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
+                  <br />
+                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
                   <br />
                   <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
                   <br />
@@ -1198,6 +1216,15 @@ export function USAGround() {
                   item_type="own"
                   text="AGS"
                   intname="us_ags_teledyne"
+                  type="ground"
+                />
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/CCVL"
+                  title="CCVL"
+                  item_type="own"
+                  text="CCVL"
+                  intname="us_ccvl"
                   type="ground"
                 />
                 <EmptyDiv />

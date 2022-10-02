@@ -817,7 +817,16 @@ export function FranceAircraft() {
                   type="aircraft"
                 />
               </td>
-              <td />
+              <td>
+                <TechTreeItem
+                  link="/Jaguar_E"
+                  title="Jaguar E"
+                  item_type="own"
+                  text="Jaguar E"
+                  intname="jaguar_e"
+                  type="aircraft"
+                />
+              </td>
             </tr>
             <tr>
               <Rank rank="VII" />

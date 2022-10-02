@@ -104,7 +104,7 @@ export function MiniDrawer(props: { children: React.ReactNode }) {
                       </Tooltip>
                     </a>
                   </ListItem>
-                )
+                );
               }
 
               return (

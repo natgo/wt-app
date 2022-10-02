@@ -542,6 +542,15 @@ export function ChinaGround() {
                   type="ground"
                 />
                 <EmptyDiv />
+                <TechTreeItem
+                  link="/Type_69-IIa"
+                  title="Type 69-IIa"
+                  item_type="prem"
+                  text="Type 69-IIa"
+                  intname="cn_type_69_2a"
+                  type="ground"
+                />
+                <EmptyDiv />
               </td>
               <td>
                 <EmptyDiv />

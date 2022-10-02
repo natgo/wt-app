@@ -326,6 +326,15 @@ export function USSRAircraft() {
                   type="aircraft"
                 />
                 <EmptyDiv />
+                <TechTreeItem
+                  link="/Po-2M"
+                  title="Po-2M"
+                  item_type="prem"
+                  text="Po-2M"
+                  intname="po-2m"
+                  type="aircraft"
+                />
+                <EmptyDiv />
               </td>
               <td>
                 <TechTreeItem
