@@ -59,3 +59,13 @@
   grid-row: 1/ 4;
   align-self: center;
 }
+
+.tree-arrow-left-down {
+  position: relative;
+  left: 20px;
+}
+
+.tree-arrow-right-down {
+  position: relative;
+  left: -19px;
+}

@@ -24,7 +24,7 @@ export function GermanyGround() {
                   intname="germ_sdkfz_221_s_pz_b_41"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/15cm_sIG_33_B_Sfl"
                   title="15cm sIG 33 B Sfl"
@@ -33,7 +33,7 @@ export function GermanyGround() {
                   intname="germ_sturmpanzer_ii"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Panzerjager_I"
                   title="Panzerjager I"
@@ -42,13 +42,7 @@ export function GermanyGround() {
                   intname="germ_panzerjager_1"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TreeFolder name="Pz.III B/E" img="germ_prewar_pz_iii_group">
@@ -60,7 +54,7 @@ export function GermanyGround() {
                     intname="germ_pzkpfw_iii_ausf_e"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Pz.III_B"
                     title="Pz.III B"
@@ -70,7 +64,7 @@ export function GermanyGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="Pz.III F/J" img="germ_pz_iii_early_group">
                   <TechTreeItem
                     link="/Pz.III_F"
@@ -80,7 +74,7 @@ export function GermanyGround() {
                     intname="germ_pzkpfw_iii_ausf_f"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Pz.III_J"
                     title="Pz.III J"
@@ -102,7 +96,7 @@ export function GermanyGround() {
                     intname="germ_pzkpfw_ii_ausf_c"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Pz.II_F"
                     title="Pz.II F"
@@ -112,7 +106,7 @@ export function GermanyGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Pz.IV_C"
                   title="Pz.IV C"
@@ -121,7 +115,7 @@ export function GermanyGround() {
                   intname="germ_pzkpfw_iv_ausf_c"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Pz.IV_E"
                   title="Pz.IV E"
@@ -140,7 +134,7 @@ export function GermanyGround() {
                   intname="germ_flakpanzer_i_ausf_a"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Flakpanzer_38"
                   title="Flakpanzer 38"
@@ -149,17 +143,7 @@ export function GermanyGround() {
                   intname="germ_flakpanzer_38t_gepard"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -170,7 +154,7 @@ export function GermanyGround() {
                   intname="germ_pzkpfw_35t"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="Pz.38(t) A/F" img="germ_pzkpfw_38t_group">
                   <TechTreeItem
                     link="/Pz.38(t)_A"
@@ -180,7 +164,7 @@ export function GermanyGround() {
                     intname="germ_pzkpfw_38t_ausf_a"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Pz.38(t)_F"
                     title="Pz.38(t) F"
@@ -190,7 +174,7 @@ export function GermanyGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/StuG_III_A"
                   title="StuG III A"
@@ -199,13 +183,7 @@ export function GermanyGround() {
                   intname="germ_stug_iii_ausf_a"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -286,7 +264,7 @@ export function GermanyGround() {
                   intname="germ_sdkfz_234_2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="Marder III/III H" img="germ_marder_iii_group">
                   <TechTreeItem
                     link="/Marder_III"
@@ -296,7 +274,7 @@ export function GermanyGround() {
                     intname="germ_pzkpfw_38t_marder_iii"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Marder_III_H"
                     title="Marder III H"
@@ -306,7 +284,7 @@ export function GermanyGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Dicker_Max"
                   title="Dicker Max"
@@ -315,13 +293,7 @@ export function GermanyGround() {
                   intname="germ_pzsfl_iva_dickermax"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -332,7 +304,7 @@ export function GermanyGround() {
                   intname="germ_pzkpfw_iii_ausf_j"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="Pz.III L/M" img="germ_pzkpfw_iii_group">
                   <TechTreeItem
                     link="/Pz.III_L"
@@ -342,7 +314,7 @@ export function GermanyGround() {
                     intname="germ_pzkpfw_iii_ausf_l"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Pz.III_M"
                     title="Pz.III M"
@@ -363,7 +335,7 @@ export function GermanyGround() {
                   intname="germ_pzkpfw_iv_ausf_f"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="Pz.IV F2/G" img="pzkpfw_iv_fg_group">
                   <TechTreeItem
                     link="/Pz.IV_F2"
@@ -373,7 +345,7 @@ export function GermanyGround() {
                     intname="germ_pzkpfw_iv_ausf_f2"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Pz.IV_G"
                     title="Pz.IV G"
@@ -383,7 +355,7 @@ export function GermanyGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="Pz.IV H/J" img="germ_pzkpfw_iv_late_group">
                   <TechTreeItem
                     link="/Pz.IV_H"
@@ -393,7 +365,7 @@ export function GermanyGround() {
                     intname="germ_pzkpfw_iv_ausf_h"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Pz.IV_J"
                     title="Pz.IV J"
@@ -413,7 +385,7 @@ export function GermanyGround() {
                   intname="germ_sdkfz_6_2_flak36"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Sd.Kfz.251/21"
                   title="Sd.Kfz.251/21"
@@ -422,17 +394,7 @@ export function GermanyGround() {
                   intname="germ_sdkfz_251_21"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -443,7 +405,7 @@ export function GermanyGround() {
                   intname="germ_stuh_iii_ausf_g"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/StuG_III_F"
                   title="StuG III F"
@@ -452,7 +414,7 @@ export function GermanyGround() {
                   intname="germ_stug_iii_ausf_f"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/StuG_III_G"
                   title="StuG III G"
@@ -461,13 +423,7 @@ export function GermanyGround() {
                   intname="germ_stug_iii_ausf_g"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -548,7 +504,7 @@ export function GermanyGround() {
                   intname="germ_sdkfz_9_flak37"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Sturer_Emil"
                   title="Sturer Emil"
@@ -557,7 +513,7 @@ export function GermanyGround() {
                   intname="germ_pzsflk40_sturer_emil"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Nashorn"
                   title="Nashorn"
@@ -566,25 +522,7 @@ export function GermanyGround() {
                   intname="germ_panzerjager_nashorn"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={4} />
               </td>
               <td>
                 <TechTreeItem
@@ -595,7 +533,7 @@ export function GermanyGround() {
                   intname="germ_pzkpfw_vi_ausf_h1_tiger"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Tiger_E"
                   title="Tiger E"
@@ -604,29 +542,7 @@ export function GermanyGround() {
                   intname="germ_pzkpfw_vi_ausf_e_tiger"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={5} />
               </td>
               <td>
                 <TechTreeItem
@@ -637,7 +553,7 @@ export function GermanyGround() {
                   intname="germ_vk_3002m"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Panther_D"
                   title="Panther D"
@@ -646,29 +562,7 @@ export function GermanyGround() {
                   intname="germ_pzkpfw_v_ausf_d_panther"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={5} />
               </td>
               <td>
                 <TechTreeItem
@@ -679,7 +573,7 @@ export function GermanyGround() {
                   intname="germ_flakpanzer_iv_wirbelwind"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ostwind"
                   title="Ostwind"
@@ -688,29 +582,7 @@ export function GermanyGround() {
                   intname="germ_flakpanzer_iv_ostwind"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={5} />
               </td>
               <td>
                 <TechTreeItem
@@ -721,7 +593,7 @@ export function GermanyGround() {
                   intname="germ_jgdpz_38t"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Jagdpanzer_IV"
                   title="Jagdpanzer IV"
@@ -730,7 +602,7 @@ export function GermanyGround() {
                   intname="germ_jgdpz_iv_l48"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Panzer_IV/70(V)"
                   title="Panzer IV/70(V)"
@@ -739,25 +611,7 @@ export function GermanyGround() {
                   intname="germ_pz_iv_l70"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={4} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -892,7 +746,7 @@ export function GermanyGround() {
                   intname="germ_waffentrager_krupp_steyr"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/LeKPz_M41"
                   title="LeKPz M41"
@@ -901,17 +755,7 @@ export function GermanyGround() {
                   intname="germ_le_kpz_m41"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -922,7 +766,7 @@ export function GermanyGround() {
                   intname="germ_pzkpfw_vi_ausf_b_tiger_iip"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Tiger_II_(H)"
                   title="Tiger II (H)"
@@ -931,17 +775,7 @@ export function GermanyGround() {
                   intname="germ_pzkpfw_vi_ausf_b_tiger_iih"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TreeFolder name="Panther A/F" img="germ_pzkpfw_v_a_g_group">
@@ -953,7 +787,7 @@ export function GermanyGround() {
                     intname="germ_pzkpfw_v_ausf_a_panther"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Panther_F"
                     title="Panther F"
@@ -963,7 +797,7 @@ export function GermanyGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Panther_G"
                   title="Panther G"
@@ -972,17 +806,7 @@ export function GermanyGround() {
                   intname="germ_pzkpfw_v_ausf_g_panther"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -993,21 +817,7 @@ export function GermanyGround() {
                   intname="germ_flakpanzer_iv_ostwind_2"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={3} />
               </td>
               <td>
                 <TechTreeItem
@@ -1018,7 +828,7 @@ export function GermanyGround() {
                   intname="germ_panzerjager_panther"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/JPz_4-5"
                   title="JPz 4-5"
@@ -1027,7 +837,7 @@ export function GermanyGround() {
                   intname="germ_kanonenjagdpanzer"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ferdinand"
                   title="Ferdinand"
@@ -1036,13 +846,7 @@ export function GermanyGround() {
                   intname="germ_panzerjager_tiger_p_ferdinand"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -1123,7 +927,7 @@ export function GermanyGround() {
                   intname="germ_marder_1a1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/SPz_BMP-1"
                   title="SPz BMP-1"
@@ -1132,7 +936,7 @@ export function GermanyGround() {
                   intname="germ_bmp_1_ddr"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Marder_1A3"
                   title="Marder 1A3"
@@ -1141,7 +945,7 @@ export function GermanyGround() {
                   intname="germ_marder_1a3"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -1152,17 +956,7 @@ export function GermanyGround() {
                   intname="germ_mkpz_m48a2c"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -1173,17 +967,7 @@ export function GermanyGround() {
                   intname="germ_leopard_i"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -1194,7 +978,7 @@ export function GermanyGround() {
                   intname="germ_flakpanzer_iv_kugelblitz"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Wiesel_1A4"
                   title="Wiesel 1A4"
@@ -1203,13 +987,7 @@ export function GermanyGround() {
                   intname="germ_wiesel_1_mk20"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -1220,7 +998,7 @@ export function GermanyGround() {
                   intname="germ_panzerjager_tiger"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/DF105"
                   title="DF105"
@@ -1229,7 +1007,7 @@ export function GermanyGround() {
                   intname="germ_marder_df_105"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/RakJPz_2"
                   title="RakJPz 2"
@@ -1238,7 +1016,7 @@ export function GermanyGround() {
                   intname="germ_raketenjagdpanzer_2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -1301,7 +1079,7 @@ export function GermanyGround() {
                   intname="germ_thyssen_henschel_tam"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/PUMA"
                   title="PUMA"
@@ -1310,7 +1088,7 @@ export function GermanyGround() {
                   intname="germ_schutzenpanzer_puma"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Begleitpanzer_57"
                   title="Begleitpanzer 57"
@@ -1319,7 +1097,7 @@ export function GermanyGround() {
                   intname="germ_begleitpanzer_57"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Radkampfwagen_90"
                   title="Radkampfwagen 90"
@@ -1328,13 +1106,7 @@ export function GermanyGround() {
                   intname="germ_radpanzer_90"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -1345,7 +1117,7 @@ export function GermanyGround() {
                   intname="germ_mkpz_m48a2ga2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M48_Super"
                   title="M48 Super"
@@ -1354,7 +1126,7 @@ export function GermanyGround() {
                   intname="germ_mkpz_super_m48"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/KPz-70"
                   title="KPz-70"
@@ -1374,7 +1146,7 @@ export function GermanyGround() {
                     intname="germ_leopard_i_a1"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Leopard_1A5"
                     title="Leopard 1A5"
@@ -1384,7 +1156,7 @@ export function GermanyGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Leopard_2K"
                   title="Leopard 2K"
@@ -1393,7 +1165,7 @@ export function GermanyGround() {
                   intname="germ_leopard_2k"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Leopard_2A4"
                   title="Leopard 2A4"
@@ -1402,17 +1174,7 @@ export function GermanyGround() {
                   intname="germ_leopard_2a4"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -1423,7 +1185,7 @@ export function GermanyGround() {
                   intname="germ_flakpz_i_gepard"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ozelot"
                   title="Ozelot"
@@ -1432,21 +1194,7 @@ export function GermanyGround() {
                   intname="germ_wiesel_2_adwc"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={3} />
               </td>
               <td>
                 <TechTreeItem
@@ -1457,7 +1205,7 @@ export function GermanyGround() {
                   intname="germ_raketenjagdpanzer_2_hot"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/JaPz.K_A2"
                   title="JaPz.K A2"
@@ -1466,7 +1214,7 @@ export function GermanyGround() {
                   intname="germ_sk105_a2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Wiesel_1A2"
                   title="Wiesel 1A2"
@@ -1577,7 +1325,7 @@ export function GermanyGround() {
                   intname="germ_leopard_2a5"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Leopard_2A6"
                   title="Leopard 2A6"
@@ -1597,7 +1345,7 @@ export function GermanyGround() {
                   intname="germ_flarakpz_1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/FlaRakRad"
                   title="FlaRakRad"
@@ -1632,7 +1380,8 @@ export function GermanyGround() {
       <MediaHead />
       <div className="video_gallery">
         <a href="https://yewtu.be/CBAvompXsWQ">
-          <b>The Shooting Range #319</b> - <i>Pages of History</i> section at 03:24 discusses German heavy tank building.
+          <b>The Shooting Range #319</b> - <i>Pages of History</i> section at 03:24 discusses German
+          heavy tank building.
         </a>
         <a href="https://yewtu.be/zSQjqu6dcg8">
           <b>Climbing the ranks with German tanks</b> - <i>War Thunder Official Channel</i>

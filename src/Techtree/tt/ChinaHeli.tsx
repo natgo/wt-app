@@ -42,8 +42,8 @@ export function ChinaHeli() {
                     <td></td>
                   </tr>
                   <tr>
-                    <td colSpan={3} style={{textAlign: "center"}}>
-                      <div className="tree-arrow-right">
+                    <td colSpan={3} style={{ textAlign: "center" }}>
+                      <div className="tree-arrow-right-down">
                         <img
                           src="./images/Arrow-down-and-right-down.png"
                           alt="Arrow-down-and-right-down.png"
@@ -53,19 +53,8 @@ export function ChinaHeli() {
                   </tr>
                   <tr>
                     <td>
-                      <div style={{marginTop: "-27px", marginLeft: "-3px"}}>
-                        <div className="tree-arrow">
-                          <img
-                            src="./images/Arrow_tail.png"
-                            alt="Arrow_tail.png"
-                          /><br /><img
-                            src="./images/Arrow_center.png"
-                            alt="Arrow_center.png"
-                          /><br /><img
-                            src="./images/Arrow_head.png"
-                            alt="Arrow_head.png"
-                          />
-                        </div>
+                      <div style={{ marginTop: "-27px", marginLeft: "-3px" }}>
+                        <Arrow length={1} />
                       </div>
                     </td>
                     <td></td>
@@ -82,13 +71,13 @@ export function ChinaHeli() {
                   </tr>
                 </table>
               </td>
-              <td style={{borderLeft: "solid 1px #cccccc"}}></td>
+              <td style={{ borderLeft: "solid 1px #cccccc" }}></td>
               <td></td>
             </tr>
             <tr>
               <Rank rank="VI" />
               <td style={{ width: 500, paddingLeft: "18%" }}>
-                <table style={{ margin: 0, marginTop: "-7px" }} cellSpacing={0} >
+                <table style={{ margin: 0, marginTop: "-7px" }} cellSpacing={0}>
                   <tr>
                     <td>
                       <TechTreeItem
@@ -105,7 +94,7 @@ export function ChinaHeli() {
                   </tr>
                   <tr>
                     <td>
-                      <Arrow type="small"/>
+                      <Arrow length={0} />
                     </td>
                     <td></td>
                     <td></td>
@@ -126,7 +115,7 @@ export function ChinaHeli() {
                   </tr>
                   <tr>
                     <td>
-                      <Arrow type="small"/>
+                      <Arrow length={0} />
                     </td>
                     <td></td>
                     <td></td>
@@ -147,7 +136,7 @@ export function ChinaHeli() {
                   </tr>
                   <tr>
                     <td>
-                      <Arrow type="small"/>
+                      <Arrow length={0} />
                     </td>
                     <td></td>
                     <td></td>
@@ -169,8 +158,8 @@ export function ChinaHeli() {
             </tr>
             <tr>
               <Rank rank="VII" />
-              <td style={{width: "500px", paddingLeft: "18%"}}>
-                <table cellSpacing={0} style={{margin: 0, marginTop: "-7px"}}>
+              <td style={{ width: "500px", paddingLeft: "18%" }}>
+                <table cellSpacing={0} style={{ margin: 0, marginTop: "-7px" }}>
                   <tr>
                     <td>
                       <TechTreeItem
@@ -186,7 +175,7 @@ export function ChinaHeli() {
                     <td></td>
                   </tr>
                 </table>
-                <EmptyDiv/>
+                <EmptyDiv />
               </td>
             </tr>
           </tbody>

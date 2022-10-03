@@ -24,7 +24,7 @@ export function USAGround() {
                   intname="us_m2a4"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="M3/M3A1 Stuart" img="m3_light_group">
                   <TechTreeItem
                     link="/M3_Stuart"
@@ -34,7 +34,7 @@ export function USAGround() {
                     intname="us_m3_stuart"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/M3A1_Stuart"
                     title="M3A1 Stuart"
@@ -44,13 +44,7 @@ export function USAGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -61,17 +55,7 @@ export function USAGround() {
                   intname="us_m2_medium"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -82,7 +66,7 @@ export function USAGround() {
                   intname="us_lvt_a_1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M22"
                   title="M22"
@@ -91,13 +75,7 @@ export function USAGround() {
                   intname="us_m22_locust"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -108,17 +86,7 @@ export function USAGround() {
                   intname="us_halftrack_m13"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -129,7 +97,7 @@ export function USAGround() {
                   intname="us_m2a2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M8_Scott"
                   title="M8 Scott"
@@ -138,7 +106,7 @@ export function USAGround() {
                   intname="us_m8_scott"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M3_GMC"
                   title="M3 GMC"
@@ -147,7 +115,7 @@ export function USAGround() {
                   intname="us_halftrack_m3_75mm_gmc"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -210,7 +178,7 @@ export function USAGround() {
                   intname="us_m5a1_stuart"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M24"
                   title="M24"
@@ -219,17 +187,7 @@ export function USAGround() {
                   intname="us_m24_chaffee"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -240,7 +198,7 @@ export function USAGround() {
                   intname="us_m3_lee"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M4A1"
                   title="M4A1"
@@ -249,7 +207,7 @@ export function USAGround() {
                   intname="us_m4a1_1942_sherman"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M4"
                   title="M4"
@@ -279,7 +237,7 @@ export function USAGround() {
                   intname="us_halftrack_m15"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M16_MGMC"
                   title="M16 MGMC"
@@ -288,17 +246,7 @@ export function USAGround() {
                   intname="us_halftrack_m16"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -309,21 +257,7 @@ export function USAGround() {
                   intname="us_m10"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={3} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -396,19 +330,7 @@ export function USAGround() {
             <tr>
               <Rank rank="III" />
               <td>
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2.5} />
               </td>
               <td>
                 <TechTreeItem
@@ -419,7 +341,7 @@ export function USAGround() {
                   intname="us_m4a2_sherman"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M4A1_(76)_W"
                   title="M4A1 (76) W"
@@ -428,7 +350,7 @@ export function USAGround() {
                   intname="us_m4a1_76w_sherman"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M4A2_(76)_W"
                   title="M4A2 (76) W"
@@ -437,7 +359,7 @@ export function USAGround() {
                   intname="us_m4a2_76w_sherman"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -448,7 +370,7 @@ export function USAGround() {
                   intname="us_m6a1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M4A3E2"
                   title="M4A3E2"
@@ -457,13 +379,7 @@ export function USAGround() {
                   intname="us_m4a3e2_sherman_jumbo"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -474,17 +390,7 @@ export function USAGround() {
                   intname="us_m19"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -495,17 +401,7 @@ export function USAGround() {
                   intname="us_m18_hellcat"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -577,7 +473,7 @@ export function USAGround() {
                   intname="us_m41_walker_bulldog"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M56"
                   title="M56"
@@ -586,7 +482,7 @@ export function USAGround() {
                   intname="us_m56_scorpion"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T92"
                   title="T92"
@@ -595,13 +491,7 @@ export function USAGround() {
                   intname="us_t92"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -612,7 +502,7 @@ export function USAGround() {
                   intname="us_m4a3e8_76w_sherman"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T25"
                   title="T25"
@@ -621,7 +511,7 @@ export function USAGround() {
                   intname="us_t25"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M26"
                   title="M26"
@@ -630,13 +520,7 @@ export function USAGround() {
                   intname="us_m26_pershing"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -647,7 +531,7 @@ export function USAGround() {
                   intname="us_m4a3e2_76w_sherman_jumbo"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T26E5"
                   title="T26E5"
@@ -656,7 +540,7 @@ export function USAGround() {
                   intname="us_t26e5"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T26E1-1"
                   title="T26E1-1"
@@ -665,7 +549,7 @@ export function USAGround() {
                   intname="us_t26e4_superpershing"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T34"
                   title="T34"
@@ -674,7 +558,7 @@ export function USAGround() {
                   intname="us_t34"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -685,21 +569,7 @@ export function USAGround() {
                   intname="us_m42_duster"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={3} />
               </td>
               <td>
                 <TechTreeItem
@@ -710,7 +580,7 @@ export function USAGround() {
                   intname="us_m36"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M36B2"
                   title="M36B2"
@@ -719,17 +589,7 @@ export function USAGround() {
                   intname="us_m36b2"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -819,13 +679,7 @@ export function USAGround() {
                   intname="us_m50_ontos"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TreeFolder name="M46/M47" img="us_m46_m47_group">
@@ -837,7 +691,7 @@ export function USAGround() {
                     intname="us_m46_patton"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/M47"
                     title="M47"
@@ -847,7 +701,7 @@ export function USAGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="M48/M60" img="us_m48_m60_group">
                   <TechTreeItem
                     link="/M48A1"
@@ -857,7 +711,7 @@ export function USAGround() {
                     intname="us_m48a1_patton_iii"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/M60"
                     title="M60"
@@ -867,7 +721,7 @@ export function USAGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TreeFolder name="T32/T32E1" img="us_t32_group">
@@ -879,7 +733,7 @@ export function USAGround() {
                     intname="us_t32"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/T32E1"
                     title="T32E1"
@@ -889,7 +743,7 @@ export function USAGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M103"
                   title="M103"
@@ -898,7 +752,7 @@ export function USAGround() {
                   intname="us_m103"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -909,13 +763,7 @@ export function USAGround() {
                   intname="us_m163_vulcan"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -926,13 +774,7 @@ export function USAGround() {
                   intname="us_t95"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -977,7 +819,7 @@ export function USAGround() {
                   intname="us_m551"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M3_Bradley"
                   title="M3 Bradley"
@@ -986,7 +828,7 @@ export function USAGround() {
                   intname="us_m3_bradley"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M3A3_Bradley"
                   title="M3A3 Bradley"
@@ -995,17 +837,7 @@ export function USAGround() {
                   intname="us_m3a3_bradley"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -1016,7 +848,7 @@ export function USAGround() {
                   intname="us_m60a1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M60A1_RISE_(P)"
                   title="M60A1 RISE (P)"
@@ -1025,7 +857,7 @@ export function USAGround() {
                   intname="us_m60a1_rise_passive_era"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M60A3_TTS"
                   title="M60A3 TTS"
@@ -1044,7 +876,7 @@ export function USAGround() {
                   intname="us_t95e1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="MBT/XM" img="us_mbt_xm_group">
                   <TechTreeItem
                     link="/XM-803"
@@ -1054,7 +886,7 @@ export function USAGround() {
                     intname="us_xm_803"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/MBT-70"
                     title="MBT-70"
@@ -1064,7 +896,7 @@ export function USAGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M1_Abrams"
                   title="M1 Abrams"
@@ -1073,7 +905,7 @@ export function USAGround() {
                   intname="us_m1_abrams"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M1A1"
                   title="M1A1"
@@ -1082,13 +914,7 @@ export function USAGround() {
                   intname="us_m1a1_abrams"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -1099,7 +925,7 @@ export function USAGround() {
                   intname="us_m247"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/LAV-AD"
                   title="LAV-AD"
@@ -1108,21 +934,7 @@ export function USAGround() {
                   intname="us_lav_ad"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={3} />
               </td>
               <td>
                 <TechTreeItem
@@ -1133,25 +945,7 @@ export function USAGround() {
                   intname="us_m60a2"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={4} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -1255,7 +1049,7 @@ export function USAGround() {
                   intname="us_m1_ip_abrams"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M1A1_HC"
                   title="M1A1 HC"
@@ -1264,7 +1058,7 @@ export function USAGround() {
                   intname="us_m1a1_hc_abrams"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M1A2_Abrams"
                   title="M1A2 Abrams"
@@ -1284,7 +1078,7 @@ export function USAGround() {
                   intname="us_xm_975_roland"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/ADATS"
                   title="ADATS"

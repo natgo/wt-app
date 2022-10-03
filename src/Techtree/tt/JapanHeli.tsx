@@ -42,7 +42,7 @@ export function JapanHeli() {
                     </tr>
                     <tr>
                       <td>
-                        <Arrow type="small" />
+                        <Arrow length={0} />
                       </td>
                     </tr>
                   </tbody>
@@ -70,7 +70,7 @@ export function JapanHeli() {
                     </tr>
                     <tr>
                       <td>
-                        <Arrow type="small" />
+                        <Arrow length={0} />
                       </td>
                     </tr>
                     <tr>
@@ -87,7 +87,7 @@ export function JapanHeli() {
                     </tr>
                     <tr>
                       <td>
-                        <Arrow type="small" />
+                        <Arrow length={0} />
                       </td>
                     </tr>
                   </tbody>

@@ -24,13 +24,7 @@ export function ChinaGround() {
                   intname="cn_m8_greyhound"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -41,7 +35,7 @@ export function ChinaGround() {
                   intname="cn_t_26_1940"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Chi-Ha_(China)"
                   title="Chi-Ha (China)"
@@ -50,7 +44,7 @@ export function ChinaGround() {
                   intname="cn_type_97_chi_ha"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <EmptyDiv />
@@ -64,7 +58,7 @@ export function ChinaGround() {
                   intname="cn_m8_scott"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/SU-76M_(China)"
                   title="SU-76M (China)"
@@ -73,7 +67,7 @@ export function ChinaGround() {
                   intname="cn_su_76m_1943"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -102,7 +96,7 @@ export function ChinaGround() {
                     intname="cn_m3a3_stuart"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/M5A1_(China)"
                     title="M5A1 (China)"
@@ -112,7 +106,7 @@ export function ChinaGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M24_(China)"
                   title="M24 (China)"
@@ -121,13 +115,7 @@ export function ChinaGround() {
                   intname="cn_m24_chaffee"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -138,7 +126,7 @@ export function ChinaGround() {
                   intname="cn_type_97_kai"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T-34_(1943)_(China)"
                   title="T-34 (1943) (China)"
@@ -147,7 +135,7 @@ export function ChinaGround() {
                   intname="cn_t_34_1942"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M4A4_(China)"
                   title="M4A4 (China)"
@@ -156,7 +144,7 @@ export function ChinaGround() {
                   intname="cn_m4a4_sherman"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -167,17 +155,7 @@ export function ChinaGround() {
                   intname="cn_gmc_cckw_353_m45_quad"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -188,7 +166,7 @@ export function ChinaGround() {
                   intname="cn_lvt_4_zis_2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M10_GMC_(China)"
                   title="M10 GMC (China)"
@@ -197,13 +175,7 @@ export function ChinaGround() {
                   intname="cn_m10"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -239,13 +211,7 @@ export function ChinaGround() {
                   intname="cn_pt_76"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -256,7 +222,7 @@ export function ChinaGround() {
                   intname="cn_m4a1_76w_sherman"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T-34-85_(S-53)_(China)"
                   title="T-34-85 (S-53) (China)"
@@ -265,7 +231,7 @@ export function ChinaGround() {
                   intname="cn_t_34_85_d_5t"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -276,7 +242,7 @@ export function ChinaGround() {
                   intname="cn_zsd63_pg87"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M42_(China)"
                   title="M42 (China)"
@@ -285,7 +251,7 @@ export function ChinaGround() {
                   intname="cn_m42_duster"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -296,7 +262,7 @@ export function ChinaGround() {
                   intname="cn_isu_152"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M18_GMC_(China)"
                   title="M18 GMC (China)"
@@ -305,7 +271,7 @@ export function ChinaGround() {
                   intname="cn_m18_hellcat"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <EmptyDiv />
@@ -333,7 +299,7 @@ export function ChinaGround() {
                   intname="cn_type_63_i"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Type_62"
                   title="Type 62"
@@ -342,13 +308,7 @@ export function ChinaGround() {
                   intname="cn_type_62"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -359,7 +319,7 @@ export function ChinaGround() {
                   intname="cn_type_58"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/IS-2_(China)"
                   title="IS-2 (China)"
@@ -368,7 +328,7 @@ export function ChinaGround() {
                   intname="cn_is_2_1943"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/IS-2_mod.1944_(China)"
                   title="IS-2 mod.1944 (China)"
@@ -377,7 +337,7 @@ export function ChinaGround() {
                   intname="cn_is_2_1944"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -388,17 +348,7 @@ export function ChinaGround() {
                   intname="cn_type_65_aa"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -409,7 +359,7 @@ export function ChinaGround() {
                   intname="cn_isu_122"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M36_GMC_(China)"
                   title="M36 GMC (China)"
@@ -418,7 +368,7 @@ export function ChinaGround() {
                   intname="cn_m36"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/SU-100_(China)"
                   title="SU-100 (China)"
@@ -427,7 +377,7 @@ export function ChinaGround() {
                   intname="cn_su_100_1945"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -464,7 +414,7 @@ export function ChinaGround() {
                   intname="cn_type_86"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M48A1_(China)"
                   title="M48A1 (China)"
@@ -473,7 +423,7 @@ export function ChinaGround() {
                   intname="cn_m48a1_patton_iii"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -484,7 +434,7 @@ export function ChinaGround() {
                   intname="cn_type_59"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Type_69"
                   title="Type 69"
@@ -493,7 +443,7 @@ export function ChinaGround() {
                   intname="cn_type_69"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -504,13 +454,7 @@ export function ChinaGround() {
                   intname="cn_wz_305"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -521,7 +465,7 @@ export function ChinaGround() {
                   intname="cn_m113a1_tow"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/PTL02"
                   title="PTL02"
@@ -530,7 +474,7 @@ export function ChinaGround() {
                   intname="cn_ptl_02"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -567,7 +511,7 @@ export function ChinaGround() {
                   intname="cn_m_41d"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M60A3_TTS_(China)"
                   title="M60A3 TTS (China)"
@@ -576,7 +520,7 @@ export function ChinaGround() {
                   intname="cn_m60a3_tts"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/CM11"
                   title="CM11"
@@ -595,7 +539,7 @@ export function ChinaGround() {
                   intname="cn_type_59d"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/ZTZ88A"
                   title="ZTZ88A"
@@ -604,7 +548,7 @@ export function ChinaGround() {
                   intname="cn_ztz_88a"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/ZTZ96"
                   title="ZTZ96"
@@ -613,7 +557,7 @@ export function ChinaGround() {
                   intname="cn_ztz_96"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/ZTZ96A"
                   title="ZTZ96A"
@@ -622,7 +566,7 @@ export function ChinaGround() {
                   intname="cn_ztz_96a"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -633,21 +577,7 @@ export function ChinaGround() {
                   intname="cn_pgz_09"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={3} />
               </td>
               <td>
                 <TechTreeItem
@@ -658,7 +588,7 @@ export function ChinaGround() {
                   intname="cn_cm_25"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/AFT09"
                   title="AFT09"
@@ -667,7 +597,7 @@ export function ChinaGround() {
                   intname="cn_hj_9"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/PTZ89"
                   title="PTZ89"
@@ -676,13 +606,7 @@ export function ChinaGround() {
                   intname="cn_ptz_89"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -746,7 +670,7 @@ export function ChinaGround() {
                   intname="cn_ztz_99"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/ZTZ99-III"
                   title="ZTZ99-III"
@@ -755,7 +679,7 @@ export function ChinaGround() {
                   intname="cn_ztz_99_w"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/ZTZ99A"
                   title="ZTZ99A"

@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { Menu } from "@mui/material";
 
-import { QueryVehicle } from "../QueryVehicle";
+import { queryVehicle } from "../utils/QueryVehicle";
 
 import assault from "./assets/img/def_assault_radar.svg";
 import attack_helicopter from "./assets/img/def_attack_helicopter_radar.svg";
@@ -32,15 +32,15 @@ export function TreeFolder(props: {
   const { children, name, img } = props;
   let fig_src = attack_helicopter;
   let br: string | undefined = "-1.0";
-  const brarr: string[] = [];
-  const match = QueryVehicle(children[0].props.intname, "intname");
+  const brarr: { br: string; realbr: number }[] = [];
+  const match = queryVehicle(children[0].props.intname, "intname");
   br = match?.rb_br;
   children.forEach((element) => {
     if (element.props) {
       if (element.props.intname) {
-        const match = QueryVehicle(element.props.intname, "intname");
+        const match = queryVehicle(element.props.intname, "intname");
         if (match) {
-          brarr.push(match.rb_br);
+          brarr.push({ br: match.rb_br, realbr: match.rb_realbr });
         }
       }
     }
@@ -79,16 +79,19 @@ export function TreeFolder(props: {
       break;
   }
 
-  brarr.sort();
+  brarr.sort((a, b) => {
+    return a.realbr - b.realbr;
+  });
+
   let groupbr = "-1.0";
-  if (br === brarr[brarr.length - 1]) {
-    if (br > brarr[0]) {
-      groupbr = `${brarr[0]} - ${br}`;
+  if (br === brarr[brarr.length - 1].br) {
+    if (br > brarr[0].br) {
+      groupbr = `${brarr[0].br} - ${br}`;
     } else {
       groupbr = br;
     }
   } else {
-    groupbr = `${br} - ${brarr[brarr.length - 1]}`;
+    groupbr = `${br} - ${brarr[brarr.length - 1].br}`;
   }
 
   return (

@@ -36,4 +36,4 @@ pnpm build # npm run build
 - [ ] Make br calculator work on ground
 - [ ] Make techtree more dynamicly generated
 - [ ] Make propper file structure
-- [ ] Fix techtree arrows
+- [x] Fix techtree arrows

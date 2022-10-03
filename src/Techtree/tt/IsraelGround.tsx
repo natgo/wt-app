@@ -24,7 +24,7 @@ export function IsraelGround() {
                   intname="il_m_51"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Magach_1"
                   title="Magach 1"
@@ -33,7 +33,7 @@ export function IsraelGround() {
                   intname="il_m48a1_patton_iii"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Magach_2"
                   title="Magach 2"
@@ -42,7 +42,7 @@ export function IsraelGround() {
                   intname="il_magach_2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -53,7 +53,7 @@ export function IsraelGround() {
                   intname="il_amx_13_75"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/AML-90_(Israel)"
                   title="AML-90 (Israel)"
@@ -62,7 +62,7 @@ export function IsraelGround() {
                   intname="il_aml_90"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Sho%27t"
                   title="Sho't"
@@ -71,7 +71,7 @@ export function IsraelGround() {
                   intname="il_centurion_mk_5_shot"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -82,17 +82,7 @@ export function IsraelGround() {
                   intname="il_ss_11_halftrack"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -118,7 +108,7 @@ export function IsraelGround() {
                   intname="il_magach_3_idf"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="Magach 6/6A" img="il_magach_6_6a_group">
                   <TechTreeItem
                     link="/Magach_6"
@@ -128,7 +118,7 @@ export function IsraelGround() {
                     intname="il_magach_6"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Magach_6A"
                     title="Magach 6A"
@@ -138,7 +128,7 @@ export function IsraelGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Magach_5"
                   title="Magach 5"
@@ -147,7 +137,7 @@ export function IsraelGround() {
                   intname="il_magach_5"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -158,7 +148,7 @@ export function IsraelGround() {
                   intname="il_tiran_4"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Tiran_4S"
                   title="Tiran 4S"
@@ -167,7 +157,7 @@ export function IsraelGround() {
                   intname="il_tiran_4_sh"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Sho%27t_Kal_Alef"
                   title="Sho't Kal Alef"
@@ -176,7 +166,7 @@ export function IsraelGround() {
                   intname="il_centurion_shot_kal_alef"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -187,17 +177,7 @@ export function IsraelGround() {
                   intname="il_m163_vulcan"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -223,7 +203,7 @@ export function IsraelGround() {
                   intname="il_magach_6r"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Magach_6B"
                   title="Magach 6B"
@@ -232,7 +212,7 @@ export function IsraelGround() {
                   intname="il_magach_6b"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Magach_6M"
                   title="Magach 6M"
@@ -241,7 +221,7 @@ export function IsraelGround() {
                   intname="il_magach_6m"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Magach_6C"
                   title="Magach 6C"
@@ -250,7 +230,7 @@ export function IsraelGround() {
                   intname="il_magach_6c"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Gal_Batash"
                   title="Gal Batash"
@@ -269,7 +249,7 @@ export function IsraelGround() {
                   intname="il_centurion_shot_kal_gimel"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Merkava_Mk.1B"
                   title="Merkava Mk.1B"
@@ -278,7 +258,7 @@ export function IsraelGround() {
                   intname="il_merkava_mk_1b"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Merkava_Mk.2B"
                   title="Merkava Mk.2B"
@@ -287,7 +267,7 @@ export function IsraelGround() {
                   intname="il_merkava_mk_2b_early"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Merkava_Mk.3B"
                   title="Merkava Mk.3B"
@@ -296,7 +276,7 @@ export function IsraelGround() {
                   intname="il_merkava_mk_3b"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Merkava_Mk.3C"
                   title="Merkava Mk.3C"
@@ -305,7 +285,7 @@ export function IsraelGround() {
                   intname="il_merkava_mk_3c"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -352,7 +332,7 @@ export function IsraelGround() {
                   intname="il_merkava_mk_4b"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Merkava_Mk.4M"
                   title="Merkava Mk.4M"

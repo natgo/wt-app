@@ -42,7 +42,7 @@ export function BritainHeli() {
                     </tr>
                     <tr>
                       <td>
-                        <Arrow type="small" />
+                        <Arrow length={0} />
                       </td>
                     </tr>
                     <tr>
@@ -59,7 +59,7 @@ export function BritainHeli() {
                     </tr>
                     <tr>
                       <td>
-                        <Arrow type="small" />
+                        <Arrow length={0} />
                       </td>
                     </tr>
                   </tbody>
@@ -87,18 +87,7 @@ export function BritainHeli() {
                     </tr>
                     <tr>
                       <td>
-                        <div className="tree-arrow">
-                          <img
-                            src="./images/Arrow_tail.png"
-                            alt="Arrow_tail.png"
-                          /><br /><img
-                            src="./images/Arrow_center.png"
-                            alt="Arrow_center.png"
-                          /><br /><img
-                            src="./images/Arrow_head.png"
-                            alt="Arrow_head.png"
-                          />
-                        </div>
+                        <Arrow length={1} />
                       </td>
                     </tr>
                   </tbody>
@@ -113,7 +102,7 @@ export function BritainHeli() {
                   intname="g_lynx"
                   type="helicopter"
                 />
-                <EmptyDiv/>
+                <EmptyDiv />
                 <TechTreeItem
                   link="/Rooivalk_Mk1F_CSH"
                   title="Rooivalk Mk1F CSH"
@@ -144,7 +133,7 @@ export function BritainHeli() {
                     </tr>
                   </tbody>
                 </table>
-                <EmptyDiv/>
+                <EmptyDiv />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }} />
               <td />

@@ -24,7 +24,7 @@ export function ChinaAircraft() {
                   intname="gladiator_mk1_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/CW-21"
                   title="CW-21"
@@ -33,13 +33,7 @@ export function ChinaAircraft() {
                   intname="cw_21"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TreeFolder name="I-15" img="i-15_china_group">
@@ -51,7 +45,7 @@ export function ChinaAircraft() {
                     intname="i-15bis_china"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/I-153_M-62_(China)"
                     title="I-153 M-62 (China)"
@@ -61,7 +55,7 @@ export function ChinaAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="I-16" img="i-16_china_group">
                   <TechTreeItem
                     link="/I-16_Chung_28_(China)"
@@ -71,7 +65,7 @@ export function ChinaAircraft() {
                     intname="i-16_chung_28"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/I-16_type_5_(China)"
                     title="I-16 type 5 (China)"
@@ -80,7 +74,7 @@ export function ChinaAircraft() {
                     intname="i-16_type5_1935_china"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/I-16_type_10_(China)"
                     title="I-16 type 10 (China)"
@@ -90,7 +84,7 @@ export function ChinaAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ki-27_otsu_(China)"
                   title="Ki-27 otsu (China)"
@@ -99,7 +93,7 @@ export function ChinaAircraft() {
                   intname="ki-27_otsu_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -110,7 +104,7 @@ export function ChinaAircraft() {
                   intname="hs-123a-1_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/V-11"
                   title="V-11"
@@ -119,13 +113,7 @@ export function ChinaAircraft() {
                   intname="v_11g"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -136,7 +124,7 @@ export function ChinaAircraft() {
                   intname="martin_139wc"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/A-29"
                   title="A-29"
@@ -145,13 +133,7 @@ export function ChinaAircraft() {
                   intname="a_29_hudson"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -186,7 +168,7 @@ export function ChinaAircraft() {
                   intname="p-66"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/P-40E-1_(China)"
                   title="P-40E-1 (China)"
@@ -195,7 +177,7 @@ export function ChinaAircraft() {
                   intname="p-40e_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/P-43A-1_(China)"
                   title="P-43A-1 (China)"
@@ -204,7 +186,7 @@ export function ChinaAircraft() {
                   intname="p-43a-1_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -215,7 +197,7 @@ export function ChinaAircraft() {
                   intname="ki_43_3_ko"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ki-44-II_hei_(China)"
                   title="Ki-44-II hei (China)"
@@ -224,7 +206,7 @@ export function ChinaAircraft() {
                   intname="ki_44_2_hei_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ki-61-I_otsu_(China)"
                   title="Ki-61-I otsu (China)"
@@ -233,7 +215,7 @@ export function ChinaAircraft() {
                   intname="ki_61_1a_otsu_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -244,17 +226,7 @@ export function ChinaAircraft() {
                   intname="v_12d"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -265,7 +237,7 @@ export function ChinaAircraft() {
                   intname="sb_2m_103u_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/DB-3A_(China)"
                   title="DB-3A (China)"
@@ -274,13 +246,7 @@ export function ChinaAircraft() {
                   intname="db_3a_china"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -315,7 +281,7 @@ export function ChinaAircraft() {
                   intname="p-47d_23_ra_china_rocaf"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/P-47D-30_(China)"
                   title="P-47D-30 (China)"
@@ -324,7 +290,7 @@ export function ChinaAircraft() {
                   intname="p-47d_30_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -335,13 +301,7 @@ export function ChinaAircraft() {
                   intname="i-16_type17_china"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -352,7 +312,7 @@ export function ChinaAircraft() {
                   intname="b_25j_30_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Mosquito_FB.Mk.26"
                   title="Mosquito FB.Mk.26"
@@ -361,7 +321,7 @@ export function ChinaAircraft() {
                   intname="mosquito_fb_mk26_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -372,7 +332,7 @@ export function ChinaAircraft() {
                   intname="p1y1_mod11_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/PB4Y-2_(China)"
                   title="PB4Y-2 (China)"
@@ -381,7 +341,7 @@ export function ChinaAircraft() {
                   intname="pb4y-2_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -407,7 +367,7 @@ export function ChinaAircraft() {
                   intname="p-51d-20_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/P-38L-1_(China)"
                   title="P-38L-1 (China)"
@@ -416,7 +376,7 @@ export function ChinaAircraft() {
                   intname="p-38l_1_china_rocaf"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/P-51K_(China)"
                   title="P-51K (China)"
@@ -425,7 +385,7 @@ export function ChinaAircraft() {
                   intname="p-51k"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -436,7 +396,7 @@ export function ChinaAircraft() {
                   intname="la-11_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/La-9_(China)"
                   title="La-9 (China)"
@@ -445,13 +405,7 @@ export function ChinaAircraft() {
                   intname="la-9_china"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -462,17 +416,7 @@ export function ChinaAircraft() {
                   intname="il-10_1946_china"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -483,17 +427,7 @@ export function ChinaAircraft() {
                   intname="tu-2_postwar_china"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -519,7 +453,7 @@ export function ChinaAircraft() {
                   intname="f-86f-30_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/F-86F-40_(China)"
                   title="F-86F-40 (China)"
@@ -528,13 +462,7 @@ export function ChinaAircraft() {
                   intname="f-86f-40_china"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TreeFolder name="MiG-9" img="mig-9_china_group">
@@ -546,7 +474,7 @@ export function ChinaAircraft() {
                     intname="mig-9_china"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/MiG-9_(l)_(China)"
                     title="MiG-9 (l) (China)"
@@ -556,7 +484,7 @@ export function ChinaAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/J-2"
                   title="J-2"
@@ -565,7 +493,7 @@ export function ChinaAircraft() {
                   intname="mig-15bis_nr23_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/J-4"
                   title="J-4"
@@ -574,7 +502,7 @@ export function ChinaAircraft() {
                   intname="mig-17_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -585,17 +513,7 @@ export function ChinaAircraft() {
                   intname="f-84g_china"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -606,7 +524,7 @@ export function ChinaAircraft() {
                   intname="tu_4_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/H-5"
                   title="H-5"
@@ -640,7 +558,7 @@ export function ChinaAircraft() {
                   intname="f-100a_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/F-104A_(China)"
                   title="F-104A (China)"
@@ -649,7 +567,7 @@ export function ChinaAircraft() {
                   intname="f-104a_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -660,7 +578,7 @@ export function ChinaAircraft() {
                   intname="mig-19j_6a"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/J-7II"
                   title="J-7II"
@@ -669,7 +587,7 @@ export function ChinaAircraft() {
                   intname="j_7_mk2"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -680,7 +598,7 @@ export function ChinaAircraft() {
                   intname="q_5_early"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Q-5A"
                   title="Q-5A"
@@ -714,7 +632,7 @@ export function ChinaAircraft() {
                   intname="f-104g_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/F-5A_(China)"
                   title="F-5A (China)"
@@ -723,7 +641,7 @@ export function ChinaAircraft() {
                   intname="f-5a_china"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/F-5E_(China)"
                   title="F-5E (China)"
@@ -743,7 +661,7 @@ export function ChinaAircraft() {
                   intname="j_7e"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/J-8B"
                   title="J-8B"

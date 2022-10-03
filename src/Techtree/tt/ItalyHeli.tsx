@@ -42,7 +42,7 @@ export function ItalyHeli() {
                     </tr>
                     <tr>
                       <td>
-                        <Arrow type="small" />
+                        <Arrow length={0} />
                       </td>
                     </tr>
                   </tbody>
@@ -70,18 +70,7 @@ export function ItalyHeli() {
                     </tr>
                     <tr>
                       <td>
-                        <div className="tree-arrow">
-                          <img
-                            src="./images/Arrow_tail.png"
-                            alt="Arrow_tail.png"
-                          /><br /><img
-                            src="./images/Arrow_center.png"
-                            alt="Arrow_center.png"
-                          /><br /><img
-                            src="./images/Arrow_head.png"
-                            alt="Arrow_head.png"
-                          />
-                        </div>
+                        <Arrow length={1} />
                       </td>
                     </tr>
                   </tbody>
@@ -138,7 +127,8 @@ export function ItalyHeli() {
       <MediaHead />
       <div className="video_gallery">
         <a href="https://yewtu.be/wGrhRQ3yrFs">
-          <b>The Shooting Range #262</b> - <i>Pages of History</i> section at 03:44 discusses the first Italian attack helicopters.
+          <b>The Shooting Range #262</b> - <i>Pages of History</i> section at 03:44 discusses the
+          first Italian attack helicopters.
         </a>
       </div>
     </div>

@@ -33,7 +33,7 @@ export function FranceGround() {
                   intname="fr_amd_35"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/AMC.35_(ACG.1)"
                   title="AMC.35 (ACG.1)"
@@ -42,7 +42,7 @@ export function FranceGround() {
                   intname="fr_amc_35"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -62,7 +62,7 @@ export function FranceGround() {
                   intname="fr_hotchkiss_h39"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/S.35"
                   title="S.35"
@@ -71,7 +71,7 @@ export function FranceGround() {
                   intname="fr_somua_s35"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -91,7 +91,7 @@ export function FranceGround() {
                   intname="fr_renault_r39"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/D2"
                   title="D2"
@@ -100,7 +100,7 @@ export function FranceGround() {
                   intname="fr_renault_d2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -111,17 +111,7 @@ export function FranceGround() {
                   intname="fr_citroen_kegresse_p4t"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -132,7 +122,7 @@ export function FranceGround() {
                   intname="fr_amr_35_zt3"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Lorraine_37L"
                   title="Lorraine 37L"
@@ -141,13 +131,7 @@ export function FranceGround() {
                   intname="fr_lorraine_37l"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -175,13 +159,7 @@ export function FranceGround() {
                   intname="fr_crusader_mk_2"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -192,7 +170,7 @@ export function FranceGround() {
                   intname="fr_m3a3_stuart"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M4A1_(France)"
                   title="M4A1 (France)"
@@ -201,7 +179,7 @@ export function FranceGround() {
                   intname="fr_m4a1_sherman"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -212,7 +190,7 @@ export function FranceGround() {
                   intname="fr_b1_bis"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M4A3_(105)_(France)"
                   title="M4A3 (105) (France)"
@@ -221,7 +199,7 @@ export function FranceGround() {
                   intname="fr_m4a3_105_sherman"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -232,13 +210,7 @@ export function FranceGround() {
                   intname="fr_cckw_353_bofors"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -249,7 +221,7 @@ export function FranceGround() {
                   intname="fr_somua_sau40"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M10_GMC_(France)"
                   title="M10 GMC (France)"
@@ -258,7 +230,7 @@ export function FranceGround() {
                   intname="fr_m10"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -303,7 +275,7 @@ export function FranceGround() {
                   intname="fr_amx_13_fl_11"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/E.B.R._(1951)"
                   title="E.B.R. (1951)"
@@ -312,7 +284,7 @@ export function FranceGround() {
                   intname="fr_panhard_ebr_1951"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -323,7 +295,7 @@ export function FranceGround() {
                   intname="fr_m4a4_sherman"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M4A4_(SA50)"
                   title="M4A4 (SA50)"
@@ -332,7 +304,7 @@ export function FranceGround() {
                   intname="fr_m4a4_cn_75_50"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -343,7 +315,7 @@ export function FranceGround() {
                   intname="fr_arl_44_acl1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M4A3E2_(France)"
                   title="M4A3E2 (France)"
@@ -352,18 +324,10 @@ export function FranceGround() {
                   intname="fr_m4a3e2_sherman_jumbo"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1.5} />
               </td>
               <td>
                 <TechTreeItem
@@ -374,7 +338,7 @@ export function FranceGround() {
                   intname="fr_arl_44"
                   type="ground"
                 />
-                <Arrow type="small"/>
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M36B2_(France)"
                   title="M36B2(France)"
@@ -383,7 +347,7 @@ export function FranceGround() {
                   intname="fr_m36b2_cefeo"
                   type="ground"
                 />
-                <Arrow type="small"/>
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -428,7 +392,7 @@ export function FranceGround() {
                   intname="fr_amx_13_75"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/AML-90"
                   title="AML-90"
@@ -437,7 +401,7 @@ export function FranceGround() {
                   intname="fr_aml_90"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -448,7 +412,7 @@ export function FranceGround() {
                   intname="fr_bat_chat_25t"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Lorraine_40t"
                   title="Lorraine 40t"
@@ -457,7 +421,7 @@ export function FranceGround() {
                   intname="fr_lorraine_40t"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -468,7 +432,7 @@ export function FranceGround() {
                   intname="fr_amx_m4"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/AMX-50_(TOA100)"
                   title="AMX-50 (TOA100)"
@@ -477,7 +441,7 @@ export function FranceGround() {
                   intname="fr_amx_50"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -488,13 +452,7 @@ export function FranceGround() {
                   intname="fr_amx_13_dca_40"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -505,7 +463,7 @@ export function FranceGround() {
                   intname="fr_lorraine_100"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/ELC_bis"
                   title="ELC bis"
@@ -514,7 +472,7 @@ export function FranceGround() {
                   intname="fr_amx_elc_bis"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -568,7 +526,7 @@ export function FranceGround() {
                   intname="fr_amx_13_90"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -579,7 +537,7 @@ export function FranceGround() {
                   intname="fr_amx_30_1972"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -590,14 +548,10 @@ export function FranceGround() {
                   intname="fr_amx_50_surbaisse"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={0.5} />
               </td>
               <td>
                 <TechTreeItem
@@ -608,7 +562,7 @@ export function FranceGround() {
                   intname="fr_amx_50_foch"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -643,7 +597,7 @@ export function FranceGround() {
                   intname="fr_amx_13_hot"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/MARS_15"
                   title="MARS 15"
@@ -652,7 +606,7 @@ export function FranceGround() {
                   intname="fr_mars_15"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/MEPHISTO"
                   title="MEPHISTO"
@@ -671,7 +625,7 @@ export function FranceGround() {
                   intname="fr_amx_30_b2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/AMX-30B2_BRENUS"
                   title="AMX-30B2 BRENUS"
@@ -680,13 +634,7 @@ export function FranceGround() {
                   intname="fr_amx_30_b2_brenus"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -697,7 +645,7 @@ export function FranceGround() {
                   intname="fr_amx_32"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/AMX-40"
                   title="AMX-40"
@@ -716,17 +664,7 @@ export function FranceGround() {
                   intname="fr_amx_30_dca"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -737,7 +675,7 @@ export function FranceGround() {
                   intname="fr_amx_10rc"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/AMX-30_ACRA"
                   title="AMX-30 ACRA"
@@ -746,7 +684,7 @@ export function FranceGround() {
                   intname="fr_amx_30_acra"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/SK-105A2"
                   title="SK-105A2"
@@ -782,7 +720,7 @@ export function FranceGround() {
                   intname="fr_leclerc_s1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Leclerc_S2"
                   title="Leclerc S2"
@@ -791,7 +729,7 @@ export function FranceGround() {
                   intname="fr_leclerc_s2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Leclerc_SXXI"
                   title="Leclerc SXXI"
@@ -814,7 +752,7 @@ export function FranceGround() {
                   intname="fr_amx_30_roland"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/ItO_90M_(France)"
                   title="ItO 90M (France)"
@@ -844,7 +782,8 @@ export function FranceGround() {
           <b>Climbing the ranks with French tanks</b> - <i>War Thunder Official Channel</i>
         </a>
         <a href="https://yewtu.be/Ue0YqmjtEPo">
-          <b>Obtaining «secrit» documents in Saumur (How we prepared for the French)</b> - <i>War Thunder Official Channel</i>
+          <b>Obtaining «secrit» documents in Saumur (How we prepared for the French)</b> -{" "}
+          <i>War Thunder Official Channel</i>
         </a>
         <a href="https://yewtu.be/WE6zWmBlfSk">
           <b>The Shooting Range #318</b> - <i>Pages of History</i> section at 03:35 discusses early

@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 
-import { QueryVehicle } from "../QueryVehicle";
+import { queryVehicle } from "../utils/QueryVehicle";
 
 import "./App2.css";
 import { Mobility, SpecsCard, Survivability } from "./VehicleItem";
@@ -9,7 +9,7 @@ export function Vehicle(): JSX.Element {
   const params = useParams();
   if (params.vehicleId) {
     console.log(params.vehicleId);
-    const match = QueryVehicle(params.vehicleId.replace(/\+/g, "/"), "wikiname");
+    const match = queryVehicle(params.vehicleId.replace(/\+/g, "/"), "wikiname");
     console.log(match);
     if (match) {
       if ("horsepower" in match) {

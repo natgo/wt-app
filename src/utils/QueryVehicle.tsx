@@ -1,13 +1,13 @@
-import { useRecoilValue } from "recoil";
+import { getRecoil } from "recoil-nexus";
 
-import { Final } from "./atom";
-import { FinalProps } from "./types";
+import { Final } from "../atom";
+import { FinalProps } from "../types";
 
-export function QueryVehicle(
+export function queryVehicle(
   vehicle: string,
   type: "intname" | "wikiname",
 ): FinalProps | undefined {
-  const FinalValue = useRecoilValue(Final);
+  const FinalValue = getRecoil(Final);
   console.log(vehicle);
   if (type === "wikiname") {
     const matchAir = FinalValue.aircraft.find((curval) => {

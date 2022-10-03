@@ -49,16 +49,16 @@
           ],
           "P-40": [
             {
-              "intnames": ["p-40e","p-40e_china","p-40e_td","p-40e_ussr"],
+              "intnames": ["p-40e", "p-40e_china", "p-40e_td", "p-40e_ussr"],
               "dislayname": "P-40E-1 [Repack]",
               "post": "FAF P-40E [Repack].zip",
               "repack": true
             },
             {
-              "intnames": ["p-40e","p-40e_china","p-40e_td","p-40e_ussr"],
+              "intnames": ["p-40e", "p-40e_china", "p-40e_td", "p-40e_ussr"],
               "dislayname": "P-40E-1 [Repack]",
               "post": "Finnish+P40 [Repack].zip",
-              "repack":true
+              "repack": true
             }
           ]
         }
@@ -257,7 +257,7 @@
               "intnames": ["germ_leopard_2a4_pzbtl_123"],
               "dislayname": "Leopard 2A4 Ps 273-166",
               "post": "1049963",
-              "camo":["winter"]
+              "camo": ["winter"]
             }
           ],
           "Leopard 2A6": [
@@ -433,6 +433,12 @@
             "intnames": ["ussr_t_70_1942"],
             "dislayname": "T-70",
             "post": "207505"
+          },
+          {
+            "intnames": ["ussr_object_906"],
+            "dislayname": "Object 906",
+            "post": "1053034",
+            "type": "semi"
           }
         ],
         "grouped": {
@@ -961,6 +967,12 @@
             "intnames": ["sw_strv_m41_s2"],
             "dislayname": "Strv M/41",
             "post": "965225"
+          },
+          {
+            "intnames": ["sw_sav_m43_1946"],
+            "dislayname": "SAV M/43 (1946)",
+            "post": "1052878",
+            "type": "semi"
           }
         ],
         "grouped": {
@@ -996,6 +1008,11 @@
               "intnames": ["sw_l_62_anti_II"],
               "dislayname": "L-62 Anti II Ps 445-5",
               "post": "1035237"
+            },
+            {
+              "intnames": ["sw_l_62_anti_II"],
+              "dislayname": "L-62 Anti II Ps 455-4 Post war",
+              "post": "1051616"
             }
           ],
           "CV90": [

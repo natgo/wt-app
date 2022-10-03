@@ -24,7 +24,7 @@ export function BritainGround() {
                   intname="uk_a_13_mk1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/A13_Mk_II"
                   title="A13 Mk II"
@@ -43,7 +43,7 @@ export function BritainGround() {
                   intname="uk_m3_stuart"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Stuart_III"
                   title="Stuart III"
@@ -52,7 +52,7 @@ export function BritainGround() {
                   intname="uk_m3a1_stuart"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -63,7 +63,7 @@ export function BritainGround() {
                   intname="uk_a17_mk_1_tetrarch"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Daimler_Mk_II"
                   title="Daimler Mk II"
@@ -72,7 +72,7 @@ export function BritainGround() {
                   intname="uk_daimler_mk_2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -83,7 +83,7 @@ export function BritainGround() {
                   intname="uk_vickers_mk_6_aa_mk_1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Staghound_AA"
                   title="Staghound AA"
@@ -92,7 +92,7 @@ export function BritainGround() {
                   intname="uk_t17e2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <EmptyDiv />
@@ -150,7 +150,7 @@ export function BritainGround() {
                     intname="uk_crusader_mk_2"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Crusader_III"
                     title="Crusader III"
@@ -160,7 +160,7 @@ export function BritainGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="Cromwell" img="uk_cromwell_group">
                   <TechTreeItem
                     link="/Cromwell_V"
@@ -170,7 +170,7 @@ export function BritainGround() {
                     intname="uk_a27m_cromwell_5"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Cromwell_I"
                     title="Cromwell I"
@@ -180,7 +180,7 @@ export function BritainGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Sherman_II"
                   title="Sherman II"
@@ -200,7 +200,7 @@ export function BritainGround() {
                     intname="uk_valentine_mk_1"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Valentine_XI"
                     title="Valentine XI"
@@ -209,7 +209,7 @@ export function BritainGround() {
                     intname="uk_valentine_mk_11"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Valentine_IX"
                     title="Valentine IX"
@@ -219,7 +219,7 @@ export function BritainGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Matilda_III"
                   title="Matilda III"
@@ -228,7 +228,7 @@ export function BritainGround() {
                   intname="uk_a_12_mk_2_matilda_2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Churchill_I"
                   title="Churchill I"
@@ -247,7 +247,7 @@ export function BritainGround() {
                   intname="uk_sp_17_pdr_valentine"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Gun_Carrier_(3-in)"
                   title="Gun Carrier (3-in)"
@@ -256,7 +256,7 @@ export function BritainGround() {
                   intname="uk_3_inch_gun_carrier"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Achilles"
                   title="Achilles"
@@ -275,7 +275,7 @@ export function BritainGround() {
                   intname="uk_armored_car_mk_2_aa"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Crusader_AA_Mk_I"
                   title="Crusader AA Mk I"
@@ -284,17 +284,7 @@ export function BritainGround() {
                   intname="uk_crusader_aa_mk_1"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -305,7 +295,7 @@ export function BritainGround() {
                   intname="uk_marmon_herrington_mk_6_2pdr"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/SARC_MkVI_(6pdr)"
                   title="SARC MkVI (6pdr)"
@@ -314,17 +304,7 @@ export function BritainGround() {
                   intname="uk_marmon_herrington_mk_6_6pdr"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -396,7 +376,7 @@ export function BritainGround() {
                   intname="uk_sherman_vc_firefly"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Challenger"
                   title="Challenger"
@@ -405,7 +385,7 @@ export function BritainGround() {
                   intname="uk_a30_challenger"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Comet_I"
                   title="Comet I"
@@ -414,7 +394,7 @@ export function BritainGround() {
                   intname="uk_a_34_comet"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -425,7 +405,7 @@ export function BritainGround() {
                   intname="uk_a_22b_mk_3_churchill_1942"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Churchill_VII"
                   title="Churchill VII"
@@ -434,13 +414,7 @@ export function BritainGround() {
                   intname="uk_a_22f_mk_7_churchill_1944"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -451,17 +425,7 @@ export function BritainGround() {
                   intname="uk_a30_sp_avenger"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -472,7 +436,7 @@ export function BritainGround() {
                   intname="uk_crusader_aa_mk_2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ystervark"
                   title="Ystervark"
@@ -481,18 +445,7 @@ export function BritainGround() {
                   intname="uk_ystervark_spaa"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img
-                    src="./images/Arrow_tail.png"
-                    alt="Arrow_tail.png"
-                  /><br /><img
-                    src="./images/Arrow_center.png"
-                    alt="Arrow_center.png"
-                  /><br /><img
-                    src="./images/Arrow_head.png"
-                    alt="Arrow_head.png"
-                  />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -503,17 +456,7 @@ export function BritainGround() {
                   intname="uk_concept3_ngac"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -585,7 +528,7 @@ export function BritainGround() {
                   intname="uk_centurion_mk_1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Centurion_Mk_3"
                   title="Centurion Mk 3"
@@ -594,7 +537,7 @@ export function BritainGround() {
                   intname="uk_centurion_mk_3"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Caernarvon"
                   title="Caernarvon"
@@ -603,7 +546,7 @@ export function BritainGround() {
                   intname="uk_fv221_caernarvon"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -614,7 +557,7 @@ export function BritainGround() {
                   intname="uk_charioteer_mk_7"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/FV4202"
                   title="FV4202"
@@ -623,13 +566,7 @@ export function BritainGround() {
                   intname="uk_fv4202"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -640,7 +577,7 @@ export function BritainGround() {
                   intname="uk_a39_tortoise"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/FV4005"
                   title="FV4005"
@@ -649,7 +586,7 @@ export function BritainGround() {
                   intname="uk_fv4005"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Conway"
                   title="Conway"
@@ -658,7 +595,7 @@ export function BritainGround() {
                   intname="uk_fv4004_conway"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -669,17 +606,7 @@ export function BritainGround() {
                   intname="uk_skink_aa"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -690,7 +617,7 @@ export function BritainGround() {
                   intname="uk_ratel_90"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/G6"
                   title="G6"
@@ -699,7 +626,7 @@ export function BritainGround() {
                   intname="uk_g6_spg"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Eland_90_Mk.7"
                   title="Eland 90 Mk.7"
@@ -708,7 +635,7 @@ export function BritainGround() {
                   intname="uk_eland_90_mk_7"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -754,7 +681,7 @@ export function BritainGround() {
                   intname="uk_centurion_mk_10"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Conqueror"
                   title="Conqueror"
@@ -763,7 +690,7 @@ export function BritainGround() {
                   intname="uk_conqueror_mk_2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -774,7 +701,7 @@ export function BritainGround() {
                   intname="uk_vickers_mbt_mk_1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Vickers_Mk.3"
                   title="Vickers Mk.3"
@@ -783,7 +710,7 @@ export function BritainGround() {
                   intname="uk_vickers_mbt_mk_3"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -794,7 +721,7 @@ export function BritainGround() {
                   intname="uk_fv438_swingfire"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Striker"
                   title="Striker"
@@ -803,7 +730,7 @@ export function BritainGround() {
                   intname="uk_fv102_striker"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -814,13 +741,7 @@ export function BritainGround() {
                   intname="uk_falcon"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -831,13 +752,7 @@ export function BritainGround() {
                   intname="uk_ratel_20"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -874,7 +789,7 @@ export function BritainGround() {
                     intname="uk_chieftain_mk_3"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Chieftain_Mk_5"
                     title="Chieftain Mk 5"
@@ -884,7 +799,7 @@ export function BritainGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Chieftain_Mk_10"
                   title="Chieftain Mk 10"
@@ -893,7 +808,7 @@ export function BritainGround() {
                   intname="uk_chieftain_mk_10"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Challenger_Mk.2"
                   title="Challenger Mk.2"
@@ -902,7 +817,7 @@ export function BritainGround() {
                   intname="uk_challenger_1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Challenger_Mk.3"
                   title="Challenger Mk.3"
@@ -911,7 +826,7 @@ export function BritainGround() {
                   intname="uk_challenger_mk_3"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -922,7 +837,7 @@ export function BritainGround() {
                   intname="uk_vfm_5"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Vickers_Mk.7"
                   title="Vickers Mk.7"
@@ -941,7 +856,7 @@ export function BritainGround() {
                   intname="uk_fv510_isv"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/ZT3A2"
                   title="ZT3A2"
@@ -960,7 +875,7 @@ export function BritainGround() {
                   intname="uk_chieftain_marksman"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/ZA-35"
                   title="ZA-35"
@@ -969,17 +884,7 @@ export function BritainGround() {
                   intname="uk_rooikat_za_35"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -990,7 +895,7 @@ export function BritainGround() {
                   intname="uk_rooikat_76"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Olifant_Mk.1A"
                   title="Olifant Mk.1A"
@@ -999,7 +904,7 @@ export function BritainGround() {
                   intname="uk_olifant_mk_1a"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Rooikat_MTTD"
                   title="Rooikat MTTD"
@@ -1008,7 +913,7 @@ export function BritainGround() {
                   intname="uk_rooikat_mttd"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Olifant_Mk.2"
                   title="Olifant Mk.2"
@@ -1017,7 +922,7 @@ export function BritainGround() {
                   intname="uk_olifant_mk_2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -1060,7 +965,7 @@ export function BritainGround() {
                   intname="uk_challenger_ii"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Challenger_2_(2F)"
                   title="Challenger 2 (2F)"
@@ -1069,7 +974,7 @@ export function BritainGround() {
                   intname="uk_challenger_2_dorchester"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Challenger_2_TES"
                   title="Challenger 2 TES"
@@ -1078,7 +983,7 @@ export function BritainGround() {
                   intname="uk_challenger_2_tes"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Black_Night"
                   title="Black Night"
@@ -1104,7 +1009,7 @@ export function BritainGround() {
                   intname="uk_stormer_hvm"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/ADATS_(M113)"
                   title="ADATS (M113)"

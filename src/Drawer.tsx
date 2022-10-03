@@ -48,68 +48,51 @@ export function MiniDrawer(props: { children: React.ReactNode }) {
     <Box sx={{ display: "flex" }}>
       <Drawer variant="permanent">
         <List>
-          {["Home", "Techtree", "WT Data Project (External)", "Air RB BR Calculator", "Skins", "Github"].map(
-            (text) => {
-              let Icon = <AccountTree />;
-              let link = "/wt/";
-              switch (text) {
-                case "Techtree":
-                  link = "/wt/techtree";
-                  Icon = <AccountTree />;
-                  break;
-                case "WT Data Project (External)":
-                  link = "/wt/data";
-                  Icon = <DataObject />;
-                  break;
-                case "Air RB BR Calculator":
-                  link = "/wt/calculator";
-                  Icon = <Calculate />;
-                  break;
-                case "Home":
-                  link = "/wt/";
-                  Icon = <Home />;
-                  break;
-                case "Skins":
-                  link = "/wt/skins";
-                  Icon = <Brush />;
-                  break;
-                case "Github":
-                  link = "gh";
-                  Icon = <GitHub />;
-                  break;
-              }
-              if (link === "gh") {
-                return (
-                  <ListItem key={text} disablePadding sx={{ display: "block" }}>
-                    <a href="https://github.com/natgo/wt-app" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
-                      <Tooltip title={text} placement="right">
-                        <ListItemButton
-                          sx={{
-                            minHeight: 48,
-                            justifyContent: "center",
-                            px: 2.5,
-                          }}
-                        >
-                          <ListItemIcon
-                            sx={{
-                              minWidth: 0,
-                              mr: "auto",
-                              justifyContent: "center",
-                            }}
-                          >
-                            {Icon}
-                          </ListItemIcon>
-                          <ListItemText primary={text} sx={{ opacity: 0 }} />
-                        </ListItemButton>
-                      </Tooltip>
-                    </a>
-                  </ListItem>
-                );
-              }
-
+          {[
+            "Home",
+            "Techtree",
+            "WT Data Project (External)",
+            "Air RB BR Calculator",
+            "Skins",
+            "Github",
+          ].map((text) => {
+            let Icon = <AccountTree />;
+            let link = "/wt/";
+            switch (text) {
+              case "Techtree":
+                link = "/wt/techtree";
+                Icon = <AccountTree />;
+                break;
+              case "WT Data Project (External)":
+                link = "/wt/data";
+                Icon = <DataObject />;
+                break;
+              case "Air RB BR Calculator":
+                link = "/wt/calculator";
+                Icon = <Calculate />;
+                break;
+              case "Home":
+                link = "/wt/";
+                Icon = <Home />;
+                break;
+              case "Skins":
+                link = "/wt/skins";
+                Icon = <Brush />;
+                break;
+              case "Github":
+                link = "gh";
+                Icon = <GitHub />;
+                break;
+            }
+            if (link === "gh") {
               return (
                 <ListItem key={text} disablePadding sx={{ display: "block" }}>
-                  <Link to={link} style={{ textDecoration: "none", color: "inherit" }}>
+                  <a
+                    href="https://github.com/natgo/wt-app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ textDecoration: "none", color: "inherit" }}
+                  >
                     <Tooltip title={text} placement="right">
                       <ListItemButton
                         sx={{
@@ -130,11 +113,38 @@ export function MiniDrawer(props: { children: React.ReactNode }) {
                         <ListItemText primary={text} sx={{ opacity: 0 }} />
                       </ListItemButton>
                     </Tooltip>
-                  </Link>
+                  </a>
                 </ListItem>
               );
-            },
-          )}
+            }
+
+            return (
+              <ListItem key={text} disablePadding sx={{ display: "block" }}>
+                <Link to={link} style={{ textDecoration: "none", color: "inherit" }}>
+                  <Tooltip title={text} placement="right">
+                    <ListItemButton
+                      sx={{
+                        minHeight: 48,
+                        justifyContent: "center",
+                        px: 2.5,
+                      }}
+                    >
+                      <ListItemIcon
+                        sx={{
+                          minWidth: 0,
+                          mr: "auto",
+                          justifyContent: "center",
+                        }}
+                      >
+                        {Icon}
+                      </ListItemIcon>
+                      <ListItemText primary={text} sx={{ opacity: 0 }} />
+                    </ListItemButton>
+                  </Tooltip>
+                </Link>
+              </ListItem>
+            );
+          })}
         </List>
       </Drawer>
       <Box component="main" sx={{ flexGrow: 1, p: 0, height: "100vh" }}>

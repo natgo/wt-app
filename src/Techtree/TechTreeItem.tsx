@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import { QueryVehicle } from "../QueryVehicle";
+import { queryVehicle } from "../utils/QueryVehicle";
 
 import { ItemImg } from "./ItemImg";
 import assault from "./assets/img/def_assault_radar.svg";
@@ -25,7 +25,7 @@ export function TechTreeItem(props: {
   const { intname, type, link, text, title, item_type } = props;
   let fig_src = attack_helicopter;
   let br: string | undefined = "-1.0";
-  const match = QueryVehicle(intname, "intname");
+  const match = queryVehicle(intname, "intname");
   br = match?.rb_br;
 
   switch (match?.normal_type) {

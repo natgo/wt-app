@@ -33,7 +33,7 @@ export function SwedenAircraft() {
                   intname="j6b"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/J11"
                   title="J11"
@@ -42,7 +42,7 @@ export function SwedenAircraft() {
                   intname="fiat_cr42_j11"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -53,7 +53,7 @@ export function SwedenAircraft() {
                   intname="saab_b17bs"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/B17B"
                   title="B17B"
@@ -62,13 +62,7 @@ export function SwedenAircraft() {
                   intname="saab_b17b"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -79,17 +73,7 @@ export function SwedenAircraft() {
                   intname="saab_b3c"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -125,7 +109,7 @@ export function SwedenAircraft() {
                   intname="re_2000_j20"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/J22-A"
                   title="J22-A"
@@ -134,7 +118,7 @@ export function SwedenAircraft() {
                   intname="ffvs_j22_a"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -145,13 +129,7 @@ export function SwedenAircraft() {
                   intname="saab_b17a"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -162,13 +140,7 @@ export function SwedenAircraft() {
                   intname="saab_b18a"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -212,7 +184,7 @@ export function SwedenAircraft() {
                   intname="ffvs_j22_b"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/J21A-1"
                   title="J21A-1"
@@ -221,18 +193,10 @@ export function SwedenAircraft() {
                   intname="saab_j21a_1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1.5} />
               </td>
               <td>
                 <TechTreeItem
@@ -243,13 +207,7 @@ export function SwedenAircraft() {
                   intname="saab_b18b"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -275,7 +233,7 @@ export function SwedenAircraft() {
                   intname="saab_j21a_2"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/J26"
                   title="J26"
@@ -284,7 +242,7 @@ export function SwedenAircraft() {
                   intname="p-51d-20-na_j26"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -295,13 +253,7 @@ export function SwedenAircraft() {
                   intname="saab_a21a_3"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -312,7 +264,7 @@ export function SwedenAircraft() {
                   intname="saab_t18b_1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T18B_(57)"
                   title="T18B (57)"
@@ -321,7 +273,7 @@ export function SwedenAircraft() {
                   intname="saab_t18b_2"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -347,7 +299,7 @@ export function SwedenAircraft() {
                   intname="saab_j21ra"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/J29A"
                   title="J29A"
@@ -356,13 +308,7 @@ export function SwedenAircraft() {
                   intname="saab_j29a"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -373,7 +319,7 @@ export function SwedenAircraft() {
                   intname="saab_a21rb"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/A28B"
                   title="A28B"
@@ -382,7 +328,7 @@ export function SwedenAircraft() {
                   intname="vampire_fb5_j28b"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/A29B"
                   title="A29B"
@@ -391,7 +337,7 @@ export function SwedenAircraft() {
                   intname="saab_j29b"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -402,7 +348,7 @@ export function SwedenAircraft() {
                   intname="saab_sk60b"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/SAAB-105G"
                   title="SAAB-105G"
@@ -445,7 +391,7 @@ export function SwedenAircraft() {
                   intname="saab_j29f"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/J32B"
                   title="J32B"
@@ -454,7 +400,7 @@ export function SwedenAircraft() {
                   intname="saab_j32b"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -465,13 +411,7 @@ export function SwedenAircraft() {
                   intname="saab_a32a"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td />
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
@@ -497,7 +437,7 @@ export function SwedenAircraft() {
                   intname="saab_j35d"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/JA37C"
                   title="JA37C"

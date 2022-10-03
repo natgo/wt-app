@@ -25,7 +25,7 @@ export function BritainAircraft() {
                     intname="fury_mk1"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Fury_Mk_II"
                     title="Fury Mk II"
@@ -73,7 +73,7 @@ export function BritainAircraft() {
                   intname="nimrod_mk1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Nimrod_Mk_II"
                   title="Nimrod Mk II"
@@ -82,7 +82,7 @@ export function BritainAircraft() {
                   intname="nimrod_mk2"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Sea_Gladiator_Mk_I"
                   title="Sea Gladiator Mk I"
@@ -91,7 +91,7 @@ export function BritainAircraft() {
                   intname="gladiator_mk2_navy"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -102,7 +102,7 @@ export function BritainAircraft() {
                   intname="v_156_b1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Blenheim_Mk_IV"
                   title="Blenheim Mk IV"
@@ -111,7 +111,7 @@ export function BritainAircraft() {
                   intname="blenheim_mkiv"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Beaufort_Mk_VIII"
                   title="Beaufort Mk VIII"
@@ -120,7 +120,7 @@ export function BritainAircraft() {
                   intname="beaufort_mkviii"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -131,7 +131,7 @@ export function BritainAircraft() {
                   intname="swordfish_mk1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="Hampden Mk I" img="hp52_hampden_group">
                   <TechTreeItem
                     link="/Hampden_Mk_I"
@@ -141,7 +141,7 @@ export function BritainAircraft() {
                     intname="hp52_hampden_mk1_late"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Hampden_TB_Mk_I"
                     title="Hampden TB Mk I"
@@ -151,7 +151,7 @@ export function BritainAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Sunderland_Mk_IIIa"
                   title="Sunderland Mk IIIa"
@@ -160,7 +160,7 @@ export function BritainAircraft() {
                   intname="sunderland_mk3a"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -224,7 +224,7 @@ export function BritainAircraft() {
                     intname="hurricanemkii"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Hurricane_Mk_IV"
                     title="Hurricane Mk IV"
@@ -234,7 +234,7 @@ export function BritainAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Hurricane_Mk_I/L"
                   title="Hurricane Mk I/L"
@@ -243,7 +243,7 @@ export function BritainAircraft() {
                   intname="hurricane_mk1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Typhoon_Mk_Ia"
                   title="Typhoon Mk Ia"
@@ -263,7 +263,7 @@ export function BritainAircraft() {
                   intname="spitfire_mk1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Spitfire_Mk_IIa"
                   title="Spitfire Mk IIa"
@@ -272,7 +272,7 @@ export function BritainAircraft() {
                   intname="spitfiremkiia"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Spitfire_Mk_IIb"
                   title="Spitfire Mk IIb"
@@ -292,7 +292,7 @@ export function BritainAircraft() {
                   intname="hurricane_mk1b"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Sea_Hurricane_Mk_IC"
                   title="Sea Hurricane Mk IC"
@@ -301,29 +301,7 @@ export function BritainAircraft() {
                   intname="hurricane_mk1c"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={5} />
               </td>
               <td>
                 <TechTreeItem
@@ -334,7 +312,7 @@ export function BritainAircraft() {
                   intname="beaufighter_mk6c"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Beaufighter_Mk_X"
                   title="Beaufighter Mk X"
@@ -343,29 +321,7 @@ export function BritainAircraft() {
                   intname="beaufighter_mkx"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={5} />
               </td>
               <td>
                 <TechTreeItem
@@ -376,7 +332,7 @@ export function BritainAircraft() {
                   intname="sunderland_mk5"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="Wellington" img="wellington_group">
                   <TechTreeItem
                     link="/Wellington_Mk_Ic"
@@ -386,7 +342,7 @@ export function BritainAircraft() {
                     intname="wellington_mk1c"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Wellington_Mk_Ic/L"
                     title="Wellington Mk Ic/L"
@@ -395,7 +351,7 @@ export function BritainAircraft() {
                     intname="wellington_mk1c_late"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Wellington_Mk_III"
                     title="Wellington Mk III"
@@ -404,7 +360,7 @@ export function BritainAircraft() {
                     intname="wellington_mk3"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Wellington_Mk_X"
                     title="Wellington Mk X"
@@ -414,7 +370,7 @@ export function BritainAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Halifax_B_Mk_IIIa"
                   title="Halifax B Mk IIIa"
@@ -423,25 +379,7 @@ export function BritainAircraft() {
                   intname="halifax_mk3"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={4} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -562,7 +500,7 @@ export function BritainAircraft() {
                   intname="boomerang_mki"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Boomerang_Mk_II_(Great_Britain)"
                   title="Boomerang Mk II (Great Britain)"
@@ -585,17 +523,7 @@ export function BritainAircraft() {
                   intname="typhoon_mk1b_late"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TreeFolder name="Spitfire Mk V" img="spitfire_mk5_group">
@@ -607,7 +535,7 @@ export function BritainAircraft() {
                     intname="spitfire_mk5b"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Spitfire_Mk_Vb"
                     title="Spitfire Mk Vb"
@@ -616,7 +544,7 @@ export function BritainAircraft() {
                     intname="spitfire_mk5b_notrop"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Spitfire_Mk_Vc/trop"
                     title="Spitfire Mk Vc/trop"
@@ -625,7 +553,7 @@ export function BritainAircraft() {
                     intname="spitfire_mk5c"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Spitfire_Mk_Vc"
                     title="Spitfire Mk Vc"
@@ -635,7 +563,7 @@ export function BritainAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Spitfire_F_Mk_IX"
                   title="Spitfire F Mk IX"
@@ -644,13 +572,7 @@ export function BritainAircraft() {
                   intname="spitfire_ix_early"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TreeFolder name="Firefly" img="firefly_group">
@@ -662,7 +584,7 @@ export function BritainAircraft() {
                     intname="firefly_mk1"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Firefly_FR_Mk_V"
                     title="Firefly FR Mk V"
@@ -672,7 +594,7 @@ export function BritainAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Firebrand_TF_Mk_IV"
                   title="Firebrand TF Mk IV"
@@ -681,13 +603,7 @@ export function BritainAircraft() {
                   intname="firebrand_tf4"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TreeFolder name="Mosquito" img="mosquito_group">
@@ -699,7 +615,7 @@ export function BritainAircraft() {
                     intname="mosquito_fb_mk6"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Mosquito_FB_Mk_XVIII"
                     title="Mosquito FB Mk XVIII"
@@ -709,7 +625,7 @@ export function BritainAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Beaufighter_Mk_21"
                   title="Beaufighter Mk 21"
@@ -718,13 +634,7 @@ export function BritainAircraft() {
                   intname="beaufighter_mk21"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -735,7 +645,7 @@ export function BritainAircraft() {
                   intname="stirling_mk1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Stirling_B_Mk_III"
                   title="Stirling B Mk III"
@@ -744,13 +654,7 @@ export function BritainAircraft() {
                   intname="stirling_mk3"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -823,7 +727,7 @@ export function BritainAircraft() {
                     intname="tempest_mkv"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Tempest_Mk_V_(Vickers_P)"
                     title="Tempest Mk V (Vickers P)"
@@ -833,7 +737,7 @@ export function BritainAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Tempest_Mk_II"
                   title="Tempest Mk II"
@@ -842,13 +746,7 @@ export function BritainAircraft() {
                   intname="tempest_mk2"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -859,7 +757,7 @@ export function BritainAircraft() {
                   intname="spitfire_xvi"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Spitfire_LF_Mk_IX"
                   title="Spitfire LF Mk IX"
@@ -868,7 +766,7 @@ export function BritainAircraft() {
                   intname="spitfire_ix"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="Spitfire (Griffon)" img="spitfire_f2x_group">
                   <TechTreeItem
                     link="/Spitfire_F_Mk_XIVe"
@@ -878,7 +776,7 @@ export function BritainAircraft() {
                     intname="spitfire_mk14e"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Spitfire_F_Mk_XVIIIe"
                     title="Spitfire F Mk XVIIIe"
@@ -887,7 +785,7 @@ export function BritainAircraft() {
                     intname="spitfire_mk18e"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Spitfire_F_Mk_22"
                     title="Spitfire F Mk 22"
@@ -896,7 +794,7 @@ export function BritainAircraft() {
                     intname="spitfire_f22"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Spitfire_F_Mk_24"
                     title="Spitfire F Mk 24"
@@ -906,7 +804,7 @@ export function BritainAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -917,7 +815,7 @@ export function BritainAircraft() {
                   intname="seafire_mk3"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="Seafire" img="seafire_group">
                   <TechTreeItem
                     link="/Seafire_F_Mk_XVII"
@@ -927,7 +825,7 @@ export function BritainAircraft() {
                     intname="seafire_mk17"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Seafire_FR_47"
                     title="Seafire FR 47"
@@ -937,7 +835,7 @@ export function BritainAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Sea_Fury_FB_11"
                   title="Sea Fury FB 11"
@@ -946,7 +844,7 @@ export function BritainAircraft() {
                   intname="sea_fury_fb11"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -957,7 +855,7 @@ export function BritainAircraft() {
                   intname="whirlwind_mk1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Brigand_B_1"
                   title="Brigand B 1"
@@ -966,7 +864,7 @@ export function BritainAircraft() {
                   intname="brigand_b1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Hornet_Mk.III"
                   title="Hornet Mk.III"
@@ -975,7 +873,7 @@ export function BritainAircraft() {
                   intname="hornet_mk3"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TreeFolder name="Lancaster" img="lancaster_group">
@@ -987,7 +885,7 @@ export function BritainAircraft() {
                     intname="lancaster_mk1"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Lancaster_B_Mk_III"
                     title="Lancaster B Mk III"
@@ -997,7 +895,7 @@ export function BritainAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Lincoln_B_Mk_II"
                   title="Lincoln B Mk II"
@@ -1006,7 +904,7 @@ export function BritainAircraft() {
                   intname="lincoln_b2"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Shackleton_MR.Mk.2"
                   title="Shackleton MR.Mk.2"
@@ -1015,7 +913,7 @@ export function BritainAircraft() {
                   intname="shackleton_mr_mk_2"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -1087,7 +985,7 @@ export function BritainAircraft() {
                   intname="vampire_fb5"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Venom_FB.4"
                   title="Venom FB.4"
@@ -1096,13 +994,7 @@ export function BritainAircraft() {
                   intname="venom_fb4"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TreeFolder name="Meteor F Mk 3" img="meteor_group">
@@ -1114,7 +1006,7 @@ export function BritainAircraft() {
                     intname="meteor_fmk3"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Sea_Meteor_F_Mk_3"
                     title="Sea Meteor F Mk 3"
@@ -1124,7 +1016,7 @@ export function BritainAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="Meteor F Mk 4" img="meteor4_group">
                   <TechTreeItem
                     link="/Meteor_F_Mk_4_G.41F"
@@ -1134,7 +1026,7 @@ export function BritainAircraft() {
                     intname="meteor_fmk4_lw"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Meteor_F_Mk_4_G.41G"
                     title="Meteor F Mk 4 G.41G"
@@ -1144,7 +1036,7 @@ export function BritainAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Meteor_F_Mk_8_G.41K"
                   title="Meteor F Mk 8 G.41K"
@@ -1153,7 +1045,7 @@ export function BritainAircraft() {
                   intname="meteor_fmk8"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -1164,7 +1056,7 @@ export function BritainAircraft() {
                   intname="attaker_fb1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Sea_Hawk_FGA.6"
                   title="Sea Hawk FGA.6"
@@ -1173,7 +1065,7 @@ export function BritainAircraft() {
                   intname="sea_hawk_fga6"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Sea_Venom_FAW_20"
                   title="Sea Venom FAW 20"
@@ -1182,7 +1074,7 @@ export function BritainAircraft() {
                   intname="sea_venom_faw20"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -1193,7 +1085,7 @@ export function BritainAircraft() {
                   intname="swift_f1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Swift_F.7"
                   title="Swift F.7"
@@ -1202,13 +1094,7 @@ export function BritainAircraft() {
                   intname="swift_f7"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -1219,7 +1105,7 @@ export function BritainAircraft() {
                   intname="canberra_bmk2"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Canberra_B_(I)_Mk_6"
                   title="Canberra B (I) Mk 6"
@@ -1228,13 +1114,7 @@ export function BritainAircraft() {
                   intname="canberra_bimk6"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -1288,7 +1168,7 @@ export function BritainAircraft() {
                   intname="hunter_f1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Hunter_F.6"
                   title="Hunter F.6"
@@ -1297,7 +1177,7 @@ export function BritainAircraft() {
                   intname="hunter_f6"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -1308,7 +1188,7 @@ export function BritainAircraft() {
                   intname="javelin_fmk9"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Lightning_F.6"
                   title="Lightning F.6"
@@ -1327,13 +1207,7 @@ export function BritainAircraft() {
                   intname="scimitar_f1"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -1344,7 +1218,7 @@ export function BritainAircraft() {
                   intname="harrier_gr3"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Jaguar_GR.1"
                   title="Jaguar GR.1"
@@ -1353,7 +1227,7 @@ export function BritainAircraft() {
                   intname="jaguar_gr1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -1431,7 +1305,7 @@ export function BritainAircraft() {
                   intname="jaguar_gr1a"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Harrier_GR.7"
                   title="Harrier GR.7"
@@ -1440,7 +1314,7 @@ export function BritainAircraft() {
                   intname="harrier_gr7"
                   type="aircraft"
                 />
-                <EmptyDiv/>
+                <EmptyDiv />
               </td>
               <td>
                 <EmptyDiv />

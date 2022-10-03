@@ -24,7 +24,7 @@ export function USSRGround() {
                   intname="ussr_bt_5"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/BT-7"
                   title="BT-7"
@@ -33,7 +33,7 @@ export function USSRGround() {
                   intname="ussr_bt_7_1937"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/BT-7M"
                   title="BT-7M"
@@ -42,17 +42,7 @@ export function USSRGround() {
                   intname="ussr_bt_7_m"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -63,7 +53,7 @@ export function USSRGround() {
                   intname="ussr_t_26_1940"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T-26-4"
                   title="T-26-4"
@@ -72,7 +62,7 @@ export function USSRGround() {
                   intname="ussr_t_26_4"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T-28_(1938)"
                   title="T-28 (1938)"
@@ -81,17 +71,7 @@ export function USSRGround() {
                   intname="ussr_t_28_1938"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -102,7 +82,7 @@ export function USSRGround() {
                   intname="ussr_t_60_1941"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T-70"
                   title="T-70"
@@ -111,21 +91,7 @@ export function USSRGround() {
                   intname="ussr_t_70_1942"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={3} />
               </td>
               <td>
                 <TechTreeItem
@@ -136,7 +102,7 @@ export function USSRGround() {
                   intname="ussr_su_5_1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/SU-76M"
                   title="SU-76M"
@@ -145,21 +111,7 @@ export function USSRGround() {
                   intname="ussr_su_76m_1943"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={3} />
               </td>
               <td>
                 <TechTreeItem
@@ -170,7 +122,7 @@ export function USSRGround() {
                   intname="ussr_gaz_4m"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/GAZ-AAA_(DShK)"
                   title="GAZ-AAA (DShK)"
@@ -179,21 +131,7 @@ export function USSRGround() {
                   intname="ussr_gaz_dshk"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={3} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -301,7 +239,7 @@ export function USSRGround() {
                   intname="ussr_t_50"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="T-34" img="ussr_t_34_40_41_group">
                   <TechTreeItem
                     link="/T-34_(1940)"
@@ -311,7 +249,7 @@ export function USSRGround() {
                     intname="ussr_t_34_1941_l_11"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/T-34_(1941)"
                     title="T-34 (1941)"
@@ -321,7 +259,7 @@ export function USSRGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T-34_(1942)"
                   title="T-34 (1942)"
@@ -330,7 +268,7 @@ export function USSRGround() {
                   intname="ussr_t_34_1942"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T-34E_STZ"
                   title="T-34E STZ"
@@ -351,7 +289,7 @@ export function USSRGround() {
                     intname="ussr_t_28"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/T-28E"
                     title="T-28E"
@@ -361,7 +299,7 @@ export function USSRGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/KV-1_(L-11)"
                   title="KV-1 (L-11)"
@@ -370,7 +308,7 @@ export function USSRGround() {
                   intname="ussr_kv_1_l_11"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/KV-2_(1939)"
                   title="KV-2 (1939)"
@@ -379,7 +317,7 @@ export function USSRGround() {
                   intname="ussr_kv_2_1939"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/KV-1S"
                   title="KV-1S"
@@ -399,33 +337,7 @@ export function USSRGround() {
                   intname="ussr_t_80"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={6} />
               </td>
               <td>
                 <TechTreeItem
@@ -436,7 +348,7 @@ export function USSRGround() {
                   intname="ussr_su_122"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/ZiS-30"
                   title="ZiS-30"
@@ -445,7 +357,7 @@ export function USSRGround() {
                   intname="ussr_zis_30"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/SU-57B"
                   title="SU-57B"
@@ -454,7 +366,7 @@ export function USSRGround() {
                   intname="ussr_su_57b"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/YaG-10_(29-K)"
                   title="YaG-10 (29-K)"
@@ -463,21 +375,7 @@ export function USSRGround() {
                   intname="ussr_zsu_29k"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={3} />
               </td>
               <td>
                 <TechTreeItem
@@ -488,7 +386,7 @@ export function USSRGround() {
                   intname="ussr_gaz_mm_72k"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/BTR-152A"
                   title="BTR-152A"
@@ -497,7 +395,7 @@ export function USSRGround() {
                   intname="ussr_btr_152a"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/ZiS-12_(94-KM)"
                   title="ZiS-12 (94-KM)"
@@ -506,25 +404,7 @@ export function USSRGround() {
                   intname="ussr_zis_12_94km_1945"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={4} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -659,7 +539,7 @@ export function USSRGround() {
                   intname="ussr_t_34_1941_57"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T-34-85_(D-5T)"
                   title="T-34-85 (D-5T)"
@@ -668,21 +548,7 @@ export function USSRGround() {
                   intname="ussr_t_34_85_d_5t"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={3} />
               </td>
               <td>
                 <TechTreeItem
@@ -693,7 +559,7 @@ export function USSRGround() {
                   intname="ussr_kv_1_zis_5"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/KV-85"
                   title="KV-85"
@@ -702,7 +568,7 @@ export function USSRGround() {
                   intname="ussr_kv_85"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/IS-1"
                   title="IS-1"
@@ -711,17 +577,7 @@ export function USSRGround() {
                   intname="ussr_is_1"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -732,7 +588,7 @@ export function USSRGround() {
                   intname="ussr_asu_57"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/PT-76B"
                   title="PT-76B"
@@ -741,21 +597,7 @@ export function USSRGround() {
                   intname="ussr_pt_76b"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={3} />
               </td>
               <td>
                 <TreeFolder name="SU-152/ISU-152" img="ussr_su_isu_group">
@@ -767,7 +609,7 @@ export function USSRGround() {
                     intname="ussr_su_152"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/ISU-152"
                     title="ISU-152"
@@ -777,7 +619,7 @@ export function USSRGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="SU-85" img="ussr_su_85_group">
                   <TechTreeItem
                     link="/SU-85"
@@ -787,7 +629,7 @@ export function USSRGround() {
                     intname="ussr_su_85_1943"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/SU-85M"
                     title="SU-85M"
@@ -797,7 +639,7 @@ export function USSRGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/ISU-122"
                   title="ISU-122"
@@ -806,17 +648,7 @@ export function USSRGround() {
                   intname="ussr_isu_122"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -827,7 +659,7 @@ export function USSRGround() {
                   intname="ussr_zis_43"
                   type="ground"
                 />
-                <Arrow type="small"/>
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/ZSU-37"
                   title="ZSU-37"
@@ -836,21 +668,7 @@ export function USSRGround() {
                   intname="ussr_zsu_37"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={3} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -949,7 +767,7 @@ export function USSRGround() {
                   intname="ussr_t_34_85_zis_53"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T-44"
                   title="T-44"
@@ -958,7 +776,7 @@ export function USSRGround() {
                   intname="ussr_t_44"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T-44-100"
                   title="T-44-100"
@@ -967,21 +785,7 @@ export function USSRGround() {
                   intname="ussr_t_44_100"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={3} />
               </td>
               <td>
                 <TechTreeItem
@@ -992,7 +796,7 @@ export function USSRGround() {
                   intname="ussr_is_2_1943"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="IS-2 (1944)" img="ussr_is_2_1944_group">
                   <TechTreeItem
                     link="/IS-2_(1944)"
@@ -1019,25 +823,7 @@ export function USSRGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={4} />
               </td>
               <td>
                 <TechTreeItem
@@ -1048,7 +834,7 @@ export function USSRGround() {
                   intname="ussr_asu_85"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/SU-100P"
                   title="SU-100P"
@@ -1057,25 +843,7 @@ export function USSRGround() {
                   intname="ussr_su_100p"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={4} />
               </td>
               <td>
                 <TechTreeItem
@@ -1086,7 +854,7 @@ export function USSRGround() {
                   intname="ussr_isu_122s"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/SU-100"
                   title="SU-100"
@@ -1095,7 +863,7 @@ export function USSRGround() {
                   intname="ussr_su_100_1945"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/2S3M"
                   title="2S3M"
@@ -1104,21 +872,7 @@ export function USSRGround() {
                   intname="ussr_2s3m"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={3} />
               </td>
               <td>
                 <TechTreeItem
@@ -1129,29 +883,7 @@ export function USSRGround() {
                   intname="ussr_btr_zd"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={5} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -1259,7 +991,7 @@ export function USSRGround() {
                   intname="ussr_t_54_1949"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="T-54" img="ussr_t_54_group">
                   <TechTreeItem
                     link="/T-54_(1947)"
@@ -1269,7 +1001,7 @@ export function USSRGround() {
                     intname="ussr_t_54_1947"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/T-54_(1951)"
                     title="T-54 (1951)"
@@ -1279,7 +1011,7 @@ export function USSRGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -1290,7 +1022,7 @@ export function USSRGround() {
                   intname="ussr_is_3"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/IS-4M"
                   title="IS-4M"
@@ -1299,7 +1031,7 @@ export function USSRGround() {
                   intname="ussr_is_4m"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -1310,7 +1042,7 @@ export function USSRGround() {
                   intname="ussr_bmp_1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Object_906"
                   title="Object 906"
@@ -1319,7 +1051,7 @@ export function USSRGround() {
                   intname="ussr_object_906"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -1330,7 +1062,7 @@ export function USSRGround() {
                   intname="ussr_su_122_54"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Object_268"
                   title="Object 268"
@@ -1339,7 +1071,7 @@ export function USSRGround() {
                   intname="ussr_object_268"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -1350,13 +1082,7 @@ export function USSRGround() {
                   intname="ussr_zsu_57_2"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -1401,7 +1127,7 @@ export function USSRGround() {
                   intname="ussr_t_55a"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T-55AMD-1"
                   title="T-55AMD-1"
@@ -1410,7 +1136,7 @@ export function USSRGround() {
                   intname="ussr_t_55_amd_1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="T-62" img="t_62_group">
                   <TechTreeItem
                     link="/T-62"
@@ -1420,7 +1146,7 @@ export function USSRGround() {
                     intname="ussr_t_62"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/T-62M-1"
                     title="T-62M-1"
@@ -1430,7 +1156,7 @@ export function USSRGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T-72A"
                   title="T-72A"
@@ -1439,7 +1165,7 @@ export function USSRGround() {
                   intname="ussr_t_72a"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="T-72B" img="t_72b_group">
                   <TechTreeItem
                     link="/T-72B"
@@ -1449,7 +1175,7 @@ export function USSRGround() {
                     intname="ussr_t_72b"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/T-72B_(1989)"
                     title="T-72B (1989)"
@@ -1459,7 +1185,7 @@ export function USSRGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -1470,7 +1196,7 @@ export function USSRGround() {
                   intname="ussr_t_10m"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T-64A_(1971)"
                   title="T-64A (1971)"
@@ -1479,7 +1205,7 @@ export function USSRGround() {
                   intname="ussr_t_64a_1971"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T-64B"
                   title="T-64B"
@@ -1488,7 +1214,7 @@ export function USSRGround() {
                   intname="ussr_t_64_b_1984"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T-80B"
                   title="T-80B"
@@ -1497,13 +1223,7 @@ export function USSRGround() {
                   intname="ussr_t_80b"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -1514,7 +1234,7 @@ export function USSRGround() {
                   intname="ussr_bmp_2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/BMP-3"
                   title="BMP-3"
@@ -1523,7 +1243,7 @@ export function USSRGround() {
                   intname="ussr_bmp_3"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Object_685"
                   title="Object 685"
@@ -1532,17 +1252,7 @@ export function USSRGround() {
                   intname="ussr_object_685"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -1553,7 +1263,7 @@ export function USSRGround() {
                   intname="ussr_it_1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Shturm-S"
                   title="Shturm-S"
@@ -1562,21 +1272,7 @@ export function USSRGround() {
                   intname="ussr_9p149"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={3} />
               </td>
               <td>
                 <TechTreeItem
@@ -1587,7 +1283,7 @@ export function USSRGround() {
                   intname="ussr_zsu_37_2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/ZSU-23-4"
                   title="ZSU-23-4"
@@ -1596,21 +1292,7 @@ export function USSRGround() {
                   intname="ussr_zsu_23_4"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={3} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -1680,7 +1362,7 @@ export function USSRGround() {
                   intname="ussr_t_90a"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T-72B3"
                   title="T-72B3"
@@ -1700,7 +1382,7 @@ export function USSRGround() {
                   intname="ussr_t_80u"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/T-80BVM"
                   title="T-80BVM"
@@ -1720,7 +1402,7 @@ export function USSRGround() {
                   intname="ussr_2s25"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/2S25M"
                   title="2S25M"

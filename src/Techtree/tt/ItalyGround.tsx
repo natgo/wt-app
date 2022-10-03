@@ -24,7 +24,7 @@ export function ItalyGround() {
                   intname="it_ab_41"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M11/39"
                   title="M11/39"
@@ -33,13 +33,7 @@ export function ItalyGround() {
                   intname="it_m11_39"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -50,7 +44,7 @@ export function ItalyGround() {
                   intname="it_l6"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="M13/40 I/III" img="it_m13_40_group">
                   <TechTreeItem
                     link="/M13/40_(I)"
@@ -60,7 +54,7 @@ export function ItalyGround() {
                     intname="it_m13_40_serie_1"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/M13/40_(III)"
                     title="M13/40 (III)"
@@ -70,7 +64,7 @@ export function ItalyGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M14/41"
                   title="M14/41"
@@ -79,7 +73,7 @@ export function ItalyGround() {
                   intname="it_m14_41"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -90,17 +84,7 @@ export function ItalyGround() {
                   intname="it_as_42_metropolitana"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -111,7 +95,7 @@ export function ItalyGround() {
                   intname="it_l3_cc"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/47/32_L40"
                   title="47/32 L40"
@@ -120,7 +104,7 @@ export function ItalyGround() {
                   intname="it_semovente_l40"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Lancia_3Ro_(100/17)"
                   title="Lancia 3Ro (100/17)"
@@ -129,7 +113,7 @@ export function ItalyGround() {
                   intname="it_lancia3ro_100"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -174,7 +158,7 @@ export function ItalyGround() {
                   intname="it_ab_43"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M3A3_(Italy)"
                   title="M3A3 (Italy)"
@@ -183,7 +167,7 @@ export function ItalyGround() {
                   intname="it_m3a3_stuart"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M24_(Italy)"
                   title="M24 (Italy)"
@@ -192,7 +176,7 @@ export function ItalyGround() {
                   intname="it_m24_chaffee"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -203,7 +187,7 @@ export function ItalyGround() {
                   intname="it_m15_42"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Pz.III_N_(Italy)"
                   title="Pz.III N (Italy)"
@@ -212,7 +196,7 @@ export function ItalyGround() {
                   intname="it_pzkpfw_iii_ausf_n"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/P40"
                   title="P40"
@@ -221,7 +205,7 @@ export function ItalyGround() {
                   intname="it_p_40"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -232,17 +216,7 @@ export function ItalyGround() {
                   intname="it_m15_42_contraereo"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TreeFolder name="M41 (75/18 75/32)" img="it_semovente_m41_group">
@@ -254,7 +228,7 @@ export function ItalyGround() {
                     intname="it_semovente_m41_75_18"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/75/32_M41"
                     title="75/32 M41"
@@ -264,7 +238,7 @@ export function ItalyGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/75/34_M42"
                   title="75/34 M42"
@@ -273,7 +247,7 @@ export function ItalyGround() {
                   intname="it_semovente_m42_75_34"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="M43 (105/25 75/34)" img="it_semovente_m43_group">
                   <TechTreeItem
                     link="/105/25_M43"
@@ -283,7 +257,7 @@ export function ItalyGround() {
                     intname="it_semovente_m43_105"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/75/34_M43"
                     title="75/34 M43"
@@ -293,7 +267,7 @@ export function ItalyGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -356,7 +330,7 @@ export function ItalyGround() {
                   intname="it_semovente_breda_501"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M18_(Italy)"
                   title="M18 (Italy)"
@@ -365,13 +339,7 @@ export function ItalyGround() {
                   intname="it_m18_hellcat"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -382,7 +350,7 @@ export function ItalyGround() {
                   intname="it_m4a4_sherman"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M4_Tipo_IC"
                   title="M4 Tipo IC"
@@ -391,7 +359,7 @@ export function ItalyGround() {
                   intname="it_sherman_vii"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Sherman_Vc_(Italy)"
                   title="Sherman Vc (Italy)"
@@ -400,7 +368,7 @@ export function ItalyGround() {
                   intname="it_sherman_vc_firefly"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -411,17 +379,7 @@ export function ItalyGround() {
                   intname="it_oto_r3_t20_fa"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -432,7 +390,7 @@ export function ItalyGround() {
                   intname="it_semovente_m41m_90"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/StuG_III_G_(Italy)"
                   title="StuG III G (Italy)"
@@ -441,7 +399,7 @@ export function ItalyGround() {
                   intname="it_stug_iii_ausf_g"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/75/46_M43"
                   title="75/46 M43"
@@ -450,7 +408,7 @@ export function ItalyGround() {
                   intname="it_semovente_m43_75_46"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -495,7 +453,7 @@ export function ItalyGround() {
                   intname="it_fiat_6614_106sr"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/AUBL/74"
                   title="AUBL/74"
@@ -504,7 +462,7 @@ export function ItalyGround() {
                   intname="it_fiat_6616_cockerill"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -515,24 +473,10 @@ export function ItalyGround() {
                   intname="it_m26a1_pershing"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1.5} />
               </td>
               <td>
                 <TechTreeItem
@@ -543,13 +487,7 @@ export function ItalyGround() {
                   intname="it_m36b1"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -577,7 +515,7 @@ export function ItalyGround() {
                   intname="it_c13_t90"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/R3_T106_FA"
                   title="R3 T106 FA"
@@ -586,7 +524,7 @@ export function ItalyGround() {
                   intname="it_oto_r3_106sr"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -597,7 +535,7 @@ export function ItalyGround() {
                   intname="it_m47_105"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/OF-40"
                   title="OF-40"
@@ -606,7 +544,7 @@ export function ItalyGround() {
                   intname="it_of_40_mk_1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -617,13 +555,7 @@ export function ItalyGround() {
                   intname="it_otobreda_sidam_25"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -634,13 +566,7 @@ export function ItalyGround() {
                   intname="it_m113a1_tow"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -675,7 +601,7 @@ export function ItalyGround() {
                   intname="it_b1_centauro"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Centauro_I_105_R"
                   title="Centauro I 105 R"
@@ -684,7 +610,7 @@ export function ItalyGround() {
                   intname="it_b1_centauro_romor"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/VCC-80/60"
                   title="VCC-80/60"
@@ -693,7 +619,7 @@ export function ItalyGround() {
                   intname="it_vcc_80_hitfist_60"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -704,7 +630,7 @@ export function ItalyGround() {
                   intname="it_of_40_mk_2a"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Leopard_1A5_(Italy)"
                   title="Leopard 1A5 (Italy)"
@@ -713,7 +639,7 @@ export function ItalyGround() {
                   intname="it_leopard_1a5"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ariete_(P)"
                   title="Ariete (P)"
@@ -722,22 +648,10 @@ export function ItalyGround() {
                   intname="it_c1_ariete_preserie"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2.5} />
               </td>
               <td>
                 <TechTreeItem
@@ -748,7 +662,7 @@ export function ItalyGround() {
                   intname="it_vbc_pt2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Dardo"
                   title="Dardo"
@@ -757,13 +671,7 @@ export function ItalyGround() {
                   intname="it_dardo_vcc"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -808,7 +716,7 @@ export function ItalyGround() {
                   intname="it_c1_ariete_pso"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ariete"
                   title="Ariete"
@@ -828,7 +736,7 @@ export function ItalyGround() {
                   intname="it_otobreda_sidam_25_mistral"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/OTOMATIC"
                   title="OTOMATIC"

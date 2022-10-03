@@ -24,7 +24,7 @@ export function IsraelAircraft() {
                   intname="spitfire_mk9c_iaf"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Spitfire_Mk.IX_(CW)_(Israel)"
                   title="Spitfire Mk.IX (CW) (Israel)"
@@ -33,7 +33,7 @@ export function IsraelAircraft() {
                   intname="spitfire_lf_mk9e_iaf"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -44,7 +44,7 @@ export function IsraelAircraft() {
                   intname="s_199"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/P-51D-20-NA_(Israel)"
                   title="P-51D-20-NA (Israel)"
@@ -53,7 +53,7 @@ export function IsraelAircraft() {
                   intname="p-51d-20-na_iaf"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -64,13 +64,7 @@ export function IsraelAircraft() {
                   intname="b-17g_iaf"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -96,7 +90,7 @@ export function IsraelAircraft() {
                   intname="meteor_nfmk13"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Meteor_F.8_(Israel)"
                   title="Meteor F.8 (Israel)"
@@ -105,7 +99,7 @@ export function IsraelAircraft() {
                   intname="meteor_fmk8_iaf"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -116,13 +110,7 @@ export function IsraelAircraft() {
                   intname="md_450b_ouragan_iaf"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -133,7 +121,7 @@ export function IsraelAircraft() {
                   intname="so_4050_vautour_2a_israel_iaf"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Vautour_IIN_(Israel)"
                   title="Vautour IIN (Israel)"
@@ -142,7 +130,7 @@ export function IsraelAircraft() {
                   intname="so_4050_vautour_2n_iaf"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -168,7 +156,7 @@ export function IsraelAircraft() {
                   intname="md_454_mystere_4a_iaf"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Sambad"
                   title="Sambad"
@@ -177,7 +165,7 @@ export function IsraelAircraft() {
                   intname="md_460_sambad"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Sa%27ar"
                   title="Sa'ar"
@@ -186,7 +174,7 @@ export function IsraelAircraft() {
                   intname="md_460_saar"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -197,7 +185,7 @@ export function IsraelAircraft() {
                   intname="a_4h"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/A-4E_Early_(M)_(Israel)"
                   title="A-4E Early (M) (Israel)"
@@ -206,7 +194,7 @@ export function IsraelAircraft() {
                   intname="a_4e_early_iaf"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/A-4N_(Israel)"
                   title="A-4N (Israel)"
@@ -215,22 +203,10 @@ export function IsraelAircraft() {
                   intname="a_4n"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2.5} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -256,7 +232,7 @@ export function IsraelAircraft() {
                   intname="mirage_3cj"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Kfir_C.7"
                   title="Kfir C.7"

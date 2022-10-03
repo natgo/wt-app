@@ -33,7 +33,7 @@ export function JapanGround() {
                   intname="jp_type_98_ke_ni"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ka-Mi"
                   title="Ka-Mi"
@@ -42,7 +42,7 @@ export function JapanGround() {
                   intname="jp_type_2_ka_mi"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -53,7 +53,7 @@ export function JapanGround() {
                   intname="jp_type_89b_i_go_otsu"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Chi-Ha"
                   title="Chi-Ha"
@@ -62,7 +62,7 @@ export function JapanGround() {
                   intname="jp_type_97_chi_ha"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ho-I"
                   title="Ho-I"
@@ -71,7 +71,7 @@ export function JapanGround() {
                   intname="jp_type_2_ho_i"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -82,7 +82,7 @@ export function JapanGround() {
                   intname="jp_type_4_ho_ro"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ro-Go_Exp."
                   title="Ro-Go Exp."
@@ -91,13 +91,7 @@ export function JapanGround() {
                   intname="jp_hiro_sha"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -108,7 +102,7 @@ export function JapanGround() {
                   intname="jp_type_94"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ta-Se"
                   title="Ta-Se"
@@ -117,13 +111,7 @@ export function JapanGround() {
                   intname="jp_type_98_ta_se"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -168,19 +156,7 @@ export function JapanGround() {
             <tr>
               <Rank rank="II" />
               <td>
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2.5} />
               </td>
               <td>
                 <TechTreeItem
@@ -191,7 +167,7 @@ export function JapanGround() {
                   intname="jp_type_97_kai"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Chi-He"
                   title="Chi-He"
@@ -200,7 +176,7 @@ export function JapanGround() {
                   intname="jp_type_1_chi_he"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Chi-Nu"
                   title="Chi-Nu"
@@ -209,7 +185,7 @@ export function JapanGround() {
                   intname="jp_type_3_chi_nu"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -220,7 +196,7 @@ export function JapanGround() {
                   intname="jp_type_3_ho_ni_i"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ho-Ni_III"
                   title="Ho-Ni III"
@@ -229,7 +205,7 @@ export function JapanGround() {
                   intname="jp_type_3_ho_ni_iii"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Chi-Ha_LG"
                   title="Chi-Ha LG"
@@ -238,7 +214,7 @@ export function JapanGround() {
                   intname="jp_navy_120mm_spg"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -249,7 +225,7 @@ export function JapanGround() {
                   intname="jp_halftrack_m16"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/So-Ki"
                   title="So-Ki"
@@ -258,13 +234,7 @@ export function JapanGround() {
                   intname="jp_type_95_so_ki"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -299,7 +269,7 @@ export function JapanGround() {
                   intname="jp_m24_chaffee"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M4A3_(76)_W_(Japan)"
                   title="M4A3 (76) W (Japan)"
@@ -308,13 +278,7 @@ export function JapanGround() {
                   intname="jp_m4a3e8_76w_sherman"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -325,7 +289,7 @@ export function JapanGround() {
                   intname="jp_type_4_chi_to"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Chi-To_Late"
                   title="Chi-To Late"
@@ -334,7 +298,7 @@ export function JapanGround() {
                   intname="jp_type_4_chi_to_late"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Chi-Ri_II"
                   title="Chi-Ri II"
@@ -343,7 +307,7 @@ export function JapanGround() {
                   intname="jp_type_5_chi_ri"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -354,17 +318,7 @@ export function JapanGround() {
                   intname="jp_type_5_na_to"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -375,17 +329,7 @@ export function JapanGround() {
                   intname="jp_m19"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -420,7 +364,7 @@ export function JapanGround() {
                   intname="jp_m41_walker_bulldog"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Type_60_SPRG_(C)"
                   title="Type 60 SPRG (C)"
@@ -429,13 +373,7 @@ export function JapanGround() {
                   intname="jp_type_60_sprg"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TreeFolder name="ST-A" img="jp_st_group">
@@ -447,7 +385,7 @@ export function JapanGround() {
                     intname="jp_st_a1"
                     type="ground"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/ST-A2"
                     title="ST-A2"
@@ -457,7 +395,7 @@ export function JapanGround() {
                     type="ground"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Type_61"
                   title="Type 61"
@@ -466,7 +404,7 @@ export function JapanGround() {
                   intname="jp_type_61"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/ST-A3"
                   title="ST-A3"
@@ -475,7 +413,7 @@ export function JapanGround() {
                   intname="jp_st_a3"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -486,7 +424,7 @@ export function JapanGround() {
                   intname="jp_m36b2_jgsdf"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Type_75_SPH"
                   title="Type 75 SPH"
@@ -495,13 +433,7 @@ export function JapanGround() {
                   intname="jp_type_75"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -512,17 +444,7 @@ export function JapanGround() {
                   intname="jp_m42_duster"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -548,7 +470,7 @@ export function JapanGround() {
                   intname="jp_type_60_atm"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Type_87_RCV"
                   title="Type 87 RCV"
@@ -557,13 +479,7 @@ export function JapanGround() {
                   intname="jp_type_87_rcv"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -574,7 +490,7 @@ export function JapanGround() {
                   intname="jp_m47_patton_ii"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/STB-1"
                   title="STB-1"
@@ -583,7 +499,7 @@ export function JapanGround() {
                   intname="jp_st_b1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Type_74_(C)"
                   title="Type 74 (C)"
@@ -592,7 +508,7 @@ export function JapanGround() {
                   intname="jp_type_74_c"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -603,32 +519,10 @@ export function JapanGround() {
                   intname="jp_type_5_ho_ri_production"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2.5} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -664,7 +558,7 @@ export function JapanGround() {
                   intname="jp_type_74"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Type_74_(F)"
                   title="Type 74 (F)"
@@ -673,7 +567,7 @@ export function JapanGround() {
                   intname="jp_type_74_f"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -684,13 +578,7 @@ export function JapanGround() {
                   intname="jp_type_16_mcv_prot"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -701,13 +589,7 @@ export function JapanGround() {
                   intname="jp_type_87"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -735,7 +617,7 @@ export function JapanGround() {
                   intname="jp_type_90"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Type_90_(B)"
                   title="Type 90 (B)"
@@ -744,7 +626,7 @@ export function JapanGround() {
                   intname="jp_type_90b"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Type_10"
                   title="Type 10"

@@ -35,7 +35,7 @@ export function JapanAircraft() {
                     intname="ki_10_1"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Ki-10-II"
                     title="Ki-10-II"
@@ -44,7 +44,7 @@ export function JapanAircraft() {
                     intname="ki_10_2"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Ki-10-I_C"
                     title="Ki-10-I C"
@@ -70,7 +70,7 @@ export function JapanAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ki-27_otsu"
                   title="Ki-27 otsu"
@@ -89,7 +89,7 @@ export function JapanAircraft() {
                   intname="ki_32"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ki-45_tei"
                   title="Ki-45 tei"
@@ -98,7 +98,7 @@ export function JapanAircraft() {
                   intname="ki-45_tei"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/J1N1"
                   title="J1N1"
@@ -107,7 +107,7 @@ export function JapanAircraft() {
                   intname="j1n1_mod11_early"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -118,7 +118,7 @@ export function JapanAircraft() {
                   intname="b5n2"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/D3A1"
                   title="D3A1"
@@ -127,13 +127,7 @@ export function JapanAircraft() {
                   intname="d3a1"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -144,7 +138,7 @@ export function JapanAircraft() {
                   intname="f1m2"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ki-21-Ia"
                   title="Ki-21-Ia"
@@ -153,7 +147,7 @@ export function JapanAircraft() {
                   intname="ki_21_1ko"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="H6K/H8K" img="h6k_h8k_group">
                   <TechTreeItem
                     link="/H6K4"
@@ -163,7 +157,7 @@ export function JapanAircraft() {
                     intname="h6k4"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/H8K2"
                     title="H8K2"
@@ -173,7 +167,7 @@ export function JapanAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -228,7 +222,7 @@ export function JapanAircraft() {
                     intname="a6m2_n_zero"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/N1K1"
                     title="N1K1"
@@ -238,7 +232,7 @@ export function JapanAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="A6M2" img="a6m2_group">
                   <TechTreeItem
                     link="/A6M2_mod._11"
@@ -248,7 +242,7 @@ export function JapanAircraft() {
                     intname="a6m2_mod11"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/A6M2"
                     title="A6M2"
@@ -258,7 +252,7 @@ export function JapanAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/J2M2"
                   title="J2M2"
@@ -278,7 +272,7 @@ export function JapanAircraft() {
                     intname="ki_43_1"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Ki-43-II"
                     title="Ki-43-II"
@@ -288,7 +282,7 @@ export function JapanAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="Ki-44" img="ki_44_group">
                   <TechTreeItem
                     link="/Ki-44-I"
@@ -298,7 +292,7 @@ export function JapanAircraft() {
                     intname="ki_44_1"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Ki-44-II_hei"
                     title="Ki-44-II hei"
@@ -308,7 +302,7 @@ export function JapanAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="Ki-61" img="ki_61_group">
                   <TechTreeItem
                     link="/Ki-61-I_ko"
@@ -318,7 +312,7 @@ export function JapanAircraft() {
                     intname="ki_61_1a_ko"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Ki-61-I_otsu"
                     title="Ki-61-I otsu"
@@ -327,7 +321,7 @@ export function JapanAircraft() {
                     intname="ki_61_1a_otsu"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Ki-100"
                     title="Ki-100"
@@ -348,7 +342,7 @@ export function JapanAircraft() {
                     intname="ki-45_otsu"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Ki-45_hei"
                     title="Ki-45 hei"
@@ -358,7 +352,7 @@ export function JapanAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ki-45_ko"
                   title="Ki-45 ko"
@@ -367,7 +361,7 @@ export function JapanAircraft() {
                   intname="ki-45_ko"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ki-109"
                   title="Ki-109"
@@ -376,7 +370,7 @@ export function JapanAircraft() {
                   intname="ki_109"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TreeFolder name="B6N" img="b6n_group">
@@ -388,7 +382,7 @@ export function JapanAircraft() {
                     intname="b6n1"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/B6N2_Model_12"
                     title="B6N2 Model 12"
@@ -397,7 +391,7 @@ export function JapanAircraft() {
                     intname="b6n2"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/B6N2a_Model_12Ko"
                     title="B6N2a Model 12Ko"
@@ -407,7 +401,7 @@ export function JapanAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/D4Y1"
                   title="D4Y1"
@@ -416,7 +410,7 @@ export function JapanAircraft() {
                   intname="d4y1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="D4Y" img="d4y_group">
                   <TechTreeItem
                     link="/D4Y2"
@@ -426,7 +420,7 @@ export function JapanAircraft() {
                     intname="d4y2"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/D4Y3_Ko"
                     title="D4Y3 Ko"
@@ -436,7 +430,7 @@ export function JapanAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -447,7 +441,7 @@ export function JapanAircraft() {
                   intname="g4m1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ki-49-I"
                   title="Ki-49-I"
@@ -456,7 +450,7 @@ export function JapanAircraft() {
                   intname="ki-49_1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ki-49-IIa"
                   title="Ki-49-IIa"
@@ -465,7 +459,7 @@ export function JapanAircraft() {
                   intname="ki-49_2a"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -538,7 +532,7 @@ export function JapanAircraft() {
                     intname="a6m3_zero"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/A6M3_mod._22"
                     title="A6M3 mod. 22"
@@ -547,7 +541,7 @@ export function JapanAircraft() {
                     intname="a6m3_mod22_zero"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/A6M3_mod._22Ko"
                     title="A6M3 mod. 22Ko"
@@ -557,7 +551,7 @@ export function JapanAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="A6M5" img="a6m5_group">
                   <TechTreeItem
                     link="/A6M5"
@@ -567,7 +561,7 @@ export function JapanAircraft() {
                     intname="a6m5_zero"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/A6M5_otsu"
                     title="A6M5 otsu"
@@ -576,7 +570,7 @@ export function JapanAircraft() {
                     intname="a6m5otsu"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/A6M5_Hei"
                     title="A6M5 Hei"
@@ -586,7 +580,7 @@ export function JapanAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/A7M2"
                   title="A7M2"
@@ -595,7 +589,7 @@ export function JapanAircraft() {
                   intname="a7m2"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -606,7 +600,7 @@ export function JapanAircraft() {
                   intname="ki_43_3_otsu"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="Ki-61-I late" img="ki_61_late_group">
                   <TechTreeItem
                     link="/Ki-61-I_hei"
@@ -616,7 +610,7 @@ export function JapanAircraft() {
                     intname="ki_61_1a_hei"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Ki-61-I_tei"
                     title="Ki-61-I tei"
@@ -626,7 +620,7 @@ export function JapanAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ki-61-II_Otsu_Kai"
                   title="Ki-61-II Otsu Kai"
@@ -635,7 +629,7 @@ export function JapanAircraft() {
                   intname="ki_61_2_early"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -646,7 +640,7 @@ export function JapanAircraft() {
                   intname="ki_102_otsu"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ki-108_Kai"
                   title="Ki-108 Kai"
@@ -655,13 +649,7 @@ export function JapanAircraft() {
                   intname="ki_108"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -672,17 +660,7 @@ export function JapanAircraft() {
                   intname="b7a2"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -693,7 +671,7 @@ export function JapanAircraft() {
                   intname="ki-49_2b"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ki-49-IIb/L"
                   title="Ki-49-IIb/L"
@@ -702,7 +680,7 @@ export function JapanAircraft() {
                   intname="ki-49_2b_late"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="Ki-67" img="ki_67_group">
                   <TechTreeItem
                     link="/Ki-67-I_Ko"
@@ -712,7 +690,7 @@ export function JapanAircraft() {
                     intname="ki_67_1_ko"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/Ki-67-I_otsu"
                     title="Ki-67-I otsu"
@@ -722,7 +700,7 @@ export function JapanAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -795,7 +773,7 @@ export function JapanAircraft() {
                     intname="n1k1_ja"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/N1K2-J"
                     title="N1K2-J"
@@ -804,7 +782,7 @@ export function JapanAircraft() {
                     intname="n1k2_j"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/N1K2-Ja"
                     title="N1K2-Ja"
@@ -814,7 +792,7 @@ export function JapanAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="J2M" img="j2m_group">
                   <TechTreeItem
                     link="/J2M3"
@@ -824,7 +802,7 @@ export function JapanAircraft() {
                     intname="j2m3"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/J2M5"
                     title="J2M5"
@@ -834,7 +812,7 @@ export function JapanAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/J7W1"
                   title="J7W1"
@@ -843,13 +821,7 @@ export function JapanAircraft() {
                   intname="j7w1"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -860,7 +832,7 @@ export function JapanAircraft() {
                   intname="ki_84_ko"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ki-84_otsu"
                   title="Ki-84 otsu"
@@ -869,7 +841,7 @@ export function JapanAircraft() {
                   intname="ki_84_otsu"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ki-84_hei"
                   title="Ki-84 hei"
@@ -878,13 +850,7 @@ export function JapanAircraft() {
                   intname="ki_84_hei"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -895,7 +861,7 @@ export function JapanAircraft() {
                   intname="j5n1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ki-83"
                   title="Ki-83"
@@ -914,21 +880,7 @@ export function JapanAircraft() {
                   intname="p1y1_mod11"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={3} />
               </td>
               <td>
                 <TechTreeItem
@@ -939,7 +891,7 @@ export function JapanAircraft() {
                   intname="g5n1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/G8N1"
                   title="G8N1"
@@ -1027,7 +979,7 @@ export function JapanAircraft() {
                   intname="kitsuka"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/F-86F-30_(Japan)"
                   title="F-86F-30 (Japan)"
@@ -1036,7 +988,7 @@ export function JapanAircraft() {
                   intname="f-86f-30_japan"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/F-86F-40_(Japan)"
                   title="F-86F-40 (Japan)"
@@ -1045,7 +997,7 @@ export function JapanAircraft() {
                   intname="f-86f-40_japan"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -1056,17 +1008,7 @@ export function JapanAircraft() {
                   intname="j8m1"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td />
               <td>
@@ -1078,7 +1020,7 @@ export function JapanAircraft() {
                   intname="r2y2_v1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/R2Y2_Kai_V2"
                   title="R2Y2 Kai V2"
@@ -1087,7 +1029,7 @@ export function JapanAircraft() {
                   intname="r2y2_v2"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/R2Y2_Kai_V3"
                   title="R2Y2 Kai V3"
@@ -1121,13 +1063,7 @@ export function JapanAircraft() {
                   intname="f-104j"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -1138,7 +1074,7 @@ export function JapanAircraft() {
                   intname="t2"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/F-1"
                   title="F-1"
@@ -1165,7 +1101,7 @@ export function JapanAircraft() {
                   intname="f-4ej"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/F-4EJ_Kai_Phantom_II"
                   title="F-4EJ Kai Phantom II"

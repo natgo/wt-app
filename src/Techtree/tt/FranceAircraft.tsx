@@ -25,7 +25,7 @@ export function FranceAircraft() {
                     intname="d_371"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/D.373"
                     title="D.373"
@@ -35,7 +35,7 @@ export function FranceAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/C.R.714"
                   title="C.R.714"
@@ -44,7 +44,7 @@ export function FranceAircraft() {
                   intname="caudron_cr714"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="M.S.405/406" img="ms_405_406_group">
                   <TechTreeItem
                     link="/M.S.405C1"
@@ -54,7 +54,7 @@ export function FranceAircraft() {
                     intname="ms_405c1"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/M.S.406C1"
                     title="M.S.406C1"
@@ -64,7 +64,7 @@ export function FranceAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TreeFolder name="D.500" img="d_500_group">
@@ -76,7 +76,7 @@ export function FranceAircraft() {
                     intname="d_500"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/D.501"
                     title="D.501"
@@ -86,7 +86,7 @@ export function FranceAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="H-75" img="h-75_france_group">
                   <TechTreeItem
                     link="/H-75A-1"
@@ -96,7 +96,7 @@ export function FranceAircraft() {
                     intname="h-75a-1_france"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/H-75A-4"
                     title="H-75A-4"
@@ -106,7 +106,7 @@ export function FranceAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Br.693AB2"
                   title="Br.693AB2"
@@ -115,7 +115,7 @@ export function FranceAircraft() {
                   intname="br_693_ab2"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -126,17 +126,7 @@ export function FranceAircraft() {
                   intname="v_156_f"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -147,7 +137,7 @@ export function FranceAircraft() {
                   intname="potez_633"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Martin_167-A3"
                   title="Martin 167-A3"
@@ -156,7 +146,7 @@ export function FranceAircraft() {
                   intname="maryland_mk1_france"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/F.222.2"
                   title="F.222.2"
@@ -165,7 +155,7 @@ export function FranceAircraft() {
                   intname="f_222_2"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -202,7 +192,7 @@ export function FranceAircraft() {
                   intname="ms_410c1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/V.G.33C-1"
                   title="V.G.33C-1"
@@ -211,13 +201,7 @@ export function FranceAircraft() {
                   intname="vg_33"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -228,7 +212,7 @@ export function FranceAircraft() {
                   intname="potez_630"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Potez_631"
                   title="Potez 631"
@@ -237,13 +221,7 @@ export function FranceAircraft() {
                   intname="potez_631"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -254,17 +232,7 @@ export function FranceAircraft() {
                   intname="a-35b"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -275,7 +243,7 @@ export function FranceAircraft() {
                   intname="mb_174_a3"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/N.C.223.3"
                   title="N.C.223.3"
@@ -284,7 +252,7 @@ export function FranceAircraft() {
                   intname="nc_223_3"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="LeO 451" img="leo_451_group">
                   <TechTreeItem
                     link="/LeO_451_early"
@@ -294,7 +262,7 @@ export function FranceAircraft() {
                     intname="leo_451_early"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/LeO_451_late"
                     title="LeO 451 late"
@@ -304,7 +272,7 @@ export function FranceAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -340,7 +308,7 @@ export function FranceAircraft() {
                   intname="d_520_france"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M.B.157"
                   title="M.B.157"
@@ -349,13 +317,7 @@ export function FranceAircraft() {
                   intname="mb_157"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TreeFolder name="▄F6F" img="f6f_france_group">
@@ -367,7 +329,7 @@ export function FranceAircraft() {
                     intname="f6f-5_france"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/F6F-5N_(France)"
                     title="F6F-5N (France)"
@@ -377,7 +339,7 @@ export function FranceAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/P-63C-5_(France)"
                   title="P-63C-5 (France)"
@@ -386,13 +348,7 @@ export function FranceAircraft() {
                   intname="p-63c-5_france"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -403,17 +359,7 @@ export function FranceAircraft() {
                   intname="sb2c_5_france"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -424,7 +370,7 @@ export function FranceAircraft() {
                   intname="mb_175t"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/B-26C"
                   title="B-26C"
@@ -433,7 +379,7 @@ export function FranceAircraft() {
                   intname="b_26c_france"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/M.B.162"
                   title="M.B.162"
@@ -442,7 +388,7 @@ export function FranceAircraft() {
                   intname="mb_162"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -514,7 +460,7 @@ export function FranceAircraft() {
                   intname="vb_10c1"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/VB.10-02"
                   title="VB.10-02"
@@ -523,7 +469,7 @@ export function FranceAircraft() {
                   intname="vb_10_02"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -534,7 +480,7 @@ export function FranceAircraft() {
                   intname="seafire_mk3_france"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/F8F-1B_(France)"
                   title="F8F-1B (France)"
@@ -543,7 +489,7 @@ export function FranceAircraft() {
                   intname="f8f1b_france"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -554,7 +500,7 @@ export function FranceAircraft() {
                   intname="douglas_ad_4_france"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/F4U-7"
                   title="F4U-7"
@@ -563,7 +509,7 @@ export function FranceAircraft() {
                   intname="f4u-7"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -574,13 +520,7 @@ export function FranceAircraft() {
                   intname="pb4y-2_france"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -618,7 +558,7 @@ export function FranceAircraft() {
                     intname="md_450b_ouragan"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/M.D.450B_Barougan"
                     title="M.D.450B Barougan"
@@ -628,7 +568,7 @@ export function FranceAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TreeFolder name="M.D.452" img="md_452_group">
                   <TechTreeItem
                     link="/M.D.452_IIA"
@@ -638,7 +578,7 @@ export function FranceAircraft() {
                     intname="md_452_mystere_2a"
                     type="aircraft"
                   />
-                  <Arrow type="small" />
+                  <Arrow length={0} />
                   <TechTreeItem
                     link="/M.D.452_IIC"
                     title="M.D.452 IIC"
@@ -648,7 +588,7 @@ export function FranceAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -659,7 +599,7 @@ export function FranceAircraft() {
                   intname="f-84f_france"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="//S.O.4050_Vautour_IIN_(late)"
                   title="S.O.4050 Vautour IIN (late)"
@@ -668,7 +608,7 @@ export function FranceAircraft() {
                   intname="so_4050_vautour_2n_late"
                   type="aircraft"
                 />
-                <Arrow type="small"/>
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -679,13 +619,7 @@ export function FranceAircraft() {
                   intname="f-84g_france"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -696,7 +630,7 @@ export function FranceAircraft() {
                   intname="so_4050_vautour_2b"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/S.O.4050_Vautour_IIA"
                   title="S.O.4050 Vautour IIA"
@@ -705,7 +639,7 @@ export function FranceAircraft() {
                   intname="so_4050_vautour_2a"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -749,7 +683,7 @@ export function FranceAircraft() {
                   intname="md_454_mystere_4a"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Super_Mystere_B2"
                   title="Super Mystere B2"
@@ -758,7 +692,7 @@ export function FranceAircraft() {
                   intname="md_460"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -769,13 +703,7 @@ export function FranceAircraft() {
                   intname="f-86k_late"
                   type="aircraft"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -796,7 +724,7 @@ export function FranceAircraft() {
                   intname="etndard_4m"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Jaguar_A"
                   title="Jaguar A"
@@ -805,7 +733,7 @@ export function FranceAircraft() {
                   intname="jaguar_a"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -839,7 +767,7 @@ export function FranceAircraft() {
                   intname="mirage_3c"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Mirage_IIIE"
                   title="Mirage IIIE"
@@ -848,7 +776,7 @@ export function FranceAircraft() {
                   intname="mirage_3e"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Mirage_F1C"
                   title="Mirage F1C"
@@ -857,7 +785,7 @@ export function FranceAircraft() {
                   intname="mirage_f1c"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Mirage_2000C-S5"
                   title="Mirage 2000C-S5"
@@ -891,7 +819,7 @@ export function FranceAircraft() {
                   intname="mirage_5f"
                   type="aircraft"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Mirage_F1CT"
                   title="Mirage F1CT"

@@ -42,7 +42,7 @@ export function SwedenHeli() {
                     </tr>
                     <tr>
                       <td>
-                        <Arrow type="small" />
+                        <Arrow length={0} />
                       </td>
                     </tr>
                     <tr>
@@ -59,7 +59,7 @@ export function SwedenHeli() {
                     </tr>
                     <tr>
                       <td>
-                        <Arrow type="small" />
+                        <Arrow length={0} />
                       </td>
                     </tr>
                   </tbody>
@@ -87,7 +87,7 @@ export function SwedenHeli() {
                     </tr>
                     <tr>
                       <td>
-                        <Arrow type="small" />
+                        <Arrow length={0} />
                       </td>
                     </tr>
                     <tr>
@@ -104,7 +104,7 @@ export function SwedenHeli() {
                     </tr>
                     <tr>
                       <td>
-                        <Arrow type="small" />
+                        <Arrow length={0} />
                       </td>
                     </tr>
                     <tr>

@@ -24,7 +24,7 @@ export function SwedenGround() {
                   intname="sw_strv_m31"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ikv_72"
                   title="Ikv 72"
@@ -33,7 +33,7 @@ export function SwedenGround() {
                   intname="sw_ikv_72"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -44,7 +44,7 @@ export function SwedenGround() {
                   intname="sw_strv_m38"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Strv_m/40L"
                   title="Strv m/40L"
@@ -53,7 +53,7 @@ export function SwedenGround() {
                   intname="sw_strv_m40l"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -64,13 +64,7 @@ export function SwedenGround() {
                   intname="sw_pvlvv_fm42"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -81,13 +75,7 @@ export function SwedenGround() {
                   intname="sw_stormpjas_fm43_44"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -132,7 +120,7 @@ export function SwedenGround() {
                   intname="sw_strv_m41_s2"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Pvkv_III"
                   title="Pvkv III"
@@ -141,7 +129,7 @@ export function SwedenGround() {
                   intname="sw_pvkv_iii"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -152,7 +140,7 @@ export function SwedenGround() {
                   intname="sw_lago_1"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Strv_m/42_EH"
                   title="Strv m/42 EH"
@@ -161,7 +149,7 @@ export function SwedenGround() {
                   intname="sw_strv_m42_eh"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -172,7 +160,7 @@ export function SwedenGround() {
                   intname="sw_pbv_301"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Lvtdgb_m/40"
                   title="Lvtdgb m/40"
@@ -181,7 +169,7 @@ export function SwedenGround() {
                   intname="sw_tgdgb_m40_lv"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -192,7 +180,7 @@ export function SwedenGround() {
                   intname="sw_sav_m43_1944"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Sav_m/43_(1946)"
                   title="Sav m/43 (1946)"
@@ -201,7 +189,7 @@ export function SwedenGround() {
                   intname="sw_sav_m43_1946"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -245,7 +233,7 @@ export function SwedenGround() {
                   intname="sw_pvkv_ii"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ikv_103"
                   title="Ikv 103"
@@ -254,7 +242,7 @@ export function SwedenGround() {
                   intname="sw_ikv_103"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -265,13 +253,7 @@ export function SwedenGround() {
                   intname="sw_strv_m42_delat_torn"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -282,13 +264,7 @@ export function SwedenGround() {
                   intname="sw_l_62_anti_ii"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -299,13 +275,7 @@ export function SwedenGround() {
                   intname="sw_pvkv_m43_1946"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <EmptyDiv />
@@ -323,13 +293,7 @@ export function SwedenGround() {
                   intname="sw_ikv_91"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -340,7 +304,7 @@ export function SwedenGround() {
                   intname="sw_strv_74"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Strv_81"
                   title="Strv 81"
@@ -349,7 +313,7 @@ export function SwedenGround() {
                   intname="sw_strv_81"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -360,13 +324,7 @@ export function SwedenGround() {
                   intname="sw_lvkv_42"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -377,7 +335,7 @@ export function SwedenGround() {
                   intname="sw_pvkv_m43_1963"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Bkan_1C"
                   title="Bkan 1C"
@@ -386,7 +344,7 @@ export function SwedenGround() {
                   intname="sw_bkan_1c"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -412,13 +370,7 @@ export function SwedenGround() {
                   intname="sw_landsverk_ush_405"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -429,7 +381,7 @@ export function SwedenGround() {
                   intname="sw_strv_101"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Strv_103A"
                   title="Strv 103A"
@@ -438,7 +390,7 @@ export function SwedenGround() {
                   intname="sw_strv_103a"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -449,13 +401,7 @@ export function SwedenGround() {
                   intname="sw_veak_40"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -466,13 +412,7 @@ export function SwedenGround() {
                   intname="sw_udes_33"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -498,7 +438,7 @@ export function SwedenGround() {
                   intname="sw_ikv_91_105"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Strf_9040B"
                   title="Strf 9040B"
@@ -507,7 +447,7 @@ export function SwedenGround() {
                   intname="sw_strf_90b"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Strf_9040C"
                   title="Strf 9040C"
@@ -516,13 +456,7 @@ export function SwedenGround() {
                   intname="sw_strf_90c"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -533,7 +467,7 @@ export function SwedenGround() {
                   intname="sw_strv_103c"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Strv_104"
                   title="Strv 104"
@@ -542,7 +476,7 @@ export function SwedenGround() {
                   intname="sw_strv_104"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Strv_105"
                   title="Strv 105"
@@ -551,7 +485,7 @@ export function SwedenGround() {
                   intname="sw_strv_105"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Strv_121"
                   title="Strv 121"
@@ -560,7 +494,7 @@ export function SwedenGround() {
                   intname="sw_strv_121"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -571,7 +505,7 @@ export function SwedenGround() {
                   intname="sw_lvkv_90c"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Lvrbv_701"
                   title="Lvrbv 701"
@@ -580,17 +514,7 @@ export function SwedenGround() {
                   intname="sw_lvrbv_701"
                   type="ground"
                 />
-                <div className="tree-arrow">
-                  <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_center_small.png" alt="Arrow_center_small.png" />
-                  <br />
-                  <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                  <br />
-                  <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                </div>
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -601,7 +525,7 @@ export function SwedenGround() {
                   intname="sw_pvrbv_551"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Pbv_302_(BILL)"
                   title="Pbv 302 (BILL)"
@@ -610,7 +534,7 @@ export function SwedenGround() {
                   intname="sw_pbv_302_bill"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Strf_9040_BILL"
                   title="Strf 9040 BILL"
@@ -663,7 +587,7 @@ export function SwedenGround() {
                   intname="sw_strv_122"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Strv_122B_PLSS"
                   title="Strv 122B PLSS"
@@ -683,7 +607,7 @@ export function SwedenGround() {
                   intname="sw_asrad_r"
                   type="ground"
                 />
-                <Arrow type="small" />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/ItO_90M"
                   title="ItO 90M"

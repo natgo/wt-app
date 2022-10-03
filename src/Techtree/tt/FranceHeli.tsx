@@ -54,7 +54,7 @@ export function FranceHeli() {
                       <td />
                       <td />
                       <td colSpan={3} style={{ textAlign: "center" }}>
-                        <div className="tree-arrow-right">
+                        <div className="tree-arrow-right-down">
                           <img
                             src="./images/Arrow-down-and-right-down.png"
                             alt="Arrow-down-and-right-down.png"
@@ -101,7 +101,7 @@ export function FranceHeli() {
                       <td />
                       <td />
                       <td>
-                        <Arrow type="small" />
+                        <Arrow length={0} />
                       </td>
                       <td />
                       <td />
@@ -162,7 +162,7 @@ export function FranceHeli() {
                       <td />
                       <td />
                       <td>
-                        <Arrow type="small" />
+                        <Arrow length={0} />
                       </td>
                       <td />
                       <td />
@@ -195,7 +195,7 @@ export function FranceHeli() {
                       <td />
                       <td />
                       <td>
-                        <Arrow type="small" />
+                        <Arrow length={0} />
                       </td>
                       <td />
                       <td />

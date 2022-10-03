@@ -42,7 +42,7 @@ export function USAHeli() {
                     </tr>
                     <tr>
                       <td>
-                        <Arrow type="small" />
+                        <Arrow length={0} />
                       </td>
                     </tr>
                     <tr>
@@ -76,7 +76,7 @@ export function USAHeli() {
                       <td />
                       <td />
                       <td>
-                        <Arrow type="small" />
+                        <Arrow length={0} />
                       </td>
                     </tr>
                   </tbody>
@@ -132,7 +132,7 @@ export function USAHeli() {
                     </tr>
                     <tr>
                       <td colSpan={3} style={{ textAlign: "center" }}>
-                        <div className="tree-arrow-right">
+                        <div className="tree-arrow-left-down">
                           <img src="./images/Arrow-left-down.png" alt="Arrow-left-down.png" />
                         </div>
                       </td>
@@ -151,19 +151,13 @@ export function USAHeli() {
                       <td />
                       <td rowSpan={2}>
                         <div style={{ marginTop: "-25px", marginLeft: 8 }}>
-                          <div className="tree-arrow">
-                            <img src="./images/Arrow_tail.png" alt="Arrow_tail.png" />
-                            <br />
-                            <img src="./images/Arrow_center.png" alt="Arrow_center.png" />
-                            <br />
-                            <img src="./images/Arrow_head.png" alt="Arrow_head.png" />
-                          </div>
+                          <Arrow length={1} />
                         </div>
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <Arrow type="small" />
+                        <Arrow length={0} />
                       </td>
                     </tr>
                   </tbody>

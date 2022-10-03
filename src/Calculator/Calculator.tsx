@@ -10,8 +10,13 @@ import {
   DialogActions,
   DialogContent,
   DialogTitle,
+  FormControl,
+  FormControlLabel,
+  FormLabel,
   Grid,
   Paper,
+  Radio,
+  RadioGroup,
   TextField,
   Typography,
 } from "@mui/material";
@@ -19,7 +24,8 @@ import {
 import axios from "axios";
 
 import { Corrected, Parsed, base64Image, brb, dialogue } from "../atom";
-import changeParsed from "../selectors";
+
+import changeParsed from "./selectors";
 
 function Dropzone(): JSX.Element {
   const setCorrected = useSetRecoilState(Corrected);
@@ -136,6 +142,23 @@ function Confidence() {
   }
 }
 
+function Mode() {
+  return (
+    <FormControl>
+      <FormLabel id="demo-row-radio-buttons-group-label">Mode</FormLabel>
+      <RadioGroup
+        row
+        aria-labelledby="demo-row-radio-buttons-group-label"
+        name="row-radio-buttons-group"
+      >
+        <FormControlLabel value="Arcade" control={<Radio />} label="Arcade" disabled />
+        <FormControlLabel value="Realistic" control={<Radio />} label="Realistic" />
+        <FormControlLabel value="Simulator" control={<Radio />} label="Simulator" disabled />
+      </RadioGroup>
+    </FormControl>
+  );
+}
+
 export default function Calculator() {
   const open = useRecoilValue(dialogue);
   const setBRB = useSetRecoilState(brb);
@@ -182,6 +205,7 @@ export default function Calculator() {
                 <Typography>Your br: {br}</Typography>
                 <Br />
                 <Confidence />
+                <Mode />
               </Paper>
             </Grid>
             {/* Parsed text */}
