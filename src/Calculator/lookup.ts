@@ -17,6 +17,9 @@ export default function lookup(element: string): string {
   if (element == "LBf 109 E-7") {
     element = "Bf 109 E-7 (Japan)";
   }
+  if (element == "Bf 109 E-7") {
+    element = "Bf 109 E-7 (Japan)";
+  }
   if (element == "OSpitfire Mk V.") {
     element = "Spitfire Mk Vb/trop (Italy)";
   }
@@ -46,6 +49,12 @@ export default function lookup(element: string): string {
   }
   if (element == "Beaufort Mk Vill") {
     element = "Beaufort Mk VIII";
+  }
+  if (element == ":SB 2M-103U") {
+    element = "SB 2M-103U (China)";
+  }
+  if (element == "Bf 110 G-7") {
+    element = "Bf 110 C-7";
   }
   return element;
 }
