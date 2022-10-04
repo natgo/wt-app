@@ -49,3 +49,30 @@ export function queryVehicle(
     }
   }
 }
+
+export function querypartialVehicle(
+  vehicle: string,
+  type: "intname" | "wikiname"
+): FinalProps[] | undefined {
+  const FinalValue = getRecoil(Final);
+  const FinalArray: FinalProps[] = [];
+  console.log(vehicle);
+  if (type === "wikiname") {
+    FinalValue.aircraft.forEach((element) => {
+      if (element.wikiname.search(vehicle) === 0) {
+        FinalArray.push(element);
+      }
+    });
+    FinalValue.ground.forEach((element) => {
+      if (element.wikiname.search(vehicle) === 0) {
+        FinalArray.push(element);
+      }
+    });
+    FinalValue.helicopter.forEach((element) => {
+      if (element.wikiname.search(vehicle) === 0) {
+        FinalArray.push(element);
+      }
+    });
+    return FinalArray.length > 0 ? FinalArray:undefined;
+  }
+}

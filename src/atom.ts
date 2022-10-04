@@ -78,3 +78,9 @@ export const dialogue = atom<boolean>({
   key: "dialog",
   default: false,
 });
+
+export const CalculatorMode = atom<string>({
+  key: "CalculatorMode",
+  default: "Realistic",
+  effects_UNSTABLE: [persistAtom],
+});

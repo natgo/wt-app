@@ -1,8 +1,8 @@
 import axios from "axios";
-import { getRecoil, setRecoil } from "recoil-nexus";
+import { setRecoil } from "recoil-nexus";
 
-import { Final, dialogue } from "../atom";
-import { queryVehicle } from "../utils/QueryVehicle";
+import { dialogue } from "../atom";
+import { querypartialVehicle, queryVehicle } from "../utils/QueryVehicle";
 
 import br from "./br";
 import lookup from "./lookup";
@@ -21,8 +21,6 @@ async function getBR() {
 }
 
 export default async function changeParsed(sakke: { name: string; id: number }[]) {
-  const finalData = getRecoil(Final);
-
   const userBr: string = await getBR();
 
   let inter: { name: string; id: number; br: string; real_br: number }[] = [];
@@ -37,22 +35,20 @@ export default async function changeParsed(sakke: { name: string; id: number }[]
     if (element[element.length - 2] === "." && element[element.length - 1] === ".") {
       console.log(`has .. in element: ${element}`);
       element = element.substring(0, element.length - 2);
-      // in the future might want to integrate this partial search to queryVehicle
-      finalData.aircraft.forEach((ement) => {
-        if (ement.wikiname.search(element) === 0) {
-          if (ement.wikiname[ement.wikiname.length - 1] === ")") {
-            console.log(`why is this check here? ${ement.wikiname}`);
-          } else {
-            const object = {
-              name: ement.wikiname,
-              br: ement.rb_br,
-              real_br: ement.rb_realbr,
-              id: result.length + 1,
-            };
-            inter.push(object);
-          }
-        }
-      });
+
+      const finalarray = (querypartialVehicle(element,"wikiname"));
+      if (finalarray) {
+        finalarray.forEach(ement => {
+          const object = {
+            name: ement.wikiname,
+            br: ement.rb_br,
+            real_br: ement.rb_realbr,
+            id: result.length + 1,
+          };
+          inter.push(object);
+        });
+      }
+
       inter.sort((a, b) => a.real_br - b.real_br);
       console.log(inter);
       result.push(inter[0]);
@@ -68,7 +64,7 @@ export default async function changeParsed(sakke: { name: string; id: number }[]
         };
         result.push(object);
       } else {
-        // if the ocr fixes didn't work
+        // if the ocr fixes don't work
         console.log(`not in final: ${element}`);
       }
     }

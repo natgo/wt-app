@@ -23,7 +23,7 @@ import {
 
 import axios from "axios";
 
-import { Corrected, Parsed, base64Image, brb, dialogue } from "../atom";
+import { Corrected, Parsed, base64Image, brb, dialogue, CalculatorMode } from "../atom";
 
 import changeParsed from "./selectors";
 
@@ -142,7 +142,13 @@ function Confidence() {
   }
 }
 
-function Mode() {
+function Mode(): JSX.Element {
+  const mode = useRecoilValue(CalculatorMode);
+  const setmode = useSetRecoilState(CalculatorMode);
+
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setmode(event.target.value);
+  };
   return (
     <FormControl>
       <FormLabel id="demo-row-radio-buttons-group-label">Mode</FormLabel>
@@ -150,10 +156,12 @@ function Mode() {
         row
         aria-labelledby="demo-row-radio-buttons-group-label"
         name="row-radio-buttons-group"
+        value={mode}
+        onChange={handleChange}
       >
-        <FormControlLabel value="Arcade" control={<Radio />} label="Arcade" disabled />
+        <FormControlLabel value="Arcade" control={<Radio />} label="Arcade" />
         <FormControlLabel value="Realistic" control={<Radio />} label="Realistic" />
-        <FormControlLabel value="Simulator" control={<Radio />} label="Simulator" disabled />
+        <FormControlLabel value="Simulator" control={<Radio />} label="Simulator" />
       </RadioGroup>
     </FormControl>
   );
