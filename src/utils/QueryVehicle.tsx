@@ -52,7 +52,7 @@ export function queryVehicle(
 
 export function querypartialVehicle(
   vehicle: string,
-  type: "intname" | "wikiname"
+  type: "intname" | "wikiname",
 ): FinalProps[] | undefined {
   const FinalValue = getRecoil(Final);
   const FinalArray: FinalProps[] = [];
@@ -73,6 +73,6 @@ export function querypartialVehicle(
         FinalArray.push(element);
       }
     });
-    return FinalArray.length > 0 ? FinalArray:undefined;
+    return FinalArray.length > 0 ? FinalArray : undefined;
   }
 }

@@ -119,7 +119,7 @@ export function MiniDrawer(props: { children: React.ReactNode }) {
             }
 
             return (
-              <ListItem key={text} disablePadding sx={{ display: "block" }}>
+              <ListItem key={text} disablePadding sx={{ display: "block" }} id={link.split("/")[2]}>
                 <Link to={link} style={{ textDecoration: "none", color: "inherit" }}>
                   <Tooltip title={text} placement="right">
                     <ListItemButton

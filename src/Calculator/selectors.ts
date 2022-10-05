@@ -1,8 +1,8 @@
 import axios from "axios";
-import { setRecoil } from "recoil-nexus";
+import { getRecoil, setRecoil } from "recoil-nexus";
 
-import { dialogue } from "../atom";
-import { querypartialVehicle, queryVehicle } from "../utils/QueryVehicle";
+import { CalculatorMode, dialogue } from "../atom";
+import { queryVehicle, querypartialVehicle } from "../utils/QueryVehicle";
 
 import br from "./br";
 import lookup from "./lookup";
@@ -21,10 +21,29 @@ async function getBR() {
 }
 
 export default async function changeParsed(sakke: { name: string; id: number }[]) {
+  const mode = getRecoil(CalculatorMode);
+
   const userBr: string = await getBR();
 
   let inter: { name: string; id: number; br: string; real_br: number }[] = [];
   const result: { name: string; id: number; br: string; real_br: number }[] = [];
+
+  let brmodeset: "ab_br" | "rb_br" | "sb_br";
+  let realbrmodeset: "ab_realbr" | "rb_realbr" | "sb_realbr";
+  switch (mode) {
+    case "Realistic":
+      brmodeset = "rb_br";
+      realbrmodeset = "rb_realbr";
+      break;
+    case "Arcade":
+      brmodeset = "ab_br";
+      realbrmodeset = "ab_realbr";
+      break;
+    case "Simulator":
+      brmodeset = "sb_br";
+      realbrmodeset = "sb_realbr";
+      break;
+  }
 
   sakke.forEach((notFixedElement) => {
     let element = notFixedElement.name;
@@ -36,13 +55,13 @@ export default async function changeParsed(sakke: { name: string; id: number }[]
       console.log(`has .. in element: ${element}`);
       element = element.substring(0, element.length - 2);
 
-      const finalarray = (querypartialVehicle(element,"wikiname"));
+      const finalarray = querypartialVehicle(element, "wikiname");
       if (finalarray) {
-        finalarray.forEach(ement => {
+        finalarray.forEach((ement) => {
           const object = {
             name: ement.wikiname,
-            br: ement.rb_br,
-            real_br: ement.rb_realbr,
+            br: ement[brmodeset],
+            real_br: ement[realbrmodeset],
             id: result.length + 1,
           };
           inter.push(object);
@@ -58,8 +77,8 @@ export default async function changeParsed(sakke: { name: string; id: number }[]
       if (query) {
         const object = {
           name: query.wikiname,
-          br: query.rb_br,
-          real_br: query.rb_realbr,
+          br: query[brmodeset],
+          real_br: query[realbrmodeset],
           id: result.length + 1,
         };
         result.push(object);

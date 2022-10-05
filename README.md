@@ -33,7 +33,7 @@ pnpm build # npm run build
 # Todo
 - [ ] Add lint-staged
 - [ ] Make a CI/CD pipeline to website
-- [ ] Make br calculator work on ground
+- [x] Make br calculator work on ground
 - [ ] Make techtree more dynamicly generated
 - [ ] Make propper file structure
 - [x] Fix techtree arrows
