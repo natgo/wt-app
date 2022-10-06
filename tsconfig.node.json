@@ -3,7 +3,7 @@
     "composite": true,
     "module": "esnext",
     "moduleResolution": "node",
-    "types": ["cypress", "cypress-file-upload"]
+    "types": ["cypress"]
   },
   "include": ["vite.config.ts"]
 }

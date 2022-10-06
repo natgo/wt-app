@@ -84,3 +84,8 @@ export const CalculatorMode = atom<string>({
   default: "Realistic",
   effects_UNSTABLE: [persistAtom],
 });
+
+export const PaginationNum = atom<number>({
+  key: "PaginationNum",
+  default: 0,
+});

@@ -1,5 +1,6 @@
 import { FinalProps, GroundProps } from "../types";
 
+import { VehicleImage } from "./VehicleImage";
 import { VehiclePrice } from "./VehiclePrice";
 
 export function SpecsCard(props: {
@@ -68,85 +69,86 @@ export function SpecsCard(props: {
   let country: string | undefined = "Viro";
   const flag: string[] = [];
   const thumb_base = "https://wiki.warthunder.com/images/thumb/";
+  const flag_base = "../images/flag/";
   switch (vehicle.country) {
     case "country_usa":
       country = "USA";
       flag.push(
-        thumb_base + "9/9f/USA_flag.png/45px-USA_flag.png",
-        thumb_base + "9/9f/USA_flag.png/68px-USA_flag.png",
-        thumb_base + "9/9f/USA_flag.png/90px-USA_flag.png",
+        flag_base + "45px-USA_flag.png",
+        flag_base + "68px-USA_flag.png",
+        flag_base + "90px-USA_flag.png",
       );
       break;
     case "country_italy":
       country = "Italy";
       flag.push(
-        thumb_base + "e/e9/Italy_flag.png/45px-Italy_flag.png",
-        thumb_base + "e/e9/Italy_flag.png/68px-Italy_flag.png",
-        thumb_base + "e/e9/Italy_flag.png/90px-Italy_flag.png",
+        flag_base + "45px-Italy_flag.png",
+        flag_base + "68px-Italy_flag.png",
+        flag_base + "90px-Italy_flag.png",
       );
       break;
     case "country_germany":
       country = "Germany";
       flag.push(
-        thumb_base + "4/49/Germany_flag.png/45px-Germany_flag.png",
-        thumb_base + "4/49/Germany_flag.png/68px-Germany_flag.png",
-        thumb_base + "4/49/Germany_flag.png/90px-Germany_flag.png",
+        flag_base + "45px-Germany_flag.png",
+        flag_base + "68px-Germany_flag.png",
+        flag_base + "90px-Germany_flag.png",
       );
       break;
     case "country_ussr":
       country = "USSR";
       flag.push(
-        thumb_base + "f/f9/USSR_flag.png/45px-USSR_flag.png",
-        thumb_base + "f/f9/USSR_flag.png/68px-USSR_flag.png",
-        thumb_base + "f/f9/USSR_flag.png/90px-USSR_flag.png",
+        flag_base + "45px-USSR_flag.png",
+        flag_base + "68px-USSR_flag.png",
+        flag_base + "90px-USSR_flag.png",
       );
       break;
     case "country_britain":
       country = "Britain";
       flag.push(
-        thumb_base + "d/d0/Britain_flag.png/45px-Britain_flag.png",
-        thumb_base + "d/d0/Britain_flag.png/68px-Britain_flag.png",
-        thumb_base + "d/d0/Britain_flag.png/90px-Britain_flag.png",
+        flag_base + "45px-Britain_flag.png",
+        flag_base + "68px-Britain_flag.png",
+        flag_base + "90px-Britain_flag.png",
       );
       break;
     case "country_france":
       country = "France";
       flag.push(
-        thumb_base + "7/73/France_flag.png/45px-France_flag.png",
-        thumb_base + "7/73/France_flag.png/68px-France_flag.png",
-        thumb_base + "7/73/France_flag.png/90px-France_flag.png",
+        flag_base + "45px-France_flag.png",
+        flag_base + "68px-France_flag.png",
+        flag_base + "90px-France_flag.png",
       );
       break;
     case "country_china":
       country = "China";
       flag.push(
-        thumb_base + "a/ac/China_flag.png/45px-China_flag.png",
-        thumb_base + "a/ac/China_flag.png/68px-China_flag.png",
-        thumb_base + "a/ac/China_flag.png/90px-China_flag.png",
+        flag_base + "45px-China_flag.png",
+        flag_base + "68px-China_flag.png",
+        flag_base + "90px-China_flag.png",
       );
       break;
     case "country_sweden":
       country = "Sweden";
       flag.push(
-        thumb_base + "c/ca/Sweden_flag.png/45px-Sweden_flag.png",
-        thumb_base + "c/ca/Sweden_flag.png/68px-Sweden_flag.png",
-        thumb_base + "c/ca/Sweden_flag.png/90px-Sweden_flag.png",
+        flag_base + "45px-Sweden_flag.png",
+        flag_base + "68px-Sweden_flag.png",
+        flag_base + "90px-Sweden_flag.png",
       );
       break;
     case "country_israel":
       country = "Israel";
       flag.push(
-        thumb_base + "f/f9/Israel_flag.png/45px-Israel_flag.png",
-        thumb_base + "f/f9/Israel_flag.png/68px-Israel_flag.png",
-        thumb_base + "f/f9/Israel_flag.png/90px-Israel_flag.png",
+        flag_base + "45px-Israel_flag.png",
+        flag_base + "68px-Israel_flag.png",
+        flag_base + "90px-Israel_flag.png",
       );
       break;
     case "country_japan":
       country = "Japan";
       flag.push(
-        thumb_base + "2/2e/Japan_flag.png/45px-Japan_flag.png",
-        thumb_base + "2/2e/Sweden_flag.png/68px-Japan_flag.png",
-        thumb_base + "2/2e/Sweden_flag.png/90px-Japan_flag.png",
+        flag_base + "45px-Japan_flag.png",
+        flag_base + "68px-Japan_flag.png",
+        flag_base + "90px-Japan_flag.png",
       );
       break;
   }
@@ -158,31 +160,7 @@ export function SpecsCard(props: {
         <div className="general_info_neighbors"></div>
       </div>
       <div className="specs_card_main_slider">
-        <div className="specs_card_main_slider_container"></div>
-        <div className="specs_card_main_slider_system">
-          <div>
-            <img
-              src={`https://encyclopedia.warthunder.com/images/${vehicle.intname}.png`}
-              alt={`${vehicle.intname}.png`}
-            />
-          </div>
-          <div>
-            <a href={`/File:GarageImage_${link}.jpg`} className="image">
-              <img
-                alt={`GarageImage_${link}.jpg`}
-                src={`${thumb_base}f/f8/GarageImage_${link}.jpg/800px-GarageImage_${link}.jpg`}
-                width="800"
-                height="450"
-                srcSet={`
-                ${thumb_base}f/f8/GarageImage_${link}.jpg/1200px-GarageImage_${link}.jpg 1.5x,
-                ${thumb_base}f/f8/GarageImage_${link}.jpg/1600px-GarageImage_${link}.jpg 2x
-                `}
-                data-file-width="1920"
-                data-file-height="1080"
-              />
-            </a>
-          </div>
-        </div>
+        <VehicleImage vehicle={vehicle} link={link} thumb_base={thumb_base} />
       </div>
       <div className="specs_card_main_info">
         <div className="general_info_name">{vehicle.wikiname}</div>

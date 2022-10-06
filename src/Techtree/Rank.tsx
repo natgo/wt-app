@@ -13,8 +13,8 @@ export function Rank(props: { rank: "I" | "II" | "III" | "IV" | "V" | "VI" | "VI
       <div
         style={{
           transform: "rotate(-90deg)",
-          marginLeft: "-10em",
-          marginRight: "-10em",
+          marginLeft: "-1em",
+          marginRight: "-1em",
         }}
       >
         {rank} Rank

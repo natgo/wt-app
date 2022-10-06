@@ -128,7 +128,7 @@ function Helicopters(props: TypeProp): JSX.Element {
       return <tt.IsraelHeli />;
   }
 }
-//@const light_fighterColor:  #ffd2b2; @const medium_fighterColor: #ffac6f; @const heavy_fighterColor:  #ff8932; @const naval_fighterColor:  #ffaba1; @const jet_fighterColor:    #ffcc66; @const light_bomberColor:   #bfd4ff; @const medium_bomberColor:  #a3b1ff; @const heavy_bomberColor:   #938aff; @const naval_bomberColor:   #89b7ff; @const jet_bomberColor:     #c6a0ff; @const dive_bomberColor:    #a6a6d0; @const common_assaultColor: #bde9b5; @const strike_fighterColor: #bde9b5; @const attack_helicopterColor:  #f2f266; @const utility_helicopterColor: #9bf266; @const light_tankColor:     #ffeeee; @const medium_tankColor:    #ffaaaa; @const heavy_tankColor:     #ff6666; @const tank_destroyerColor: #bde9b5; @const spaaColor:           #c6a0ff;
+
 function CountryTabs(props: TypePropIndex): JSX.Element {
   const { type, index } = props;
   const typeValue = useRecoilValue(TypeTab);

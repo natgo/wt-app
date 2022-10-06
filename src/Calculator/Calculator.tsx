@@ -22,7 +22,6 @@ import {
 } from "@mui/material";
 
 import axios from "axios";
-import Tesseract from "tesseract.js";
 
 import { CalculatorMode, Corrected, Parsed, base64Image, brb, dialogue } from "../atom";
 
@@ -49,11 +48,7 @@ function Dropzone(): JSX.Element {
             if (typeof reader.result === "string") {
               const imgg: string = btoa(reader.result);
               setImage(() => "data:image/png;base64," + imgg);
-              Tesseract.recognize("data:image/png;base64," + imgg, "eng", {
-                logger: (m) => console.log(m),
-              }).then(({ data: { text } }) => {
-                console.log(text);
-              });
+
               const formData = new FormData();
               formData.append("base64Image", "data:image/png;base64," + imgg);
               formData.append("language", "eng");
