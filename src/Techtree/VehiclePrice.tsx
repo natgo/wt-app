@@ -1,17 +1,13 @@
+import { FinalProps } from "../types";
+
 import rpImg from "./assets/img/14px-Specs-Card-Exp.png";
 import squadImg from "./assets/img/23px-Specs-Card-Activity.png";
 import geImg from "./assets/img/Specs-Card-Eagle.png";
 import slImg from "./assets/img/Specs-Card-Lion.png";
 
-export function VehiclePrice(props: {
-  intname: string;
-  prem: string | undefined;
-  reqRP: number | undefined;
-  reqSL: number | undefined;
-  costGold: number | undefined;
-  hidden: boolean | undefined;
-}): JSX.Element {
-  const { prem, reqRP, reqSL, costGold, hidden } = props;
+export function VehiclePrice(props: { vehicle: FinalProps }): JSX.Element {
+  const { prem_type, reqRP, sl_price, cost_gold, hidden } = props.vehicle;
+  console.log(props);
   let rp = "Not Free";
   if (reqRP === undefined) {
     rp = "Free";
@@ -19,16 +15,16 @@ export function VehiclePrice(props: {
     rp = reqRP.toLocaleString();
   }
   let sl = "Not Free";
-  if (reqSL === undefined) {
+  if (sl_price === undefined) {
     sl = "Free";
   } else {
-    if (reqSL === 0) {
+    if (sl_price === 0) {
       sl = "Free";
     } else {
-      sl = reqSL.toLocaleString();
+      sl = sl_price.toLocaleString();
     }
   }
-  if (prem === "false" && hidden === false) {
+  if (prem_type === "false" && hidden === undefined) {
     if (sl === "Free") {
       return (
         <div className="general_info_price">
@@ -82,13 +78,13 @@ export function VehiclePrice(props: {
       );
     }
   } else {
-    if (prem === "gold") {
+    if (prem_type === "gold") {
       return (
         <div className="general_info_price">
           <div className="general_info_price_buy">
             <span className="desc">Purchase:</span>
             <span className="value">
-              {costGold}
+              {cost_gold}
               <a href="/Golden_Eagles" title="Golden Eagles">
                 <img
                   alt="Specs-Card-Eagle.png"
@@ -104,7 +100,11 @@ export function VehiclePrice(props: {
         </div>
       );
     } else {
-      if (prem === "event" || (prem === "false" && hidden === true) || prem === "store") {
+      if (
+        prem_type === "event" ||
+        (prem_type === "false" && hidden === true) ||
+        prem_type === "store"
+      ) {
         return (
           <div className="general_info_price">
             <div className="general_info_price_buy" style={{ width: "100%" }}>

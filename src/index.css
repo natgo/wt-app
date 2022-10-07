@@ -69,3 +69,9 @@
   position: relative;
   left: -19px;
 }
+
+.general_info_image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}

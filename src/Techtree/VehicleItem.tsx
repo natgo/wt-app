@@ -1,3 +1,5 @@
+import { Tooltip } from "@mui/material";
+
 import { FinalProps, GroundProps } from "../types";
 
 import { VehicleImage } from "./VehicleImage";
@@ -23,6 +25,9 @@ export function SpecsCard(props: {
       break;
     case "type_heavy_tank":
       vehicle_type = "Heavy tank";
+      break;
+    case "type_spaa":
+      vehicle_type = "SPAA";
       break;
     case "type_fighter":
       vehicle_type = "Fighter";
@@ -68,7 +73,6 @@ export function SpecsCard(props: {
 
   let country: string | undefined = "Viro";
   const flag: string[] = [];
-  const thumb_base = "https://wiki.warthunder.com/images/thumb/";
   const flag_base = "../images/flag/";
   switch (vehicle.country) {
     case "country_usa":
@@ -155,15 +159,26 @@ export function SpecsCard(props: {
 
   return (
     <div className="specs_card_main" data-code={vehicle.intname}>
-      <div className="specs_card_mobile_info">
-        <div className="general_info_name">{vehicle.wikiname}</div>
-        <div className="general_info_neighbors"></div>
-      </div>
-      <div className="specs_card_main_slider">
-        <VehicleImage vehicle={vehicle} link={link} thumb_base={thumb_base} />
-      </div>
+      <VehicleImage vehicle={vehicle} link={link} />
       <div className="specs_card_main_info">
-        <div className="general_info_name">{vehicle.wikiname}</div>
+        <div className="general_info_image">
+          <img
+            width="100%"
+            src={`../images/statcard/${vehicle.intname.toLowerCase()}.png`}
+          />
+        </div>
+
+        <div className="general_info_name">
+          <Tooltip title="Double click to copy internal name" placement="left">
+            <span
+              onDoubleClick={() => {
+                navigator.clipboard.writeText(vehicle.intname);
+              }}
+            >
+              {vehicle.wikiname}
+            </span>
+          </Tooltip>
+        </div>
         <div className="general_info_neighbors"></div>
         <div className="general_info">
           <div className="general_info_nation">
@@ -244,14 +259,7 @@ export function SpecsCard(props: {
             </div>
           </div>
         </div>
-        <VehiclePrice
-          intname={vehicle.intname}
-          prem={vehicle.prem_type}
-          reqRP={vehicle.reqRP}
-          reqSL={vehicle.sl_price}
-          costGold={vehicle.cost_gold}
-          hidden={vehicle.hidden}
-        />
+        <VehiclePrice vehicle={vehicle} />
         <div className="general_info_buttons">
           <div className="general_info_buttons_container">
             <div className="general_info_game_button" title="Show in game">

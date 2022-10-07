@@ -988,7 +988,6 @@ img.tree-item-js {
 
 .specs_card_main_slider {
   position: relative;
-  width: calc(100% - 440px);
   height: 100%;
   padding: 10px;
   box-sizing: border-box;
@@ -1131,6 +1130,7 @@ img.tree-item-js {
   font-weight: bold;
   margin: 0;
   border: 0;
+  user-select: none;
 }
 
 .specs_card_main .general_info_neighbors {
