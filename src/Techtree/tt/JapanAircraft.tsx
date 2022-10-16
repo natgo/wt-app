@@ -148,25 +148,14 @@ export function JapanAircraft() {
                   type="aircraft"
                 />
                 <Arrow length={0} />
-                <TreeFolder name="H6K/H8K" img="h6k_h8k_group">
-                  <TechTreeItem
-                    link="/H6K4"
-                    title="H6K4"
-                    item_type="own"
-                    text="H6K4"
-                    intname="h6k4"
-                    type="aircraft"
-                  />
-                  <Arrow length={0} />
-                  <TechTreeItem
-                    link="/H8K2"
-                    title="H8K2"
-                    item_type="own"
-                    text="H8K2"
-                    intname="h8k2"
-                    type="aircraft"
-                  />
-                </TreeFolder>
+                <TechTreeItem
+                  link="/H6K4"
+                  title="H6K4"
+                  item_type="own"
+                  text="H6K4"
+                  intname="h6k4"
+                  type="aircraft"
+                />
                 <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
@@ -370,7 +359,7 @@ export function JapanAircraft() {
                   intname="ki_109"
                   type="aircraft"
                 />
-                <Arrow length={0} />
+                <Arrow length={1} />
               </td>
               <td>
                 <TreeFolder name="B6N" img="b6n_group">
@@ -430,7 +419,7 @@ export function JapanAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow length={0} />
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -442,6 +431,15 @@ export function JapanAircraft() {
                   type="aircraft"
                 />
                 <Arrow length={0} />
+                <TechTreeItem
+                  link="/H8K2"
+                  title="H8K2"
+                  item_type="own"
+                  text="H8K2"
+                  intname="h8k2"
+                  type="aircraft"
+                />
+                <Arrow length={0}/>
                 <TechTreeItem
                   link="/Ki-49-I"
                   title="Ki-49-I"

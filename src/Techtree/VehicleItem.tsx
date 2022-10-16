@@ -2,8 +2,11 @@ import { Tooltip } from "@mui/material";
 
 import { FinalProps, GroundProps } from "../types";
 
+import DenseTable from "./Table";
+import { vehicleCountry } from "./VehicleCountry";
 import { VehicleImage } from "./VehicleImage";
 import { VehiclePrice } from "./VehiclePrice";
+import { vehicleType } from "./VehicleType";
 
 export function SpecsCard(props: {
   vehicle: FinalProps;
@@ -12,39 +15,8 @@ export function SpecsCard(props: {
 }): JSX.Element {
   const { vehicle, link } = props;
 
-  let vehicle_type = "Viron Paras";
-  switch (vehicle.normal_type) {
-    case "type_tank_destroyer":
-      vehicle_type = "Tank destroyer";
-      break;
-    case "type_light_tank":
-      vehicle_type = "Light Tank";
-      break;
-    case "type_medium_tank":
-      vehicle_type = "Medium tank";
-      break;
-    case "type_heavy_tank":
-      vehicle_type = "Heavy tank";
-      break;
-    case "type_spaa":
-      vehicle_type = "SPAA";
-      break;
-    case "type_fighter":
-      vehicle_type = "Fighter";
-      break;
-    case "type_bomber":
-      vehicle_type = "Bomber";
-      break;
-    case "type_assault":
-      vehicle_type = "Strike aircraft";
-      break;
-    case "type_attack_helicopter":
-      vehicle_type = "Attack helicopter";
-      break;
-    case "type_utility_helicopter":
-      vehicle_type = "Utility helicopter";
-      break;
-  }
+  const country = vehicleCountry(vehicle.country);
+  const vehicle_type = vehicleType(vehicle);
 
   let rank = "IX";
   switch (vehicle.rank) {
@@ -71,101 +43,14 @@ export function SpecsCard(props: {
       break;
   }
 
-  let country: string | undefined = "Viro";
-  const flag: string[] = [];
-  const flag_base = "../images/flag/";
-  switch (vehicle.country) {
-    case "country_usa":
-      country = "USA";
-      flag.push(
-        flag_base + "45px-USA_flag.png",
-        flag_base + "68px-USA_flag.png",
-        flag_base + "90px-USA_flag.png",
-      );
-      break;
-    case "country_italy":
-      country = "Italy";
-      flag.push(
-        flag_base + "45px-Italy_flag.png",
-        flag_base + "68px-Italy_flag.png",
-        flag_base + "90px-Italy_flag.png",
-      );
-      break;
-    case "country_germany":
-      country = "Germany";
-      flag.push(
-        flag_base + "45px-Germany_flag.png",
-        flag_base + "68px-Germany_flag.png",
-        flag_base + "90px-Germany_flag.png",
-      );
-      break;
-    case "country_ussr":
-      country = "USSR";
-      flag.push(
-        flag_base + "45px-USSR_flag.png",
-        flag_base + "68px-USSR_flag.png",
-        flag_base + "90px-USSR_flag.png",
-      );
-      break;
-    case "country_britain":
-      country = "Britain";
-      flag.push(
-        flag_base + "45px-Britain_flag.png",
-        flag_base + "68px-Britain_flag.png",
-        flag_base + "90px-Britain_flag.png",
-      );
-      break;
-    case "country_france":
-      country = "France";
-      flag.push(
-        flag_base + "45px-France_flag.png",
-        flag_base + "68px-France_flag.png",
-        flag_base + "90px-France_flag.png",
-      );
-      break;
-    case "country_china":
-      country = "China";
-      flag.push(
-        flag_base + "45px-China_flag.png",
-        flag_base + "68px-China_flag.png",
-        flag_base + "90px-China_flag.png",
-      );
-      break;
-    case "country_sweden":
-      country = "Sweden";
-      flag.push(
-        flag_base + "45px-Sweden_flag.png",
-        flag_base + "68px-Sweden_flag.png",
-        flag_base + "90px-Sweden_flag.png",
-      );
-      break;
-    case "country_israel":
-      country = "Israel";
-      flag.push(
-        flag_base + "45px-Israel_flag.png",
-        flag_base + "68px-Israel_flag.png",
-        flag_base + "90px-Israel_flag.png",
-      );
-      break;
-    case "country_japan":
-      country = "Japan";
-      flag.push(
-        flag_base + "45px-Japan_flag.png",
-        flag_base + "68px-Japan_flag.png",
-        flag_base + "90px-Japan_flag.png",
-      );
-      break;
-  }
+  const flag = `../images/flag/45px-${country}_flag.png`;
 
   return (
     <div className="specs_card_main" data-code={vehicle.intname}>
       <VehicleImage vehicle={vehicle} link={link} />
       <div className="specs_card_main_info">
         <div className="general_info_image">
-          <img
-            width="100%"
-            src={`../images/statcard/${vehicle.intname.toLowerCase()}.png`}
-          />
+          <img width="100%" src={`../images/statcard/${vehicle.intname.toLowerCase()}.png`} />
         </div>
 
         <div className="general_info_name">
@@ -188,13 +73,9 @@ export function SpecsCard(props: {
             >
               <img
                 alt={`${country} flag.png`}
-                src={flag[0]}
+                src={flag}
                 width="45"
                 height="23"
-                srcSet="
-                https://wiki.warthunder.com/images/thumb/9/9f/USA_flag.png/68px-USA_flag.png 1.5x,
-                https://wiki.warthunder.com/images/thumb/9/9f/USA_flag.png/90px-USA_flag.png 2x
-              "
                 data-file-width="200"
                 data-file-height="104"
               />
@@ -252,14 +133,26 @@ export function SpecsCard(props: {
           </div>
           <div className="general_info_class">
             <span className="desc">Class:</span>
+            <Premium vehicle={vehicle} />
             <div>
-              <a href="/Category:Tank_destroyers" title="Category:Tank destroyers">
-                {vehicle_type}
+              <a href={`../Category:${vehicle_type}`} title={`Category:${vehicle_type}`}>
+                {vehicle_type.vehicle_type}
               </a>
             </div>
+            {vehicle_type.extended_type?.map((element) => {
+              return (
+                <div key={element}>
+                  <a href={`../Category:${element}`} title={`Category:${element}`}>
+                    {element}
+                  </a>
+                </div>
+              );
+            })}
           </div>
         </div>
-        <VehiclePrice vehicle={vehicle} />
+        <div className="general_info_price">
+          <VehiclePrice vehicle={vehicle} />
+        </div>
         <div className="general_info_buttons">
           <div className="general_info_buttons_container">
             <div className="general_info_game_button" title="Show in game">
@@ -286,31 +179,14 @@ export function Survivability(props: { vehicle: GroundProps }): JSX.Element {
         <Composite vehicle={vehicle} />
       </div>
       <div className="specs_char">
-        <div className="specs_char_block">
-          <div className="specs_char_line head">
-            <span className="name">Armour (Wiki)</span>
-            <span className="value">front / side / back</span>
-          </div>
-          <div className="specs_char_line indent">
-            <span className="name">Hull</span>
-            <span className="value">
-              {0} / {0} / {0}
-            </span>
-          </div>
-          <div className="specs_char_line indent">
-            <span className="name">Turret</span>
-            <span className="value">
-              {0} / {0} / {0}
-            </span>
-          </div>
-        </div>
-        <div className="specs_char_block">
+        <DenseTable vehicle={vehicle} />
+        <div className="specs_char_block crew">
           <div className="specs_char_line head">
             <span className="name">Crew</span>
             <span className="value">{vehicle.crew} people</span>
           </div>
         </div>
-        <div className="specs_char_block">
+        <div className="specs_char_block visibility">
           <div className="specs_char_line head">
             <span className="name">Visibility (Wiki)</span>
             <span className="value">100 %</span>
@@ -319,6 +195,21 @@ export function Survivability(props: { vehicle: GroundProps }): JSX.Element {
       </div>
     </div>
   );
+}
+
+function Premium(props: { vehicle: FinalProps }): JSX.Element | null {
+  const { vehicle } = props;
+  if (vehicle.cost_gold) {
+    return (
+      <div className="premium">
+        <a href="/Category:Premium_ground_vehicles" title="Category:Premium ground vehicles">
+          PREMIUM
+        </a>
+      </div>
+    );
+  } else {
+    return null;
+  }
 }
 
 export function Mobility(props: { vehicle: GroundProps }): JSX.Element {
@@ -340,14 +231,12 @@ export function Mobility(props: { vehicle: GroundProps }): JSX.Element {
           <div className="specs_char_line indent">
             <span className="name">AB</span>
             <span className="value">
-              {" "}
               {0} / {0} km/h
             </span>
           </div>
           <div className="specs_char_line indent">
             <span className="name">RB and SB</span>
             <span className="value">
-              {" "}
               {0} / {0} km/h
             </span>
           </div>

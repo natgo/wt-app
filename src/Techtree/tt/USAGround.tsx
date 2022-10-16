@@ -905,16 +905,7 @@ export function USAGround() {
                   intname="us_m1_abrams"
                   type="ground"
                 />
-                <Arrow length={0} />
-                <TechTreeItem
-                  link="/M1A1"
-                  title="M1A1"
-                  item_type="own"
-                  text="M1A1"
-                  intname="us_m1a1_abrams"
-                  type="ground"
-                />
-                <Arrow length={1} />
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -1041,6 +1032,15 @@ export function USAGround() {
                 <EmptyDiv />
               </td>
               <td>
+                <TechTreeItem
+                  link="/M1A1"
+                  title="M1A1"
+                  item_type="own"
+                  text="M1A1"
+                  intname="us_m1a1_abrams"
+                  type="ground"
+                />
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/IPM1"
                   title="IPM1"

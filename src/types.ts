@@ -12,7 +12,7 @@ export interface FinalProps {
   wikiname: string;
   type: "tank" | "aircraft" | "helicopter";
   normal_type: string;
-  extended_type: string[];
+  extended_type?: string[];
   country: string;
   rank: number;
   crew: number;

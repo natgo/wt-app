@@ -27,7 +27,7 @@ export function VehiclePrice(props: { vehicle: FinalProps }): JSX.Element {
   if (prem_type === "false" && hidden === undefined) {
     if (sl === "Free") {
       return (
-        <div className="general_info_price">
+        <>
           <div className="general_info_price_research">
             <span className="desc">Research:</span>
             <span className="value">{rp}</span>
@@ -36,11 +36,11 @@ export function VehiclePrice(props: { vehicle: FinalProps }): JSX.Element {
             <span className="desc">Purchase:</span>
             <span className="value">{sl}</span>
           </div>
-        </div>
+        </>
       );
     } else {
       return (
-        <div className="general_info_price">
+        <>
           <div className="general_info_price_research">
             <span className="desc">Research:</span>
             <span className="value">
@@ -74,13 +74,13 @@ export function VehiclePrice(props: { vehicle: FinalProps }): JSX.Element {
               </a>
             </span>
           </div>
-        </div>
+        </>
       );
     }
   } else {
     if (prem_type === "gold") {
       return (
-        <div className="general_info_price">
+        <>
           <div className="general_info_price_buy">
             <span className="desc">Purchase:</span>
             <span className="value">
@@ -97,7 +97,7 @@ export function VehiclePrice(props: { vehicle: FinalProps }): JSX.Element {
               </a>
             </span>
           </div>
-        </div>
+        </>
       );
     } else {
       if (
@@ -106,7 +106,7 @@ export function VehiclePrice(props: { vehicle: FinalProps }): JSX.Element {
         prem_type === "store"
       ) {
         return (
-          <div className="general_info_price">
+          <>
             <div className="general_info_price_buy" style={{ width: "100%" }}>
               <span className="desc">Purchase:</span>
               <span className="value small">
@@ -115,11 +115,11 @@ export function VehiclePrice(props: { vehicle: FinalProps }): JSX.Element {
                 </a>
               </span>
             </div>
-          </div>
+          </>
         );
       } else {
         return (
-          <div className="general_info_price">
+          <>
             <div className="general_info_price_research">
               <span className="desc">Research:</span>
               <span className="value">
@@ -153,7 +153,7 @@ export function VehiclePrice(props: { vehicle: FinalProps }): JSX.Element {
                 </a>
               </span>
             </div>
-          </div>
+          </>
         );
       }
     }
