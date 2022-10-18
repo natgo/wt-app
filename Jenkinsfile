@@ -28,7 +28,7 @@ pipeline {
     stage('Deploy') {
       steps {
         sh 'rm -r /wt/*'
-        sh 'cp dist/* /wt'
+        sh 'cp -r dist/* /wt'
       }
     }
 
