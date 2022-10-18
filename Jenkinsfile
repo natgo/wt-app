@@ -1,6 +1,5 @@
 pipeline {
   agent any
-  tools {nodejs "NodeJS 16"}
   stages {
     stage('Install Dependencies') {
       steps {
@@ -26,12 +25,21 @@ pipeline {
       }
     }
 
+    stage('Deploy') {
+      steps {
+        sh 'rm -r /wt/*'
+      }
+    }
+
+  }
+  tools {
+    nodejs 'NodeJS 16'
   }
   post {
-    // shutdown the server running in the background
     always {
       echo 'Stopping local server'
       sh 'pkill -f vite'
     }
+
   }
 }
