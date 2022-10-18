@@ -15,7 +15,7 @@ pipeline {
 
     stage('Run Cypress tests') {
       steps {
-        sh 'npx cypress run'
+        sh 'npx cypress run --record false'
       }
     }
 
