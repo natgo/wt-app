@@ -10,7 +10,7 @@ pipeline {
 
     stage('Start Dev server') {
       steps {
-        sh 'npm run dev'
+        sh 'nohup npm run dev &'
       }
     }
 
@@ -26,5 +26,12 @@ pipeline {
       }
     }
 
+  }
+  post {
+    // shutdown the server running in the background
+    always {
+      echo 'Stopping local server'
+      sh 'pkill -f vite'
+    }
   }
 }
