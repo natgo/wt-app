@@ -14,7 +14,7 @@ function createData(name: string, front: number, side: number, back: number) {
   return { name, front, side, back };
 }
 
-export default function DenseTable(props: { vehicle: GroundProps }): JSX.Element {
+export default function ArmorTable(props: { vehicle: GroundProps }): JSX.Element {
   const { vehicle } = props;
 
   const rows = [createData("Hull", 1300, 400, 200), createData("Turret", 1250, 300, 540)];
@@ -23,7 +23,7 @@ export default function DenseTable(props: { vehicle: GroundProps }): JSX.Element
       <Table sx={{ minWidth: 200 }} size="small" aria-label="a dense table">
         <TableHead>
           <TableRow>
-            <TableCell>Armour (Wiki)</TableCell>
+            <TableCell>Armour (Stat card)</TableCell>
             <TableCell align="right">Front</TableCell>
             <TableCell align="right">Side</TableCell>
             <TableCell align="right">Back</TableCell>

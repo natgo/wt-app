@@ -1137,6 +1137,13 @@ export function USAGround() {
       </div>
       <MediaHead />
       <div className="video_gallery">
+        <a href="https://yewtu.be/VPhzn19gKiY">
+          <b>The Shooting Range #325</b> - <i>Pages of History</i> section at 03:39 discusses
+          American SPGs.
+        </a>
+        <a href="https://yewtu.be/RhT6euoewSk">
+          <b>American Airborne/Amphibious Assault Vehicles</b> -<i>War Thunder Official Channel</i>
+        </a>
         <a href="https://yewtu.be/eiMde1jVPkM">
           <b>American ground forces Rank V</b> - <i>Oxy</i>
         </a>

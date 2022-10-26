@@ -34,6 +34,7 @@ export interface FinalProps {
   prem_type: string;
   cost_gold: number | undefined;
   hidden: boolean;
+  marketplace?: number;
 }
 
 export interface GroundProps extends FinalProps {

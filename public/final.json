@@ -1,5 +1,5 @@
 {
-  "updated": "2022-10-06T07:00:46.118Z",
+  "updated": "2022-10-25T23:09:42.635Z",
   "ground": [
     {
       "intname": "us_m18_hellcat_black_cat_race",
@@ -1549,7 +1549,8 @@
       "reqRP": 4000,
       "mass": 14500,
       "horsepower": 340,
-      "prem_type": "store",
+      "prem_type": "marketplace",
+      "marketplace": 50059,
       "cost_gold": 400,
       "crew": 4,
       "gears_forward": 5,
@@ -2090,6 +2091,7 @@
       "mass": 12825,
       "horsepower": 165,
       "prem_type": "event",
+      "marketplace": 50039,
       "event": "winter_2018",
       "cost_gold": 1000,
       "crew": 4,
@@ -2231,6 +2233,7 @@
       "mass": 19050,
       "horsepower": 600,
       "prem_type": "event",
+      "marketplace": 50163,
       "event": "winter_2022",
       "crew": 3,
       "gears_forward": 6,
@@ -4413,6 +4416,7 @@
       "mass": 70000,
       "horsepower": 1000,
       "prem_type": "event",
+      "marketplace": 50068,
       "event": "worldwar_recon_fire",
       "crew": 4,
       "gears_forward": 5,
@@ -4909,6 +4913,7 @@
       "mass": 8700,
       "horsepower": 160,
       "prem_type": "event",
+      "marketplace": 50074,
       "event": "summer_2019",
       "cost_gold": 8560,
       "crew": 3,
@@ -5206,6 +5211,7 @@
       "mass": 8000,
       "horsepower": 165,
       "prem_type": "event",
+      "marketplace": 50172,
       "event": "craft_2022_spring",
       "cost_gold": 400,
       "crew": 4,
@@ -5856,6 +5862,7 @@
       "mass": 8130,
       "horsepower": 90,
       "prem_type": "event",
+      "marketplace": 50083,
       "event": "worldwar_attack_from_the_sea",
       "cost_gold": 400,
       "crew": 4,
@@ -5915,7 +5922,8 @@
       "reqRP": 18000,
       "mass": 7890,
       "horsepower": 94,
-      "prem_type": "store",
+      "prem_type": "marketplace",
+      "marketplace": 50117,
       "cost_gold": 1300,
       "crew": 2,
       "gears_forward": 5,
@@ -6011,6 +6019,7 @@
       "mass": 13600,
       "horsepower": 450,
       "prem_type": "event",
+      "marketplace": 50148,
       "event": "summer_2021",
       "crew": 3,
       "gears_forward": 5,
@@ -6842,6 +6851,7 @@
       "mass": 13700,
       "horsepower": 400,
       "prem_type": "event",
+      "marketplace": 50071,
       "event": "summer_2019",
       "cost_gold": 1000,
       "crew": 3,
@@ -7822,6 +7832,7 @@
       "mass": 44000,
       "horsepower": 830,
       "prem_type": "event",
+      "marketplace": 50100,
       "event": "summer_2020",
       "crew": 4,
       "gears_forward": 8,
@@ -9457,6 +9468,7 @@
       "mass": 52000,
       "horsepower": 650,
       "prem_type": "event",
+      "marketplace": 50124,
       "event": "battlepass_season2",
       "cost_gold": 8020,
       "crew": 4,
@@ -11909,6 +11921,7 @@
       "mass": 41000,
       "horsepower": 786,
       "prem_type": "event",
+      "marketplace": 50118,
       "event": "winter_2021",
       "crew": 4,
       "gears_forward": 5,
@@ -12080,6 +12093,7 @@
       "mass": 33500,
       "horsepower": 600,
       "prem_type": "event",
+      "marketplace": 50054,
       "event": "chronicles_2016",
       "cost_gold": 3850,
       "crew": 5,
@@ -13443,6 +13457,7 @@
       "mass": 140500,
       "horsepower": 900,
       "prem_type": "false",
+      "marketplace": 50034,
       "crew": 6,
       "gears_forward": 8,
       "gears_backward": 4,
@@ -13680,6 +13695,7 @@
       "mass": 13500,
       "horsepower": 200,
       "prem_type": "event",
+      "marketplace": 50145,
       "event": "battlepass_season4",
       "cost_gold": 8020,
       "crew": 4,
@@ -13875,6 +13891,7 @@
       "mass": 65000,
       "horsepower": 625,
       "prem_type": "event",
+      "marketplace": 50181,
       "event": "battlepass_season7",
       "cost_gold": 7480,
       "crew": 6,
@@ -14009,6 +14026,7 @@
       "mass": 40027,
       "horsepower": 628,
       "prem_type": "event",
+      "marketplace": 50010,
       "event": "chronicles_2017",
       "cost_gold": 1600,
       "crew": 5,
@@ -15512,6 +15530,7 @@
       "mass": 27900,
       "horsepower": 400,
       "prem_type": "event",
+      "marketplace": 50018,
       "event": "summer_2016",
       "cost_gold": 850,
       "crew": 6,
@@ -16011,7 +16030,8 @@
       "reqRP": 54000,
       "mass": 57320,
       "horsepower": 700,
-      "prem_type": "store",
+      "prem_type": "marketplace",
+      "marketplace": 50096,
       "cost_gold": 3850,
       "crew": 5,
       "gears_forward": 8,
@@ -17413,6 +17433,7 @@
       "mass": 68000,
       "horsepower": 1050,
       "prem_type": "event",
+      "marketplace": 50040,
       "event": "summer_2018_craft",
       "crew": 5,
       "gears_forward": 8,
@@ -19429,6 +19450,7 @@
       "mass": 52400,
       "horsepower": 600,
       "prem_type": "event",
+      "marketplace": 50082,
       "event": "chronicles_2016",
       "cost_gold": 1750,
       "crew": 6,
@@ -19550,6 +19572,7 @@
       "mass": 62400,
       "horsepower": 850,
       "prem_type": "event",
+      "marketplace": 50021,
       "event": "summer_2016",
       "cost_gold": 3850,
       "crew": 6,
@@ -19672,7 +19695,8 @@
       "reqRP": 33000,
       "mass": 48950,
       "horsepower": 600,
-      "prem_type": "store",
+      "prem_type": "marketplace",
+      "marketplace": 50004,
       "cost_gold": 3200,
       "crew": 5,
       "gears_forward": 5,
@@ -20649,6 +20673,7 @@
       "mass": 18300,
       "horsepower": 250,
       "prem_type": "event",
+      "marketplace": 50019,
       "event": "winter_2017",
       "crew": 5,
       "gears_forward": 5,
@@ -22127,6 +22152,7 @@
       "mass": 55150,
       "horsepower": 1500,
       "prem_type": "event",
+      "marketplace": 50190,
       "event": "summer_2022",
       "crew": 4,
       "gears_forward": 8,
@@ -26902,7 +26928,8 @@
       "reqRP": 9200,
       "mass": 27675,
       "horsepower": 400,
-      "prem_type": "store",
+      "prem_type": "marketplace",
+      "marketplace": 50041,
       "cost_gold": 850,
       "crew": 6,
       "gears_forward": 5,
@@ -31908,6 +31935,7 @@
       "mass": 54500,
       "horsepower": 1200,
       "prem_type": "event",
+      "marketplace": 50098,
       "event": "worldwar_road_to_the_west",
       "crew": 4,
       "gears_forward": 6,
@@ -32673,6 +32701,7 @@
       "mass": 24000,
       "horsepower": 500,
       "prem_type": "event",
+      "marketplace": 50169,
       "event": "battlepass_season6",
       "cost_gold": 1750,
       "crew": 5,
@@ -32842,6 +32871,7 @@
       "mass": 69850,
       "horsepower": 800,
       "prem_type": "event",
+      "marketplace": 50139,
       "event": "battlepass_season3",
       "cost_gold": 8200,
       "crew": 5,
@@ -33025,7 +33055,8 @@
       "reqRP": 4000,
       "mass": 7892,
       "horsepower": 110,
-      "prem_type": "store",
+      "prem_type": "marketplace",
+      "marketplace": 50038,
       "cost_gold": 400,
       "crew": 4,
       "gears_forward": 8,
@@ -33144,6 +33175,7 @@
       "mass": 15570,
       "horsepower": 296,
       "prem_type": "event",
+      "marketplace": 50020,
       "event": "winter_2015",
       "cost_gold": 400,
       "crew": 4,
@@ -33540,6 +33572,7 @@
       "mass": 28500,
       "horsepower": 190,
       "prem_type": "event",
+      "marketplace": 50033,
       "event": "chronicles_2017",
       "cost_gold": 1150,
       "crew": 4,
@@ -35306,6 +35339,7 @@
       "mass": 27331,
       "horsepower": 190,
       "prem_type": "event",
+      "marketplace": 50112,
       "event": "battlepass_season1",
       "cost_gold": 850,
       "crew": 4,
@@ -35560,6 +35594,7 @@
       "mass": 61000,
       "horsepower": 900,
       "prem_type": "event",
+      "marketplace": 50065,
       "event": "craft_2019_spring",
       "crew": 4,
       "gears_forward": 4,
@@ -35759,6 +35794,7 @@
       "mass": 63000,
       "horsepower": 963,
       "prem_type": "event",
+      "marketplace": 50085,
       "event": "winter_2020",
       "crew": 4,
       "gears_forward": 6,
@@ -36235,6 +36271,7 @@
       "mass": 65000,
       "horsepower": 1200,
       "prem_type": "event",
+      "marketplace": 50105,
       "event": "craft_2020_autumn",
       "crew": 4,
       "gears_forward": 6,
@@ -37465,6 +37502,7 @@
       "mass": 60400,
       "horsepower": 1000,
       "prem_type": "event",
+      "marketplace": 50094,
       "event": "craft_2020_spring",
       "crew": 4,
       "gears_forward": 8,
@@ -38712,6 +38750,7 @@
       "mass": 50500,
       "horsepower": 1500,
       "prem_type": "event",
+      "marketplace": 50154,
       "event": "craft_2021_autumn",
       "crew": 4,
       "gears_forward": 8,
@@ -38889,6 +38928,7 @@
       "mass": 15000,
       "horsepower": 300,
       "prem_type": "event",
+      "marketplace": 50160,
       "event": "battlepass_season5",
       "cost_gold": 7480,
       "crew": 3,
@@ -39911,6 +39951,7 @@
       "mass": 8100,
       "horsepower": 135,
       "prem_type": "event",
+      "marketplace": 50150,
       "event": "craft_2021_autumn",
       "cost_gold": 400,
       "crew": 6,
@@ -42569,8 +42610,9 @@
       "reqRP": 11000,
       "mass": 10500,
       "horsepower": 200,
-      "prem_type": "gold",
+      "prem_type": "store",
       "cost_gold": 1000,
+      "hidden": true,
       "crew": 3,
       "gears_forward": 6,
       "gears_backward": 1,
@@ -42639,6 +42681,7 @@
       "mass": 29000,
       "horsepower": 400,
       "prem_type": "event",
+      "marketplace": 50086,
       "event": "winter_2020",
       "cost_gold": 3850,
       "crew": 6,
@@ -42906,7 +42949,8 @@
       "reqRP": 7900,
       "mass": 12100,
       "horsepower": 365,
-      "prem_type": "store",
+      "prem_type": "marketplace",
+      "marketplace": 50035,
       "cost_gold": 700,
       "crew": 3,
       "gears_forward": 3,
@@ -45817,6 +45861,7 @@
       "mass": 11600,
       "horsepower": 110,
       "prem_type": "event",
+      "marketplace": 50127,
       "event": "craft_2021_spring",
       "cost_gold": 850,
       "crew": 4,
@@ -45886,7 +45931,8 @@
       "reqRP": 9200,
       "mass": 10500,
       "horsepower": 140,
-      "prem_type": "store",
+      "prem_type": "marketplace",
+      "marketplace": 50028,
       "cost_gold": 850,
       "crew": 4,
       "gears_forward": 4,
@@ -46155,6 +46201,7 @@
       "mass": 12200,
       "horsepower": 140,
       "prem_type": "event",
+      "marketplace": 50050,
       "event": "winter_2019",
       "cost_gold": 1450,
       "crew": 4,
@@ -46609,6 +46656,7 @@
       "mass": 11500,
       "horsepower": 210,
       "prem_type": "event",
+      "marketplace": 50091,
       "event": "craft_2020_spring",
       "cost_gold": 400,
       "crew": 4,
@@ -46816,6 +46864,7 @@
       "mass": 11500,
       "horsepower": 210,
       "prem_type": "event",
+      "marketplace": 50046,
       "event": "summer_2018_good_old",
       "cost_gold": 400,
       "crew": 4,
@@ -46892,6 +46941,7 @@
       "mass": 11740,
       "horsepower": 210,
       "prem_type": "event",
+      "marketplace": 50037,
       "event": "summer_2017",
       "cost_gold": 1300,
       "crew": 4,
@@ -46968,6 +47018,7 @@
       "mass": 8000,
       "horsepower": 100,
       "prem_type": "event",
+      "marketplace": 50102,
       "event": "craft_2020_autumn",
       "cost_gold": 400,
       "crew": 5,
@@ -51376,6 +51427,7 @@
       "mass": 50000,
       "horsepower": 700,
       "prem_type": "event",
+      "marketplace": 50111,
       "event": "battlepass_season1",
       "cost_gold": 8560,
       "crew": 4,
@@ -51916,7 +51968,8 @@
       "reqRP": 4000,
       "mass": 12000,
       "horsepower": 91,
-      "prem_type": "store",
+      "prem_type": "marketplace",
+      "marketplace": 50058,
       "cost_gold": 400,
       "crew": 3,
       "gears_forward": 5,
@@ -53237,7 +53290,8 @@
       "reqRP": 14000,
       "mass": 30600,
       "horsepower": 500,
-      "prem_type": "store",
+      "prem_type": "marketplace",
+      "marketplace": 50036,
       "cost_gold": 1150,
       "crew": 4,
       "gears_forward": 4,
@@ -55556,6 +55610,7 @@
       "mass": 44500,
       "horsepower": 850,
       "prem_type": "event",
+      "marketplace": 50176,
       "event": "craft_2022_spring",
       "crew": 3,
       "gears_forward": 7,
@@ -56045,6 +56100,7 @@
       "has_dozer": true,
       "has_smoke": true,
       "has_ess": true,
+      "has_lws": true,
       "has_era": true,
       "has_composite": true,
       "optics": {
@@ -56149,6 +56205,7 @@
       "has_dozer": true,
       "has_smoke": true,
       "has_ess": true,
+      "has_lws": true,
       "has_era": true,
       "has_composite": true,
       "optics": {
@@ -56305,7 +56362,8 @@
       "reqRP": 46000,
       "mass": 44800,
       "horsepower": 600,
-      "prem_type": "store",
+      "prem_type": "marketplace",
+      "marketplace": 50017,
       "cost_gold": 2980,
       "crew": 5,
       "gears_forward": 7,
@@ -56496,6 +56554,7 @@
       "mass": 24040,
       "horsepower": 250,
       "prem_type": "event",
+      "marketplace": 50070,
       "event": "chronicles_2018",
       "cost_gold": 1000,
       "crew": 5,
@@ -56960,6 +57019,7 @@
       "mass": 65835,
       "horsepower": 810,
       "prem_type": "event",
+      "marketplace": 50051,
       "event": "winter_2019",
       "cost_gold": 8200,
       "crew": 6,
@@ -58069,6 +58129,7 @@
       "mass": 57320,
       "horsepower": 650,
       "prem_type": "event",
+      "marketplace": 5561,
       "event": "craft_2018_spring",
       "cost_gold": 2980,
       "crew": 5,
@@ -59557,6 +59618,7 @@
       "mass": 20230,
       "horsepower": 500,
       "prem_type": "event",
+      "marketplace": 50011,
       "event": "winter_2017",
       "crew": 4,
       "gears_forward": 5,
@@ -59790,6 +59852,7 @@
       "horsepower": 580,
       "prem_type": "store",
       "cost_gold": 8560,
+      "hidden": true,
       "crew": 4,
       "gears_forward": 5,
       "gears_backward": 1,
@@ -61806,6 +61869,7 @@
       "mass": 26000,
       "horsepower": 360,
       "prem_type": "event",
+      "marketplace": 50062,
       "event": "craft_2019_spring",
       "cost_gold": 3850,
       "crew": 6,
@@ -61931,6 +61995,7 @@
       "mass": 57000,
       "horsepower": 625,
       "prem_type": "event",
+      "marketplace": 50023,
       "event": "winter_2016",
       "cost_gold": 2980,
       "crew": 5,
@@ -62099,6 +62164,7 @@
       "mass": 43500,
       "horsepower": 2200,
       "prem_type": "event",
+      "marketplace": 50080,
       "event": "craft_2019_autumn",
       "crew": 3,
       "gears_forward": 8,
@@ -63739,6 +63805,7 @@
       "mass": 17600,
       "horsepower": 550,
       "prem_type": "event",
+      "marketplace": 50131,
       "event": "craft_2021_spring",
       "crew": 3,
       "gears_forward": 6,
@@ -66243,6 +66310,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 930000,
       "reqRP": 340000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -66268,7 +66336,8 @@
       "sb_sl_multiplyer": 7,
       "sl_price": 0,
       "reqRP": 270000,
-      "prem_type": "store",
+      "marketplace": 50153,
+      "prem_type": "marketplace",
       "cost_gold": 9090,
       "crew": 1,
       "type": "aircraft"
@@ -66294,6 +66363,7 @@
       "sb_sl_multiplyer": 2.5,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -66319,6 +66389,7 @@
       "sb_sl_multiplyer": 3.89,
       "sl_price": 170000,
       "reqRP": 46000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -66344,6 +66415,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 180000,
       "reqRP": 54000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -66369,6 +66441,7 @@
       "sb_sl_multiplyer": 2.15,
       "sl_price": 180000,
       "reqRP": 54000,
+      "marketplace": 50153,
       "prem_type": "false",
       "hidden": true,
       "crew": 3,
@@ -66395,7 +66468,8 @@
       "sb_sl_multiplyer": 5.55,
       "sl_price": 0,
       "reqRP": 54000,
-      "prem_type": "store",
+      "marketplace": 50153,
+      "prem_type": "marketplace",
       "cost_gold": 3850,
       "crew": 3,
       "type": "aircraft"
@@ -66472,6 +66546,7 @@
       "sb_sl_multiplyer": 1.53,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -66498,6 +66573,7 @@
       "sb_sl_multiplyer": 5.81728,
       "sl_price": 500000,
       "reqRP": 180000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -66524,7 +66600,8 @@
       "sb_sl_multiplyer": 7,
       "sl_price": 0,
       "reqRP": 220000,
-      "prem_type": "store",
+      "marketplace": 50175,
+      "prem_type": "marketplace",
       "cost_gold": 8910,
       "crew": 1,
       "type": "aircraft"
@@ -66551,6 +66628,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 590000,
       "reqRP": 220000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -66577,6 +66655,7 @@
       "sb_sl_multiplyer": 5.0764,
       "sl_price": 500000,
       "reqRP": 400000,
+      "marketplace": 50153,
       "prem_type": "squad",
       "crew": 1,
       "type": "aircraft"
@@ -66603,6 +66682,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 500000,
       "reqRP": 180000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -66629,6 +66709,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 740000,
       "reqRP": 270000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -66680,6 +66761,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 1060000,
       "reqRP": 390000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -66706,6 +66788,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 1080000,
       "reqRP": 400000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -66835,6 +66918,7 @@
       "sb_sl_multiplyer": 5.16,
       "sl_price": 0,
       "reqRP": 95000,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 6900,
       "crew": 1,
@@ -66887,6 +66971,7 @@
       "sb_sl_multiplyer": 0.45,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -66940,6 +67025,7 @@
       "sb_sl_multiplyer": 5.31,
       "sl_price": 0,
       "reqRP": 18000,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 1300,
       "crew": 1,
@@ -66966,6 +67052,7 @@
       "sb_sl_multiplyer": 1.91,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -66992,6 +67079,7 @@
       "sb_sl_multiplyer": 1.37,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -67018,6 +67106,7 @@
       "sb_sl_multiplyer": 1.93,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -67044,6 +67133,7 @@
       "sb_sl_multiplyer": 1.68,
       "sl_price": 110000,
       "reqRP": 26000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -67070,6 +67160,7 @@
       "sb_sl_multiplyer": 1.01528,
       "sl_price": 140000,
       "reqRP": 33000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -67096,6 +67187,7 @@
       "sb_sl_multiplyer": 1.87,
       "sl_price": 77000,
       "reqRP": 18000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -67122,6 +67214,7 @@
       "sb_sl_multiplyer": 1.82,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -67148,7 +67241,8 @@
       "sb_sl_multiplyer": 6.08,
       "sl_price": 0,
       "reqRP": 54000,
-      "prem_type": "store",
+      "marketplace": 50089,
+      "prem_type": "marketplace",
       "cost_gold": 3850,
       "crew": 1,
       "type": "aircraft"
@@ -67175,6 +67269,7 @@
       "sb_sl_multiplyer": 2.338,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -67201,6 +67296,7 @@
       "sb_sl_multiplyer": 2.41,
       "sl_price": 140000,
       "reqRP": 33000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -67227,6 +67323,7 @@
       "sb_sl_multiplyer": 5.82,
       "sl_price": 0,
       "reqRP": 40000,
+      "marketplace": 50089,
       "prem_type": "event",
       "event": "battlepass_season4",
       "cost_gold": 1750,
@@ -67254,6 +67351,7 @@
       "sb_sl_multiplyer": 1.63,
       "sl_price": 0,
       "reqRP": 5900,
+      "marketplace": 50089,
       "prem_type": "gold",
       "cost_gold": 550,
       "crew": 1,
@@ -67281,6 +67379,7 @@
       "sb_sl_multiplyer": 4.4,
       "sl_price": 0,
       "reqRP": 33000,
+      "marketplace": 50089,
       "prem_type": "gold",
       "cost_gold": 2190,
       "crew": 1,
@@ -67308,6 +67407,7 @@
       "sb_sl_multiplyer": 1.76,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -67334,6 +67434,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 210000,
       "reqRP": 71000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -67386,6 +67487,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 240000,
       "reqRP": 82000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -67464,6 +67566,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -67490,6 +67593,7 @@
       "sb_sl_multiplyer": 5.53,
       "sl_price": 0,
       "reqRP": 63000,
+      "marketplace": 50153,
       "prem_type": "event",
       "event": "craft_2020_spring",
       "cost_gold": 4880,
@@ -67518,7 +67622,8 @@
       "sb_sl_multiplyer": 6.65,
       "sl_price": 0,
       "reqRP": 220000,
-      "prem_type": "store",
+      "marketplace": 50153,
+      "prem_type": "marketplace",
       "cost_gold": 8910,
       "crew": 1,
       "type": "aircraft"
@@ -67545,6 +67650,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 740000,
       "reqRP": 270000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -67571,6 +67677,7 @@
       "sb_sl_multiplyer": 1.42,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50089,
       "prem_type": "false",
       "hidden": true,
       "crew": 3,
@@ -67598,6 +67705,7 @@
       "sb_sl_multiplyer": 1.26,
       "sl_price": 0,
       "reqRP": 4000,
+      "marketplace": 50161,
       "prem_type": "event",
       "event": "summer_2020",
       "cost_gold": 400,
@@ -67654,6 +67762,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 270000,
       "reqRP": 95000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -67680,6 +67789,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 370000,
       "reqRP": 130000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -67759,6 +67869,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 270000,
       "reqRP": 95000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -67785,6 +67896,7 @@
       "sb_sl_multiplyer": 6.65,
       "sl_price": 0,
       "reqRP": 95000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 8020,
       "crew": 1,
@@ -67812,6 +67924,7 @@
       "sb_sl_multiplyer": 4.04,
       "sl_price": 0,
       "reqRP": 11000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 1000,
       "crew": 3,
@@ -67839,6 +67952,7 @@
       "sb_sl_multiplyer": 1.38,
       "sl_price": 0,
       "reqRP": 4000,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 400,
       "crew": 4,
@@ -67866,6 +67980,7 @@
       "sb_sl_multiplyer": 6.25,
       "sl_price": 0,
       "reqRP": 54000,
+      "marketplace": 50089,
       "prem_type": "gold",
       "cost_gold": 4900,
       "crew": 9,
@@ -67893,6 +68008,7 @@
       "sb_sl_multiplyer": 1.41,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 9,
       "type": "aircraft"
@@ -67919,6 +68035,7 @@
       "sb_sl_multiplyer": 3.73184,
       "sl_price": 140000,
       "reqRP": 33000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 9,
       "type": "aircraft"
@@ -67945,6 +68062,7 @@
       "sb_sl_multiplyer": 2.43,
       "sl_price": 170000,
       "reqRP": 46000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 10,
       "type": "aircraft"
@@ -67971,6 +68089,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 170000,
       "reqRP": 46000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 10,
       "type": "aircraft"
@@ -67997,6 +68116,7 @@
       "sb_sl_multiplyer": 1.82,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 6,
       "type": "aircraft"
@@ -68023,6 +68143,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 8,
       "type": "aircraft"
@@ -68049,6 +68170,7 @@
       "sb_sl_multiplyer": 3.01,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 7,
       "type": "aircraft"
@@ -68075,6 +68197,7 @@
       "sb_sl_multiplyer": 3.4104,
       "sl_price": 77000,
       "reqRP": 18000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 7,
       "type": "aircraft"
@@ -68154,6 +68277,7 @@
       "sb_sl_multiplyer": 4.89,
       "sl_price": 110000,
       "reqRP": 26000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 6,
       "type": "aircraft"
@@ -68206,6 +68330,7 @@
       "sb_sl_multiplyer": 1.69,
       "sl_price": 240000,
       "reqRP": 82000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 7,
       "type": "aircraft"
@@ -68232,6 +68357,7 @@
       "sb_sl_multiplyer": 1.81,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 5,
       "type": "aircraft"
@@ -68258,6 +68384,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 270000,
       "reqRP": 95000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -68284,6 +68411,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 370000,
       "reqRP": 130000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -68492,6 +68620,7 @@
       "sb_sl_multiplyer": 0.57624,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -68518,6 +68647,7 @@
       "sb_sl_multiplyer": 1.19,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -68544,6 +68674,7 @@
       "sb_sl_multiplyer": 1.99,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -68570,6 +68701,7 @@
       "sb_sl_multiplyer": 1.93,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -68596,6 +68728,7 @@
       "sb_sl_multiplyer": 2.03,
       "sl_price": 110000,
       "reqRP": 26000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -68674,6 +68807,7 @@
       "sb_sl_multiplyer": 5.78,
       "sl_price": 0,
       "reqRP": 40000,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 1750,
       "crew": 1,
@@ -68701,6 +68835,7 @@
       "sb_sl_multiplyer": 0.266,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 5,
       "type": "aircraft"
@@ -68727,6 +68862,7 @@
       "sb_sl_multiplyer": 6.83,
       "sl_price": 0,
       "reqRP": 26000,
+      "marketplace": 50161,
       "prem_type": "event",
       "event": "battlepass_season8",
       "cost_gold": 1450,
@@ -68756,6 +68892,7 @@
       "sb_sl_multiplyer": 4.25,
       "sl_price": 0,
       "reqRP": 18000,
+      "marketplace": 50161,
       "prem_type": "gold",
       "cost_gold": 1840,
       "crew": 10,
@@ -68835,6 +68972,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -68860,6 +68998,7 @@
       "sb_sl_multiplyer": 6.02,
       "sl_price": 0,
       "reqRP": 9200,
+      "marketplace": 50146,
       "prem_type": "event",
       "event": "battlepass_season5",
       "cost_gold": 850,
@@ -68888,6 +69027,7 @@
       "sb_sl_multiplyer": 3.43,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -68914,6 +69054,7 @@
       "sb_sl_multiplyer": 2.08,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -68940,6 +69081,7 @@
       "sb_sl_multiplyer": 1.1,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 4,
       "type": "aircraft"
@@ -68965,6 +69107,7 @@
       "sb_sl_multiplyer": 0.53508,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -68990,6 +69133,7 @@
       "sb_sl_multiplyer": 0.89,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -69015,6 +69159,7 @@
       "sb_sl_multiplyer": 1.3,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -69040,6 +69185,7 @@
       "sb_sl_multiplyer": 2.06,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -69065,6 +69211,7 @@
       "sb_sl_multiplyer": 4.61,
       "sl_price": 0,
       "reqRP": 11000,
+      "marketplace": 50089,
       "prem_type": "gold",
       "cost_gold": 1000,
       "crew": 1,
@@ -69091,7 +69238,8 @@
       "sb_sl_multiplyer": 2.29,
       "sl_price": 0,
       "reqRP": 9200,
-      "prem_type": "store",
+      "marketplace": 50161,
+      "prem_type": "marketplace",
       "cost_gold": 850,
       "crew": 1,
       "type": "aircraft"
@@ -69117,6 +69265,7 @@
       "sb_sl_multiplyer": 2.1,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -69142,6 +69291,7 @@
       "sb_sl_multiplyer": 1.93,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -69167,6 +69317,7 @@
       "sb_sl_multiplyer": 4.62,
       "sl_price": 0,
       "reqRP": 26000,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 1450,
       "crew": 1,
@@ -69193,6 +69344,7 @@
       "sb_sl_multiplyer": 2.52,
       "sl_price": 110000,
       "reqRP": 26000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -69218,6 +69370,7 @@
       "sb_sl_multiplyer": 2.27,
       "sl_price": 77000,
       "reqRP": 18000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -69243,6 +69396,7 @@
       "sb_sl_multiplyer": 3.45,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -69293,6 +69447,7 @@
       "sb_sl_multiplyer": 3.49,
       "sl_price": 180000,
       "reqRP": 54000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -69344,6 +69499,7 @@
       "sb_sl_multiplyer": 2.8,
       "sl_price": 140000,
       "reqRP": 33000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -69369,7 +69525,8 @@
       "sb_sl_multiplyer": 4.46,
       "sl_price": 0,
       "reqRP": 26000,
-      "prem_type": "store",
+      "marketplace": 50161,
+      "prem_type": "marketplace",
       "cost_gold": 1450,
       "hidden": true,
       "crew": 1,
@@ -69422,6 +69579,7 @@
       "sb_sl_multiplyer": 3.89,
       "sl_price": 170000,
       "reqRP": 46000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -69447,6 +69605,7 @@
       "sb_sl_multiplyer": 5.95,
       "sl_price": 240000,
       "reqRP": 82000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -69472,7 +69631,8 @@
       "sb_sl_multiplyer": 6.95,
       "sl_price": 0,
       "reqRP": 46000,
-      "prem_type": "store",
+      "marketplace": 50161,
+      "prem_type": "marketplace",
       "cost_gold": 2980,
       "hidden": true,
       "crew": 1,
@@ -69499,6 +69659,7 @@
       "sb_sl_multiplyer": 4.16,
       "sl_price": 0,
       "reqRP": 11000,
+      "marketplace": 50161,
       "prem_type": "event",
       "event": "summer_2019",
       "cost_gold": 1000,
@@ -69526,6 +69687,7 @@
       "sb_sl_multiplyer": 2.23,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -69551,6 +69713,7 @@
       "sb_sl_multiplyer": 3.26,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -69576,6 +69739,7 @@
       "sb_sl_multiplyer": 3.8,
       "sl_price": 77000,
       "reqRP": 18000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -69627,6 +69791,7 @@
       "sb_sl_multiplyer": 3.12,
       "sl_price": 110000,
       "reqRP": 26000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -69653,6 +69818,7 @@
       "sb_sl_multiplyer": 0.48,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -69679,6 +69845,7 @@
       "sb_sl_multiplyer": 5.85,
       "sl_price": 0,
       "reqRP": 63000,
+      "marketplace": 50153,
       "prem_type": "event",
       "event": "chronicles_2016",
       "cost_gold": 4880,
@@ -69706,6 +69873,7 @@
       "sb_sl_multiplyer": 3.56,
       "sl_price": 0,
       "reqRP": 14000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 1150,
       "crew": 1,
@@ -69732,6 +69900,7 @@
       "sb_sl_multiplyer": 4.16,
       "sl_price": 0,
       "reqRP": 14000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 1320,
       "hidden": true,
@@ -69760,7 +69929,8 @@
       "sb_sl_multiplyer": 3.53,
       "sl_price": 0,
       "reqRP": 7900,
-      "prem_type": "store",
+      "marketplace": 50146,
+      "prem_type": "marketplace",
       "cost_gold": 700,
       "crew": 4,
       "type": "aircraft"
@@ -69786,6 +69956,7 @@
       "sb_sl_multiplyer": 5.9,
       "sl_price": 0,
       "reqRP": 71000,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 6090,
       "hidden": true,
@@ -69864,6 +70035,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -69890,6 +70062,7 @@
       "sb_sl_multiplyer": 4.0572,
       "sl_price": 500000,
       "reqRP": 180000,
+      "marketplace": 50146,
       "prem_type": "event",
       "event": "summer_2021",
       "crew": 2,
@@ -69917,6 +70090,7 @@
       "sb_sl_multiplyer": 4.13,
       "sl_price": 500000,
       "reqRP": 180000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -69942,6 +70116,7 @@
       "sb_sl_multiplyer": 0.96,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -69992,6 +70167,7 @@
       "sb_sl_multiplyer": 0.95,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -70042,6 +70218,7 @@
       "sb_sl_multiplyer": 1.02,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -70272,6 +70449,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 500000,
       "reqRP": 180000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -70298,6 +70476,7 @@
       "sb_sl_multiplyer": 2.21,
       "sl_price": 590000,
       "reqRP": 220000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -70397,6 +70576,7 @@
       "sb_sl_multiplyer": 0.43,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -70473,6 +70653,7 @@
       "sb_sl_multiplyer": 2.13,
       "sl_price": 370000,
       "reqRP": 130000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -70499,6 +70680,7 @@
       "sb_sl_multiplyer": 2.11,
       "sl_price": 270000,
       "reqRP": 95000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -70525,6 +70707,7 @@
       "sb_sl_multiplyer": 1.55,
       "sl_price": 0,
       "reqRP": 5900,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 880,
       "crew": 6,
@@ -70578,6 +70761,7 @@
       "sb_sl_multiplyer": 4.51,
       "sl_price": 0,
       "reqRP": 14000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 1150,
       "crew": 1,
@@ -70755,7 +70939,8 @@
       "sb_sl_multiplyer": 3.95,
       "sl_price": 0,
       "reqRP": 11000,
-      "prem_type": "store",
+      "marketplace": 50146,
+      "prem_type": "marketplace",
       "cost_gold": 1000,
       "hidden": true,
       "crew": 1,
@@ -70807,6 +70992,7 @@
       "sb_sl_multiplyer": 1.4,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50146,
       "prem_type": "false",
       "hidden": true,
       "crew": 1,
@@ -70834,6 +71020,7 @@
       "sb_sl_multiplyer": 0.798,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -70860,6 +71047,7 @@
       "sb_sl_multiplyer": 3.83,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -70886,6 +71074,7 @@
       "sb_sl_multiplyer": 4.158,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -70912,6 +71101,7 @@
       "sb_sl_multiplyer": 1.904,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -70990,7 +71180,8 @@
       "sb_sl_multiplyer": 3.62,
       "sl_price": 0,
       "reqRP": 7900,
-      "prem_type": "store",
+      "marketplace": 50146,
+      "prem_type": "marketplace",
       "cost_gold": 700,
       "crew": 4,
       "type": "aircraft"
@@ -71017,6 +71208,7 @@
       "sb_sl_multiplyer": 0.69,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -71043,6 +71235,7 @@
       "sb_sl_multiplyer": 1.12,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 4,
       "type": "aircraft"
@@ -71069,6 +71262,7 @@
       "sb_sl_multiplyer": 0.5194,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -71095,6 +71289,7 @@
       "sb_sl_multiplyer": 4.3,
       "sl_price": 140000,
       "reqRP": 33000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 5,
       "type": "aircraft"
@@ -71121,6 +71316,7 @@
       "sb_sl_multiplyer": 5.9584,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 5,
       "type": "aircraft"
@@ -71147,6 +71343,7 @@
       "sb_sl_multiplyer": 0.73,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 4,
       "type": "aircraft"
@@ -71173,6 +71370,7 @@
       "sb_sl_multiplyer": 3.0576,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 4,
       "type": "aircraft"
@@ -71199,6 +71397,7 @@
       "sb_sl_multiplyer": 4.08,
       "sl_price": 170000,
       "reqRP": 46000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 5,
       "type": "aircraft"
@@ -71225,6 +71424,7 @@
       "sb_sl_multiplyer": 5.08,
       "sl_price": 180000,
       "reqRP": 54000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 5,
       "type": "aircraft"
@@ -71251,6 +71451,7 @@
       "sb_sl_multiplyer": 3.89,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 4,
       "type": "aircraft"
@@ -71277,6 +71478,7 @@
       "sb_sl_multiplyer": 3.02,
       "sl_price": 77000,
       "reqRP": 18000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -71302,6 +71504,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 210000,
       "reqRP": 71000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -71327,6 +71530,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -71352,6 +71556,7 @@
       "sb_sl_multiplyer": 5.18,
       "sl_price": 0,
       "reqRP": 63000,
+      "marketplace": 50161,
       "prem_type": "gold",
       "cost_gold": 4880,
       "crew": 1,
@@ -71406,6 +71611,7 @@
       "sb_sl_multiplyer": 1.02,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50089,
       "prem_type": "false",
       "hidden": true,
       "crew": 3,
@@ -71433,6 +71639,7 @@
       "sb_sl_multiplyer": 1.42,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50089,
       "prem_type": "false",
       "hidden": true,
       "crew": 2,
@@ -71486,6 +71693,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 740000,
       "reqRP": 270000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -71564,6 +71772,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 590000,
       "reqRP": 220000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -71616,6 +71825,7 @@
       "sb_sl_multiplyer": 2.94,
       "sl_price": 500000,
       "reqRP": 180000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -71642,6 +71852,7 @@
       "sb_sl_multiplyer": 3.57,
       "sl_price": 590000,
       "reqRP": 220000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -71720,6 +71931,7 @@
       "sb_sl_multiplyer": 5.49,
       "sl_price": 930000,
       "reqRP": 340000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -71746,6 +71958,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 590000,
       "reqRP": 220000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -71823,6 +72036,7 @@
       "sb_sl_multiplyer": 5.684,
       "sl_price": 500000,
       "reqRP": 180000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -71849,6 +72063,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 1080000,
       "reqRP": 400000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -71875,6 +72090,7 @@
       "sb_sl_multiplyer": 5.0764,
       "sl_price": 740000,
       "reqRP": 270000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -71901,6 +72117,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 930000,
       "reqRP": 340000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -71927,6 +72144,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 930000,
       "reqRP": 340000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -71953,6 +72171,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 1060000,
       "reqRP": 390000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -71979,6 +72198,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 930000,
       "reqRP": 340000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -72005,6 +72225,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 930000,
       "reqRP": 340000,
+      "marketplace": 50161,
       "prem_type": "event",
       "event": "craft_2021_spring",
       "crew": 2,
@@ -72032,6 +72253,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 1060000,
       "reqRP": 390000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -72058,6 +72280,7 @@
       "sb_sl_multiplyer": 5.45,
       "sl_price": 1060000,
       "reqRP": 390000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -72110,6 +72333,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 930000,
       "reqRP": 340000,
+      "marketplace": 50153,
       "prem_type": "event",
       "event": "craft_2021_autumn",
       "crew": 1,
@@ -72137,7 +72361,8 @@
       "sb_sl_multiplyer": 4.71,
       "sl_price": 0,
       "reqRP": 340000,
-      "prem_type": "store",
+      "marketplace": 50153,
+      "prem_type": "marketplace",
       "cost_gold": 9270,
       "crew": 1,
       "type": "aircraft"
@@ -72190,6 +72415,7 @@
       "sb_sl_multiplyer": 3.41,
       "sl_price": 930000,
       "reqRP": 340000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -72243,6 +72469,7 @@
       "sb_sl_multiplyer": 4.56,
       "sl_price": 270000,
       "reqRP": 95000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -72269,6 +72496,7 @@
       "sb_sl_multiplyer": 5.03,
       "sl_price": 370000,
       "reqRP": 130000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -72295,6 +72523,7 @@
       "sb_sl_multiplyer": 5.32,
       "sl_price": 240000,
       "reqRP": 82000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -72320,6 +72549,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 270000,
       "reqRP": 95000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -72370,6 +72600,7 @@
       "sb_sl_multiplyer": 4.4,
       "sl_price": 420000,
       "reqRP": 150000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -72422,6 +72653,7 @@
       "sb_sl_multiplyer": 5.85,
       "sl_price": 0,
       "reqRP": 150000,
+      "marketplace": 50175,
       "prem_type": "gold",
       "cost_gold": 8560,
       "crew": 1,
@@ -72473,6 +72705,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 420000,
       "reqRP": 150000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -72548,6 +72781,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 310000,
       "reqRP": 110000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -72599,6 +72833,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 370000,
       "reqRP": 130000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -72625,6 +72860,7 @@
       "sb_sl_multiplyer": 3.605,
       "sl_price": 500000,
       "reqRP": 180000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -72651,6 +72887,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 420000,
       "reqRP": 150000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -72703,6 +72940,7 @@
       "sb_sl_multiplyer": 5.838,
       "sl_price": 370000,
       "reqRP": 130000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -72729,7 +72967,8 @@
       "sb_sl_multiplyer": 6.47,
       "sl_price": 0,
       "reqRP": 340000,
-      "prem_type": "store",
+      "marketplace": 50153,
+      "prem_type": "marketplace",
       "cost_gold": 9270,
       "hidden": true,
       "crew": 1,
@@ -72783,6 +73022,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 420000,
       "reqRP": 150000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -72809,6 +73049,7 @@
       "sb_sl_multiplyer": 6.65,
       "sl_price": 0,
       "reqRP": 150000,
+      "marketplace": 50089,
       "prem_type": "gold",
       "cost_gold": 8560,
       "crew": 1,
@@ -72862,6 +73103,7 @@
       "sb_sl_multiplyer": 3.26,
       "sl_price": 740000,
       "reqRP": 270000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -72914,6 +73156,7 @@
       "sb_sl_multiplyer": 6.7,
       "sl_price": 0,
       "reqRP": 130000,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 7540,
       "crew": 2,
@@ -72941,6 +73184,7 @@
       "sb_sl_multiplyer": 5.79,
       "sl_price": 0,
       "reqRP": 130000,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 3770,
       "crew": 2,
@@ -72994,6 +73238,7 @@
       "sb_sl_multiplyer": 3.74,
       "sl_price": 930000,
       "reqRP": 340000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73071,6 +73316,7 @@
       "sb_sl_multiplyer": 5.31,
       "sl_price": 930000,
       "reqRP": 340000,
+      "marketplace": 50153,
       "prem_type": "event",
       "event": "summer_2020",
       "crew": 1,
@@ -73098,6 +73344,7 @@
       "sb_sl_multiplyer": 0.343,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -73124,6 +73371,7 @@
       "sb_sl_multiplyer": 1.862,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73150,6 +73398,7 @@
       "sb_sl_multiplyer": 0.47,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73175,6 +73424,7 @@
       "sb_sl_multiplyer": 7,
       "sl_price": 0,
       "reqRP": 82000,
+      "marketplace": 50153,
       "prem_type": "event",
       "event": "battlepass_season1",
       "cost_gold": 7480,
@@ -73203,6 +73453,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 270000,
       "reqRP": 95000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73229,6 +73480,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 310000,
       "reqRP": 110000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -73255,6 +73507,7 @@
       "sb_sl_multiplyer": 0.44,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73281,6 +73534,7 @@
       "sb_sl_multiplyer": 1.98,
       "sl_price": 590000,
       "reqRP": 220000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73307,6 +73561,7 @@
       "sb_sl_multiplyer": 2.45,
       "sl_price": 590000,
       "reqRP": 220000,
+      "marketplace": 50153,
       "prem_type": "event",
       "event": "summer_2022",
       "crew": 1,
@@ -73334,6 +73589,7 @@
       "sb_sl_multiplyer": 2.03,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73360,6 +73616,7 @@
       "sb_sl_multiplyer": 2.77,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73386,6 +73643,7 @@
       "sb_sl_multiplyer": 5.85,
       "sl_price": 0,
       "reqRP": 14000,
+      "marketplace": 50089,
       "prem_type": "gold",
       "cost_gold": 1150,
       "crew": 1,
@@ -73412,6 +73670,7 @@
       "sb_sl_multiplyer": 4.9,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73438,6 +73697,7 @@
       "sb_sl_multiplyer": 5.3704,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73464,6 +73724,7 @@
       "sb_sl_multiplyer": 5.2528,
       "sl_price": 140000,
       "reqRP": 33000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73490,6 +73751,7 @@
       "sb_sl_multiplyer": 3.91,
       "sl_price": 77000,
       "reqRP": 18000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73516,6 +73778,7 @@
       "sb_sl_multiplyer": 3.18,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73542,7 +73805,8 @@
       "sb_sl_multiplyer": 6.05,
       "sl_price": 0,
       "reqRP": 63000,
-      "prem_type": "store",
+      "marketplace": 50153,
+      "prem_type": "marketplace",
       "cost_gold": 4880,
       "crew": 1,
       "type": "aircraft"
@@ -73569,6 +73833,7 @@
       "sb_sl_multiplyer": 3.01,
       "sl_price": 170000,
       "reqRP": 46000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73647,6 +73912,7 @@
       "sb_sl_multiplyer": 2.4,
       "sl_price": 110000,
       "reqRP": 26000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73699,6 +73965,7 @@
       "sb_sl_multiplyer": 3.86,
       "sl_price": 140000,
       "reqRP": 33000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73725,6 +73992,7 @@
       "sb_sl_multiplyer": 5.25,
       "sl_price": 210000,
       "reqRP": 71000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73751,6 +74019,7 @@
       "sb_sl_multiplyer": 6.85,
       "sl_price": 0,
       "reqRP": 82000,
+      "marketplace": 50153,
       "prem_type": "event",
       "event": "summer_2016",
       "cost_gold": 7480,
@@ -73779,6 +74048,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 180000,
       "reqRP": 54000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73831,6 +74101,7 @@
       "sb_sl_multiplyer": 4.39,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73857,6 +74128,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 740000,
       "reqRP": 270000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73883,6 +74155,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 310000,
       "reqRP": 110000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73909,6 +74182,7 @@
       "sb_sl_multiplyer": 3.69,
       "sl_price": 370000,
       "reqRP": 130000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73935,6 +74209,7 @@
       "sb_sl_multiplyer": 2.38,
       "sl_price": 500000,
       "reqRP": 180000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -73961,6 +74236,7 @@
       "sb_sl_multiplyer": 2.68,
       "sl_price": 930000,
       "reqRP": 340000,
+      "marketplace": 50153,
       "prem_type": "event",
       "event": "summer_2018_good_old",
       "crew": 1,
@@ -73988,6 +74264,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 590000,
       "reqRP": 220000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -74014,6 +74291,7 @@
       "sb_sl_multiplyer": 5.11,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -74040,6 +74318,7 @@
       "sb_sl_multiplyer": 3.45,
       "sl_price": 55000,
       "reqRP": 150000,
+      "marketplace": 50146,
       "prem_type": "squad",
       "crew": 1,
       "type": "aircraft"
@@ -74066,6 +74345,7 @@
       "sb_sl_multiplyer": 5.29,
       "sl_price": 77000,
       "reqRP": 18000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -74092,6 +74372,7 @@
       "sb_sl_multiplyer": 3.297,
       "sl_price": 140000,
       "reqRP": 33000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -74117,6 +74398,7 @@
       "sb_sl_multiplyer": 1.34,
       "sl_price": 0,
       "reqRP": 2900,
+      "marketplace": 50161,
       "prem_type": "gold",
       "cost_gold": 250,
       "crew": 1,
@@ -74168,6 +74450,7 @@
       "rb_sl_multiplyer": 0.19,
       "sb_sl_multiplyer": 0.54,
       "sl_price": 0,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -74192,6 +74475,7 @@
       "rb_sl_multiplyer": 0.18,
       "sb_sl_multiplyer": 0.48,
       "sl_price": 0,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -74218,6 +74502,7 @@
       "sb_sl_multiplyer": 0.79,
       "sl_price": 0,
       "reqRP": 4000,
+      "marketplace": 50161,
       "prem_type": "event",
       "event": "summer_2016",
       "cost_gold": 400,
@@ -74245,6 +74530,7 @@
       "sb_sl_multiplyer": 3.2732,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -74270,6 +74556,7 @@
       "sb_sl_multiplyer": 2.99,
       "sl_price": 77000,
       "reqRP": 18000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -74295,6 +74582,7 @@
       "sb_sl_multiplyer": 5.85,
       "sl_price": 0,
       "reqRP": 40000,
+      "marketplace": 50089,
       "prem_type": "gold",
       "cost_gold": 1750,
       "crew": 1,
@@ -74321,6 +74609,7 @@
       "sb_sl_multiplyer": 4.85,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -74346,6 +74635,7 @@
       "sb_sl_multiplyer": 3.62208,
       "sl_price": 110000,
       "reqRP": 26000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -74371,6 +74661,7 @@
       "sb_sl_multiplyer": 4.01,
       "sl_price": 140000,
       "reqRP": 33000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -74397,6 +74688,7 @@
       "sb_sl_multiplyer": 6.36,
       "sl_price": 0,
       "reqRP": 54000,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 3850,
       "crew": 1,
@@ -74424,6 +74716,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 170000,
       "reqRP": 46000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -74449,6 +74742,7 @@
       "sb_sl_multiplyer": 5.78,
       "sl_price": 0,
       "reqRP": 63000,
+      "marketplace": 50161,
       "prem_type": "event",
       "event": "winter_2019",
       "cost_gold": 4880,
@@ -74476,6 +74770,7 @@
       "sb_sl_multiplyer": 4.09,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -74501,7 +74796,8 @@
       "sb_sl_multiplyer": 6.92,
       "sl_price": 0,
       "reqRP": 63000,
-      "prem_type": "store",
+      "marketplace": 50161,
+      "prem_type": "marketplace",
       "cost_gold": 4880,
       "crew": 1,
       "type": "aircraft"
@@ -74554,6 +74850,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 180000,
       "reqRP": 54000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -74579,6 +74876,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 180000,
       "reqRP": 54000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -74605,6 +74903,7 @@
       "sb_sl_multiplyer": 3.332,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 6,
       "type": "aircraft"
@@ -74630,6 +74929,7 @@
       "sb_sl_multiplyer": 0.42,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -74680,6 +74980,7 @@
       "sb_sl_multiplyer": 0.5,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -74858,6 +75159,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 370000,
       "reqRP": 130000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -74884,6 +75186,7 @@
       "sb_sl_multiplyer": 6.65,
       "sl_price": 0,
       "reqRP": 220000,
+      "marketplace": 50161,
       "prem_type": "gold",
       "cost_gold": 8910,
       "crew": 1,
@@ -75016,6 +75319,7 @@
       "sb_sl_multiplyer": 1.8,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 7,
       "type": "aircraft"
@@ -75042,6 +75346,7 @@
       "sb_sl_multiplyer": 1.74,
       "sl_price": 180000,
       "reqRP": 54000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 8,
       "type": "aircraft"
@@ -75068,6 +75373,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 210000,
       "reqRP": 71000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 8,
       "type": "aircraft"
@@ -75094,6 +75400,7 @@
       "sb_sl_multiplyer": 2.23,
       "sl_price": 0,
       "reqRP": 2900,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 250,
       "crew": 1,
@@ -75144,6 +75451,7 @@
       "sb_sl_multiplyer": 0.3234,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -75169,6 +75477,7 @@
       "sb_sl_multiplyer": 0.357,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50146,
       "prem_type": "false",
       "hidden": true,
       "crew": 1,
@@ -75195,6 +75504,7 @@
       "sb_sl_multiplyer": 0.49,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50146,
       "prem_type": "false",
       "hidden": true,
       "crew": 1,
@@ -75351,6 +75661,7 @@
       "sb_sl_multiplyer": 1.51,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 9,
       "type": "aircraft"
@@ -75381,6 +75692,7 @@
       "sb_sl_multiplyer": 0.88,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 9,
       "type": "aircraft"
@@ -75411,6 +75723,7 @@
       "sb_sl_multiplyer": 4.36,
       "sl_price": 0,
       "reqRP": 14000,
+      "marketplace": 50089,
       "prem_type": "gold",
       "cost_gold": 2300,
       "crew": 9,
@@ -75438,6 +75751,7 @@
       "sb_sl_multiplyer": 1.6,
       "sl_price": 0,
       "reqRP": 2900,
+      "marketplace": 50089,
       "prem_type": "gold",
       "cost_gold": 250,
       "crew": 1,
@@ -75465,6 +75779,7 @@
       "sb_sl_multiplyer": 2.89492,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 7,
       "type": "aircraft"
@@ -75490,6 +75805,7 @@
       "sb_sl_multiplyer": 0.68,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 4,
       "type": "aircraft"
@@ -75543,6 +75859,7 @@
       "sb_sl_multiplyer": 0.63,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 4,
       "type": "aircraft"
@@ -75569,6 +75886,7 @@
       "sb_sl_multiplyer": 6.35,
       "sl_price": 0,
       "reqRP": 270000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 9090,
       "crew": 1,
@@ -75596,6 +75914,7 @@
       "sb_sl_multiplyer": 5.9192,
       "sl_price": 500000,
       "reqRP": 180000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -75622,6 +75941,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 1060000,
       "reqRP": 390000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -75648,6 +75968,7 @@
       "sb_sl_multiplyer": 1.96,
       "sl_price": 0,
       "reqRP": 4000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 400,
       "crew": 4,
@@ -75674,7 +75995,8 @@
       "sb_sl_multiplyer": 1.55,
       "sl_price": 0,
       "reqRP": 5900,
-      "prem_type": "store",
+      "marketplace": 50161,
+      "prem_type": "marketplace",
       "cost_gold": 550,
       "crew": 1,
       "type": "aircraft"
@@ -75726,6 +76048,7 @@
       "sb_sl_multiplyer": 1.14,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -75752,6 +76075,7 @@
       "sb_sl_multiplyer": 2.95,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 5,
       "type": "aircraft"
@@ -75778,6 +76102,7 @@
       "sb_sl_multiplyer": 2.2344,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 5,
       "type": "aircraft"
@@ -75804,6 +76129,7 @@
       "sb_sl_multiplyer": 3.33,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 5,
       "type": "aircraft"
@@ -75829,6 +76155,7 @@
       "sb_sl_multiplyer": 1.03,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -75854,6 +76181,7 @@
       "sb_sl_multiplyer": 2.12,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -75879,6 +76207,7 @@
       "sb_sl_multiplyer": 2.7,
       "sl_price": 0,
       "reqRP": 5900,
+      "marketplace": 50161,
       "prem_type": "gold",
       "cost_gold": 550,
       "hidden": true,
@@ -75932,7 +76261,8 @@
       "sb_sl_multiplyer": 1.87,
       "sl_price": 0,
       "reqRP": 5900,
-      "prem_type": "store",
+      "marketplace": 50161,
+      "prem_type": "marketplace",
       "cost_gold": 550,
       "crew": 1,
       "type": "aircraft"
@@ -75958,6 +76288,7 @@
       "sb_sl_multiplyer": 0.42,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -75984,6 +76315,7 @@
       "sb_sl_multiplyer": 2.59,
       "sl_price": 270000,
       "reqRP": 95000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -76010,6 +76342,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 270000,
       "reqRP": 95000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -76036,6 +76369,7 @@
       "sb_sl_multiplyer": 4.74,
       "sl_price": 210000,
       "reqRP": 71000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 6,
       "type": "aircraft"
@@ -76061,6 +76395,7 @@
       "sb_sl_multiplyer": 6.78,
       "sl_price": 0,
       "reqRP": 46000,
+      "marketplace": 50161,
       "prem_type": "gold",
       "cost_gold": 2980,
       "crew": 2,
@@ -76086,6 +76421,7 @@
       "rb_sl_multiplyer": 0.2,
       "sb_sl_multiplyer": 0.392,
       "sl_price": 0,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -76110,6 +76446,7 @@
       "rb_sl_multiplyer": 0.22,
       "sb_sl_multiplyer": 0.343,
       "sl_price": 0,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -76136,7 +76473,8 @@
       "sb_sl_multiplyer": 1.83,
       "sl_price": 0,
       "reqRP": 4000,
-      "prem_type": "store",
+      "marketplace": 50161,
+      "prem_type": "marketplace",
       "cost_gold": 400,
       "crew": 1,
       "type": "aircraft"
@@ -76162,6 +76500,7 @@
       "sb_sl_multiplyer": 0.25382,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50161,
       "prem_type": "false",
       "hidden": true,
       "crew": 1,
@@ -76187,6 +76526,7 @@
       "rb_sl_multiplyer": 0.18,
       "sb_sl_multiplyer": 0.37,
       "sl_price": 0,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -76213,6 +76553,7 @@
       "sb_sl_multiplyer": 4.48,
       "sl_price": 0,
       "reqRP": 18000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 1300,
       "crew": 1,
@@ -76240,6 +76581,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 270000,
       "reqRP": 95000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -76266,6 +76608,7 @@
       "sb_sl_multiplyer": 6.47,
       "sl_price": 0,
       "reqRP": 63000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 4880,
       "crew": 1,
@@ -76293,6 +76636,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 240000,
       "reqRP": 82000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -76345,6 +76689,7 @@
       "sb_sl_multiplyer": 0.51,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -76396,7 +76741,8 @@
       "sb_sl_multiplyer": 5.7,
       "sl_price": 0,
       "reqRP": 26000,
-      "prem_type": "store",
+      "marketplace": 50161,
+      "prem_type": "marketplace",
       "cost_gold": 1450,
       "hidden": true,
       "crew": 1,
@@ -76423,6 +76769,7 @@
       "sb_sl_multiplyer": 3.43,
       "sl_price": 77000,
       "reqRP": 18000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -76448,6 +76795,7 @@
       "sb_sl_multiplyer": 5.02,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -76473,6 +76821,7 @@
       "sb_sl_multiplyer": 1.82,
       "sl_price": 0,
       "reqRP": 7900,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 700,
       "crew": 5,
@@ -76500,6 +76849,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 500000,
       "reqRP": 180000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -76526,6 +76876,7 @@
       "sb_sl_multiplyer": 2.65,
       "sl_price": 740000,
       "reqRP": 270000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -76552,6 +76903,7 @@
       "sb_sl_multiplyer": 6.25,
       "sl_price": 0,
       "reqRP": 220000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 8910,
       "hidden": true,
@@ -76579,6 +76931,7 @@
       "sb_sl_multiplyer": 1.07,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -76630,6 +76983,7 @@
       "sb_sl_multiplyer": 0.82,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -76655,6 +77009,7 @@
       "sb_sl_multiplyer": 2.702,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -76680,7 +77035,8 @@
       "sb_sl_multiplyer": 2.6,
       "sl_price": 0,
       "reqRP": 9200,
-      "prem_type": "store",
+      "marketplace": 50146,
+      "prem_type": "marketplace",
       "cost_gold": 850,
       "hidden": true,
       "crew": 1,
@@ -77437,6 +77793,7 @@
       "sb_sl_multiplyer": 2.34,
       "sl_price": 0,
       "reqRP": 9200,
+      "marketplace": 50161,
       "prem_type": "gold",
       "cost_gold": 850,
       "crew": 1,
@@ -77541,6 +77898,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 420000,
       "reqRP": 150000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -77956,6 +78314,7 @@
       "sb_sl_multiplyer": 0.735,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -78237,6 +78596,7 @@
       "sb_sl_multiplyer": 2.28,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -78262,6 +78622,7 @@
       "sb_sl_multiplyer": 3.5,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -78287,6 +78648,7 @@
       "sb_sl_multiplyer": 5.21,
       "sl_price": 0,
       "reqRP": 54000,
+      "marketplace": 50089,
       "prem_type": "gold",
       "cost_gold": 3850,
       "hidden": true,
@@ -78314,6 +78676,7 @@
       "sb_sl_multiplyer": 6.75,
       "sl_price": 0,
       "reqRP": 54000,
+      "marketplace": 50089,
       "prem_type": "gold",
       "cost_gold": 3850,
       "crew": 1,
@@ -78340,6 +78703,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 210000,
       "reqRP": 71000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -78445,6 +78809,7 @@
       "sb_sl_multiplyer": 1.77,
       "sl_price": 170000,
       "reqRP": 46000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -78494,6 +78859,7 @@
       "sb_sl_multiplyer": 5.81,
       "sl_price": 0,
       "reqRP": 71000,
+      "marketplace": 50089,
       "prem_type": "event",
       "event": "winter_2020",
       "cost_gold": 6090,
@@ -78521,6 +78887,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 240000,
       "reqRP": 82000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -78647,6 +79014,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 590000,
       "reqRP": 220000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -78672,6 +79040,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 930000,
       "reqRP": 340000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -78698,6 +79067,7 @@
       "sb_sl_multiplyer": 2.8,
       "sl_price": 500000,
       "reqRP": 180000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -78724,6 +79094,7 @@
       "sb_sl_multiplyer": 5.15,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 5,
       "type": "aircraft"
@@ -78750,6 +79121,7 @@
       "sb_sl_multiplyer": 6.35,
       "sl_price": 0,
       "reqRP": 63000,
+      "marketplace": 50161,
       "prem_type": "gold",
       "cost_gold": 4880,
       "crew": 4,
@@ -78777,6 +79149,7 @@
       "sb_sl_multiplyer": 5.95,
       "sl_price": 0,
       "reqRP": 63000,
+      "marketplace": 50161,
       "prem_type": "event",
       "event": "craft_2019_spring",
       "cost_gold": 4880,
@@ -78805,6 +79178,7 @@
       "sb_sl_multiplyer": 0.57,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -78857,6 +79231,7 @@
       "sb_sl_multiplyer": 2.05,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -78883,6 +79258,7 @@
       "sb_sl_multiplyer": 3.38,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -78908,6 +79284,7 @@
       "sb_sl_multiplyer": 1.45,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -78933,6 +79310,7 @@
       "sb_sl_multiplyer": 1.7,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -78985,6 +79363,7 @@
       "sb_sl_multiplyer": 2.15,
       "sl_price": 0,
       "reqRP": 4000,
+      "marketplace": 50161,
       "prem_type": "gold",
       "cost_gold": 400,
       "crew": 2,
@@ -79012,6 +79391,7 @@
       "sb_sl_multiplyer": 0.62,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -79038,6 +79418,7 @@
       "sb_sl_multiplyer": 2.87,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 4,
       "type": "aircraft"
@@ -79064,6 +79445,7 @@
       "sb_sl_multiplyer": 1.38,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 4,
       "type": "aircraft"
@@ -79090,6 +79472,7 @@
       "sb_sl_multiplyer": 1.15,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -79143,6 +79526,7 @@
       "sb_sl_multiplyer": 1.99,
       "sl_price": 1060000,
       "reqRP": 390000,
+      "marketplace": 50175,
       "prem_type": "event",
       "event": "craft_2022_spring",
       "crew": 1,
@@ -79170,6 +79554,7 @@
       "sb_sl_multiplyer": 1.99,
       "sl_price": 1060000,
       "reqRP": 390000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -79194,6 +79579,7 @@
       "rb_sl_multiplyer": 0.13,
       "sb_sl_multiplyer": 0.3038,
       "sl_price": 0,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -79218,6 +79604,7 @@
       "rb_sl_multiplyer": 0.14,
       "sb_sl_multiplyer": 0.7693,
       "sl_price": 0,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -79243,6 +79630,7 @@
       "sb_sl_multiplyer": 0.91,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50089,
       "prem_type": "false",
       "hidden": true,
       "crew": 1,
@@ -79268,6 +79656,7 @@
       "rb_sl_multiplyer": 0.12,
       "sb_sl_multiplyer": 0.454689,
       "sl_price": 0,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -79293,6 +79682,7 @@
       "sb_sl_multiplyer": 5.26,
       "sl_price": 0,
       "reqRP": 18000,
+      "marketplace": 50089,
       "prem_type": "gold",
       "cost_gold": 1300,
       "crew": 1,
@@ -79319,6 +79709,7 @@
       "sb_sl_multiplyer": 1.72,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -79345,6 +79736,7 @@
       "sb_sl_multiplyer": 4.18,
       "sl_price": 77000,
       "reqRP": 18000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -79371,6 +79763,7 @@
       "sb_sl_multiplyer": 4.3904,
       "sl_price": 140000,
       "reqRP": 33000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -79396,6 +79789,7 @@
       "sb_sl_multiplyer": 3.48,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -79422,6 +79816,7 @@
       "sb_sl_multiplyer": 2.43,
       "sl_price": 370000,
       "reqRP": 130000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -79448,6 +79843,7 @@
       "sb_sl_multiplyer": 1.69,
       "sl_price": 0,
       "reqRP": 4000,
+      "marketplace": 50089,
       "prem_type": "event",
       "event": "winter_2017",
       "cost_gold": 400,
@@ -79476,6 +79872,7 @@
       "sb_sl_multiplyer": 0.89,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 5,
       "type": "aircraft"
@@ -79526,6 +79923,7 @@
       "sb_sl_multiplyer": 1.96,
       "sl_price": 0,
       "reqRP": 4000,
+      "marketplace": 50089,
       "prem_type": "gold",
       "cost_gold": 250,
       "crew": 1,
@@ -79552,6 +79950,7 @@
       "sb_sl_multiplyer": 0.45,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -79578,6 +79977,7 @@
       "sb_sl_multiplyer": 0.4,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -79603,6 +80003,7 @@
       "sb_sl_multiplyer": 3.038,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -79628,6 +80029,7 @@
       "sb_sl_multiplyer": 4.36,
       "sl_price": 0,
       "reqRP": 7900,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 700,
       "crew": 1,
@@ -79654,6 +80056,7 @@
       "sb_sl_multiplyer": 1.42,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -79704,6 +80107,7 @@
       "sb_sl_multiplyer": 2.2,
       "sl_price": 77000,
       "reqRP": 18000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -79729,6 +80133,7 @@
       "sb_sl_multiplyer": 3.9,
       "sl_price": 0,
       "reqRP": 9200,
+      "marketplace": 50089,
       "prem_type": "gold",
       "cost_gold": 850,
       "crew": 1,
@@ -79755,6 +80160,7 @@
       "sb_sl_multiplyer": 2.98,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -79805,6 +80211,7 @@
       "sb_sl_multiplyer": 2.13,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -79830,6 +80237,7 @@
       "sb_sl_multiplyer": 3.2,
       "sl_price": 0,
       "reqRP": 9200,
+      "marketplace": 50089,
       "prem_type": "gold",
       "cost_gold": 850,
       "crew": 1,
@@ -79884,6 +80292,7 @@
       "sb_sl_multiplyer": 1.99,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -79910,6 +80319,7 @@
       "sb_sl_multiplyer": 2.53,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -79936,6 +80346,7 @@
       "sb_sl_multiplyer": 2.25,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -79962,6 +80373,7 @@
       "sb_sl_multiplyer": 1.00156,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -79988,6 +80400,7 @@
       "sb_sl_multiplyer": 4.43,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 8,
       "type": "aircraft"
@@ -80014,6 +80427,7 @@
       "sb_sl_multiplyer": 0.91,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 8,
       "type": "aircraft"
@@ -80040,6 +80454,7 @@
       "sb_sl_multiplyer": 4.6844,
       "sl_price": 110000,
       "reqRP": 26000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 8,
       "type": "aircraft"
@@ -80066,6 +80481,7 @@
       "sb_sl_multiplyer": 3.79,
       "sl_price": 77000,
       "reqRP": 18000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 8,
       "type": "aircraft"
@@ -80091,6 +80507,7 @@
       "sb_sl_multiplyer": 5.71,
       "sl_price": 0,
       "reqRP": 40000,
+      "marketplace": 50089,
       "prem_type": "gold",
       "cost_gold": 1750,
       "crew": 1,
@@ -80117,6 +80534,7 @@
       "sb_sl_multiplyer": 1.71,
       "sl_price": 110000,
       "reqRP": 26000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -80142,6 +80560,7 @@
       "sb_sl_multiplyer": 1.8522,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -80192,6 +80611,7 @@
       "sb_sl_multiplyer": 1.057,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -80218,6 +80638,7 @@
       "sb_sl_multiplyer": 1.09,
       "sl_price": 140000,
       "reqRP": 33000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -80243,6 +80664,7 @@
       "sb_sl_multiplyer": 2.28,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -80268,6 +80690,7 @@
       "sb_sl_multiplyer": 3.02,
       "sl_price": 0,
       "reqRP": 9200,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 850,
       "crew": 1,
@@ -80295,6 +80718,7 @@
       "sb_sl_multiplyer": 2,
       "sl_price": 140000,
       "reqRP": 33000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 8,
       "type": "aircraft"
@@ -80321,6 +80745,7 @@
       "sb_sl_multiplyer": 1.43,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 8,
       "type": "aircraft"
@@ -80347,6 +80772,7 @@
       "sb_sl_multiplyer": 2.77,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -80372,6 +80798,7 @@
       "sb_sl_multiplyer": 2.19,
       "sl_price": 240000,
       "reqRP": 82000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -80423,6 +80850,7 @@
       "sb_sl_multiplyer": 2,
       "sl_price": 170000,
       "reqRP": 46000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -80448,6 +80876,7 @@
       "sb_sl_multiplyer": 4.35,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -80473,6 +80902,7 @@
       "sb_sl_multiplyer": 7,
       "sl_price": 0,
       "reqRP": 71000,
+      "marketplace": 50089,
       "prem_type": "gold",
       "cost_gold": 6090,
       "crew": 1,
@@ -80499,6 +80929,7 @@
       "sb_sl_multiplyer": 2.65,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50089,
       "prem_type": "event",
       "event": "summer_2017",
       "crew": 1,
@@ -80526,6 +80957,7 @@
       "sb_sl_multiplyer": 4.88,
       "sl_price": 0,
       "reqRP": 33000,
+      "marketplace": 50089,
       "prem_type": "gold",
       "cost_gold": 1600,
       "crew": 1,
@@ -80553,6 +80985,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 270000,
       "reqRP": 95000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -80578,6 +81011,7 @@
       "sb_sl_multiplyer": 6.03,
       "sl_price": 0,
       "reqRP": 40000,
+      "marketplace": 50153,
       "prem_type": "event",
       "event": "craft_2018_spring",
       "cost_gold": 1750,
@@ -80785,6 +81219,7 @@
       "sb_sl_multiplyer": 6.06,
       "sl_price": 0,
       "reqRP": 26000,
+      "marketplace": 50161,
       "prem_type": "gold",
       "cost_gold": 5250,
       "hidden": true,
@@ -81118,6 +81553,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 180000,
       "reqRP": 54000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 7,
       "type": "aircraft"
@@ -81144,6 +81580,7 @@
       "sb_sl_multiplyer": 1.45775,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 7,
       "type": "aircraft"
@@ -81169,6 +81606,7 @@
       "sb_sl_multiplyer": 5.25,
       "sl_price": 0,
       "reqRP": 71000,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 6090,
       "hidden": true,
@@ -81249,7 +81687,8 @@
       "sb_sl_multiplyer": 7,
       "sl_price": 0,
       "reqRP": 270000,
-      "prem_type": "store",
+      "marketplace": 50146,
+      "prem_type": "marketplace",
       "cost_gold": 9090,
       "crew": 1,
       "type": "aircraft"
@@ -81276,6 +81715,7 @@
       "sb_sl_multiplyer": 4.65,
       "sl_price": 740000,
       "reqRP": 270000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -81302,6 +81742,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 420000,
       "reqRP": 150000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -81328,6 +81769,7 @@
       "sb_sl_multiplyer": 1.43374,
       "sl_price": 210000,
       "reqRP": 71000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 7,
       "type": "aircraft"
@@ -81536,6 +81978,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 270000,
       "reqRP": 95000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -81714,6 +82157,7 @@
       "sb_sl_multiplyer": 5.55,
       "sl_price": 0,
       "reqRP": 54000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 3850,
       "crew": 1,
@@ -81768,6 +82212,7 @@
       "sb_sl_multiplyer": 2.33,
       "sl_price": 0,
       "reqRP": 340000,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 9270,
       "hidden": true,
@@ -81794,6 +82239,7 @@
       "sb_sl_multiplyer": 1.79,
       "sl_price": 0,
       "reqRP": 4000,
+      "marketplace": 50161,
       "prem_type": "gold",
       "cost_gold": 400,
       "hidden": true,
@@ -81900,6 +82346,7 @@
       "sb_sl_multiplyer": 3.56,
       "sl_price": 0,
       "reqRP": 9200,
+      "marketplace": 50146,
       "prem_type": "event",
       "event": "summer_2018_good_old",
       "cost_gold": 850,
@@ -81928,6 +82375,7 @@
       "sb_sl_multiplyer": 4.65,
       "sl_price": 420000,
       "reqRP": 150000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -81954,6 +82402,7 @@
       "sb_sl_multiplyer": 2.926,
       "sl_price": 370000,
       "reqRP": 130000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -81979,6 +82428,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 270000,
       "reqRP": 95000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -82004,6 +82454,7 @@
       "sb_sl_multiplyer": 4.68,
       "sl_price": 310000,
       "reqRP": 110000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -82029,6 +82480,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 370000,
       "reqRP": 320000,
+      "marketplace": 50161,
       "prem_type": "squad",
       "crew": 1,
       "type": "aircraft"
@@ -82055,6 +82507,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 270000,
       "reqRP": 95000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -82080,6 +82533,7 @@
       "sb_sl_multiplyer": 2.71,
       "sl_price": 310000,
       "reqRP": 110000,
+      "marketplace": 50161,
       "prem_type": "event",
       "event": "winter_2017",
       "crew": 1,
@@ -82107,6 +82561,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 310000,
       "reqRP": 110000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -82133,6 +82588,7 @@
       "sb_sl_multiplyer": 3.437,
       "sl_price": 370000,
       "reqRP": 130000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -82159,6 +82615,7 @@
       "sb_sl_multiplyer": 3.7,
       "sl_price": 110000,
       "reqRP": 26000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 9,
       "type": "aircraft"
@@ -82185,6 +82642,7 @@
       "sb_sl_multiplyer": 3.44,
       "sl_price": 140000,
       "reqRP": 33000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -82210,6 +82668,7 @@
       "sb_sl_multiplyer": 4.186,
       "sl_price": 140000,
       "reqRP": 33000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -82235,6 +82694,7 @@
       "sb_sl_multiplyer": 2.64,
       "sl_price": 110000,
       "reqRP": 26000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -82261,6 +82721,7 @@
       "sb_sl_multiplyer": 2.807,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -82286,6 +82747,7 @@
       "sb_sl_multiplyer": 2.28,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -82311,6 +82773,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -82336,6 +82799,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 180000,
       "reqRP": 54000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -82362,6 +82826,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 270000,
       "reqRP": 95000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -82388,6 +82853,7 @@
       "sb_sl_multiplyer": 3.19,
       "sl_price": 370000,
       "reqRP": 130000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -82414,6 +82880,7 @@
       "sb_sl_multiplyer": 1.92,
       "sl_price": 420000,
       "reqRP": 150000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -82440,6 +82907,7 @@
       "sb_sl_multiplyer": 2.88,
       "sl_price": 420000,
       "reqRP": 150000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -82466,6 +82934,7 @@
       "sb_sl_multiplyer": 6.2,
       "sl_price": 0,
       "reqRP": 130000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 8380,
       "crew": 1,
@@ -82493,6 +82962,7 @@
       "sb_sl_multiplyer": 2.7,
       "sl_price": 370000,
       "reqRP": 130000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -82519,6 +82989,7 @@
       "sb_sl_multiplyer": 2.9,
       "sl_price": 310000,
       "reqRP": 110000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -82571,6 +83042,7 @@
       "sb_sl_multiplyer": 5.98,
       "sl_price": 370000,
       "reqRP": 130000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -82731,6 +83203,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 590000,
       "reqRP": 220000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -82757,7 +83230,8 @@
       "sb_sl_multiplyer": 7,
       "sl_price": 0,
       "reqRP": 340000,
-      "prem_type": "store",
+      "marketplace": 50161,
+      "prem_type": "marketplace",
       "cost_gold": 9270,
       "crew": 1,
       "type": "aircraft"
@@ -82810,6 +83284,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 930000,
       "reqRP": 340000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -82916,6 +83391,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 1060000,
       "reqRP": 390000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -82967,6 +83443,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 740000,
       "reqRP": 270000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -83019,6 +83496,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 1060000,
       "reqRP": 390000,
+      "marketplace": 50161,
       "prem_type": "event",
       "event": "winter_2022",
       "crew": 1,
@@ -83046,6 +83524,7 @@
       "sb_sl_multiplyer": 3.68,
       "sl_price": 1080000,
       "reqRP": 400000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -83489,6 +83968,7 @@
       "sb_sl_multiplyer": 1.94,
       "sl_price": 930000,
       "reqRP": 340000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -83540,6 +84020,7 @@
       "sb_sl_multiplyer": 3.43,
       "sl_price": 110000,
       "reqRP": 26000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -83565,6 +84046,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 140000,
       "reqRP": 33000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -83615,6 +84097,7 @@
       "sb_sl_multiplyer": 5.55,
       "sl_price": 0,
       "reqRP": 40000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 1850,
       "crew": 1,
@@ -83642,6 +84125,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 500000,
       "reqRP": 180000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -83719,6 +84203,7 @@
       "sb_sl_multiplyer": 2.779,
       "sl_price": 170000,
       "reqRP": 46000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -83745,6 +84230,7 @@
       "sb_sl_multiplyer": 3.1948,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -83770,6 +84256,7 @@
       "sb_sl_multiplyer": 2.69,
       "sl_price": 180000,
       "reqRP": 54000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -83795,6 +84282,7 @@
       "sb_sl_multiplyer": 2.24,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -83850,6 +84338,7 @@
       "sb_sl_multiplyer": 1.94,
       "sl_price": 930000,
       "reqRP": 340000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -83875,6 +84364,7 @@
       "rb_sl_multiplyer": 0.21,
       "sb_sl_multiplyer": 0.873964,
       "sl_price": 0,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -83901,6 +84391,7 @@
       "sb_sl_multiplyer": 0.4,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -83927,6 +84418,7 @@
       "sb_sl_multiplyer": 1.0535,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -83953,6 +84445,7 @@
       "sb_sl_multiplyer": 0.24,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -84005,6 +84498,7 @@
       "sb_sl_multiplyer": 1.02,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50146,
       "prem_type": "false",
       "hidden": true,
       "crew": 2,
@@ -84030,6 +84524,7 @@
       "rb_sl_multiplyer": 0.26,
       "sb_sl_multiplyer": 0.3626,
       "sl_price": 0,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -84054,6 +84549,7 @@
       "rb_sl_multiplyer": 0.18,
       "sb_sl_multiplyer": 0.41846,
       "sl_price": 0,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -84079,7 +84575,8 @@
       "sb_sl_multiplyer": 1.21,
       "sl_price": 0,
       "reqRP": 4000,
-      "prem_type": "store",
+      "marketplace": 50153,
+      "prem_type": "marketplace",
       "cost_gold": 400,
       "crew": 1,
       "type": "aircraft"
@@ -84104,6 +84601,7 @@
       "rb_sl_multiplyer": 0.26,
       "sb_sl_multiplyer": 0.42875,
       "sl_price": 0,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -84129,6 +84627,7 @@
       "sb_sl_multiplyer": 0.43,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -84154,6 +84653,7 @@
       "sb_sl_multiplyer": 1.4504,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -84179,6 +84679,7 @@
       "sb_sl_multiplyer": 0.76,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -84205,6 +84706,7 @@
       "sb_sl_multiplyer": 2.7,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -84231,6 +84733,7 @@
       "sb_sl_multiplyer": 3.7828,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -84257,6 +84760,7 @@
       "sb_sl_multiplyer": 4.36,
       "sl_price": 170000,
       "reqRP": 46000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -84283,7 +84787,8 @@
       "sb_sl_multiplyer": 5.55,
       "sl_price": 0,
       "reqRP": 63000,
-      "prem_type": "store",
+      "marketplace": 50153,
+      "prem_type": "marketplace",
       "cost_gold": 4880,
       "hidden": true,
       "crew": 1,
@@ -84337,6 +84842,7 @@
       "sb_sl_multiplyer": 3.76,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -84388,6 +84894,7 @@
       "sb_sl_multiplyer": 2.12,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -84467,6 +84974,7 @@
       "sb_sl_multiplyer": 2.96,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -84492,6 +85000,7 @@
       "sb_sl_multiplyer": 1.34,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -84517,6 +85026,7 @@
       "sb_sl_multiplyer": 2.9,
       "sl_price": 0,
       "reqRP": 9200,
+      "marketplace": 50153,
       "prem_type": "event",
       "event": "winter_2018",
       "cost_gold": 850,
@@ -84595,6 +85105,7 @@
       "sb_sl_multiplyer": 2.5872,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50153,
       "prem_type": "false",
       "hidden": true,
       "crew": 1,
@@ -84621,6 +85132,7 @@
       "sb_sl_multiplyer": 1.51,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -84646,6 +85158,7 @@
       "sb_sl_multiplyer": 1.41,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -84722,6 +85235,7 @@
       "sb_sl_multiplyer": 5.02,
       "sl_price": 0,
       "reqRP": 11000,
+      "marketplace": 50153,
       "prem_type": "event",
       "event": "summer_2017",
       "cost_gold": 1000,
@@ -84749,6 +85263,7 @@
       "sb_sl_multiplyer": 5.39,
       "sl_price": 0,
       "reqRP": 18000,
+      "marketplace": 50161,
       "prem_type": "gold",
       "cost_gold": 1300,
       "hidden": true,
@@ -84776,6 +85291,7 @@
       "sb_sl_multiplyer": 5.55,
       "sl_price": 0,
       "reqRP": 33000,
+      "marketplace": 50161,
       "prem_type": "gold",
       "cost_gold": 1600,
       "crew": 1,
@@ -84828,6 +85344,7 @@
       "sb_sl_multiplyer": 5.91,
       "sl_price": 110000,
       "reqRP": 26000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -84878,6 +85395,7 @@
       "sb_sl_multiplyer": 4.13,
       "sl_price": 140000,
       "reqRP": 33000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -84929,6 +85447,7 @@
       "sb_sl_multiplyer": 2.95,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -84979,6 +85498,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -85004,6 +85524,7 @@
       "sb_sl_multiplyer": 5.0176,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -85029,6 +85550,7 @@
       "sb_sl_multiplyer": 3.82,
       "sl_price": 0,
       "reqRP": 11000,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 1000,
       "hidden": true,
@@ -85056,6 +85578,7 @@
       "sb_sl_multiplyer": 4.69,
       "sl_price": 77000,
       "reqRP": 18000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -85081,6 +85604,7 @@
       "sb_sl_multiplyer": 5.5,
       "sl_price": 0,
       "reqRP": 33000,
+      "marketplace": 50089,
       "prem_type": "gold",
       "cost_gold": 1600,
       "crew": 1,
@@ -85107,7 +85631,8 @@
       "sb_sl_multiplyer": 6.65,
       "sl_price": 0,
       "reqRP": 54000,
-      "prem_type": "store",
+      "marketplace": 50153,
+      "prem_type": "marketplace",
       "cost_gold": 4880,
       "hidden": true,
       "crew": 1,
@@ -85159,6 +85684,7 @@
       "sb_sl_multiplyer": 4.228,
       "sl_price": 180000,
       "reqRP": 54000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -85184,7 +85710,8 @@
       "sb_sl_multiplyer": 7,
       "sl_price": 0,
       "reqRP": 54000,
-      "prem_type": "store",
+      "marketplace": 50153,
+      "prem_type": "marketplace",
       "cost_gold": 3850,
       "crew": 1,
       "type": "aircraft"
@@ -85210,6 +85737,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 180000,
       "reqRP": 54000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -85235,6 +85763,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 170000,
       "reqRP": 46000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -85260,6 +85789,7 @@
       "sb_sl_multiplyer": 2.8,
       "sl_price": 240000,
       "reqRP": 82000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -85311,6 +85841,7 @@
       "sb_sl_multiplyer": 5.55,
       "sl_price": 0,
       "reqRP": 54000,
+      "marketplace": 50153,
       "prem_type": "event",
       "event": "summer_2019",
       "cost_gold": 3850,
@@ -85339,6 +85870,7 @@
       "sb_sl_multiplyer": 4.81,
       "sl_price": 0,
       "reqRP": 18000,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 2500,
       "hidden": true,
@@ -85367,6 +85899,7 @@
       "sb_sl_multiplyer": 4.24,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -85419,6 +85952,7 @@
       "sb_sl_multiplyer": 2.093,
       "sl_price": 140000,
       "reqRP": 33000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -85470,6 +86004,7 @@
       "sb_sl_multiplyer": 3.486,
       "sl_price": 77000,
       "reqRP": 18000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -85548,6 +86083,7 @@
       "sb_sl_multiplyer": 4.58,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -85702,6 +86238,7 @@
       "sb_sl_multiplyer": 4.64,
       "sl_price": 180000,
       "reqRP": 54000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -85780,6 +86317,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 8,
       "type": "aircraft"
@@ -85805,6 +86343,7 @@
       "sb_sl_multiplyer": 5.01,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 6,
       "type": "aircraft"
@@ -85830,6 +86369,7 @@
       "sb_sl_multiplyer": 4.2924,
       "sl_price": 140000,
       "reqRP": 33000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 6,
       "type": "aircraft"
@@ -85856,6 +86396,7 @@
       "sb_sl_multiplyer": 1.01,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 7,
       "type": "aircraft"
@@ -85882,6 +86423,7 @@
       "sb_sl_multiplyer": 3.52,
       "sl_price": 0,
       "reqRP": 11000,
+      "marketplace": 50153,
       "prem_type": "gold",
       "event": "winter_2019_ship",
       "cost_gold": 1000,
@@ -85911,6 +86453,7 @@
       "sb_sl_multiplyer": 0.66,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 6,
       "type": "aircraft"
@@ -85964,6 +86507,7 @@
       "sb_sl_multiplyer": 1,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 6,
       "type": "aircraft"
@@ -85990,6 +86534,7 @@
       "sb_sl_multiplyer": 2.18,
       "sl_price": 0,
       "reqRP": 14000,
+      "marketplace": 50153,
       "prem_type": "event",
       "event": "chronicles_2017",
       "cost_gold": 1150,
@@ -86303,6 +86848,7 @@
       "sb_sl_multiplyer": 5,
       "sl_price": 930000,
       "reqRP": 340000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -86329,6 +86875,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 930000,
       "reqRP": 340000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -86354,6 +86901,7 @@
       "sb_sl_multiplyer": 6.55,
       "sl_price": 0,
       "reqRP": 54000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 6090,
       "hidden": true,
@@ -86645,6 +87193,7 @@
       "sb_sl_multiplyer": 5.19988,
       "sl_price": 270000,
       "reqRP": 95000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -86671,6 +87220,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 310000,
       "reqRP": 110000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -86697,6 +87247,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 370000,
       "reqRP": 130000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -86722,7 +87273,8 @@
       "sb_sl_multiplyer": 1.176,
       "sl_price": 0,
       "reqRP": 4000,
-      "prem_type": "store",
+      "marketplace": 50153,
+      "prem_type": "marketplace",
       "cost_gold": 400,
       "hidden": true,
       "crew": 1,
@@ -87003,6 +87555,7 @@
       "rb_sl_multiplyer": 2.33,
       "sb_sl_multiplyer": 3.91,
       "sl_price": 170000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -87055,6 +87608,7 @@
       "sb_sl_multiplyer": 1.4,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 5,
       "type": "aircraft"
@@ -87107,6 +87661,7 @@
       "sb_sl_multiplyer": 4.0964,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 5,
       "type": "aircraft"
@@ -87159,6 +87714,7 @@
       "sb_sl_multiplyer": 1.4,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50161,
       "prem_type": "false",
       "hidden": true,
       "crew": 5,
@@ -87186,6 +87742,7 @@
       "sb_sl_multiplyer": 4.0964,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 5,
       "type": "aircraft"
@@ -87238,6 +87795,7 @@
       "sb_sl_multiplyer": 1.67,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 5,
       "type": "aircraft"
@@ -87290,6 +87848,7 @@
       "sb_sl_multiplyer": 1.4,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50161,
       "prem_type": "false",
       "hidden": true,
       "crew": 5,
@@ -87317,6 +87876,7 @@
       "sb_sl_multiplyer": 1.11,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 5,
       "type": "aircraft"
@@ -87766,6 +88326,7 @@
       "sb_sl_multiplyer": 3.75,
       "sl_price": 77000,
       "reqRP": 18000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -87796,6 +88357,7 @@
       "sb_sl_multiplyer": 4.2,
       "sl_price": 110000,
       "reqRP": 26000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -87852,6 +88414,7 @@
       "sb_sl_multiplyer": 0.6566,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -87878,6 +88441,7 @@
       "sb_sl_multiplyer": 0.7987,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -87904,6 +88468,7 @@
       "sb_sl_multiplyer": 1.1515,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -88005,6 +88570,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50153,
       "prem_type": "false",
       "hidden": true,
       "crew": 2,
@@ -88032,6 +88598,7 @@
       "sb_sl_multiplyer": 3.33,
       "sl_price": 740000,
       "reqRP": 270000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88084,6 +88651,7 @@
       "sb_sl_multiplyer": 2.24,
       "sl_price": 590000,
       "reqRP": 220000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88110,6 +88678,7 @@
       "sb_sl_multiplyer": 2.83,
       "sl_price": 500000,
       "reqRP": 180000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88136,6 +88705,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 210000,
       "reqRP": 71000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88162,6 +88732,7 @@
       "sb_sl_multiplyer": 1.428,
       "sl_price": 2100,
       "reqRP": 4000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88188,6 +88759,7 @@
       "sb_sl_multiplyer": 4.94,
       "sl_price": 370000,
       "reqRP": 130000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88214,8 +88786,10 @@
       "sb_sl_multiplyer": 6.25,
       "sl_price": 0,
       "reqRP": 150000,
-      "prem_type": "gold",
+      "marketplace": 50161,
+      "prem_type": "marketplace",
       "cost_gold": 8560,
+      "hidden": true,
       "crew": 1,
       "type": "aircraft"
     },
@@ -88241,6 +88815,7 @@
       "sb_sl_multiplyer": 1.47,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88267,6 +88842,7 @@
       "sb_sl_multiplyer": 2.51,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88293,6 +88869,7 @@
       "sb_sl_multiplyer": 3.02,
       "sl_price": 310000,
       "reqRP": 110000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88319,6 +88896,7 @@
       "sb_sl_multiplyer": 3.37,
       "sl_price": 420000,
       "reqRP": 150000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -88345,6 +88923,7 @@
       "sb_sl_multiplyer": 6.3,
       "sl_price": 0,
       "reqRP": 150000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 8560,
       "crew": 2,
@@ -88372,6 +88951,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 180000,
       "reqRP": 54000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88398,6 +88978,7 @@
       "sb_sl_multiplyer": 4.22,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88450,6 +89031,7 @@
       "sb_sl_multiplyer": 2.8,
       "sl_price": 170000,
       "reqRP": 46000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88476,6 +89058,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 240000,
       "reqRP": 82000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 10,
       "type": "aircraft"
@@ -88528,6 +89111,7 @@
       "sb_sl_multiplyer": 2.98,
       "sl_price": 210000,
       "reqRP": 71000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88553,6 +89137,7 @@
       "sb_sl_multiplyer": 4.63,
       "sl_price": 240000,
       "reqRP": 82000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88578,6 +89163,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88603,7 +89189,8 @@
       "sb_sl_multiplyer": 5.55,
       "sl_price": 0,
       "reqRP": 40000,
-      "prem_type": "store",
+      "marketplace": 50146,
+      "prem_type": "marketplace",
       "cost_gold": 1750,
       "crew": 1,
       "type": "aircraft"
@@ -88629,6 +89216,7 @@
       "sb_sl_multiplyer": 6.74,
       "sl_price": 0,
       "reqRP": 71000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 6090,
       "crew": 1,
@@ -88655,6 +89243,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88680,6 +89269,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 170000,
       "reqRP": 46000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88705,6 +89295,7 @@
       "sb_sl_multiplyer": 5.19,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88730,7 +89321,8 @@
       "sb_sl_multiplyer": 6.85,
       "sl_price": 0,
       "reqRP": 63000,
-      "prem_type": "store",
+      "marketplace": 50146,
+      "prem_type": "marketplace",
       "cost_gold": 6090,
       "hidden": true,
       "crew": 1,
@@ -88757,6 +89349,7 @@
       "sb_sl_multiplyer": 3.48,
       "sl_price": 180000,
       "reqRP": 54000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88782,6 +89375,7 @@
       "sb_sl_multiplyer": 6.1,
       "sl_price": 0,
       "reqRP": 63000,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 4880,
       "crew": 1,
@@ -88808,7 +89402,8 @@
       "sb_sl_multiplyer": 6.99,
       "sl_price": 0,
       "reqRP": 63000,
-      "prem_type": "store",
+      "marketplace": 50175,
+      "prem_type": "marketplace",
       "cost_gold": 4880,
       "crew": 1,
       "type": "aircraft"
@@ -88834,6 +89429,7 @@
       "sb_sl_multiplyer": 3.5672,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88859,6 +89455,7 @@
       "sb_sl_multiplyer": 3.05,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88884,6 +89481,7 @@
       "sb_sl_multiplyer": 3.6064,
       "sl_price": 180000,
       "reqRP": 54000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88936,6 +89534,7 @@
       "sb_sl_multiplyer": 1.08,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -88987,6 +89586,7 @@
       "sb_sl_multiplyer": 2.74,
       "sl_price": 77000,
       "reqRP": 18000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -89012,6 +89612,7 @@
       "sb_sl_multiplyer": 2.4,
       "sl_price": 110000,
       "reqRP": 26000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -89037,6 +89638,7 @@
       "sb_sl_multiplyer": 2.7,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -89062,6 +89664,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 170000,
       "reqRP": 46000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -89087,6 +89690,7 @@
       "sb_sl_multiplyer": 6.65,
       "sl_price": 0,
       "reqRP": 14000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 1150,
       "crew": 1,
@@ -89113,6 +89717,7 @@
       "sb_sl_multiplyer": 2.46,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -89139,6 +89744,7 @@
       "sb_sl_multiplyer": 4.7824,
       "sl_price": 110000,
       "reqRP": 26000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 7,
       "type": "aircraft"
@@ -89165,6 +89771,7 @@
       "sb_sl_multiplyer": 1.51,
       "sl_price": 150000,
       "reqRP": 40000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 7,
       "type": "aircraft"
@@ -89367,6 +89974,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 930000,
       "reqRP": 340000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -89649,6 +90257,7 @@
       "sb_sl_multiplyer": 1.03,
       "sl_price": 6300,
       "reqRP": 5900,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 7,
       "type": "aircraft"
@@ -89675,6 +90284,7 @@
       "sb_sl_multiplyer": 1.67,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 7,
       "type": "aircraft"
@@ -89727,6 +90337,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 310000,
       "reqRP": 110000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -89753,6 +90364,7 @@
       "sb_sl_multiplyer": 2.11,
       "sl_price": 420000,
       "reqRP": 150000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -89779,6 +90391,7 @@
       "sb_sl_multiplyer": 1.04,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -89805,7 +90418,8 @@
       "sb_sl_multiplyer": 1.6,
       "sl_price": 0,
       "reqRP": 4000,
-      "prem_type": "store",
+      "marketplace": 50146,
+      "prem_type": "marketplace",
       "cost_gold": 400,
       "hidden": true,
       "crew": 2,
@@ -89833,6 +90447,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 590000,
       "reqRP": 220000,
+      "marketplace": 50089,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -89939,6 +90554,7 @@
       "sb_sl_multiplyer": 0.88,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -89965,6 +90581,7 @@
       "sb_sl_multiplyer": 2.184,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50153,
       "prem_type": "false",
       "crew": 3,
       "type": "aircraft"
@@ -90018,6 +90635,7 @@
       "sb_sl_multiplyer": 5.77,
       "sl_price": 240000,
       "reqRP": 82000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -90044,6 +90662,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 210000,
       "reqRP": 71000,
+      "marketplace": 50161,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -90070,6 +90689,7 @@
       "sb_sl_multiplyer": 5.47,
       "sl_price": 0,
       "reqRP": 26000,
+      "marketplace": 50161,
       "prem_type": "gold",
       "cost_gold": 1450,
       "crew": 1,
@@ -90124,6 +90744,7 @@
       "sb_sl_multiplyer": 5.68,
       "sl_price": 240000,
       "reqRP": 82000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -90149,6 +90770,7 @@
       "sb_sl_multiplyer": 3.84,
       "sl_price": 0,
       "reqRP": 63000,
+      "marketplace": 50161,
       "prem_type": "gold",
       "cost_gold": 7100,
       "hidden": true,
@@ -90176,6 +90798,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 200000,
       "reqRP": 63000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -90201,6 +90824,7 @@
       "sb_sl_multiplyer": 4.71,
       "sl_price": 170000,
       "reqRP": 46000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -90227,6 +90851,7 @@
       "sb_sl_multiplyer": 1.98,
       "sl_price": 0,
       "reqRP": 4000,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 400,
       "crew": 1,
@@ -90253,6 +90878,7 @@
       "sb_sl_multiplyer": 5.31,
       "sl_price": 0,
       "reqRP": 33000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 1600,
       "crew": 1,
@@ -90514,6 +91140,7 @@
       "sb_sl_multiplyer": 1.42,
       "sl_price": 0,
       "reqRP": 2900,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 250,
       "crew": 1,
@@ -90540,6 +91167,7 @@
       "sb_sl_multiplyer": 2.38,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -90565,6 +91193,7 @@
       "sb_sl_multiplyer": 3.97,
       "sl_price": 140000,
       "reqRP": 33000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -90590,6 +91219,7 @@
       "sb_sl_multiplyer": 5.33,
       "sl_price": 0,
       "reqRP": 18000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 1930,
       "hidden": true,
@@ -90668,6 +91298,7 @@
       "sb_sl_multiplyer": 0.5733,
       "sl_price": 700,
       "reqRP": 2900,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -90825,6 +91456,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 310000,
       "reqRP": 110000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -90877,6 +91509,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 370000,
       "reqRP": 130000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -90931,6 +91564,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 420000,
       "reqRP": 150000,
+      "marketplace": 50175,
       "prem_type": "false",
       "crew": 2,
       "type": "aircraft"
@@ -90957,6 +91591,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 420000,
       "reqRP": 150000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -90983,6 +91618,7 @@
       "sb_sl_multiplyer": 1.42,
       "sl_price": 10000,
       "reqRP": 7900,
+      "marketplace": 50146,
       "prem_type": "false",
       "hidden": true,
       "crew": 3,
@@ -91010,6 +91646,7 @@
       "sb_sl_multiplyer": 4.2728,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 6,
       "type": "aircraft"
@@ -91036,6 +91673,7 @@
       "sb_sl_multiplyer": 4.86,
       "sl_price": 0,
       "reqRP": 11000,
+      "marketplace": 50161,
       "prem_type": "gold",
       "cost_gold": 1000,
       "crew": 5,
@@ -91063,6 +91701,7 @@
       "sb_sl_multiplyer": 5.1548,
       "sl_price": 38000,
       "reqRP": 11000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 5,
       "type": "aircraft"
@@ -91089,6 +91728,7 @@
       "sb_sl_multiplyer": 1.96,
       "sl_price": 22000,
       "reqRP": 9200,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 5,
       "type": "aircraft"
@@ -91115,6 +91755,7 @@
       "sb_sl_multiplyer": 1.33,
       "sl_price": 55000,
       "reqRP": 14000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 6,
       "type": "aircraft"
@@ -91141,6 +91782,7 @@
       "sb_sl_multiplyer": 6,
       "sl_price": 170000,
       "reqRP": 46000,
+      "marketplace": 50146,
       "prem_type": "false",
       "crew": 1,
       "type": "aircraft"
@@ -91167,6 +91809,7 @@
       "sb_sl_multiplyer": 6.25,
       "sl_price": 0,
       "reqRP": 40000,
+      "marketplace": 50146,
       "prem_type": "event",
       "event": "chronicles_2018",
       "cost_gold": 1750,
@@ -91220,6 +91863,7 @@
       "sb_sl_multiplyer": 1.35,
       "sl_price": 0,
       "reqRP": 4000,
+      "marketplace": 50146,
       "prem_type": "gold",
       "cost_gold": 480,
       "crew": 2,
@@ -91247,7 +91891,8 @@
       "sb_sl_multiplyer": 6.12,
       "sl_price": 0,
       "reqRP": 46000,
-      "prem_type": "store",
+      "marketplace": 50146,
+      "prem_type": "marketplace",
       "cost_gold": 2980,
       "crew": 1,
       "type": "aircraft"
@@ -91273,6 +91918,7 @@
       "sb_sl_multiplyer": 5.71,
       "sl_price": 0,
       "reqRP": 46000,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 2980,
       "crew": 2,
@@ -91300,7 +91946,8 @@
       "sb_sl_multiplyer": 5.85,
       "sl_price": 0,
       "reqRP": 40000,
-      "prem_type": "store",
+      "marketplace": 50153,
+      "prem_type": "marketplace",
       "cost_gold": 1750,
       "crew": 1,
       "type": "aircraft"
@@ -91327,7 +91974,8 @@
       "sb_sl_multiplyer": 3.52,
       "sl_price": 0,
       "reqRP": 14000,
-      "prem_type": "store",
+      "marketplace": 50153,
+      "prem_type": "marketplace",
       "cost_gold": 1150,
       "hidden": true,
       "crew": 1,
@@ -91355,6 +92003,7 @@
       "sb_sl_multiplyer": 5.72,
       "sl_price": 0,
       "reqRP": 33000,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 1600,
       "crew": 1,
@@ -91381,6 +92030,7 @@
       "sb_sl_multiplyer": 3.39,
       "sl_price": 0,
       "reqRP": 18000,
+      "marketplace": 50153,
       "prem_type": "gold",
       "cost_gold": 3900,
       "crew": 1,
@@ -91408,7 +92058,8 @@
       "sb_sl_multiplyer": 2.86,
       "sl_price": 0,
       "reqRP": 14000,
-      "prem_type": "store",
+      "marketplace": 50153,
+      "prem_type": "marketplace",
       "cost_gold": 1150,
       "crew": 1,
       "type": "aircraft"
@@ -91537,6 +92188,7 @@
       "sb_sl_multiplyer": 3.75,
       "sl_price": 0,
       "reqRP": 14000,
+      "marketplace": 50161,
       "prem_type": "gold",
       "cost_gold": 1150,
       "crew": 1,
@@ -92347,7 +92999,7 @@
       "intname": "a_129_a",
       "wikiname": "A-129 International (p)",
       "normal_type": "type_attack_helicopter",
-      "extended_type": ["type_attack_helicopter", "type_utility_helicopter"],
+      "extended_type": ["type_utility_helicopter"],
       "country": "country_italy",
       "rank": 6,
       "ab_br": "9.7",
@@ -92400,7 +93052,7 @@
       "intname": "a_129_cbt",
       "wikiname": "A129CBT",
       "normal_type": "type_attack_helicopter",
-      "extended_type": ["type_attack_helicopter", "type_utility_helicopter"],
+      "extended_type": ["type_utility_helicopter"],
       "country": "country_italy",
       "rank": 7,
       "ab_br": "9.7",
@@ -92979,7 +93631,7 @@
       "intname": "tiger_had_france",
       "wikiname": "EC-665 Tiger HAD",
       "normal_type": "type_attack_helicopter",
-      "extended_type": ["type_attack_helicopter", "type_utility_helicopter"],
+      "extended_type": ["type_utility_helicopter"],
       "country": "country_france",
       "rank": 7,
       "ab_br": "10.7",
@@ -93005,7 +93657,7 @@
       "intname": "tiger_hap_france",
       "wikiname": "EC-665 Tiger HAP",
       "normal_type": "type_attack_helicopter",
-      "extended_type": ["type_attack_helicopter", "type_utility_helicopter"],
+      "extended_type": ["type_utility_helicopter"],
       "country": "country_france",
       "rank": 6,
       "ab_br": "10.0",
@@ -93032,7 +93684,7 @@
       "intname": "tiger_uht",
       "wikiname": "EC-665 Tiger UHT",
       "normal_type": "type_attack_helicopter",
-      "extended_type": ["type_attack_helicopter", "type_utility_helicopter"],
+      "extended_type": ["type_utility_helicopter"],
       "country": "country_germany",
       "rank": 7,
       "ab_br": "10.3",
@@ -93261,7 +93913,7 @@
       "intname": "ka_29",
       "wikiname": "Ka-29",
       "normal_type": "type_attack_helicopter",
-      "extended_type": ["type_attack_helicopter", "type_utility_helicopter"],
+      "extended_type": ["type_utility_helicopter"],
       "country": "country_ussr",
       "rank": 6,
       "ab_br": "9.7",
@@ -93287,7 +93939,7 @@
       "intname": "ka_50",
       "wikiname": "Ka-50",
       "normal_type": "type_attack_helicopter",
-      "extended_type": ["type_attack_helicopter", "type_utility_helicopter"],
+      "extended_type": ["type_utility_helicopter"],
       "country": "country_ussr",
       "rank": 6,
       "ab_br": "10.7",
@@ -93314,7 +93966,7 @@
       "intname": "ka_52",
       "wikiname": "Ka-52",
       "normal_type": "type_attack_helicopter",
-      "extended_type": ["type_attack_helicopter", "type_utility_helicopter"],
+      "extended_type": ["type_utility_helicopter"],
       "country": "country_ussr",
       "rank": 7,
       "ab_br": "11.0",
@@ -93543,7 +94195,7 @@
       "intname": "mi_28a_sweden",
       "wikiname": "Mi-28A",
       "normal_type": "type_attack_helicopter",
-      "extended_type": ["type_attack_helicopter", "type_utility_helicopter"],
+      "extended_type": ["type_utility_helicopter"],
       "country": "country_sweden",
       "rank": 6,
       "ab_br": "10.3",
@@ -93570,7 +94222,7 @@
       "intname": "mi_28n",
       "wikiname": "Mi-28N",
       "normal_type": "type_attack_helicopter",
-      "extended_type": ["type_attack_helicopter", "type_utility_helicopter"],
+      "extended_type": ["type_utility_helicopter"],
       "country": "country_ussr",
       "rank": 7,
       "ab_br": "10.7",
@@ -93596,7 +94248,7 @@
       "intname": "mi_28nm",
       "wikiname": "Mi-28NM",
       "normal_type": "type_attack_helicopter",
-      "extended_type": ["type_attack_helicopter", "type_utility_helicopter"],
+      "extended_type": ["type_utility_helicopter"],
       "country": "country_ussr",
       "rank": 7,
       "ab_br": "11.0",
@@ -93622,7 +94274,7 @@
       "intname": "mi_35m",
       "wikiname": "Mi-35M",
       "normal_type": "type_attack_helicopter",
-      "extended_type": ["type_attack_helicopter", "type_utility_helicopter"],
+      "extended_type": ["type_utility_helicopter"],
       "country": "country_ussr",
       "rank": 6,
       "ab_br": "10.7",
@@ -93871,7 +94523,7 @@
       "intname": "t_129_atak",
       "wikiname": "T129",
       "normal_type": "type_attack_helicopter",
-      "extended_type": ["type_attack_helicopter", "type_utility_helicopter"],
+      "extended_type": ["type_utility_helicopter"],
       "country": "country_italy",
       "rank": 6,
       "ab_br": "9.7",
@@ -94074,7 +94726,7 @@
       "intname": "z_10",
       "wikiname": "Z-10",
       "normal_type": "type_attack_helicopter",
-      "extended_type": ["type_attack_helicopter", "type_utility_helicopter"],
+      "extended_type": ["type_utility_helicopter"],
       "country": "country_china",
       "rank": 7,
       "ab_br": "10.7",
@@ -94100,7 +94752,7 @@
       "intname": "z_11wa",
       "wikiname": "Z-11WA",
       "normal_type": "type_attack_helicopter",
-      "extended_type": ["type_attack_helicopter", "type_utility_helicopter"],
+      "extended_type": ["type_utility_helicopter"],
       "country": "country_china",
       "rank": 5,
       "ab_br": "8.7",
@@ -94125,7 +94777,7 @@
       "intname": "z_19",
       "wikiname": "Z-19",
       "normal_type": "type_attack_helicopter",
-      "extended_type": ["type_attack_helicopter", "type_utility_helicopter"],
+      "extended_type": ["type_utility_helicopter"],
       "country": "country_china",
       "rank": 6,
       "ab_br": "10.3",
@@ -94151,7 +94803,7 @@
       "intname": "z_19e",
       "wikiname": "Z-19E",
       "normal_type": "type_attack_helicopter",
-      "extended_type": ["type_attack_helicopter", "type_utility_helicopter"],
+      "extended_type": ["type_utility_helicopter"],
       "country": "country_china",
       "rank": 6,
       "ab_br": "10.3",
@@ -94178,7 +94830,7 @@
       "intname": "z_9w",
       "wikiname": "Z-9W",
       "normal_type": "type_attack_helicopter",
-      "extended_type": ["type_attack_helicopter", "type_utility_helicopter"],
+      "extended_type": ["type_utility_helicopter"],
       "country": "country_china",
       "rank": 6,
       "ab_br": "9.3",
@@ -94204,7 +94856,7 @@
       "intname": "z_9wa",
       "wikiname": "Z-9WA",
       "normal_type": "type_attack_helicopter",
-      "extended_type": ["type_attack_helicopter", "type_utility_helicopter"],
+      "extended_type": ["type_utility_helicopter"],
       "country": "country_china",
       "rank": 6,
       "ab_br": "9.7",

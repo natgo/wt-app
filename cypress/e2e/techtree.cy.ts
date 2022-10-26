@@ -1,4 +1,4 @@
-describe("Skins test", () => {
+describe("Techtree test", () => {
   it("Visits the Kitchen Sink", () => {
     cy.visit("http://localhost:5173/wt/");
     cy.wait(500);

@@ -2,7 +2,7 @@ import { Tooltip } from "@mui/material";
 
 import { FinalProps, GroundProps } from "../types";
 
-import DenseTable from "./Table";
+import ArmorTable from "./Table";
 import { vehicleCountry } from "./VehicleCountry";
 import { VehicleImage } from "./VehicleImage";
 import { VehiclePrice } from "./VehiclePrice";
@@ -134,6 +134,7 @@ export function SpecsCard(props: {
           <div className="general_info_class">
             <span className="desc">Class:</span>
             <Premium vehicle={vehicle} />
+            <Squadron vehicle={vehicle} />
             <div>
               <a href={`../Category:${vehicle_type}`} title={`Category:${vehicle_type}`}>
                 {vehicle_type.vehicle_type}
@@ -160,7 +161,6 @@ export function SpecsCard(props: {
             </div>
           </div>
         </div>
-        <div className="general_info_message"></div>
       </div>
     </div>
   );
@@ -179,7 +179,7 @@ export function Survivability(props: { vehicle: GroundProps }): JSX.Element {
         <Composite vehicle={vehicle} />
       </div>
       <div className="specs_char">
-        <DenseTable vehicle={vehicle} />
+        <ArmorTable vehicle={vehicle} />
         <div className="specs_char_block crew">
           <div className="specs_char_line head">
             <span className="name">Crew</span>
@@ -204,6 +204,21 @@ function Premium(props: { vehicle: FinalProps }): JSX.Element | null {
       <div className="premium">
         <a href="/Category:Premium_ground_vehicles" title="Category:Premium ground vehicles">
           PREMIUM
+        </a>
+      </div>
+    );
+  } else {
+    return null;
+  }
+}
+
+function Squadron(props: { vehicle: FinalProps }): JSX.Element | null {
+  const { vehicle } = props;
+  if (vehicle.prem_type === "squad") {
+    return (
+      <div className="squadron">
+        <a href="/Category:Squadron_ground_vehicles" title="Category:Squadron ground vehicles">
+          SQUADRON
         </a>
       </div>
     );

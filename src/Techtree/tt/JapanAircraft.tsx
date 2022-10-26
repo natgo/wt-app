@@ -439,7 +439,7 @@ export function JapanAircraft() {
                   intname="h8k2"
                   type="aircraft"
                 />
-                <Arrow length={0}/>
+                <Arrow length={0} />
                 <TechTreeItem
                   link="/Ki-49-I"
                   title="Ki-49-I"

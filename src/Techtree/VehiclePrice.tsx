@@ -6,7 +6,7 @@ import geImg from "./assets/img/Specs-Card-Eagle.png";
 import slImg from "./assets/img/Specs-Card-Lion.png";
 
 export function VehiclePrice(props: { vehicle: FinalProps }): JSX.Element {
-  const { prem_type, reqRP, sl_price, cost_gold, hidden } = props.vehicle;
+  const { prem_type, reqRP, sl_price, cost_gold, hidden, marketplace } = props.vehicle;
   console.log(props);
   let rp = "Not Free";
   if (reqRP === undefined) {
@@ -102,16 +102,24 @@ export function VehiclePrice(props: { vehicle: FinalProps }): JSX.Element {
     } else {
       if (
         prem_type === "event" ||
+        prem_type === "marketplace" ||
         (prem_type === "false" && hidden === true) ||
         prem_type === "store"
       ) {
+        let text = "Bundle or Gift";
+        if (prem_type === "store") {
+          text = "Store";
+        }
+        if (marketplace) {
+          text = "Marketplace";
+        }
         return (
           <>
             <div className="general_info_price_buy" style={{ width: "100%" }}>
               <span className="desc">Purchase:</span>
               <span className="value small">
                 <a href="/Category:Gift_ground_vehicles" title="Category:Gift ground vehicles">
-                  Bundle or Gift
+                  {text}
                 </a>
               </span>
             </div>
