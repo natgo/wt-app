@@ -32,8 +32,10 @@ export interface FinalProps {
   rb_sl_multiplyer: number;
   sb_sl_multiplyer: number;
   prem_type: string;
-  cost_gold: number | undefined;
-  hidden: boolean;
+  prem_vehicle?: boolean;
+  event?: string;
+  cost_gold?: number;
+  hidden?: boolean;
   marketplace?: number;
 }
 
@@ -42,7 +44,6 @@ export interface GroundProps extends FinalProps {
   horsepower: number;
   gears_forward: number;
   gears_backward: number;
-  night_vision?: NightVision;
   hydro_suspension?: boolean;
   can_float?: boolean;
   has_synchro?: boolean;
@@ -53,32 +54,124 @@ export interface GroundProps extends FinalProps {
   has_lws?: boolean;
   has_era?: boolean;
   has_composite?: boolean;
+  laser_range?: boolean;
+  weapons?: TankWeapons;
+  optics: Sights;
 }
 
-export interface NightVision {
-  commanderViewThermal?: { resolution: [800, 600]; noiseFactor: 0.04 };
-  gunnerThermal?: {
-    resolution: [500 | 800 | 1200, 300 | 600 | 800];
-    noiseFactor: 0.05 | 0.04;
-  };
-  commanderViewIr?: {
-    resolution: [800 | 1600, 600 | 1200];
-    lightMult: 8.0 | 9.0;
-    ghosting: 0.75 | 0.6;
-    noiseFactor: 0.2;
-  };
+export interface Sights {
+  driver?: driverSight;
+  gunner: gunnerSight;
+  commander?: commanderSight;
+}
+
+export interface driverSight {
   driverIr?: {
     resolution: [800 | 1200, 600 | 800];
     lightMult: 5.0 | 7.0;
     ghosting: 0.7 | 0.6;
     noiseFactor: 0.2;
   };
+  driverThermal?: {
+    resolution: [500 | 800, 300 | 600];
+    noiseFactor: 0.05 | 0.04;
+  };
+}
+
+export interface gunnerSight {
   gunnerIr?: {
-    resolution: [800, 600];
-    lightMult: 5.0 | 8;
-    ghosting: 0.7 | 0.75;
+    resolution: [800 | 1600, 600 | 1200];
+    lightMult: 5.0 | 8 | 9;
+    ghosting: 0.7 | 0.75 | 0.6;
     noiseFactor: 0.2;
   };
+  gunnerThermal?: {
+    resolution: [500 | 800 | 1200, 300 | 600 | 800];
+    noiseFactor: 0.05 | 0.04;
+  };
+  zoomInFov: number; //74
+  zoomOutFov: number;
+}
+
+export interface commanderSight {
+  commanderViewIr?: {
+    resolution: [800 | 1600, 600 | 1200];
+    lightMult: 8.0 | 9.0;
+    ghosting: 0.75 | 0.6;
+    noiseFactor: 0.2;
+  };
+  commanderViewThermal?: {
+    resolution: [800, 600];
+    noiseFactor: 0.04;
+  };
+  zoomInFov: number;
+  zoomOutFov: number;
+}
+
+export interface TankWeapons {
+  cannon?: TankCannon[];
+  machineGun?: MG[];
+  launcher?: TankCannon;
+}
+
+export interface MG {
+  ammo: number;
+  horizonalSpeed: number;
+  verticalSpeed: number;
+  horizonalLimit: number[];
+  verticalLimit: number[];
+}
+
+export interface TankCannon {
+  intname: string;
+  name: string;
+  secondary?: boolean;
+  ammo: number;
+  shotFreq: number;
+  caliber: number;
+  shells?: Shell[];
+  belts?: ShellBelt[];
+  autoloader?: boolean;
+  horizonalSpeed: number | "primary";
+  verticalSpeed: number | "primary";
+  horizonalLimit: number[] | "primary";
+  verticalLimit: number[] | "primary";
+  stabilizer?: Stabilizer;
+  hullAiming?: HullAiming;
+}
+
+export interface Shell {
+  modname: string;
+  intname: string;
+  name: string;
+  maxamount?: number;
+  modmaxamount?: number;
+}
+
+export interface ShellBelt {
+  modname: string;
+  maxamount?: number;
+  modmaxamount?: number;
+  shells: Belt[];
+}
+
+export interface Belt {
+  intname: string;
+  name: string;
+}
+
+export interface HullAiming {
+  horizontal?: boolean;
+  vertical?: boolean;
+  maxRoll: number;
+}
+
+export interface Stabilizer {
+  shoulderStop?: boolean;
+  horizontal?: boolean;
+  vertical?: boolean;
+  horizontalSpeed?: number;
+  verticalSpeed?: number;
 }
 
 interface SkinsProp {

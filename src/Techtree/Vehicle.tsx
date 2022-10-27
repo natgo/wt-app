@@ -4,6 +4,7 @@ import { queryVehicle } from "../utils/QueryVehicle";
 
 import "./App2.css";
 import { Mobility, SpecsCard, Survivability } from "./VehicleItem";
+import { Weapon } from "./VehicleWeapon";
 
 export function Vehicle(): JSX.Element {
   const params = useParams();
@@ -18,6 +19,7 @@ export function Vehicle(): JSX.Element {
             <SpecsCard vehicle={match} link={params.vehicleId} item_type={"own"} />
             <Survivability vehicle={match} />
             <Mobility vehicle={match} />
+            <Weapon vehicle={match} />
           </div>
         );
       } else {
