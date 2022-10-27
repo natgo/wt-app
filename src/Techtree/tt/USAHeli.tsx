@@ -173,6 +173,14 @@ export function USAHeli() {
                   type="helicopter"
                 />
                 <EmptyDiv />
+                <TechTreeItem
+                  link="/AH-64A_(GR)"
+                  title="AH-64A (GR)"
+                  item_type="prem"
+                  text="AH-64A (GR)"
+                  intname="ah_64a_greece_usa"
+                  type="helicopter"
+                />
               </td>
               <td>
                 <TechTreeItem

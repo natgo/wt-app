@@ -1067,6 +1067,15 @@ export function USAGround() {
                   intname="us_m1a2_abrams"
                   type="ground"
                 />
+                <Arrow length={0} />
+                <TechTreeItem
+                  link="/M1A2_SEP"
+                  title="M1A2 SEP"
+                  item_type="own"
+                  text="M1A2 SEP"
+                  intname="us_m1a2_sep_abrams"
+                  type="ground"
+                />
                 <EmptyDiv />
               </td>
               <td>

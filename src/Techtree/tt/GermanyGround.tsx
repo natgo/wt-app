@@ -42,7 +42,16 @@ export function GermanyGround() {
                   intname="germ_panzerjager_1"
                   type="ground"
                 />
-                <Arrow length={1} />
+                <Arrow length={0} />
+                <TechTreeItem
+                  link="/Sd.Kfz.251/9"
+                  title="Sd.Kfz.251/9"
+                  item_type="own"
+                  text="Sd.Kfz.251/9"
+                  intname="germ_sdkfz_251_9"
+                  type="ground"
+                />
+                <Arrow length={0} />
               </td>
               <td>
                 <TreeFolder name="Pz.III B/E" img="germ_prewar_pz_iii_group">
@@ -821,10 +830,10 @@ export function GermanyGround() {
               </td>
               <td>
                 <TechTreeItem
-                  link="/Jagdpanther"
-                  title="Jagdpanther"
+                  link="/Jagdpanther_G1"
+                  title="Jagdpanther G1"
                   item_type="own"
-                  text="Jagdpanther"
+                  text="Jagdpanther G1"
                   intname="germ_panzerjager_panther"
                   type="ground"
                 />
@@ -859,10 +868,10 @@ export function GermanyGround() {
                 />
                 <EmptyDiv />
                 <TechTreeItem
-                  link="/Bfw._Jagdpanther"
-                  title="Bfw. Jagdpanther"
+                  link="/Bfw._Jagdpanther_G1"
+                  title="Bfw. Jagdpanther G1"
                   item_type="prem"
-                  text="Bfw. Jagdpanther"
+                  text="Bfw. Jagdpanther G1"
                   intname="germ_panzerbefelhswagen_jagdpanther"
                   type="ground"
                 />

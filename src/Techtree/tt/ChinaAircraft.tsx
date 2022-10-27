@@ -607,6 +607,7 @@ export function ChinaAircraft() {
                   intname="q_5a"
                   type="aircraft"
                 />
+                <Arrow length={0} />
               </td>
               <td />
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
@@ -673,6 +674,14 @@ export function ChinaAircraft() {
                 <EmptyDiv />
               </td>
               <td>
+                <TechTreeItem
+                  link="/Q-5L"
+                  title="Q-5L"
+                  item_type="own"
+                  text="Q-5L"
+                  intname="q_5l"
+                  type="aircraft"
+                />
                 <EmptyDiv />
               </td>
               <td>

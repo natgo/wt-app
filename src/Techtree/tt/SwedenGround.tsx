@@ -12,7 +12,7 @@ export function SwedenGround() {
       <div className="tree">
         <table rules="rows" width="100%">
           <tbody>
-            <Research research={4} premium={2} />
+            <Research research={5} premium={2} />
             <tr>
               <Rank rank="I" />
               <td>
@@ -68,6 +68,15 @@ export function SwedenGround() {
               </td>
               <td>
                 <TechTreeItem
+                  link="/BT-42"
+                  title="BT-42"
+                  item_type="own"
+                  text="BT-42"
+                  intname="sw_bt_42"
+                  type="ground"
+                />
+                <Arrow length={0} />
+                <TechTreeItem
                   link="/Spj_fm/43-44"
                   title="Spj fm/43-44"
                   item_type="own"
@@ -75,7 +84,27 @@ export function SwedenGround() {
                   intname="sw_stormpjas_fm43_44"
                   type="ground"
                 />
-                <Arrow length={1} />
+                <Arrow length={0} />
+              </td>
+              <td>
+                <TechTreeItem
+                  link="/Vickers_Mk.E"
+                  title="Vickers Mk.E"
+                  item_type="own"
+                  text="Vickers Mk.E"
+                  intname="sw_vickers_mk_e_37"
+                  type="ground"
+                />
+                <Arrow length={0} />
+                <TechTreeItem
+                  link="/T-28_(Sweden)"
+                  title="T-28 (Sweden)"
+                  item_type="own"
+                  text="T-28"
+                  intname="sw_t_28"
+                  type="ground"
+                />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -84,6 +113,15 @@ export function SwedenGround() {
                   item_type="prem"
                   text="Strv m/39"
                   intname="sw_strv_m39"
+                  type="ground"
+                />
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/T-26E_(Sweden)"
+                  title="T-26E (Sweden)"
+                  item_type="prem"
+                  text="T-26E"
+                  intname="sw_vickers_mk_e_45"
                   type="ground"
                 />
                 <EmptyDiv />
@@ -191,6 +229,9 @@ export function SwedenGround() {
                 />
                 <Arrow length={0} />
               </td>
+              <td>
+                <Arrow length={1.5} />
+              </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
                   link="/Strv_m/41_S-I"
@@ -242,7 +283,7 @@ export function SwedenGround() {
                   intname="sw_ikv_103"
                   type="ground"
                 />
-                <Arrow length={0} />
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -253,7 +294,7 @@ export function SwedenGround() {
                   intname="sw_strv_m42_delat_torn"
                   type="ground"
                 />
-                <Arrow length={1} />
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -264,7 +305,7 @@ export function SwedenGround() {
                   intname="sw_l_62_anti_ii"
                   type="ground"
                 />
-                <Arrow length={1} />
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -275,7 +316,45 @@ export function SwedenGround() {
                   intname="sw_pvkv_m43_1946"
                   type="ground"
                 />
+                <Arrow length={0} />
+                <TechTreeItem
+                  link="/Pvkv_m/43_(1963)"
+                  title="Pvkv m/43 (1963)"
+                  item_type="own"
+                  text="Pvkv m/43 (1963)"
+                  intname="sw_pvkv_m43_1963"
+                  type="ground"
+                />
                 <Arrow length={1} />
+              </td>
+              <td>
+                <TechTreeItem
+                  link="/T-34_(Sweden)"
+                  title="T-34 (Sweden)"
+                  item_type="own"
+                  text="T-34"
+                  intname="sw_t_34_1941"
+                  type="ground"
+                />
+                <Arrow length={0} />
+                <TechTreeItem
+                  link="/Pz.IV_(Sweden)"
+                  title="Pz.IV (Sweden)"
+                  item_type="own"
+                  text="Pz.IV"
+                  intname="sw_pzkpfw_iv_ausf_j"
+                  type="ground"
+                />
+                <Arrow length={0} />
+                <TechTreeItem
+                  link="/PT-76_(Sweden)"
+                  title="PT-76 (Sweden)"
+                  item_type="own"
+                  text="PT-76"
+                  intname="sw_pt_76b"
+                  type="ground"
+                />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <EmptyDiv />
@@ -293,7 +372,7 @@ export function SwedenGround() {
                   intname="sw_ikv_91"
                   type="ground"
                 />
-                <Arrow length={1} />
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -313,7 +392,7 @@ export function SwedenGround() {
                   intname="sw_strv_81"
                   type="ground"
                 />
-                <Arrow length={0} />
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem
@@ -324,24 +403,44 @@ export function SwedenGround() {
                   intname="sw_lvkv_42"
                   type="ground"
                 />
-                <Arrow length={1} />
+                <Arrow length={2} />
               </td>
               <td>
-                <TechTreeItem
-                  link="/Pvkv_m/43_(1963)"
-                  title="Pvkv m/43 (1963)"
-                  item_type="own"
-                  text="Pvkv m/43 (1963)"
-                  intname="sw_pvkv_m43_1963"
-                  type="ground"
-                />
-                <Arrow length={0} />
                 <TechTreeItem
                   link="/Bkan_1C"
                   title="Bkan 1C"
                   item_type="own"
                   text="Bkan 1C"
                   intname="sw_bkan_1c"
+                  type="ground"
+                />
+                <Arrow length={2} />
+              </td>
+              <td>
+                <TechTreeItem
+                  link="/Comet_I_(Sweden)"
+                  title="Comet I (Sweden)"
+                  item_type="own"
+                  text="Comet I"
+                  intname="sw_a_34_comet"
+                  type="ground"
+                />
+                <Arrow length={0} />
+                <TechTreeItem
+                  link="/T-34-85_(Sweden)"
+                  title="T-34-85 (Sweden)"
+                  item_type="own"
+                  text="T-34-85"
+                  intname="sw_t_34_85_zis_53"
+                  type="ground"
+                />
+                <Arrow length={0} />
+                <TechTreeItem
+                  link="/Charioteer_Mk_VII_(Sweden)"
+                  title="Charioteer Mk VII (Sweden)"
+                  item_type="own"
+                  text="Charioteer Mk VII"
+                  intname="sw_charioteer_mk_7"
                   type="ground"
                 />
                 <Arrow length={0} />
@@ -394,6 +493,15 @@ export function SwedenGround() {
               </td>
               <td>
                 <TechTreeItem
+                  link="/ZSU-57-2_(Sweden)"
+                  title="ZSU-57-2 (Sweden)"
+                  item_type="own"
+                  text="ZSU-57-2"
+                  intname="sw_zsu_57_2"
+                  type="ground"
+                />
+                <Arrow length={0} />
+                <TechTreeItem
                   link="/VEAK_40"
                   title="VEAK 40"
                   item_type="own"
@@ -401,7 +509,7 @@ export function SwedenGround() {
                   intname="sw_veak_40"
                   type="ground"
                 />
-                <Arrow length={1} />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -410,6 +518,17 @@ export function SwedenGround() {
                   item_type="own"
                   text="UDES 33"
                   intname="sw_udes_33"
+                  type="ground"
+                />
+                <Arrow length={1} />
+              </td>
+              <td>
+                <TechTreeItem
+                  link="/T-54_(Sweden)"
+                  title="T-54 (Sweden)"
+                  item_type="own"
+                  text="T-54"
+                  intname="sw_t_54_1951"
                   type="ground"
                 />
                 <Arrow length={1} />
@@ -544,18 +663,37 @@ export function SwedenGround() {
                   type="ground"
                 />
               </td>
-              <td style={{ borderLeft: "solid 1px #cccccc" }}>
-                <TechTreeItem
-                  link="/CV_90105"
-                  title="CV 90105"
-                  item_type="prem"
-                  text="CV 90105"
-                  intname="sw_cv_90105_tml"
-                  type="ground"
-                />
-              </td>
               <td>
                 <TechTreeItem
+                  link="/T-72M1"
+                  title="T-72M1"
+                  item_type="own"
+                  text="T-72M1"
+                  intname="sw_t_72m1"
+                  type="ground"
+                />
+                <Arrow length={0} />
+                <TechTreeItem
+                  link="/Leopard_2A4_(Sweden)"
+                  title="Leopard 2A4 (Sweden)"
+                  item_type="own"
+                  text="Leopard 2A4"
+                  intname="sw_leopard_2a4_fin"
+                  type="ground"
+                />
+                <Arrow length={2} />
+              </td>
+              <td style={{ borderLeft: "solid 1px #cccccc" }}>
+                <TechTreeItem
+                  link="/Leopard_1A5NO"
+                  title="Leopard 1A5NO"
+                  item_type="prem"
+                  text="Leopard 1A5NO"
+                  intname="sw_leopard_1a5no"
+                  type="ground"
+                />
+                <EmptyDiv/>
+                <TechTreeItem
                   link="/CV_90105"
                   title="CV 90105"
                   item_type="prem"
@@ -564,6 +702,7 @@ export function SwedenGround() {
                   type="ground"
                 />
               </td>
+              <td></td>
             </tr>
             <tr>
               <Rank rank="VII" />
@@ -621,7 +760,26 @@ export function SwedenGround() {
               <td>
                 <EmptyDiv />
               </td>
+              <td>
+                <TechTreeItem
+                  link="/Leopard_2A6_(Sweden)"
+                  title="Leopard 2A6 (Sweden)"
+                  item_type="own"
+                  text="Leopard 2A6"
+                  intname="sw_leopard_2a6nl"
+                  type="ground"
+                />
+                <EmptyDiv />
+              </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
+                <TechTreeItem
+                  link="/T_80_U_(Sweden)"
+                  title="T 80 U (Sweden)"
+                  item_type="squad"
+                  text="T 80 U"
+                  intname="sw_t_80u"
+                  type="ground"
+                />
                 <EmptyDiv />
               </td>
               <td>

@@ -177,6 +177,15 @@ export function JapanAircraft() {
                   type="aircraft"
                 />
                 <EmptyDiv />
+                <TechTreeItem
+                  link="/A7He1"
+                  title="A7He1"
+                  item_type="prem"
+                  text="A7He1"
+                  intname="a7he1"
+                  type="aircraft"
+                />
+                <EmptyDiv />
               </td>
               <td>
                 <TechTreeItem
@@ -185,15 +194,6 @@ export function JapanAircraft() {
                   item_type="prem"
                   text="Ki-21-I hei"
                   intname="ki_21_1hei"
-                  type="aircraft"
-                />
-                <EmptyDiv />
-                <TechTreeItem
-                  link="/A7He1"
-                  title="A7He1"
-                  item_type="prem"
-                  text="A7He1"
-                  intname="a7he1"
                   type="aircraft"
                 />
                 <EmptyDiv />
@@ -1085,7 +1085,16 @@ export function JapanAircraft() {
               <td />
               <td />
               <td />
-              <td style={{ borderLeft: "solid 1px #cccccc" }} />
+              <td style={{ borderLeft: "solid 1px #cccccc" }} >
+                <TechTreeItem
+                  link="/T-2_Early"
+                  title="T-2 Early"
+                  item_type="prem"
+                  text="T-2 Early"
+                  intname="t2_early"
+                  type="aircraft"
+                />
+              </td>
               <td />
             </tr>
             <tr>

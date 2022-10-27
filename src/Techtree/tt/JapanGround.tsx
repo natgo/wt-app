@@ -628,6 +628,15 @@ export function JapanGround() {
                 />
                 <Arrow length={0} />
                 <TechTreeItem
+                  link="/TKX"
+                  title="TKX"
+                  item_type="own"
+                  text="TKX"
+                  intname="jp_tkx_prot"
+                  type="ground"
+                />
+                <Arrow length={0} />
+                <TechTreeItem
                   link="/Type_10"
                   title="Type 10"
                   item_type="own"

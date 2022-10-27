@@ -445,7 +445,16 @@ export function BritainGround() {
                   intname="uk_ystervark_spaa"
                   type="ground"
                 />
-                <Arrow length={1} />
+                <Arrow length={0} />
+                <TechTreeItem
+                  link="/Bosvark"
+                  title="Bosvark"
+                  item_type="own"
+                  text="Bosvark"
+                  intname="uk_bosvark"
+                  type="ground"
+                />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem

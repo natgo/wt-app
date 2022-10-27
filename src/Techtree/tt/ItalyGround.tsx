@@ -33,7 +33,16 @@ export function ItalyGround() {
                   intname="it_m11_39"
                   type="ground"
                 />
-                <Arrow length={1} />
+                <Arrow length={0} />
+                <TechTreeItem
+                  link="/AS_42/47"
+                  title="AS 42/47"
+                  item_type="own"
+                  text="AS 42/47"
+                  intname="it_as_42_47"
+                  type="ground"
+                />
+                <Arrow length={0} />
               </td>
               <td>
                 <TechTreeItem
@@ -271,20 +280,20 @@ export function ItalyGround() {
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
-                  link="/Celere_Sahariano"
-                  title="Celere Sahariano"
-                  item_type="prem"
-                  text="Celere Sahariano"
-                  intname="it_sahariano"
-                  type="ground"
-                />
-                <EmptyDiv />
-                <TechTreeItem
                   link="/M14/41_(47/40)"
                   title="M14/41 (47/40)"
                   item_type="prem"
                   text="M14/41 (47/40)"
                   intname="it_m14_41_47_40"
+                  type="ground"
+                />
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/Celere_Sahariano"
+                  title="Celere Sahariano"
+                  item_type="prem"
+                  text="Celere Sahariano"
+                  intname="it_sahariano"
                   type="ground"
                 />
                 <EmptyDiv />

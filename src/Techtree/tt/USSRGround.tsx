@@ -1314,6 +1314,15 @@ export function USSRGround() {
                 />
                 <EmptyDiv />
                 <TechTreeItem
+                  link="/2S38"
+                  title="2S38"
+                  item_type="prem"
+                  text="2S38"
+                  intname="ussr_2s38"
+                  type="ground"
+                />
+                <EmptyDiv />
+                <TechTreeItem
                   link="/BMP-2M"
                   title="BMP-2M"
                   item_type="squad"

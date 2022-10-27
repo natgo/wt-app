@@ -12,7 +12,7 @@ export function SwedenAircraft() {
       <div className="tree">
         <table rules="rows" width="100%">
           <tbody>
-            <Research research={3} premium={2} />
+            <Research research={4} premium={2} />
             <tr>
               <Rank rank="I" />
               <td>
@@ -74,6 +74,26 @@ export function SwedenAircraft() {
                   type="aircraft"
                 />
                 <Arrow length={2} />
+              </td>
+              <td>
+                <TechTreeItem
+                  link="/Fokker_D.XXI-3_(Sweden)"
+                  title="Fokker D.XXI-3 (Sweden)"
+                  item_type="own"
+                  text="▄Fokker D.XXI-3"
+                  intname="fokker_d21_serie3_finland"
+                  type="aircraft"
+                />
+                <Arrow length={0} />
+                <TechTreeItem
+                  link="/B-239_(Sweden)"
+                  title="B-239 (Sweden)"
+                  item_type="own"
+                  text="▄B-239"
+                  intname="b_239_finland"
+                  type="aircraft"
+                />
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -140,6 +160,26 @@ export function SwedenAircraft() {
                   intname="saab_b18a"
                   type="aircraft"
                 />
+                <Arrow length={0} />
+                <TechTreeItem
+                  link="/Ju_88_A-4_(Sweden)"
+                  title="Ju 88 A-4 (Sweden)"
+                  item_type="own"
+                  text="▄Ju 88 A-4"
+                  intname="ju-88a-4_finland"
+                  type="aircraft"
+                />
+                <Arrow length={0} />
+              </td>
+              <td>
+                <TechTreeItem
+                  link="/Hurricane_Mk_I/L_(Sweden)"
+                  title="Hurricane Mk I/L (Sweden)"
+                  item_type="own"
+                  text="▄Hurricane Mk I/L"
+                  intname="hurricane_mk1_late_finland"
+                  type="aircraft"
+                />
                 <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
@@ -153,10 +193,10 @@ export function SwedenAircraft() {
                 />
                 <EmptyDiv />
                 <TechTreeItem
-                  link="/Fokker_D.XXI"
-                  title="Fokker D.XXI"
+                  link="/Fokker_D.XXI_(Sweden)"
+                  title="Fokker D.XXI (Sweden)"
                   item_type="prem"
-                  text="Fokker D.XXI"
+                  text="▄Fokker D.XXI"
                   intname="fokker_d21_mod20"
                   type="aircraft"
                 />
@@ -208,6 +248,9 @@ export function SwedenAircraft() {
                   type="aircraft"
                 />
                 <Arrow length={1} />
+              </td>
+              <td>
+                <Arrow length={1.5} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -271,6 +314,26 @@ export function SwedenAircraft() {
                   item_type="own"
                   text="T18B (57)"
                   intname="saab_t18b_2"
+                  type="aircraft"
+                />
+                <Arrow length={0} />
+              </td>
+              <td>
+                <TechTreeItem
+                  link="/Bf_109_G-2_(Sweden)"
+                  title="Bf 109 G-2 (Sweden)"
+                  item_type="own"
+                  text="▄Bf 109 G-2"
+                  intname="bf-109g-2_finland"
+                  type="aircraft"
+                />
+                <Arrow length={0} />
+                <TechTreeItem
+                  link="/Bf_109_G-6_Erla_(Sweden)"
+                  title="Bf 109 G-6 Erla (Sweden)"
+                  item_type="own"
+                  text="▄Bf 109 G-6 Erla"
+                  intname="bf-109g-6_erla_finland"
                   type="aircraft"
                 />
                 <Arrow length={0} />
@@ -358,6 +421,17 @@ export function SwedenAircraft() {
                   type="aircraft"
                 />
               </td>
+              <td>
+                <TechTreeItem
+                  link="/Vampire_FB_52A_(Sweden)"
+                  title="Vampire FB 52A (Sweden)"
+                  item_type="own"
+                  text="▄Vampire FB 52A"
+                  intname="vampire_fb52_finland"
+                  type="aircraft"
+                />
+                <Arrow length={2} />
+              </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
                   link="/SAAB-105OE"
@@ -414,6 +488,17 @@ export function SwedenAircraft() {
                 <Arrow length={1} />
               </td>
               <td />
+              <td>
+                <TechTreeItem
+                  link="/J34"
+                  title="J34"
+                  item_type="own"
+                  text="J34"
+                  intname="hunter_f50_sweden"
+                  type="aircraft"
+                />
+                <Arrow length={1} />
+              </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
                   link="/J35A"
@@ -460,6 +545,17 @@ export function SwedenAircraft() {
                 <EmptyDiv />
               </td>
               <td>
+                <EmptyDiv />
+              </td>
+              <td>
+                <TechTreeItem
+                  link="/MiG-21bis_(Sweden)"
+                  title="MiG-21bis (Sweden)"
+                  item_type="own"
+                  text="▄MiG-21bis"
+                  intname="mig_21_bis_finland"
+                  type="aircraft"
+                />
                 <EmptyDiv />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>

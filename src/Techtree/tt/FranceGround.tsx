@@ -664,7 +664,16 @@ export function FranceGround() {
                   intname="fr_amx_30_dca"
                   type="ground"
                 />
-                <Arrow length={2} />
+                <Arrow length={0} />
+                <TechTreeItem
+                  link="/SANTAL"
+                  title="SANTAL"
+                  item_type="own"
+                  text="SANTAL"
+                  intname="fr_vab_santal"
+                  type="ground"
+                />
+                <Arrow length={1} />
               </td>
               <td>
                 <TechTreeItem

@@ -75,6 +75,15 @@ export function IsraelGround() {
               </td>
               <td>
                 <TechTreeItem
+                  link="/TCM-20"
+                  title="TCM-20"
+                  item_type="own"
+                  text="TCM-20"
+                  intname="il_tcm_20"
+                  type="ground"
+                />
+                <Arrow length={0} />
+                <TechTreeItem
                   link="/Zachlam_Tager"
                   title="Zachlam Tager"
                   item_type="own"
@@ -82,7 +91,7 @@ export function IsraelGround() {
                   intname="il_ss_11_halftrack"
                   type="ground"
                 />
-                <Arrow length={2} />
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -170,6 +179,15 @@ export function IsraelGround() {
               </td>
               <td>
                 <TechTreeItem
+                  link="/ZSU-57-2_(Israel)"
+                  title="ZSU-57-2 (Israel)"
+                  item_type="own"
+                  text="ZSU-57-2"
+                  intname="il_zsu_57_2"
+                  type="ground"
+                />
+                <Arrow length={0} />
+                <TechTreeItem
                   link="/Hovet"
                   title="Hovet"
                   item_type="own"
@@ -177,7 +195,16 @@ export function IsraelGround() {
                   intname="il_m163_vulcan"
                   type="ground"
                 />
-                <Arrow length={2} />
+                <Arrow length={0} />
+                <TechTreeItem
+                  link="/ZSU-23-4_(Israel)"
+                  title="ZSU-23-4 (Israel)"
+                  item_type="own"
+                  text="ZSU-23-4"
+                  intname="il_zsu_23_4"
+                  type="ground"
+                />
+                <Arrow length={0} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem

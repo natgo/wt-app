@@ -138,22 +138,22 @@ export function ItalyAircraft() {
                 />
                 <EmptyDiv />
                 <TechTreeItem
-                  link="/CR.32_bis"
-                  title="CR.32 bis"
+                  link="/He_112_B-1/U2"
+                  title="He 112 B-1/U2"
                   item_type="prem"
-                  text="CR.32 bis"
-                  intname="cr_32_bis"
+                  text="He&nbsp;112&nbsp;B-1/U2"
+                  intname="he_112b_1_italy"
                   type="aircraft"
                 />
                 <EmptyDiv />
               </td>
               <td>
                 <TechTreeItem
-                  link="/He_112_B-1/U2"
-                  title="He 112 B-1/U2"
+                  link="/CR.32_bis"
+                  title="CR.32 bis"
                   item_type="prem"
-                  text="He&nbsp;112&nbsp;B-1/U2"
-                  intname="he_112b_1_italy"
+                  text="CR.32 bis"
+                  intname="cr_32_bis"
                   type="aircraft"
                 />
                 <EmptyDiv />

@@ -39,10 +39,10 @@ export function USSRAircraft() {
                   />
                   <Arrow length={0} />
                   <TechTreeItem
-                    link="/I-15R"
-                    title="I-15R"
+                    link="/I-15_M-25"
+                    title="I-15 M-25"
                     item_type="own"
-                    text="I-15R"
+                    text="I-15 M-25"
                     intname="i-15_1935_moscow"
                     type="aircraft"
                   />
@@ -85,7 +85,7 @@ export function USSRAircraft() {
                     type="aircraft"
                   />
                 </TreeFolder>
-                <Arrow length={3} />
+                <Arrow length={4} />
               </td>
               <td>
                 <TechTreeItem
@@ -163,7 +163,7 @@ export function USSRAircraft() {
                   intname="yak_2_kabb"
                   type="aircraft"
                 />
-                <Arrow length={2} />
+                <Arrow length={3} />
               </td>
               <td>
                 <TreeFolder name="SB" img="sb_group">
@@ -253,7 +253,7 @@ export function USSRAircraft() {
                   intname="ar_2"
                   type="aircraft"
                 />
-                <Arrow length={2} />
+                <Arrow length={3} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -292,15 +292,6 @@ export function USSRAircraft() {
                   type="aircraft"
                 />
                 <EmptyDiv />
-                <TechTreeItem
-                  link="/Po-2M"
-                  title="Po-2M"
-                  item_type="prem"
-                  text="Po-2M"
-                  intname="po-2m"
-                  type="aircraft"
-                />
-                <EmptyDiv />
               </td>
               <td>
                 <TechTreeItem
@@ -309,6 +300,15 @@ export function USSRAircraft() {
                   item_type="prem"
                   text="MBR-2-M-34"
                   intname="mbr-2"
+                  type="aircraft"
+                />
+                <EmptyDiv />
+                <TechTreeItem
+                  link="/Po-2M"
+                  title="Po-2M"
+                  item_type="prem"
+                  text="Po-2M"
+                  intname="po-2m"
                   type="aircraft"
                 />
                 <EmptyDiv />
@@ -865,6 +865,15 @@ export function USSRAircraft() {
                 <Arrow length={4} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
+                <TechTreeItem
+                  link="/A-20G-30_(USSR)"
+                  title="A-20G-30 (USSR)"
+                  item_type="prem"
+                  text="▂A-20G-30"
+                  intname="a_20g_30_ussr"
+                  type="aircraft"
+                />
+                <EmptyDiv />
                 <TechTreeItem
                   link="/Pokryshkin%27s_P-39N-0_(USSR)"
                   title="Pokryshkin's P-39N-0 (USSR)"

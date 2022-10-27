@@ -932,6 +932,14 @@ export function GermanyAircraft() {
                   type="aircraft"
                 />
                 <EmptyDiv />
+                <TechTreeItem
+                  link="/Fw_190_A-5/U14"
+                  title="Fw 190 A-5/U14"
+                  item_type="prem"
+                  text="Fw 190 A-5/U14"
+                  intname="fw_190a_5_u14"
+                  type="aircraft"
+                />
               </td>
               <td>
                 <TechTreeItem

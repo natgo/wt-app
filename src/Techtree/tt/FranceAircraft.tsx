@@ -317,7 +317,7 @@ export function FranceAircraft() {
                   intname="mb_157"
                   type="aircraft"
                 />
-                <Arrow length={1} />
+                <Arrow length={2} />
               </td>
               <td>
                 <TreeFolder name="▄F6F" img="f6f_france_group">
@@ -348,7 +348,7 @@ export function FranceAircraft() {
                   intname="p-63c-5_france"
                   type="aircraft"
                 />
-                <Arrow length={1} />
+                <Arrow length={2} />
               </td>
               <td>
                 <TechTreeItem
@@ -359,7 +359,7 @@ export function FranceAircraft() {
                   intname="sb2c_5_france"
                   type="aircraft"
                 />
-                <Arrow length={2} />
+                <Arrow length={3} />
               </td>
               <td>
                 <TechTreeItem
@@ -388,7 +388,7 @@ export function FranceAircraft() {
                   intname="mb_162"
                   type="aircraft"
                 />
-                <Arrow length={0} />
+                <Arrow length={1} />
               </td>
               <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
@@ -409,6 +409,17 @@ export function FranceAircraft() {
                   type="aircraft"
                 />
                 <EmptyDiv />
+              </td>
+              <td>
+                <TechTreeItem
+                  link="/P-39Q-25_(France)"
+                  title="P-39Q-25 (France)"
+                  item_type="prem"
+                  text="▄P-39Q-25"
+                  intname="p-39q_25_france"
+                  type="aircraft"
+                />
+                <EmptyDiv />
                 <TechTreeItem
                   link="/F-6C-10-NA"
                   title="F-6C-10-NA"
@@ -418,23 +429,12 @@ export function FranceAircraft() {
                   type="aircraft"
                 />
                 <EmptyDiv />
-              </td>
-              <td>
                 <TechTreeItem
                   link="/Challe%27s_Yak-9T_(France)"
                   title="Challe's Yak-9T (France)"
                   item_type="prem"
                   text="Challe's ▄Yak-9T"
                   intname="yak-9t_france"
-                  type="aircraft"
-                />
-                <EmptyDiv />
-                <TechTreeItem
-                  link="/P-39Q-25_(France)"
-                  title="P-39Q-25 (France)"
-                  item_type="prem"
-                  text="▄P-39Q-25"
-                  intname="p-39q_25_france"
                   type="aircraft"
                 />
                 <EmptyDiv />
