@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet, ScrollRestoration } from "react-router-dom";
 
 import { AccountTree, Brush, Calculate, DataObject, GitHub, Home } from "@mui/icons-material";
 import {
@@ -41,11 +41,9 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== "open" 
   }),
 );
 
-export function MiniDrawer(props: { children: React.ReactNode }) {
-  const { children } = props;
-
+export function MiniDrawer() {
   return (
-    <Box sx={{ display: "flex" }}>
+    <>
       <Drawer variant="permanent">
         <List>
           {[
@@ -147,9 +145,8 @@ export function MiniDrawer(props: { children: React.ReactNode }) {
           })}
         </List>
       </Drawer>
-      <Box component="main" sx={{ flexGrow: 1, p: 0, height: "100vh" }}>
-        {children}
-      </Box>
-    </Box>
+      <Outlet />
+      <ScrollRestoration />
+    </>
   );
 }

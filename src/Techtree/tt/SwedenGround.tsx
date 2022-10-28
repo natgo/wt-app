@@ -692,7 +692,7 @@ export function SwedenGround() {
                   intname="sw_leopard_1a5no"
                   type="ground"
                 />
-                <EmptyDiv/>
+                <EmptyDiv />
                 <TechTreeItem
                   link="/CV_90105"
                   title="CV 90105"

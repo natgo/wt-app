@@ -1085,7 +1085,7 @@ export function JapanAircraft() {
               <td />
               <td />
               <td />
-              <td style={{ borderLeft: "solid 1px #cccccc" }} >
+              <td style={{ borderLeft: "solid 1px #cccccc" }}>
                 <TechTreeItem
                   link="/T-2_Early"
                   title="T-2 Early"
