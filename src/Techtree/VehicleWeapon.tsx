@@ -7,6 +7,7 @@ export function Weapon(props: { vehicle: GroundProps }): JSX.Element {
     <div className="weapons">
       {weapons?.cannon?.map((element, index) => {
         let horizontalLimit = "";
+        let verticalLimit = "";
 
         if (
           Array.isArray(element.horizonalLimit) &&
@@ -20,7 +21,16 @@ export function Weapon(props: { vehicle: GroundProps }): JSX.Element {
         ) {
           horizontalLimit = `±${element.horizonalLimit[1]}°`;
         } else {
+          if (element.horizonalLimit === "primary") {
+            horizontalLimit = element.horizonalLimit;
+          }
           horizontalLimit = `${element.horizonalLimit[0]}°/+${element.horizonalLimit[1]}°`;
+        }
+
+        if (element.verticalLimit === "primary") {
+          verticalLimit = element.verticalLimit;
+        } else {
+          verticalLimit = `${element.verticalLimit[0]}°/+${element.verticalLimit[1]}°`;
         }
         return (
           <div key={index} className="weaponcontainer">
@@ -36,7 +46,7 @@ export function Weapon(props: { vehicle: GroundProps }): JSX.Element {
             <div className="targetingLimits">
               <div>Targeting Limits</div>
               <div>Horizonal: {horizontalLimit}</div>
-              <div>Vertical: {`${element.verticalLimit[0]}°/+${element.verticalLimit[1]}°`}</div>
+              <div>Vertical: {verticalLimit}</div>
             </div>
             <div className="stabilizer">
               <div>Stabilizer</div>
