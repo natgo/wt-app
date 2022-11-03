@@ -234,10 +234,10 @@ export function ChinaGround() {
               </td>
               <td>
                 <TechTreeItem
-                  link="/ZSD63"
-                  title="ZSD63"
+                  link="/ZSD63/PG87"
+                  title="ZSD63/PG87"
                   item_type="own"
-                  text="ZSD63"
+                  text="ZSD63/PG87"
                   intname="cn_zsd63_pg87"
                   type="ground"
                 />
