@@ -33,32 +33,103 @@ export function Weapon(props: { vehicle: GroundProps }): JSX.Element {
           verticalLimit = `${element.verticalLimit[0]}°/+${element.verticalLimit[1]}°`;
         }
         return (
-          <div key={index} className="weaponcontainer">
+          <div key={index} className="tablecontainer">
             <div className="name">
-              <span>{element.name}</span>
+              <div className="name">
+                <span>{element.name}</span>
+              </div>
             </div>
-            <div className="ammo">Ammo: {element.ammo}</div>
+            <div className="ammo">
+              <div className="name">
+                <span>Ammo</span>
+              </div>
+              <div className="value">
+                <span>{element.ammo}</span>
+              </div>
+            </div>
             <div className="targetingSpeed">
-              <div>Targeting Speed (°/s)</div>
-              <div>Horizonal: {element.horizonalSpeed}</div>
-              <div>Vertical: {element.verticalSpeed}</div>
+              <div className="names">
+                <div className="upper">
+                  <span>Targeting Speed (°/s)</span>
+                </div>
+                <div className="lower">
+                  <div className="left">
+                    <span>Horizontal</span>
+                  </div>
+                  <div className="right">
+                    <span>Vertical</span>
+                  </div>
+                </div>
+              </div>
+              <div className="values">
+                <div className="value">
+                  <span>{element.horizonalSpeed}</span>
+                </div>
+                <div className="value">
+                  <span>{element.verticalSpeed}</span>
+                </div>
+              </div>
             </div>
             <div className="targetingLimits">
-              <div>Targeting Limits</div>
-              <div>Horizonal: {horizontalLimit}</div>
-              <div>Vertical: {verticalLimit}</div>
+              <div className="names">
+                <div className="upper">
+                  <span>Targeting Limits</span>
+                </div>
+                <div className="lower">
+                  <div className="left">
+                    <span>Horizontal</span>
+                  </div>
+                  <div className="right">
+                    <span>Vertical</span>
+                  </div>
+                </div>
+              </div>
+              <div className="values">
+                <div className="value">
+                  <span>{horizontalLimit}</span>
+                </div>
+                <div className="value">
+                  <span>{verticalLimit}</span>
+                </div>
+              </div>
             </div>
             <div className="stabilizer">
-              <div>Stabilizer</div>
-              <div>{JSON.stringify(element.stabilizer)}</div>
+              <div className="name">
+                <span>Stabilizer</span>
+              </div>
+              <div className="value">
+                <span>{element.stabilizer ? JSON.stringify(element.stabilizer) : "Negative"}</span>
+              </div>
             </div>
+            <Autoloader autoloader={element.autoloader} />
             <div className="reload">
-              <div>Reload</div>
-              <div>{(1 / element.shotFreq).toPrecision(2)}s</div>
+              <div className="name">
+                <span>Fire rate</span>
+              </div>
+              <div className="value">
+                <span>{element.shotFreq.toPrecision(4)}/s</span>
+              </div>
             </div>
           </div>
         );
       })}
     </div>
   );
+}
+
+function Autoloader(props: { autoloader: boolean | undefined }): JSX.Element | null {
+  if (props.autoloader) {
+    return (
+      <div className="autoloader">
+        <div className="name">
+          <span>Autoloader</span>
+        </div>
+        <div className="value">
+          <span>Yes</span>
+        </div>
+      </div>
+    );
+  } else {
+    return null;
+  }
 }

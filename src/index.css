@@ -77,3 +77,110 @@
   display: flex;
   justify-content: center;
 }
+
+.tablecontainer {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 200px repeat(auto-fit, 180px);
+  padding: 20px;
+}
+
+.tablecontainer > div {
+  display: grid;
+  grid-template-rows: repeat(auto-fill, 40px);
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-content: center;
+  border: 1px solid #b0bec5;
+}
+
+.tablecontainer > div > div.values {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.tablecontainer > div > div.values div.value {
+  border: 0 solid #b0bec5;
+  border-width: 1px 1px 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.tablecontainer > div > div.value {
+  width: 100%;
+  height: 40px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.tablecontainer > div > div.name {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 40px;
+  background-color: #cfd8dc;
+  border-bottom: 1px solid #b0bec5;
+}
+
+.tablecontainer > div > div.names {
+  display: grid;
+  grid-template-rows: 20px 1fr;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 40px;
+  background-color: #cfd8dc;
+}
+
+.tablecontainer > div > div.names > div.upper {
+  grid-row: 1;
+  grid-column: 1;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #b0bec5;
+}
+
+.tablecontainer > div > div.names > div.lower {
+  grid-row: 2;
+  grid-column: 1;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid #b0bec5;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tablecontainer > div > div.names > div.lower > div {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  border: 0 solid #b0bec5;
+}
+
+.tablecontainer > div > div.names > div.lower > div.left {
+  grid-row: 1;
+  grid-column: 1;
+  border-right-width: 1px;
+}
+
+.tablecontainer > div > div.names > div.lower > div.right {
+  grid-row: 1;
+  grid-column: 2;
+  border-left-width: 1px;
+}

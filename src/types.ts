@@ -44,67 +44,43 @@ export interface GroundProps extends FinalProps {
   horsepower: number;
   gears_forward: number;
   gears_backward: number;
-  hydro_suspension?: boolean;
-  can_float?: boolean;
-  has_synchro?: boolean;
-  has_neutral?: boolean;
-  has_dozer?: boolean;
-  has_ess?: boolean;
-  has_smoke?: boolean;
-  has_lws?: boolean;
-  has_era?: boolean;
-  has_composite?: boolean;
-  laser_range?: boolean;
+  hydro_suspension?: true;
+  can_float?: true;
+  has_synchro?: true;
+  has_neutral?: true;
+  has_dozer?: true;
+  has_ess?: true;
+  has_smoke?: true;
+  has_lws?: true;
+  has_era?: true;
+  has_composite?: true;
+  has_laser_range?: true;
+  has_range?: true;
   weapons?: TankWeapons;
   optics: Sights;
 }
 
 export interface Sights {
-  driver?: driverSight;
+  driver?: Sight;
   gunner: gunnerSight;
-  commander?: commanderSight;
+  commander?: gunnerSight;
 }
 
-export interface driverSight {
-  driverIr?: {
-    resolution: [800 | 1200, 600 | 800];
-    lightMult: 5.0 | 7.0;
-    ghosting: 0.7 | 0.6;
-    noiseFactor: 0.2;
-  };
-  driverThermal?: {
-    resolution: [500 | 800, 300 | 600];
-    noiseFactor: 0.05 | 0.04;
-  };
-}
-
-export interface gunnerSight {
-  gunnerIr?: {
+export interface Sight {
+  ir?: {
     resolution: [800 | 1600, 600 | 1200];
     lightMult: 5.0 | 8 | 9;
     ghosting: 0.7 | 0.75 | 0.6;
     noiseFactor: 0.2;
   };
-  gunnerThermal?: {
+  thermal?: {
     resolution: [500 | 800 | 1200, 300 | 600 | 800];
     noiseFactor: 0.05 | 0.04;
   };
-  zoomInFov: number; //74
-  zoomOutFov: number;
 }
 
-export interface commanderSight {
-  commanderViewIr?: {
-    resolution: [800 | 1600, 600 | 1200];
-    lightMult: 8.0 | 9.0;
-    ghosting: 0.75 | 0.6;
-    noiseFactor: 0.2;
-  };
-  commanderViewThermal?: {
-    resolution: [800, 600];
-    noiseFactor: 0.04;
-  };
-  zoomInFov: number;
+export interface gunnerSight extends Sight {
+  zoomInFov: number; //74
   zoomOutFov: number;
 }
 

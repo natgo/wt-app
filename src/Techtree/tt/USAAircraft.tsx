@@ -1626,6 +1626,9 @@ export function USAAircraft() {
       </div>
       <MediaHead />
       <div className="video_gallery">
+        <a href="https://yewtu.be/bwQldakCLM8">
+          <b>Grumman Aircraft</b> - <i>War Thunder Official Channel</i>
+        </a>
         <a href="https://yewtu.be/nio77hOta5k">
           <b>Climbing the ranks with US aircraft</b> - <i>War Thunder Official Channel</i>
         </a>

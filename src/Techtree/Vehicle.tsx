@@ -4,6 +4,7 @@ import { queryVehicle } from "../utils/QueryVehicle";
 
 import "./App2.css";
 import { Mobility, SpecsCard, Survivability } from "./VehicleItem";
+import { Optics } from "./VehicleOptics";
 import { Weapon } from "./VehicleWeapon";
 
 export function Vehicle(): JSX.Element {
@@ -20,6 +21,7 @@ export function Vehicle(): JSX.Element {
             <Survivability vehicle={match} />
             <Mobility vehicle={match} />
             <Weapon vehicle={match} />
+            <Optics vehicle={match} />
           </div>
         );
       } else {

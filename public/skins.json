@@ -722,14 +722,16 @@
           ],
           "ISU-152": [
             {
-              "intnames": ["ussr_isu_152"],
+              "intnames": ["cn_isu_152", "ussr_isu_152"],
               "dislayname": "ISU-152 Parola",
-              "post": "753379"
+              "post": "ISU+152+Parola+Museum.zip",
+              "repack": true
             },
             {
-              "intnames": ["ussr_isu_152"],
+              "intnames": ["cn_isu_152", "ussr_isu_152"],
               "dislayname": "ISU-152 \"Jättiläinen\"",
-              "post": "1022553"
+              "post": "Finnish ISU-152 [Repack].zip",
+              "repack": true
             }
           ]
         }
