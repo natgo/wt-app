@@ -31,7 +31,7 @@ export function Optics(props: { vehicle: GroundProps }): JSX.Element {
           </div>
         </div>
         <Thermal optics={gunner} />
-        <Laser laser={props.vehicle.laser_range} />
+        <Laser laser={props.vehicle.has_laser_range} />
       </div>
     </div>
   );
