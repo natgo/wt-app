@@ -1,4 +1,4 @@
-import { GroundProps } from "../types";
+import { GroundProps, TankCannon } from "../types";
 
 export function Weapon(props: { vehicle: GroundProps }): JSX.Element {
   const { weapons } = props.vehicle;
@@ -8,6 +8,12 @@ export function Weapon(props: { vehicle: GroundProps }): JSX.Element {
       {weapons?.cannon?.map((element, index) => {
         let horizontalLimit = "";
         let verticalLimit = "";
+
+        if (element.intname === "dummy_weapon") {
+          return(
+            <Dummy key={index} cannon={element}/>
+          );
+        }
 
         if (
           Array.isArray(element.horizonalLimit) &&
@@ -132,4 +138,99 @@ function Autoloader(props: { autoloader: boolean | undefined }): JSX.Element | n
   } else {
     return null;
   }
+}
+
+
+function Dummy(props: { cannon: TankCannon }) {
+  const { cannon } = props;
+
+  let horizontalLimit = "";
+  let verticalLimit = "";
+
+  if (
+    Array.isArray(cannon.horizonalLimit) &&
+          cannon.horizonalLimit[0] + cannon.horizonalLimit[1] === 0 &&
+          cannon.horizonalLimit[1] === 180
+  ) {
+    horizontalLimit = "360°";
+  } else if (
+    Array.isArray(cannon.horizonalLimit) &&
+          cannon.horizonalLimit[0] + cannon.horizonalLimit[1] === 0
+  ) {
+    horizontalLimit = `±${cannon.horizonalLimit[1]}°`;
+  } else {
+    if (cannon.horizonalLimit === "primary") {
+      horizontalLimit = cannon.horizonalLimit;
+    }
+    horizontalLimit = `${cannon.horizonalLimit[0]}°/+${cannon.horizonalLimit[1]}°`;
+  }
+
+  if (cannon.verticalLimit === "primary") {
+    verticalLimit = cannon.verticalLimit;
+  } else {
+    verticalLimit = `${cannon.verticalLimit[0]}°/+${cannon.verticalLimit[1]}°`;
+  }
+  return(
+    <div className="tablecontainer">
+      <div className="name">
+        <div className="name">
+          <span>Dummy weapon</span>
+        </div>
+      </div>
+      <div className="targetingSpeed">
+        <div className="names">
+          <div className="upper">
+            <span>Targeting Speed (°/s)</span>
+          </div>
+          <div className="lower">
+            <div className="left">
+              <span>Horizontal</span>
+            </div>
+            <div className="right">
+              <span>Vertical</span>
+            </div>
+          </div>
+        </div>
+        <div className="values">
+          <div className="value">
+            <span>{cannon.horizonalSpeed}</span>
+          </div>
+          <div className="value">
+            <span>{cannon.verticalSpeed}</span>
+          </div>
+        </div>
+      </div>
+      <div className="targetingLimits">
+        <div className="names">
+          <div className="upper">
+            <span>Targeting Limits</span>
+          </div>
+          <div className="lower">
+            <div className="left">
+              <span>Horizontal</span>
+            </div>
+            <div className="right">
+              <span>Vertical</span>
+            </div>
+          </div>
+        </div>
+        <div className="values">
+          <div className="value">
+            <span>{horizontalLimit}</span>
+          </div>
+          <div className="value">
+            <span>{verticalLimit}</span>
+          </div>
+        </div>
+      </div>
+      <div className="stabilizer">
+        <div className="name">
+          <span>Stabilizer</span>
+        </div>
+        <div className="value">
+          <span>{cannon.stabilizer ? JSON.stringify(cannon.stabilizer) : "Negative"}</span>
+        </div>
+      </div>
+    </div>
+  );
 }
