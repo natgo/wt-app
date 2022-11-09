@@ -27,7 +27,7 @@ export function SpecsCard(props: {
       rank = "II";
       break;
     case 3:
-      rank = "II";
+      rank = "III";
       break;
     case 4:
       rank = "IV";
