@@ -10,9 +10,7 @@ export function Weapon(props: { vehicle: GroundProps }): JSX.Element {
         let verticalLimit = "";
 
         if (element.intname === "dummy_weapon") {
-          return(
-            <Dummy key={index} cannon={element}/>
-          );
+          return <Dummy key={index} cannon={element} />;
         }
 
         if (
@@ -140,7 +138,6 @@ function Autoloader(props: { autoloader: boolean | undefined }): JSX.Element | n
   }
 }
 
-
 function Dummy(props: { cannon: TankCannon }) {
   const { cannon } = props;
 
@@ -149,13 +146,13 @@ function Dummy(props: { cannon: TankCannon }) {
 
   if (
     Array.isArray(cannon.horizonalLimit) &&
-          cannon.horizonalLimit[0] + cannon.horizonalLimit[1] === 0 &&
-          cannon.horizonalLimit[1] === 180
+    cannon.horizonalLimit[0] + cannon.horizonalLimit[1] === 0 &&
+    cannon.horizonalLimit[1] === 180
   ) {
     horizontalLimit = "360°";
   } else if (
     Array.isArray(cannon.horizonalLimit) &&
-          cannon.horizonalLimit[0] + cannon.horizonalLimit[1] === 0
+    cannon.horizonalLimit[0] + cannon.horizonalLimit[1] === 0
   ) {
     horizontalLimit = `±${cannon.horizonalLimit[1]}°`;
   } else {
@@ -170,7 +167,7 @@ function Dummy(props: { cannon: TankCannon }) {
   } else {
     verticalLimit = `${cannon.verticalLimit[0]}°/+${cannon.verticalLimit[1]}°`;
   }
-  return(
+  return (
     <div className="tablecontainer">
       <div className="name">
         <div className="name">
