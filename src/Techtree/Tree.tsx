@@ -1,7 +1,7 @@
 import { useRecoilValue } from "recoil";
 
 import { Shop } from "../atom";
-import { CountryProp, ShopExtGroup, ShopExtItem } from "../types";
+import { CountryProp, FinalShopRange, ShopExtGroup, ShopExtItem } from "../types";
 
 import { Arrow } from "./Arrow";
 import { EmptyDiv } from "./EmptyDiv";
@@ -52,16 +52,9 @@ export function TechTree(props: TechTreeProp): JSX.Element {
       <div className="tree">
         <table rules="rows" width="100%">
           <tbody>
-            <Research research={shop.col_normal} premium={shop.col_prem} />
+            <Research research={shop.col_normal} max={shop.range.length} />
             {ranked.map((element, index) => {
-              return (
-                <TreeRank
-                  key={index}
-                  ranked={ranked}
-                  index={index}
-                  maxrank={shop.max_rank}
-                />
-              );
+              return <TreeRank key={index} ranked={ranked} index={index} shop={shop} />;
             })}
           </tbody>
         </table>
@@ -100,9 +93,9 @@ export function TechTree(props: TechTreeProp): JSX.Element {
 function TreeRank(props: {
   ranked: { rank: number; range: Array<ShopExtItem | ShopExtGroup>[] }[];
   index: number;
-  maxrank: number;
+  shop: FinalShopRange;
 }): JSX.Element {
-  const { ranked, index, maxrank } = props;
+  const { ranked, index, shop } = props;
   const topindex = index;
   const rank = ranked[index];
   let height = 0;
@@ -130,7 +123,7 @@ function TreeRank(props: {
           );
         }
         return (
-          <td key={rowindex}>
+          <td key={rowindex} style={rowindex === shop.col_normal ? {borderLeft:"solid 1px #cccccc"} : {}}>
             {element.map((element, index, array) => {
               if ("vehicles" in element) {
                 if (index < array.length - 1) {
@@ -169,7 +162,7 @@ function TreeRank(props: {
                   if (
                     index === array.length - 1 &&
                     ranked[topindex + 1]?.range[rowindex][0]?.reqAir !== "" &&
-                    topindex !== maxrank
+                    topindex !== shop.max_rank
                   ) {
                     return (
                       <>
@@ -223,7 +216,7 @@ function TreeRank(props: {
                   if (
                     index === array.length - 1 &&
                     ranked[topindex + 1]?.range[rowindex][0]?.reqAir !== "" &&
-                    topindex !== maxrank
+                    topindex !== shop.max_rank
                   ) {
                     if (ranked[topindex + 1]?.range[rowindex][0]) {
                       if (index < height) {
@@ -246,7 +239,7 @@ function TreeRank(props: {
                     } else {
                       let i = 0;
                       let draw_arrow = false;
-                      while (topindex + 1 + i <= maxrank) {
+                      while (topindex + 1 + i <= shop.max_rank) {
                         if (
                           ranked[topindex + 1 + i]?.range[rowindex][0] &&
                           ranked[topindex + 1 + i]?.range[rowindex][0].reqAir !== ""
