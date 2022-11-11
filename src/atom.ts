@@ -14,7 +14,7 @@ export const TypeTab = atom<number>({
 
 export const CountryTab = atom<number>({
   key: "CountryTab",
-  default: 6,
+  default: 0,
   effects_UNSTABLE: [persistAtom],
 });
 
