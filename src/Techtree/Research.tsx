@@ -6,7 +6,7 @@ export function Research(props: { research: number; max: number }): JSX.Element 
       <th colSpan={research} style={{ borderRight: "solid 1px #eeeeee" }}>
         <span>Researchable vehicles</span>
       </th>
-      <th colSpan={max-research}>
+      <th colSpan={max - research}>
         <span>Premium vehicles</span>
       </th>
     </tr>

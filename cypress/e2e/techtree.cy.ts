@@ -7,7 +7,7 @@ describe("Techtree test", () => {
   it("Test ground vehicle page", () => {
     cy.contains("USSR").click();
     cy.contains("Ground Vehicles").click();
-    cy.get("#T-35").click();
+    cy.get("#ussr_t_35").click();
     cy.get(".general_info_name").contains("T-35");
     cy.get(".general_info_image img").should("be.visible");
     cy.get(".image img").should("be.visible");

@@ -123,7 +123,10 @@ function TreeRank(props: {
           );
         }
         return (
-          <td key={rowindex} style={rowindex === shop.col_normal ? {borderLeft:"solid 1px #cccccc"} : {}}>
+          <td
+            key={rowindex}
+            style={rowindex === shop.col_normal ? { borderLeft: "solid 1px #cccccc" } : {}}
+          >
             {element.map((element, index, array) => {
               if ("vehicles" in element) {
                 if (index < array.length - 1) {
