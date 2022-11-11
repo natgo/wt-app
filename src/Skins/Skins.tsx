@@ -3,7 +3,7 @@ import { useRecoilValue, useSetRecoilState } from "recoil";
 import { Tab, Tabs, Tooltip, TooltipProps, styled, tooltipClasses } from "@mui/material";
 
 import { SkinAtom, SkinCountryTab, SkinTypeTab } from "../atom";
-import { TypeProp } from "../types";
+import { CountryProp } from "../types";
 
 import { OtherTab } from "./OtherTab";
 import { SkinCountryTabs } from "./SkinCountryTabs";
@@ -19,7 +19,7 @@ export const BlackTooltip = styled(({ className, ...props }: TooltipProps) => (
   },
 }));
 
-export function SkinTypeTabs(props: TypeProp) {
+export function SkinTypeTabs(props: CountryProp) {
   const { type } = props;
   const value = useRecoilValue(SkinTypeTab);
   const setValue = useSetRecoilState(SkinTypeTab);

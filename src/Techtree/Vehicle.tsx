@@ -11,7 +11,7 @@ export function Vehicle(): JSX.Element {
   const params = useParams();
   if (params.vehicleId) {
     console.log(params.vehicleId);
-    const match = queryVehicle(params.vehicleId.replace(/\+/g, "/"), "wikiname");
+    const match = queryVehicle(params.vehicleId, "intname");
     console.log(match);
     if (match) {
       if ("horsepower" in match) {

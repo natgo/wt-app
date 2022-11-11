@@ -1,4 +1,6 @@
-export function Rank(props: { rank: "I" | "II" | "III" | "IV" | "V" | "VI" | "VII" }): JSX.Element {
+import { numRankToStr } from "../utils/numericRankToString";
+
+export function Rank(props: { rank: number }): JSX.Element {
   const { rank } = props;
   return (
     <th
@@ -17,7 +19,7 @@ export function Rank(props: { rank: "I" | "II" | "III" | "IV" | "V" | "VI" | "VI
           marginRight: "-1em",
         }}
       >
-        {rank} Rank
+        {numRankToStr(rank)} Rank
       </div>
     </th>
   );

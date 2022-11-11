@@ -3,11 +3,11 @@ import { useRecoilValue, useSetRecoilState } from "recoil";
 import { Box, Tab, Tabs } from "@mui/material";
 
 import { CountryTab, TypeTab } from "../atom";
-import { TypeProp } from "../types";
+import { CountryProp } from "../types";
 
-import * as tt from "./tt";
 import "./App2.css";
 import "./App3.css";
+import { TechTree } from "./Tree";
 
 export interface TabPanelProps {
   children?: React.ReactNode;
@@ -47,90 +47,30 @@ function TypeTabs() {
   );
 }
 
-export interface TypePropIndex extends TypeProp {
+export interface CountryPropIndex extends CountryProp {
   index: number;
 }
 
-function Aircraft(props: TypeProp): JSX.Element {
-  const { type } = props;
-  switch (type) {
-    case "USA":
-      return <tt.USAAircraft />;
-    case "Germany":
-      return <tt.GermanyAircraft />;
-    case "USSR":
-      return <tt.USSRAircraft />;
-    case "Great Britain":
-      return <tt.BritainAircraft />;
-    case "Japan":
-      return <tt.JapanAircraft />;
-    case "China":
-      return <tt.ChinaAircraft />;
-    case "Italy":
-      return <tt.ItalyAircraft />;
-    case "France":
-      return <tt.FranceAircraft />;
-    case "Sweden":
-      return <tt.SwedenAircraft />;
-    case "Israel":
-      return <tt.IsraelAircraft />;
-  }
+function Aircraft(props: CountryProp): JSX.Element {
+  const { country } = props;
+
+  return <TechTree country={country} type="aviation" />;
 }
 
-function Ground(props: TypeProp): JSX.Element {
-  const { type } = props;
-  switch (type) {
-    case "USA":
-      return <tt.USAGround />;
-    case "Germany":
-      return <tt.GermanyGround />;
-    case "USSR":
-      return <tt.USSRGround />;
-    case "Great Britain":
-      return <tt.BritainGround />;
-    case "Japan":
-      return <tt.JapanGround />;
-    case "China":
-      return <tt.ChinaGround />;
-    case "Italy":
-      return <tt.ItalyGround />;
-    case "France":
-      return <tt.FranceGround />;
-    case "Sweden":
-      return <tt.SwedenGround />;
-    case "Israel":
-      return <tt.IsraelGround />;
-  }
+function Ground(props: CountryProp): JSX.Element {
+  const { country } = props;
+
+  return <TechTree country={country} type="army" />;
 }
 
-function Helicopters(props: TypeProp): JSX.Element {
-  const { type } = props;
-  switch (type) {
-    case "USA":
-      return <tt.USAHeli />;
-    case "Germany":
-      return <tt.GermanyHeli />;
-    case "USSR":
-      return <tt.USSRHeli />;
-    case "Great Britain":
-      return <tt.BritainHeli />;
-    case "Japan":
-      return <tt.JapanHeli />;
-    case "China":
-      return <tt.ChinaHeli />;
-    case "Italy":
-      return <tt.ItalyHeli />;
-    case "France":
-      return <tt.FranceHeli />;
-    case "Sweden":
-      return <tt.SwedenHeli />;
-    case "Israel":
-      return <tt.IsraelHeli />;
-  }
+function Helicopters(props: CountryProp): JSX.Element {
+  const { country } = props;
+
+  return <TechTree country={country} type="helicopters" />;
 }
 
-function CountryTabs(props: TypePropIndex): JSX.Element {
-  const { type, index } = props;
+function CountryTabs(props: CountryPropIndex): JSX.Element {
+  const { country, index } = props;
   const typeValue = useRecoilValue(TypeTab);
   const countryValue = useRecoilValue(CountryTab);
 
@@ -138,13 +78,13 @@ function CountryTabs(props: TypePropIndex): JSX.Element {
     <TabPanel value={countryValue} index={index}>
       <TypeTabs />
       <TabPanel value={typeValue} index={0}>
-        <Aircraft type={type} />
+        <Aircraft country={country} />
       </TabPanel>
       <TabPanel value={typeValue} index={1}>
-        <Ground type={type} />
+        <Ground country={country} />
       </TabPanel>
       <TabPanel value={typeValue} index={2}>
-        <Helicopters type={type} />
+        <Helicopters country={country} />
       </TabPanel>
     </TabPanel>
   );
@@ -177,16 +117,16 @@ export default function App(): JSX.Element {
         <Tab label="Israel" />
       </Tabs>
 
-      <CountryTabs type={"USA"} index={0} />
-      <CountryTabs type={"Germany"} index={1} />
-      <CountryTabs type={"USSR"} index={2} />
-      <CountryTabs type={"Great Britain"} index={3} />
-      <CountryTabs type={"Japan"} index={4} />
-      <CountryTabs type={"China"} index={5} />
-      <CountryTabs type={"Italy"} index={6} />
-      <CountryTabs type={"France"} index={7} />
-      <CountryTabs type={"Sweden"} index={8} />
-      <CountryTabs type={"Israel"} index={9} />
+      <CountryTabs country={"country_usa"} index={0} />
+      <CountryTabs country={"country_germany"} index={1} />
+      <CountryTabs country={"country_ussr"} index={2} />
+      <CountryTabs country={"country_britain"} index={3} />
+      <CountryTabs country={"country_japan"} index={4} />
+      <CountryTabs country={"country_china"} index={5} />
+      <CountryTabs country={"country_italy"} index={6} />
+      <CountryTabs country={"country_france"} index={7} />
+      <CountryTabs country={"country_sweden"} index={8} />
+      <CountryTabs country={"country_israel"} index={9} />
     </div>
   );
 }
