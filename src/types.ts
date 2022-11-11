@@ -1,6 +1,4 @@
-export type { FinalProp };
-export type { SkinsProp };
-interface FinalProp {
+export interface FinalProp {
   updated: Date;
   ground: GroundProps[];
   aircraft: FinalProps[];
@@ -9,7 +7,8 @@ interface FinalProp {
 
 export interface FinalProps {
   intname: string;
-  wikiname: string;
+  wikiname?: string;
+  displayname?: string;
   type: "tank" | "aircraft" | "helicopter";
   normal_type: string;
   extended_type?: string[];
@@ -150,7 +149,7 @@ export interface Stabilizer {
   verticalSpeed?: number;
 }
 
-interface SkinsProp {
+export interface SkinsProp {
   historical: Historical;
   fictional: Fictional;
 }
@@ -216,16 +215,59 @@ export interface Historical {
   Israel?: Countries;
 }
 
-export interface TypeProp {
-  type:
-    | "USA"
-    | "Germany"
-    | "USSR"
-    | "Great Britain"
-    | "Japan"
-    | "China"
-    | "Italy"
-    | "France"
-    | "Sweden"
-    | "Israel";
+export interface CountryProp {
+  country:
+    | "country_usa"
+    | "country_germany"
+    | "country_ussr"
+    | "country_britain"
+    | "country_japan"
+    | "country_china"
+    | "country_italy"
+    | "country_france"
+    | "country_sweden"
+    | "country_israel";
+}
+
+export type FinalShop = Record<string, FinalShopCountry>;
+
+export interface FinalShopCountry {
+  army: FinalShopRange;
+  helicopters: FinalShopRange;
+  aviation: FinalShopRange;
+}
+
+export interface FinalShopRange {
+  col_normal: number;
+  col_prem: number;
+  min_rank: number;
+  max_rank: number;
+  range: Array<FinalShopItem | FinalShopGroup>[];
+}
+
+export interface FinalShopItem {
+  name: string;
+  rank: number;
+  reqAir?: "" | string;
+  gift?: true;
+  hidden?: true;
+  marketplace?: number;
+  event?: string;
+  clanVehicle?: true;
+}
+
+export interface FinalShopGroup {
+  name: string;
+  displayname: string;
+  image: string;
+  reqAir?: "" | string;
+  vehicles: FinalShopItem[];
+}
+
+export interface ShopExtItem extends FinalShopItem {
+  draw_arrow: boolean;
+}
+
+export interface ShopExtGroup extends FinalShopGroup {
+  draw_arrow: boolean;
 }

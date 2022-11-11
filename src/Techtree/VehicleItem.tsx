@@ -1,6 +1,7 @@
 import { Tooltip } from "@mui/material";
 
 import { FinalProps, GroundProps } from "../types";
+import { numRankToStr } from "../utils/numericRankToString";
 
 import ArmorTable from "./Table";
 import { vehicleCountry } from "./VehicleCountry";
@@ -18,30 +19,7 @@ export function SpecsCard(props: {
   const country = vehicleCountry(vehicle.country);
   const vehicle_type = vehicleType(vehicle);
 
-  let rank = "IX";
-  switch (vehicle.rank) {
-    case 1:
-      rank = "I";
-      break;
-    case 2:
-      rank = "II";
-      break;
-    case 3:
-      rank = "III";
-      break;
-    case 4:
-      rank = "IV";
-      break;
-    case 5:
-      rank = "V";
-      break;
-    case 6:
-      rank = "VI";
-      break;
-    case 7:
-      rank = "VII";
-      break;
-  }
+  const rank = numRankToStr(vehicle.rank);
 
   const flag = `../images/flag/45px-${country}_flag.png`;
 
@@ -60,7 +38,7 @@ export function SpecsCard(props: {
                 navigator.clipboard.writeText(vehicle.intname);
               }}
             >
-              {vehicle.wikiname}
+              {vehicle.displayname ? vehicle.displayname : vehicle.intname}
             </span>
           </Tooltip>
         </div>

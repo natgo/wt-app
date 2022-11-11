@@ -1,12 +1,12 @@
 import { useRecoilValue } from "recoil";
 
-import { TabPanel, TypePropIndex } from "../Techtree/Techtree";
+import { CountryPropIndex, TabPanel } from "../Techtree/Techtree";
 import { SkinCountryTab, SkinTypeTab } from "../atom";
 
 import { Historical } from "./Historical";
 import { SkinTypeTabs } from "./Skins";
 
-export function SkinCountryTabs(props: TypePropIndex): JSX.Element {
+export function SkinCountryTabs(props: CountryPropIndex): JSX.Element {
   const { type, index } = props;
   const typeValue = useRecoilValue(SkinTypeTab);
   const countryValue = useRecoilValue(SkinCountryTab);

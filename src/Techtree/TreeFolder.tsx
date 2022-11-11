@@ -16,7 +16,7 @@ import tank_destroyer from "./assets/img/def_tank_destroyer_radar.svg";
 import utility_helicopter from "./assets/img/def_utility_helicopter_radar.svg";
 
 export function TreeFolder(props: {
-  children: React.ReactElement[];
+  children: JSX.Element[];
   name: string;
   img: string;
 }): JSX.Element {
@@ -123,7 +123,7 @@ export function TreeFolder(props: {
           <span className="tree-item-text-scroll">{name}</span>
         </div>
         <div className="tree-group-img">
-          <img src={`./images/units/${img}.png`} alt={`${img}.png`} />
+          <img src={`./images/units/${img.toLowerCase()}.png`} alt={`${img}.png`} />
           <div className="br_container">
             <div className="br">{groupbr}</div>
             <img src={fig_src} className="class" />

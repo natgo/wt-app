@@ -11,13 +11,13 @@ export function queryVehicle(
   console.log(vehicle);
   if (type === "wikiname") {
     const matchAir = FinalValue.aircraft.find((curval) => {
-      return curval.wikiname.toLowerCase() === decodeURI(vehicle).replace(/_/g, " ").toLowerCase();
+      return curval.wikiname?.toLowerCase() === decodeURI(vehicle).replace(/_/g, " ").toLowerCase();
     });
     const matchGround = FinalValue.ground.find((curval) => {
-      return curval.wikiname.toLowerCase() === decodeURI(vehicle).replace(/_/g, " ").toLowerCase();
+      return curval.wikiname?.toLowerCase() === decodeURI(vehicle).replace(/_/g, " ").toLowerCase();
     });
     const matchHelicopter = FinalValue.helicopter.find((curval) => {
-      return curval.wikiname.toLowerCase() === decodeURI(vehicle).replace(/_/g, " ").toLowerCase();
+      return curval.wikiname?.toLowerCase() === decodeURI(vehicle).replace(/_/g, " ").toLowerCase();
     });
     if (matchAir) {
       return matchAir;
@@ -59,17 +59,17 @@ export function querypartialVehicle(
   console.log(vehicle);
   if (type === "wikiname") {
     FinalValue.aircraft.forEach((element) => {
-      if (element.wikiname.search(vehicle) === 0) {
+      if (element.wikiname?.search(vehicle) === 0) {
         FinalArray.push(element);
       }
     });
     FinalValue.ground.forEach((element) => {
-      if (element.wikiname.search(vehicle) === 0) {
+      if (element.wikiname?.search(vehicle) === 0) {
         FinalArray.push(element);
       }
     });
     FinalValue.helicopter.forEach((element) => {
-      if (element.wikiname.search(vehicle) === 0) {
+      if (element.wikiname?.search(vehicle) === 0) {
         FinalArray.push(element);
       }
     });
