@@ -34,7 +34,7 @@ pnpm build # npm run build
 - [ ] Add lint-staged
 - [x] Make a CI/CD pipeline to website
 - [x] Make br calculator work on ground
-- [ ] Make techtree more dynamicly generated
+- [x] Make techtree more dynamicly generated
 - [ ] Make propper file structure
 - [x] Fix techtree arrows
 - [ ] Add link to skins to vehicle pages

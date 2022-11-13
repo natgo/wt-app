@@ -54,7 +54,7 @@ export function TechTree(props: TechTreeProp): JSX.Element {
           <tbody>
             <Research research={shop.col_normal} max={shop.range.length} />
             {ranked.map((element, index) => {
-              return <TreeRank key={index} ranked={ranked} index={index} shop={shop} />;
+              return <TreeRank key={index+"_rank"} ranked={ranked} index={index} shop={shop} />;
             })}
           </tbody>
         </table>
@@ -138,8 +138,13 @@ function TreeRank(props: {
                           img={element.image}
                           key={element.name}
                         >
-                          {element.vehicles.map((element) => {
-                            return <TechTreeItem key={element.name} intname={element.name} />;
+                          {element.vehicles.map((element,index,array) => {
+                            if (array[index+1] && array[index+1].reqAir !== "") {
+                              return [<TechTreeItem key={element.name} intname={element.name} />,<Arrow length={0} key={element.name+"_arrow"} />];
+                            } else if (!array[index+1]) {
+                              return [<TechTreeItem key={element.name} intname={element.name} />];
+                            }
+                            return [<TechTreeItem key={element.name} intname={element.name} />,<EmptyDiv key={element.name+"_arrow"} />];
                           })}
                         </TreeFolder>
                         <Arrow length={0} />
@@ -153,8 +158,13 @@ function TreeRank(props: {
                           img={element.image}
                           key={element.name}
                         >
-                          {element.vehicles.map((element) => {
-                            return <TechTreeItem key={element.name} intname={element.name} />;
+                          {element.vehicles.map((element,index,array) => {
+                            if (array[index+1] && array[index+1].reqAir !== "") {
+                              return [<TechTreeItem key={element.name} intname={element.name} />,<Arrow length={0} key={element.name+"_arrow"} />];
+                            } else if (!array[index+1]) {
+                              return [<TechTreeItem key={element.name} intname={element.name} />];
+                            }
+                            return [<TechTreeItem key={element.name} intname={element.name} />,<EmptyDiv key={element.name+"_arrow"} />];
                           })}
                         </TreeFolder>
                         <EmptyDiv />
@@ -174,8 +184,13 @@ function TreeRank(props: {
                           img={element.image}
                           key={element.name}
                         >
-                          {element.vehicles.map((element) => {
-                            return <TechTreeItem key={element.name} intname={element.name} />;
+                          {element.vehicles.map((element,index,array) => {
+                            if (array[index+1] && array[index+1].reqAir !== "") {
+                              return [<TechTreeItem key={element.name} intname={element.name} />,<Arrow length={0} key={element.name+"_arrow"} />];
+                            } else if (!array[index+1]) {
+                              return [<TechTreeItem key={element.name} intname={element.name} />];
+                            }
+                            return [<TechTreeItem key={element.name} intname={element.name} />,<EmptyDiv key={element.name+"_arrow"} />];
                           })}
                         </TreeFolder>
                         <Arrow length={height - index - 1} />
@@ -189,8 +204,13 @@ function TreeRank(props: {
                           img={element.image}
                           key={element.name}
                         >
-                          {element.vehicles.map((element) => {
-                            return <TechTreeItem key={element.name} intname={element.name} />;
+                          {element.vehicles.map((element,index,array) => {
+                            if (array[index+1] && array[index+1].reqAir !== "") {
+                              return [<TechTreeItem key={element.name} intname={element.name} />,<Arrow length={0} key={element.name+"_arrow"} />];
+                            } else if (!array[index+1]) {
+                              return [<TechTreeItem key={element.name} intname={element.name} />];
+                            }
+                            return [<TechTreeItem key={element.name} intname={element.name} />,<EmptyDiv key={element.name+"_arrow"} />];
                           })}
                         </TreeFolder>
                         <EmptyDiv />

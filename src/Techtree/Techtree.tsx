@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 import { useRecoilValue, useSetRecoilState } from "recoil";
 
-import { Box, Tab, Tabs } from "@mui/material";
+import {
+  Box,
+  Tab,
+  Tabs,
+} from "@mui/material";
 
 import { CountryTab, TypeTab } from "../atom";
 import { CountryProp } from "../types";
@@ -8,6 +13,7 @@ import { CountryProp } from "../types";
 import "./App2.css";
 import "./App3.css";
 import { TechTree } from "./Tree";
+import { SearchDialog } from "./SearchDialog";
 
 export interface TabPanelProps {
   children?: React.ReactNode;
@@ -99,6 +105,7 @@ export default function App(): JSX.Element {
   };
   return (
     <div className="app">
+      <SearchDialog />
       <Tabs
         value={countryValue}
         onChange={handleCountryChange}
