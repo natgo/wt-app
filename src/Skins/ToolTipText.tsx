@@ -1,13 +1,13 @@
 import { Ungrouped } from "../types";
 import { capitailze } from "../utils/Capitalize";
-import { queryVehicle } from "../utils/QueryVehicle";
+import { queryVehicleIntname } from "../utils/QueryVehicle";
 
 export function ToolTipText(value: Ungrouped): JSX.Element {
   return (
     <div>
       <div className="intnames">
         {value.intnames.map((value) => (
-          <div key={value}>{queryVehicle(value, "intname")?.wikiname}</div>
+          <div key={value}>{queryVehicleIntname(value)?.wikiname}</div>
         ))}
       </div>
       <div>

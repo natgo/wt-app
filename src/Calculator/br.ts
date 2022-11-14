@@ -1,10 +1,10 @@
 import { setRecoil } from "recoil-nexus";
 
 import { dialogue } from "../atom";
-import { queryVehicle } from "../utils/QueryVehicle";
+import { queryVehicleIntname } from "../utils/QueryVehicle";
 
 export default function br(vehicle: string): string {
-  const query = queryVehicle(vehicle, "intname");
+  const query = queryVehicleIntname(vehicle);
   if (query) {
     return query.rb_br;
   } else {

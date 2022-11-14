@@ -2,7 +2,7 @@ import { useRecoilValue } from "recoil";
 
 import { FilterAtom, Shop } from "../atom";
 import { CountryProp, ShopExtGroup, ShopExtItem } from "../types";
-import { queryVehicle } from "../utils/QueryVehicle";
+import { queryVehicleIntname } from "../utils/QueryVehicle";
 
 import { MediaHead } from "./MediaHead";
 import { Research } from "./Research";
@@ -35,7 +35,7 @@ export function TechTree(props: TechTreeProp): JSX.Element {
         } else {
           if (element.rank === index + 1) {
             if (filter) {
-              const match = queryVehicle(element.name, "intname");
+              const match = queryVehicleIntname(element.name);
               if (match?.wikiname) {
                 range.push({ ...element, draw_arrow: false });
               }

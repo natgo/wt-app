@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 
-import { queryVehicle } from "../utils/QueryVehicle";
+import { queryVehicleIntname } from "../utils/QueryVehicle";
 
 import "./App2.css";
 import { Mobility, SpecsCard, Survivability } from "./VehicleItem";
@@ -11,7 +11,7 @@ export function Vehicle(): JSX.Element {
   const params = useParams();
   if (params.vehicleId) {
     console.log(params.vehicleId);
-    const match = queryVehicle(params.vehicleId, "intname");
+    const match = queryVehicleIntname(params.vehicleId);
     console.log(match);
     if (match) {
       if ("horsepower" in match) {

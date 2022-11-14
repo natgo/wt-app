@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { Menu } from "@mui/material";
 
-import { queryVehicle } from "../utils/QueryVehicle";
+import { queryVehicleIntname } from "../utils/QueryVehicle";
 
 import assault from "./assets/img/def_assault_radar.svg";
 import attack_helicopter from "./assets/img/def_attack_helicopter_radar.svg";
@@ -34,11 +34,11 @@ export function TreeFolder(props: {
   let br: string | undefined = "-1.0";
   const brarr: { br: string; realbr: number }[] = [];
   console.log(children);
-  const match = queryVehicle(children[0][0].props.intname, "intname");
+  const match = queryVehicleIntname(children[0][0].props.intname);
   br = match?.rb_br;
   children.forEach((element) => {
     if (element[0].props && element[0].props.intname) {
-      const match = queryVehicle(element[0].props.intname, "intname");
+      const match = queryVehicleIntname(element[0].props.intname);
       if (match) {
         brarr.push({ br: match.rb_br, realbr: match.rb_realbr });
       }

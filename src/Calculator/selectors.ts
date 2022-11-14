@@ -2,7 +2,7 @@ import axios from "axios";
 import { getRecoil, setRecoil } from "recoil-nexus";
 
 import { CalculatorMode, dialogue } from "../atom";
-import { queryVehicle, querypartialVehicle } from "../utils/QueryVehicle";
+import { queryVehicleWikiname, querypartialVehicleWikiname } from "../utils/QueryVehicle";
 
 import br from "./br";
 import lookup from "./lookup";
@@ -55,7 +55,7 @@ export default async function changeParsed(sakke: { name: string; id: number }[]
       console.log(`has .. in element: ${element}`);
       element = element.substring(0, element.length - 2);
 
-      const finalarray = querypartialVehicle(element, "wikiname");
+      const finalarray = querypartialVehicleWikiname(element);
       if (finalarray) {
         finalarray.forEach((ement) => {
           const object = {
@@ -73,7 +73,7 @@ export default async function changeParsed(sakke: { name: string; id: number }[]
       result.push(inter[0]);
       inter = [];
     } else {
-      const query = queryVehicle(element, "wikiname");
+      const query = queryVehicleWikiname(element);
       if (query) {
         const object = {
           name: query.wikiname,

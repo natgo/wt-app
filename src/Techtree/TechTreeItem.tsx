@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import { queryVehicle } from "../utils/QueryVehicle";
+import { queryVehicleIntname } from "../utils/QueryVehicle";
 
 import { ItemImg } from "./ItemImg";
 import assault from "./assets/img/def_assault_radar.svg";
@@ -17,7 +17,7 @@ import utility_helicopter from "./assets/img/def_utility_helicopter_radar.svg";
 export function TechTreeItem(props: { intname: string }): JSX.Element {
   const { intname } = props;
 
-  const match = queryVehicle(intname, "intname");
+  const match = queryVehicleIntname(intname);
   if (!match) {
     throw new Error(`No match for ${intname}`);
   }
