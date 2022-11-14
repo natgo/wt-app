@@ -1,17 +1,12 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { useRecoilValue } from "recoil";
+
 import { Search } from "@mui/icons-material";
-import {
-  Button,
-  Dialog,
-  DialogActions,
-  DialogContent,
-  DialogContentText,
-  DialogTitle
-} from "@mui/material";
+import { Button, Dialog, DialogActions, DialogContent, DialogTitle } from "@mui/material";
+
 import { Final } from "../atom";
 import { GroundProps } from "../types";
-import { Link } from "react-router-dom";
 
 export function SearchDialog(): JSX.Element {
   const final = useRecoilValue(Final);
@@ -52,20 +47,27 @@ export function SearchDialog(): JSX.Element {
         <DialogContent>
           <input
             value={query}
-            onChange={e => updateQuery(e.target.value)}
+            onChange={(e) => updateQuery(e.target.value)}
             type="text"
             id="header-search"
-            placeholder="Search vehicles" />
+            placeholder="Search vehicles"
+          />
           <ul>
-            {filteredPosts ? filteredPosts.map(vehicle => (
-              <Link key={vehicle.intname} to={"/wt/techtree/" + vehicle.intname} title={vehicle.wikiname}>
-                <li>{vehicle.wikiname}</li>
-              </Link>
-            )) : null}
+            {filteredPosts
+              ? filteredPosts.map((vehicle) => (
+                  <Link
+                    key={vehicle.intname}
+                    to={"/wt/techtree/" + vehicle.intname}
+                    title={vehicle.wikiname}
+                  >
+                    <li>{vehicle.wikiname}</li>
+                  </Link>
+                ))
+              : null}
           </ul>
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleClose}>Search</Button>
+          <Button onClick={handleClose}>Close</Button>
         </DialogActions>
       </Dialog>
     </>

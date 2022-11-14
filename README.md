@@ -2,11 +2,12 @@
 <p align="center">
   <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/natgo/wt-app">
   <img alt="Snyk Vulnerabilities for GitHub Repo" src="https://img.shields.io/snyk/vulnerabilities/github/natgo/wt-app">
+  <a href="https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg"></a>
 </p>
 
 <p align="center">
-  <a href="http://forthebadge.com/"><img src="https://forthebadge.com/images/badges/made-with-typescript.svg" alt="forthebadge"/></a>
-  <a href="http://forthebadge.com/"><img src="https://forthebadge.com/images/badges/open-source.svg" alt="forthebadge"/></a>
+  <a href="https://forthebadge.com/"><img src="https://forthebadge.com/images/badges/made-with-typescript.svg" alt="forthebadge"/></a>
+  <a href="https://forthebadge.com/"><img src="https://forthebadge.com/images/badges/open-source.svg" alt="forthebadge"/></a>
 </p>
 
 ## Development
@@ -41,3 +42,4 @@ pnpm build # npm run build
 - [ ] Add skins filter to techtree
 - [ ] Make search for techtree
 - [ ] Add filters for techtree
+- [ ] Make helicopter tree function again

@@ -13,6 +13,7 @@ export interface FinalProps {
   normal_type: string;
   extended_type?: string[];
   country: string;
+  operator_country?: string;
   rank: number;
   crew: number;
   sl_price: number;

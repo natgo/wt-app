@@ -37,6 +37,9 @@ export function numRankToStr(rank: number): string {
     case 9:
       out_rank = "IX";
       break;
+    case 10:
+      out_rank = "X";
+      break;
   }
   return out_rank;
 }

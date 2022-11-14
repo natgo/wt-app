@@ -90,7 +90,8 @@ export const CalculatorMode = atom<string>({
   effects_UNSTABLE: [persistAtom],
 });
 
-export const PaginationNum = atom<number>({
-  key: "PaginationNum",
-  default: 0,
+export const FilterAtom = atom<boolean>({
+  key: "Filters",
+  default: false,
+  effects_UNSTABLE: [persistAtom],
 });

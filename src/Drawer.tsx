@@ -1,16 +1,7 @@
-import * as React from "react";
 import { Link, Outlet, ScrollRestoration } from "react-router-dom";
 
 import { AccountTree, Brush, Calculate, DataObject, GitHub, Home } from "@mui/icons-material";
-import {
-  Box,
-  List,
-  ListItem,
-  ListItemButton,
-  ListItemIcon,
-  ListItemText,
-  Tooltip,
-} from "@mui/material";
+import { List, ListItem, ListItemButton, ListItemIcon, ListItemText, Tooltip } from "@mui/material";
 import MuiDrawer from "@mui/material/Drawer";
 import { CSSObject, Theme, styled } from "@mui/material/styles";
 
