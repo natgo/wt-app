@@ -6,7 +6,7 @@ import { Search } from "@mui/icons-material";
 import { Button, Dialog, DialogActions, DialogContent, DialogTitle } from "@mui/material";
 
 import { Final } from "../atom";
-import { GroundProps } from "../types";
+import { FinalProps } from "../types";
 
 export function SearchDialog(): JSX.Element {
   const final = useRecoilValue(Final);
@@ -22,7 +22,7 @@ export function SearchDialog(): JSX.Element {
 
   const [query, updateQuery] = useState("");
 
-  const filterPosts = (posts: GroundProps[], query: string) => {
+  const filterPosts = (posts: FinalProps[], query: string) => {
     if (query === "") {
       return undefined;
     }
@@ -32,7 +32,10 @@ export function SearchDialog(): JSX.Element {
       return postName?.includes(query);
     });
   };
-  const filteredPosts = filterPosts(final.ground, query.toLowerCase());
+  const filteredPosts = filterPosts(
+    [...final.ground, ...final.aircraft, ...final.helicopter],
+    query.toLowerCase(),
+  );
 
   return (
     <>
