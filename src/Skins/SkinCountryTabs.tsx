@@ -7,18 +7,18 @@ import { Historical } from "./Historical";
 import { SkinTypeTabs } from "./Skins";
 
 export function SkinCountryTabs(props: CountryPropIndex): JSX.Element {
-  const { type, index } = props;
+  const { country, index } = props;
   const typeValue = useRecoilValue(SkinTypeTab);
   const countryValue = useRecoilValue(SkinCountryTab);
 
   return (
     <TabPanel value={countryValue} index={index}>
-      <SkinTypeTabs type={type} />
+      <SkinTypeTabs country={country} />
       <TabPanel value={typeValue} index={0}>
-        <Historical type={type} historical="historical" />
+        <Historical country={country} historical="historical" />
       </TabPanel>
       <TabPanel value={typeValue} index={1}>
-        <Historical type={type} historical="fictional" />
+        <Historical country={country} historical="fictional" />
       </TabPanel>
     </TabPanel>
   );

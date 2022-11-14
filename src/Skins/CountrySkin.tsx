@@ -4,7 +4,7 @@ import { ToolTip } from "./ToolTip";
 import { SinkProp } from "./types";
 
 export function CountrySkin(props: SinkProp): JSX.Element | null {
-  const { type, value, mode, historical } = props;
+  const { country, value, mode, historical } = props;
   let vehicleclass: "ground" | "aircraft" = "aircraft";
   let group: "grouped" | "ungrouped" = "ungrouped";
   switch (mode) {
@@ -26,7 +26,7 @@ export function CountrySkin(props: SinkProp): JSX.Element | null {
       break;
   }
 
-  const mapping = value[historical]?.[type]?.[vehicleclass]?.[group];
+  const mapping = value[historical]?.[country]?.[vehicleclass]?.[group];
   if (mapping === undefined) {
     return null;
   }
@@ -34,18 +34,18 @@ export function CountrySkin(props: SinkProp): JSX.Element | null {
   if (group === "ungrouped") {
     return (
       <div className="ungrouped">
-        {value[historical]?.[type]?.[vehicleclass]?.ungrouped.map((value) => (
+        {value[historical]?.[country]?.[vehicleclass]?.ungrouped.map((value) => (
           <ToolTip value={value} key={value.post} />
         ))}
       </div>
     );
   } else {
     const nodes: JSX.Element[] = [];
-    for (const property in value[historical]?.[type]?.[vehicleclass]?.grouped) {
+    for (const property in value[historical]?.[country]?.[vehicleclass]?.grouped) {
       nodes.push(
         <div key={property} className="group">
           <div className="group-text">{capitailze(property)}</div>
-          {value[historical]?.[type]?.[vehicleclass]?.grouped[property].map((value) => (
+          {value[historical]?.[country]?.[vehicleclass]?.grouped[property].map((value) => (
             <ToolTip value={value} key={value.post} />
           ))}
         </div>,

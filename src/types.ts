@@ -156,16 +156,16 @@ export interface SkinsProp {
 }
 
 export interface Fictional {
-  USA: Countries;
-  Germany: Countries;
-  USSR: Countries;
-  "Great Britain": Countries;
-  China: Countries;
-  Japan: Countries;
-  Italy: Countries;
-  France: Countries;
-  Sweden: Countries;
-  Israel?: Countries;
+  country_usa: Countries;
+  country_germany: Countries;
+  country_ussr: Countries;
+  country_britain: Countries;
+  country_japan: Countries;
+  country_china: Countries;
+  country_italy: Countries;
+  country_france: Countries;
+  country_sweden: Countries;
+  country_israel?: Countries;
 }
 
 export interface Ungrouped {
@@ -204,16 +204,16 @@ export interface Aircraft {
 }
 
 export interface Historical {
-  USA: Countries;
-  Germany: Countries;
-  USSR: Countries;
-  "Great Britain": Countries;
-  China?: Countries;
-  Japan?: Countries;
-  Italy: Countries;
-  France: Countries;
-  Sweden: Countries;
-  Israel?: Countries;
+  country_usa: Countries;
+  country_germany: Countries;
+  country_ussr: Countries;
+  country_britain: Countries;
+  country_japan?: Countries;
+  country_china?: Countries;
+  country_italy: Countries;
+  country_france: Countries;
+  country_sweden: Countries;
+  country_israel?: Countries;
 }
 
 export interface CountryProp {
