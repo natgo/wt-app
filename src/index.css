@@ -184,3 +184,28 @@
   grid-column: 2;
   border-left-width: 1px;
 }
+
+div.skins .specs_card {
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 400px;
+  box-sizing: border-box;
+  float: right;
+  clear: right;
+  background-color: #dbe0e2;
+  margin-left: 20px;
+}
+
+div.skins .general_info_title {
+  border-top: 1px solid #f6f6f6;
+  padding: 14px 20px 2px;
+  line-height: 1.2em;
+  text-align: center;
+  margin: 0;
+  border: 0;
+  user-select: none;
+}
+
+div.skins .general_info_skins {
+  padding: 10px 0;
+}

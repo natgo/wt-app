@@ -18,9 +18,11 @@
 
 #mw-indicator-mw-helplink a {
   background-image: url("/resources/src/mediawiki/images/help.png?e3a5b");
-  background-image: linear-gradient(transparent, transparent),
+  background-image:
+    linear-gradient(transparent, transparent),
     url("data:image/svg+xml,%3C%3Fxml version=%221.0%22 encoding=%22utf-8%22%3F%3E%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22%3E%3Cg%3E%3Cpath d=%22M12.001 2.085c-5.478 0-9.916 4.438-9.916 9.916 0 5.476 4.438 9.914 9.916 9.914 5.476 0 9.914-4.438 9.914-9.914 0-5.478-4.438-9.916-9.914-9.916zm.001 18c-4.465 0-8.084-3.619-8.084-8.083 0-4.465 3.619-8.084 8.084-8.084 4.464 0 8.083 3.619 8.083 8.084 0 4.464-3.619 8.083-8.083 8.083z%22/%3E%3Cg%3E%3Cpath d=%22M11.766 6.688c-2.5 0-3.219 2.188-3.219 2.188l1.411.854s.298-.791.901-1.229c.516-.375 1.625-.625 2.219.125.701.885-.17 1.587-1.078 2.719-.953 1.186-1 3.655-1 3.655h1.969s.135-2.318 1.041-3.381c.603-.707 1.443-1.338 1.443-2.494s-1.187-2.437-3.687-2.437z%22/%3E%3Cpath d=%22M11 16h2v2h-2z%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
-  background-image: linear-gradient(transparent, transparent),
+  background-image:
+    linear-gradient(transparent, transparent),
     url("/resources/src/mediawiki/images/help.png?e3a5b");
   background-repeat: no-repeat;
   background-position: left center;
@@ -1504,58 +1506,8 @@
     text-align: left;
   }
 
-  div.magnify {
-    float: right;
-    margin-left: 3px;
-  }
-
-  div.magnify a {
-    display: block;
-    text-indent: 15px;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 15px;
-    height: 11px;
-    background-image: url("/resources/src/mediawiki.skinning/images/magnify-clip-ltr.png?4f704");
-    background-image: linear-gradient(transparent, transparent),
-      url("data:image/svg+xml,%3C%3Fxml version=%221.0%22 encoding=%22UTF-8%22 standalone=%22no%22%3F%3E%0A%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 11 15%22 width=%2215%22 height=%2211%22%3E%0A %3Cg id=%22magnify-clip%22 fill=%22%23fff%22 stroke=%22%23000%22%3E%0A %3Cpath id=%22bigbox%22 d=%22M1.509 1.865h10.99v7.919h-10.99z%22/%3E%0A %3Cpath id=%22smallbox%22 d=%22M-1.499 6.868h5.943v4.904h-5.943z%22/%3E%0A %3C/g%3E%0A%3C/svg%3E%0A");
-    user-select: none;
-  }
-
   img.thumbborder {
     border: 1px solid #eaecf0;
-  }
-
-  .mw-content-ltr .thumbcaption {
-    text-align: left;
-  }
-
-  .mw-content-ltr .magnify {
-    float: right;
-    margin-left: 3px;
-    margin-right: 0;
-  }
-
-  .mw-content-ltr div.magnify a {
-    background-image: url("/resources/src/mediawiki.skinning/images/magnify-clip-ltr.png?4f704");
-    background-image: linear-gradient(transparent, transparent),
-      url("data:image/svg+xml,%3C%3Fxml version=%221.0%22 encoding=%22UTF-8%22 standalone=%22no%22%3F%3E%0A%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 11 15%22 width=%2215%22 height=%2211%22%3E%0A %3Cg id=%22magnify-clip%22 fill=%22%23fff%22 stroke=%22%23000%22%3E%0A %3Cpath id=%22bigbox%22 d=%22M1.509 1.865h10.99v7.919h-10.99z%22/%3E%0A %3Cpath id=%22smallbox%22 d=%22M-1.499 6.868h5.943v4.904h-5.943z%22/%3E%0A %3C/g%3E%0A%3C/svg%3E%0A");
-  }
-
-  .mw-content-rtl .thumbcaption {
-    text-align: right;
-  }
-
-  .mw-content-rtl .magnify {
-    float: left;
-    margin-left: 0;
-    margin-right: 3px;
-  }
-
-  .mw-content-rtl div.magnify a {
-    background-image: url("/resources/src/mediawiki.skinning/images/magnify-clip-rtl.png?a9fb3");
-    background-image: linear-gradient(transparent, transparent),
-      url("data:image/svg+xml,%3C%3Fxml version=%221.0%22 encoding=%22UTF-8%22 standalone=%22no%22%3F%3E%0A%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 11 15%22 width=%2215%22 height=%2211%22%3E%0A %3Cg id=%22magnify-clip%22 fill=%22%23fff%22 stroke=%22%23000%22%3E%0A %3Cpath id=%22bigbox%22 d=%22M9.491 1.865h-10.99v7.919h10.99z%22/%3E%0A %3Cpath id=%22smallbox%22 d=%22M12.499 6.868h-5.943v4.904h5.943z%22/%3E%0A %3C/g%3E%0A%3C/svg%3E%0A");
   }
 
   div.tright {
@@ -1633,10 +1585,6 @@
   span.subpages {
     display: block;
   }
-}
-
-.mw-wiki-logo {
-  background-image: url("/resources/assets/wiki.png?de8c8");
 }
 
 @media screen {
@@ -2748,9 +2696,11 @@
     background-position: center right;
     background-repeat: no-repeat;
     background-image: url("/skins/Vector/images/external-link-ltr-icon.png?325de");
-    background-image: linear-gradient(transparent, transparent),
+    background-image:
+      linear-gradient(transparent, transparent),
       url("data:image/svg+xml,%3C%3Fxml version=%221.0%22 encoding=%22UTF-8%22 standalone=%22no%22%3F%3E%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22%3E%3Cpath fill=%22%23fff%22 stroke=%22%2306c%22 d=%22M1.5 4.518h5.982V10.5H1.5z%22/%3E%3Cpath d=%22M5.765 1H11v5.39L9.427 7.937l-1.31-1.31L5.393 9.35l-2.69-2.688 2.81-2.808L4.2 2.544z%22 fill=%22%2306f%22/%3E%3Cpath d=%22M9.995 2.004l.022 4.885L8.2 5.07 5.32 7.95 4.09 6.723l2.882-2.88-1.85-1.852z%22 fill=%22%23fff%22/%3E%3C/svg%3E");
-    background-image: linear-gradient(transparent, transparent),
+    background-image:
+      linear-gradient(transparent, transparent),
       url("/skins/Vector/images/external-link-ltr-icon.png?325de");
     padding-right: 13px;
   }

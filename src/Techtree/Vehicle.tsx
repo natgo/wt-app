@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { queryVehicleIntname } from "../utils/QueryVehicle";
 
 import "./App2.css";
-import { Mobility, SpecsCard, Survivability } from "./VehicleItem";
+import { Mobility, SkinsCard, SpecsCard, Survivability } from "./VehicleItem";
 import { Optics } from "./VehicleOptics";
 import { Weapon } from "./VehicleWeapon";
 
@@ -18,6 +18,7 @@ export function Vehicle(): JSX.Element {
         return (
           <div>
             <SpecsCard vehicle={match} link={params.vehicleId} item_type={"own"} />
+            <SkinsCard vehicle={match} />
             <Survivability vehicle={match} />
             <Mobility vehicle={match} />
             <Weapon vehicle={match} />

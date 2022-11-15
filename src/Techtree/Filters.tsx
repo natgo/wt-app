@@ -28,25 +28,28 @@ export function Filters(): JSX.Element {
 
   const [checked, setChecked] = useRecoilState(FilterAtom);
 
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setChecked(event.target.checked);
+  const handleWikiChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setChecked({ ...checked, hide_wiki: event.target.checked });
+  };
+  const handleIngameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setChecked({ ...checked, hide_ingame: event.target.checked });
   };
 
   return (
     <>
       <FilterAlt onClick={handleClickOpen} />
-      <Dialog
-        open={open}
-        keepMounted
-        onClose={handleClose}
-        aria-describedby="alert-dialog-slide-description"
-      >
+      <Dialog open={open} onClose={handleClose}>
         <DialogTitle>{"Filters?"}</DialogTitle>
         <DialogContent>
           <FormGroup>
             <FormControlLabel
-              control={<Switch checked={checked} onChange={handleChange} />}
+              control={<Switch checked={checked.hide_wiki} onChange={handleWikiChange} />}
               label="Hide vehicles not in wiki"
+              labelPlacement="start"
+            />
+            <FormControlLabel
+              control={<Switch checked={checked.hide_ingame} onChange={handleIngameChange} />}
+              label="Hide vehicles not visible ingame"
               labelPlacement="start"
             />
           </FormGroup>

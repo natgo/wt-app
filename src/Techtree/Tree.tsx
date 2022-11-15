@@ -1,7 +1,7 @@
 import { useRecoilValue } from "recoil";
 
 import { FilterAtom, Shop } from "../atom";
-import { CountryProp, ShopExtGroup, ShopExtItem } from "../types";
+import { CountryProp, FinalShopGroup, ShopExtGroup, ShopExtItem } from "../types";
 import { queryVehicleIntname } from "../utils/QueryVehicle";
 
 import { MediaHead } from "./MediaHead";
@@ -30,11 +30,29 @@ export function TechTree(props: TechTreeProp): JSX.Element {
       element.forEach((element) => {
         if ("vehicles" in element) {
           if (element.vehicles[0].rank === index + 1) {
-            range.push({ ...element, draw_arrow: false });
+            if (filter.hide_ingame) {
+              const out:FinalShopGroup = {
+                name: element.image,
+                displayname: element.displayname,
+                image: element.image,
+                reqAir: element.reqAir,
+                vehicles: []
+              };
+              element.vehicles.forEach(element => {
+                if (!element.hidden) {
+                  out.vehicles.push(element);
+                }
+              });
+              range.push({ ...out, draw_arrow: false });
+            } else {
+              range.push({ ...element, draw_arrow: false });
+            }
           }
         } else {
           if (element.rank === index + 1) {
-            if (filter) {
+            if (filter.hide_ingame && element.hidden) {
+              //d
+            } else if (filter.hide_wiki) {
               const match = queryVehicleIntname(element.name);
               if (match?.wikiname) {
                 range.push({ ...element, draw_arrow: false });

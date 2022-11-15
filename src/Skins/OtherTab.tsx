@@ -134,6 +134,24 @@ export function OtherTab(): JSX.Element {
           <a
             target="_blank"
             rel="noopener noreferrer"
+            href="https://live.warthunder.com/post/570240/en/"
+          >
+            il-4 (ihan vituiks)
+          </a>
+        </div>
+        <div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://live.warthunder.com/post/620898/en/"
+          >
+            b-24d (ihan vituiks)
+          </a>
+        </div>
+        <div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
             href="https://live.warthunder.com/post/12202/en/"
           >
             hurricane mk2b (puuttuu blk)

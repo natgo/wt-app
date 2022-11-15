@@ -3,7 +3,14 @@ import { Link } from "react-router-dom";
 import { useRecoilValue } from "recoil";
 
 import { Search } from "@mui/icons-material";
-import { Button, Dialog, DialogActions, DialogContent, DialogTitle } from "@mui/material";
+import {
+  Button,
+  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogTitle,
+  TextField,
+} from "@mui/material";
 
 import { Final } from "../atom";
 import { FinalProps } from "../types";
@@ -40,20 +47,19 @@ export function SearchDialog(): JSX.Element {
   return (
     <>
       <Search onClick={handleClickOpen} />
-      <Dialog
-        open={open}
-        keepMounted
-        onClose={handleClose}
-        aria-describedby="alert-dialog-slide-description"
-      >
+      <Dialog open={open} onClose={handleClose}>
         <DialogTitle>{"Search?"}</DialogTitle>
         <DialogContent>
-          <input
-            value={query}
-            onChange={(e) => updateQuery(e.target.value)}
+          <TextField
+            autoFocus
+            margin="dense"
+            id="vehicle-search"
             type="text"
-            id="header-search"
+            fullWidth
+            variant="standard"
+            value={query}
             placeholder="Search vehicles"
+            onChange={(e) => updateQuery(e.target.value)}
           />
           <ul>
             {filteredPosts

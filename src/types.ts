@@ -199,8 +199,8 @@ export interface Countries {
 }
 
 export interface Aircraft {
-  ungrouped: Ungrouped[];
-  grouped: Record<string, Ungrouped[]>;
+  ungrouped?: Ungrouped[];
+  grouped?: Record<string, Ungrouped[]>;
 }
 
 export interface Historical {
@@ -271,4 +271,9 @@ export interface ShopExtItem extends FinalShopItem {
 
 export interface ShopExtGroup extends FinalShopGroup {
   draw_arrow: boolean;
+}
+
+export interface FilterProps {
+  hide_wiki: boolean;
+  hide_ingame: boolean;
 }

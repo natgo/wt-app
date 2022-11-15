@@ -904,7 +904,7 @@
           {
             "intnames": ["blenheim_mkiv"],
             "dislayname": "Blenheim Mk IV",
-            "post": "982486"
+            "post": "824892"
           }
         ],
         "grouped": {
@@ -1311,11 +1311,6 @@
             "post": "244611"
           },
           {
-            "intnames": ["b_24d"],
-            "dislayname": "B24",
-            "post": "620898"
-          },
-          {
             "intnames": ["f-86a-5"],
             "dislayname": "F-86A-5",
             "post": "453983"
@@ -1457,11 +1452,6 @@
             "intnames": ["il-10", "il-10_1946", "il-10_1946_china"],
             "dislayname": "Il-10 (1946)",
             "post": "1016352"
-          },
-          {
-            "intnames": ["il-4"],
-            "dislayname": "IL-4",
-            "post": "570240"
           },
           {
             "intnames": ["mig_3_series_1_15"],
@@ -1642,7 +1632,7 @@
           },
           {
             "intnames": ["sw_strv_m38"],
-            "dislayname": "Strv m/38",
+            "dislayname": "Strv m/38 ÄLÄ MISSÄÄN NIMESSÄ LATAA",
             "post": "891824"
           },
           {

@@ -58,13 +58,15 @@ export default async function changeParsed(sakke: { name: string; id: number }[]
       const finalarray = querypartialVehicleWikiname(element);
       if (finalarray) {
         finalarray.forEach((ement) => {
-          const object = {
-            name: ement.wikiname,
-            br: ement[brmodeset],
-            real_br: ement[realbrmodeset],
-            id: result.length + 1,
-          };
-          inter.push(object);
+          if (ement.wikiname) {
+            const object = {
+              name: ement.wikiname,
+              br: ement[brmodeset],
+              real_br: ement[realbrmodeset],
+              id: result.length + 1,
+            };
+            inter.push(object);
+          }
         });
       }
 
@@ -75,13 +77,15 @@ export default async function changeParsed(sakke: { name: string; id: number }[]
     } else {
       const query = queryVehicleWikiname(element);
       if (query) {
-        const object = {
-          name: query.wikiname,
-          br: query[brmodeset],
-          real_br: query[realbrmodeset],
-          id: result.length + 1,
-        };
-        result.push(object);
+        if (query.wikiname) {
+          const object = {
+            name: query.wikiname,
+            br: query[brmodeset],
+            real_br: query[realbrmodeset],
+            id: result.length + 1,
+          };
+          result.push(object);
+        }
       } else {
         // if the ocr fixes don't work
         console.log(`not in final: ${element}`);

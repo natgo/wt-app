@@ -2,7 +2,7 @@ import { atom } from "recoil";
 
 import { recoilPersist } from "recoil-persist";
 
-import { FinalProp, FinalShop, SkinsProp } from "./types";
+import { FilterProps, FinalProp, FinalShop, SkinsProp } from "./types";
 
 const { persistAtom } = recoilPersist();
 
@@ -90,8 +90,8 @@ export const CalculatorMode = atom<string>({
   effects_UNSTABLE: [persistAtom],
 });
 
-export const FilterAtom = atom<boolean>({
+export const FilterAtom = atom<FilterProps>({
   key: "Filters",
-  default: false,
+  default: { hide_wiki: true, hide_ingame: false },
   effects_UNSTABLE: [persistAtom],
 });
