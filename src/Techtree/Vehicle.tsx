@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { queryVehicleIntname } from "../utils/QueryVehicle";
 
 import "./App2.css";
-import { Mobility, SkinsCard, SpecsCard, Survivability } from "./VehicleItem";
+import { Mobility, SpecsCard, Survivability, VehicleSkinsCard } from "./VehicleItem";
 import { Optics } from "./VehicleOptics";
 import { Weapon } from "./VehicleWeapon";
 
@@ -17,8 +17,8 @@ export function Vehicle(): JSX.Element {
       if ("horsepower" in match) {
         return (
           <div>
-            <SpecsCard vehicle={match} link={params.vehicleId} item_type={"own"} />
-            <SkinsCard vehicle={match} />
+            <SpecsCard vehicle={match} link={params.vehicleId} />
+            <VehicleSkinsCard vehicle={match} />
             <Survivability vehicle={match} />
             <Mobility vehicle={match} />
             <Weapon vehicle={match} />
@@ -28,7 +28,8 @@ export function Vehicle(): JSX.Element {
       } else {
         return (
           <div>
-            <SpecsCard vehicle={match} link={params.vehicleId} item_type={"own"} />
+            <SpecsCard vehicle={match} link={params.vehicleId} />
+            <VehicleSkinsCard vehicle={match} />
           </div>
         );
       }

@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
+import { useRecoilValue } from "recoil";
 
+import { FilterAtom } from "../atom";
 import { queryVehicleIntname } from "../utils/QueryVehicle";
 
 import { ItemImg } from "./ItemImg";
@@ -13,14 +15,18 @@ import medium_tank from "./assets/img/def_medium_tank_radar.svg";
 import spaa from "./assets/img/def_spaa_radar.svg";
 import tank_destroyer from "./assets/img/def_tank_destroyer_radar.svg";
 import utility_helicopter from "./assets/img/def_utility_helicopter_radar.svg";
+import { querySkins } from "../utils/querySkins";
 
 export function TechTreeItem(props: { intname: string }): JSX.Element {
   const { intname } = props;
+  const filter = useRecoilValue(FilterAtom);
 
   const match = queryVehicleIntname(intname);
   if (!match) {
     throw new Error(`No match for ${intname}`);
   }
+
+  const vehicleSkins = querySkins(match);
 
   let item_type: "own" | "prem" | "squad";
   if (match.cost_gold) {
@@ -66,7 +72,7 @@ export function TechTreeItem(props: { intname: string }): JSX.Element {
   }
 
   return (
-    <div className="tree-item">
+    <div className="tree-item" style={filter.show_skins && vehicleSkins.historical.length === 0 && vehicleSkins.fictional.length === 0? { filter: "blur(4px)" } : {}}>
       <div className="tree-item-background" id={match.intname}>
         <Link to={"/wt/techtree/" + match.intname} title={match.wikiname}>
           <ItemImg type={item_type} />

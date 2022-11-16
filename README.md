@@ -38,8 +38,8 @@ pnpm build # npm run build
 - [x] Make techtree more dynamicly generated
 - [ ] Make propper file structure
 - [x] Fix techtree arrows
-- [ ] Add link to skins to vehicle pages
-- [ ] Add skins filter to techtree
+- [x] Add link to skins to vehicle pages
+- [x] Add skins filter to techtree
 - [ ] Make search for techtree
 - [ ] Add filters for techtree
 - [ ] Make helicopter tree function again

@@ -34,6 +34,9 @@ export function Filters(): JSX.Element {
   const handleIngameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setChecked({ ...checked, hide_ingame: event.target.checked });
   };
+  const handleSkinsChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setChecked({ ...checked, show_skins: event.target.checked });
+  };
 
   return (
     <>
@@ -50,6 +53,11 @@ export function Filters(): JSX.Element {
             <FormControlLabel
               control={<Switch checked={checked.hide_ingame} onChange={handleIngameChange} />}
               label="Hide vehicles not visible ingame"
+              labelPlacement="start"
+            />
+            <FormControlLabel
+              control={<Switch checked={checked.show_skins} onChange={handleSkinsChange} />}
+              label="Show only vehicles with skins"
               labelPlacement="start"
             />
           </FormGroup>

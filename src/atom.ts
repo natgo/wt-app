@@ -92,6 +92,6 @@ export const CalculatorMode = atom<string>({
 
 export const FilterAtom = atom<FilterProps>({
   key: "Filters",
-  default: { hide_wiki: true, hide_ingame: false },
+  default: { hide_wiki: true, hide_ingame: false, show_skins: false },
   effects_UNSTABLE: [persistAtom],
 });

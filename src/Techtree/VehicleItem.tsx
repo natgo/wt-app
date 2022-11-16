@@ -1,11 +1,9 @@
-import { useRecoilValue } from "recoil";
-
 import { Tooltip } from "@mui/material";
 
 import { ToolTip } from "../Skins/ToolTip";
-import { SkinAtom } from "../atom";
-import { Countries, FinalProps, GroundProps, Ungrouped } from "../types";
+import { FinalProps, GroundProps } from "../types";
 import { numRankToStr } from "../utils/numericRankToString";
+import { querySkins } from "../utils/querySkins";
 
 import ArmorTable from "./Table";
 import { vehicleCountry } from "./VehicleCountry";
@@ -16,7 +14,6 @@ import { vehicleType } from "./VehicleType";
 export function SpecsCard(props: {
   vehicle: FinalProps;
   link?: string;
-  item_type: "own" | "prem" | "squad";
 }): JSX.Element {
   const { vehicle, link } = props;
 
@@ -484,113 +481,37 @@ function NeutralSteer(props: { vehicle: GroundProps }) {
   return null;
 }
 
-export function SkinsCard(props: { vehicle: FinalProps }): JSX.Element | null {
+export function VehicleSkinsCard(props: { vehicle: FinalProps }): JSX.Element | null {
   const { vehicle } = props;
-  const skins = useRecoilValue(SkinAtom);
-  const vehicleSkins: Ungrouped[] = [];
+  const vehicleSkins = querySkins(vehicle);
 
-  Object.values(skins.historical).forEach((value) => {
-    const value2 = value as Countries;
-    if (vehicle.type === "tank" && value2.ground) {
-      value2.ground.ungrouped?.forEach((skinelement) => {
-        skinelement.intnames.forEach((element) => {
-          if (element === vehicle.intname) {
-            vehicleSkins.push(skinelement);
-          }
-        });
-      });
-      if (value2.ground.grouped) {
-        Object.values(value2.ground.grouped).forEach((value) => {
-          value.forEach((skinelement) => {
-            skinelement.intnames.forEach((element) => {
-              if (element === vehicle.intname) {
-                vehicleSkins.push(skinelement);
-              }
-            });
-          });
-        });
-      }
-    }
-
-    if (vehicle.type === "aircraft" && value2.aircraft) {
-      value2.aircraft.ungrouped?.forEach((skinelement) => {
-        skinelement.intnames.forEach((element) => {
-          if (element === vehicle.intname) {
-            vehicleSkins.push(skinelement);
-          }
-        });
-      });
-      if (value2.aircraft.grouped) {
-        Object.values(value2.aircraft.grouped).forEach((value) => {
-          value.forEach((skinelement) => {
-            skinelement.intnames.forEach((element) => {
-              if (element === vehicle.intname) {
-                vehicleSkins.push(skinelement);
-              }
-            });
-          });
-        });
-      }
-    }
-  });
-
-  Object.values(skins.fictional).forEach((value) => {
-    const value2 = value as Countries;
-    if (vehicle.type === "tank" && value2.ground) {
-      value2.ground.ungrouped?.forEach((skinelement) => {
-        skinelement.intnames.forEach((element) => {
-          if (element === vehicle.intname) {
-            vehicleSkins.push(skinelement);
-          }
-        });
-      });
-      if (value2.ground.grouped) {
-        Object.values(value2.ground.grouped).forEach((value) => {
-          value.forEach((skinelement) => {
-            skinelement.intnames.forEach((element) => {
-              if (element === vehicle.intname) {
-                vehicleSkins.push(skinelement);
-              }
-            });
-          });
-        });
-      }
-    }
-
-    if (vehicle.type === "aircraft" && value2.aircraft) {
-      value2.aircraft.ungrouped?.forEach((skinelement) => {
-        skinelement.intnames.forEach((element) => {
-          if (element === vehicle.intname) {
-            vehicleSkins.push(skinelement);
-          }
-        });
-      });
-      if (value2.aircraft.grouped) {
-        Object.values(value2.aircraft.grouped).forEach((value) => {
-          value.forEach((skinelement) => {
-            skinelement.intnames.forEach((element) => {
-              if (element === vehicle.intname) {
-                vehicleSkins.push(skinelement);
-              }
-            });
-          });
-        });
-      }
-    }
-  });
-
-  if (vehicleSkins.length > 0) {
+  if (vehicleSkins.historical.length > 0 || vehicleSkins.fictional.length > 0) {
     return (
       <div className="skins" data-code={vehicle.intname}>
         <div className="specs_card">
           <div className="general_info_title">
             Skins for {vehicle.displayname ? vehicle.displayname : vehicle.intname}
           </div>
-          <div className="general_info_skins">
-            {vehicleSkins.map((element) => {
-              return <ToolTip value={element} key={element.post} />;
-            })}
-          </div>
+          {vehicleSkins.historical.length > 0 ? (
+            <>
+              <div className="general_info_title">Historical</div>
+              <div className="general_info_skins">
+                {vehicleSkins.historical.map((element) => {
+                  return <ToolTip value={element} key={element.post} />;
+                })}
+              </div>
+            </>
+          ) : null}
+          {vehicleSkins.fictional.length > 0 ? (
+            <>
+              <div className="general_info_title">Fictional</div>
+              <div className="general_info_skins">
+                {vehicleSkins.fictional.map((element) => {
+                  return <ToolTip value={element} key={element.post} />;
+                })}
+              </div>
+            </>
+          ) : null}
         </div>
       </div>
     );

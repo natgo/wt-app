@@ -14,12 +14,20 @@ import medium_tank from "./assets/img/def_medium_tank_radar.svg";
 import spaa from "./assets/img/def_spaa_radar.svg";
 import tank_destroyer from "./assets/img/def_tank_destroyer_radar.svg";
 import utility_helicopter from "./assets/img/def_utility_helicopter_radar.svg";
+import { FilterAtom } from "../atom";
+import { useRecoilValue } from "recoil";
+import { querySkins } from "../utils/querySkins";
 
 export function TreeFolder(props: {
   children: JSX.Element[][];
   name: string;
   img: string;
 }): JSX.Element {
+  const { children, name, img } = props;
+  const filter = useRecoilValue(FilterAtom);
+
+  let skins = false;
+  
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
   const handleClick = (event: React.MouseEvent<HTMLElement>) => {
@@ -29,7 +37,6 @@ export function TreeFolder(props: {
     setAnchorEl(null);
   };
 
-  const { children, name, img } = props;
   let fig_src = attack_helicopter;
   let br: string | undefined = "-1.0";
   const brarr: { br: string; realbr: number }[] = [];
@@ -41,6 +48,10 @@ export function TreeFolder(props: {
       const match = queryVehicleIntname(element[0].props.intname);
       if (match) {
         brarr.push({ br: match.rb_br, realbr: match.rb_realbr });
+        const vehicleSkins = querySkins(match);
+        if (vehicleSkins.historical.length > 0 || vehicleSkins.fictional.length > 0 ) {
+          skins=true;
+        }
       }
     }
   });
@@ -117,6 +128,7 @@ export function TreeFolder(props: {
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}
+        style={filter.show_skins && !skins? { filter: "blur(4px)" } : {}}
       >
         <div className="tree-group-text">
           <span className="tree-item-text-scroll">{name}</span>

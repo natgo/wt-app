@@ -31,14 +31,14 @@ export function TechTree(props: TechTreeProp): JSX.Element {
         if ("vehicles" in element) {
           if (element.vehicles[0].rank === index + 1) {
             if (filter.hide_ingame) {
-              const out:FinalShopGroup = {
+              const out: FinalShopGroup = {
                 name: element.image,
                 displayname: element.displayname,
                 image: element.image,
                 reqAir: element.reqAir,
-                vehicles: []
+                vehicles: [],
               };
-              element.vehicles.forEach(element => {
+              element.vehicles.forEach((element) => {
                 if (!element.hidden) {
                   out.vehicles.push(element);
                 }

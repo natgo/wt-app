@@ -230,6 +230,11 @@ export interface CountryProp {
     | "country_israel";
 }
 
+export interface VehicleSkinsProp {
+  historical: Ungrouped[];
+  fictional: Ungrouped[];
+}
+
 export type FinalShop = Record<string, FinalShopCountry>;
 
 export interface FinalShopCountry {
@@ -276,4 +281,5 @@ export interface ShopExtGroup extends FinalShopGroup {
 export interface FilterProps {
   hide_wiki: boolean;
   hide_ingame: boolean;
+  show_skins: boolean;
 }
