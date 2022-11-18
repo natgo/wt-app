@@ -41,5 +41,5 @@ pnpm build # npm run build
 - [x] Add link to skins to vehicle pages
 - [x] Add skins filter to techtree
 - [ ] Make search for techtree
-- [ ] Add filters for techtree
+- [x] Add filters for techtree
 - [ ] Make helicopter tree function again
