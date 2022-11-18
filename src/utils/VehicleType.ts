@@ -1,17 +1,19 @@
-import { FinalProps } from "../types";
-
 /**
  * Converts vehicle classes to human readable format.
  * @export
- * @param {FinalProps} vehicle - The Vehicle to parse classes.
+ * @param {string} normal_type - The regular class to convert to human readable format.
+ * @param {string} extended_type - Array of extended types to convert to human readable format.
  * @returns  {({ vehicle_type: string; extended_type: string[] | undefined; })} Object with normal type of the vehicle and array of extended types
  */
-export function vehicleType(vehicle: FinalProps): {
+export function vehicleType(
+  normal_type: string,
+  extended_type?: string[] | undefined,
+): {
   vehicle_type: string;
   extended_type: string[] | undefined;
 } {
   let vehicle_type = "";
-  switch (vehicle.normal_type) {
+  switch (normal_type) {
     case "type_tank_destroyer":
       vehicle_type = "Tank destroyer";
       break;
@@ -44,51 +46,54 @@ export function vehicleType(vehicle: FinalProps): {
       break;
   }
 
-  const extended_type: string[] = [];
-  vehicle.extended_type?.forEach((element) => {
+  const extended_type_out: string[] = [];
+  extended_type?.forEach((element) => {
     switch (element) {
       case "type_missile_tank":
-        extended_type.push("ATGM vehicle");
+        extended_type_out.push("ATGM vehicle");
         break;
       case "type_jet_fighter":
-        extended_type.push("Jet fighter");
+        extended_type_out.push("Jet fighter");
         break;
       case "type_jet_bomber":
-        extended_type.push("Jet bomber");
+        extended_type_out.push("Jet bomber");
         break;
       case "type_longrange_bomber":
-        extended_type.push("Long Range bomber");
+        extended_type_out.push("Long Range bomber");
         break;
       case "type_frontline_bomber":
-        extended_type.push("Frontline bomber");
+        extended_type_out.push("Frontline bomber");
         break;
       case "type_hydroplane":
-        extended_type.push("Hydroplane");
+        extended_type_out.push("Hydroplane");
         break;
       case "type_naval_aircraft":
-        extended_type.push("Naval aircraft");
+        extended_type_out.push("Naval aircraft");
         break;
       case "type_torpedo_bomber":
-        extended_type.push("Torpedo bomber");
+        extended_type_out.push("Torpedo bomber");
         break;
       case "type_dive_bomber":
-        extended_type.push("Dive bomber");
+        extended_type_out.push("Dive bomber");
         break;
       case "type_interceptor":
-        extended_type.push("Interceptor");
+        extended_type_out.push("Interceptor");
         break;
       case "type_aa_fighter":
-        extended_type.push("Air Defence fighter");
+        extended_type_out.push("Air Defence fighter");
         break;
       case "type_light_bomber":
-        extended_type.push("Light bomber");
+        extended_type_out.push("Light bomber");
         break;
       case "type_utility_helicopter":
-        extended_type.push("Utility helicopter");
+        extended_type_out.push("Utility helicopter");
         break;
     }
   });
-  extended_type.sort();
+  extended_type_out.sort();
 
-  return { vehicle_type, extended_type: extended_type.length > 0 ? extended_type : undefined };
+  return {
+    vehicle_type,
+    extended_type: extended_type_out.length > 0 ? extended_type_out : undefined,
+  };
 }

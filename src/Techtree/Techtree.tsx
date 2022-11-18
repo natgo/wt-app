@@ -1,8 +1,8 @@
-import { useRecoilValue, useSetRecoilState } from "recoil";
+import { useRecoilState, useRecoilValue, useSetRecoilState } from "recoil";
 
 import { Box, Tab, Tabs } from "@mui/material";
 
-import { CountryTab, TypeTab } from "../atom";
+import { CountryTab, SearchName, TypeTab } from "../atom";
 import { CountryProp } from "../types";
 
 import "./App2.css";
@@ -33,8 +33,7 @@ export function TabPanel(props: TabPanelProps): JSX.Element {
   );
 }
 function TypeTabs() {
-  const value = useRecoilValue(TypeTab);
-  const setValue = useSetRecoilState(TypeTab);
+  const [value, setValue] = useRecoilState(TypeTab);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
@@ -93,14 +92,21 @@ function CountryTabs(props: CountryPropIndex): JSX.Element {
 }
 
 export default function App(): JSX.Element {
-  const countryValue = useRecoilValue(CountryTab);
-  const countrySetValue = useSetRecoilState(CountryTab);
+  const [countryValue, countrySetValue] = useRecoilState(CountryTab);
+  const [search, setSearch] = useRecoilState(SearchName);
 
   const handleCountryChange = (event: React.SyntheticEvent, newValue: number) => {
     countrySetValue(newValue);
   };
   return (
-    <div className="app">
+    <div
+      className="app"
+      onClick={() => {
+        if (search) {
+          setSearch(undefined);
+        }
+      }}
+    >
       <SearchDialog />
       <Filters />
       <Tabs

@@ -1,8 +1,11 @@
 import { useState } from "react";
+import { useRecoilValue } from "recoil";
 
 import { Menu } from "@mui/material";
 
+import { FilterAtom, SearchName } from "../atom";
 import { queryVehicleIntname } from "../utils/QueryVehicle";
+import { querySkins } from "../utils/querySkins";
 
 import assault from "./assets/img/def_assault_radar.svg";
 import attack_helicopter from "./assets/img/def_attack_helicopter_radar.svg";
@@ -14,9 +17,6 @@ import medium_tank from "./assets/img/def_medium_tank_radar.svg";
 import spaa from "./assets/img/def_spaa_radar.svg";
 import tank_destroyer from "./assets/img/def_tank_destroyer_radar.svg";
 import utility_helicopter from "./assets/img/def_utility_helicopter_radar.svg";
-import { FilterAtom } from "../atom";
-import { useRecoilValue } from "recoil";
-import { querySkins } from "../utils/querySkins";
 
 export function TreeFolder(props: {
   children: JSX.Element[][];
@@ -25,9 +25,13 @@ export function TreeFolder(props: {
 }): JSX.Element {
   const { children, name, img } = props;
   const filter = useRecoilValue(FilterAtom);
+  const search = useRecoilValue(SearchName);
 
   let skins = false;
-  
+  let searches = false;
+  let features = false;
+  let classes = false;
+
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
   const handleClick = (event: React.MouseEvent<HTMLElement>) => {
@@ -49,8 +53,20 @@ export function TreeFolder(props: {
       if (match) {
         brarr.push({ br: match.rb_br, realbr: match.rb_realbr });
         const vehicleSkins = querySkins(match);
-        if (vehicleSkins.historical.length > 0 || vehicleSkins.fictional.length > 0 ) {
-          skins=true;
+        const findClass = filter.show_class.find((value) => {
+          return value === match.normal_type;
+        });
+        if (vehicleSkins.historical.length > 0 || vehicleSkins.fictional.length > 0) {
+          skins = true;
+        }
+        if (search === match.intname) {
+          searches = true;
+        }
+        if (filter.show_features && "horsepower" in match && match[filter.show_features]) {
+          features = true;
+        }
+        if (findClass) {
+          classes = true;
         }
       }
     }
@@ -128,7 +144,14 @@ export function TreeFolder(props: {
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}
-        style={filter.show_skins && !skins? { filter: "blur(4px)" } : {}}
+        style={
+          (!searches && search) ||
+          (!features && filter.show_features) ||
+          (filter.show_skins && !skins) ||
+          (filter.show_class.length > 0 && !classes)
+            ? { filter: "blur(4px)" }
+            : {}
+        }
       >
         <div className="tree-group-text">
           <span className="tree-item-text-scroll">{name}</span>

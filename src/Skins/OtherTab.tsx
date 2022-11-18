@@ -134,6 +134,15 @@ export function OtherTab(): JSX.Element {
           <a
             target="_blank"
             rel="noopener noreferrer"
+            href="https://live.warthunder.com/post/583711/en/"
+          >
+            Bf 110C (ei toimi)
+          </a>
+        </div>
+        <div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
             href="https://live.warthunder.com/post/570240/en/"
           >
             il-4 (ihan vituiks)

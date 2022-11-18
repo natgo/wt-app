@@ -2,6 +2,7 @@ import { Tooltip } from "@mui/material";
 
 import { ToolTip } from "../Skins/ToolTip";
 import { FinalProps, GroundProps } from "../types";
+import { vehicleType } from "../utils/VehicleType";
 import { numRankToStr } from "../utils/numericRankToString";
 import { querySkins } from "../utils/querySkins";
 
@@ -9,16 +10,12 @@ import ArmorTable from "./Table";
 import { vehicleCountry } from "./VehicleCountry";
 import { VehicleImage } from "./VehicleImage";
 import { VehiclePrice } from "./VehiclePrice";
-import { vehicleType } from "./VehicleType";
 
-export function SpecsCard(props: {
-  vehicle: FinalProps;
-  link?: string;
-}): JSX.Element {
+export function SpecsCard(props: { vehicle: FinalProps; link?: string }): JSX.Element {
   const { vehicle, link } = props;
 
   const country = vehicleCountry(vehicle.country);
-  const vehicle_type = vehicleType(vehicle);
+  const vehicle_type = vehicleType(vehicle.normal_type, vehicle.extended_type);
 
   const rank = numRankToStr(vehicle.rank);
 

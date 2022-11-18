@@ -2,7 +2,7 @@ import { atom } from "recoil";
 
 import { recoilPersist } from "recoil-persist";
 
-import { FilterProps, FinalProp, FinalShop, SkinsProp } from "./types";
+import { Classes, Features, FilterProps, FinalProp, FinalShop, SkinsProp } from "./types";
 
 const { persistAtom } = recoilPersist();
 
@@ -92,6 +92,17 @@ export const CalculatorMode = atom<string>({
 
 export const FilterAtom = atom<FilterProps>({
   key: "Filters",
-  default: { hide_wiki: true, hide_ingame: false, show_skins: false },
+  default: {
+    hide_wiki: true,
+    hide_ingame: false,
+    show_skins: false,
+    show_features: null,
+    show_class: [],
+  },
   effects_UNSTABLE: [persistAtom],
+});
+
+export const SearchName = atom<string | undefined>({
+  key: "SearchName",
+  default: undefined,
 });

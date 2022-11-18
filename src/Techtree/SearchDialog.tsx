@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { useRecoilValue } from "recoil";
+import { useRecoilValue, useSetRecoilState } from "recoil";
 
 import { Search } from "@mui/icons-material";
 import {
@@ -12,11 +12,25 @@ import {
   TextField,
 } from "@mui/material";
 
-import { Final } from "../atom";
+import { CountryTab, Final, SearchName, TypeTab } from "../atom";
 import { FinalProps } from "../types";
+import { countryToNumeric } from "../utils/countryToNumeric";
+import { typeToNumeric } from "../utils/typeToNumeric";
 
 export function SearchDialog(): JSX.Element {
   const final = useRecoilValue(Final);
+  const countrySetValue = useSetRecoilState(CountryTab);
+  const setValue = useSetRecoilState(TypeTab);
+  const setSearch = useSetRecoilState(SearchName);
+
+  const handleClickVehicle = (vehicle: FinalProps) => {
+    countrySetValue(countryToNumeric(vehicle.country));
+    setOpen(false);
+    setValue(typeToNumeric(vehicle.type));
+    updateQuery("");
+    setSearch(vehicle.intname);
+  };
+
   const [open, setOpen] = useState(false);
 
   const handleClickOpen = () => {
@@ -29,16 +43,17 @@ export function SearchDialog(): JSX.Element {
 
   const [query, updateQuery] = useState("");
 
-  const filterPosts = (posts: FinalProps[], query: string) => {
+  function filterPosts(search: FinalProps[], query: string): FinalProps[] | undefined {
     if (query === "") {
       return undefined;
     }
 
-    return posts.filter((post) => {
+    return search.filter((post) => {
       const postName = post.wikiname?.toLowerCase();
       return postName?.includes(query);
     });
-  };
+  }
+
   const filteredPosts = filterPosts(
     [...final.ground, ...final.aircraft, ...final.helicopter],
     query.toLowerCase(),
@@ -66,8 +81,9 @@ export function SearchDialog(): JSX.Element {
               ? filteredPosts.map((vehicle) => (
                   <Link
                     key={vehicle.intname}
-                    to={"/wt/techtree/" + vehicle.intname}
+                    to={"/wt/techtree#" + vehicle.intname}
                     title={vehicle.wikiname}
+                    onClick={() => handleClickVehicle(vehicle)}
                   >
                     <li>{vehicle.wikiname}</li>
                   </Link>
