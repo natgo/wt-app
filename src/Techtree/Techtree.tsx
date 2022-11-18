@@ -1,12 +1,12 @@
-import { useRecoilState, useRecoilValue, useSetRecoilState } from "recoil";
+import { useRecoilState, useRecoilValue } from "recoil";
 
 import { Box, Tab, Tabs } from "@mui/material";
 
 import { CountryTab, SearchName, TypeTab } from "../atom";
 import { CountryProp } from "../types";
 
+import "./App.css";
 import "./App2.css";
-import "./App3.css";
 import { Filters } from "./Filters";
 import { SearchDialog } from "./SearchDialog";
 import { TechTree } from "./Tree";

@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 
 import { queryVehicleIntname } from "../utils/QueryVehicle";
 
-import "./App2.css";
+import "./App.css";
 import { Mobility, SpecsCard, Survivability, VehicleSkinsCard } from "./VehicleItem";
 import { Optics } from "./VehicleOptics";
 import { Weapon } from "./VehicleWeapon";

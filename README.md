@@ -32,7 +32,7 @@ pnpm build # npm run build
 ```
 
 # Todo
-- [ ] Add lint-staged
+- [x] Add lint-staged
 - [x] Make a CI/CD pipeline to website
 - [x] Make br calculator work on ground
 - [x] Make techtree more dynamicly generated
