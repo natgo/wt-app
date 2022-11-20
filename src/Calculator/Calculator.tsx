@@ -24,7 +24,7 @@ import {
 import axios from "axios";
 import { setRecoil } from "recoil-nexus";
 
-import { CalculatorMode, Corrected, Parsed, base64Image, brb, dialogue } from "../atom";
+import { CalculatorMode, Corrected, Parsed, base64Image, brb, dialogue } from "@/store/atom";
 
 import changeParsed from "./selectors";
 

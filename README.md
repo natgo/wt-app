@@ -4,6 +4,7 @@
   <img alt="Snyk Vulnerabilities for GitHub Repo" src="https://img.shields.io/snyk/vulnerabilities/github/natgo/wt-app">
   <a href="https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg"></a>
   <img alt="GitHub" src="https://img.shields.io/github/license/natgo/wt-app">
+  <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/natgo/wt-app">
 </p>
 
 <p align="center">
@@ -37,7 +38,7 @@ pnpm build # npm run build
 - [x] Make a CI/CD pipeline to website
 - [x] Make br calculator work on ground
 - [x] Make techtree more dynamicly generated
-- [ ] Make propper file structure
+- [x] Make propper file structure
 - [x] Fix techtree arrows
 - [x] Add link to skins to vehicle pages
 - [x] Add skins filter to techtree

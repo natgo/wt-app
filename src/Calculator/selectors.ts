@@ -1,8 +1,8 @@
 import axios from "axios";
 import { getRecoil, setRecoil } from "recoil-nexus";
 
-import { CalculatorMode, dialogue } from "../atom";
-import { queryVehicleWikiname, querypartialVehicleWikiname } from "../utils/QueryVehicle";
+import { CalculatorMode, dialogue } from "@/store/atom";
+import { queryVehicleWikiname, querypartialVehicleWikiname } from "@/utils/QueryVehicle";
 
 import br from "./br";
 import lookup from "./lookup";

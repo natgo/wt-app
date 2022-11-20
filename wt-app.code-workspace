@@ -11,6 +11,7 @@
 		"typescript.preferences.quoteStyle": "double",
 		"files.insertFinalNewline": true,
 		"editor.acceptSuggestionOnEnter": "off",
-		"terminal.integrated.shellIntegration.enabled": true
+		"terminal.integrated.shellIntegration.enabled": true,
+		"typescript.updateImportsOnFileMove.enabled": "always"
 	}
 }

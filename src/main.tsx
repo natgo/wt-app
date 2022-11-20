@@ -1,7 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import {
-  BrowserRouter,
   Route,
   RouterProvider,
   createBrowserRouter,
@@ -11,13 +10,14 @@ import { RecoilRoot } from "recoil";
 
 import RecoilNexus from "recoil-nexus";
 
+import { Data } from "@/pages/Data/Data";
+import { Home } from "@/pages/Home/Home";
+import { Skins } from "@/pages/Skins/Skins";
+import App from "@/pages/Techtree/Techtree";
+import { Vehicle } from "@/pages/Vehicle/Vehicle";
+import { MiniDrawer } from "@/sections/Drawer";
+
 import Calculator from "./Calculator/Calculator";
-import { Data } from "./Data";
-import { MiniDrawer } from "./Drawer";
-import { Home } from "./Home";
-import { Skins } from "./Skins/Skins";
-import App from "./Techtree/Techtree";
-import { Vehicle } from "./Techtree/Vehicle";
 import "./index.css";
 
 const router = createBrowserRouter(
