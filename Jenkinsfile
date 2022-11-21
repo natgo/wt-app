@@ -10,7 +10,7 @@ pipeline {
     stage('Start Dev server') {
       steps {
         sh 'nohup npm run dev &'
-        sleep(5)
+        sleep(10)
       }
     }
 
