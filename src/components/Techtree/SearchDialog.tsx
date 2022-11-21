@@ -9,13 +9,14 @@ import {
   DialogActions,
   DialogContent,
   DialogTitle,
+  IconButton,
   TextField,
 } from "@mui/material";
 
-import { CountryTab, Final, SearchName, TypeTab } from "@/store/atom";
+import { CountryTab, Final, SearchName, TypeTab } from "@/store/atom/atom";
 import { FinalProps } from "@/types";
-import { countryToNumeric } from "@/utils/countryToNumeric";
-import { typeToNumeric } from "@/utils/typeToNumeric";
+import { countryToNumeric } from "@/utils/custom/countryToNumeric";
+import { typeToNumeric } from "@/utils/custom/typeToNumeric";
 
 export function SearchDialog(): JSX.Element {
   const final = useRecoilValue(Final);
@@ -61,7 +62,9 @@ export function SearchDialog(): JSX.Element {
 
   return (
     <>
-      <Search onClick={handleClickOpen} />
+      <IconButton color="primary" size="large" onClick={handleClickOpen}>
+        <Search />
+      </IconButton>
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>{"Search?"}</DialogTitle>
         <DialogContent>

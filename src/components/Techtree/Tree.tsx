@@ -2,9 +2,9 @@
 import { useRecoilValue } from "recoil";
 
 import { MediaHead } from "@/components/Techtree/MediaHead";
-import { FilterAtom, Shop } from "@/store/atom";
+import { FilterAtom, Shop } from "@/store/atom/atom";
 import { CountryProp, FinalShopGroup, ShopExtGroup, ShopExtItem } from "@/types";
-import { queryVehicleIntname } from "@/utils/QueryVehicle";
+import { queryVehicleIntname } from "@/utils/custom/QueryVehicle";
 
 import { Research } from "./Research";
 import { TreeRank } from "./TreeRank";

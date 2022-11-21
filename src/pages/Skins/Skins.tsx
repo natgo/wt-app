@@ -4,7 +4,7 @@ import { Tab, Tabs, Tooltip, TooltipProps, styled, tooltipClasses } from "@mui/m
 
 import { OtherTab } from "@/components/Skins/OtherTab";
 import { SkinCountryTabs } from "@/components/Skins/SkinCountryTabs";
-import { SkinAtom, SkinCountryTab, SkinTypeTab } from "@/store/atom";
+import { SkinAtom, SkinCountryTab, SkinTypeTab } from "@/store/atom/atom";
 import { CountryProp } from "@/types";
 
 export const BlackTooltip = styled(({ className, ...props }: TooltipProps) => (
@@ -42,7 +42,7 @@ export function SkinTypeTabs(props: CountryProp) {
   );
 }
 
-export function Skins(): JSX.Element {
+export default function Skins(): JSX.Element {
   const countryValue = useRecoilValue(SkinCountryTab);
   const countrySetValue = useSetRecoilState(SkinCountryTab);
 

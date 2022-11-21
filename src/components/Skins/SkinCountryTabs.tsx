@@ -2,7 +2,7 @@ import { useRecoilValue } from "recoil";
 
 import { SkinTypeTabs } from "@/pages/Skins/Skins";
 import { CountryPropIndex, TabPanel } from "@/pages/Techtree/Techtree";
-import { SkinCountryTab, SkinTypeTab } from "@/store/atom";
+import { SkinCountryTab, SkinTypeTab } from "@/store/atom/atom";
 
 import { Historical } from "./Historical";
 

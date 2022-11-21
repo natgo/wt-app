@@ -1,6 +1,6 @@
 import { Ungrouped } from "@/types";
 import { capitailze } from "@/utils/Capitalize";
-import { queryVehicleIntname } from "@/utils/QueryVehicle";
+import { queryVehicleIntname } from "@/utils/custom/QueryVehicle";
 
 export function ToolTipText(value: Ungrouped): JSX.Element {
   return (

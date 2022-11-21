@@ -3,10 +3,10 @@ import { Tooltip } from "@mui/material";
 
 import { ToolTip } from "@/components/Skins/ToolTip";
 import { FinalProps, GroundProps } from "@/types";
-import { vehicleCountry } from "@/utils/VehicleCountry";
-import { vehicleType } from "@/utils/VehicleType";
-import { numRankToStr } from "@/utils/numericRankToString";
-import { querySkins } from "@/utils/querySkins";
+import { vehicleCountry } from "@/utils/custom/VehicleCountry";
+import { vehicleType } from "@/utils/custom/VehicleType";
+import { numRankToStr } from "@/utils/custom/numericRankToString";
+import { querySkins } from "@/utils/custom/querySkins";
 
 import ArmorTable from "./Table";
 import { VehicleImage } from "./VehicleImage";

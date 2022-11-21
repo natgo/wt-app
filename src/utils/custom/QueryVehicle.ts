@@ -1,8 +1,7 @@
 import { getRecoil } from "recoil-nexus";
 
-import { Final } from "@/store/atom";
-
-import { FinalProps } from "../types";
+import { Final } from "@/store/atom/atom";
+import { FinalProps } from "@/types";
 
 export function queryVehicleWikiname(vehicle: string): FinalProps | undefined {
   const FinalValue = getRecoil(Final);

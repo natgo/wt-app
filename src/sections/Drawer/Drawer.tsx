@@ -32,7 +32,7 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== "open" 
   }),
 );
 
-export function MiniDrawer() {
+export default function MiniDrawer() {
   return (
     <>
       <Drawer variant="permanent">
@@ -41,7 +41,7 @@ export function MiniDrawer() {
             "Home",
             "Techtree",
             "WT Data Project (External)",
-            "Air RB BR Calculator",
+            "BR Calculator",
             "Skins",
             "Github",
           ].map((text) => {
@@ -56,7 +56,7 @@ export function MiniDrawer() {
                 link = "/wt/data";
                 Icon = <DataObject />;
                 break;
-              case "Air RB BR Calculator":
+              case "BR Calculator":
                 link = "/wt/calculator";
                 Icon = <Calculate />;
                 break;

@@ -1,8 +1,7 @@
 import { getRecoil } from "recoil-nexus";
 
-import { SkinAtom } from "@/store/atom";
-
-import { Countries, FinalProps, VehicleSkinsProp } from "../types";
+import { SkinAtom } from "@/store/atom/atom";
+import { Countries, FinalProps, VehicleSkinsProp } from "@/types";
 
 export function querySkins(vehicle: FinalProps): VehicleSkinsProp {
   const skins = getRecoil(SkinAtom);
