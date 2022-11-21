@@ -1,14 +1,13 @@
-const arr = ["Arcade", "Realistic", "Simulator"];
 describe("Calculator test", () => {
-  arr.forEach((element) => {
     describe("Normal test", () => {
       it("Visits the Kitchen Sink", () => {
         cy.visit("http://localhost:5173/wt/");
         cy.wait(500);
-        cy.get("#calculator").click();
+        cy.get("#sidebar-menu").click();
+        cy.contains("BR Calculator").click();
       });
       it("Set mode", () => {
-        cy.contains(element).click();
+        cy.contains("Realistic").click();
       });
       it("Testing picture uploading", () => {
         cy.get(".dropzone").selectFile("cypress/fixtures/ss.png", {
@@ -29,16 +28,12 @@ describe("Calculator test", () => {
     describe("Ingame test", () => {
       it("Visits the Kitchen Sink", () => {
         cy.visit("http://localhost:5173/wt/");
-        if (Cypress.browser.name === "firefox") {
-          cy.wait(500);
-        } else {
-          cy.intercept("GET", "http://localhost:5173/wt/final.json").as("final");
-          cy.wait("@final");
-        }
-        cy.get("#calculator").click();
+        cy.wait(500);
+        cy.get("#sidebar-menu").click();
+        cy.contains("BR Calculator").click();
       });
       it("Set mode", () => {
-        cy.contains(element).click();
+        cy.contains("Realistic").click();
       });
       it("Testing picture uploading", () => {
         cy.get(".dropzone").selectFile("cypress/fixtures/ss.png", {
@@ -59,5 +54,4 @@ describe("Calculator test", () => {
         cy.contains("Input BR:").should("not.exist");
       });
     });
-  });
 });

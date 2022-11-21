@@ -2,7 +2,8 @@ describe("Techtree test", () => {
   it("Visits the Kitchen Sink", () => {
     cy.visit("http://localhost:5173/wt/");
     cy.wait(500);
-    cy.get("#techtree").click();
+    cy.get("#sidebar-menu").click();
+    cy.contains("Techtree").click();
   });
   it("Test ground vehicle page", () => {
     cy.contains("USSR").click();
@@ -19,7 +20,7 @@ describe("Techtree test", () => {
     cy.get(".general_info_game_button").contains("Show in game");
     cy.get(".crew .value").contains("10 people");
     cy.get(".visibility .value").contains("100 %");
-    cy.get("#techtree").click();
+    cy.go("back");
   });
   const countries = [
     "USA",

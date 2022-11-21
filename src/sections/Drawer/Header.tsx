@@ -60,6 +60,7 @@ function Header() {
               edge="start"
               color="info"
               aria-label="menu"
+              id="sidebar-menu"
               sx={{ mr: 1 }}
             >
               <MenuIcon />

@@ -2,7 +2,8 @@ describe("Skins test", () => {
   it("Visits the Kitchen Sink", () => {
     cy.visit("http://localhost:5173/wt/");
     cy.wait(500);
-    cy.get("#skins").click();
+    cy.get("#sidebar-menu").click();
+    cy.contains("Skins").click();
   });
   it("Test special properites", () => {
     cy.contains("USSR").click();
