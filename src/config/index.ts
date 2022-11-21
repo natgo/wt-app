@@ -4,7 +4,7 @@ import type { Notifications } from "./types";
 
 const title = "War Thuner App";
 
-const repository = "https://github.com/suren-atoyan/react-pwa";
+const repository = "https://github.com/natgo/wt-app";
 
 const messages = {
   app: {
