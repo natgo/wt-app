@@ -3,6 +3,8 @@
   "short_name": "wt-app",
   "description": "A War thunder web app with a techtree and br calculator",
   "theme_color": "#ffffff",
+  "start_url": "/wt/",
+  "scope": "/wt/",
   "icons": [
     {
       "src": "pwa-192x192.png",
@@ -19,6 +21,26 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Techtree",
+      "url": "/wt/techtree"
+    },
+    {
+      "name": "WT Data Project (External)",
+      "short_name": "Data",
+      "url": "/wt/data"
+    },
+    {
+      "name": "BR Calculator",
+      "short_name": "Calculator",
+      "url": "/wt/calculator"
+    },
+    {
+      "name": "Skins",
+      "url": "/wt/skins"
     }
   ]
 }
