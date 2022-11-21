@@ -1,3 +1,3 @@
-export function Data() {
-  return <iframe src="https://wt.controlnet.space/" width={"99%"} height={"99%"}></iframe>;
+export default function Data() {
+  return <iframe src="https://wt.controlnet.space/" width={"100%"} height={"900px"}></iframe>;
 }

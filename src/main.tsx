@@ -1,46 +1,19 @@
-import React from "react";
-import { createRoot } from "react-dom/client";
-import {
-  Route,
-  RouterProvider,
-  createBrowserRouter,
-  createRoutesFromElements,
-} from "react-router-dom";
-import { RecoilRoot } from "recoil";
+import welcome from "@/utils/welcome";
 
-import RecoilNexus from "recoil-nexus";
+// Root contains the main dependencies and providers of the base app
+//  - React, ReactDom, RecoilRoot, HelmetProvider, ThemeProvider, MUI-core)
+// App contains the main structure of the base app
 
-import { Data } from "@/pages/Data/Data";
-import { Home } from "@/pages/Home/Home";
-import { Skins } from "@/pages/Skins/Skins";
-import App from "@/pages/Techtree/Techtree";
-import { Vehicle } from "@/pages/Vehicle/Vehicle";
-import { MiniDrawer } from "@/sections/Drawer";
+// These are the two main chunks that are used to render the core structure of the app
+// Importing them with Promise.all (by using HTTP/2 multiplexing) we can load them in parallel
+// and achieve the best possible performance
 
-import Calculator from "./Calculator/Calculator";
-import "./index.css";
+Promise.all([import("@/Root"), import("@/App")]).then(([{ default: render }, { default: App }]) => {
+  render(App);
+});
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path="/wt/" element={<MiniDrawer />}>
-      <Route path="/wt/" element={<Home />} />
-      <Route path="/wt/techtree/" element={<App />} />
-      <Route path="/wt/data/" element={<Data />} />
-      <Route path="/wt/techtree/:vehicleId" element={<Vehicle />} />
-      <Route path="/wt/calculator/" element={<Calculator />} />
-      <Route path="/wt/skins/" element={<Skins />} />
-    </Route>,
-  ),
-);
+// welcome message for users in the console
+welcome();
 
-const container = document.getElementById("root");
-// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-const root = createRoot(container!);
-root.render(
-  <React.StrictMode>
-    <RecoilRoot>
-      <RecoilNexus />
-      <RouterProvider router={router} />
-    </RecoilRoot>
-  </React.StrictMode>,
-);
+// ts(1208)
+export {};

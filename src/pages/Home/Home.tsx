@@ -3,10 +3,10 @@ import { useSetRecoilState } from "recoil";
 import axios from "axios";
 
 import ayskari from "@/assets/img/as.webp";
-import { Final, Shop, SkinAtom } from "@/store/atom";
+import { Final, Shop, SkinAtom } from "@/store/atom/atom";
 import { FinalProp, FinalShop, SkinsProp } from "@/types";
 
-export function Home(): JSX.Element {
+export default function Home(): JSX.Element {
   const finalSetValue = useSetRecoilState(Final);
   const skinsSetValue = useSetRecoilState(SkinAtom);
   const shopSetValue = useSetRecoilState(Shop);

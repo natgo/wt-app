@@ -16,13 +16,14 @@ import {
   FormControlLabel,
   FormGroup,
   FormLabel,
+  IconButton,
   Switch,
   TextField,
 } from "@mui/material";
 
-import { FilterAtom } from "@/store/atom";
-import { vehicleType } from "@/utils/VehicleType";
-import { featureToDisplay } from "@/utils/feature";
+import { FilterAtom } from "@/store/atom/atom";
+import { vehicleType } from "@/utils/custom/VehicleType";
+import { featureToDisplay } from "@/utils/custom/feature";
 
 const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
 const checkedIcon = <CheckBoxIcon fontSize="small" />;
@@ -73,7 +74,9 @@ export function Filters(): JSX.Element {
 
   return (
     <>
-      <FilterAlt onClick={handleClickOpen} />
+      <IconButton color="primary" size="large" onClick={handleClickOpen}>
+        <FilterAlt />
+      </IconButton>
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>{"Filters?"}</DialogTitle>
         <DialogContent>

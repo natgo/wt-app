@@ -8,11 +8,11 @@ import {
 } from "@/components/Vehicle/VehicleItem";
 import { Optics } from "@/components/Vehicle/VehicleOptics";
 import { Weapon } from "@/components/Vehicle/VehicleWeapon";
-import { queryVehicleIntname } from "@/utils/QueryVehicle";
+import { queryVehicleIntname } from "@/utils/custom/QueryVehicle";
 
 import "../Techtree/App.css";
 
-export function Vehicle(): JSX.Element {
+export default function Vehicle(): JSX.Element {
   const params = useParams();
   if (params.vehicleId) {
     console.log(params.vehicleId);

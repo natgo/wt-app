@@ -1,7 +1,7 @@
 import { useRecoilValue } from "recoil";
 
 import { TabPanel } from "@/pages/Techtree/Techtree";
-import { SkinCountryTab } from "@/store/atom";
+import { SkinCountryTab } from "@/store/atom/atom";
 
 export function OtherTab(): JSX.Element {
   const countryValue = useRecoilValue(SkinCountryTab);

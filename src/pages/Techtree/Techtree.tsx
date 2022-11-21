@@ -2,10 +2,8 @@ import { useRecoilState, useRecoilValue } from "recoil";
 
 import { Box, Tab, Tabs } from "@mui/material";
 
-import { Filters } from "@/components/Techtree/Filters";
-import { SearchDialog } from "@/components/Techtree/SearchDialog";
 import { TechTree } from "@/components/Techtree/Tree";
-import { CountryTab, SearchName, TypeTab } from "@/store/atom";
+import { CountryTab, SearchName, TypeTab } from "@/store/atom/atom";
 import { CountryProp } from "@/types";
 
 import "./App2.css";
@@ -91,7 +89,7 @@ function CountryTabs(props: CountryPropIndex): JSX.Element {
   );
 }
 
-export default function App(): JSX.Element {
+export default function TreeTech(): JSX.Element {
   const [countryValue, countrySetValue] = useRecoilState(CountryTab);
   const [search, setSearch] = useRecoilState(SearchName);
 
@@ -107,8 +105,6 @@ export default function App(): JSX.Element {
         }
       }}
     >
-      <SearchDialog />
-      <Filters />
       <Tabs
         value={countryValue}
         onChange={handleCountryChange}

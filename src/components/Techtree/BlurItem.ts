@@ -1,6 +1,6 @@
-import { FilterProps } from "@/store/types";
+import { FilterProps } from "@/store/atom/types";
 import { FinalProps, GroundProps } from "@/types";
-import { querySkins } from "@/utils/querySkins";
+import { querySkins } from "@/utils/custom/querySkins";
 
 export function BlurItem(
   vehicle: FinalProps | GroundProps,

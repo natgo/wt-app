@@ -24,9 +24,8 @@ import {
 import axios from "axios";
 import { setRecoil } from "recoil-nexus";
 
-import { CalculatorMode, Corrected, Parsed, base64Image, brb, dialogue } from "@/store/atom";
-
-import changeParsed from "./selectors";
+import { CalculatorMode, Corrected, Parsed, base64Image, brb, dialogue } from "@/store/atom/atom";
+import changeParsed from "@/utils/custom/selectors";
 
 async function readFile(file: File | Blob) {
   const reader = new FileReader();

@@ -13,9 +13,9 @@ import medium_tank from "@/assets/img/def_medium_tank_radar.svg";
 import spaa from "@/assets/img/def_spaa_radar.svg";
 import tank_destroyer from "@/assets/img/def_tank_destroyer_radar.svg";
 import utility_helicopter from "@/assets/img/def_utility_helicopter_radar.svg";
-import { FilterAtom, SearchName } from "@/store/atom";
-import { queryVehicleIntname } from "@/utils/QueryVehicle";
-import { querySkins } from "@/utils/querySkins";
+import { FilterAtom, SearchName } from "@/store/atom/atom";
+import { queryVehicleIntname } from "@/utils/custom/QueryVehicle";
+import { querySkins } from "@/utils/custom/querySkins";
 
 export function TreeFolder(props: {
   children: JSX.Element[][];
