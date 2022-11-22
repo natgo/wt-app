@@ -1,3 +1,5 @@
+import { registerSW } from "virtual:pwa-register";
+
 import welcome from "@/utils/welcome";
 
 // Root contains the main dependencies and providers of the base app
@@ -14,6 +16,13 @@ Promise.all([import("@/Root"), import("@/App")]).then(([{ default: render }, { d
 
 // welcome message for users in the console
 welcome();
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const updateSW = registerSW({
+  onRegisterError(error) {
+    console.log(error);
+  },
+});
 
 // ts(1208)
 export {};
