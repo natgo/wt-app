@@ -73,10 +73,11 @@
             "post": "287547"
           },
           {
-            "intnames": ["fw-190a-5_cannons"],
-            "dislayname": "Fw 109 A-5 \"Väinö\"",
-            "post": "647662",
-            "type": "semi"
+            "intnames": ["fw-190a-5_cannons","fw-190a-5_japan"],
+            "dislayname": "Fw 109 A-5 \"Väinö\" [Repack]",
+            "post": "Fw 190 A-5 Finland [Vaino] [Repack].zip",
+            "type": "semi",
+            "repack":true
           },
           {
             "intnames": ["ju-88a-4","ju-88a-4_finland"],
@@ -239,12 +240,19 @@
           }
         ],
         "grouped": {
-          "panzer": [
+          "Panzer": [
             {
               "intnames": ["germ_pzkpfw_II_ausf_H"],
               "dislayname": "Panzer II Ausf. H",
               "post": "755881",
               "type": "semi"
+            },
+            {
+              "intnames": ["germ_pzkpfw_III_ausf_J_L42","ussr_pzkpfw_III_ausf_J_L42","germ_pzkpfw_III_ausf_J"],
+              "dislayname": "Pz.III J [Repack]",
+              "post": "T-III Finnish forest [Repack].zip",
+              "type": "semi",
+              "repack":true
             },
             {
               "intnames": ["germ_pzkpfw_III_ausf_M"],
@@ -417,10 +425,11 @@
             "type": "semi"
           },
           {
-            "intnames": ["pe-2-205", "pe-3_bis"],
-            "dislayname": "Pe-3bis",
-            "post": "550480",
-            "type": "semi"
+            "intnames": ["pe-2-205", "pe-3_bis", "pe-3"],
+            "dislayname": "Pe-3bis [Repack]",
+            "post": "pe3bis_finland [Repack].zip",
+            "type": "semi",
+            "repack":true
           },
           {
             "intnames": ["pe-3_early"],
@@ -429,24 +438,25 @@
             "type": "semi"
           },
           {
-            "intnames": ["mi_4av"],
-            "dislayname": "Mil Mi-4 (HR-3)",
-            "post": "840237",
-            "type": "semi"
-          },
-          {
             "intnames": ["mig-15bis_nr23_german"],
             "dislayname": "MiG 15bis MU-4",
             "post": "1055712",
             "type":"semi"
+          },
+          {
+            "intnames": ["mi_4av"],
+            "dislayname": "Mil Mi-4 (HR-3)",
+            "post": "840237",
+            "type": "semi"
           }
         ],
         "grouped": {
           "I-16": [
             {
-              "intnames": ["i-16_type5"],
-              "dislayname": "I-16 type 5",
-              "post": "482029"
+              "intnames": ["i-16_type5","i-16_type5_1935_china"],
+              "dislayname": "I-16 type 5 [Repack]",
+              "post": "i-16_type5 [Repack].zip",
+              "repack":true
             },
             {
               "intnames": ["i-16_type27"],
@@ -501,21 +511,17 @@
       "ground": {
         "ungrouped": [
           {
-            "intnames": ["ussr_zsu_23_4"],
-            "dislayname": "ZSU-23-4",
-            "post": "911335",
-            "type": "semi"
+            "intnames": ["ussr_zsu_23_4","il_zsu_23_4"],
+            "dislayname": "ZSU-23-4 [Repack]",
+            "post": "SUOMI_SHILKA [Repack].zip",
+            "type": "semi",
+            "repack":true
           },
           {
-            "intnames": ["ussr_t_26_1940"],
-            "dislayname": "T-26 \"Vangittu\" Parola",
-            "post": "982939"
-          },
-          {
-            "intnames": ["ussr_pzkpfw_III_ausf_J_L42"],
-            "dislayname": "T-III",
-            "post": "998217",
-            "type": "semi"
+            "intnames": ["ussr_t_26_1940","cn_t_26_1940","cn_t_26_no531"],
+            "dislayname": "T-26 \"Vangittu\" Parola [Repack]",
+            "post": "Finnish T-26 [Repack].zip",
+            "repack":true
           },
           {
             "intnames": ["ussr_kv_2_1939"],
@@ -579,14 +585,16 @@
           ],
           "PT-76": [
             {
-              "intnames": ["ussr_pt_76b"],
-              "dislayname": "PT-76b Parola 1981",
-              "post": "297380"
+              "intnames": ["ussr_pt_76b","sw_pt_76b"],
+              "dislayname": "PT-76b Parola 1981 [Repack]",
+              "post": "Suomi PT-76 [Repack].zip",
+              "repack":true
             },
             {
-              "intnames": ["sw_pt_76b"],
-              "dislayname": "PT-76b Parola 1981 V2",
-              "post": "1054223"
+              "intnames": ["sw_pt_76b","ussr_pt_76b"],
+              "dislayname": "PT-76b Parola 1981 V2 [Repack]",
+              "post": "Suomi PT-76 V2 [Repack].zip",
+              "repack":true
             }
           ],
           "BT": [
@@ -811,26 +819,17 @@
           ],
           "BMP-1": [
             {
-              "intnames": ["ussr_bmp_1"],
-              "dislayname": "BMP-1 Summer",
-              "post": "675405"
+              "intnames": ["ussr_bmp_1","cn_type_86","germ_bmp_1_ddr"],
+              "dislayname": "BMP-1 [Repack]",
+              "post": "BMP-1 Finnish [Repack].zip",
+              "camo": ["summer","winter","fall"],
+              "repack":true
             },
             {
-              "intnames": ["ussr_bmp_1"],
-              "dislayname": "BMP-1 Winter",
-              "post": "819884",
-              "camo": ["winter"]
-            },
-            {
-              "intnames": ["ussr_bmp_1"],
-              "dislayname": "BMP-1 Fall",
-              "post": "820139",
-              "camo": ["fall"]
-            },
-            {
-              "intnames": ["ussr_bmp_1"],
-              "dislayname": "BMP-1 Ps 152-83",
-              "post": "1029820"
+              "intnames": ["ussr_bmp_1","cn_type_86","germ_bmp_1_ddr"],
+              "dislayname": "BMP-1 Ps 152-83 [Repack]",
+              "post": "BMP 1 Finland [Repack].zip",
+              "repack":true
             }
           ],
           "BMP-2": [
@@ -861,19 +860,22 @@
           ],
           "ZSU-57-2": [
             {
-              "intnames": ["ussr_zsu_57_2"],
-              "dislayname": "ZSU-57-2 1970s",
-              "post": "911511"
+              "intnames": ["ussr_zsu_57_2","sw_zsu_57_2","il_zsu_57_2"],
+              "dislayname": "ZSU-57-2 1970s [Repack]",
+              "post": "SUOMI_ZSU57_2 [Repack].zip",
+              "repack":true
             },
             {
-              "intnames": ["ussr_zsu_57_2"],
-              "dislayname": "ZSU-57-2 Parola",
-              "post": "1034569"
+              "intnames": ["ussr_zsu_57_2","sw_zsu_57_2","il_zsu_57_2"],
+              "dislayname": "ZSU-57-2 Parola [Repack]",
+              "post": "ZSU-57-2 - Parola [Repack].zip",
+              "repack":true
             },
             {
               "intnames": ["ussr_zsu_57_2"],
               "dislayname": "ZSU-57-2 Huono",
-              "post": "1047789"
+              "post": "1047789",
+              "type":"semi"
             },
             {
               "intnames": ["sw_zsu_57_2"],
@@ -927,14 +929,16 @@
           ],
           "Gladiator Mk II": [
             {
-              "intnames": ["gladiator_mk2"],
-              "dislayname": "Gladiator Mk II GL-264",
-              "post": "808659"
+              "intnames": ["gladiator_mk2","gladiator_mk1_china"],
+              "dislayname": "Gladiator Mk II GL-264 [Repack]",
+              "post": "Stromberg's+Finnish+Gladiator+GL-264+(uncensored) [Repack].zip",
+              "repack":true
             },
             {
-              "intnames": ["gladiator_mk2"],
-              "dislayname": "Gladiator Mk II GL-265",
-              "post": "737041"
+              "intnames": ["gladiator_mk2","gladiator_mk1_china"],
+              "dislayname": "Gladiator Mk II GL-265 [Repack]",
+              "post": "template_gladiator_mk2 [Repack].zip",
+              "repack":true
             }
           ]
         }
@@ -1417,9 +1421,10 @@
             "post": "981247"
           },
           {
-            "intnames": ["germ_infanterie_kampfpanzer_churchill"],
-            "dislayname": "Churchill",
-            "post": "756237"
+            "intnames": ["germ_infanterie_kampfpanzer_churchill","uk_a_22b_mk_3_churchill_1942"],
+            "dislayname": "Churchill [Repack]",
+            "post": "Churchill Finland [Repack].zip",
+            "repack":true
           },
           {
             "intnames": ["germ_leopard_2a4","sw_leopard_2a4_fin","sw_strv_121"],
@@ -1530,10 +1535,11 @@
             "camo": ["winter"]
           },
           {
-            "intnames": ["sw_t_80u"],
-            "dislayname": "T-80U",
-            "post": "1055590",
-            "camo": ["winter"]
+            "intnames": ["sw_t_80u","ussr_t_80u","ussr_t_80uk"],
+            "dislayname": "T-80U [Repack]",
+            "post": "sw_t_80u_A_Song_of_Ice_and_Fire [Repack].zip",
+            "camo": ["winter"],
+            "repack":true
           }
         ]
       }
@@ -1547,7 +1553,7 @@
             "post": "756614"
           },
           {
-            "intnames": ["mosquito_fb_mk26_china", "mosquito_fb_mk6"],
+            "intnames": ["mosquito_fb_mk6","mosquito_fb_mk26_china"],
             "dislayname": "VL Vihuri",
             "post": "996846"
           }
