@@ -43,8 +43,8 @@ describe("Skins test", () => {
           cy.contains("Flegel's Bf 109 A").should("be.visible");
           break;
         case "USSR":
-          cy.contains("T-III").trigger("mouseover");
-          cy.contains("T-III (USSR)").should("be.visible");
+          cy.contains("ZSU-23-4 [Repack]").trigger("mouseover");
+          cy.contains("ZSU-23-4 (Israel)").should("be.visible");
           break;
         case "Great Britain":
           cy.contains("Centurion Mk 3").trigger("mouseover");
