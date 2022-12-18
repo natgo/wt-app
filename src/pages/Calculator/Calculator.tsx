@@ -25,9 +25,11 @@ import axios from "axios";
 import { setRecoil } from "recoil-nexus";
 
 import { CalculatorMode, Corrected, Parsed, base64Image, brb, dialogue } from "@/store/atom/atom";
+import { finalQuery } from "@/store/final";
+import { FinalProp } from "@/types";
 import changeParsed from "@/utils/custom/selectors";
 
-async function readFile(file: File | Blob) {
+async function readFile(file: File | Blob, final: FinalProp): Promise<void> {
   const reader = new FileReader();
 
   reader.onabort = () => console.log("file reading was aborted");
@@ -58,7 +60,7 @@ async function readFile(file: File | Blob) {
             sakke.push(obj);
           });
           setRecoil(Parsed, () => sakke);
-          const luikka = await changeParsed(sakke);
+          const luikka = await changeParsed(sakke, final);
           console.log(luikka);
           setRecoil(Corrected, () => luikka.result);
           setRecoil(brb, () => luikka.br);
@@ -72,12 +74,16 @@ async function readFile(file: File | Blob) {
 }
 
 function Dropzone(): JSX.Element {
-  const onDrop = useCallback((acceptedFiles: Blob[]) => {
-    console.log(acceptedFiles);
-    acceptedFiles.forEach((file) => {
-      readFile(file);
-    });
-  }, []);
+  const final = useRecoilValue(finalQuery);
+  const onDrop = useCallback(
+    (acceptedFiles: Blob[]) => {
+      console.log(acceptedFiles);
+      acceptedFiles.forEach((file) => {
+        readFile(file, final);
+      });
+    },
+    [final],
+  );
   const { getRootProps, getInputProps } = useDropzone({ onDrop });
 
   return (
@@ -161,6 +167,7 @@ function Mode(): JSX.Element {
 }
 
 export default function Calculator() {
+  const final = useRecoilValue(finalQuery);
   const open = useRecoilValue(dialogue);
   const setBRB = useSetRecoilState(brb);
   const setOpen = useSetRecoilState(dialogue);
@@ -174,7 +181,7 @@ export default function Calculator() {
       onPaste={(event) => {
         if (event.clipboardData.files.length) {
           const file = event.clipboardData.files[0];
-          readFile(file);
+          readFile(file, final);
         } else {
           alert(
             "No image data was found in your clipboard. Copy an image first or take a screenshot.",

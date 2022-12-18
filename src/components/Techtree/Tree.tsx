@@ -2,7 +2,9 @@
 import { useRecoilValue } from "recoil";
 
 import { MediaHead } from "@/components/Techtree/MediaHead";
-import { FilterAtom, Shop } from "@/store/atom/atom";
+import { FilterAtom } from "@/store/atom/atom";
+import { finalQuery } from "@/store/final";
+import { shopQuery } from "@/store/shop";
 import { CountryProp, FinalShopGroup, ShopExtGroup, ShopExtItem } from "@/types";
 import { queryVehicleIntname } from "@/utils/custom/QueryVehicle";
 
@@ -15,7 +17,8 @@ interface TechTreeProp extends CountryProp {
 
 export function TechTree(props: TechTreeProp): JSX.Element {
   const { type, country } = props;
-  const shopData = useRecoilValue(Shop);
+  const final = useRecoilValue(finalQuery);
+  const shopData = useRecoilValue(shopQuery);
   const filter = useRecoilValue(FilterAtom);
   const shop = shopData[country][type];
 
@@ -54,7 +57,7 @@ export function TechTree(props: TechTreeProp): JSX.Element {
             if (filter.hide_ingame && element.hidden) {
               //d
             } else if (filter.hide_wiki) {
-              const match = queryVehicleIntname(element.name);
+              const match = queryVehicleIntname(element.name, final);
               if (match?.wikiname) {
                 range.push({ ...element, draw_arrow: false });
               }

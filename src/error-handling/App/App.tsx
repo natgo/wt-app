@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography";
 
 import { FullSizeCenteredFlexBox } from "@/components/styled";
 import { messages } from "@/config";
-import resetApp from "@/utils/reset-app";
+import reloadApp from "@/utils/reset-app";
 
 function AppErrorBoundaryFallback() {
   return (
@@ -16,14 +16,14 @@ function AppErrorBoundaryFallback() {
           <Typography variant="h5" component="h3">
             {messages.app.crash.title}
           </Typography>
-          <Button startIcon={<RestartIcon />} sx={{ mt: 3 }} variant="outlined" onClick={resetApp}>
-            {messages.app.crash.options.reset}
+          <Button startIcon={<RestartIcon />} sx={{ mt: 3 }} variant="outlined" onClick={reloadApp}>
+            {messages.app.crash.options.reload}
           </Button>
           <Button
             startIcon={<RestartIcon />}
             sx={{ mt: 3, ml: 3 }}
             variant="outlined"
-            onClick={resetApp}
+            onClick={reloadApp}
           >
             {messages.app.crash.options.reset}
           </Button>

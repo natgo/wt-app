@@ -14,6 +14,7 @@ import spaa from "@/assets/img/def_spaa_radar.svg";
 import tank_destroyer from "@/assets/img/def_tank_destroyer_radar.svg";
 import utility_helicopter from "@/assets/img/def_utility_helicopter_radar.svg";
 import { FilterAtom, SearchName } from "@/store/atom/atom";
+import { finalQuery } from "@/store/final";
 import { queryVehicleIntname } from "@/utils/custom/QueryVehicle";
 import { querySkins } from "@/utils/custom/querySkins";
 
@@ -23,6 +24,7 @@ export function TreeFolder(props: {
   img: string;
 }): JSX.Element {
   const { children, name, img } = props;
+  const final = useRecoilValue(finalQuery);
   const filter = useRecoilValue(FilterAtom);
   const search = useRecoilValue(SearchName);
 
@@ -44,11 +46,11 @@ export function TreeFolder(props: {
   let br: string | undefined = "-1.0";
   const brarr: { br: string; realbr: number }[] = [];
   console.log(children);
-  const match = queryVehicleIntname(children[0][0].props.intname);
+  const match = queryVehicleIntname(children[0][0].props.intname, final);
   br = match?.rb_br;
   children.forEach((element) => {
     if (element[0].props && element[0].props.intname) {
-      const match = queryVehicleIntname(element[0].props.intname);
+      const match = queryVehicleIntname(element[0].props.intname, final);
       if (match) {
         brarr.push({ br: match.rb_br, realbr: match.rb_realbr });
         const vehicleSkins = querySkins(match);

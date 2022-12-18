@@ -2,16 +2,17 @@ import axios from "axios";
 import { getRecoil, setRecoil } from "recoil-nexus";
 
 import { CalculatorMode, dialogue } from "@/store/atom/atom";
+import { FinalProp } from "@/types";
 import { queryVehicleWikiname, querypartialVehicleWikiname } from "@/utils/custom/QueryVehicle";
 
 import br from "./br";
 import lookup from "./lookup";
 
-async function getBR() {
+async function getBR(final: FinalProp) {
   try {
     const response = await axios.get("http://localhost:8111/indicators");
     console.log(response.data.type);
-    const bb = br(response.data.type);
+    const bb = br(response.data.type, final);
     return bb;
   } catch (error) {
     // manual br input if the br getter didn't work
@@ -20,10 +21,13 @@ async function getBR() {
   }
 }
 
-export default async function changeParsed(sakke: { name: string; id: number }[]) {
+export default async function changeParsed(
+  sakke: { name: string; id: number }[],
+  final: FinalProp,
+) {
   const mode = getRecoil(CalculatorMode);
 
-  const userBr: string = await getBR();
+  const userBr: string = await getBR(final);
 
   let inter: { name: string; id: number; br: string; real_br: number }[] = [];
   const result: { name: string; id: number; br: string; real_br: number }[] = [];
@@ -55,7 +59,7 @@ export default async function changeParsed(sakke: { name: string; id: number }[]
       console.log(`has .. in element: ${element}`);
       element = element.substring(0, element.length - 2);
 
-      const finalarray = querypartialVehicleWikiname(element);
+      const finalarray = querypartialVehicleWikiname(element, final);
       if (finalarray) {
         finalarray.forEach((ement) => {
           if (ement.wikiname) {
@@ -75,7 +79,7 @@ export default async function changeParsed(sakke: { name: string; id: number }[]
       result.push(inter[0]);
       inter = [];
     } else {
-      const query = queryVehicleWikiname(element);
+      const query = queryVehicleWikiname(element, final);
       if (query) {
         if (query.wikiname) {
           const object = {

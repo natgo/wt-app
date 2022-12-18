@@ -13,13 +13,14 @@ import {
   TextField,
 } from "@mui/material";
 
-import { CountryTab, Final, SearchName, TypeTab } from "@/store/atom/atom";
+import { CountryTab, SearchName, TypeTab } from "@/store/atom/atom";
+import { finalQuery } from "@/store/final";
 import { FinalProps } from "@/types";
 import { countryToNumeric } from "@/utils/custom/countryToNumeric";
 import { typeToNumeric } from "@/utils/custom/typeToNumeric";
 
 export function SearchDialog(): JSX.Element {
-  const final = useRecoilValue(Final);
+  const final = useRecoilValue(finalQuery);
   const countrySetValue = useSetRecoilState(CountryTab);
   const setValue = useSetRecoilState(TypeTab);
   const setSearch = useSetRecoilState(SearchName);

@@ -1,19 +1,15 @@
-import { getRecoil } from "recoil-nexus";
+import { FinalProp, FinalProps } from "@/types";
 
-import { Final } from "@/store/atom/atom";
-import { FinalProps } from "@/types";
+export function queryVehicleWikiname(vehicle: string, final: FinalProp): FinalProps | undefined {
+  console.info(vehicle);
 
-export function queryVehicleWikiname(vehicle: string): FinalProps | undefined {
-  const FinalValue = getRecoil(Final);
-  console.log(vehicle);
-
-  const matchAir = FinalValue.aircraft.find((curval) => {
+  const matchAir = final.aircraft.find((curval) => {
     return curval.wikiname?.toLowerCase() === decodeURI(vehicle).replace(/_/g, " ").toLowerCase();
   });
-  const matchGround = FinalValue.ground.find((curval) => {
+  const matchGround = final.ground.find((curval) => {
     return curval.wikiname?.toLowerCase() === decodeURI(vehicle).replace(/_/g, " ").toLowerCase();
   });
-  const matchHelicopter = FinalValue.helicopter.find((curval) => {
+  const matchHelicopter = final.helicopter.find((curval) => {
     return curval.wikiname?.toLowerCase() === decodeURI(vehicle).replace(/_/g, " ").toLowerCase();
   });
   if (matchAir) {
@@ -27,17 +23,16 @@ export function queryVehicleWikiname(vehicle: string): FinalProps | undefined {
   }
 }
 
-export function queryVehicleIntname(vehicle: string): FinalProps | undefined {
-  const FinalValue = getRecoil(Final);
-  console.log(vehicle);
+export function queryVehicleIntname(vehicle: string, final: FinalProp): FinalProps | undefined {
+  console.info(vehicle);
 
-  const matchAir = FinalValue.aircraft.find((curval) => {
+  const matchAir = final.aircraft.find((curval) => {
     return curval.intname.toLowerCase() === vehicle.toLowerCase();
   });
-  const matchGround = FinalValue.ground.find((curval) => {
+  const matchGround = final.ground.find((curval) => {
     return curval.intname.toLowerCase() === vehicle.toLowerCase();
   });
-  const matchHelicopter = FinalValue.helicopter.find((curval) => {
+  const matchHelicopter = final.helicopter.find((curval) => {
     return curval.intname.toLowerCase() === vehicle.toLowerCase();
   });
   if (matchAir) {
@@ -51,22 +46,24 @@ export function queryVehicleIntname(vehicle: string): FinalProps | undefined {
   }
 }
 
-export function querypartialVehicleWikiname(vehicle: string): FinalProps[] | undefined {
-  const FinalValue = getRecoil(Final);
+export function querypartialVehicleWikiname(
+  vehicle: string,
+  final: FinalProp,
+): FinalProps[] | undefined {
   const FinalArray: FinalProps[] = [];
-  console.log(vehicle);
+  console.info(vehicle);
 
-  FinalValue.aircraft.forEach((element) => {
+  final.aircraft.forEach((element) => {
     if (element.wikiname?.search(vehicle) === 0) {
       FinalArray.push(element);
     }
   });
-  FinalValue.ground.forEach((element) => {
+  final.ground.forEach((element) => {
     if (element.wikiname?.search(vehicle) === 0) {
       FinalArray.push(element);
     }
   });
-  FinalValue.helicopter.forEach((element) => {
+  final.helicopter.forEach((element) => {
     if (element.wikiname?.search(vehicle) === 0) {
       FinalArray.push(element);
     }

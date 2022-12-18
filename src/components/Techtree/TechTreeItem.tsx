@@ -12,6 +12,7 @@ import spaa from "@/assets/img/def_spaa_radar.svg";
 import tank_destroyer from "@/assets/img/def_tank_destroyer_radar.svg";
 import utility_helicopter from "@/assets/img/def_utility_helicopter_radar.svg";
 import { FilterAtom, SearchName } from "@/store/atom/atom";
+import { finalQuery } from "@/store/final";
 import { queryVehicleIntname } from "@/utils/custom/QueryVehicle";
 
 import { BlurItem } from "./BlurItem";
@@ -19,10 +20,11 @@ import { ItemImg } from "./ItemImg";
 
 export function TechTreeItem(props: { intname: string }): JSX.Element {
   const { intname } = props;
+  const final = useRecoilValue(finalQuery);
   const filter = useRecoilValue(FilterAtom);
   const search = useRecoilValue(SearchName);
 
-  const match = queryVehicleIntname(intname);
+  const match = queryVehicleIntname(intname, final);
   if (!match) {
     throw new Error(`No match for ${intname}`);
   }

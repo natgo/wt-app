@@ -1,5 +1,6 @@
 export interface FinalProp {
   updated: Date;
+  version: string;
   ground: GroundProps[];
   aircraft: FinalProps[];
   helicopter: FinalProps[];

@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { Outlet, ScrollRestoration, useLocation } from "react-router-dom";
 
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -13,6 +14,8 @@ import IconButton from "@mui/material/IconButton";
 import Toolbar from "@mui/material/Toolbar";
 import Tooltip from "@mui/material/Tooltip";
 
+import Loading from "@/components/Loading";
+import { DataMode } from "@/components/Techtree/DataMode";
 import { Filters } from "@/components/Techtree/Filters";
 import { SearchDialog } from "@/components/Techtree/SearchDialog";
 import { FlexBox } from "@/components/styled";
@@ -23,6 +26,18 @@ import useSidebar from "@/store/sidebar";
 import useTheme from "@/store/theme";
 
 import { HotKeysButton } from "./styled";
+
+function TechtreeButtons() {
+  if (useLocation().pathname.includes("/wt/techtree")) {
+    return (
+      <Suspense fallback={<Loading />}>
+        <SearchDialog />
+        <Filters />
+      </Suspense>
+    );
+  }
+  return null;
+}
 
 function Header() {
   const [, sidebarActions] = useSidebar();
@@ -50,7 +65,7 @@ function Header() {
   }
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1, width: "100%", height: "100%" }}>
       <AppBar color="transparent" elevation={1} position="static">
         <Toolbar sx={{ justifyContent: "space-between" }}>
           <FlexBox sx={{ alignItems: "center" }}>
@@ -70,12 +85,8 @@ function Header() {
             </Button>
           </FlexBox>
           <FlexBox>
-            {useLocation().pathname === "/wt/techtree" ? (
-              <>
-                <SearchDialog />
-                <Filters />
-              </>
-            ) : null}
+            <DataMode />
+            <TechtreeButtons />
             <Divider orientation="vertical" flexItem />
             <FlexBox>
               <Tooltip title="Hot keys" arrow>

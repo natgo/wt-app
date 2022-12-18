@@ -1,5 +1,7 @@
+import { Suspense } from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
+import Loading from "@/components/Loading";
 import AppErrorBoundaryFallback from "@/error-handling/App";
 import Calculator from "@/pages/Calculator";
 import Data from "@/pages/Data";
@@ -31,7 +33,11 @@ const router = createBrowserRouter([
           },
           {
             path: "/wt/techtree/",
-            element: <TreeTech />,
+            element: (
+              <Suspense fallback={<Loading />}>
+                <TreeTech />
+              </Suspense>
+            ),
           },
           {
             path: "/wt/data/",
@@ -39,7 +45,11 @@ const router = createBrowserRouter([
           },
           {
             path: "/wt/techtree/:vehicleId",
-            element: <Vehicle />,
+            element: (
+              <Suspense fallback={<Loading />}>
+                <Vehicle />
+              </Suspense>
+            ),
           },
           {
             path: "/wt/calculator/",

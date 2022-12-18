@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import { useRecoilValue } from "recoil";
 
 import {
   Mobility,
@@ -8,15 +9,17 @@ import {
 } from "@/components/Vehicle/VehicleItem";
 import { Optics } from "@/components/Vehicle/VehicleOptics";
 import { Weapon } from "@/components/Vehicle/VehicleWeapon";
+import { finalQuery } from "@/store/final";
 import { queryVehicleIntname } from "@/utils/custom/QueryVehicle";
 
 import "../Techtree/App.css";
 
 export default function Vehicle(): JSX.Element {
   const params = useParams();
+  const final = useRecoilValue(finalQuery);
   if (params.vehicleId) {
     console.log(params.vehicleId);
-    const match = queryVehicleIntname(params.vehicleId);
+    const match = queryVehicleIntname(params.vehicleId, final);
     console.log(match);
     if (match) {
       if ("horsepower" in match) {

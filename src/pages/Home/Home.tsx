@@ -3,17 +3,26 @@ import { useSetRecoilState } from "recoil";
 import axios from "axios";
 
 import ayskari from "@/assets/img/as.webp";
-import { Final, Shop, SkinAtom } from "@/store/atom/atom";
+import { SkinAtom } from "@/store/atom/atom";
+import { finalDevState, finalLiveState } from "@/store/final";
+import { shopDevState, shopLiveState } from "@/store/shop";
 import { FinalProp, FinalShop, SkinsProp } from "@/types";
 
 export default function Home(): JSX.Element {
-  const finalSetValue = useSetRecoilState(Final);
+  const setFinalLive = useSetRecoilState(finalLiveState);
+  const setFinalDev = useSetRecoilState(finalDevState);
   const skinsSetValue = useSetRecoilState(SkinAtom);
-  const shopSetValue = useSetRecoilState(Shop);
+  const setShopLive = useSetRecoilState(shopLiveState);
+  const setShopDev = useSetRecoilState(shopDevState);
 
   axios.get("./final.json").then((response) => {
     const final: FinalProp = response.data;
-    finalSetValue(final);
+    setFinalLive(final);
+  });
+
+  axios.get("./final-dev.json").then((response) => {
+    const final: FinalProp = response.data;
+    setFinalDev(final);
   });
 
   axios.get("./skins.json").then((response) => {
@@ -23,7 +32,12 @@ export default function Home(): JSX.Element {
 
   axios.get("./shop.json").then((response) => {
     const shop: FinalShop = response.data;
-    shopSetValue(shop);
+    setShopLive(shop);
+  });
+
+  axios.get("./shop-dev.json").then((response) => {
+    const shop: FinalShop = response.data;
+    setShopDev(shop);
   });
 
   return (
