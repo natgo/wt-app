@@ -19,11 +19,11 @@ pipeline {
       }
     }
 
-    stage('Run Cypress tests') {
-      steps {
-        sh 'npx cypress run'
-      }
-    }
+    //stage('Run Cypress tests') {
+    //  steps {
+    //    sh 'npx cypress run'
+    //  }
+    //}
 
     stage('Build') {
       steps {
