@@ -14,7 +14,7 @@ pipeline {
 
     stage('Start Dev server') {
       steps {
-        sh 'npx vite'
+        sh 'npm run dev'
         sleep(30)
       }
     }
