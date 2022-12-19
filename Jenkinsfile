@@ -14,7 +14,7 @@ pipeline {
 
     stage('Start Dev server') {
       steps {
-        sh 'nohup npm run dev &'
+        sh 'nohup npx vite &'
         sleep(30)
       }
     }
