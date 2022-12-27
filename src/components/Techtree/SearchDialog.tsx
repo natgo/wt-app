@@ -45,18 +45,22 @@ export function SearchDialog(): JSX.Element {
 
   const [query, updateQuery] = useState("");
 
-  function filterPosts(search: FinalProps[], query: string): FinalProps[] | undefined {
+  function filterVehicles(search: FinalProps[], query: string): FinalProps[] | undefined {
     if (query === "") {
       return undefined;
     }
 
-    return search.filter((post) => {
-      const postName = post.wikiname?.toLowerCase();
-      return postName?.includes(query);
+    return search.filter((vehicle) => {
+      const vehicleWikiName = vehicle.wikiname?.toLowerCase();
+      const vehicleIntName = vehicle.intname.toLowerCase();
+      if (vehicleWikiName?.includes(query) || vehicleIntName.includes(query)) {
+        return true;
+      }
+      return false;
     });
   }
 
-  const filteredPosts = filterPosts(
+  const filteredVehicles = filterVehicles(
     [...final.ground, ...final.aircraft, ...final.helicopter],
     query.toLowerCase(),
   );
@@ -81,8 +85,8 @@ export function SearchDialog(): JSX.Element {
             onChange={(e) => updateQuery(e.target.value)}
           />
           <ul>
-            {filteredPosts
-              ? filteredPosts.map((vehicle) => (
+            {filteredVehicles
+              ? filteredVehicles.map((vehicle) => (
                   <Link
                     key={vehicle.intname}
                     to={"/wt/techtree#" + vehicle.intname}
