@@ -1,8 +1,7 @@
 export interface FinalProp {
-  updated: Date;
   version: string;
   ground: GroundProps[];
-  aircraft: FinalProps[];
+  aircraft: AircraftProps[];
   helicopter: FinalProps[];
 }
 
@@ -38,6 +37,74 @@ export interface FinalProps {
   cost_gold?: number;
   hidden?: boolean;
   marketplace?: number;
+}
+
+export interface AircraftProps extends FinalProps {
+  ballistic_computer?: BallisticComputer;
+  secondary_weapon_preset?: SecondaryWeaponPreset;
+}
+
+export interface BallisticComputer {
+  ccip_guns?: true;
+  ccip_rockets?: true;
+  ccip_bombs?: true;
+  ccrp_bombs?: true;
+}
+
+export interface SecondaryWeaponPreset {
+  maxload: number;
+  maxloadLeft: number;
+  maxloadRight: number;
+  maxDisbalance: number;
+  weaponSlots: Array<Array<FinalWeapons | FinalWeapon | { name: string }>>;
+}
+
+export interface FinalWeapons {
+  intname: string;
+  iconType: string;
+  reqModification?: string;
+  hidden?: true;
+  weapons: FinalWeaponArray[];
+}
+
+export interface FinalWeaponArray {
+  type:
+    | "aam"
+    | "agm"
+    | "bomb"
+    | "guided_bomb"
+    | "torpedo"
+    | "rocket"
+    | "gun"
+    | "countermeasures"
+    | "fuel_tank"
+    | "optics"
+    | "targeting_pod"
+    | "booster"
+    | null;
+  bullets?: number;
+}
+
+export interface FinalWeapon {
+  type:
+    | "aam"
+    | "agm"
+    | "bomb"
+    | "guided_bomb"
+    | "torpedo"
+    | "rocket"
+    | "gun"
+    | "countermeasures"
+    | "fuel_tank"
+    | "optics"
+    | "targeting_pod"
+    | "booster"
+    | null;
+  bullets?: number;
+  intname: string;
+  iconType: string;
+  reqModification?: string;
+  hidden?: true;
 }
 
 export interface GroundProps extends FinalProps {

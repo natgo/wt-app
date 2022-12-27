@@ -7,8 +7,8 @@ export function VehicleImage(props: { vehicle: FinalProps }): JSX.Element {
     <div className="specs_card_main_slider">
       <div className="image">
         <img
-          alt={`GarageImage_${vehicle.wikiname}.jpg`}
-          src={`https://natgo.xyz/files/wt/images/garageimages/File:GarageImage ${vehicle.wikiname}.jpg`}
+          alt={`GarageImage_${vehicle.intname}.jpg`}
+          src={`https://natgo.xyz/files/wt/images/garageimages/${vehicle.intname}.jpg`}
           width="800"
           height="450"
           data-file-width="1920"
