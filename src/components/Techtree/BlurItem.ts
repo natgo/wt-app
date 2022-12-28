@@ -1,9 +1,9 @@
 import { FilterProps } from "@/store/atom/types";
-import { FinalProps, GroundProps } from "@/types";
+import { VehicleProps } from "@/types";
 import { querySkins } from "@/utils/custom/querySkins";
 
 export function BlurItem(
-  vehicle: FinalProps | GroundProps,
+  vehicle: VehicleProps,
   filter: FilterProps,
   search: string | undefined,
 ): boolean {
@@ -22,7 +22,7 @@ export function BlurItem(
   ) {
     return true;
   }
-  if ("horsepower" in vehicle && filter.show_features && !vehicle[filter.show_features]) {
+  if (vehicle.type === "tank" && filter.show_features && !vehicle[filter.show_features]) {
     return true;
   }
 

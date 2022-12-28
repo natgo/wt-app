@@ -1,9 +1,57 @@
 import { getRecoil } from "recoil-nexus";
 
 import { SkinAtom } from "@/store/atom/atom";
-import { Countries, FinalProps, VehicleSkinsProp } from "@/types";
+import { Countries, VehicleProps, VehicleSkinsProp } from "@/types";
 
-export function querySkins(vehicle: FinalProps): VehicleSkinsProp {
+function skinsFEloop(country: Countries, vehicle: VehicleProps, type: "ground" | "aircraft") {
+  const vehicleSkins: VehicleSkinsProp = {
+    historical: [],
+    fictional: [],
+  };
+  const countryType = country[type];
+  if (countryType !== undefined) {
+    countryType.ungrouped?.forEach((skinelement) => {
+      skinelement.intnames.forEach((element) => {
+        if (element === vehicle.intname) {
+          vehicleSkins.historical.push(skinelement);
+        }
+      });
+    });
+    if (countryType.grouped) {
+      Object.values(countryType.grouped).forEach((value) => {
+        value.forEach((skinelement) => {
+          skinelement.intnames.forEach((element) => {
+            if (element === vehicle.intname) {
+              vehicleSkins.historical.push(skinelement);
+            }
+          });
+        });
+      });
+    }
+  }
+  return vehicleSkins;
+}
+
+function skinsCountryLoop(country: Countries, vehicle: VehicleProps) {
+  const vehicleSkins: VehicleSkinsProp = {
+    historical: [],
+    fictional: [],
+  };
+  if (vehicle.type === "tank" && country.ground) {
+    const vehicleSkin = skinsFEloop(country, vehicle, "ground");
+    vehicleSkins.fictional.push(...vehicleSkin.fictional);
+    vehicleSkins.historical.push(...vehicleSkin.historical);
+  }
+
+  if ((vehicle.type === "aircraft" || vehicle.type === "helicopter") && country.aircraft) {
+    const vehicleSkin = skinsFEloop(country, vehicle, "aircraft");
+    vehicleSkins.fictional.push(...vehicleSkin.fictional);
+    vehicleSkins.historical.push(...vehicleSkin.historical);
+  }
+  return vehicleSkins;
+}
+
+export function querySkins(vehicle: VehicleProps): VehicleSkinsProp {
   const skins = getRecoil(SkinAtom);
   const vehicleSkins: VehicleSkinsProp = {
     historical: [],
@@ -12,92 +60,16 @@ export function querySkins(vehicle: FinalProps): VehicleSkinsProp {
 
   Object.values(skins.historical).forEach((value) => {
     const value2 = value as Countries;
-    if (vehicle.type === "tank" && value2.ground) {
-      value2.ground.ungrouped?.forEach((skinelement) => {
-        skinelement.intnames.forEach((element) => {
-          if (element === vehicle.intname) {
-            vehicleSkins.historical.push(skinelement);
-          }
-        });
-      });
-      if (value2.ground.grouped) {
-        Object.values(value2.ground.grouped).forEach((value) => {
-          value.forEach((skinelement) => {
-            skinelement.intnames.forEach((element) => {
-              if (element === vehicle.intname) {
-                vehicleSkins.historical.push(skinelement);
-              }
-            });
-          });
-        });
-      }
-    }
-
-    if (vehicle.type === "aircraft" && value2.aircraft) {
-      value2.aircraft.ungrouped?.forEach((skinelement) => {
-        skinelement.intnames.forEach((element) => {
-          if (element === vehicle.intname) {
-            vehicleSkins.historical.push(skinelement);
-          }
-        });
-      });
-      if (value2.aircraft.grouped) {
-        Object.values(value2.aircraft.grouped).forEach((value) => {
-          value.forEach((skinelement) => {
-            skinelement.intnames.forEach((element) => {
-              if (element === vehicle.intname) {
-                vehicleSkins.historical.push(skinelement);
-              }
-            });
-          });
-        });
-      }
-    }
+    const vehicleSkin = skinsCountryLoop(value2, vehicle);
+    vehicleSkins.fictional.push(...vehicleSkin.fictional);
+    vehicleSkins.historical.push(...vehicleSkin.historical);
   });
 
   Object.values(skins.fictional).forEach((value) => {
     const value2 = value as Countries;
-    if (vehicle.type === "tank" && value2.ground) {
-      value2.ground.ungrouped?.forEach((skinelement) => {
-        skinelement.intnames.forEach((element) => {
-          if (element === vehicle.intname) {
-            vehicleSkins.fictional.push(skinelement);
-          }
-        });
-      });
-      if (value2.ground.grouped) {
-        Object.values(value2.ground.grouped).forEach((value) => {
-          value.forEach((skinelement) => {
-            skinelement.intnames.forEach((element) => {
-              if (element === vehicle.intname) {
-                vehicleSkins.fictional.push(skinelement);
-              }
-            });
-          });
-        });
-      }
-    }
-
-    if (vehicle.type === "aircraft" && value2.aircraft) {
-      value2.aircraft.ungrouped?.forEach((skinelement) => {
-        skinelement.intnames.forEach((element) => {
-          if (element === vehicle.intname) {
-            vehicleSkins.fictional.push(skinelement);
-          }
-        });
-      });
-      if (value2.aircraft.grouped) {
-        Object.values(value2.aircraft.grouped).forEach((value) => {
-          value.forEach((skinelement) => {
-            skinelement.intnames.forEach((element) => {
-              if (element === vehicle.intname) {
-                vehicleSkins.fictional.push(skinelement);
-              }
-            });
-          });
-        });
-      }
-    }
+    const vehicleSkin = skinsCountryLoop(value2, vehicle);
+    vehicleSkins.fictional.push(...vehicleSkin.fictional);
+    vehicleSkins.historical.push(...vehicleSkin.historical);
   });
 
   return vehicleSkins;

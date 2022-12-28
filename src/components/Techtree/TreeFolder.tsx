@@ -63,7 +63,7 @@ export function TreeFolder(props: {
         if (search === match.intname) {
           searches = true;
         }
-        if (filter.show_features && "horsepower" in match && match[filter.show_features]) {
+        if (filter.show_features && match.type === "tank" && match[filter.show_features]) {
           features = true;
         }
         if (findClass) {

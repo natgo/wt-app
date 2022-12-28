@@ -1,13 +1,15 @@
-import { DefaultValue } from "recoil";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { AtomEffect, DefaultValue } from "recoil";
 
 import localforage from "localforage";
 
 export const localForageEffect =
-  (key) =>
+  (key: string): AtomEffect<any> =>
   ({ setSelf, onSet }) => {
     setSelf(
       localforage.getItem(key).then(
-        (savedValue) => (savedValue != null ? JSON.parse(savedValue) : new DefaultValue()), // Abort initialization if no value was stored
+        (savedValue) =>
+          typeof savedValue === "string" ? JSON.parse(savedValue) : new DefaultValue(), // Abort initialization if no value was stored
       ),
     );
 

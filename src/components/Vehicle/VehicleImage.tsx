@@ -1,6 +1,6 @@
-import { FinalProps } from "@/types";
+import { VehicleProps } from "@/types";
 
-export function VehicleImage(props: { vehicle: FinalProps }): JSX.Element {
+export function VehicleImage(props: { vehicle: VehicleProps }): JSX.Element {
   const { vehicle } = props;
 
   return (

@@ -2,9 +2,9 @@ import rpImg from "@/assets/img/14px-Specs-Card-Exp.png";
 import squadImg from "@/assets/img/23px-Specs-Card-Activity.png";
 import geImg from "@/assets/img/Specs-Card-Eagle.png";
 import slImg from "@/assets/img/Specs-Card-Lion.png";
-import { FinalProps } from "@/types";
+import { VehicleProps } from "@/types";
 
-export function VehiclePrice(props: { vehicle: FinalProps }): JSX.Element {
+export function VehiclePrice(props: { vehicle: VehicleProps }): JSX.Element {
   const { prem_type, reqRP, sl_price, cost_gold, hidden, marketplace } = props.vehicle;
   console.log(props);
   let rp = "Not Free";

@@ -1,18 +1,16 @@
 /* eslint-disable react/no-unknown-property */
 import { Tooltip } from "@mui/material";
 
-import { ToolTip } from "@/components/Skins/ToolTip";
-import { FinalProps, GroundProps } from "@/types";
+import { GroundProps, VehicleProps } from "@/types";
 import { vehicleCountry } from "@/utils/custom/VehicleCountry";
 import { vehicleType } from "@/utils/custom/VehicleType";
 import { numRankToStr } from "@/utils/custom/numericRankToString";
-import { querySkins } from "@/utils/custom/querySkins";
 
 import ArmorTable from "./Table";
 import { VehicleImage } from "./VehicleImage";
 import { VehiclePrice } from "./VehiclePrice";
 
-export function SpecsCard(props: { vehicle: FinalProps }): JSX.Element {
+export function SpecsCard(props: { vehicle: VehicleProps }): JSX.Element {
   const { vehicle } = props;
 
   const country = vehicleCountry(vehicle.country);
@@ -174,7 +172,7 @@ export function Survivability(props: { vehicle: GroundProps }): JSX.Element {
   );
 }
 
-function Premium(props: { vehicle: FinalProps }): JSX.Element | null {
+function Premium(props: { vehicle: VehicleProps }): JSX.Element | null {
   const { vehicle } = props;
   if (vehicle.cost_gold) {
     return (
@@ -189,7 +187,7 @@ function Premium(props: { vehicle: FinalProps }): JSX.Element | null {
   }
 }
 
-function Squadron(props: { vehicle: FinalProps }): JSX.Element | null {
+function Squadron(props: { vehicle: VehicleProps }): JSX.Element | null {
   const { vehicle } = props;
   if (vehicle.prem_type === "squad") {
     return (
@@ -477,43 +475,4 @@ function NeutralSteer(props: { vehicle: GroundProps }) {
     );
   }
   return null;
-}
-
-export function VehicleSkinsCard(props: { vehicle: FinalProps }): JSX.Element | null {
-  const { vehicle } = props;
-  const vehicleSkins = querySkins(vehicle);
-
-  if (vehicleSkins.historical.length > 0 || vehicleSkins.fictional.length > 0) {
-    return (
-      <div className="skins" data-code={vehicle.intname}>
-        <div className="specs_card">
-          <div className="general_info_title">
-            Skins for {vehicle.displayname ? vehicle.displayname : vehicle.intname}
-          </div>
-          {vehicleSkins.historical.length > 0 ? (
-            <>
-              <div className="general_info_title">Historical</div>
-              <div className="general_info_skins">
-                {vehicleSkins.historical.map((element) => {
-                  return <ToolTip value={element} key={element.post} />;
-                })}
-              </div>
-            </>
-          ) : null}
-          {vehicleSkins.fictional.length > 0 ? (
-            <>
-              <div className="general_info_title">Fictional</div>
-              <div className="general_info_skins">
-                {vehicleSkins.fictional.map((element) => {
-                  return <ToolTip value={element} key={element.post} />;
-                })}
-              </div>
-            </>
-          ) : null}
-        </div>
-      </div>
-    );
-  } else {
-    return null;
-  }
 }

@@ -8,13 +8,13 @@ import { localForageEffect } from "..";
 
 export const finalLiveState = atom<FinalProp>({
   key: "final-live-state",
-  default: { updated: new Date(), version: "2.0", aircraft: [], ground: [], helicopter: [] },
+  default: { version: "2.0", aircraft: [], ground: [], helicopter: [] },
   effects: [localForageEffect("final-live")],
 });
 
 export const finalDevState = atom<FinalProp>({
   key: "final-dev-state",
-  default: { updated: new Date(), version: "2.1", aircraft: [], ground: [], helicopter: [] },
+  default: { version: "2.1", aircraft: [], ground: [], helicopter: [] },
   effects: [localForageEffect("final-dev")],
 });
 

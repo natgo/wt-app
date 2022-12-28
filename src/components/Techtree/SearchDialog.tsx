@@ -15,7 +15,7 @@ import {
 
 import { CountryTab, SearchName, TypeTab } from "@/store/atom/atom";
 import { finalQuery } from "@/store/final";
-import { FinalProps } from "@/types";
+import { VehicleProps } from "@/types";
 import { countryToNumeric } from "@/utils/custom/countryToNumeric";
 import { typeToNumeric } from "@/utils/custom/typeToNumeric";
 
@@ -25,7 +25,7 @@ export function SearchDialog(): JSX.Element {
   const setValue = useSetRecoilState(TypeTab);
   const setSearch = useSetRecoilState(SearchName);
 
-  const handleClickVehicle = (vehicle: FinalProps) => {
+  const handleClickVehicle = (vehicle: VehicleProps) => {
     countrySetValue(countryToNumeric(vehicle.country));
     setOpen(false);
     setValue(typeToNumeric(vehicle.type));
@@ -45,7 +45,7 @@ export function SearchDialog(): JSX.Element {
 
   const [query, updateQuery] = useState("");
 
-  function filterVehicles(search: FinalProps[], query: string): FinalProps[] | undefined {
+  function filterVehicles(search: VehicleProps[], query: string): VehicleProps[] | undefined {
     if (query === "") {
       return undefined;
     }
