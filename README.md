@@ -4,6 +4,7 @@
   <img alt="Snyk Vulnerabilities for GitHub Repo" src="https://img.shields.io/snyk/vulnerabilities/github/natgo/wt-app">
   <a href="https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg"></a>
   <img alt="GitHub" src="https://img.shields.io/github/license/natgo/wt-app">
+  <img alt="GitHub" src="https://tokei.rs/b1/github.com/natgo/wt-app">
 </p>
 
 <p align="center">
