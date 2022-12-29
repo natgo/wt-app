@@ -79,7 +79,6 @@
 .tablecontainer {
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 200px repeat(auto-fit, 180px);
   padding: 20px;
 }
 
@@ -95,7 +94,8 @@
 .tablecontainer > div > div.values {
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
   justify-items: center;
   align-content: center;
   width: 100%;
@@ -110,6 +110,12 @@
   display: grid;
   justify-content: center;
   align-content: center;
+}
+
+.tablecontainer > div > div.values div.value span {
+  justify-content: center;
+  align-content: center;
+  display: grid;
 }
 
 .tablecontainer > div > div.value {
@@ -159,7 +165,8 @@
   width: 100%;
   height: 100%;
   border-top: 1px solid #b0bec5;
-  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
 }
 
 .tablecontainer > div > div.names > div.lower > div {

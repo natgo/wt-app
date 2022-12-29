@@ -7,7 +7,10 @@ export function Optics(props: { vehicle: GroundProps }): JSX.Element {
 
   return (
     <div className="optics">
-      <div className="tablecontainer gunner">
+      <div
+        className="tablecontainer gunner"
+        style={{ gridTemplateColumns: "200px repeat(auto-fit, 180px)" }}
+      >
         <div className="zoom">
           <div className="names">
             <div className="upper">

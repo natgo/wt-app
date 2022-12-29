@@ -37,7 +37,11 @@ export function Weapon(props: { vehicle: GroundProps }): JSX.Element {
           verticalLimit = `${element.verticalLimit[0]}°/+${element.verticalLimit[1]}°`;
         }
         return (
-          <div key={index} className="tablecontainer">
+          <div
+            key={index}
+            className="tablecontainer"
+            style={{ gridTemplateColumns: "200px repeat(auto-fit, 180px)" }}
+          >
             <div className="name">
               <div className="name">
                 <span>{element.name}</span>
