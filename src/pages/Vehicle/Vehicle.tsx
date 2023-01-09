@@ -6,7 +6,7 @@ import { SecondaryPreset } from "@/components/Vehicle/SecondaryPreset";
 import { Mobility, SpecsCard, Survivability } from "@/components/Vehicle/VehicleItem";
 import { Optics } from "@/components/Vehicle/VehicleOptics";
 import { VehicleSkinsCard } from "@/components/Vehicle/VehicleSkinsCard";
-import { Weapon } from "@/components/Vehicle/VehicleWeapon";
+import { GroundWeapon } from "@/components/Vehicle/VehicleWeapon";
 import { finalQuery } from "@/store/final";
 import { queryVehicleIntname } from "@/utils/custom/QueryVehicle";
 
@@ -27,7 +27,7 @@ export default function Vehicle(): JSX.Element {
             <VehicleSkinsCard vehicle={match} />
             <Survivability vehicle={match} />
             <Mobility vehicle={match} />
-            <Weapon vehicle={match} />
+            <GroundWeapon vehicle={match} />
             <Optics vehicle={match} />
           </div>
         );
@@ -45,6 +45,8 @@ export default function Vehicle(): JSX.Element {
           <div>
             <SpecsCard vehicle={match} />
             <VehicleSkinsCard vehicle={match} />
+            <BallisticComputer vehicle={match} />
+            <SecondaryPreset vehicle={match} />
           </div>
         );
       }

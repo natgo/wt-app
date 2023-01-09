@@ -4,7 +4,7 @@ import { Close } from "@mui/icons-material";
 import { ButtonBase, ClickAwayListener } from "@mui/material";
 
 import { BlackTooltip } from "@/pages/Skins/Skins";
-import { AircraftProps, FinalWeapon, FinalWeapons } from "@/types";
+import { AircraftProps, FinalWeapon, FinalWeapons, HelicopterProps } from "@/types";
 
 function SlotWeapon(props: { value: FinalWeapon | FinalWeapons | { name: string } }) {
   const { value } = props;
@@ -15,6 +15,14 @@ function SlotWeapon(props: { value: FinalWeapon | FinalWeapons | { name: string 
         {"displayname" in value && value.displayname && "bullets" in value
           ? ` (Ammo: ${value.bullets})`
           : " (Ammo: 1)"}
+      </div>
+    );
+  }
+  if ("weapons" in value && value.weapons[0].displayname) {
+    return (
+      <div>
+        {value.weapons[0].displayname}
+        {` (Ammo: ${value.weapons.length})`}
       </div>
     );
   }
@@ -108,7 +116,9 @@ function SecondarySlotToolTip(props: { value: (FinalWeapon | FinalWeapons | { na
   );
 }
 
-export function SecondaryPreset(props: { vehicle: AircraftProps }): JSX.Element | null {
+export function SecondaryPreset(props: {
+  vehicle: AircraftProps | HelicopterProps;
+}): JSX.Element | null {
   const { vehicle } = props;
 
   if (vehicle.secondary_weapon_preset) {

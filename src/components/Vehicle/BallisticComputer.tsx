@@ -1,8 +1,10 @@
 import { Check, Close } from "@mui/icons-material";
 
-import { AircraftProps } from "@/types";
+import { AircraftProps, HelicopterProps } from "@/types";
 
-export function BallisticComputer(props: { vehicle: AircraftProps }): JSX.Element | null {
+export function BallisticComputer(props: {
+  vehicle: AircraftProps | HelicopterProps;
+}): JSX.Element | null {
   const { vehicle } = props;
 
   if (vehicle.ballistic_computer) {

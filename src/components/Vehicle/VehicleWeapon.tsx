@@ -1,6 +1,6 @@
 import { GroundProps, TankCannon } from "@/types";
 
-export function Weapon(props: { vehicle: GroundProps }): JSX.Element {
+export function GroundWeapon(props: { vehicle: GroundProps }): JSX.Element {
   const { weapons } = props.vehicle;
 
   return (
