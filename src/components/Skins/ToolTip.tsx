@@ -7,7 +7,7 @@ export function ToolTip(props: ToolTipProp): JSX.Element {
   const { value } = props;
 
   return (
-    <BlackTooltip title={ToolTipText(value)}>
+    <BlackTooltip placement="left-start" title={ToolTipText(value)}>
       <a
         target="_blank"
         rel="noopener noreferrer"

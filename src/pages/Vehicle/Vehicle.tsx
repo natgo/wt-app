@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { useRecoilValue } from "recoil";
 
 import { BallisticComputer } from "@/components/Vehicle/BallisticComputer";
+import { SecondaryPreset } from "@/components/Vehicle/SecondaryPreset";
 import { Mobility, SpecsCard, Survivability } from "@/components/Vehicle/VehicleItem";
 import { Optics } from "@/components/Vehicle/VehicleOptics";
 import { VehicleSkinsCard } from "@/components/Vehicle/VehicleSkinsCard";
@@ -36,6 +37,7 @@ export default function Vehicle(): JSX.Element {
             <SpecsCard vehicle={match} />
             <VehicleSkinsCard vehicle={match} />
             <BallisticComputer vehicle={match} />
+            <SecondaryPreset vehicle={match} />
           </div>
         );
       } else {

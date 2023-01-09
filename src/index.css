@@ -79,7 +79,7 @@
 .tablecontainer {
   display: grid;
   grid-template-rows: 1fr;
-  padding: 20px;
+  padding: 30px;
 }
 
 .tablecontainer > div {
@@ -188,6 +188,13 @@
   grid-row: 1;
   grid-column: 2;
   border-left-width: 1px;
+}
+
+.secondary {
+  display: grid;
+  grid-auto-columns: 40px;
+  grid-auto-flow: column;
+  padding: 30px;
 }
 
 div.skins .specs_card {
