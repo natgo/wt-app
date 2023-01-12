@@ -221,3 +221,29 @@ div.skins .general_info_title {
 div.skins .general_info_skins {
   padding: 10px 0;
 }
+
+.specs_card_main .general_info_neighbors {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-flow: column;
+}
+
+.specs_card_main .general_info_neighbors .prev {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.specs_card_main .general_info_neighbors .next {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.specs_card_main .general_info_neighbors .prev.folder {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.specs_card_main .general_info_neighbors .next.folder {
+  grid-column: 2;
+  grid-row: 2;
+}

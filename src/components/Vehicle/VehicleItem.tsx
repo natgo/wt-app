@@ -8,6 +8,7 @@ import { numRankToStr } from "@/utils/custom/numericRankToString";
 
 import ArmorTable from "./Table";
 import { VehicleImage } from "./VehicleImage";
+import { VehicleNeighbor } from "./VehicleNeighbors";
 import { VehiclePrice } from "./VehiclePrice";
 
 export function SpecsCard(props: { vehicle: VehicleProps }): JSX.Element {
@@ -39,7 +40,9 @@ export function SpecsCard(props: { vehicle: VehicleProps }): JSX.Element {
             </span>
           </Tooltip>
         </div>
-        <div className="general_info_neighbors"></div>
+        <div className="general_info_neighbors">
+          <VehicleNeighbor vehicle={vehicle} />
+        </div>
         <div className="general_info">
           <div className="general_info_nation">
             <a
