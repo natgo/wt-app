@@ -1,5 +1,7 @@
 import { GroundProps, TankCannon } from "@/types";
 
+import { Stabilizer } from "./Stabilizer";
+
 export function GroundWeapon(props: { vehicle: GroundProps }): JSX.Element {
   const { weapons } = props.vehicle;
 
@@ -106,7 +108,7 @@ export function GroundWeapon(props: { vehicle: GroundProps }): JSX.Element {
                 <span>Stabilizer</span>
               </div>
               <div className="value">
-                <span>{element.stabilizer ? JSON.stringify(element.stabilizer) : "Negative"}</span>
+                <Stabilizer weapon={element} />
               </div>
             </div>
             <Autoloader autoloader={element.autoloader} />
@@ -172,7 +174,10 @@ function Dummy(props: { cannon: TankCannon }) {
     verticalLimit = `${cannon.verticalLimit[0]}°/+${cannon.verticalLimit[1]}°`;
   }
   return (
-    <div className="tablecontainer">
+    <div
+      className="tablecontainer"
+      style={{ gridTemplateColumns: "200px repeat(auto-fit, 180px)" }}
+    >
       <div className="name">
         <div className="name">
           <span>Dummy weapon</span>
@@ -229,7 +234,7 @@ function Dummy(props: { cannon: TankCannon }) {
           <span>Stabilizer</span>
         </div>
         <div className="value">
-          <span>{cannon.stabilizer ? JSON.stringify(cannon.stabilizer) : "Negative"}</span>
+          <Stabilizer weapon={cannon} />
         </div>
       </div>
     </div>

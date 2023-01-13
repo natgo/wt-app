@@ -13,8 +13,21 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
   const final = useRecoilValue(finalQuery);
   const shopData = useRecoilValue(shopQuery);
 
+  let type: "army" | "aviation" | "helicopters" = "army";
+  switch (vehicle.type) {
+    case "tank":
+      type = "army";
+      break;
+    case "aircraft":
+      type = "aviation";
+      break;
+    case "helicopter":
+      type = "helicopters";
+      break;
+  }
+
   let pos = 0;
-  const col = shopData[vehicle.country].army.range.findIndex((element) => {
+  const col = shopData[vehicle.country][type].range.findIndex((element) => {
     const row = element.findIndex((element) => {
       if ("vehicles" in element) {
         return element.vehicles.find((element) => {
@@ -33,13 +46,13 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
   });
   console.log(col, pos);
 
-  const curpos = shopData[vehicle.country].army.range[col][pos];
+  const curpos = shopData[vehicle.country][type].range[col][pos];
   let curfolder = false;
   if ("vehicles" in curpos) {
     curfolder = true;
   }
 
-  const nextpos = shopData[vehicle.country].army.range[col][pos + 1] as
+  const nextpos = shopData[vehicle.country][type].range[col][pos + 1] as
     | FinalShopItem
     | FinalShopGroup
     | undefined;
@@ -53,7 +66,7 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
     }
   }
 
-  const prevpos = shopData[vehicle.country].army.range[col][pos - 1] as
+  const prevpos = shopData[vehicle.country][type].range[col][pos - 1] as
     | FinalShopItem
     | FinalShopGroup
     | undefined;

@@ -45,16 +45,20 @@ function Thermal(props: { optics: Sight }) {
   const { optics } = props;
   console.log(optics);
   if (optics.thermal) {
-    let gen = "";
+    let gen,
+      gencolor = "";
     switch (optics.thermal.resolution[0]) {
       case 1200:
         gen = "3rd";
+        gencolor = "limegreen";
         break;
       case 800:
         gen = "2nd";
+        gencolor = "yellow";
         break;
       case 500:
         gen = "1st";
+        gencolor = "orange";
         break;
     }
     return (
@@ -76,7 +80,7 @@ function Thermal(props: { optics: Sight }) {
           <div className="value">
             <span>{`${optics.thermal.resolution[0]}x${optics.thermal.resolution[1]}`}</span>
           </div>
-          <div className="value">
+          <div className="value" style={{ backgroundColor: gencolor }}>
             <span>{gen}</span>
           </div>
         </div>
