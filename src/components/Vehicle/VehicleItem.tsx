@@ -7,6 +7,7 @@ import { vehicleType } from "@/utils/custom/VehicleType";
 import { numRankToStr } from "@/utils/custom/numericRankToString";
 
 import ArmorTable from "./Table";
+import { VehicleButtons } from "./VehicleButtons";
 import { VehicleImage } from "./VehicleImage";
 import { VehicleNeighbor } from "./VehicleNeighbors";
 import { VehiclePrice } from "./VehiclePrice";
@@ -133,11 +134,7 @@ export function SpecsCard(props: { vehicle: VehicleProps }): JSX.Element {
           <VehiclePrice vehicle={vehicle} />
         </div>
         <div className="general_info_buttons">
-          <div className="general_info_buttons_container">
-            <div className="general_info_game_button" title="Show in game">
-              <span>Show in game</span>
-            </div>
-          </div>
+          <VehicleButtons vehicle={vehicle} />
         </div>
       </div>
     </div>

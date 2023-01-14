@@ -37,7 +37,8 @@ export interface FinalProps {
   event?: string;
   cost_gold?: number;
   hidden?: boolean;
-  marketplace?: number;
+  marketplace?: string;
+  store?: string;
 }
 
 export interface AircraftProps extends FinalProps {
