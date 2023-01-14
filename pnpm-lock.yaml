@@ -21,9 +21,9 @@ specifiers:
   axios: 1.2.2
   cssnano: ^5.1.14
   cypress: 12.3.0
-  d3: 7.8.0
+  d3: 7.8.1
   eslint: 8.31.0
-  eslint-plugin-react: 7.31.11
+  eslint-plugin-react: 7.32.0
   eslint-plugin-react-hooks: 4.6.0
   https-localhost: 4.7.1
   husky: 8.0.3
@@ -37,11 +37,11 @@ specifiers:
   react-dom: 18.2.0
   react-dropzone: 14.2.3
   react-hotkeys-hook: 4.3.2
-  react-router-dom: 6.6.1
+  react-router-dom: 6.6.2
   recoil: 0.7.6
   recoil-nexus: 0.4.0
   recoil-persist: 4.2.0
-  rollup: 3.9.1
+  rollup: 3.10.0
   rollup-plugin-visualizer: 5.9.0
   stylelint: 14.16.1
   stylelint-config-standard: 29.0.0
@@ -60,7 +60,7 @@ dependencies:
   '@mui/system': 5.11.4_ogriz7mfahdh34qnfautfro5yu
   '@mui/utils': 5.11.2_react@18.2.0
   axios: 1.2.2
-  d3: 7.8.0
+  d3: 7.8.1
   is-mobile: 3.1.1
   localforage: 1.10.0
   notistack: 2.0.8_22lfntuixnwi3ifma47z2sdegi
@@ -68,7 +68,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   react-dropzone: 14.2.3_react@18.2.0
   react-hotkeys-hook: 4.3.2_biqbaboplfbrettd7655fr4n2y
-  react-router-dom: 6.6.1_biqbaboplfbrettd7655fr4n2y
+  react-router-dom: 6.6.2_biqbaboplfbrettd7655fr4n2y
   recoil: 0.7.6_biqbaboplfbrettd7655fr4n2y
   recoil-nexus: 0.4.0_v4nwflcfn7b4oxd6ariifw2vym
   recoil-persist: 4.2.0_recoil@0.7.6
@@ -86,15 +86,15 @@ devDependencies:
   cssnano: 5.1.14_postcss@8.4.21
   cypress: 12.3.0
   eslint: 8.31.0
-  eslint-plugin-react: 7.31.11_eslint@8.31.0
+  eslint-plugin-react: 7.32.0_eslint@8.31.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.31.0
   https-localhost: 4.7.1
   husky: 8.0.3
   lint-staged: 13.1.0
   postcss: 8.4.21
   prettier: 2.8.2
-  rollup: 3.9.1
-  rollup-plugin-visualizer: 5.9.0_rollup@3.9.1
+  rollup: 3.10.0
+  rollup-plugin-visualizer: 5.9.0_rollup@3.10.0
   stylelint: 14.16.1
   stylelint-config-standard: 29.0.0_stylelint@14.16.1
   typescript: 4.9.4
@@ -2100,7 +2100,7 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-replace/5.0.1_rollup@3.9.1:
+  /@rollup/plugin-replace/5.0.1_rollup@3.10.0:
     resolution: {integrity: sha512-Z3MfsJ4CK17BfGrZgvrcp/l6WXoKb0kokULO+zt/7bmcyayokDaQ2K3eDJcRLCTAlp5FPI4/gz9MHAsosz4Rag==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -2109,9 +2109,9 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2_rollup@3.9.1
+      '@rollup/pluginutils': 5.0.2_rollup@3.10.0
       magic-string: 0.26.7
-      rollup: 3.9.1
+      rollup: 3.10.0
     dev: true
 
   /@rollup/pluginutils/3.1.0_rollup@2.79.1:
@@ -2126,7 +2126,7 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/pluginutils/5.0.2_rollup@3.9.1:
+  /@rollup/pluginutils/5.0.2_rollup@3.10.0:
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -2138,7 +2138,7 @@ packages:
       '@types/estree': 1.0.0
       estree-walker: 2.0.2
       picomatch: 2.3.1
-      rollup: 3.9.1
+      rollup: 3.10.0
     dev: true
 
   /@surma/rollup-plugin-off-main-thread/2.2.3:
@@ -3426,8 +3426,8 @@ packages:
       d3-transition: 3.0.1_d3-selection@3.0.0
     dev: false
 
-  /d3/7.8.0:
-    resolution: {integrity: sha512-a5rNemRadWkEfqnY5NsD4RdCP9vn8EIJ4I5Rl14U0uKH1SXqcNmk/h9aGaAF1O98lz6L9M0IeUcuPa9GUYbI5A==}
+  /d3/7.8.1:
+    resolution: {integrity: sha512-fdipulGWUYTZTxxU9gDJ2P4mpZL2u7Oqe6n2FI95Q8UY0AjbKNYjPHvhLOsvR+HcSao4vo3YYy4Bk9CWOrt1Vw==}
     engines: {node: '>=12'}
     dependencies:
       d3-array: 3.2.0
@@ -3795,8 +3795,8 @@ packages:
       eslint: 8.31.0
     dev: true
 
-  /eslint-plugin-react/7.31.11_eslint@8.31.0:
-    resolution: {integrity: sha512-TTvq5JsT5v56wPa9OYHzsrOlHzKZKjV+aLgS+55NJP/cuzdiQPC7PfYoUjMoxlffKtvijpk7vA/jmuqRb9nohw==}
+  /eslint-plugin-react/7.32.0_eslint@8.31.0:
+    resolution: {integrity: sha512-vSBi1+SrPiLZCGvxpiZIa28fMEUaMjXtCplrvxcIxGzmFiYdsXQDwInEjuv5/i/2CTTxbkS87tE8lsQ0Qxinbw==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
@@ -6091,8 +6091,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-router-dom/6.6.1_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-u+8BKUtelStKbZD5UcY0NY90WOzktrkJJhyhNg7L0APn9t1qJNLowzrM9CHdpB6+rcPt6qQrlkIXsTvhuXP68g==}
+  /react-router-dom/6.6.2_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-6SCDXxRQqW5af8ImOqKza7icmQ47/EMbz572uFjzvcArg3lZ+04PxSPp8qGs+p2Y+q+b+S/AjXv8m8dyLndIIA==}
     engines: {node: '>=14'}
     peerDependencies:
       react: '>=16.8'
@@ -6101,11 +6101,11 @@ packages:
       '@remix-run/router': 1.2.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      react-router: 6.6.1_react@18.2.0
+      react-router: 6.6.2_react@18.2.0
     dev: false
 
-  /react-router/6.6.1_react@18.2.0:
-    resolution: {integrity: sha512-YkvlYRusnI/IN0kDtosUCgxqHeulN5je+ew8W+iA1VvFhf86kA+JEI/X/8NqYcr11hCDDp906S+SGMpBheNeYQ==}
+  /react-router/6.6.2_react@18.2.0:
+    resolution: {integrity: sha512-uJPG55Pek3orClbURDvfljhqFvMgJRo59Pktywkk8hUUkTY2aRfza8Yhl/vZQXs+TNQyr6tu+uqz/fLxPICOGQ==}
     engines: {node: '>=14'}
     peerDependencies:
       react: '>=16.8'
@@ -6364,7 +6364,7 @@ packages:
       terser: 5.15.1
     dev: true
 
-  /rollup-plugin-visualizer/5.9.0_rollup@3.9.1:
+  /rollup-plugin-visualizer/5.9.0_rollup@3.10.0:
     resolution: {integrity: sha512-bbDOv47+Bw4C/cgs0czZqfm8L82xOZssk4ayZjG40y9zbXclNk7YikrZTDao6p7+HDiGxrN0b65SgZiVm9k1Cg==}
     engines: {node: '>=14'}
     hasBin: true
@@ -6376,7 +6376,7 @@ packages:
     dependencies:
       open: 8.4.0
       picomatch: 2.3.1
-      rollup: 3.9.1
+      rollup: 3.10.0
       source-map: 0.7.4
       yargs: 17.6.2
     dev: true
@@ -6389,8 +6389,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /rollup/3.9.1:
-    resolution: {integrity: sha512-GswCYHXftN8ZKGVgQhTFUJB/NBXxrRGgO2NCy6E8s1rwEJ4Q9/VttNqcYfEvx4dTo4j58YqdC3OVztPzlKSX8w==}
+  /rollup/3.10.0:
+    resolution: {integrity: sha512-JmRYz44NjC1MjVF2VKxc0M1a97vn+cDxeqWmnwyAF4FvpjK8YFdHpaqvQB+3IxCvX05vJxKZkoMDU8TShhmJVA==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -7210,11 +7210,11 @@ packages:
       vite: ^3.1.0 || ^4.0.0
       workbox-window: ^6.5.4
     dependencies:
-      '@rollup/plugin-replace': 5.0.1_rollup@3.9.1
+      '@rollup/plugin-replace': 5.0.1_rollup@3.10.0
       debug: 4.3.4
       fast-glob: 3.2.12
       pretty-bytes: 6.0.0
-      rollup: 3.9.1
+      rollup: 3.10.0
       vite: 4.0.4_@types+node@18.11.18
       workbox-build: 6.5.4
       workbox-window: 6.5.4
@@ -7252,7 +7252,7 @@ packages:
       esbuild: 0.16.4
       postcss: 8.4.21
       resolve: 1.22.1
-      rollup: 3.9.1
+      rollup: 3.10.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
