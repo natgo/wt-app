@@ -1,4 +1,4 @@
-import { AccountTree, Brush, Calculate, DataObject, Home } from "@mui/icons-material";
+import { AccountTree, Brush, Calculate, DataObject, Home, Shield } from "@mui/icons-material";
 
 import { Pages, Routes } from "./types";
 
@@ -12,6 +12,11 @@ const routes: Routes = {
     path: "/wt/techtree",
     title: "Techtree",
     icon: AccountTree,
+  },
+  [Pages.Squadron]: {
+    path: "/wt/squadron",
+    title: "Squadron vehicles",
+    icon: Shield,
   },
   [Pages.Data]: {
     path: "/wt/data",

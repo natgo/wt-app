@@ -7,6 +7,7 @@ import Calculator from "@/pages/Calculator";
 import Data from "@/pages/Data";
 import Home from "@/pages/Home";
 import Skins from "@/pages/Skins";
+import SquadronVehicles from "@/pages/Squadron";
 import TreeTech from "@/pages/Techtree";
 import Vehicle from "@/pages/Vehicle";
 import Header from "@/sections/Drawer/Header";
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
                 <TreeTech />
               </Suspense>
             ),
+          },
+          {
+            path: "/wt/squadron/",
+            element: <SquadronVehicles />,
           },
           {
             path: "/wt/data/",
