@@ -142,7 +142,7 @@ export default function SquadronVehicles(): JSX.Element {
               <CircularProgress
                 size="10rem"
                 variant="determinate"
-                value={(total / 259200000) * 100 - (total / 259200000) * 100 * 2 + 100}
+                value={(total / 259200000) * 100}
               />
             </div>
           );
