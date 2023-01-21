@@ -1,4 +1,9 @@
+import Countdown from "react-countdown";
 import { useRecoilValue } from "recoil";
+
+import { CircularProgress } from "@mui/material";
+
+import { DateTime } from "luxon";
 
 import { EmptyDiv } from "@/components/Techtree/EmptyDiv";
 import { TechTreeItem } from "@/components/Techtree/TechTreeItem";
@@ -68,8 +73,16 @@ export default function SquadronVehicles(): JSX.Element {
     countries[key].push(...shopRange(value.helicopters.range, final));
   });
 
+  let next = "2023-01-18T00:00:00Z";
+
+  while (DateTime.fromISO(next) < DateTime.now()) {
+    next = DateTime.fromISO(next).plus({ days: 3 }).toISO();
+  }
+
+  const reltime = new Intl.RelativeTimeFormat();
+
   return (
-    <div>
+    <div style={{ padding: "30px" }}>
       <div style={{ display: "grid", gridAutoFlow: "column" }}>
         {Object.entries(countries).map(([key, value]) => {
           if (value.length === 0) {
@@ -98,7 +111,43 @@ export default function SquadronVehicles(): JSX.Element {
           );
         })}
       </div>
-      Timer
+      <Countdown
+        date={next}
+        renderer={({ days, hours, minutes, seconds, total }) => {
+          return (
+            <div>
+              <div>
+                Squadron points in{" "}
+                {`${reltime
+                  .formatToParts(days, "days")
+                  .slice(1)
+                  .map((value) => value.value)
+                  .join("")} `}
+                {`${reltime
+                  .formatToParts(hours, "hours")
+                  .slice(1)
+                  .map((value) => value.value)
+                  .join("")} `}
+                {`${reltime
+                  .formatToParts(minutes, "minutes")
+                  .slice(1)
+                  .map((value) => value.value)
+                  .join("")} `}
+                {`${reltime
+                  .formatToParts(seconds, "seconds")
+                  .slice(1)
+                  .map((value) => value.value)
+                  .join("")} `}
+              </div>
+              <CircularProgress
+                size="10rem"
+                variant="determinate"
+                value={(total / 259200000) * 100 - (total / 259200000) * 100 * 2 + 100}
+              />
+            </div>
+          );
+        }}
+      />
     </div>
   );
 }
