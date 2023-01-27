@@ -1,3 +1,5 @@
+/* stylelint-disable selector-class-pattern */
+
 #root {
   width: 100%;
   height: 100%;
@@ -246,4 +248,10 @@ div.skins .general_info_skins {
 .specs_card_main .general_info_neighbors .next.folder {
   grid-column: 2;
   grid-row: 2;
+}
+
+.feature .help {
+  border-bottom: 1px dotted;
+  cursor: help;
+  white-space: nowrap;
 }

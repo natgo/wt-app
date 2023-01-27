@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unknown-property */
 import { Tooltip } from "@mui/material";
 
-import { GroundProps, VehicleProps } from "@/types";
+import { GroundProps, HelicopterProps, VehicleProps } from "@/types";
 import { vehicleCountry } from "@/utils/custom/VehicleCountry";
 import { vehicleType } from "@/utils/custom/VehicleType";
 import { numRankToStr } from "@/utils/custom/numericRankToString";
@@ -319,10 +319,7 @@ function Ess(props: { vehicle: GroundProps }): JSX.Element | null {
       <div className="feature ess">
         <div className="feature_img"></div>
         <div className="feature_name">
-          <span
-            title="Engine Smoke generating System"
-            style={{ borderBottom: "1px dotted", cursor: "help", whiteSpace: "nowrap" }}
-          >
+          <span title="Engine Smoke generating System" className="help">
             ESS
           </span>
         </div>
@@ -335,17 +332,14 @@ function Ess(props: { vehicle: GroundProps }): JSX.Element | null {
   return null;
 }
 
-function Lws(props: { vehicle: GroundProps }): JSX.Element | null {
+export function Lws(props: { vehicle: GroundProps | HelicopterProps }): JSX.Element | null {
   const { vehicle } = props;
   if (vehicle.has_lws) {
     return (
       <div className="feature lwr">
         <div className="feature_img"></div>
         <div className="feature_name">
-          <span
-            title="Laser warning system"
-            style={{ borderBottom: "1px dotted", cursor: "help", whiteSpace: "nowrap" }}
-          >
+          <span title="Laser warning system" className="help">
             LWS
           </span>
         </div>
@@ -365,10 +359,7 @@ function Era(props: { vehicle: GroundProps }): JSX.Element | null {
       <div className="feature era_armor">
         <div className="feature_img"></div>
         <div className="feature_name">
-          <span
-            title="Explosive Reactive Armour"
-            style={{ borderBottom: "1px dotted", cursor: "help", whiteSpace: "nowrap" }}
-          >
+          <span title="Explosive Reactive Armour" className="help">
             ERA
           </span>
         </div>
@@ -386,10 +377,7 @@ function Composite(props: { vehicle: GroundProps }): JSX.Element | null {
       <div className="feature composite_armor">
         <div className="feature_img"></div>
         <div className="feature_name">
-          <span
-            title="Mitähän tämäkin meinaa"
-            style={{ borderBottom: "1px dotted", cursor: "help", whiteSpace: "nowrap" }}
-          >
+          <span title="Mitähän tämäkin meinaa" className="help">
             Composite armour
           </span>
         </div>

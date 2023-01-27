@@ -225,10 +225,119 @@ export interface Stabilizer {
   verticalSpeed?: number;
 }
 
+export interface NightVision {
+  commanderViewThermal?: {
+    resolution: [500 | 800 | 1200, 300 | 600 | 800];
+    noiseFactor: 0.05 | 0.04;
+  };
+  gunnerThermal?: {
+    resolution: [500 | 800 | 1200, 300 | 600 | 800];
+    noiseFactor: 0.05 | 0.04;
+  };
+  driverThermal?: {
+    resolution: [500 | 800 | 1200, 300 | 600 | 800];
+    noiseFactor: 0.05 | 0.04;
+  };
+  commanderViewIr?: {
+    resolution: [800 | 1600, 600 | 1200];
+    lightMult: 5.0 | 8 | 9;
+    ghosting: 0.7 | 0.75 | 0.6;
+    noiseFactor: 0.2;
+  };
+  driverIr?: {
+    resolution: [800 | 1600, 600 | 1200];
+    lightMult: 5.0 | 8 | 9;
+    ghosting: 0.7 | 0.75 | 0.6;
+    noiseFactor: 0.2;
+  };
+  gunnerIr?: {
+    resolution: [800 | 1600, 600 | 1200];
+    lightMult: 5.0 | 8 | 9;
+    ghosting: 0.7 | 0.75 | 0.6;
+    noiseFactor: 0.2;
+  };
+}
+
 export interface HelicopterProps extends FinalProps {
   type: "helicopter";
   ballistic_computer?: BallisticComputer;
   secondary_weapon_preset?: SecondaryWeaponPreset;
+  has_maw?: boolean;
+  has_lws?: boolean;
+  has_rwr?: boolean;
+  has_ircm?: boolean;
+  has_hirss?: boolean;
+  optics?: HelicopterOptics;
+}
+
+export interface HelicopterOptics {
+  pilot?: HeliSight;
+  gunner?: HeliSight;
+  sight?: HeliGunnerSight;
+}
+
+export interface HeliSight {
+  ir?: {
+    resolution: number[];
+    lightMult: number;
+    ghosting: number;
+    noiseFactor: number;
+  };
+}
+
+export interface HeliGunnerSight extends HeliSight {
+  zoomInFov: number; //74
+  zoomOutFov: number;
+  thermal?: {
+    resolution: [1024, 768];
+    noiseFactor: 0.5;
+  };
+}
+
+//Final Shop
+
+export type FinalShop = Record<string, FinalShopCountry>;
+
+export interface FinalShopCountry {
+  army: FinalShopRange;
+  helicopters: FinalShopRange;
+  aviation: FinalShopRange;
+}
+
+export interface FinalShopRange {
+  col_normal: number;
+  col_prem: number;
+  min_rank: number;
+  max_rank: number;
+  needVehicles: number[];
+  range: Array<FinalShopItem | FinalShopGroup>[];
+}
+
+export interface FinalShopItem {
+  name: string;
+  rank: number;
+  reqAir?: "" | string;
+  gift?: true;
+  hidden?: true;
+  marketplace?: number;
+  event?: string;
+  clanVehicle?: true;
+}
+
+export interface FinalShopGroup {
+  name: string;
+  displayname: string;
+  image: string;
+  reqAir?: "" | string;
+  vehicles: FinalShopItem[];
+}
+
+export interface ShopExtItem extends FinalShopItem {
+  draw_arrow: boolean;
+}
+
+export interface ShopExtGroup extends FinalShopGroup {
+  draw_arrow: boolean;
 }
 
 // Skins
@@ -318,50 +427,6 @@ export interface CountryProp {
 export interface VehicleSkinsProp {
   historical: Ungrouped[];
   fictional: Ungrouped[];
-}
-
-export type FinalShop = Record<string, FinalShopCountry>;
-
-export interface FinalShopCountry {
-  army: FinalShopRange;
-  helicopters: FinalShopRange;
-  aviation: FinalShopRange;
-}
-
-export interface FinalShopRange {
-  col_normal: number;
-  col_prem: number;
-  min_rank: number;
-  max_rank: number;
-  needVehicles: number[];
-  range: Array<FinalShopItem | FinalShopGroup>[];
-}
-
-export interface FinalShopItem {
-  name: string;
-  rank: number;
-  reqAir?: "" | string;
-  gift?: true;
-  hidden?: true;
-  marketplace?: number;
-  event?: string;
-  clanVehicle?: true;
-}
-
-export interface FinalShopGroup {
-  name: string;
-  displayname: string;
-  image: string;
-  reqAir?: "" | string;
-  vehicles: FinalShopItem[];
-}
-
-export interface ShopExtItem extends FinalShopItem {
-  draw_arrow: boolean;
-}
-
-export interface ShopExtGroup extends FinalShopGroup {
-  draw_arrow: boolean;
 }
 
 export interface HistoricalProp extends CountryProp {
