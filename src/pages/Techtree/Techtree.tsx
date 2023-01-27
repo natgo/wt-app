@@ -39,33 +39,15 @@ function TypeTabs() {
 
   return (
     <Tabs value={value} onChange={handleChange}>
-      <Tab label="Aviation" />
       <Tab label="Ground Vehicles" />
       <Tab label="Helicopters" />
+      <Tab label="Aviation" />
     </Tabs>
   );
 }
 
 export interface CountryPropIndex extends CountryProp {
   index: number;
-}
-
-function Aircraft(props: CountryProp): JSX.Element {
-  const { country } = props;
-
-  return <TechTree country={country} type="aviation" />;
-}
-
-function Ground(props: CountryProp): JSX.Element {
-  const { country } = props;
-
-  return <TechTree country={country} type="army" />;
-}
-
-function Helicopters(props: CountryProp): JSX.Element {
-  const { country } = props;
-
-  return <TechTree country={country} type="helicopters" />;
 }
 
 function CountryTabs(props: CountryPropIndex): JSX.Element {
@@ -77,13 +59,13 @@ function CountryTabs(props: CountryPropIndex): JSX.Element {
     <TabPanel value={countryValue} index={index}>
       <TypeTabs />
       <TabPanel value={typeValue} index={0}>
-        <Aircraft country={country} />
+        <TechTree country={country} type="army" />
       </TabPanel>
       <TabPanel value={typeValue} index={1}>
-        <Ground country={country} />
+        <TechTree country={country} type="helicopters" />
       </TabPanel>
       <TabPanel value={typeValue} index={2}>
-        <Helicopters country={country} />
+        <TechTree country={country} type="aviation" />
       </TabPanel>
     </TabPanel>
   );
