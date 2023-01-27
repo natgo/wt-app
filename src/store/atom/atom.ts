@@ -10,7 +10,7 @@ const { persistAtom } = recoilPersist();
 
 export const TypeTab = atom<number>({
   key: "TypeTab",
-  default: 0,
+  default: 2,
   effects_UNSTABLE: [persistAtom],
 });
 
@@ -75,8 +75,8 @@ export const CalculatorMode = atom<string>({
 export const FilterAtom = atom<FilterProps>({
   key: "Filters",
   default: {
-    hide_wiki: true,
-    hide_ingame: false,
+    hide_wiki: false,
+    hide_ingame: true,
     show_skins: false,
     show_features: null,
     show_class: [],
