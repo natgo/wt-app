@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography";
 
 import { FullSizeCenteredFlexBox } from "@/components/styled";
 import { messages } from "@/config";
-import reloadApp from "@/utils/reset-app";
+import { reloadApp, resetApp } from "@/utils/reset-app";
 
 function AppErrorBoundaryFallback() {
   return (
@@ -23,7 +23,7 @@ function AppErrorBoundaryFallback() {
             startIcon={<RestartIcon />}
             sx={{ mt: 3, ml: 3 }}
             variant="outlined"
-            onClick={reloadApp}
+            onClick={resetApp}
           >
             {messages.app.crash.options.reset}
           </Button>
