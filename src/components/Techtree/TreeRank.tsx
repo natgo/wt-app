@@ -25,18 +25,50 @@ export function TreeRank(props: {
     <tr>
       <Rank rank={rank.rank + 1} />
       {rank.range.map((element, rowindex) => {
-        if (
-          element.length === 0 &&
-          ranked[topindex - 1] &&
-          ranked[topindex - 1].range[rowindex] &&
-          ranked[topindex - 1].range[rowindex][ranked[topindex - 1].range[rowindex].length - 1]
-            ?.draw_arrow
-        ) {
-          return (
-            <td key={rowindex}>
-              <Arrow length={height - 0.5} />
-            </td>
-          );
+        if (element.length === 0 && ranked[topindex - 1] && ranked[topindex - 1].range[rowindex]) {
+          if (
+            ranked[topindex - 1].range[rowindex][ranked[topindex - 1].range[rowindex].length - 1]
+              ?.draw_arrow
+          ) {
+            return (
+              <td key={rowindex}>
+                <Arrow length={height - 0.5} />
+              </td>
+            );
+          }
+
+          let draw = false;
+          let trip = true;
+          let i = 1;
+          while (draw === false && i <= 8 && trip) {
+            if (ranked[topindex - i] && ranked[topindex - i].range[rowindex]) {
+              if (
+                ranked[topindex - i].range[rowindex][
+                  ranked[topindex - i].range[rowindex].length - 1
+                ]
+              ) {
+                if (
+                  ranked[topindex - i].range[rowindex][
+                    ranked[topindex - i].range[rowindex].length - 1
+                  ].draw_arrow
+                ) {
+                  draw = true;
+                } else {
+                  trip = false;
+                }
+              }
+              i++;
+            } else {
+              trip = false;
+            }
+          }
+          if (draw) {
+            return (
+              <td key={rowindex}>
+                <Arrow length={height - 0.5} />
+              </td>
+            );
+          }
         }
         return (
           <td
@@ -183,8 +215,7 @@ export function TreeRank(props: {
                   ) {
                     if (ranked[topindex + 1]?.range[rowindex][0]) {
                       if (index < height) {
-                        console.log(`${element.name}:${index}:${height}`);
-
+                        console.info(`${element.name}:${index}:${height}`);
                         return (
                           <>
                             <TechTreeItem key={element.name} intname={element.name} />
@@ -223,7 +254,7 @@ export function TreeRank(props: {
                       }
                     }
                   }
-                  console.log(`${element.name} topindex: ${topindex}`);
+                  console.info(`${element.name} topindex: ${topindex}`);
                   return (
                     <>
                       <TechTreeItem key={element.name} intname={element.name} />
