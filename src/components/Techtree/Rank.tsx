@@ -1,7 +1,8 @@
 import { numRankToStr } from "@/utils/custom/numericRankToString";
 
-export function Rank(props: { rank: number }): JSX.Element {
-  const { rank } = props;
+export function Rank(props: { rank: number; needed: number }): JSX.Element {
+  const { rank, needed } = props;
+
   return (
     <th
       style={{
@@ -21,6 +22,7 @@ export function Rank(props: { rank: number }): JSX.Element {
       >
         {numRankToStr(rank)} Rank
       </div>
+      {needed ? <div style={{ paddingTop: "1rem" }}>{needed}</div> : null}
     </th>
   );
 }

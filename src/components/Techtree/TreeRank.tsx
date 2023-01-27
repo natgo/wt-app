@@ -23,7 +23,7 @@ export function TreeRank(props: {
 
   return (
     <tr>
-      <Rank rank={rank.rank + 1} />
+      <Rank rank={rank.rank + 1} needed={shop.needVehicles[rank.rank]} />
       {rank.range.map((element, rowindex) => {
         if (element.length === 0 && ranked[topindex - 1] && ranked[topindex - 1].range[rowindex]) {
           if (

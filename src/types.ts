@@ -333,6 +333,7 @@ export interface FinalShopRange {
   col_prem: number;
   min_rank: number;
   max_rank: number;
+  needVehicles: number[];
   range: Array<FinalShopItem | FinalShopGroup>[];
 }
 
