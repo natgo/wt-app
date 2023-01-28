@@ -4,8 +4,6 @@ describe("WT data project test", () => {
     cy.wait(5000);
     cy.get("#sidebar-menu").click();
     cy.contains("WT Data Project (External)").click();
-  });
-  it("Find iframe", () => {
     cy.get("iframe").should("have.attr", "src", "https://wt.controlnet.space/");
   });
 });

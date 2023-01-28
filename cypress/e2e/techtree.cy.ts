@@ -1,10 +1,11 @@
 describe("Techtree test", () => {
-  it("Visits the Kitchen Sink", () => {
+  beforeEach(()=>{
     cy.visit("http://localhost:5173/wt/");
     cy.wait(5000);
     cy.get("#sidebar-menu").click();
     cy.contains("Techtree").click();
   });
+
   it("Test ground vehicle page", () => {
     cy.contains("USSR").click();
     cy.contains("Ground Vehicles").click();
@@ -34,8 +35,8 @@ describe("Techtree test", () => {
     "Sweden",
     "Israel"
   ];
-  countries.forEach((element) => {
-    it(`Go to ${element}`, () => {
+  
+    it("Countries test", () => {countries.forEach((element) => {
       cy.contains(element).click();
       cy.contains("Aviation").click();
       cy.contains("Ground Vehicles").click();
