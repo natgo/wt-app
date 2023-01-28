@@ -25,8 +25,6 @@ const messages = {
   404: "Hey bro? What are you looking for?",
 };
 
-const dateFormat = "MMMM DD, YYYY";
-
 const notifications: Notifications = {
   options: {
     anchorOrigin: {
@@ -46,4 +44,4 @@ const loader = {
 
 const giphy404 = "https://giphy.com/embed/xTiN0L7EW5trfOvEk0";
 
-export { loader, notifications, dateFormat, messages, repository, title, giphy404 };
+export { loader, notifications, messages, repository, title, giphy404 };

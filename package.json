@@ -1,7 +1,7 @@
 {
   "name": "wt-app",
   "private": true,
-  "version": "1.1.1",
+  "version": "1.1.2",
   "browserslist": "> 0.5% in FI and last 2 versions and supports es6-module",
   "license": "AGPL-3.0-only",
   "scripts": {
