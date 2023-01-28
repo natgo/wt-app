@@ -1,3 +1,5 @@
+import { z } from "zod";
+
 export interface FinalProp {
   version: string;
   ground: GroundProps[];
@@ -408,17 +410,19 @@ export interface Historical {
   country_israel?: Countries;
 }
 
-export type CountryName =
-  | "country_usa"
-  | "country_germany"
-  | "country_ussr"
-  | "country_britain"
-  | "country_japan"
-  | "country_china"
-  | "country_italy"
-  | "country_france"
-  | "country_sweden"
-  | "country_israel";
+export const countryname = z.enum([
+  "country_usa",
+  "country_germany",
+  "country_ussr",
+  "country_britain",
+  "country_japan",
+  "country_china",
+  "country_italy",
+  "country_france",
+  "country_sweden",
+  "country_israel",
+]);
+export type CountryName = z.infer<typeof countryname>;
 
 export interface CountryProp {
   country: CountryName;

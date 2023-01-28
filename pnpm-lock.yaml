@@ -11,7 +11,7 @@ specifiers:
   '@mui/system': 5.11.4
   '@mui/utils': 5.11.2
   '@trivago/prettier-plugin-sort-imports': 4.0.0
-  '@types/luxon': ^3.2.0
+  '@types/luxon': 3.2.0
   '@types/node': 18.11.18
   '@types/react': 18.0.26
   '@types/react-dom': 18.0.10
@@ -20,7 +20,7 @@ specifiers:
   '@vitejs/plugin-react': 3.0.1
   autoprefixer: 10.4.13
   axios: 1.2.2
-  cssnano: ^5.1.14
+  cssnano: 5.1.14
   cypress: 12.3.0
   d3: 7.8.1
   eslint: 8.31.0
@@ -30,13 +30,13 @@ specifiers:
   husky: 8.0.3
   is-mobile: 3.1.1
   lint-staged: 13.1.0
-  localforage: ^1.10.0
-  luxon: ^3.2.1
+  localforage: 1.10.0
+  luxon: 3.2.1
   notistack: 2.0.8
   postcss: 8.4.21
   prettier: 2.8.2
   react: 18.2.0
-  react-countdown: ^2.3.5
+  react-countdown: 2.3.5
   react-dom: 18.2.0
   react-dropzone: 14.2.3
   react-hotkeys-hook: 4.3.2
@@ -52,6 +52,7 @@ specifiers:
   vite: 4.0.4
   vite-plugin-pwa: 0.14.1
   workbox-window: 6.5.4
+  zod: ^3.20.2
 
 dependencies:
   '@emotion/react': 11.10.5_jp5qgyg6plq757v5hojp7ls2oe
@@ -77,6 +78,7 @@ dependencies:
   recoil: 0.7.6_biqbaboplfbrettd7655fr4n2y
   recoil-nexus: 0.4.0_v4nwflcfn7b4oxd6ariifw2vym
   recoil-persist: 4.2.0_recoil@0.7.6
+  zod: 3.20.2
 
 devDependencies:
   '@babel/core': 7.20.12
@@ -7562,3 +7564,7 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  /zod/3.20.2:
+    resolution: {integrity: sha512-1MzNQdAvO+54H+EaK5YpyEy0T+Ejo/7YLHS93G3RnYWh5gaotGHwGeN/ZO687qEDU2y4CdStQYXVHIgrUl5UVQ==}
+    dev: false

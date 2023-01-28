@@ -22,6 +22,7 @@ import {
 } from "@mui/material";
 
 import { FilterAtom } from "@/store/atom/atom";
+import { classes, features } from "@/store/atom/types";
 import { vehicleType } from "@/utils/custom/VehicleType";
 import { featureToDisplay } from "@/utils/custom/feature";
 
@@ -50,14 +51,14 @@ export function Filters(): JSX.Element {
     setChecked({ ...checked, show_skins: event.target.checked });
   };
 
-  const classes = [
+  const classe = [
     "type_light_tank",
     "type_medium_tank",
     "type_heavy_tank",
     "type_tank_destroyer",
     "type_spaa",
   ];
-  const features = [
+  const feature = [
     "can_float",
     "hydro_suspension",
     "has_synchro",
@@ -109,9 +110,9 @@ export function Filters(): JSX.Element {
                     multiple
                     value={checked.show_class}
                     onChange={(event, newValue): void => {
-                      setChecked({ ...checked, show_class: newValue });
+                      setChecked({ ...checked, show_class: classes.array().parse(newValue) });
                     }}
-                    options={classes}
+                    options={classe}
                     disableCloseOnSelect
                     getOptionLabel={(option) => vehicleType(option).vehicle_type}
                     renderOption={(props, option, { selected }) => (
@@ -137,9 +138,9 @@ export function Filters(): JSX.Element {
                   <Autocomplete
                     value={checked.show_features}
                     onChange={(event, newValue): void => {
-                      setChecked({ ...checked, show_features: newValue });
+                      setChecked({ ...checked, show_features: features.parse(newValue) });
                     }}
-                    options={features}
+                    options={feature}
                     sx={{ width: 300, paddingLeft: "10px" }}
                     getOptionLabel={(option) => featureToDisplay(option)}
                     renderInput={(params) => <TextField {...params} label="Features" />}
