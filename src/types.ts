@@ -155,7 +155,7 @@ export interface Sight {
 }
 
 export interface gunnerSight extends Sight {
-  zoomInFov: number; //74
+  zoomInFov: number; //73.66
   zoomOutFov: number;
 }
 
@@ -286,7 +286,7 @@ export interface HeliSight {
 }
 
 export interface HeliGunnerSight extends HeliSight {
-  zoomInFov: number; //74
+  zoomInFov: number; //73.66
   zoomOutFov: number;
   thermal?: {
     resolution: [1024, 768];

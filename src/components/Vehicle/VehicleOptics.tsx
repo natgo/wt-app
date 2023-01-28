@@ -27,10 +27,10 @@ export function Optics(props: { vehicle: GroundProps }): JSX.Element {
           </div>
           <div className="values">
             <div className="value">
-              <span>{(74 / gunner.zoomOutFov).toPrecision(2)}</span>
+              <span>{Math.round((73.66 / gunner.zoomOutFov) * 10) / 10}</span>
             </div>
             <div className="value">
-              <span>{(74 / gunner.zoomInFov).toPrecision(2)}</span>
+              <span>{Math.round((73.66 / gunner.zoomInFov) * 10) / 10}</span>
             </div>
           </div>
         </div>
