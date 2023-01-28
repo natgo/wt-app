@@ -2,7 +2,7 @@ import { useRecoilValue } from "recoil";
 
 import { finalQuery } from "@/store/final";
 import { Ungrouped } from "@/types";
-import { capitailze } from "@/utils/Capitalize";
+import capitailze from "@/utils/Capitalize";
 import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
 export function ToolTipText(value: Ungrouped): JSX.Element {

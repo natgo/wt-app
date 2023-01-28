@@ -2,7 +2,7 @@ import { useRecoilValue } from "recoil";
 
 import { SkinAtom } from "@/store/atom/atom";
 import { HistoricalProp } from "@/types";
-import { capitailze } from "@/utils/Capitalize";
+import capitailze from "@/utils/Capitalize";
 import { vehicleCountry } from "@/utils/custom/VehicleCountry";
 
 import { CountrySkin } from "./CountrySkin";

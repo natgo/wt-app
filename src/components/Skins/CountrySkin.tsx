@@ -1,5 +1,5 @@
 import { SinkProp } from "@/types";
-import { capitailze } from "@/utils/Capitalize";
+import capitailze from "@/utils/Capitalize";
 
 import { ToolTip } from "./ToolTip";
 
