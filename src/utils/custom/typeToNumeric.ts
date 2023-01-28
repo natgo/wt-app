@@ -1,13 +1,13 @@
 export function typeToNumeric(type: "tank" | "aircraft" | "helicopter") {
   let numeric = 0;
   switch (type) {
-    case "aircraft":
+    case "tank":
       numeric = 0;
       break;
-    case "tank":
+    case "helicopter":
       numeric = 1;
       break;
-    case "helicopter":
+    case "aircraft":
       numeric = 2;
       break;
   }
