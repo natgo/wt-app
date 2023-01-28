@@ -17,8 +17,8 @@ import {
   VehicleProps,
   countryname,
 } from "@/types";
-import { queryVehicleIntname } from "@/utils/custom/QueryVehicle";
 import { vehicleCountry } from "@/utils/custom/VehicleCountry";
+import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
 function shopRange(shop: (FinalShopItem | FinalShopGroup)[][], final: FinalProp) {
   const arr: VehicleProps[] = [];

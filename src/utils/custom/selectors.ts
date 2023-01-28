@@ -3,7 +3,7 @@ import { getRecoil, setRecoil } from "recoil-nexus";
 
 import { CalculatorMode, dialogue } from "@/store/atom/atom";
 import { FinalProp } from "@/types";
-import { queryVehicleWikiname, querypartialVehicleWikiname } from "@/utils/custom/QueryVehicle";
+import { queryVehicleWikiname, querypartialVehicleWikiname } from "@/utils/custom/queryVehicle";
 
 import br from "./br";
 import lookup from "./lookup";

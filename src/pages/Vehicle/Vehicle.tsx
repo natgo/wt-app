@@ -10,7 +10,7 @@ import { Optics } from "@/components/Vehicle/VehicleOptics";
 import { VehicleSkinsCard } from "@/components/Vehicle/VehicleSkinsCard";
 import { GroundWeapon } from "@/components/Vehicle/VehicleWeapon";
 import { finalQuery } from "@/store/final";
-import { queryVehicleIntname } from "@/utils/custom/QueryVehicle";
+import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
 import "../Techtree/App.css";
 

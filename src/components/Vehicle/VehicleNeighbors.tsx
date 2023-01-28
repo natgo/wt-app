@@ -4,7 +4,7 @@ import { useRecoilValue } from "recoil";
 import { finalQuery } from "@/store/final";
 import { shopQuery } from "@/store/shop";
 import { FinalShopGroup, FinalShopItem, VehicleProps } from "@/types";
-import { queryVehicleIntname } from "@/utils/custom/QueryVehicle";
+import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
 import { VehicleNeighborFolder } from "./VehicleNeighborFolder";
 

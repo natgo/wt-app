@@ -6,7 +6,7 @@ import { FilterAtom } from "@/store/atom/atom";
 import { finalQuery } from "@/store/final";
 import { shopQuery } from "@/store/shop";
 import { CountryProp, FinalShopGroup, ShopExtGroup, ShopExtItem } from "@/types";
-import { queryVehicleIntname } from "@/utils/custom/QueryVehicle";
+import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
 import { Research } from "./Research";
 import { TreeRank } from "./TreeRank";

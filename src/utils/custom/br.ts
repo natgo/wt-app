@@ -2,7 +2,7 @@ import { setRecoil } from "recoil-nexus";
 
 import { dialogue } from "@/store/atom/atom";
 import { FinalProp } from "@/types";
-import { queryVehicleIntname } from "@/utils/custom/QueryVehicle";
+import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
 export default function br(vehicle: string, final: FinalProp): string {
   const query = queryVehicleIntname(vehicle, final);

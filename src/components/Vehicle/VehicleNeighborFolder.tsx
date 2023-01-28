@@ -3,7 +3,7 @@ import { useRecoilValue } from "recoil";
 
 import { finalQuery } from "@/store/final";
 import { FinalShopGroup, FinalShopItem, VehicleProps } from "@/types";
-import { queryVehicleIntname } from "@/utils/custom/QueryVehicle";
+import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
 export function VehicleNeighborFolder(props: {
   vehicle: VehicleProps;
