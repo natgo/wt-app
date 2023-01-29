@@ -8,7 +8,6 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
 import Pages from "@/routes/Pages";
-import HotKeys from "@/sections/HotKeys";
 import Notifications from "@/sections/Notifications";
 import SW from "@/sections/SW";
 
@@ -19,7 +18,6 @@ function App() {
     <Fragment>
       <CssBaseline />
       <Notifications />
-      <HotKeys />
       <SW />
       <Pages />
     </Fragment>

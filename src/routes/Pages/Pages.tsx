@@ -11,6 +11,7 @@ import SquadronVehicles from "@/pages/Squadron";
 import TreeTech from "@/pages/Techtree";
 import Vehicle from "@/pages/Vehicle";
 import Header from "@/sections/Drawer/Header";
+import HotKeys from "@/sections/HotKeys";
 import Sidebar from "@/sections/Sidebar";
 
 const router = createBrowserRouter([
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
       <>
         <Header />
         <Sidebar />
+        <HotKeys />
       </>
     ),
     errorElement: <AppErrorBoundaryFallback />,

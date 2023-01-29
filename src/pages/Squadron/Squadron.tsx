@@ -106,8 +106,12 @@ export default function SquadronVehicles(): JSX.Element {
               <CountryFlag country={countryname.parse(key)} />
               {value.map((element, index) => {
                 return (
-                  <div key={index}>
+                  <div key={index} style={{ display: "grid", justifyContent: "center" }}>
                     <TechTreeItem intname={element.intname} key={index} />
+                    {((element.reqRP / 20000) * 3) % 3 > 0
+                      ? (element.reqRP / 20000) * 3 - (((element.reqRP / 20000) * 3) % 3) + 3
+                      : (element.reqRP / 20000) * 3}{" "}
+                    Days to research
                     <EmptyDiv />
                   </div>
                 );
