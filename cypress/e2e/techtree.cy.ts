@@ -1,5 +1,5 @@
 describe("Techtree test", () => {
-  beforeEach(()=>{
+  beforeEach(() => {
     cy.visit("http://localhost:5173/wt/");
     cy.wait(5000);
     cy.get("#sidebar-menu").click();
@@ -33,10 +33,11 @@ describe("Techtree test", () => {
     "Italy",
     "France",
     "Sweden",
-    "Israel"
+    "Israel",
   ];
-  
-    it("Countries test", () => {countries.forEach((element) => {
+
+  it("Countries test", () => {
+    countries.forEach((element) => {
       cy.contains(element).click();
       cy.contains("Aviation").click();
       cy.contains("Ground Vehicles").click();
