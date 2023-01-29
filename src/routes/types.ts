@@ -7,6 +7,7 @@ enum Pages {
   Home,
   Techtree,
   Squadron,
+  Compare,
   Data,
   Calculator,
   Skins,

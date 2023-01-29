@@ -255,3 +255,8 @@ div.skins .general_info_skins {
   cursor: help;
   white-space: nowrap;
 }
+
+.outlet {
+  width: 100%;
+  height: calc(100% - 64px);
+}

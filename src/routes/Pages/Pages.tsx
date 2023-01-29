@@ -4,6 +4,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Loading from "@/components/Loading";
 import AppErrorBoundaryFallback from "@/error-handling/App";
 import Calculator from "@/pages/Calculator";
+import Compare from "@/pages/Compare";
 import Data from "@/pages/Data";
 import Home from "@/pages/Home";
 import Skins from "@/pages/Skins";
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
           {
             path: "/wt/squadron/",
             element: <SquadronVehicles />,
+          },
+          {
+            path: "/wt/compare/",
+            element: <Compare />,
           },
           {
             path: "/wt/data/",

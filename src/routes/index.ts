@@ -1,4 +1,12 @@
-import { AccountTree, Brush, Calculate, DataObject, Home, Shield } from "@mui/icons-material";
+import {
+  AccountTree,
+  Brush,
+  Calculate,
+  DataObject,
+  Difference,
+  Home,
+  Shield,
+} from "@mui/icons-material";
 
 import { Pages, Routes } from "./types";
 
@@ -17,6 +25,11 @@ const routes: Routes = {
     path: "/wt/squadron",
     title: "Squadron vehicles",
     icon: Shield,
+  },
+  [Pages.Compare]: {
+    path: "/wt/compare",
+    title: "Compare vehicles",
+    icon: Difference,
   },
   [Pages.Data]: {
     path: "/wt/data",

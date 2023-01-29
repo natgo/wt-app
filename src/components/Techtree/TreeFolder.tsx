@@ -47,12 +47,12 @@ export function TreeFolder(props: {
   const brarr: { br: string; realbr: number }[] = [];
   console.log(children);
   const match = queryVehicleIntname(children[0][0].props.intname, final);
-  br = match?.rb_br;
+  br = match?.br[1];
   children.forEach((element) => {
     if (element[0].props && element[0].props.intname) {
       const match = queryVehicleIntname(element[0].props.intname, final);
       if (match) {
-        brarr.push({ br: match.rb_br, realbr: match.rb_realbr });
+        brarr.push({ br: match.br[1], realbr: match.realbr[1] });
         const vehicleSkins = querySkins(match);
         const findClass = filter.show_class.find((value) => {
           return value === match.normal_type;

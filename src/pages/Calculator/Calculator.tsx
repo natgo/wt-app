@@ -193,7 +193,6 @@ export default function Calculator() {
         component="main"
         sx={{
           flexGrow: 1,
-          height: "100vh",
           overflow: "auto",
         }}
       >

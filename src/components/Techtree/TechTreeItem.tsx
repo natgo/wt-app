@@ -89,7 +89,7 @@ export function TechTreeItem(props: { intname: string }): JSX.Element {
       </div>
       <div className="tree-item-img">
         <img src={`./images/units/${intname.toLowerCase()}.png`} />
-        <div className="br">{match.rb_br}</div>
+        <div className="br">{match.br[1]}</div>
         <img src={fig_src} className="class" />
       </div>
     </div>

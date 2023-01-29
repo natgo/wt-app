@@ -25,7 +25,7 @@ export default function Vehicle(): JSX.Element {
       if (match.type === "tank") {
         return (
           <div>
-            <SpecsCard vehicle={match} />
+            <SpecsCard vehicle={match} garageimage />
             <VehicleSkinsCard vehicle={match} />
             <Survivability vehicle={match} />
             <Mobility vehicle={match} />
@@ -36,7 +36,7 @@ export default function Vehicle(): JSX.Element {
       } else if (match.type === "aircraft") {
         return (
           <div>
-            <SpecsCard vehicle={match} />
+            <SpecsCard vehicle={match} garageimage />
             <VehicleSkinsCard vehicle={match} />
             <BallisticComputer vehicle={match} />
             <SecondaryPreset vehicle={match} />
@@ -45,7 +45,7 @@ export default function Vehicle(): JSX.Element {
       } else {
         return (
           <div>
-            <SpecsCard vehicle={match} />
+            <SpecsCard vehicle={match} garageimage />
             <VehicleSkinsCard vehicle={match} />
             <HeliSurvivability vehicle={match} />
             <BallisticComputer vehicle={match} />

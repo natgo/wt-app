@@ -1,6 +1,8 @@
 import { Suspense } from "react";
 import { Outlet, ScrollRestoration, useLocation } from "react-router-dom";
+import { useRecoilState } from "recoil";
 
+import { Search } from "@mui/icons-material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import ThemeIcon from "@mui/icons-material/InvertColors";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -22,16 +24,28 @@ import { FlexBox } from "@/components/styled";
 import { repository, title } from "@/config";
 import useHotKeysDialog from "@/store/hotkeys";
 import useNotifications from "@/store/notifications";
+import { searchDialogState } from "@/store/search";
 import useSidebar from "@/store/sidebar";
 import useTheme from "@/store/theme";
 
 import { HotKeysButton } from "./styled";
 
 function TechtreeButtons() {
+  const [, setSearchOpen] = useRecoilState(searchDialogState);
+
+  const handleClickOpen = () => {
+    setSearchOpen(true);
+  };
+
   if (useLocation().pathname.includes("/wt/techtree")) {
     return (
       <Suspense fallback={<Loading />}>
-        <SearchDialog />
+        <>
+          <IconButton color="primary" size="large" onClick={handleClickOpen}>
+            <Search />
+          </IconButton>
+          <SearchDialog type="techtree" />
+        </>
         <Filters />
       </Suspense>
     );
@@ -115,7 +129,9 @@ function Header() {
           </FlexBox>
         </Toolbar>
       </AppBar>
-      <Outlet />
+      <div className="outlet">
+        <Outlet />
+      </div>
       <ScrollRestoration />
     </Box>
   );

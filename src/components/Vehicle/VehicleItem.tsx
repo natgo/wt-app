@@ -12,8 +12,8 @@ import { VehicleImage } from "./VehicleImage";
 import { VehicleNeighbor } from "./VehicleNeighbors";
 import { VehiclePrice } from "./VehiclePrice";
 
-export function SpecsCard(props: { vehicle: VehicleProps }): JSX.Element {
-  const { vehicle } = props;
+export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean }): JSX.Element {
+  const { vehicle, garageimage } = props;
 
   const country = vehicleCountry(vehicle.country);
   const vehicle_type = vehicleType(vehicle.normal_type, vehicle.extended_type);
@@ -24,7 +24,7 @@ export function SpecsCard(props: { vehicle: VehicleProps }): JSX.Element {
 
   return (
     <div className="specs_card_main" data-code={vehicle.intname}>
-      <VehicleImage vehicle={vehicle} />
+      {garageimage ? <VehicleImage vehicle={vehicle} /> : null}
       <div className="specs_card_main_info">
         <div className="general_info_image">
           <img width="100%" src={`../images/statcard/${vehicle.intname.toLowerCase()}.png`} />
