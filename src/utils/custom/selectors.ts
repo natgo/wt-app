@@ -27,25 +27,21 @@ export default async function changeParsed(
 ) {
   const mode = getRecoil(CalculatorMode);
 
-  const userBr: string = await getBR(final);
+  const userBr = await getBR(final);
 
   let inter: { name: string; id: number; br: string; real_br: number }[] = [];
   const result: { name: string; id: number; br: string; real_br: number }[] = [];
 
-  let brmodeset: "ab_br" | "rb_br" | "sb_br";
-  let realbrmodeset: "ab_realbr" | "rb_realbr" | "sb_realbr";
+  let brmodeset: 0 | 1 | 2;
   switch (mode) {
     case "Realistic":
-      brmodeset = "rb_br";
-      realbrmodeset = "rb_realbr";
+      brmodeset = 1;
       break;
     case "Arcade":
-      brmodeset = "ab_br";
-      realbrmodeset = "ab_realbr";
+      brmodeset = 0;
       break;
     case "Simulator":
-      brmodeset = "sb_br";
-      realbrmodeset = "sb_realbr";
+      brmodeset = 2;
       break;
   }
 
@@ -65,8 +61,8 @@ export default async function changeParsed(
           if (ement.wikiname) {
             const object = {
               name: ement.wikiname,
-              br: ement[brmodeset],
-              real_br: ement[realbrmodeset],
+              br: ement.br[brmodeset],
+              real_br: ement.realbr[brmodeset],
               id: result.length + 1,
             };
             inter.push(object);
@@ -84,8 +80,8 @@ export default async function changeParsed(
         if (query.wikiname) {
           const object = {
             name: query.wikiname,
-            br: query[brmodeset],
-            real_br: query[realbrmodeset],
+            br: query.br[brmodeset],
+            real_br: query.realbr[brmodeset],
             id: result.length + 1,
           };
           result.push(object);

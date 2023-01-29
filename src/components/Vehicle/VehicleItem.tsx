@@ -103,9 +103,9 @@ export function SpecsCard(props: { vehicle: VehicleProps }): JSX.Element {
                   </td>
                 </tr>
                 <tr>
-                  <td>{vehicle.ab_br}</td>
-                  <td>{vehicle.rb_br}</td>
-                  <td>{vehicle.sb_br}</td>
+                  <td>{vehicle.br[0]}</td>
+                  <td>{vehicle.br[1]}</td>
+                  <td>{vehicle.br[2]}</td>
                 </tr>
               </tbody>
             </table>
