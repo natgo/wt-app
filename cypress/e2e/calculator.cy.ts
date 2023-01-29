@@ -1,7 +1,7 @@
 describe("Calculator test", () => {
     it("Normal test", () => {
         cy.visit("http://localhost:5173/wt/");
-        cy.wait(5000);
+        cy.wait(10000);
         cy.get("#sidebar-menu").click();
         cy.contains("BR Calculator").click();
 
