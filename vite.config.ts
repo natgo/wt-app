@@ -23,7 +23,7 @@ export default defineConfig({
         maximumFileSizeToCacheInBytes: 5000000,
       },
     }),
-    visualizer(),
+    visualizer({ gzipSize: true, brotliSize: true }),
   ],
   resolve: {
     alias: {
