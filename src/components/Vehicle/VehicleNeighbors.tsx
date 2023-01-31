@@ -46,9 +46,9 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
   });
   console.log(col, pos);
 
-  const curpos = shopData[vehicle.country][type].range[col][pos];
+  const currentpos = shopData[vehicle.country][type].range[col][pos];
   let curfolder = false;
-  if ("vehicles" in curpos) {
+  if ("vehicles" in currentpos) {
     curfolder = true;
   }
 
@@ -80,8 +80,8 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
   }
 
   return (
-    <VehicleNeighbors next={next} prev={prev}>
-      <VehicleNeighborFolder vehicle={vehicle} folder={curpos} isFolder={curfolder} />
+    <VehicleNeighbors next={next} nextpos={nextpos} prev={prev} currentpos={currentpos}>
+      <VehicleNeighborFolder vehicle={vehicle} folder={currentpos} isFolder={curfolder} />
     </VehicleNeighbors>
   );
 }
@@ -89,11 +89,13 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
 export function VehicleNeighbors(props: {
   children: JSX.Element;
   next: VehicleProps | undefined;
+  nextpos: FinalShopItem | FinalShopGroup | undefined;
   prev: VehicleProps | undefined;
+  currentpos: FinalShopItem | FinalShopGroup | undefined;
 }) {
-  const { children, next, prev } = props;
+  const { children, next, nextpos, prev, currentpos } = props;
 
-  if (next && prev) {
+  if (next && nextpos && nextpos.reqAir !== "" && prev && currentpos && currentpos.reqAir !== "") {
     return (
       <>
         <div className="prev">
@@ -111,7 +113,7 @@ export function VehicleNeighbors(props: {
     );
   }
 
-  if (next) {
+  if (next && nextpos && nextpos.reqAir !== "") {
     return (
       <>
         <div className="next">
@@ -124,7 +126,7 @@ export function VehicleNeighbors(props: {
     );
   }
 
-  if (prev) {
+  if (prev && currentpos && currentpos.reqAir !== "") {
     return (
       <>
         <div className="prev">
