@@ -24,73 +24,73 @@ export function TechTreeItem(props: { intname: string }): JSX.Element {
   const filter = useRecoilValue(FilterAtom);
   const search = useRecoilValue(SearchName);
 
-  const match = queryVehicleIntname(intname, final);
-  if (!match) {
+  const vehicle = queryVehicleIntname(intname, final);
+  if (!vehicle) {
     throw new Error(`No match for ${intname}`);
   }
 
   let item_type: "own" | "prem" | "squad";
-  if (match.cost_gold) {
+  if (vehicle.cost_gold) {
     item_type = "prem";
-  } else if (match.prem_type === "squad") {
+  } else if (vehicle.prem_type === "squad") {
     item_type = "squad";
   } else {
     item_type = "own";
   }
 
-  let fig_src = attack_helicopter;
-  switch (match.normal_type) {
+  let classSrc = attack_helicopter;
+  switch (vehicle.normal_type) {
     case "type_fighter":
-      fig_src = fighter;
+      classSrc = fighter;
       break;
     case "type_bomber":
-      fig_src = bomber;
+      classSrc = bomber;
       break;
     case "type_assault":
-      fig_src = assault;
+      classSrc = assault;
       break;
     case "type_light_tank":
-      fig_src = light_tank;
+      classSrc = light_tank;
       break;
     case "type_medium_tank":
-      fig_src = medium_tank;
+      classSrc = medium_tank;
       break;
     case "type_heavy_tank":
-      fig_src = heavy_tank;
+      classSrc = heavy_tank;
       break;
     case "type_tank_destroyer":
-      fig_src = tank_destroyer;
+      classSrc = tank_destroyer;
       break;
     case "type_spaa":
-      fig_src = spaa;
+      classSrc = spaa;
       break;
     case "type_utility_helicopter":
-      fig_src = utility_helicopter;
+      classSrc = utility_helicopter;
       break;
     case "type_attack_helicopter":
-      fig_src = attack_helicopter;
+      classSrc = attack_helicopter;
       break;
   }
 
   return (
     <div
       className="tree-item"
-      style={BlurItem(match, filter, search) ? { filter: "blur(4px)" } : {}}
+      style={BlurItem(vehicle, filter, search) ? { filter: "blur(4px)" } : {}}
     >
-      <div className="tree-item-background" id={match.intname}>
-        <Link to={"/wt/techtree/" + match.intname} title={match.wikiname}>
+      <div className="tree-item-background" id={vehicle.intname}>
+        <Link to={"/wt/techtree/" + vehicle.intname} title={vehicle.wikiname}>
           <ItemImg type={item_type} />
         </Link>
       </div>
       <div className="tree-item-text">
         <span className="tree-item-text-scroll">
-          {match.displayname ? match.displayname : match.intname}
+          {vehicle.displayname ? vehicle.displayname : vehicle.intname}
         </span>
       </div>
       <div className="tree-item-img">
-        <img src={`./images/units/${intname.toLowerCase()}.png`} />
-        <div className="br">{match.br[1]}</div>
-        <img src={fig_src} className="class" />
+        <img src={`./images/units/${vehicle.intname.toLowerCase()}.png`} />
+        <div className="br">{vehicle.br[1]}</div>
+        <img src={classSrc} className="class" />
       </div>
     </div>
   );

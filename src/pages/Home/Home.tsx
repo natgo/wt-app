@@ -5,8 +5,9 @@ import axios from "axios";
 import ayskari from "@/assets/img/as.webp";
 import { SkinAtom } from "@/store/atom/atom";
 import { finalDevState, finalLiveState } from "@/store/final";
+import { ModificationDevState, ModificationLiveState } from "@/store/modifications";
 import { shopDevState, shopLiveState } from "@/store/shop";
-import { FinalProp, FinalShop, SkinsProp } from "@/types";
+import { FinalProp, FinalShop, Modifications, SkinsProp } from "@/types";
 
 export default function Home(): JSX.Element {
   const setFinalLive = useSetRecoilState(finalLiveState);
@@ -14,6 +15,8 @@ export default function Home(): JSX.Element {
   const skinsSetValue = useSetRecoilState(SkinAtom);
   const setShopLive = useSetRecoilState(shopLiveState);
   const setShopDev = useSetRecoilState(shopDevState);
+  const setModificationLive = useSetRecoilState(ModificationLiveState);
+  const setModificationDev = useSetRecoilState(ModificationDevState);
 
   axios.get("./final.json").then((response) => {
     const final: FinalProp = response.data;
@@ -38,6 +41,16 @@ export default function Home(): JSX.Element {
   axios.get("./shop-dev.json").then((response) => {
     const shop: FinalShop = response.data;
     setShopDev(shop);
+  });
+
+  axios.get("./modifications.json").then((response) => {
+    const modifications: Modifications = response.data;
+    setModificationLive(modifications);
+  });
+
+  axios.get("./modifications-dev.json").then((response) => {
+    const modifications: Modifications = response.data;
+    setModificationDev(modifications);
   });
 
   return (

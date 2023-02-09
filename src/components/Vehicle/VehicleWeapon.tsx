@@ -46,7 +46,7 @@ export function GroundWeapon(props: { vehicle: GroundProps }): JSX.Element {
           >
             <div className="name">
               <div className="name">
-                <span>{element.name}</span>
+                <span>{element.displayname}</span>
               </div>
             </div>
             <div className="ammo">

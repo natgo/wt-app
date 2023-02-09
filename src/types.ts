@@ -1,5 +1,7 @@
 import { z } from "zod";
 
+// Final
+
 export interface FinalProp {
   version: string;
   ground: GroundProps[];
@@ -155,46 +157,42 @@ export interface gunnerSight extends Sight {
 
 export interface TankWeapons {
   cannon?: TankCannon[];
-  machineGun?: MG[];
+  machineGun?: GenericGun[];
   launcher?: TankCannon;
 }
 
-export interface MG {
-  ammo: number;
-  horizonalSpeed: number;
-  verticalSpeed: number;
-  horizonalLimit: number[];
-  verticalLimit: number[];
-}
-
-export interface TankCannon {
+export interface GenericGun {
   intname: string;
-  name: string;
-  secondary?: boolean;
+  displayname: string;
   ammo: number;
-  shotFreq: number;
-  caliber: number;
   shells?: Shell[];
   belts?: ShellBelt[];
-  autoloader?: boolean;
+  shotFreq: number;
+  caliber: number;
   horizonalSpeed: number | "primary";
   verticalSpeed: number | "primary";
   horizonalLimit: number[] | "primary";
   verticalLimit: number[] | "primary";
+}
+
+export interface TankCannon extends GenericGun {
+  secondary?: boolean;
+  autoloader?: boolean;
   stabilizer?: Stabilizer;
   hullAiming?: HullAiming;
 }
 
 export interface Shell {
   modname: string;
-  intname: string;
-  name: string;
+  intname?: string;
+  name?: string;
   maxamount?: number;
   modmaxamount?: number;
 }
 
 export interface ShellBelt {
   modname: string;
+  name: string;
   maxamount?: number;
   modmaxamount?: number;
   shells: Belt[];
@@ -202,7 +200,8 @@ export interface ShellBelt {
 
 export interface Belt {
   intname: string;
-  name: string;
+  type: string;
+  name?: string;
 }
 
 export interface HullAiming {
@@ -300,7 +299,6 @@ export interface FinalShopCountry {
 
 export interface FinalShopRange {
   col_normal: number;
-  col_prem: number;
   min_rank: number;
   max_rank: number;
   needVehicles: number[];
@@ -318,13 +316,13 @@ export interface FinalShopItem {
   clanVehicle?: true;
 }
 
-export interface FinalShopGroup {
+export type FinalShopGroup = {
   name: string;
   displayname: string;
   image: string;
   reqAir?: "" | string;
   vehicles: FinalShopItem[];
-}
+};
 
 export interface ShopExtItem extends FinalShopItem {
   draw_arrow: boolean;
@@ -332,6 +330,57 @@ export interface ShopExtItem extends FinalShopItem {
 
 export interface ShopExtGroup extends FinalShopGroup {
   draw_arrow: boolean;
+}
+
+// Modifications
+
+export interface Modifications {
+  ground: VehicleMods[];
+  aircraft: VehicleMods[];
+  helicopter: VehicleMods[];
+}
+
+export const modClassName = z.enum([
+  "lth",
+  "armor",
+  "weapon",
+  "mobility",
+  "protection",
+  "firepower",
+  "primaryWeapon",
+  "secondaryWeapon",
+  "premiumMods",
+  "expendables",
+  "seakeeping",
+  "unsinkability",
+]);
+export type ModClassName = z.infer<typeof modClassName>;
+
+export interface VehicleMods {
+  intname: string;
+  mods: ModClass;
+}
+
+export interface ModClass {
+  lth?: BaseMod[][];
+  armor?: BaseMod[][];
+  weapon?: BaseMod[][];
+  mobility?: BaseMod[][];
+  protection?: BaseMod[][];
+  firepower?: BaseMod[][];
+  primaryWeapon?: BaseMod[][];
+  secondaryWeapon?: BaseMod[][];
+  premiumMods?: BaseMod[][];
+  expendables?: BaseMod[][];
+  seakeeping?: BaseMod[][];
+  unsinkability?: BaseMod[][];
+}
+
+export interface BaseMod {
+  intname: string;
+  displayname?: string;
+  reqMod?: string;
+  image: string;
 }
 
 // Skins

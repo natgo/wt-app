@@ -4,6 +4,7 @@ import { useRecoilValue } from "recoil";
 import { BallisticComputer } from "@/components/Vehicle/BallisticComputer";
 import { HeliSurvivability } from "@/components/Vehicle/HelicopterItem";
 import { HeliOptics } from "@/components/Vehicle/Helioptics";
+import { Modifications } from "@/components/Vehicle/Modifications";
 import { SecondaryPreset } from "@/components/Vehicle/SecondaryPreset";
 import { Mobility, SpecsCard, Survivability } from "@/components/Vehicle/VehicleItem";
 import { Optics } from "@/components/Vehicle/VehicleOptics";
@@ -31,6 +32,7 @@ export default function Vehicle(): JSX.Element {
             <Mobility vehicle={match} />
             <GroundWeapon vehicle={match} />
             <Optics vehicle={match} />
+            <Modifications vehicle={match} />
           </div>
         );
       } else if (match.type === "aircraft") {
