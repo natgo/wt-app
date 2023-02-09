@@ -7,16 +7,10 @@ import { DateTime } from "luxon";
 
 import { EmptyDiv } from "@/components/Techtree/EmptyDiv";
 import { TechTreeItem } from "@/components/Techtree/TechTreeItem";
+import { CountryName, countryname } from "@/skins.types";
 import { finalQuery } from "@/store/final";
 import { shopQuery } from "@/store/shop";
-import {
-  CountryName,
-  FinalProp,
-  FinalShopGroup,
-  FinalShopItem,
-  VehicleProps,
-  countryname,
-} from "@/types";
+import { FinalProp, FinalShopGroup, FinalShopItem, VehicleProps } from "@/types";
 import { vehicleCountry } from "@/utils/custom/VehicleCountry";
 import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 

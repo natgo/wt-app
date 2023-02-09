@@ -1,5 +1,5 @@
 import { BlackTooltip } from "@/pages/Skins/Skins";
-import { ToolTipProp } from "@/types";
+import { ToolTipProp } from "@/skins.types";
 
 import { ToolTipText } from "./ToolTipText";
 

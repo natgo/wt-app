@@ -2,7 +2,7 @@ import { atom } from "recoil";
 
 import { recoilPersist } from "recoil-persist";
 
-import { SkinsProp } from "@/types";
+import { SkinsProp } from "@/skins.types";
 
 import { CorrectedList, FilterProps, ParcedList } from "./types";
 

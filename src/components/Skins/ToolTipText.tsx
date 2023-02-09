@@ -1,7 +1,7 @@
 import { useRecoilValue } from "recoil";
 
+import { Ungrouped } from "@/skins.types";
 import { finalQuery } from "@/store/final";
-import { Ungrouped } from "@/types";
 import capitailze from "@/utils/Capitalize";
 import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 

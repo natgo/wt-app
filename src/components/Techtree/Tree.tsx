@@ -2,10 +2,11 @@
 import { useRecoilValue } from "recoil";
 
 import { MediaHead } from "@/components/Techtree/MediaHead";
+import { CountryProp } from "@/skins.types";
 import { FilterAtom } from "@/store/atom/atom";
 import { finalQuery } from "@/store/final";
 import { shopQuery } from "@/store/shop";
-import { CountryProp, FinalShopGroup, ShopExtGroup, ShopExtItem } from "@/types";
+import { FinalShopGroup, ShopExtGroup, ShopExtItem } from "@/types";
 import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
 import { Research } from "./Research";

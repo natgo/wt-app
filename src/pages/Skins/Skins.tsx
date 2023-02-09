@@ -4,8 +4,8 @@ import { Tab, Tabs, Tooltip, TooltipProps, styled, tooltipClasses } from "@mui/m
 
 import { OtherTab } from "@/components/Skins/OtherTab";
 import { SkinCountryTabs } from "@/components/Skins/SkinCountryTabs";
+import { CountryProp } from "@/skins.types";
 import { SkinAtom, SkinCountryTab, SkinTypeTab } from "@/store/atom/atom";
-import { CountryProp } from "@/types";
 
 export const BlackTooltip = styled(({ className, placement, ...props }: TooltipProps) => (
   <Tooltip {...props} arrow classes={{ popper: className }} placement={placement} />

@@ -1,7 +1,8 @@
 import { getRecoil } from "recoil-nexus";
 
+import { Countries, VehicleSkinsProp } from "@/skins.types";
 import { SkinAtom } from "@/store/atom/atom";
-import { Countries, VehicleProps, VehicleSkinsProp } from "@/types";
+import { VehicleProps } from "@/types";
 
 function skinsFEloop(country: Countries, vehicle: VehicleProps, type: "ground" | "aircraft") {
   const vehicleSkins: VehicleSkinsProp = {

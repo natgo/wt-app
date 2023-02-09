@@ -3,8 +3,8 @@ import { useRecoilState, useRecoilValue } from "recoil";
 import { Box, Tab, Tabs } from "@mui/material";
 
 import { TechTree } from "@/components/Techtree/Tree";
+import { CountryProp } from "@/skins.types";
 import { CountryTab, SearchName, TypeTab } from "@/store/atom/atom";
-import { CountryProp } from "@/types";
 
 import "./App2.css";
 import "./App.css";

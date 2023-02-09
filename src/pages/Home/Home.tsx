@@ -3,11 +3,12 @@ import { useSetRecoilState } from "recoil";
 import axios from "axios";
 
 import ayskari from "@/assets/img/as.webp";
+import { SkinsProp } from "@/skins.types";
 import { SkinAtom } from "@/store/atom/atom";
 import { finalDevState, finalLiveState } from "@/store/final";
 import { ModificationDevState, ModificationLiveState } from "@/store/modifications";
 import { shopDevState, shopLiveState } from "@/store/shop";
-import { FinalProp, FinalShop, Modifications, SkinsProp } from "@/types";
+import { FinalProp, FinalShop, Modifications } from "@/types";
 
 export default function Home(): JSX.Element {
   const setFinalLive = useSetRecoilState(finalLiveState);

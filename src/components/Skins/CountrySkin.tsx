@@ -1,4 +1,4 @@
-import { SinkProp } from "@/types";
+import { SinkProp } from "@/skins.types";
 import capitailze from "@/utils/Capitalize";
 
 import { ToolTip } from "./ToolTip";
