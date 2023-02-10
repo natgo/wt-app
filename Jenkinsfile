@@ -2,13 +2,13 @@ pipeline {
   agent {
     // this image provides everything needed to run Cypress
     docker {
-      image 'cypress/base:16.18.1'
+      image 'cypress/base:18.12.1'
     }
   }
   stages {
     stage('Install Dependencies') {
       steps {
-        sh 'npm ci'
+        sh 'npm i'
       }
     }
 
