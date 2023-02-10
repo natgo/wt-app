@@ -45,7 +45,7 @@ function shopRange(shop: (FinalShopItem | FinalShopGroup)[][], final: FinalProp)
 function CountryFlag(props: { country: CountryName }): JSX.Element {
   const country = vehicleCountry(props.country);
   return (
-    <div className="justify-self-center mb-3">
+    <div className="mb-3 justify-self-center">
       <img src={`./images/flag/68px-${country}_flag.png`} />
     </div>
   );

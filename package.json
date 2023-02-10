@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "https-preview": "serve dist",
     "prepare": "husky install",
-    "pretty": "prettier -w src/ --plugin=./node_modules/@trivago/prettier-plugin-sort-imports/"
+    "pretty": "prettier -w src/"
   },
   "dependencies": {
     "@emotion/react": "11.10.5",
@@ -59,7 +59,8 @@
     "lint-staged": "13.1.1",
     "postcss": "8.4.21",
     "prettier": "2.8.4",
-    "rollup": "3.14.0",
+    "prettier-plugin-tailwindcss": "0.2.2",
+    "rollup": "3.15.0",
     "rollup-plugin-visualizer": "5.9.0",
     "stylelint": "15.0.0",
     "stylelint-config-standard": "30.0.1",

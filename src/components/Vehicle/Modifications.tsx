@@ -18,19 +18,19 @@ export function Modifications(props: { vehicle: VehicleProps }): JSX.Element {
 
   return (
     <div className="m-8">
-      <div className="text-black text-lg">Modifications:</div>
-      <div className="grid grid-flow-col auto-cols-min bg-[#242e33] w-max rounded-lg">
+      <div className="text-lg text-black">Modifications:</div>
+      <div className="grid w-max auto-cols-min grid-flow-col rounded-lg bg-[#242e33]">
         {Object.entries(mods.mods).map(([key, value]) => {
           const value2 = value as BaseMod[][];
           return (
-            <div key={key} className="grid auto-rows-max pt-2 border-r">
-              <div className="text-white px-4 border-b">{capitailze(key)}</div>
+            <div key={key} className="grid auto-rows-max border-r pt-2">
+              <div className="border-b px-4 text-white">{capitailze(key)}</div>
               <div className="grid grid-rows-4">
                 {value2.map((element, index) => {
                   return (
                     <div
                       key={index}
-                      className="grid grid-flow-col justify-start gap-2 px-4 border-b"
+                      className="grid grid-flow-col justify-start gap-2 border-b px-4"
                     >
                       {element.map((element) => {
                         return (

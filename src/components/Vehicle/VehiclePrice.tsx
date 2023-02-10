@@ -41,14 +41,14 @@ export function VehiclePrice(props: { vehicle: VehicleProps }): JSX.Element {
         <div className="grid grid-cols-2">
           <div className="general_info_price_research">
             <div className="desc">Research:</div>
-            <div className="value grid-flow-col grid justify-start items-center">
+            <div className="value grid grid-flow-col items-center justify-start">
               <span>{rp}</span>
               <img alt="Specs-Card-Exp.png" src={rpImg} />
             </div>
           </div>
           <div className="general_info_price_buy">
             <div className="desc">Purchase:</div>
-            <div className="value grid-flow-col grid justify-start items-center">
+            <div className="value grid grid-flow-col items-center justify-start">
               <span>{sl}</span>
               <img alt="Specs-Card-Lion.png" src={slImg} />
             </div>
@@ -62,7 +62,7 @@ export function VehiclePrice(props: { vehicle: VehicleProps }): JSX.Element {
         <div className="grid grid-cols-2">
           <div className="general_info_price_buy">
             <div className="desc">Purchase:</div>
-            <div className="value grid-flow-col grid justify-start items-center">
+            <div className="value grid grid-flow-col items-center justify-start">
               <span>{cost_gold}</span>
               <img alt="Specs-Card-Eagle.png" src={geImg} />
             </div>
@@ -96,14 +96,14 @@ export function VehiclePrice(props: { vehicle: VehicleProps }): JSX.Element {
           <div className="grid grid-cols-2">
             <div className="general_info_price_research">
               <div className="desc">Research:</div>
-              <div className="value grid-flow-col grid justify-start items-center">
+              <div className="value grid grid-flow-col items-center justify-start">
                 <span>{rp}</span>
                 <img alt="Specs-Card-Activity.png" src={squadImg} />
               </div>
             </div>
             <div className="general_info_price_buy">
               <div className="desc">Purchase:</div>
-              <div className="value grid-flow-col grid justify-start items-center">
+              <div className="value grid grid-flow-col items-center justify-start">
                 <span>{sl}</span>
                 <img alt="Specs-Card-Lion.png" src={slImg} />
               </div>

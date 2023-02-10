@@ -21,8 +21,8 @@ export default function Compare(): JSX.Element {
   };
 
   return (
-    <div className="w-full h-full px-8 grid auto-cols-fr">
-      <div className="grid grid-flow-col auto-cols-fr justify-items-center">
+    <div className="grid h-full w-full auto-cols-fr px-8">
+      <div className="grid auto-cols-fr grid-flow-col justify-items-center">
         {compare.map((vehicle) => (
           <div key={vehicle.intname}>
             <SpecsCard vehicle={vehicle} />
@@ -48,7 +48,7 @@ function CompareFunction(params: { vehicles: VehicleProps[] }) {
   if (vehicles.length > 0 && vehicles[0].type === "tank") {
     const vehicles2 = vehicles as GroundProps[];
     return (
-      <div className="grid grid-flow-col auto-cols-fr row-span-2">
+      <div className="row-span-2 grid auto-cols-fr grid-flow-col">
         {vehicles2.map((vehicle) => (
           <>
             <div>
