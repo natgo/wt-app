@@ -25,12 +25,8 @@ export interface Ungrouped {
   dislayname: string;
   post: string;
   camo?: Array<Camo>;
-  type?: Type;
+  type?: "semi";
   repack?: boolean;
-}
-
-export enum Type {
-  Semi = "semi",
 }
 
 export type Camo = "summer" | "desert" | "fall" | "winter";

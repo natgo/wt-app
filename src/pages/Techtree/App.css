@@ -743,19 +743,13 @@ img.tree-item-js {
   margin-bottom: 4px;
 }
 
-.general_info_br .desc a {
-  color: #000;
-}
-
 .general_info_br table {
-  display: table !important;
   text-align: center;
   width: 100%;
-  border-color: #dbe0e2;
   background-color: white;
 }
 
-.general_info_br table a {
+.general_info_br div {
   color: #000;
 }
 
@@ -834,22 +828,6 @@ img.tree-item-js {
 .general_info_price {
   padding: 16px 20px 5px;
   overflow: hidden;
-}
-
-.general_info_price img {
-  margin-top: -6px;
-  margin-left: 3px;
-}
-
-.general_info_price_research,
-.general_info_price_buy {
-  display: inline-block;
-  width: 50%;
-}
-
-.general_info_price_research span,
-.general_info_price_buy span {
-  display: block;
 }
 
 .general_info_price_research .desc,

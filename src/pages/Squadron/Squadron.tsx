@@ -44,10 +44,9 @@ function shopRange(shop: (FinalShopItem | FinalShopGroup)[][], final: FinalProp)
 
 function CountryFlag(props: { country: CountryName }): JSX.Element {
   const country = vehicleCountry(props.country);
-  const flag = `./images/flag/68px-${country}_flag.png`;
   return (
-    <div style={{ justifySelf: "center" }}>
-      <img src={flag} />
+    <div className="justify-self-center mb-3">
+      <img src={`./images/flag/68px-${country}_flag.png`} />
     </div>
   );
 }
@@ -81,32 +80,25 @@ export default function SquadronVehicles(): JSX.Element {
   }
 
   return (
-    <div style={{ padding: "30px" }}>
-      <div style={{ display: "grid", gridAutoFlow: "column" }}>
+    <div className="p-8">
+      <div className="grid grid-flow-col">
         {Object.entries(countries).map(([key, value]) => {
           if (value.length === 0) {
             return null;
           }
 
           return (
-            <div
-              key={key}
-              style={{
-                display: "grid",
-                gridAutoFlow: "row",
-                gridTemplateRows: "40px repeat(4,78px)",
-              }}
-            >
+            <div key={key} className="grid auto-rows-min">
               <CountryFlag country={countryname.parse(key)} />
               {value.map((element, index) => {
                 return (
-                  <div key={index} style={{ display: "grid", justifyContent: "center" }}>
+                  <div key={index} className="grid justify-center">
                     <TechTreeItem intname={element.intname} key={index} />
                     {((element.reqRP / 20000) * 3) % 3 > 0
                       ? (element.reqRP / 20000) * 3 - (((element.reqRP / 20000) * 3) % 3) + 3
                       : (element.reqRP / 20000) * 3}{" "}
                     Days to research
-                    <EmptyDiv />
+                    <EmptyDiv size={30} />
                   </div>
                 );
               })}

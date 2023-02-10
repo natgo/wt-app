@@ -1,7 +1,5 @@
-/* eslint-disable react/no-unknown-property */
 import { useRecoilValue } from "recoil";
 
-import { MediaHead } from "@/components/Techtree/MediaHead";
 import { CountryProp } from "@/skins.types";
 import { FilterAtom } from "@/store/atom/atom";
 import { finalQuery } from "@/store/final";
@@ -78,7 +76,7 @@ export function TechTree(props: TechTreeProp): JSX.Element {
   return (
     <div className="mw-parser-output">
       <div className="tree">
-        <table rules="rows" width="100%">
+        <table width="100%">
           <tbody>
             <Research research={shop.col_normal} max={shop.range.length} />
             {ranked.map((element, index) => {
@@ -86,33 +84,6 @@ export function TechTree(props: TechTreeProp): JSX.Element {
             })}
           </tbody>
         </table>
-      </div>
-      <MediaHead />
-      <div className="video_gallery">
-        <a href="https://yewtu.be/4tLiivpJ7nk">
-          <b>Book of Records USSR</b> - <i>War Thunder Official Channel</i>
-        </a>
-        <a href="https://yewtu.be/klfkO6hJQGk">
-          <b>Climbing the ranks with Soviet tanks</b> - <i>War Thunder Official Channel</i>
-        </a>
-        <a href="https://yewtu.be/z5ZZzHNPYi4">
-          <b>Russian ground forces Tier I - Review and Analysis</b> - <i>Oxy</i>
-        </a>
-        <a href="https://yewtu.be/TXWa-Nnc6IE">
-          <b>Russian ground forces Tier II - Review and Analysis</b> - <i>Oxy</i>
-        </a>
-        <a href="https://yewtu.be/MRlEuQRfHdk">
-          <b>Russian ground forces Tier III - Review and Analysis</b> - <i>Oxy</i>
-        </a>
-        <a href="https://yewtu.be/nw2LFVdhm5s">
-          <b>Russian ground forces Tier IV - Review and Analysis</b> - <i>Oxy</i>
-        </a>
-        <a href="https://yewtu.be/XtuTkDhE3OQ">
-          <b>Russian ground forces Tier V - Review and Analysis</b> - <i>Oxy</i>
-        </a>
-        <a href="https://yewtu.be/idwfz6_Nl6I">
-          <b>Russian ground forces Tier VI/VII - Review and Analysis</b> - <i>Oxy</i>
-        </a>
       </div>
     </div>
   );

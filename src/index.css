@@ -1,4 +1,9 @@
+/* stylelint-disable at-rule-no-unknown */
 /* stylelint-disable selector-class-pattern */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 #root {
   width: 100%;
@@ -81,7 +86,7 @@
 .tablecontainer {
   display: grid;
   grid-template-rows: 1fr;
-  padding: 30px;
+  padding: 2rem;
 }
 
 .tablecontainer > div {
@@ -196,7 +201,7 @@
   display: grid;
   grid-auto-columns: 40px;
   grid-auto-flow: column;
-  padding: 30px;
+  padding: 2rem;
 }
 
 div.skins .specs_card {

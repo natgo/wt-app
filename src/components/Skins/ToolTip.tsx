@@ -16,7 +16,7 @@ export function ToolTip(props: ToolTipProp): JSX.Element {
             ? "https://natgo.xyz/files/wt/" + value.post
             : "https://live.warthunder.com/post/" + value.post
         }
-        className="vehicle"
+        className="vehicle text-blue-500"
       >
         <span style={{ backgroundColor: value.type ? "pink" : "auto" }}>{value.dislayname}</span>
       </a>

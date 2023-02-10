@@ -24,7 +24,7 @@ export function TreeRank(props: {
   });
 
   return (
-    <tr>
+    <tr className="border">
       <Rank rank={rank.rank + 1} needed={shop.needVehicles[rank.rank]} />
       {rank.range.map((element, rowindex) => {
         if (element.length === 0 && ranked[topindex - 1] && ranked[topindex - 1].range[rowindex]) {
@@ -95,7 +95,7 @@ export function TreeRank(props: {
                             }
                             return [
                               <TechTreeItem key={element.name} intname={element.name} />,
-                              <EmptyDiv key={element.name + "_arrow"} />,
+                              <EmptyDiv size={30} key={element.name + "_arrow"} />,
                             ];
                           })}
                         </TreeFolder>
@@ -117,11 +117,11 @@ export function TreeRank(props: {
                             }
                             return [
                               <TechTreeItem key={element.name} intname={element.name} />,
-                              <EmptyDiv key={element.name + "_arrow"} />,
+                              <EmptyDiv size={30} key={element.name + "_arrow"} />,
                             ];
                           })}
                         </TreeFolder>
-                        <EmptyDiv />
+                        <EmptyDiv size={30} />
                       </Fragment>
                     );
                   }
@@ -145,7 +145,7 @@ export function TreeRank(props: {
                             }
                             return [
                               <TechTreeItem key={element.name} intname={element.name} />,
-                              <EmptyDiv key={element.name + "_arrow"} />,
+                              <EmptyDiv size={30} key={element.name + "_arrow"} />,
                             ];
                           })}
                         </TreeFolder>
@@ -167,11 +167,11 @@ export function TreeRank(props: {
                             }
                             return [
                               <TechTreeItem key={element.name} intname={element.name} />,
-                              <EmptyDiv key={element.name + "_arrow"} />,
+                              <EmptyDiv size={30} key={element.name + "_arrow"} />,
                             ];
                           })}
                         </TreeFolder>
-                        <EmptyDiv />
+                        <EmptyDiv size={30} />
                       </Fragment>
                     );
                   }
@@ -189,7 +189,7 @@ export function TreeRank(props: {
                     return (
                       <Fragment key={element.name}>
                         <TechTreeItem intname={element.name} />
-                        <EmptyDiv />
+                        <EmptyDiv size={30} />
                       </Fragment>
                     );
                   }
@@ -244,7 +244,7 @@ export function TreeRank(props: {
                   return (
                     <Fragment key={element.name}>
                       <TechTreeItem intname={element.name} />
-                      <EmptyDiv />
+                      <EmptyDiv size={30} />
                     </Fragment>
                   );
                 }

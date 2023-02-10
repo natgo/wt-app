@@ -16,87 +16,58 @@ export function VehiclePrice(props: { vehicle: VehicleProps }): JSX.Element {
   let sl = "Not Free";
   if (sl_price === undefined) {
     sl = "Free";
+  } else if (sl_price === 0) {
+    sl = "Free";
   } else {
-    if (sl_price === 0) {
-      sl = "Free";
-    } else {
-      sl = sl_price.toLocaleString();
-    }
+    sl = sl_price.toLocaleString();
   }
+
   if (prem_type === "false" && hidden === undefined) {
     if (sl === "Free") {
       return (
-        <>
+        <div className="grid grid-cols-2">
           <div className="general_info_price_research">
-            <span className="desc">Research:</span>
-            <span className="value">{rp}</span>
+            <div className="desc">Research:</div>
+            <div className="value">{rp}</div>
           </div>
           <div className="general_info_price_buy">
-            <span className="desc">Purchase:</span>
-            <span className="value">{sl}</span>
+            <div className="desc">Purchase:</div>
+            <div className="value">{sl}</div>
           </div>
-        </>
+        </div>
       );
     } else {
       return (
-        <>
+        <div className="grid grid-cols-2">
           <div className="general_info_price_research">
-            <span className="desc">Research:</span>
-            <span className="value">
-              {rp}
-              <a href="/Research_Points" title="Research Points">
-                <img
-                  alt="Specs-Card-Exp.png"
-                  src={rpImg}
-                  width="14"
-                  height="22"
-                  srcSet="./images/4/4f/Specs-Card-Exp.png 1.5x"
-                  data-file-width="16"
-                  data-file-height="25"
-                />
-              </a>
-            </span>
+            <div className="desc">Research:</div>
+            <div className="value grid-flow-col grid justify-start items-center">
+              <span>{rp}</span>
+              <img alt="Specs-Card-Exp.png" src={rpImg} />
+            </div>
           </div>
           <div className="general_info_price_buy">
-            <span className="desc">Purchase:</span>
-            <span className="value">
-              {sl}
-              <a href="/Silver_Lions" title="Silver Lions">
-                <img
-                  alt="Specs-Card-Lion.png"
-                  src={slImg}
-                  width="24"
-                  height="24"
-                  data-file-width="24"
-                  data-file-height="24"
-                />
-              </a>
-            </span>
+            <div className="desc">Purchase:</div>
+            <div className="value grid-flow-col grid justify-start items-center">
+              <span>{sl}</span>
+              <img alt="Specs-Card-Lion.png" src={slImg} />
+            </div>
           </div>
-        </>
+        </div>
       );
     }
   } else {
     if (prem_type === "gold") {
       return (
-        <>
+        <div className="grid grid-cols-2">
           <div className="general_info_price_buy">
-            <span className="desc">Purchase:</span>
-            <span className="value">
-              {cost_gold}
-              <a href="/Golden_Eagles" title="Golden Eagles">
-                <img
-                  alt="Specs-Card-Eagle.png"
-                  src={geImg}
-                  width="24"
-                  height="24"
-                  data-file-width="24"
-                  data-file-height="24"
-                />
-              </a>
-            </span>
+            <div className="desc">Purchase:</div>
+            <div className="value grid-flow-col grid justify-start items-center">
+              <span>{cost_gold}</span>
+              <img alt="Specs-Card-Eagle.png" src={geImg} />
+            </div>
           </div>
-        </>
+        </div>
       );
     } else {
       if (
@@ -113,54 +84,31 @@ export function VehiclePrice(props: { vehicle: VehicleProps }): JSX.Element {
           text = "Marketplace";
         }
         return (
-          <>
-            <div className="general_info_price_buy" style={{ width: "100%" }}>
-              <span className="desc">Purchase:</span>
-              <span className="value small">
-                <a href="/Category:Gift_ground_vehicles" title="Category:Gift ground vehicles">
-                  {text}
-                </a>
-              </span>
+          <div className="grid grid-cols-2">
+            <div className="general_info_price_buy">
+              <div className="desc">Purchase:</div>
+              <div className="value small">{text}</div>
             </div>
-          </>
+          </div>
         );
       } else {
         return (
-          <>
+          <div className="grid grid-cols-2">
             <div className="general_info_price_research">
-              <span className="desc">Research:</span>
-              <span className="value">
-                {rp}
-                <a href="/Research_Points" title="Research Points">
-                  <img
-                    alt="Specs-Card-Activity.png"
-                    src={squadImg}
-                    width="23"
-                    height="23"
-                    srcSet="./images/5/56/Specs-Card-Activity.png 1.5x"
-                    data-file-width="25"
-                    data-file-height="25"
-                  />
-                </a>
-              </span>
+              <div className="desc">Research:</div>
+              <div className="value grid-flow-col grid justify-start items-center">
+                <span>{rp}</span>
+                <img alt="Specs-Card-Activity.png" src={squadImg} />
+              </div>
             </div>
             <div className="general_info_price_buy">
-              <span className="desc">Purchase:</span>
-              <span className="value">
-                {sl}
-                <a href="/Silver_Lions" title="Silver Lions">
-                  <img
-                    alt="Specs-Card-Lion.png"
-                    src={slImg}
-                    width="24"
-                    height="24"
-                    data-file-width="24"
-                    data-file-height="24"
-                  />
-                </a>
-              </span>
+              <div className="desc">Purchase:</div>
+              <div className="value grid-flow-col grid justify-start items-center">
+                <span>{sl}</span>
+                <img alt="Specs-Card-Lion.png" src={slImg} />
+              </div>
             </div>
-          </>
+          </div>
         );
       }
     }

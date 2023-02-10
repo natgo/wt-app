@@ -21,24 +21,8 @@ export default function Compare(): JSX.Element {
   };
 
   return (
-    <div
-      style={{
-        width: "100%",
-        height: "100%",
-        paddingLeft: "30px",
-        display: "grid",
-        gridAutoFlow: "column",
-        gridAutoColumns: "1fr",
-      }}
-    >
-      <div
-        style={{
-          display: "grid",
-          gridAutoFlow: "column",
-          gridAutoColumns: "1fr",
-          justifyItems: "center",
-        }}
-      >
+    <div className="w-full h-full px-8 grid auto-cols-fr">
+      <div className="grid grid-flow-col auto-cols-fr justify-items-center">
         {compare.map((vehicle) => (
           <div key={vehicle.intname}>
             <SpecsCard vehicle={vehicle} />
@@ -49,7 +33,7 @@ export default function Compare(): JSX.Element {
 
       <Fab
         color="primary"
-        sx={{ position: "absolute", bottom: "16px", left: "16px" }}
+        sx={{ position: "absolute", bottom: "1rem", left: "1rem" }}
         onClick={handleClickOpen}
       >
         <AddIcon />
@@ -64,14 +48,7 @@ function CompareFunction(params: { vehicles: VehicleProps[] }) {
   if (vehicles.length > 0 && vehicles[0].type === "tank") {
     const vehicles2 = vehicles as GroundProps[];
     return (
-      <div
-        style={{
-          display: "grid",
-          gridAutoFlow: "column",
-          gridAutoRows: "1fr",
-          gridRow: 2,
-        }}
-      >
+      <div className="grid grid-flow-col auto-cols-fr row-span-2">
         {vehicles2.map((vehicle) => (
           <>
             <div>
@@ -82,7 +59,7 @@ function CompareFunction(params: { vehicles: VehicleProps[] }) {
               </div>
               <GroundWeapon vehicle={vehicle} />
             </div>
-            <div style={{ gridRow: 2 }}>
+            <div className="row-start-2">
               <Optics vehicle={vehicle} />
             </div>
           </>

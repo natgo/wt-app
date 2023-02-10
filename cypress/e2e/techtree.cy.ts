@@ -20,7 +20,7 @@ describe("Techtree test", () => {
     cy.get(".general_info_price").contains("2100");
     cy.get(".general_info_game_button").contains("Show in game");
     cy.get(".crew .value").contains("10 people");
-    cy.get(".visibility .value").contains("100 %");
+    cy.get(".visibility .value").contains("195 %");
     cy.go("back");
   });
   const countries = [

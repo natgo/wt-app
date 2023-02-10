@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unknown-property */
 import { Tooltip } from "@mui/material";
 
 import { GroundProps, HelicopterProps, Scrape, VehicleProps } from "@/types";
@@ -47,6 +46,7 @@ export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean 
         <div className="general_info">
           <div className="general_info_nation">
             <a
+              className="flex"
               href={`https://wiki.warthunder.com/Category:${country}_ground_vehicles`}
               title={`Category:${country} ground vehicles`}
             >
@@ -58,11 +58,6 @@ export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean 
                 data-file-width="200"
                 data-file-height="104"
               />
-            </a>
-            <a
-              href={`https://wiki.warthunder.com/Category:${country}_ground_vehicles`}
-              title={`Category:${country} ground vehicles`}
-            >
               {country}
             </a>
           </div>
@@ -77,37 +72,33 @@ export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean 
         </div>
         <div className="general_info_2">
           <div className="general_info_br">
-            <div className="desc">
-              <a href="/Battle_ratings" title="Battle ratings">
-                Battle rating
-              </a>
-              :
-            </div>
-            <table rules="all">
-              <tbody>
-                <tr>
-                  <td>
-                    <a href="/Arcade_Battles" className="mw-redirect" title="Arcade Battles">
-                      AB
-                    </a>
-                  </td>
-                  <td>
-                    <a href="/Realistic_Battles" className="mw-redirect" title="Realistic Battles">
-                      RB
-                    </a>
-                  </td>
-                  <td>
-                    <a href="/Simulator_Battles" className="mw-redirect" title="Simulator Battles">
-                      SB
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>{vehicle.br[0]}</td>
-                  <td>{vehicle.br[1]}</td>
-                  <td>{vehicle.br[2]}</td>
-                </tr>
-              </tbody>
+            <div className="desc">Battle rating:</div>
+            <table className="border-collapse">
+              <colgroup>
+                <col span={2} className="border-r border-black" />
+              </colgroup>
+              <tr className="border-b border-black">
+                <td>
+                  <div>AB</div>
+                </td>
+                <td>
+                  <div>RB</div>
+                </td>
+                <td>
+                  <div>SB</div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div>{vehicle.br[0]}</div>
+                </td>
+                <td>
+                  <div>{vehicle.br[1]}</div>
+                </td>
+                <td>
+                  <div>{vehicle.br[2]}</div>
+                </td>
+              </tr>
             </table>
           </div>
           <div className="general_info_class">

@@ -17,43 +17,46 @@ export function Modifications(props: { vehicle: VehicleProps }): JSX.Element {
   }
 
   return (
-    <div style={{ display: "grid", gridAutoFlow: "column", gridAutoColumns: "1fr" }}>
-      {Object.entries(mods.mods).map(([key, value]) => {
-        const value2 = value as BaseMod[][];
-        return (
-          <div key={key} style={{ display: "grid", gridTemplateRows: "24px 1fr" }}>
-            <div>{capitailze(key)}</div>
-            <div>
-              {value2.map((element, index) => {
-                return (
-                  <div
-                    key={index}
-                    style={{ display: "grid", gridAutoFlow: "column", justifyContent: "start" }}
-                  >
-                    {element.map((element) => {
-                      return (
-                        <div className="tree-item" key={element.intname}>
-                          <div className="tree-item-background" id={element.intname}>
-                            <ItemImg type="own" />
+    <div className="m-8">
+      <div className="text-black text-lg">Modifications:</div>
+      <div className="grid grid-flow-col auto-cols-min bg-[#242e33] w-max rounded-lg">
+        {Object.entries(mods.mods).map(([key, value]) => {
+          const value2 = value as BaseMod[][];
+          return (
+            <div key={key} className="grid auto-rows-max pt-2 border-r">
+              <div className="text-white px-4 border-b">{capitailze(key)}</div>
+              <div className="grid grid-rows-4">
+                {value2.map((element, index) => {
+                  return (
+                    <div
+                      key={index}
+                      className="grid grid-flow-col justify-start gap-2 px-4 border-b"
+                    >
+                      {element.map((element) => {
+                        return (
+                          <div className="tree-item my-4" key={element.intname}>
+                            <div className="tree-item-background" id={element.intname}>
+                              <ItemImg type="own" />
+                            </div>
+                            <div className="tree-item-text">
+                              <span className="tree-item-text-scroll">
+                                {element.displayname ? element.displayname : element.intname}
+                              </span>
+                            </div>
+                            <div className="tree-item-img">
+                              <img src={`../images/gameuiskin/${element.image.toLowerCase()}`} />
+                            </div>
                           </div>
-                          <div className="tree-item-text">
-                            <span className="tree-item-text-scroll">
-                              {element.displayname ? element.displayname : element.intname}
-                            </span>
-                          </div>
-                          <div className="tree-item-img">
-                            <img src={`../images/gameuiskin/${element.image.toLowerCase()}`} />
-                          </div>
-                        </div>
-                      );
-                    })}
-                  </div>
-                );
-              })}
+                        );
+                      })}
+                    </div>
+                  );
+                })}
+              </div>
             </div>
-          </div>
-        );
-      })}
+          );
+        })}
+      </div>
     </div>
   );
 }
