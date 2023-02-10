@@ -382,3 +382,21 @@ export interface BaseMod {
   reqMod?: string;
   image: string;
 }
+
+// Scrape
+export const topSpeed = z.number().array().length(2);
+export type TopSpeed = z.infer<typeof topSpeed>;
+export const visibility = z.number().max(3000);
+export type Visibility = z.infer<typeof visibility>;
+
+export interface ScrapeFull {
+  ground: Scrape[];
+  aircraft: Scrape[];
+  helicopter: Scrape[];
+}
+export interface Scrape {
+  intname: string;
+  ab_top_speed: TopSpeed;
+  rb_top_speed: TopSpeed;
+  visibility: Visibility;
+}

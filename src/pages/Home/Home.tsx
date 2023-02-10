@@ -8,7 +8,8 @@ import { SkinAtom } from "@/store/atom/atom";
 import { finalDevState, finalLiveState } from "@/store/final";
 import { ModificationDevState, ModificationLiveState } from "@/store/modifications";
 import { shopDevState, shopLiveState } from "@/store/shop";
-import { FinalProp, FinalShop, Modifications } from "@/types";
+import { WikiState } from "@/store/wiki";
+import { FinalProp, FinalShop, Modifications, ScrapeFull } from "@/types";
 
 export default function Home(): JSX.Element {
   const setFinalLive = useSetRecoilState(finalLiveState);
@@ -18,6 +19,7 @@ export default function Home(): JSX.Element {
   const setShopDev = useSetRecoilState(shopDevState);
   const setModificationLive = useSetRecoilState(ModificationLiveState);
   const setModificationDev = useSetRecoilState(ModificationDevState);
+  const setWiki = useSetRecoilState(WikiState);
 
   axios.get("./final.json").then((response) => {
     const final: FinalProp = response.data;
@@ -52,6 +54,11 @@ export default function Home(): JSX.Element {
   axios.get("./modifications-dev.json").then((response) => {
     const modifications: Modifications = response.data;
     setModificationDev(modifications);
+  });
+
+  axios.get("./wiki.json").then((response) => {
+    const wiki: ScrapeFull = response.data;
+    setWiki(wiki);
   });
 
   return (

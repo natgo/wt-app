@@ -11,6 +11,7 @@ import { Optics } from "@/components/Vehicle/VehicleOptics";
 import { VehicleSkinsCard } from "@/components/Vehicle/VehicleSkinsCard";
 import { GroundWeapon } from "@/components/Vehicle/VehicleWeapon";
 import { finalQuery } from "@/store/final";
+import { WikiState } from "@/store/wiki";
 import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
 import "../Techtree/App.css";
@@ -18,18 +19,26 @@ import "../Techtree/App.css";
 export default function Vehicle(): JSX.Element {
   const params = useParams();
   const final = useRecoilValue(finalQuery);
+  const wiki = useRecoilValue(WikiState);
+
   if (params.vehicleId) {
     console.log(params.vehicleId);
     const match = queryVehicleIntname(params.vehicleId, final);
     console.log(match);
     if (match) {
       if (match.type === "tank") {
+        const wikiMatch = wiki.ground.find((value) => {
+          return match.intname === value.intname;
+        });
+        if (!wikiMatch) {
+          throw new Error("Not in wiki.json");
+        }
         return (
           <div>
             <SpecsCard vehicle={match} garageimage />
             <VehicleSkinsCard vehicle={match} />
-            <Survivability vehicle={match} />
-            <Mobility vehicle={match} />
+            <Survivability vehicle={match} wiki={wikiMatch} />
+            <Mobility vehicle={match} wiki={wikiMatch} />
             <GroundWeapon vehicle={match} />
             <Optics vehicle={match} />
             <Modifications vehicle={match} />

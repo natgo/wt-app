@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unknown-property */
 import { Tooltip } from "@mui/material";
 
-import { GroundProps, HelicopterProps, VehicleProps } from "@/types";
+import { GroundProps, HelicopterProps, Scrape, VehicleProps } from "@/types";
 import { vehicleCountry } from "@/utils/custom/VehicleCountry";
 import { vehicleType } from "@/utils/custom/VehicleType";
 import { numRankToStr } from "@/utils/custom/numericRankToString";
@@ -141,8 +141,8 @@ export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean 
   );
 }
 
-export function Survivability(props: { vehicle: GroundProps }): JSX.Element {
-  const { vehicle } = props;
+export function Survivability(props: { vehicle: GroundProps; wiki: Scrape }): JSX.Element {
+  const { vehicle, wiki } = props;
   return (
     <div className="specs_info">
       <div className="specs_feature">
@@ -164,7 +164,7 @@ export function Survivability(props: { vehicle: GroundProps }): JSX.Element {
         <div className="specs_char_block visibility">
           <div className="specs_char_line head">
             <span className="name">Visibility (Wiki)</span>
-            <span className="value">100 %</span>
+            <span className="value">{wiki.visibility} %</span>
           </div>
         </div>
       </div>
@@ -202,8 +202,8 @@ function Squadron(props: { vehicle: VehicleProps }): JSX.Element | null {
   }
 }
 
-export function Mobility(props: { vehicle: GroundProps }): JSX.Element {
-  const { vehicle } = props;
+export function Mobility(props: { vehicle: GroundProps; wiki: Scrape }): JSX.Element {
+  const { vehicle, wiki } = props;
   return (
     <div className="specs_info">
       <div className="specs_feature">
@@ -221,13 +221,13 @@ export function Mobility(props: { vehicle: GroundProps }): JSX.Element {
           <div className="specs_char_line indent">
             <span className="name">AB</span>
             <span className="value">
-              {0} / {0} km/h
+              {wiki.ab_top_speed[0]} / {wiki.ab_top_speed[1]} km/h
             </span>
           </div>
           <div className="specs_char_line indent">
             <span className="name">RB and SB</span>
             <span className="value">
-              {0} / {0} km/h
+              {wiki.rb_top_speed[0]} / {wiki.rb_top_speed[1]} km/h
             </span>
           </div>
         </div>
