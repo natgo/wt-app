@@ -2,13 +2,13 @@ import axios from "axios";
 import { getRecoil, setRecoil } from "recoil-nexus";
 
 import { CalculatorMode, dialogue } from "@/store/atom/atom";
-import { FinalProp } from "@/types";
+import { Final } from "@/types";
 import { queryVehicleWikiname, querypartialVehicleWikiname } from "@/utils/custom/queryVehicle";
 
 import br from "./br";
 import lookup from "./lookup";
 
-async function getBR(final: FinalProp) {
+async function getBR(final: Final) {
   try {
     const response = await axios.get("http://localhost:8111/indicators");
     console.log(response.data.type);
@@ -21,10 +21,7 @@ async function getBR(final: FinalProp) {
   }
 }
 
-export default async function changeParsed(
-  sakke: { name: string; id: number }[],
-  final: FinalProp,
-) {
+export default async function changeParsed(sakke: { name: string; id: number }[], final: Final) {
   const mode = getRecoil(CalculatorMode);
 
   const userBr = await getBR(final);

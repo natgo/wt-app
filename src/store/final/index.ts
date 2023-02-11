@@ -1,18 +1,18 @@
 import { atom, selector } from "recoil";
 
-import { FinalProp } from "@/types";
+import { Final } from "@/types";
 
 import { dataModeState } from "../datasource";
 
 import { localForageEffect } from "..";
 
-export const finalLiveState = atom<FinalProp>({
+export const finalLiveState = atom<Final>({
   key: "final-live-state",
   default: { version: "2.0", aircraft: [], ground: [], helicopter: [] },
   effects: [localForageEffect("final-live")],
 });
 
-export const finalDevState = atom<FinalProp>({
+export const finalDevState = atom<Final>({
   key: "final-dev-state",
   default: { version: "2.1", aircraft: [], ground: [], helicopter: [] },
   effects: [localForageEffect("final-dev")],

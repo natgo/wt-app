@@ -26,13 +26,10 @@ export default function Vehicle(): JSX.Element {
     const match = queryVehicleIntname(params.vehicleId, final);
     console.log(match);
     if (match) {
-      if (match.type === "tank") {
+      if (match.type === "ground") {
         const wikiMatch = wiki.ground.find((value) => {
           return match.intname === value.intname;
         });
-        if (!wikiMatch) {
-          throw new Error("Not in wiki.json");
-        }
         return (
           <div>
             <SpecsCard vehicle={match} garageimage />
@@ -51,6 +48,7 @@ export default function Vehicle(): JSX.Element {
             <VehicleSkinsCard vehicle={match} />
             <BallisticComputer vehicle={match} />
             <SecondaryPreset vehicle={match} />
+            <Modifications vehicle={match} />
           </div>
         );
       } else {
@@ -62,6 +60,7 @@ export default function Vehicle(): JSX.Element {
             <BallisticComputer vehicle={match} />
             <SecondaryPreset vehicle={match} />
             <HeliOptics vehicle={match} />
+            <Modifications vehicle={match} />
           </div>
         );
       }

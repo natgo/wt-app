@@ -77,28 +77,30 @@ export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean 
               <colgroup>
                 <col span={2} className="border-r border-black" />
               </colgroup>
-              <tr className="border-b border-black">
-                <td>
-                  <div>AB</div>
-                </td>
-                <td>
-                  <div>RB</div>
-                </td>
-                <td>
-                  <div>SB</div>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div>{vehicle.br[0]}</div>
-                </td>
-                <td>
-                  <div>{vehicle.br[1]}</div>
-                </td>
-                <td>
-                  <div>{vehicle.br[2]}</div>
-                </td>
-              </tr>
+              <tbody>
+                <tr className="border-b border-black">
+                  <td>
+                    <div>AB</div>
+                  </td>
+                  <td>
+                    <div>RB</div>
+                  </td>
+                  <td>
+                    <div>SB</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div>{vehicle.br[0]}</div>
+                  </td>
+                  <td>
+                    <div>{vehicle.br[1]}</div>
+                  </td>
+                  <td>
+                    <div>{vehicle.br[2]}</div>
+                  </td>
+                </tr>
+              </tbody>
             </table>
           </div>
           <div className="general_info_class">
@@ -132,7 +134,10 @@ export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean 
   );
 }
 
-export function Survivability(props: { vehicle: GroundProps; wiki: Scrape }): JSX.Element {
+export function Survivability(props: {
+  vehicle: GroundProps;
+  wiki: Scrape | undefined;
+}): JSX.Element {
   const { vehicle, wiki } = props;
   return (
     <div className="specs_info">
@@ -155,7 +160,7 @@ export function Survivability(props: { vehicle: GroundProps; wiki: Scrape }): JS
         <div className="specs_char_block visibility">
           <div className="specs_char_line head">
             <span className="name">Visibility (Wiki)</span>
-            <span className="value">{wiki.visibility} %</span>
+            <span className="value">{wiki ? wiki.visibility : 0} %</span>
           </div>
         </div>
       </div>
@@ -193,7 +198,7 @@ function Squadron(props: { vehicle: VehicleProps }): JSX.Element | null {
   }
 }
 
-export function Mobility(props: { vehicle: GroundProps; wiki: Scrape }): JSX.Element {
+export function Mobility(props: { vehicle: GroundProps; wiki: Scrape | undefined }): JSX.Element {
   const { vehicle, wiki } = props;
   return (
     <div className="specs_info">
@@ -212,13 +217,13 @@ export function Mobility(props: { vehicle: GroundProps; wiki: Scrape }): JSX.Ele
           <div className="specs_char_line indent">
             <span className="name">AB</span>
             <span className="value">
-              {wiki.ab_top_speed[0]} / {wiki.ab_top_speed[1]} km/h
+              {wiki ? wiki.ab_top_speed[0] : 0} / {wiki ? wiki.ab_top_speed[1] : 0} km/h
             </span>
           </div>
           <div className="specs_char_line indent">
             <span className="name">RB and SB</span>
             <span className="value">
-              {wiki.rb_top_speed[0]} / {wiki.rb_top_speed[1]} km/h
+              {wiki ? wiki.rb_top_speed[0] : 0} / {wiki ? wiki.rb_top_speed[1] : 0} km/h
             </span>
           </div>
         </div>

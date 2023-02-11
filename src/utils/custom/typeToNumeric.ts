@@ -1,7 +1,7 @@
-export function typeToNumeric(type: "tank" | "aircraft" | "helicopter") {
+export function typeToNumeric(type: "ground" | "aircraft" | "helicopter"): number {
   let numeric = 0;
   switch (type) {
-    case "tank":
+    case "ground":
       numeric = 0;
       break;
     case "helicopter":

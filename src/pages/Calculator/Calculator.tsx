@@ -26,10 +26,10 @@ import { setRecoil } from "recoil-nexus";
 
 import { CalculatorMode, Corrected, Parsed, base64Image, brb, dialogue } from "@/store/atom/atom";
 import { finalQuery } from "@/store/final";
-import { FinalProp } from "@/types";
+import { Final } from "@/types";
 import changeParsed from "@/utils/custom/selectors";
 
-async function readFile(file: File | Blob, final: FinalProp): Promise<void> {
+async function readFile(file: File | Blob, final: Final): Promise<void> {
   const reader = new FileReader();
 
   reader.onabort = () => console.log("file reading was aborted");

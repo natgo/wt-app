@@ -2,7 +2,7 @@ import { z } from "zod";
 
 // Final
 
-export interface FinalProp {
+export interface Final {
   version: string;
   ground: GroundProps[];
   aircraft: AircraftProps[];
@@ -110,7 +110,7 @@ export interface FinalWeapon {
 }
 
 export interface GroundProps extends FinalProps {
-  type: "tank";
+  type: "ground";
   mass: number;
   horsepower: number;
   gears_forward: number;
@@ -182,9 +182,11 @@ export interface TankCannon extends GenericGun {
   hullAiming?: HullAiming;
 }
 
+//store mby in a diffrent file for each weapon
 export interface Shell {
   modname: string;
   intname?: string;
+  type: string;
   name?: string;
   maxamount?: number;
   modmaxamount?: number;
@@ -350,7 +352,7 @@ export const modClassName = z.enum([
   "primaryWeapon",
   "secondaryWeapon",
   "premiumMods",
-  "expendables",
+  "expendable",
   "seakeeping",
   "unsinkability",
 ]);
@@ -371,7 +373,7 @@ export interface ModClass {
   primaryWeapon?: BaseMod[][];
   secondaryWeapon?: BaseMod[][];
   premiumMods?: BaseMod[][];
-  expendables?: BaseMod[][];
+  expendable?: BaseMod[][];
   seakeeping?: BaseMod[][];
   unsinkability?: BaseMod[][];
 }
@@ -395,6 +397,7 @@ export interface ScrapeFull {
   aircraft: Scrape[];
   helicopter: Scrape[];
 }
+
 export interface Scrape {
   intname: string;
   ab_top_speed: TopSpeed;

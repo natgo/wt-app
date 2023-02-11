@@ -9,7 +9,7 @@ import { finalDevState, finalLiveState } from "@/store/final";
 import { ModificationDevState, ModificationLiveState } from "@/store/modifications";
 import { shopDevState, shopLiveState } from "@/store/shop";
 import { WikiState } from "@/store/wiki";
-import { FinalProp, FinalShop, Modifications, ScrapeFull } from "@/types";
+import { Final, FinalShop, Modifications, ScrapeFull } from "@/types";
 
 export default function Home(): JSX.Element {
   const setFinalLive = useSetRecoilState(finalLiveState);
@@ -22,12 +22,12 @@ export default function Home(): JSX.Element {
   const setWiki = useSetRecoilState(WikiState);
 
   axios.get("./final.json").then((response) => {
-    const final: FinalProp = response.data;
+    const final: Final = response.data;
     setFinalLive(final);
   });
 
   axios.get("./final-dev.json").then((response) => {
-    const final: FinalProp = response.data;
+    const final: Final = response.data;
     setFinalDev(final);
   });
 

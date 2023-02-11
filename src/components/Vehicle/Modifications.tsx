@@ -1,15 +1,15 @@
 import { useRecoilValue } from "recoil";
 
 import { modificationQuery } from "@/store/modifications";
-import { BaseMod, VehicleProps } from "@/types";
-import capitailze from "@/utils/Capitalize";
+import { BaseMod, VehicleProps, modClassName } from "@/types";
+import { modClassToString } from "@/utils/custom/modClass";
 
 import { ItemImg } from "../Techtree/ItemImg";
 
 export function Modifications(props: { vehicle: VehicleProps }): JSX.Element {
   const { vehicle } = props;
   const modifications = useRecoilValue(modificationQuery);
-  const mods = modifications.ground.find((element) => {
+  const mods = modifications[vehicle.type].find((element) => {
     return element.intname === vehicle.intname;
   });
   if (!mods) {
@@ -24,7 +24,9 @@ export function Modifications(props: { vehicle: VehicleProps }): JSX.Element {
           const value2 = value as BaseMod[][];
           return (
             <div key={key} className="grid auto-rows-max border-r pt-2">
-              <div className="border-b px-4 text-white">{capitailze(key)}</div>
+              <div className="border-b px-4 text-white">
+                {modClassToString(modClassName.parse(key))}
+              </div>
               <div className="grid grid-rows-4">
                 {value2.map((element, index) => {
                   return (

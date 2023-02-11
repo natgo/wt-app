@@ -1,6 +1,6 @@
-import { FinalProp, VehicleProps } from "@/types";
+import { Final, VehicleProps } from "@/types";
 
-export function queryVehicleWikiname(vehicle: string, final: FinalProp): VehicleProps | undefined {
+export function queryVehicleWikiname(vehicle: string, final: Final): VehicleProps | undefined {
   console.info(vehicle);
 
   const matchAir = final.aircraft.find((curval) => {
@@ -23,7 +23,7 @@ export function queryVehicleWikiname(vehicle: string, final: FinalProp): Vehicle
   }
 }
 
-export function queryVehicleIntname(vehicle: string, final: FinalProp): VehicleProps | undefined {
+export function queryVehicleIntname(vehicle: string, final: Final): VehicleProps | undefined {
   console.info(vehicle);
 
   const matchAir = final.aircraft.find((curval) => {
@@ -48,7 +48,7 @@ export function queryVehicleIntname(vehicle: string, final: FinalProp): VehicleP
 
 export function querypartialVehicleWikiname(
   vehicle: string,
-  final: FinalProp,
+  final: Final,
 ): VehicleProps[] | undefined {
   const FinalArray: VehicleProps[] = [];
   console.info(vehicle);

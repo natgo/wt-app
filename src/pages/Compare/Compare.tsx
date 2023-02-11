@@ -45,7 +45,7 @@ export default function Compare(): JSX.Element {
 
 function CompareFunction(params: { vehicles: VehicleProps[] }) {
   const { vehicles } = params;
-  if (vehicles.length > 0 && vehicles[0].type === "tank") {
+  if (vehicles.length > 0 && vehicles[0].type === "ground") {
     const vehicles2 = vehicles as GroundProps[];
     return (
       <div className="row-span-2 grid auto-cols-fr grid-flow-col">

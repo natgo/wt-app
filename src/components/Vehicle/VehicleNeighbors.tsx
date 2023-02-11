@@ -15,7 +15,7 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
 
   let type: "army" | "aviation" | "helicopters" = "army";
   switch (vehicle.type) {
-    case "tank":
+    case "ground":
       type = "army";
       break;
     case "aircraft":

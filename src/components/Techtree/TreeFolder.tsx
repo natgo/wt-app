@@ -63,7 +63,7 @@ export function TreeFolder(props: {
         if (search === match.intname) {
           searches = true;
         }
-        if (filter.show_features && match.type === "tank" && match[filter.show_features]) {
+        if (filter.show_features && match.type === "ground" && match[filter.show_features]) {
           features = true;
         }
         if (findClass) {
@@ -141,7 +141,6 @@ export function TreeFolder(props: {
       </Menu>
       <div
         className="tree-group"
-        aria-controls={open ? "demo-positioned-menu" : undefined}
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}

@@ -45,3 +45,4 @@ pnpm build # npm run build
 - [ ] Make search for techtree
 - [x] Add filters for techtree
 - [ ] Make helicopter tree function again
+- [ ] Add arrows to modifications
