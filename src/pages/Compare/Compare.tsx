@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import { useRecoilState } from "recoil";
 
 import AddIcon from "@mui/icons-material/Add";
@@ -43,29 +44,95 @@ export default function Compare(): JSX.Element {
   );
 }
 
-function CompareFunction(params: { vehicles: VehicleProps[] }) {
+function CompareFunction(params: { vehicles: VehicleProps[] }): JSX.Element | null {
   const { vehicles } = params;
   if (vehicles.length > 0 && vehicles[0].type === "ground") {
     const vehicles2 = vehicles as GroundProps[];
     return (
-      <div className="row-span-2 grid auto-cols-fr grid-flow-col">
-        {vehicles2.map((vehicle) => (
-          <>
-            <div>
-              <div>Mas: {vehicle.mass / 1000}t</div>
-              <div>Horsepower: {vehicle.horsepower}</div>
+      <>
+        <CompareGround vehicles={vehicles2} render="mass" />
+        <CompareGround vehicles={vehicles2} render="horsepower" />
+        <CompareGround vehicles={vehicles2} render="powertoweight" />
+        <div className="row-span-2 grid auto-cols-fr grid-flow-col">
+          {vehicles2.map((vehicle) => (
+            <Fragment key={vehicle.intname}>
               <div>
-                Power to weight: {(vehicle.horsepower / (vehicle.mass / 1000)).toFixed(1)} hp/t
+                <GroundWeapon vehicle={vehicle} />
               </div>
-              <GroundWeapon vehicle={vehicle} />
-            </div>
-            <div className="row-start-2">
-              <Optics vehicle={vehicle} />
-            </div>
-          </>
-        ))}
+              <div className="row-start-2">
+                <Optics vehicle={vehicle} />
+              </div>
+            </Fragment>
+          ))}
+        </div>
+      </>
+    );
+  }
+  return null;
+}
+
+function CompareGround(props: {
+  vehicles: GroundProps[];
+  render: "mass" | "horsepower" | "powertoweight";
+}) {
+  const { vehicles, render } = props;
+  let diffent = false;
+  switch (render) {
+    case "mass":
+      diffent = isDifferent(vehicles.map((vehicle) => vehicle.mass));
+      break;
+    case "horsepower":
+      diffent = isDifferent(vehicles.map((vehicle) => vehicle.horsepower));
+      break;
+    case "powertoweight":
+      diffent = isDifferent(vehicles.map((vehicle) => vehicle.horsepower / (vehicle.mass / 1000)));
+      break;
+  }
+
+  if (diffent) {
+    return (
+      <div className="grid grid-flow-col">
+        {vehicles.map((vehicle) => {
+          switch (render) {
+            case "mass":
+              return <MassRender vehicle={vehicle} key={vehicle.intname} />;
+            case "horsepower":
+              return <HorsepowerRender vehicle={vehicle} key={vehicle.intname} />;
+            case "powertoweight":
+              return <PowerToWeightRender vehicle={vehicle} key={vehicle.intname} />;
+          }
+        })}
       </div>
     );
   }
   return null;
+}
+
+function isDifferent(numbers: number[]) {
+  let diffent = false;
+  let last = numbers[0];
+  numbers.forEach((element) => {
+    if (element !== last) {
+      diffent = true;
+    }
+    last = element;
+  });
+
+  return diffent;
+}
+
+function MassRender(props: { vehicle: GroundProps }) {
+  return <div>Mas: {props.vehicle.mass / 1000}t</div>;
+}
+
+function HorsepowerRender(props: { vehicle: GroundProps }) {
+  return <div>Horsepower: {props.vehicle.horsepower}</div>;
+}
+
+function PowerToWeightRender(props: { vehicle: GroundProps }) {
+  return (
+    <div>
+      Power to weight: {(props.vehicle.horsepower / (props.vehicle.mass / 1000)).toFixed(1)} hp/t
+    </div>
+  );
 }
