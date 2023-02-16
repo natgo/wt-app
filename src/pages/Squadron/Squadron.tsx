@@ -93,7 +93,12 @@ export default function SquadronVehicles(): JSX.Element {
               {value.map((element, index) => {
                 return (
                   <div key={index} className="grid justify-center">
-                    <TechTreeItem intname={element.intname} key={index} />
+                    <TechTreeItem
+                      intname={element.intname}
+                      final={final}
+                      type="normal"
+                      key={index}
+                    />
                     {((element.reqRP / 20000) * 3) % 3 > 0
                       ? (element.reqRP / 20000) * 3 - (((element.reqRP / 20000) * 3) % 3) + 3
                       : (element.reqRP / 20000) * 3}{" "}

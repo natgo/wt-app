@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { useRecoilValue } from "recoil";
 
 import assault from "@/assets/img/def_assault_radar.svg";
 import attack_helicopter from "@/assets/img/def_attack_helicopter_radar.svg";
@@ -11,18 +10,30 @@ import medium_tank from "@/assets/img/def_medium_tank_radar.svg";
 import spaa from "@/assets/img/def_spaa_radar.svg";
 import tank_destroyer from "@/assets/img/def_tank_destroyer_radar.svg";
 import utility_helicopter from "@/assets/img/def_utility_helicopter_radar.svg";
-import { FilterAtom, SearchName } from "@/store/atom/atom";
-import { finalQuery } from "@/store/final";
+import { FilterProps } from "@/store/atom/types";
+import { Final } from "@/types";
 import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
 import { BlurItem } from "./BlurItem";
 import { ItemImg } from "./ItemImg";
 
-export function TechTreeItem(props: { intname: string }): JSX.Element {
-  const { intname } = props;
-  const final = useRecoilValue(finalQuery);
-  const filter = useRecoilValue(FilterAtom);
-  const search = useRecoilValue(SearchName);
+interface TreeItemProps {
+  intname: string;
+  final: Final;
+}
+
+interface NormalTreeItemProps extends TreeItemProps {
+  type: "normal";
+}
+
+interface FullTreeItemProps extends TreeItemProps {
+  type: "blur";
+  filter: FilterProps;
+  search: string | undefined;
+}
+
+export function TechTreeItem(props: NormalTreeItemProps | FullTreeItemProps): JSX.Element {
+  const { intname, final } = props;
 
   const vehicle = queryVehicleIntname(intname, final);
   if (!vehicle) {
@@ -75,7 +86,13 @@ export function TechTreeItem(props: { intname: string }): JSX.Element {
   return (
     <div
       className="tree-item"
-      style={BlurItem(vehicle, filter, search) ? { filter: "blur(4px)" } : {}}
+      style={
+        props.type === "blur"
+          ? BlurItem(vehicle, props.filter, props.search)
+            ? { filter: "blur(4px)" }
+            : {}
+          : {}
+      }
     >
       <div className="tree-item-background" id={vehicle.intname}>
         <Link to={"/wt/techtree/" + vehicle.intname} title={vehicle.wikiname}>

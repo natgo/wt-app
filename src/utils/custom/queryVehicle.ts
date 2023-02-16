@@ -1,8 +1,6 @@
 import { Final, VehicleProps } from "@/types";
 
 export function queryVehicleWikiname(vehicle: string, final: Final): VehicleProps | undefined {
-  console.info(vehicle);
-
   const matchAir = final.aircraft.find((curval) => {
     return curval.wikiname?.toLowerCase() === decodeURI(vehicle).replace(/_/g, " ").toLowerCase();
   });
@@ -24,8 +22,6 @@ export function queryVehicleWikiname(vehicle: string, final: Final): VehicleProp
 }
 
 export function queryVehicleIntname(vehicle: string, final: Final): VehicleProps | undefined {
-  console.info(vehicle);
-
   const matchAir = final.aircraft.find((curval) => {
     return curval.intname.toLowerCase() === vehicle.toLowerCase();
   });
@@ -51,7 +47,6 @@ export function querypartialVehicleWikiname(
   final: Final,
 ): VehicleProps[] | undefined {
   const FinalArray: VehicleProps[] = [];
-  console.info(vehicle);
 
   final.aircraft.forEach((element) => {
     if (element.wikiname?.search(vehicle) === 0) {
