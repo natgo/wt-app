@@ -4,6 +4,7 @@ import { CountryProp } from "@/skins.types";
 import { FilterAtom } from "@/store/atom/atom";
 import { finalQuery } from "@/store/final";
 import { shopQuery } from "@/store/shop";
+import { FinalObjectRange } from "@/types";
 import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
 import { Research } from "./Research";
@@ -20,7 +21,7 @@ export function TechTree(props: TechTreeProp): JSX.Element {
   const filter = useRecoilValue(FilterAtom);
   const shop = shopData[country][type];
 
-  const range = Array.from(shop.range);
+  const range: FinalObjectRange[] = JSON.parse(JSON.stringify(shop.range));
 
   range.forEach((element) => {
     element.range.forEach((element) => {

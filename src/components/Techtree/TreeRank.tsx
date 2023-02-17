@@ -17,7 +17,7 @@ export function TreeRank(props: {
   const topindex = index;
   let height = 0;
   rank.range.forEach((element) => {
-    if (element.length > height) {
+    if (element !== "drawArrow" && element.length > height) {
       height = element.length;
     }
   });
@@ -87,34 +87,32 @@ export function TreeRank(props: {
                     );
                   }
                 } else {
-                  const nextRankItem = shop.range[topindex + 1].range[rowindex][0];
-                  if (
-                    index === array.length - 1 &&
-                    typeof nextRankItem !== "string" &&
-                    nextRankItem.reqAir !== "" &&
-                    topindex !== shop.max_rank
-                  ) {
-                    return (
-                      <Fragment key={element.name}>
-                        <TreeFolder name={element.displayname} img={element.image}>
-                          {element.vehicles.map((element, index, array) => {
-                            if (array[index + 1] && array[index + 1].reqAir !== "") {
+                  const nextRank = shop.range[topindex + 1];
+                  if (nextRank && index === array.length - 1 && topindex !== shop.max_rank) {
+                    const nextRankItem = nextRank.range[rowindex][0];
+                    if (typeof nextRankItem !== "string" && nextRankItem.reqAir !== "") {
+                      return (
+                        <Fragment key={element.name}>
+                          <TreeFolder name={element.displayname} img={element.image}>
+                            {element.vehicles.map((element, index, array) => {
+                              if (array[index + 1] && array[index + 1].reqAir !== "") {
+                                return [
+                                  <TechTreeItem key={element.name} intname={element.name} />,
+                                  <Arrow length={0} type="short" key={element.name + "_arrow"} />,
+                                ];
+                              } else if (!array[index + 1]) {
+                                return [<TechTreeItem key={element.name} intname={element.name} />];
+                              }
                               return [
                                 <TechTreeItem key={element.name} intname={element.name} />,
-                                <Arrow length={0} type="short" key={element.name + "_arrow"} />,
+                                <EmptyDiv size={30} key={element.name + "_arrow"} />,
                               ];
-                            } else if (!array[index + 1]) {
-                              return [<TechTreeItem key={element.name} intname={element.name} />];
-                            }
-                            return [
-                              <TechTreeItem key={element.name} intname={element.name} />,
-                              <EmptyDiv size={30} key={element.name + "_arrow"} />,
-                            ];
-                          })}
-                        </TreeFolder>
-                        <Arrow length={height - index - 1} type="short" />
-                      </Fragment>
-                    );
+                            })}
+                          </TreeFolder>
+                          <Arrow length={height - index - 1} type="short" />
+                        </Fragment>
+                      );
+                    }
                   } else {
                     return (
                       <Fragment key={element.name}>
@@ -157,9 +155,14 @@ export function TreeRank(props: {
                     );
                   }
                 } else {
-                  const nextRankItem = shop.range[topindex + 1].range[rowindex][0];
-                  if (index === array.length - 1 && topindex !== shop.max_rank) {
-                    if (typeof nextRankItem !== "string" && nextRankItem.reqAir !== "") {
+                  const nextRank = shop.range[topindex + 1];
+                  if (nextRank && index === array.length - 1 && topindex !== shop.max_rank) {
+                    const nextRankItem = nextRank.range[rowindex][0];
+                    if (
+                      nextRankItem &&
+                      typeof nextRankItem !== "string" &&
+                      nextRankItem.reqAir !== ""
+                    ) {
                       if (index < height) {
                         console.info(`${element.name}:${index}:${height}`);
                         return (
@@ -177,7 +180,7 @@ export function TreeRank(props: {
                         );
                       }
                     } else {
-                      if (nextRankItem === "drawArrow") {
+                      if (nextRank.range[rowindex] === "drawArrow") {
                         return (
                           <Fragment key={element.name}>
                             <TechTreeItem intname={element.name} />
