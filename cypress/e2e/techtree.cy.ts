@@ -22,6 +22,9 @@ describe("Techtree test", () => {
     cy.get(".crew .value").contains("10 people");
     cy.get(".visibility .value").contains("195 %");
     cy.go("back");
+    cy.get("#ussr_bmp_1").click();
+    cy.get(".general_info_neighbors").get(".prev").contains("SU-100P");
+    cy.get(".general_info_neighbors").get(".next").contains("Object 906");
   });
   const countries = [
     "USA",

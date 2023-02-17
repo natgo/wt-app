@@ -3,10 +3,63 @@ import { useRecoilValue } from "recoil";
 
 import { finalQuery } from "@/store/final";
 import { shopQuery } from "@/store/shop";
-import { FinalShopGroup, FinalShopItem, VehicleProps } from "@/types";
+import {
+  Final,
+  FinalObjectRange,
+  FinalRange,
+  FinalShopGroup,
+  FinalShopItem,
+  VehicleProps,
+} from "@/types";
 import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
 import { VehicleNeighborFolder } from "./VehicleNeighborFolder";
+
+function parseNextCol(
+  nextRank: FinalObjectRange | undefined,
+  column: number,
+  type: "next" | "prev",
+  final: Final,
+) {
+  let next: VehicleProps | undefined = undefined;
+  let nextPos: FinalShopItem | FinalShopGroup | undefined = undefined;
+  let nextRankCol: FinalRange | undefined = undefined;
+
+  if (nextRank) {
+    nextRankCol = nextRank.range[column];
+
+    if (nextRankCol !== "drawArrow") {
+      switch (type) {
+        case "next":
+          next = queryVehicleIntname(nextRankCol[0].name, final);
+          nextPos = nextRankCol[0];
+          break;
+        case "prev":
+          next = queryVehicleIntname(nextRankCol[nextRankCol.length - 1].name, final);
+          break;
+      }
+    }
+  }
+
+  return { next, nextPos };
+}
+
+function parseNextInCol(
+  nextInCol: FinalShopItem | FinalShopGroup | undefined,
+  final: Final,
+): VehicleProps | undefined {
+  let next: VehicleProps | undefined = undefined;
+
+  if (nextInCol) {
+    if ("vehicles" in nextInCol) {
+      next = queryVehicleIntname(nextInCol.vehicles[0].name, final);
+    } else {
+      next = queryVehicleIntname(nextInCol.name, final);
+    }
+  }
+
+  return next;
+}
 
 export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
   const { vehicle } = props;
@@ -28,6 +81,8 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
 
   const vehicleRange = shopData[vehicle.country][type].range;
   const currentRank = vehicleRange[vehicle.rank - 1];
+  const nextRank = vehicleRange[vehicle.rank] as FinalObjectRange | undefined;
+  const prevRank = vehicleRange[vehicle.rank - 2] as FinalObjectRange | undefined;
 
   let pos: number | undefined = undefined;
   const col = currentRank.range.findIndex((element) => {
@@ -35,7 +90,14 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
       return false;
     }
     return element.find((element, index) => {
-      if (element.name === vehicle.intname) {
+      if ("vehicles" in element) {
+        return element.vehicles.find((element) => {
+          if (element.name === vehicle.intname) {
+            pos = index;
+            return true;
+          }
+        });
+      } else if (element.name === vehicle.intname) {
         pos = index;
         return true;
       }
@@ -57,28 +119,21 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
   }
 
   const nextInCol = currentCol[pos + 1];
-  let next: VehicleProps | undefined = undefined;
-
-  if (nextInCol) {
-    if ("vehicles" in nextInCol) {
-      next = queryVehicleIntname(nextInCol.vehicles[0].name, final);
-    } else {
-      next = queryVehicleIntname(nextInCol.name, final);
-    }
-  }
+  const next = parseNextInCol(nextInCol, final);
+  const rankNext = parseNextCol(nextRank, col, "next", final);
+  console.log(rankNext);
 
   const prevInCol = currentCol[pos - 1];
-  let prev: VehicleProps | undefined = undefined;
-  if (prevInCol) {
-    if ("vehicles" in prevInCol) {
-      prev = queryVehicleIntname(prevInCol.vehicles[0].name, final);
-    } else {
-      prev = queryVehicleIntname(prevInCol.name, final);
-    }
-  }
+  const prev = parseNextInCol(prevInCol, final);
+  const rankPrev = parseNextCol(prevRank, col, "prev", final);
 
   return (
-    <VehicleNeighbors next={next} nextpos={nextInCol} prev={prev} currentpos={currentPos}>
+    <VehicleNeighbors
+      next={next ? next : rankNext.next}
+      nextPos={next ? nextInCol : rankNext.nextPos}
+      prev={prev ? prev : rankPrev.next}
+      currentpos={currentPos}
+    >
       <VehicleNeighborFolder vehicle={vehicle} currentPos={currentPos} isFolder={curfolder} />
     </VehicleNeighbors>
   );
@@ -87,13 +142,13 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
 export function VehicleNeighbors(props: {
   children: JSX.Element;
   next: VehicleProps | undefined;
-  nextpos: FinalShopItem | FinalShopGroup | undefined;
+  nextPos: FinalShopItem | FinalShopGroup | undefined;
   prev: VehicleProps | undefined;
   currentpos: FinalShopItem | FinalShopGroup | undefined;
 }) {
-  const { children, next, nextpos, prev, currentpos } = props;
+  const { children, next, nextPos, prev, currentpos } = props;
 
-  if (next && nextpos && nextpos.reqAir !== "" && prev && currentpos && currentpos.reqAir !== "") {
+  if (next && nextPos && nextPos.reqAir !== "" && prev && currentpos && currentpos.reqAir !== "") {
     return (
       <>
         <div className="prev">
@@ -111,7 +166,7 @@ export function VehicleNeighbors(props: {
     );
   }
 
-  if (next && nextpos && nextpos.reqAir !== "") {
+  if (next && nextPos && nextPos.reqAir !== "") {
     return (
       <>
         <div className="next">

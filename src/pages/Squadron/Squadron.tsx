@@ -122,7 +122,7 @@ export default function SquadronVehicles(): JSX.Element {
           return (
             <div>
               <div>
-                Squadron points in{" "}
+                Squadron points{" "}
                 {DateTime.now().plus({ milliseconds: total }).toRelative({ round: false })}
               </div>
               <CircularProgress
