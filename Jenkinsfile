@@ -2,13 +2,12 @@ pipeline {
   agent {
     // this image provides everything needed to run Cypress
     docker {
-      image 'cypress/base:18.12.1'
+      image 'mycypress'
     }
   }
   stages {
     stage('Install Dependencies') {
       steps {
-        sh 'npm install -g pnpm'
         sh 'pnpm install --frozen-lockfile'
       }
     }
