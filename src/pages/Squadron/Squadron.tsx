@@ -10,32 +10,37 @@ import { TechTreeItem } from "@/components/Techtree/TechTreeItem";
 import { CountryName, countryname } from "@/skins.types";
 import { finalQuery } from "@/store/final";
 import { shopQuery } from "@/store/shop";
-import { Final, FinalShopGroup, FinalShopItem, VehicleProps } from "@/types";
+import { Final, FinalObjectRange, VehicleProps } from "@/types";
 import { vehicleCountry } from "@/utils/custom/VehicleCountry";
 import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
-function shopRange(shop: (FinalShopItem | FinalShopGroup)[][], final: Final) {
+function shopRange(range: FinalObjectRange[], final: Final) {
   const arr: VehicleProps[] = [];
 
-  shop.forEach((element) => {
-    element.forEach((element) => {
-      if ("vehicles" in element) {
-        element.vehicles.forEach((element) => {
+  range.forEach((element) => {
+    element.range.forEach((element) => {
+      if (element === "drawArrow") {
+        return;
+      }
+      element.forEach((element) => {
+        if ("vehicles" in element) {
+          element.vehicles.forEach((element) => {
+            if (element.clanVehicle) {
+              const vehicle = queryVehicleIntname(element.name, final);
+              if (vehicle) {
+                arr.push(vehicle);
+              }
+            }
+          });
+        } else {
           if (element.clanVehicle) {
             const vehicle = queryVehicleIntname(element.name, final);
             if (vehicle) {
               arr.push(vehicle);
             }
           }
-        });
-      } else {
-        if (element.clanVehicle) {
-          const vehicle = queryVehicleIntname(element.name, final);
-          if (vehicle) {
-            arr.push(vehicle);
-          }
         }
-      }
+      });
     });
   });
 

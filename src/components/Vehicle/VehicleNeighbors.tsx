@@ -26,62 +26,60 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
       break;
   }
 
-  let pos = 0;
-  const col = shopData[vehicle.country][type].range.findIndex((element) => {
-    const row = element.findIndex((element) => {
-      if ("vehicles" in element) {
-        return element.vehicles.find((element) => {
-          return element.name === vehicle.intname;
-        });
-      } else {
-        return element.name === vehicle.intname;
+  const vehicleRange = shopData[vehicle.country][type].range;
+  const currentRank = vehicleRange[vehicle.rank - 1];
+
+  let pos: number | undefined = undefined;
+  const col = currentRank.range.findIndex((element) => {
+    if (element === "drawArrow") {
+      return false;
+    }
+    return element.find((element, index) => {
+      if (element.name === vehicle.intname) {
+        pos = index;
+        return true;
       }
     });
-    if (row > pos) {
-      pos = row;
-    }
-    if (row >= 0) {
-      return true;
-    }
   });
-  console.log(col, pos);
 
-  const currentpos = shopData[vehicle.country][type].range[col][pos];
+  const currentCol = currentRank.range[col];
+  if (currentCol === "drawArrow") {
+    throw new Error("CurrentCol is Arrow");
+  }
+  if (pos === undefined) {
+    throw new Error("Currentpos not found");
+  }
+
+  const currentPos = currentCol[pos];
   let curfolder = false;
-  if ("vehicles" in currentpos) {
+  if ("vehicles" in currentPos) {
     curfolder = true;
   }
 
-  const nextpos = shopData[vehicle.country][type].range[col][pos + 1] as
-    | FinalShopItem
-    | FinalShopGroup
-    | undefined;
+  const nextInCol = currentCol[pos + 1];
   let next: VehicleProps | undefined = undefined;
 
-  if (nextpos) {
-    if ("vehicles" in nextpos) {
-      next = queryVehicleIntname(nextpos.vehicles[0].name, final);
+  if (nextInCol) {
+    if ("vehicles" in nextInCol) {
+      next = queryVehicleIntname(nextInCol.vehicles[0].name, final);
     } else {
-      next = queryVehicleIntname(nextpos.name, final);
+      next = queryVehicleIntname(nextInCol.name, final);
     }
   }
 
-  const prevpos = shopData[vehicle.country][type].range[col][pos - 1] as
-    | FinalShopItem
-    | FinalShopGroup
-    | undefined;
+  const prevInCol = currentCol[pos - 1];
   let prev: VehicleProps | undefined = undefined;
-  if (prevpos) {
-    if ("vehicles" in prevpos) {
-      prev = queryVehicleIntname(prevpos.vehicles[0].name, final);
+  if (prevInCol) {
+    if ("vehicles" in prevInCol) {
+      prev = queryVehicleIntname(prevInCol.vehicles[0].name, final);
     } else {
-      prev = queryVehicleIntname(prevpos.name, final);
+      prev = queryVehicleIntname(prevInCol.name, final);
     }
   }
 
   return (
-    <VehicleNeighbors next={next} nextpos={nextpos} prev={prev} currentpos={currentpos}>
-      <VehicleNeighborFolder vehicle={vehicle} folder={currentpos} isFolder={curfolder} />
+    <VehicleNeighbors next={next} nextpos={nextInCol} prev={prev} currentpos={currentPos}>
+      <VehicleNeighborFolder vehicle={vehicle} currentPos={currentPos} isFolder={curfolder} />
     </VehicleNeighbors>
   );
 }

@@ -7,10 +7,10 @@ import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
 export function VehicleNeighborFolder(props: {
   vehicle: VehicleProps;
-  folder: FinalShopItem | FinalShopGroup;
+  currentPos: FinalShopItem | FinalShopGroup;
   isFolder: boolean;
 }) {
-  const { vehicle, folder, isFolder } = props;
+  const { vehicle, currentPos: folder, isFolder } = props;
   const final = useRecoilValue(finalQuery);
 
   if ("vehicles" in folder && isFolder) {
