@@ -8,26 +8,27 @@ pipeline {
   stages {
     stage('Install Dependencies') {
       steps {
-        sh 'npm ci'
+        sh 'npm install -g pnpm'
+        sh 'pnpm install --frozen-lockfile'
       }
     }
 
     stage('Start Dev server') {
       steps {
-        sh 'nohup npm run dev &'
+        sh 'nohup pnpm dev &'
         sleep(10)
       }
     }
 
     stage('Run Cypress tests') {
       steps {
-        sh 'npx cypress run'
+        sh 'pnpm cypress run'
       }
     }
 
     stage('Build') {
       steps {
-        sh 'npm run build'
+        sh 'pnpm build'
       }
     }
 
