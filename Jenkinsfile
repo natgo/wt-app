@@ -9,6 +9,7 @@ pipeline {
     stage('Install Dependencies') {
       steps {
         sh 'pnpm install --frozen-lockfile'
+        sh 'pnpm cypress install'
       }
     }
 
