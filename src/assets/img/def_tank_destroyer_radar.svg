@@ -1,9 +1,14 @@
-<svg 
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   id="svg6"
-   version="1.1"
-   width="10" height="9"><path d="M 1 4.6 L 1 8 L 9 8 L 9 4 L 6.4 4 L 9 1.4 L 9 1 L 4.6 1 L 1 4.6 Z" fill-opacity="0.25"/><path d="M 2 5 L 2 7 L 8 7 L 8 5 L 4 5 L 7 2 L 5 2 L 2 5 Z" fill="#bde9b5"/></svg>
+<svg
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg"
+  id="svg6"
+  version="1.1"
+  width="10"
+  height="9"
+>
+  <path d="M 1 4.6 L 1 8 L 9 8 L 9 4 L 6.4 4 L 9 1.4 L 9 1 L 4.6 1 L 1 4.6 Z" fill-opacity="0.25" />
+  <path d="M 2 5 L 2 7 L 8 7 L 8 5 L 4 5 L 7 2 L 5 2 L 2 5 Z" fill="#bde9b5" />
+</svg>

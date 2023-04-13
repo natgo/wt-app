@@ -51,7 +51,7 @@ export default function Vehicle(): JSX.Element {
             <Modifications vehicle={match} />
           </div>
         );
-      } else {
+      } else if (match.type === "helicopter") {
         return (
           <div>
             <SpecsCard vehicle={match} garageimage />
@@ -63,11 +63,25 @@ export default function Vehicle(): JSX.Element {
             <Modifications vehicle={match} />
           </div>
         );
+      } else if (match.type === "ship") {
+        return (
+          <div>
+            <SpecsCard vehicle={match} garageimage />
+            <VehicleSkinsCard vehicle={match} />
+            <Modifications vehicle={match} />
+          </div>
+        );
+      } else if (match.type === "boat") {
+        return (
+          <div>
+            <SpecsCard vehicle={match} garageimage />
+            <VehicleSkinsCard vehicle={match} />
+            <Modifications vehicle={match} />
+          </div>
+        );
       }
-    } else {
-      return <b>No Match</b>;
     }
-  } else {
-    return <b>Not a vehicle.</b>;
+    return <b>No Match</b>;
   }
+  return <b>Not a vehicle.</b>;
 }

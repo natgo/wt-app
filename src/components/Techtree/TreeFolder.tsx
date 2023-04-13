@@ -3,20 +3,11 @@ import { useRecoilValue } from "recoil";
 
 import { Menu } from "@mui/material";
 
-import assault from "@/assets/img/def_assault_radar.svg";
-import attack_helicopter from "@/assets/img/def_attack_helicopter_radar.svg";
-import bomber from "@/assets/img/def_bomber_radar.svg";
-import fighter from "@/assets/img/def_fighter_radar.svg";
-import heavy_tank from "@/assets/img/def_heavy_tank_radar.svg";
-import light_tank from "@/assets/img/def_light_tank_radar.svg";
-import medium_tank from "@/assets/img/def_medium_tank_radar.svg";
-import spaa from "@/assets/img/def_spaa_radar.svg";
-import tank_destroyer from "@/assets/img/def_tank_destroyer_radar.svg";
-import utility_helicopter from "@/assets/img/def_utility_helicopter_radar.svg";
 import { FilterAtom, SearchName } from "@/store/atom/atom";
 import { finalQuery } from "@/store/final";
 import { querySkins } from "@/utils/custom/querySkins";
 import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
+import { vehicleIcon } from "@/utils/custom/vehicleIcon";
 
 export function TreeFolder(props: {
   children: JSX.Element[][];
@@ -42,11 +33,11 @@ export function TreeFolder(props: {
     setAnchorEl(null);
   };
 
-  let fig_src = attack_helicopter;
   let br: string | undefined = "-1.0";
   const brarr: { br: string; realbr: number }[] = [];
   console.log(children);
   const match = queryVehicleIntname(children[0][0].props.intname, final);
+  const fig_src = vehicleIcon(match);
   br = match?.br[1];
   children.forEach((element) => {
     if (element[0].props && element[0].props.intname) {
@@ -72,39 +63,6 @@ export function TreeFolder(props: {
       }
     }
   });
-
-  switch (match?.normal_type) {
-    case "type_fighter":
-      fig_src = fighter;
-      break;
-    case "type_bomber":
-      fig_src = bomber;
-      break;
-    case "type_assault":
-      fig_src = assault;
-      break;
-    case "type_light_tank":
-      fig_src = light_tank;
-      break;
-    case "type_medium_tank":
-      fig_src = medium_tank;
-      break;
-    case "type_heavy_tank":
-      fig_src = heavy_tank;
-      break;
-    case "type_tank_destroyer":
-      fig_src = tank_destroyer;
-      break;
-    case "type_spaa":
-      fig_src = spaa;
-      break;
-    case "type_utility_helicopter":
-      fig_src = utility_helicopter;
-      break;
-    case "type_attack_helicopter":
-      fig_src = attack_helicopter;
-      break;
-  }
 
   brarr.sort((a, b) => {
     return a.realbr - b.realbr;

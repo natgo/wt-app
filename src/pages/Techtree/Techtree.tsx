@@ -42,6 +42,8 @@ function TypeTabs() {
       <Tab label="Ground Vehicles" />
       <Tab label="Helicopters" />
       <Tab label="Aviation" />
+      <Tab label="Bluewater Fleet" />
+      <Tab label="Coastal Fleet" />
     </Tabs>
   );
 }
@@ -66,6 +68,12 @@ function CountryTabs(props: CountryPropIndex): JSX.Element {
       </TabPanel>
       <TabPanel value={typeValue} index={2}>
         <TechTree country={country} type="aviation" />
+      </TabPanel>
+      <TabPanel value={typeValue} index={3}>
+        <TechTree country={country} type="ship" />
+      </TabPanel>
+      <TabPanel value={typeValue} index={4}>
+        <TechTree country={country} type="boat" />
       </TabPanel>
     </TabPanel>
   );

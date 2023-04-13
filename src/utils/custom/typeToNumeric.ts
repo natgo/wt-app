@@ -1,4 +1,6 @@
-export function typeToNumeric(type: "ground" | "aircraft" | "helicopter"): number {
+export function typeToNumeric(
+  type: "ground" | "aircraft" | "helicopter" | "ship" | "boat",
+): number {
   let numeric = 0;
   switch (type) {
     case "ground":
@@ -9,6 +11,12 @@ export function typeToNumeric(type: "ground" | "aircraft" | "helicopter"): numbe
       break;
     case "aircraft":
       numeric = 2;
+      break;
+    case "ship":
+      numeric = 3;
+      break;
+    case "boat":
+      numeric = 4;
       break;
   }
   return numeric;

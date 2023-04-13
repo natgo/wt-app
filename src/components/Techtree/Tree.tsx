@@ -11,7 +11,7 @@ import { Research } from "./Research";
 import { TreeRank } from "./TreeRank";
 
 interface TechTreeProp extends CountryProp {
-  type: "army" | "aviation" | "helicopters";
+  type: "army" | "aviation" | "helicopters" | "ship" | "boat";
 }
 
 export function TechTree(props: TechTreeProp): JSX.Element {
@@ -20,6 +20,10 @@ export function TechTree(props: TechTreeProp): JSX.Element {
   const shopData = useRecoilValue(shopQuery);
   const filter = useRecoilValue(FilterAtom);
   const shop = shopData[country][type];
+
+  if (shop === undefined) {
+    return <div>No techtree</div>;
+  }
 
   const range: FinalObjectRange[] = JSON.parse(JSON.stringify(shop.range));
 
