@@ -28,7 +28,7 @@ function parseNextCol(
   if (nextRank) {
     nextRankCol = nextRank[column];
 
-    if (nextRankCol !== "drawArrow") {
+    if (nextRankCol !== "drawArrow" && nextRankCol) {
       switch (type) {
         case "next":
           next = queryVehicleIntname(nextRankCol[0].name, final);
@@ -97,6 +97,7 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
     if (element === "drawArrow") {
       return false;
     }
+
     return element.find((element, index) => {
       if ("vehicles" in element) {
         return element.vehicles.find((element) => {
