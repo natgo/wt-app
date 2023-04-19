@@ -6,8 +6,6 @@ import { Search } from "@mui/icons-material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import ThemeIcon from "@mui/icons-material/InvertColors";
 import MenuIcon from "@mui/icons-material/Menu";
-import Alert from "@mui/material/Alert";
-import AlertTitle from "@mui/material/AlertTitle";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
@@ -16,14 +14,15 @@ import IconButton from "@mui/material/IconButton";
 import Toolbar from "@mui/material/Toolbar";
 import Tooltip from "@mui/material/Tooltip";
 
+import { enqueueSnackbar } from "notistack";
+
 import Loading from "@/components/Loading";
 import { DataMode } from "@/components/Techtree/DataMode";
 import { Filters } from "@/components/Techtree/Filters";
 import { SearchDialog } from "@/components/Techtree/SearchDialog";
 import { FlexBox } from "@/components/styled";
-import { repository, title } from "@/config";
+import { notifications, repository, title } from "@/config";
 import useHotKeysDialog from "@/store/hotkeys";
-import useNotifications from "@/store/notifications";
 import { searchDialogState } from "@/store/search";
 import useSidebar from "@/store/sidebar";
 import useTheme from "@/store/theme";
@@ -56,26 +55,10 @@ function TechtreeButtons() {
 function Header() {
   const [, sidebarActions] = useSidebar();
   const [, themeActions] = useTheme();
-  const [, notificationsActions] = useNotifications();
   const [, hotKeysDialogActions] = useHotKeysDialog();
 
   function showNotification() {
-    notificationsActions.push({
-      options: {
-        // Show fully customized notification
-        // Usually, to show a notification, you'll use something like this:
-        // notificationsActions.push({ message: ... })
-        // `message` accepts string as well as ReactNode
-        // But you also can use:
-        // notificationsActions.push({ options: { content: ... } })
-        // to show fully customized notification
-        content: (
-          <Alert severity="info">
-            <AlertTitle>Notification demo</AlertTitle>
-          </Alert>
-        ),
-      },
-    });
+    enqueueSnackbar("Notification demo", { ...notifications.options, variant: "info" });
   }
 
   return (

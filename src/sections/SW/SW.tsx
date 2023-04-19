@@ -1,16 +1,12 @@
 import { useCallback, useEffect, useRef } from "react";
 
-import Alert from "@mui/material/Alert";
 import Button from "@mui/material/Button";
 
-import type { SnackbarKey } from "notistack";
+import { SnackbarKey, closeSnackbar, enqueueSnackbar } from "notistack";
 import { useRegisterSW } from "virtual:pwa-register/react";
-
-import useNotifications from "@/store/notifications";
 
 // TODO (Suren): this should be a custom hook :)
 function SW() {
-  const [, notificationsActions] = useNotifications();
   const notificationKey = useRef<SnackbarKey | null>(null);
   const {
     offlineReady: [offlineReady, setOfflineReady],
@@ -23,22 +19,20 @@ function SW() {
     setNeedRefresh(false);
 
     if (notificationKey.current) {
-      notificationsActions.close(notificationKey.current);
+      closeSnackbar(notificationKey.current);
     }
-  }, [setOfflineReady, setNeedRefresh, notificationsActions]);
+  }, [setOfflineReady, setNeedRefresh]);
 
   useEffect(() => {
     if (offlineReady) {
-      notificationsActions.push({
-        options: {
-          autoHideDuration: 4500,
-          content: <Alert severity="success">App is ready to work offline.</Alert>,
-        },
+      enqueueSnackbar("App is ready to work offline.", {
+        variant: "success",
+        autoHideDuration: 4500,
       });
     } else if (needRefresh) {
-      notificationKey.current = notificationsActions.push({
-        message: "New content is available, click on reload button to update.",
-        options: {
+      notificationKey.current = enqueueSnackbar(
+        "New content is available, click on reload button to update.",
+        {
           variant: "warning",
           persist: true,
           action: (
@@ -48,9 +42,9 @@ function SW() {
             </>
           ),
         },
-      });
+      );
     }
-  }, [close, needRefresh, offlineReady, notificationsActions, updateServiceWorker]);
+  }, [close, needRefresh, offlineReady, updateServiceWorker]);
 
   return null;
 }
