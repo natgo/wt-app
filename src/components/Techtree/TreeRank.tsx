@@ -23,7 +23,7 @@ export function TreeRank(props: {
 
   const topindex = index;
   let height = 0;
-  rank.range.forEach((element) => {
+  rank.forEach((element) => {
     if (element !== "drawArrow" && element.length > height) {
       height = element.length;
     }
@@ -31,8 +31,8 @@ export function TreeRank(props: {
 
   return (
     <tr className="border">
-      <Rank rank={rank.rank} needed={shop.needVehicles[rank.rank]} />
-      {rank.range.map((element, rowindex) => {
+      <Rank rank={index + 1} needed={shop.needVehicles[index + 1]} />
+      {rank.map((element, rowindex) => {
         if (element === "drawArrow") {
           return (
             <td key={rowindex}>
@@ -142,7 +142,7 @@ export function TreeRank(props: {
                 } else {
                   const nextRank = shop.range[topindex + 1];
                   if (nextRank && index === array.length - 1 && topindex !== shop.max_rank) {
-                    const nextRankItem = nextRank.range[rowindex][0];
+                    const nextRankItem = nextRank[rowindex][0];
                     if (typeof nextRankItem !== "string" && nextRankItem.reqAir !== "") {
                       return (
                         <Fragment key={element.name}>
@@ -268,7 +268,7 @@ export function TreeRank(props: {
                 } else {
                   const nextRank = shop.range[topindex + 1];
                   if (nextRank && index === array.length - 1 && topindex !== shop.max_rank) {
-                    const nextRankItem = nextRank.range[rowindex][0];
+                    const nextRankItem = nextRank[rowindex][0];
                     if (
                       nextRankItem &&
                       typeof nextRankItem !== "string" &&
@@ -303,7 +303,7 @@ export function TreeRank(props: {
                         );
                       }
                     } else {
-                      if (nextRank.range[rowindex] === "drawArrow") {
+                      if (nextRank[rowindex] === "drawArrow") {
                         return (
                           <Fragment key={element.name}>
                             <TechTreeItem

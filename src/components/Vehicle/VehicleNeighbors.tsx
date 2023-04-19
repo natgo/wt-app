@@ -26,7 +26,7 @@ function parseNextCol(
   let nextRankCol: FinalRange | undefined = undefined;
 
   if (nextRank) {
-    nextRankCol = nextRank.range[column];
+    nextRankCol = nextRank[column];
 
     if (nextRankCol !== "drawArrow") {
       switch (type) {
@@ -93,7 +93,7 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
   const prevRank = vehicleRange[vehicle.rank - 2] as FinalObjectRange | undefined;
 
   let pos: number | undefined = undefined;
-  const col = currentRank.range.findIndex((element) => {
+  const col = currentRank.findIndex((element) => {
     if (element === "drawArrow") {
       return false;
     }
@@ -112,7 +112,7 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
     });
   });
 
-  const currentCol = currentRank.range[col];
+  const currentCol = currentRank[col];
   if (currentCol === "drawArrow") {
     throw new Error("CurrentCol is Arrow");
   }

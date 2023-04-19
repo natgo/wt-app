@@ -18,7 +18,7 @@ function shopRange(range: FinalObjectRange[], final: Final) {
   const arr: VehicleProps[] = [];
 
   range.forEach((element) => {
-    element.range.forEach((element) => {
+    element.forEach((element) => {
       if (element === "drawArrow") {
         return;
       }

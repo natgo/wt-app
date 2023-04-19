@@ -27,10 +27,6 @@ const messages = {
 
 const notifications: Notifications = {
   options: {
-    anchorOrigin: {
-      vertical: "bottom",
-      horizontal: "left",
-    },
     autoHideDuration: 6000,
   },
   maxSnack: isMobile ? 3 : 4,

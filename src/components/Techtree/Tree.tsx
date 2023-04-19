@@ -28,7 +28,7 @@ export function TechTree(props: TechTreeProp): JSX.Element {
   const range: FinalObjectRange[] = JSON.parse(JSON.stringify(shop.range));
 
   range.forEach((element) => {
-    element.range.forEach((element) => {
+    element.forEach((element) => {
       if (element === "drawArrow") {
         return;
       }
@@ -62,7 +62,10 @@ export function TechTree(props: TechTreeProp): JSX.Element {
           <tbody>
             <Research research={shop.col_normal} max={shop.range.length} />
             {range.map((element, index) => {
-              return <TreeRank key={index + "_rank"} rank={element} index={index} shop={shop} />;
+              if (index >= shop.min_rank - 1) {
+                return <TreeRank key={index + "_rank"} rank={element} index={index} shop={shop} />;
+              }
+              return null;
             })}
           </tbody>
         </table>
