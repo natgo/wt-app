@@ -19,7 +19,7 @@ export default defineConfig({
         enabled: false,
       },
       workbox: {
-        globPatterns: ["**/*.{js,css,html}", "**/*.{svg,jpg,gif,webp}", "**/*.{ttf,woff,woff2}"],
+        globPatterns: ["**/*.{js,css,html}", "**/*.{jpg,gif,webp}", "**/*.{ttf,woff,woff2}"],
         maximumFileSizeToCacheInBytes: 5000000,
       },
     }),
