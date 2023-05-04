@@ -2838,7 +2838,16 @@
             },
             { "name": "germ_vs8_hydrofoil", "rank": 3, "reqAir": "" }
           ],
-          []
+          [
+            {
+              "name": "germ_s_700_s_701",
+              "rank": 3,
+              "reqAir": "",
+              "gift": true,
+              "hidden": true,
+              "event": "battlepass_season11"
+            }
+          ]
         ],
         [
           [
@@ -3134,6 +3143,14 @@
             { "name": "ussr_zsu_37", "rank": 3 }
           ],
           [
+            {
+              "name": "ussr_bm_31_12",
+              "rank": 3,
+              "reqAir": "",
+              "gift": true,
+              "hidden": true,
+              "event": "may_2023"
+            },
             { "name": "ussr_t_34_57_1943", "rank": 3, "reqAir": "" },
             { "name": "ussr_su_100Y", "rank": 3, "reqAir": "" },
             { "name": "ussr_m4a2_76w_sherman", "rank": 3, "reqAir": "" },
@@ -3199,7 +3216,8 @@
                   "rank": 4,
                   "reqAir": "",
                   "gift": true,
-                  "hidden": true
+                  "hidden": true,
+                  "event": "may_2022"
                 }
               ]
             }
@@ -4699,7 +4717,16 @@
             },
             { "name": "uk_centurion_action_x", "rank": 4, "reqAir": "" }
           ],
-          []
+          [
+            {
+              "name": "uk_centurion_mk_2",
+              "rank": 4,
+              "reqAir": "",
+              "gift": true,
+              "hidden": true,
+              "event": "battlepass_season11"
+            }
+          ]
         ],
         [
           [
@@ -5233,14 +5260,7 @@
             { "name": "meteor_fmk8_reaper", "rank": 5, "reqAir": "" },
             { "name": "dh_110_sea_vixen", "rank": 5, "reqAir": "" }
           ],
-          [
-            {
-              "name": "hunter_f9_rhodesia",
-              "rank": 5,
-              "reqAir": "",
-              "hidden": true
-            }
-          ]
+          [{ "name": "hunter_f9_rhodesia", "rank": 5, "reqAir": "" }]
         ],
         [
           [
@@ -8245,7 +8265,17 @@
           "drawArrow",
           [{ "name": "saab_b18b", "rank": 3 }],
           "drawArrow",
-          [{ "name": "pyorremyrsky", "rank": 3, "reqAir": "" }],
+          [
+            {
+              "name": "p-51b_7_sweden",
+              "rank": 3,
+              "reqAir": "",
+              "gift": true,
+              "hidden": true,
+              "event": "battlepass_season11"
+            },
+            { "name": "pyorremyrsky", "rank": 3, "reqAir": "" }
+          ],
           []
         ],
         [

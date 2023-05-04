@@ -47,7 +47,7 @@ export function Modifications(props: { vehicle: VehicleProps }): JSX.Element {
                             </div>
                             <div className="tree-item-img">
                               <img
-                                src={`../images/gameuiskin/${element.image.toLowerCase()}.png`}
+                                src={`../images/gameuiskin/${element.image.toLowerCase()}.avif`}
                               />
                             </div>
                           </div>
