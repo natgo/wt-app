@@ -8,6 +8,7 @@ pipeline {
   stages {
     stage('Install Dependencies') {
       steps {
+        sh 'git submodule update --init --recursive'
         sh 'pnpm install --frozen-lockfile'
         sh 'pnpm cypress install'
       }
