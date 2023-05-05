@@ -26,21 +26,93 @@
   "shortcuts": [
     {
       "name": "Techtree",
-      "url": "/wt/techtree"
+      "url": "/wt/techtree",
+      "icons": [
+        {
+          "src": "as.webp",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "as.webp",
+          "sizes": "512x512",
+          "type": "image/png"
+        },
+        {
+          "src": "as.webp",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any maskable"
+        }
+      ]
     },
     {
       "name": "WT Data Project (External)",
       "short_name": "Data",
-      "url": "/wt/data"
+      "url": "/wt/data",
+      "icons": [
+        {
+          "src": "as.webp",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "as.webp",
+          "sizes": "512x512",
+          "type": "image/png"
+        },
+        {
+          "src": "as.webp",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any maskable"
+        }
+      ]
     },
     {
       "name": "BR Calculator",
       "short_name": "Calculator",
-      "url": "/wt/calculator"
+      "url": "/wt/calculator",
+      "icons": [
+        {
+          "src": "as.webp",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "as.webp",
+          "sizes": "512x512",
+          "type": "image/png"
+        },
+        {
+          "src": "as.webp",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any maskable"
+        }
+      ]
     },
     {
       "name": "Skins",
-      "url": "/wt/skins"
+      "url": "/wt/skins",
+      "icons": [
+        {
+          "src": "as.webp",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "as.webp",
+          "sizes": "512x512",
+          "type": "image/png"
+        },
+        {
+          "src": "as.webp",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any maskable"
+        }
+      ]
     }
   ]
 }

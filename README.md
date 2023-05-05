@@ -12,7 +12,12 @@
   <a href="https://forthebadge.com/"><img src="https://forthebadge.com/images/badges/open-source.svg" alt="forthebadge"/></a>
 </p>
 
-## Development
+# Development
+
+Clone the repo with submodules:
+```bash
+git clone --recursive https://github.com/natgo/wt-wiki-scraper.git
+```
 
 Install dependencies:
 

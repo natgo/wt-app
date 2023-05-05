@@ -21,12 +21,12 @@ export default function Home(): JSX.Element {
   const setModificationDev = useSetRecoilState(ModificationDevState);
   const setWiki = useSetRecoilState(WikiState);
 
-  axios.get("./final.json").then((response) => {
+  axios.get("./data/data/final.json").then((response) => {
     const final: Final = response.data;
     setFinalLive(final);
   });
 
-  axios.get("./final-dev.json").then((response) => {
+  axios.get("./data/data/final-dev.json").then((response) => {
     const final: Final = response.data;
     setFinalDev(final);
   });
@@ -36,27 +36,27 @@ export default function Home(): JSX.Element {
     skinsSetValue(skins);
   });
 
-  axios.get("./shop.json").then((response) => {
+  axios.get("./data/data/shop.json").then((response) => {
     const shop: FinalShop = response.data;
     setShopLive(shop);
   });
 
-  axios.get("./shop-dev.json").then((response) => {
+  axios.get("./data/data/shop-dev.json").then((response) => {
     const shop: FinalShop = response.data;
     setShopDev(shop);
   });
 
-  axios.get("./modifications.json").then((response) => {
+  axios.get("./data/data/modifications.json").then((response) => {
     const modifications: Modifications = response.data;
     setModificationLive(modifications);
   });
 
-  axios.get("./modifications-dev.json").then((response) => {
+  axios.get("./data/data/modifications-dev.json").then((response) => {
     const modifications: Modifications = response.data;
     setModificationDev(modifications);
   });
 
-  axios.get("./wiki.json").then((response) => {
+  axios.get("./data/data/wiki.json").then((response) => {
     const wiki: ScrapeFull = response.data;
     setWiki(wiki);
   });
