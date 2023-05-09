@@ -7,6 +7,13 @@ import { Wiki } from "@data/wiki.schema";
 import axios from "axios";
 
 import ayskari from "@/assets/img/as.webp";
+import finalDevPath from "@/data/data/final-dev.json?url";
+import finalPath from "@/data/data/final.json?url";
+import modificationsDevPath from "@/data/data/modifications-dev.json?url";
+import modificationsPath from "@/data/data/modifications.json?url";
+import shopDevPath from "@/data/data/shop-dev.json?url";
+import shopPath from "@/data/data/shop.json?url";
+import wikiPath from "@/data/data/wiki.json?url";
 import { SkinsProp } from "@/skins.types";
 import { SkinAtom } from "@/store/atom/atom";
 import { finalDevState, finalLiveState } from "@/store/final";
@@ -24,12 +31,12 @@ export default function Home(): JSX.Element {
   const setModificationDev = useSetRecoilState(ModificationDevState);
   const setWiki = useSetRecoilState(WikiState);
 
-  axios.get("./data/data/final.json").then((response) => {
+  axios.get(finalPath).then((response) => {
     const final: Final = response.data;
     setFinalLive(final);
   });
 
-  axios.get("./data/data/final-dev.json").then((response) => {
+  axios.get(finalDevPath).then((response) => {
     const final: Final = response.data;
     setFinalDev(final);
   });
@@ -39,27 +46,27 @@ export default function Home(): JSX.Element {
     skinsSetValue(skins);
   });
 
-  axios.get("./data/data/shop.json").then((response) => {
+  axios.get(shopPath).then((response) => {
     const shop: FinalShop = response.data;
     setShopLive(shop);
   });
 
-  axios.get("./data/data/shop-dev.json").then((response) => {
+  axios.get(shopDevPath).then((response) => {
     const shop: FinalShop = response.data;
     setShopDev(shop);
   });
 
-  axios.get("./data/data/modifications.json").then((response) => {
+  axios.get(modificationsPath).then((response) => {
     const modifications: Modifications = response.data;
     setModificationLive(modifications);
   });
 
-  axios.get("./data/data/modifications-dev.json").then((response) => {
+  axios.get(modificationsDevPath).then((response) => {
     const modifications: Modifications = response.data;
     setModificationDev(modifications);
   });
 
-  axios.get("./data/data/wiki.json").then((response) => {
+  axios.get(wikiPath).then((response) => {
     const wiki: Wiki = response.data;
     setWiki(wiki);
   });

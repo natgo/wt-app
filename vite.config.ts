@@ -19,8 +19,8 @@ export default defineConfig({
         enabled: false,
       },
       workbox: {
-        globPatterns: ["**/*.{js,css,html}", "**/*.{jpg,gif,webp}", "**/*.{ttf,woff,woff2}"],
-        maximumFileSizeToCacheInBytes: 5000000,
+        globPatterns: ["**/*.{js,css,html,json}", "**/*.{jpg,gif,webp}", "**/*.{ttf,woff,woff2}"],
+        maximumFileSizeToCacheInBytes: 50000000,
       },
     }),
     visualizer({ gzipSize: true, brotliSize: true }),
@@ -28,6 +28,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+      "@data": path.resolve(__dirname, "./src/data/types"),
     },
   },
 });

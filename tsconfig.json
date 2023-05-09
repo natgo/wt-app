@@ -19,10 +19,10 @@
     "types": ["vite-plugin-pwa/client"],
     "paths": {
       "@/*": ["src/*"],
-      "@data/*": ["public/data/types/*"]
+      "@data/*": ["src/data/types/*"]
     }
   },
-  "include": ["src", "public/data/types"],
-  "exclude": ["public/data/types/generateSchema.ts"],
+  "include": ["src", "src/data/types"],
+  "exclude": ["src/data/types/generateSchema.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
