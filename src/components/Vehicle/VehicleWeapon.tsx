@@ -1,4 +1,4 @@
-import { GroundProps, TankCannon } from "@/types";
+import { GroundProps, TankCannon } from "@data/final.schema";
 
 import { Stabilizer } from "./Stabilizer";
 

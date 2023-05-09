@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 
+import { Final } from "@data/final.schema";
+
 import { FilterProps } from "@/store/atom/types";
-import { Final } from "@/types";
 import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 import { vehicleIcon } from "@/utils/custom/vehicleIcon";
 

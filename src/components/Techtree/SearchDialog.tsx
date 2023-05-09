@@ -12,11 +12,12 @@ import {
   TextField,
 } from "@mui/material";
 
+import { VehicleProps } from "@data/final.schema";
+
 import { CountryTab, SearchName, TypeTab } from "@/store/atom/atom";
 import { compareVehicleState } from "@/store/compare";
 import { finalQuery } from "@/store/final";
 import { searchDialogState } from "@/store/search";
-import { VehicleProps } from "@/types";
 import { countryToNumeric } from "@/utils/custom/countryToNumeric";
 import { typeToNumeric } from "@/utils/custom/typeToNumeric";
 

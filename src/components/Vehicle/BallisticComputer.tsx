@@ -1,6 +1,6 @@
 import { Check, Close } from "@mui/icons-material";
 
-import { AircraftProps, HelicopterProps } from "@/types";
+import { AircraftProps, HelicopterProps } from "@data/final.schema";
 
 export function BallisticComputer(props: {
   vehicle: AircraftProps | HelicopterProps;

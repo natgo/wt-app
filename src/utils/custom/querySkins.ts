@@ -1,8 +1,8 @@
+import { VehicleProps } from "@data/final.schema";
 import { getRecoil } from "recoil-nexus";
 
 import { Countries, VehicleSkinsProp } from "@/skins.types";
 import { SkinAtom } from "@/store/atom/atom";
-import { VehicleProps } from "@/types";
 
 function skinsFEloop(
   country: Countries,

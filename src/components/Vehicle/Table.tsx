@@ -8,7 +8,7 @@ import {
   TableRow,
 } from "@mui/material";
 
-import { GroundProps } from "@/types";
+import { GroundProps } from "@data/final.schema";
 
 function createData(name: string, front: number, side: number, back: number) {
   return { name, front, side, back };

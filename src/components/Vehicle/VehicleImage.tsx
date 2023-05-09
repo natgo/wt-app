@@ -1,4 +1,4 @@
-import { VehicleProps } from "@/types";
+import { VehicleProps } from "@data/final.schema";
 
 export function VehicleImage(props: { vehicle: VehicleProps }): JSX.Element {
   const { vehicle } = props;

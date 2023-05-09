@@ -1,9 +1,10 @@
 import { Fragment } from "react";
 import { useRecoilValue } from "recoil";
 
+import { FinalFinalShopRange, FinalObjectRange } from "@data/shop.schema";
+
 import { FilterAtom, SearchName } from "@/store/atom/atom";
 import { finalQuery } from "@/store/final";
-import { FinalObjectRange, FinalShopRange } from "@/types";
 
 import { Arrow } from "./Arrow";
 import { EmptyDiv } from "./EmptyDiv";
@@ -14,7 +15,7 @@ import { TreeFolder } from "./TreeFolder";
 export function TreeRank(props: {
   rank: FinalObjectRange;
   index: number;
-  shop: FinalShopRange;
+  shop: FinalFinalShopRange;
 }): JSX.Element {
   const { rank, index, shop } = props;
   const final = useRecoilValue(finalQuery);

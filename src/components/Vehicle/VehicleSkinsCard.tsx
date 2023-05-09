@@ -1,5 +1,6 @@
+import { VehicleProps } from "@data/final.schema";
+
 import { ToolTip } from "@/components/Skins/ToolTip";
-import { VehicleProps } from "@/types";
 import { querySkins } from "@/utils/custom/querySkins";
 
 export function VehicleSkinsCard(props: { vehicle: VehicleProps }): JSX.Element | null {

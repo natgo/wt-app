@@ -1,6 +1,7 @@
 import { Tooltip } from "@mui/material";
 
-import { GroundProps, HelicopterProps, Scrape, VehicleProps } from "@/types";
+import { GroundProps, HelicopterProps, VehicleProps } from "@data/final.schema";
+
 import { vehicleCountry } from "@/utils/custom/VehicleCountry";
 import { vehicleType } from "@/utils/custom/VehicleType";
 import { numRankToStr } from "@/utils/custom/numericRankToString";

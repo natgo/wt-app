@@ -1,4 +1,4 @@
-import { GroundProps, Sight } from "@/types";
+import { GroundProps, Sight } from "@data/final.schema";
 
 export function Optics(props: { vehicle: GroundProps }): JSX.Element {
   const { optics } = props.vehicle;

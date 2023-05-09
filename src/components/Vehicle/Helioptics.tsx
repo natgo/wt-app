@@ -1,4 +1,4 @@
-import { HelicopterOptics, HelicopterProps } from "@/types";
+import { HelicopterOptics, HelicopterProps } from "@data/final.schema";
 
 export function HeliOptics(props: { vehicle: HelicopterProps }) {
   const { optics } = props.vehicle;

@@ -1,3 +1,5 @@
+import { VehicleProps } from "@data/final.schema";
+
 import assault from "@/assets/img/def_assault_radar.svg";
 import attack_helicopter from "@/assets/img/def_attack_helicopter_radar.svg";
 import bomber from "@/assets/img/def_bomber_radar.svg";
@@ -9,7 +11,6 @@ import ship from "@/assets/img/def_ship_radar.svg";
 import spaa from "@/assets/img/def_spaa_radar.svg";
 import tank_destroyer from "@/assets/img/def_tank_destroyer_radar.svg";
 import utility_helicopter from "@/assets/img/def_utility_helicopter_radar.svg";
-import { VehicleProps } from "@/types";
 
 export function vehicleIcon(vehicle: VehicleProps | undefined) {
   let classSrc = "";

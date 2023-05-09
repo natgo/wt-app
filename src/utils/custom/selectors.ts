@@ -1,8 +1,8 @@
+import { Final } from "@data/final.schema";
 import axios from "axios";
 import { getRecoil, setRecoil } from "recoil-nexus";
 
 import { CalculatorMode, dialogue } from "@/store/atom/atom";
-import { Final } from "@/types";
 import { queryVehicleWikiname, querypartialVehicleWikiname } from "@/utils/custom/queryVehicle";
 
 import br from "./br";

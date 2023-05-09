@@ -4,13 +4,14 @@ import { useRecoilState } from "recoil";
 import AddIcon from "@mui/icons-material/Add";
 import { Fab } from "@mui/material";
 
+import { GroundProps, VehicleProps } from "@data/final.schema";
+
 import { SearchDialog } from "@/components/Techtree/SearchDialog";
 import { SpecsCard } from "@/components/Vehicle/VehicleItem";
 import { Optics } from "@/components/Vehicle/VehicleOptics";
 import { GroundWeapon } from "@/components/Vehicle/VehicleWeapon";
 import { compareVehicleState } from "@/store/compare";
 import { searchDialogState } from "@/store/search";
-import { GroundProps, VehicleProps } from "@/types";
 
 export default function Compare(): JSX.Element {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars

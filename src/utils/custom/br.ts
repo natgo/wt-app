@@ -1,7 +1,7 @@
+import { Final } from "@data/final.schema";
 import { setRecoil } from "recoil-nexus";
 
 import { dialogue } from "@/store/atom/atom";
-import { Final } from "@/types";
 import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
 export default function br(vehicle: string, final: Final): string {

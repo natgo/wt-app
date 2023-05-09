@@ -1,5 +1,9 @@
 import { useSetRecoilState } from "recoil";
 
+import { Final } from "@data/final.schema";
+import { Modifications } from "@data/modifications.schema";
+import { FinalShop } from "@data/shop.schema";
+import { Wiki } from "@data/wiki.schema";
 import axios from "axios";
 
 import ayskari from "@/assets/img/as.webp";
@@ -9,7 +13,6 @@ import { finalDevState, finalLiveState } from "@/store/final";
 import { ModificationDevState, ModificationLiveState } from "@/store/modifications";
 import { shopDevState, shopLiveState } from "@/store/shop";
 import { WikiState } from "@/store/wiki";
-import { Final, FinalShop, Modifications, ScrapeFull } from "@/types";
 
 export default function Home(): JSX.Element {
   const setFinalLive = useSetRecoilState(finalLiveState);
@@ -57,7 +60,7 @@ export default function Home(): JSX.Element {
   });
 
   axios.get("./data/data/wiki.json").then((response) => {
-    const wiki: ScrapeFull = response.data;
+    const wiki: Wiki = response.data;
     setWiki(wiki);
   });
 

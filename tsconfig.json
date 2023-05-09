@@ -16,13 +16,13 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "baseUrl": "./",
-    "types": [
-      "vite-plugin-pwa/client",
-    ],
+    "types": ["vite-plugin-pwa/client"],
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "@data/*": ["public/data/types/*"]
     }
   },
-  "include": ["src"],
+  "include": ["src", "public/data/types"],
+  "exclude": ["public/data/types/generateSchema.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

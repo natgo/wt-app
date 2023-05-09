@@ -1,5 +1,6 @@
+import { TankCannon } from "@data/final.schema";
+
 import { BlackTooltip } from "@/pages/Skins/Skins";
-import { TankCannon } from "@/types";
 
 export function Stabilizer(props: { weapon: TankCannon }) {
   const { weapon } = props;

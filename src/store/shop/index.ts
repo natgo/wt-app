@@ -1,6 +1,6 @@
 import { atom, selector } from "recoil";
 
-import { FinalShop } from "@/types";
+import { FinalShop } from "@data/shop.schema";
 
 import { dataModeState } from "../datasource";
 

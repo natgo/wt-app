@@ -1,6 +1,6 @@
 import { atom, selector } from "recoil";
 
-import { Final } from "@/types";
+import { Final } from "@data/final.schema";
 
 import { dataModeState } from "../datasource";
 

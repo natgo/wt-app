@@ -1,4 +1,4 @@
-import { Final, VehicleProps } from "@/types";
+import { Final, VehicleProps } from "@data/final.schema";
 
 export function queryVehicleWikiname(vehicle: string, final: Final): VehicleProps | undefined {
   const matchAir = final.aircraft.find((curval) => {

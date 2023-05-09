@@ -1,4 +1,4 @@
-import { HelicopterProps } from "@/types";
+import { HelicopterProps } from "@data/final.schema";
 
 import { Lws } from "./VehicleItem";
 

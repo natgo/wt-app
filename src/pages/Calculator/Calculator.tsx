@@ -21,12 +21,12 @@ import {
   Typography,
 } from "@mui/material";
 
+import { Final } from "@data/final.schema";
 import axios from "axios";
 import { setRecoil } from "recoil-nexus";
 
 import { CalculatorMode, Corrected, Parsed, base64Image, brb, dialogue } from "@/store/atom/atom";
 import { finalQuery } from "@/store/final";
-import { Final } from "@/types";
 import changeParsed from "@/utils/custom/selectors";
 
 async function readFile(file: File | Blob, final: Final): Promise<void> {

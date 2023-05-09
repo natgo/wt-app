@@ -1,10 +1,10 @@
 import { atom } from "recoil";
 
-import { ScrapeFull } from "@/types";
+import { Wiki } from "@data/wiki.schema";
 
 import { localForageEffect } from "..";
 
-export const WikiState = atom<ScrapeFull>({
+export const WikiState = atom<Wiki>({
   key: "wiki-state",
   effects: [localForageEffect("wiki-data")],
 });

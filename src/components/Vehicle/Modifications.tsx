@@ -1,7 +1,9 @@
 import { useRecoilValue } from "recoil";
 
+import { VehicleProps } from "@data/final.schema";
+import { BaseMod, modClassName } from "@data/modifications.schema";
+
 import { modificationQuery } from "@/store/modifications";
-import { BaseMod, VehicleProps, modClassName } from "@/types";
 import { modClassToString } from "@/utils/custom/modClass";
 
 import { ItemImg } from "../Techtree/ItemImg";

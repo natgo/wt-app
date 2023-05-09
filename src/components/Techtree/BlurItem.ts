@@ -1,5 +1,6 @@
+import { VehicleProps } from "@data/final.schema";
+
 import { FilterProps } from "@/store/atom/types";
-import { VehicleProps } from "@/types";
 import { querySkins } from "@/utils/custom/querySkins";
 
 export function BlurItem(

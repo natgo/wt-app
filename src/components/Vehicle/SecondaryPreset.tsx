@@ -3,8 +3,9 @@ import { useState } from "react";
 import { Close } from "@mui/icons-material";
 import { ButtonBase, ClickAwayListener } from "@mui/material";
 
+import { AircraftProps, FinalWeapon, FinalWeapons, HelicopterProps } from "@data/final.schema";
+
 import { BlackTooltip } from "@/pages/Skins/Skins";
-import { AircraftProps, FinalWeapon, FinalWeapons, HelicopterProps } from "@/types";
 
 function SlotWeapon(props: { value: FinalWeapon | FinalWeapons | { name: string } }) {
   const { value } = props;

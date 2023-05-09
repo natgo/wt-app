@@ -1,10 +1,11 @@
 import { useRecoilValue } from "recoil";
 
+import { FinalObjectRange } from "@data/shop.schema";
+
 import { CountryProp } from "@/skins.types";
 import { FilterAtom } from "@/store/atom/atom";
 import { finalQuery } from "@/store/final";
 import { shopQuery } from "@/store/shop";
-import { FinalObjectRange } from "@/types";
 import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
 import { Research } from "./Research";

@@ -1,4 +1,4 @@
-import { ModClassName } from "@/types";
+import { ModClassName } from "@data/modifications.schema";
 
 export function modClassToString(className: ModClassName): string {
   let modClass = "None";

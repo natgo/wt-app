@@ -1,16 +1,11 @@
 import { Link } from "react-router-dom";
 import { useRecoilValue } from "recoil";
 
+import { Final, VehicleProps } from "@data/final.schema";
+import { FinalObjectRange, FinalRange, FinalShopGroup, FinalShopItem } from "@data/shop.schema";
+
 import { finalQuery } from "@/store/final";
 import { shopQuery } from "@/store/shop";
-import {
-  Final,
-  FinalObjectRange,
-  FinalRange,
-  FinalShopGroup,
-  FinalShopItem,
-  VehicleProps,
-} from "@/types";
 import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
 import { VehicleNeighborFolder } from "./VehicleNeighborFolder";
