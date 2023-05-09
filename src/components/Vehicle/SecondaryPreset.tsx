@@ -70,7 +70,7 @@ function SecondarySlotToolTip(props: { value: (FinalWeapon | FinalWeapons | { na
                       >
                         <img
                           style={{ height: "40px" }}
-                          src={`../images/gameuiskin/${value.iconType}.png`}
+                          src={`../images/gameuiskin/${value.iconType}.avif`}
                           alt={value.iconType}
                         />
                         <SlotWeapon value={value} />
@@ -95,7 +95,7 @@ function SecondarySlotToolTip(props: { value: (FinalWeapon | FinalWeapons | { na
           >
             <div
               style={{
-                backgroundImage: "url(../images/gameuiskin/window_body_light.png)",
+                backgroundImage: "url(../images/gameuiskin/window_body_light.avif)",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "100%",
                 height: "40px",
@@ -105,7 +105,7 @@ function SecondarySlotToolTip(props: { value: (FinalWeapon | FinalWeapons | { na
               <ButtonBase onClick={handleChange}>
                 <img
                   style={{ height: "40px", width: "40px" }}
-                  src={`../images/gameuiskin/${selected?.iconType}.png`}
+                  src={`../images/gameuiskin/${selected?.iconType}.avif`}
                   alt=""
                 />
               </ButtonBase>

@@ -23,7 +23,7 @@ function parseNextCol(
   if (nextRank) {
     nextRankCol = nextRank[column];
 
-    if (nextRankCol !== "drawArrow" && nextRankCol) {
+    if (nextRankCol !== "drawArrow" && nextRankCol && nextRankCol.length !== 0) {
       switch (type) {
         case "next":
           next = queryVehicleIntname(nextRankCol[0].name, final);

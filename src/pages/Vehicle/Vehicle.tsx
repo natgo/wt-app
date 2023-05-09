@@ -1,6 +1,8 @@
+import { Suspense } from "react";
 import { useParams } from "react-router-dom";
 import { useRecoilValue } from "recoil";
 
+import Loading from "@/components/Loading";
 import { BallisticComputer } from "@/components/Vehicle/BallisticComputer";
 import { HeliSurvivability } from "@/components/Vehicle/HelicopterItem";
 import { HeliOptics } from "@/components/Vehicle/Helioptics";
@@ -32,7 +34,9 @@ export default function Vehicle(): JSX.Element {
         });
         return (
           <div>
-            <SpecsCard vehicle={match} garageimage />
+            <Suspense fallback={<Loading />}>
+              <SpecsCard vehicle={match} garageimage />
+            </Suspense>
             <VehicleSkinsCard vehicle={match} />
             <Survivability vehicle={match} wiki={wikiMatch} />
             <Mobility vehicle={match} wiki={wikiMatch} />
@@ -44,7 +48,9 @@ export default function Vehicle(): JSX.Element {
       } else if (match.type === "aircraft") {
         return (
           <div>
-            <SpecsCard vehicle={match} garageimage />
+            <Suspense fallback={<Loading />}>
+              <SpecsCard vehicle={match} garageimage />
+            </Suspense>
             <VehicleSkinsCard vehicle={match} />
             <BallisticComputer vehicle={match} />
             <SecondaryPreset vehicle={match} />
@@ -54,7 +60,9 @@ export default function Vehicle(): JSX.Element {
       } else if (match.type === "helicopter") {
         return (
           <div>
-            <SpecsCard vehicle={match} garageimage />
+            <Suspense fallback={<Loading />}>
+              <SpecsCard vehicle={match} garageimage />
+            </Suspense>
             <VehicleSkinsCard vehicle={match} />
             <HeliSurvivability vehicle={match} />
             <BallisticComputer vehicle={match} />
@@ -66,7 +74,9 @@ export default function Vehicle(): JSX.Element {
       } else if (match.type === "ship") {
         return (
           <div>
-            <SpecsCard vehicle={match} garageimage />
+            <Suspense fallback={<Loading />}>
+              <SpecsCard vehicle={match} garageimage />
+            </Suspense>
             <VehicleSkinsCard vehicle={match} />
             <Modifications vehicle={match} />
           </div>
@@ -74,7 +84,9 @@ export default function Vehicle(): JSX.Element {
       } else if (match.type === "boat") {
         return (
           <div>
-            <SpecsCard vehicle={match} garageimage />
+            <Suspense fallback={<Loading />}>
+              <SpecsCard vehicle={match} garageimage />
+            </Suspense>
             <VehicleSkinsCard vehicle={match} />
             <Modifications vehicle={match} />
           </div>
