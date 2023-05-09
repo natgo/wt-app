@@ -2,6 +2,7 @@ import { Tooltip } from "@mui/material";
 
 import { GroundProps, HelicopterProps, VehicleProps } from "@data/final.schema";
 
+import { WikiSigle } from "@/data/types/wiki.schema";
 import { vehicleCountry } from "@/utils/custom/VehicleCountry";
 import { vehicleType } from "@/utils/custom/VehicleType";
 import { numRankToStr } from "@/utils/custom/numericRankToString";
@@ -137,7 +138,7 @@ export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean 
 
 export function Survivability(props: {
   vehicle: GroundProps;
-  wiki: Scrape | undefined;
+  wiki: WikiSigle | undefined;
 }): JSX.Element {
   const { vehicle, wiki } = props;
   return (
