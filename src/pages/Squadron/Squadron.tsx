@@ -79,10 +79,10 @@ export default function SquadronVehicles(): JSX.Element {
     countries[countryname.parse(key)].push(...shopRange(value.helicopters.range, final));
   });
 
-  let next = "2023-01-18T00:00:00Z";
+  let next = DateTime.fromISO("2023-01-18T00:00:00Z");
 
-  while (DateTime.fromISO(next) < DateTime.now()) {
-    next = DateTime.fromISO(next).plus({ days: 3 }).toISO();
+  while (next < DateTime.now()) {
+    next = next.plus({ days: 3 });
   }
 
   return (
@@ -118,7 +118,7 @@ export default function SquadronVehicles(): JSX.Element {
         })}
       </div>
       <Countdown
-        date={next}
+        date={next.toJSDate()}
         renderer={({ total }) => {
           return (
             <div>

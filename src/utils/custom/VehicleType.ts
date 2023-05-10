@@ -7,7 +7,7 @@
  */
 export function vehicleType(
   normal_type: string,
-  extended_type?: string[] | undefined,
+  extended_type?: string[],
 ): {
   vehicle_type: string;
   extended_type: string[] | undefined;

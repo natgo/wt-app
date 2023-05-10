@@ -200,7 +200,10 @@ function Squadron(props: { vehicle: VehicleProps }): JSX.Element | null {
   }
 }
 
-export function Mobility(props: { vehicle: GroundProps; wiki: Scrape | undefined }): JSX.Element {
+export function Mobility(props: {
+  vehicle: GroundProps;
+  wiki: WikiSigle | undefined;
+}): JSX.Element {
   const { vehicle, wiki } = props;
   return (
     <div className="specs_info">
