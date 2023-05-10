@@ -6,7 +6,7 @@ describe("Techtree test", () => {
     cy.contains("Techtree").click();
   });
 
-  it("Test ground vehicle page", () => {
+  it("Test ground vehicle page features", () => {
     cy.contains("USSR").click();
     cy.contains("Ground Vehicles").click();
     cy.get("#ussr_t_35").click();
@@ -25,7 +25,9 @@ describe("Techtree test", () => {
     cy.get("#ussr_bmp_1").click();
     cy.get(".general_info_neighbors").get(".prev").contains("SU-100P");
     cy.get(".general_info_neighbors").get(".next").contains("Object 906");
+    cy.get(".general_info_skins").contains("BMP-1 [Repack]");
   });
+
   const countries = [
     "USA",
     "Germany",

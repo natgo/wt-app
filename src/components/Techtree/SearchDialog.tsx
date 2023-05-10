@@ -94,7 +94,7 @@ function SearchRender(props: {
   const setSearch = useSetRecoilState(SearchName);
 
   const handleClickVehicle = (vehicle: VehicleProps) => {
-    countrySetValue(countryToNumeric(vehicle.country));
+    countrySetValue(countryToNumeric(vehicle.country) ?? 0);
     setOpen(false);
     setValue(typeToNumeric(vehicle.type));
     setSearch(vehicle.intname);

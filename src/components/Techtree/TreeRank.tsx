@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import { useRecoilValue } from "recoil";
 
 import { FinalFinalShopRange, FinalObjectRange } from "@data/shop.schema";
@@ -7,10 +6,9 @@ import { FilterAtom, SearchName } from "@/store/atom/atom";
 import { finalQuery } from "@/store/final";
 
 import { Arrow } from "./Arrow";
-import { EmptyDiv } from "./EmptyDiv";
 import { Rank } from "./Rank";
-import { TechTreeItem } from "./TechTreeItem";
-import { TreeFolder } from "./TreeFolder";
+import { RenderTreeFolder } from "./RenderTreeFolder";
+import { RenderTreeSingleItem } from "./RenderTreeSingleItem";
 
 export function TreeRank(props: {
   rank: FinalObjectRange;
@@ -41,301 +39,57 @@ export function TreeRank(props: {
             </td>
           );
         }
+        const renderElement = element.map((element, index, array) => {
+          const isLastElement = index === array.length - 1;
+          const hasNextRank = shop.range[topindex + 1] !== undefined;
+          const nextRank = shop.range[topindex + 1];
+
+          if ("vehicles" in element) {
+            return (
+              <RenderTreeFolder
+                element={element}
+                final={final}
+                filter={filter}
+                search={search}
+                isLastElement={isLastElement}
+                hasNextRank={hasNextRank}
+                index={index}
+                topindex={topindex}
+                nextRank={nextRank}
+                rowindex={rowindex}
+                height={height}
+                maxRank={shop.max_rank}
+                key={element.name}
+              />
+            );
+          } else {
+            return (
+              <RenderTreeSingleItem
+                element={element}
+                final={final}
+                filter={filter}
+                search={search}
+                isLastElement={isLastElement}
+                hasNextRank={hasNextRank}
+                index={index}
+                topindex={topindex}
+                nextRank={nextRank}
+                rowindex={rowindex}
+                height={height}
+                maxRank={shop.max_rank}
+                array={array}
+                key={element.name}
+              />
+            );
+          }
+        });
+
         return (
           <td
             key={rowindex}
             style={rowindex === shop.col_normal ? { borderLeft: "solid 1px #cccccc" } : {}}
           >
-            {element.map((element, index, array) => {
-              if ("vehicles" in element) {
-                if (index < array.length - 1) {
-                  if (array[index + 1].reqAir !== "") {
-                    return (
-                      <Fragment key={element.name}>
-                        <TreeFolder name={element.displayname} img={element.image}>
-                          {element.vehicles.map((element, index, array) => {
-                            if (array[index + 1] && array[index + 1].reqAir !== "") {
-                              return [
-                                <TechTreeItem
-                                  key={element.name}
-                                  intname={element.name}
-                                  final={final}
-                                  filter={filter}
-                                  search={search}
-                                  type="blur"
-                                />,
-                                <Arrow length={0} type="short" key={element.name + "_arrow"} />,
-                              ];
-                            } else if (!array[index + 1]) {
-                              return [
-                                <TechTreeItem
-                                  key={element.name}
-                                  intname={element.name}
-                                  final={final}
-                                  filter={filter}
-                                  search={search}
-                                  type="blur"
-                                />,
-                              ];
-                            }
-                            return [
-                              <TechTreeItem
-                                key={element.name}
-                                intname={element.name}
-                                final={final}
-                                filter={filter}
-                                search={search}
-                                type="blur"
-                              />,
-                              <EmptyDiv size={30} key={element.name + "_arrow"} />,
-                            ];
-                          })}
-                        </TreeFolder>
-                        <Arrow length={0} type="short" />
-                      </Fragment>
-                    );
-                  } else {
-                    return (
-                      <Fragment key={element.name}>
-                        <TreeFolder name={element.displayname} img={element.image}>
-                          {element.vehicles.map((element, index, array) => {
-                            if (array[index + 1] && array[index + 1].reqAir !== "") {
-                              return [
-                                <TechTreeItem
-                                  key={element.name}
-                                  intname={element.name}
-                                  final={final}
-                                  filter={filter}
-                                  search={search}
-                                  type="blur"
-                                />,
-                                <Arrow length={0} type="short" key={element.name + "_arrow"} />,
-                              ];
-                            } else if (!array[index + 1]) {
-                              return [
-                                <TechTreeItem
-                                  key={element.name}
-                                  intname={element.name}
-                                  final={final}
-                                  filter={filter}
-                                  search={search}
-                                  type="blur"
-                                />,
-                              ];
-                            }
-                            return [
-                              <TechTreeItem
-                                key={element.name}
-                                intname={element.name}
-                                final={final}
-                                filter={filter}
-                                search={search}
-                                type="blur"
-                              />,
-                              <EmptyDiv size={30} key={element.name + "_arrow"} />,
-                            ];
-                          })}
-                        </TreeFolder>
-                        <EmptyDiv size={30} />
-                      </Fragment>
-                    );
-                  }
-                } else {
-                  const nextRank = shop.range[topindex + 1];
-                  if (nextRank && index === array.length - 1 && topindex !== shop.max_rank) {
-                    const nextRankItem = nextRank[rowindex][0];
-                    if (typeof nextRankItem !== "string" && nextRankItem.reqAir !== "") {
-                      return (
-                        <Fragment key={element.name}>
-                          <TreeFolder name={element.displayname} img={element.image}>
-                            {element.vehicles.map((element, index, array) => {
-                              if (array[index + 1] && array[index + 1].reqAir !== "") {
-                                return [
-                                  <TechTreeItem
-                                    key={element.name}
-                                    intname={element.name}
-                                    final={final}
-                                    filter={filter}
-                                    search={search}
-                                    type="blur"
-                                  />,
-                                  <Arrow length={0} type="short" key={element.name + "_arrow"} />,
-                                ];
-                              } else if (!array[index + 1]) {
-                                return [
-                                  <TechTreeItem
-                                    key={element.name}
-                                    intname={element.name}
-                                    final={final}
-                                    filter={filter}
-                                    search={search}
-                                    type="blur"
-                                  />,
-                                ];
-                              }
-                              return [
-                                <TechTreeItem
-                                  key={element.name}
-                                  intname={element.name}
-                                  final={final}
-                                  filter={filter}
-                                  search={search}
-                                  type="blur"
-                                />,
-                                <EmptyDiv size={30} key={element.name + "_arrow"} />,
-                              ];
-                            })}
-                          </TreeFolder>
-                          <Arrow length={height - index - 1} type="short" />
-                        </Fragment>
-                      );
-                    }
-                  } else {
-                    return (
-                      <Fragment key={element.name}>
-                        <TreeFolder name={element.displayname} img={element.image}>
-                          {element.vehicles.map((element, index, array) => {
-                            if (array[index + 1] && array[index + 1].reqAir !== "") {
-                              return [
-                                <TechTreeItem
-                                  key={element.name}
-                                  intname={element.name}
-                                  final={final}
-                                  filter={filter}
-                                  search={search}
-                                  type="blur"
-                                />,
-                                <Arrow length={0} type="short" key={element.name + "_arrow"} />,
-                              ];
-                            } else if (!array[index + 1]) {
-                              return [
-                                <TechTreeItem
-                                  key={element.name}
-                                  intname={element.name}
-                                  final={final}
-                                  filter={filter}
-                                  search={search}
-                                  type="blur"
-                                />,
-                              ];
-                            }
-                            return [
-                              <TechTreeItem
-                                key={element.name}
-                                intname={element.name}
-                                final={final}
-                                filter={filter}
-                                search={search}
-                                type="blur"
-                              />,
-                              <EmptyDiv size={30} key={element.name + "_arrow"} />,
-                            ];
-                          })}
-                        </TreeFolder>
-                        <EmptyDiv size={30} />
-                      </Fragment>
-                    );
-                  }
-                }
-              } else {
-                if (index < array.length - 1) {
-                  if (array[index + 1].reqAir !== "") {
-                    return (
-                      <Fragment key={element.name}>
-                        <TechTreeItem
-                          intname={element.name}
-                          final={final}
-                          filter={filter}
-                          search={search}
-                          type="blur"
-                        />
-                        <Arrow length={0} type="short" />
-                      </Fragment>
-                    );
-                  } else {
-                    return (
-                      <Fragment key={element.name}>
-                        <TechTreeItem
-                          intname={element.name}
-                          final={final}
-                          filter={filter}
-                          search={search}
-                          type="blur"
-                        />
-                        <EmptyDiv size={30} />
-                      </Fragment>
-                    );
-                  }
-                } else {
-                  const nextRank = shop.range[topindex + 1];
-                  if (nextRank && index === array.length - 1 && topindex !== shop.max_rank) {
-                    const nextRankItem = nextRank[rowindex][0];
-                    if (
-                      nextRankItem &&
-                      typeof nextRankItem !== "string" &&
-                      nextRankItem.reqAir !== ""
-                    ) {
-                      if (index < height) {
-                        console.info(`${element.name}:${index}:${height}`);
-                        return (
-                          <Fragment key={element.name}>
-                            <TechTreeItem
-                              intname={element.name}
-                              final={final}
-                              filter={filter}
-                              search={search}
-                              type="blur"
-                            />
-                            <Arrow length={height - index - 1} type="short" />
-                          </Fragment>
-                        );
-                      } else {
-                        return (
-                          <Fragment key={element.name}>
-                            <TechTreeItem
-                              intname={element.name}
-                              final={final}
-                              filter={filter}
-                              search={search}
-                              type="blur"
-                            />
-                            <Arrow length={0} type="short" />
-                          </Fragment>
-                        );
-                      }
-                    } else {
-                      if (nextRank[rowindex] === "drawArrow") {
-                        return (
-                          <Fragment key={element.name}>
-                            <TechTreeItem
-                              intname={element.name}
-                              final={final}
-                              filter={filter}
-                              search={search}
-                              type="blur"
-                            />
-                            <Arrow length={height - index - 1} type="short" />
-                          </Fragment>
-                        );
-                      }
-                    }
-                  }
-                  console.info(`${element.name} topindex: ${topindex}`);
-                  return (
-                    <Fragment key={element.name}>
-                      <TechTreeItem
-                        intname={element.name}
-                        final={final}
-                        filter={filter}
-                        search={search}
-                        type="blur"
-                      />
-                      <EmptyDiv size={30} />
-                    </Fragment>
-                  );
-                }
-              }
-            })}
+            {renderElement}
           </td>
         );
       })}

@@ -1,10 +1,13 @@
-import { useRecoilState, useRecoilValue } from "recoil";
+import { useRecoilState, useRecoilValue, useSetRecoilState } from "recoil";
 
 import { Box, Tab, Tabs } from "@mui/material";
 
+import { TypeTabs } from "@/components/Skins/SkinTypeTabs";
 import { TechTree } from "@/components/Techtree/Tree";
-import { CountryProp } from "@/skins.types";
+import { countryname } from "@/skins.types";
 import { CountryTab, SearchName, TypeTab } from "@/store/atom/atom";
+import { shopQuery } from "@/store/shop";
+import { numericToCountry } from "@/utils/custom/countryToNumeric";
 
 import "./App2.css";
 import "./App.css";
@@ -30,36 +33,23 @@ export function TabPanel(props: TabPanelProps): JSX.Element {
     </div>
   );
 }
-function TypeTabs() {
-  const [value, setValue] = useRecoilState(TypeTab);
 
-  const handleChange = (event: React.SyntheticEvent, newValue: number) => {
-    setValue(newValue);
-  };
-
-  return (
-    <Tabs value={value} onChange={handleChange}>
-      <Tab label="Ground Vehicles" />
-      <Tab label="Helicopters" />
-      <Tab label="Aviation" />
-      <Tab label="Bluewater Fleet" />
-      <Tab label="Coastal Fleet" />
-    </Tabs>
-  );
-}
-
-export interface CountryPropIndex extends CountryProp {
-  index: number;
-}
-
-function CountryTabs(props: CountryPropIndex): JSX.Element {
-  const { country, index } = props;
-  const typeValue = useRecoilValue(TypeTab);
+function CountryTabs(props: { index: number }): JSX.Element {
+  const { index } = props;
+  const country = countryname.parse(numericToCountry(index));
+  const [typeValue, setTypeValue] = useRecoilState(TypeTab);
   const countryValue = useRecoilValue(CountryTab);
+  const shopData = useRecoilValue(shopQuery);
 
   return (
     <TabPanel value={countryValue} index={index}>
-      <TypeTabs />
+      <TypeTabs value={typeValue} setValue={setTypeValue}>
+        <Tab label="Ground Vehicles" />
+        <Tab label="Helicopters" />
+        <Tab label="Aviation" />
+        <Tab label="Bluewater Fleet" disabled={shopData[country].ship ? false : true} />
+        <Tab label="Coastal Fleet" disabled={shopData[country].boat ? false : true} />
+      </TypeTabs>
       <TabPanel value={typeValue} index={0}>
         <TechTree country={country} type="army" />
       </TabPanel>
@@ -82,10 +72,21 @@ function CountryTabs(props: CountryPropIndex): JSX.Element {
 export default function TreeTech(): JSX.Element {
   const [countryValue, countrySetValue] = useRecoilState(CountryTab);
   const [search, setSearch] = useRecoilState(SearchName);
+  const shopData = useRecoilValue(shopQuery);
+  const setTypeValue = useSetRecoilState(TypeTab);
 
-  const handleCountryChange = (event: React.SyntheticEvent, newValue: number) => {
+  const handleCountryChange = (_event: React.SyntheticEvent, newValue: number) => {
     countrySetValue(newValue);
+    const countryName = numericToCountry(newValue);
+    if (countryName) {
+      if (shopData[countryName].ship === undefined) {
+        setTypeValue(2);
+      } else if (shopData[countryName].boat === undefined) {
+        setTypeValue(0);
+      }
+    }
   };
+
   return (
     <div
       className="app"
@@ -113,16 +114,16 @@ export default function TreeTech(): JSX.Element {
         <Tab label="Israel" />
       </Tabs>
 
-      <CountryTabs country={"country_usa"} index={0} />
-      <CountryTabs country={"country_germany"} index={1} />
-      <CountryTabs country={"country_ussr"} index={2} />
-      <CountryTabs country={"country_britain"} index={3} />
-      <CountryTabs country={"country_japan"} index={4} />
-      <CountryTabs country={"country_china"} index={5} />
-      <CountryTabs country={"country_italy"} index={6} />
-      <CountryTabs country={"country_france"} index={7} />
-      <CountryTabs country={"country_sweden"} index={8} />
-      <CountryTabs country={"country_israel"} index={9} />
+      <CountryTabs index={0} />
+      <CountryTabs index={1} />
+      <CountryTabs index={2} />
+      <CountryTabs index={3} />
+      <CountryTabs index={4} />
+      <CountryTabs index={5} />
+      <CountryTabs index={6} />
+      <CountryTabs index={7} />
+      <CountryTabs index={8} />
+      <CountryTabs index={9} />
     </div>
   );
 }

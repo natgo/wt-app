@@ -145,7 +145,7 @@ export function OtherTab(): JSX.Element {
             rel="noopener noreferrer"
             href="https://live.warthunder.com/post/570240/en/"
           >
-            il-4 (ihan vituiks)
+            il-4 (scuffed)
           </a>
         </div>
         <div>
@@ -154,7 +154,7 @@ export function OtherTab(): JSX.Element {
             rel="noopener noreferrer"
             href="https://live.warthunder.com/post/620898/en/"
           >
-            b-24d (ihan vituiks)
+            b-24d (scuffed)
           </a>
         </div>
         <div>
@@ -172,7 +172,7 @@ export function OtherTab(): JSX.Element {
             rel="noopener noreferrer"
             href="https://live.warthunder.com/post/117036/en/"
           >
-            i15bis (ihan vituiks)
+            i15bis (scuffed)
           </a>
         </div>
         <div>
@@ -181,7 +181,7 @@ export function OtherTab(): JSX.Element {
             rel="noopener noreferrer"
             href="https://live.warthunder.com/post/694798/en/"
           >
-            i15bis (myös vituiks)
+            i15bis (scuffed)
           </a>
         </div>
         <div>

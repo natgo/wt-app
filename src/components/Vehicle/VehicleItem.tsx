@@ -200,11 +200,8 @@ function Squadron(props: { vehicle: VehicleProps }): JSX.Element | null {
   }
 }
 
-export function Mobility(props: {
-  vehicle: GroundProps;
-  wiki: WikiSigle | undefined;
-}): JSX.Element {
-  const { vehicle, wiki } = props;
+export function Mobility(props: { vehicle: GroundProps }): JSX.Element {
+  const { vehicle } = props;
   return (
     <div className="specs_info">
       <div className="specs_feature">
@@ -216,19 +213,23 @@ export function Mobility(props: {
       <div className="specs_char">
         <div className="specs_char_block">
           <div className="specs_char_line head">
-            <span className="name">Speed (Wiki)</span>
+            <span className="name">Speed</span>
             <span className="value">forward / back</span>
           </div>
           <div className="specs_char_line indent">
             <span className="name">AB</span>
             <span className="value">
-              {wiki ? wiki.ab_top_speed[0] : 0} / {wiki ? wiki.ab_top_speed[1] : 0} km/h
+              {vehicle.maxSpeedAB
+                ? `${vehicle.maxSpeedAB[0].toFixed(1)} / ${vehicle.maxSpeedAB[1].toFixed(1)} km/h`
+                : "N/A"}
             </span>
           </div>
           <div className="specs_char_line indent">
             <span className="name">RB and SB</span>
             <span className="value">
-              {wiki ? wiki.rb_top_speed[0] : 0} / {wiki ? wiki.rb_top_speed[1] : 0} km/h
+              {vehicle.maxSpeedRB
+                ? `${vehicle.maxSpeedRB[0].toFixed(1)} / ${vehicle.maxSpeedRB[1].toFixed(1)} km/h`
+                : "N/A"}
             </span>
           </div>
         </div>

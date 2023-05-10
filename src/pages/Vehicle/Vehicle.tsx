@@ -39,7 +39,7 @@ export default function Vehicle(): JSX.Element {
             </Suspense>
             <VehicleSkinsCard vehicle={match} />
             <Survivability vehicle={match} wiki={wikiMatch} />
-            <Mobility vehicle={match} wiki={wikiMatch} />
+            <Mobility vehicle={match} />
             <GroundWeapon vehicle={match} />
             <Optics vehicle={match} />
             <Modifications vehicle={match} />
