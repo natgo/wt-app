@@ -5,6 +5,6 @@ describe("Squadron test", () => {
     cy.get("#sidebar-menu").click();
     cy.contains("Squadron vehicles").click();
     cy.get("#us_m901_itv").parent().parent().contains("60 Days to research");
-    cy.contains(/Squadron points in \d.*(days|hours)/g);
+    cy.contains(/Squadron points in \d.*(days|day|hours|hour)/g);
   });
 });
