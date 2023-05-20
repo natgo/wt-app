@@ -21,14 +21,14 @@ export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean 
 
   const rank = numRankToStr(vehicle.rank);
 
-  const flag = `../images/flag/45px-${country}_flag.png`;
+  const flag = `/wt/images/flag/45px-${country}_flag.png`;
 
   return (
     <div className="specs_card_main" data-code={vehicle.intname}>
       {garageimage ? <VehicleImage vehicle={vehicle} /> : null}
       <div className="specs_card_main_info">
         <div className="general_info_image">
-          <img width="100%" src={`../images/statcard/${vehicle.intname.toLowerCase()}.png`} />
+          <img width="100%" src={`/wt/images/statcard/${vehicle.intname.toLowerCase()}.png`} />
         </div>
 
         <div className="general_info_name">
