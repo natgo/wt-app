@@ -1,4 +1,4 @@
-import { useRecoilState, useRecoilValue, useSetRecoilState } from "recoil";
+import { useRecoilState, useRecoilValue } from "recoil";
 
 import { Box, Tab, Tabs } from "@mui/material";
 
@@ -47,8 +47,8 @@ function CountryTabs(props: { index: number }): JSX.Element {
         <Tab label="Ground Vehicles" />
         <Tab label="Helicopters" />
         <Tab label="Aviation" />
-        <Tab label="Bluewater Fleet" disabled={shopData[country].ship ? false : true} />
-        <Tab label="Coastal Fleet" disabled={shopData[country].boat ? false : true} />
+        {shopData[country].ship ? <Tab label="Bluewater Fleet" /> : null}
+        {shopData[country].boat ? <Tab label="Coastal Fleet" /> : null}
       </TypeTabs>
       <TabPanel value={typeValue} index={0}>
         <TechTree country={country} type="army" />
@@ -59,12 +59,16 @@ function CountryTabs(props: { index: number }): JSX.Element {
       <TabPanel value={typeValue} index={2}>
         <TechTree country={country} type="aviation" />
       </TabPanel>
-      <TabPanel value={typeValue} index={3}>
-        <TechTree country={country} type="ship" />
-      </TabPanel>
-      <TabPanel value={typeValue} index={4}>
-        <TechTree country={country} type="boat" />
-      </TabPanel>
+      {shopData[country].ship ? (
+        <TabPanel value={typeValue} index={3}>
+          <TechTree country={country} type="ship" />
+        </TabPanel>
+      ) : null}
+      {shopData[country].boat ? (
+        <TabPanel value={typeValue} index={4}>
+          <TechTree country={country} type="boat" />
+        </TabPanel>
+      ) : null}
     </TabPanel>
   );
 }
@@ -73,14 +77,14 @@ export default function TreeTech(): JSX.Element {
   const [countryValue, countrySetValue] = useRecoilState(CountryTab);
   const [search, setSearch] = useRecoilState(SearchName);
   const shopData = useRecoilValue(shopQuery);
-  const setTypeValue = useSetRecoilState(TypeTab);
+  const [typeValue, setTypeValue] = useRecoilState(TypeTab);
 
   const handleCountryChange = (_event: React.SyntheticEvent, newValue: number) => {
     countrySetValue(newValue);
     const countryName = numericToCountry(newValue);
-    if (countryName) {
+    if (countryName && (typeValue === 3 || typeValue === 4)) {
       if (shopData[countryName].ship === undefined) {
-        setTypeValue(2);
+        setTypeValue(0);
       } else if (shopData[countryName].boat === undefined) {
         setTypeValue(0);
       }
