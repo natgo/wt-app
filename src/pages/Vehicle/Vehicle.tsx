@@ -24,9 +24,8 @@ export default function Vehicle(): JSX.Element {
   const wiki = useRecoilValue(WikiState);
 
   if (params.vehicleId) {
-    console.log(params.vehicleId);
     const match = queryVehicleIntname(params.vehicleId, final);
-    console.log(match);
+
     if (match) {
       if (match.type === "ground") {
         const wikiMatch = wiki.ground.find((value) => {

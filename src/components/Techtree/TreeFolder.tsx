@@ -35,7 +35,6 @@ export function TreeFolder(props: {
 
   let br: string | undefined = "-1.0";
   const brarr: { br: string; realbr: number }[] = [];
-  console.log(children);
   const match = queryVehicleIntname(children[0][0].props.intname, final);
   const fig_src = vehicleIcon(match);
   br = match?.br[1];

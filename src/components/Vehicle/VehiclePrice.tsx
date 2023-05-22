@@ -7,7 +7,7 @@ import slImg from "@/assets/img/Specs-Card-Lion.png";
 
 export function VehiclePrice(props: { vehicle: VehicleProps }): JSX.Element {
   const { prem_type, reqRP, sl_price, cost_gold, hidden, marketplace } = props.vehicle;
-  console.log(props);
+
   let rp = "Not Free";
   if (reqRP === undefined) {
     rp = "Free";

@@ -43,7 +43,7 @@ export function Optics(props: { vehicle: GroundProps }): JSX.Element {
 
 function Thermal(props: { optics: Sight }) {
   const { optics } = props;
-  console.log(optics);
+
   if (optics.thermal) {
     let gen,
       gencolor = "";
