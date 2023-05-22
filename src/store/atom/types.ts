@@ -15,23 +15,26 @@ export interface FilterProps {
   hide_wiki: boolean;
   hide_ingame: boolean;
   show_skins: boolean;
-  show_features: Features | null;
+  show_features: Features;
   show_class: Classes[];
 }
 
-export const features = z.enum([
-  "hydro_suspension",
-  "can_float",
-  "has_synchro",
-  "has_neutral",
-  "has_dozer",
-  "has_ess",
-  "has_smoke",
-  "has_lws",
-  "has_era",
-  "has_composite",
-  "has_laser_range",
-  "has_range",
+export const features = z.union([
+  z.enum([
+    "hydro_suspension",
+    "can_float",
+    "has_synchro",
+    "has_neutral",
+    "has_dozer",
+    "has_ess",
+    "has_smoke",
+    "has_lws",
+    "has_era",
+    "has_composite",
+    "has_laser_range",
+    "has_range",
+  ]),
+  z.null(),
 ]);
 export type Features = z.infer<typeof features>;
 
