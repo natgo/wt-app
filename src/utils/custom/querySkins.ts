@@ -8,6 +8,7 @@ function skinsFEloop(
   country: Countries,
   vehicle: VehicleProps,
   type: "ground" | "aircraft",
+  historical: "historical" | "fictional",
 ): VehicleSkinsProp {
   const vehicleSkins: VehicleSkinsProp = {
     historical: [],
@@ -18,7 +19,7 @@ function skinsFEloop(
     countryType.ungrouped?.forEach((skinelement) => {
       skinelement.intnames.forEach((element) => {
         if (element === vehicle.intname) {
-          vehicleSkins.historical.push(skinelement);
+          vehicleSkins[historical].push(skinelement);
         }
       });
     });
@@ -27,7 +28,7 @@ function skinsFEloop(
         value.forEach((skinelement) => {
           skinelement.intnames.forEach((element) => {
             if (element === vehicle.intname) {
-              vehicleSkins.historical.push(skinelement);
+              vehicleSkins[historical].push(skinelement);
             }
           });
         });
@@ -37,19 +38,23 @@ function skinsFEloop(
   return vehicleSkins;
 }
 
-function skinsCountryLoop(country: Countries, vehicle: VehicleProps): VehicleSkinsProp {
+function skinsCountryLoop(
+  country: Countries,
+  vehicle: VehicleProps,
+  historical: "historical" | "fictional",
+): VehicleSkinsProp {
   const vehicleSkins: VehicleSkinsProp = {
     historical: [],
     fictional: [],
   };
   if (vehicle.type === "ground" && country.ground) {
-    const vehicleSkin = skinsFEloop(country, vehicle, "ground");
+    const vehicleSkin = skinsFEloop(country, vehicle, "ground", historical);
     vehicleSkins.fictional.push(...vehicleSkin.fictional);
     vehicleSkins.historical.push(...vehicleSkin.historical);
   }
 
   if ((vehicle.type === "aircraft" || vehicle.type === "helicopter") && country.aircraft) {
-    const vehicleSkin = skinsFEloop(country, vehicle, "aircraft");
+    const vehicleSkin = skinsFEloop(country, vehicle, "aircraft", historical);
     vehicleSkins.fictional.push(...vehicleSkin.fictional);
     vehicleSkins.historical.push(...vehicleSkin.historical);
   }
@@ -65,14 +70,14 @@ export function querySkins(vehicle: VehicleProps): VehicleSkinsProp {
 
   Object.values(skins.historical).forEach((value) => {
     const value2 = value as Countries;
-    const vehicleSkin = skinsCountryLoop(value2, vehicle);
+    const vehicleSkin = skinsCountryLoop(value2, vehicle, "historical");
     vehicleSkins.fictional.push(...vehicleSkin.fictional);
     vehicleSkins.historical.push(...vehicleSkin.historical);
   });
 
   Object.values(skins.fictional).forEach((value) => {
     const value2 = value as Countries;
-    const vehicleSkin = skinsCountryLoop(value2, vehicle);
+    const vehicleSkin = skinsCountryLoop(value2, vehicle, "fictional");
     vehicleSkins.fictional.push(...vehicleSkin.fictional);
     vehicleSkins.historical.push(...vehicleSkin.historical);
   });
