@@ -1,5 +1,7 @@
 import { GroundProps, TankCannon } from "@data/final.schema";
 
+import { BlackTooltip } from "@/pages/Skins/Skins";
+
 import { Stabilizer } from "./Stabilizer";
 
 export function GroundWeapon(props: { vehicle: GroundProps }): JSX.Element {
@@ -112,17 +114,53 @@ export function GroundWeapon(props: { vehicle: GroundProps }): JSX.Element {
               </div>
             </div>
             <Autoloader autoloader={element.autoloader} />
-            <div className="reload">
-              <div className="name">
-                <span>Fire rate</span>
-              </div>
-              <div className="value">
-                <span>{element.shotFreq.toPrecision(4)}/s</span>
-              </div>
-            </div>
+            <Reload weapon={element} />
           </div>
         );
       })}
+    </div>
+  );
+}
+
+function Reload(props: { weapon: TankCannon }) {
+  const { weapon } = props;
+  if (weapon.reloadTime) {
+    return (
+      <>
+        <div className="reload">
+          <div className="name">
+            <span>Fire rate</span>
+          </div>
+          <div className="value">
+            <BlackTooltip
+              placement="bottom"
+              title={`Time between firing: ${(1 / weapon.shotFreq).toPrecision(4)} s`}
+            >
+              <span style={{ borderBottom: "1px dotted", whiteSpace: "nowrap" }}>
+                {(60 / (1 / weapon.shotFreq)).toPrecision(4)} / min
+              </span>
+            </BlackTooltip>
+          </div>
+        </div>
+        <div className="reload">
+          <div className="name">
+            <span>Reloading rate</span>
+          </div>
+          <div className="value">
+            <span>{weapon.reloadTime} s</span>
+          </div>
+        </div>
+      </>
+    );
+  }
+  return (
+    <div className="reload">
+      <div className="name">
+        <span>Reloading rate</span>
+      </div>
+      <div className="value">
+        <span>{(1 / weapon.shotFreq).toPrecision(4)} s</span>
+      </div>
     </div>
   );
 }
