@@ -7,10 +7,10 @@ import { vehicleCountry } from "@/utils/custom/VehicleCountry";
 import { vehicleType } from "@/utils/custom/VehicleType";
 import { numRankToStr } from "@/utils/custom/numericRankToString";
 
+import { VehicleNeighbor } from "./Neighbors/VehicleNeighbor";
 import ArmorTable from "./Table";
 import { VehicleButtons } from "./VehicleButtons";
 import { VehicleImage } from "./VehicleImage";
-import { VehicleNeighbor } from "./VehicleNeighbors";
 import { VehiclePrice } from "./VehiclePrice";
 
 export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean }): JSX.Element {
