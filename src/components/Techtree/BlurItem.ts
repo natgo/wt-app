@@ -23,7 +23,7 @@ export function BlurItem(
   ) {
     return true;
   }
-  if (vehicle.type === "ground" && filter.show_features && !vehicle[filter.show_features]) {
+  if (vehicle.type === "army" && filter.show_features && !vehicle[filter.show_features]) {
     return true;
   }
 

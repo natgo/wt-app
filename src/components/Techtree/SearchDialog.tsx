@@ -49,7 +49,7 @@ export function SearchDialog(props: { type: "techtree" | "compare" }): JSX.Eleme
   }
 
   const filteredVehicles = filterVehicles(
-    [...final.ground, ...final.aircraft, ...final.helicopter, ...final.ship, ...final.boat],
+    [...final.army, ...final.aviation, ...final.helicopters, ...final.ship, ...final.boat],
     query.toLowerCase(),
   );
 

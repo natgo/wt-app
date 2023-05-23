@@ -15,23 +15,7 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
   const final = useRecoilValue(finalQuery);
   const shopData = useRecoilValue(shopQuery);
 
-  let type: "army" | "aviation" | "helicopters" | "ship" | "boat" = "army";
-  switch (vehicle.type) {
-    case "ground":
-      type = "army";
-      break;
-    case "aircraft":
-      type = "aviation";
-      break;
-    case "helicopter":
-      type = "helicopters";
-      break;
-    default:
-      type = vehicle.type;
-      break;
-  }
-
-  const tree = shopData[vehicle.country][type];
+  const tree = shopData[vehicle.country][vehicle.type];
   if (tree === undefined) {
     return <div>No tree</div>;
   }

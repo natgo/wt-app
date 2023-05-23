@@ -27,7 +27,7 @@ export default function Vehicle(): JSX.Element {
     const match = queryVehicleIntname(params.vehicleId, final);
 
     if (match) {
-      if (match.type === "ground") {
+      if (match.type === "army") {
         const wikiMatch = wiki.ground.find((value) => {
           return match.intname === value.intname;
         });
@@ -44,7 +44,7 @@ export default function Vehicle(): JSX.Element {
             <Modifications vehicle={match} />
           </div>
         );
-      } else if (match.type === "aircraft") {
+      } else if (match.type === "aviation") {
         return (
           <div>
             <Suspense fallback={<Loading />}>
@@ -56,7 +56,7 @@ export default function Vehicle(): JSX.Element {
             <Modifications vehicle={match} />
           </div>
         );
-      } else if (match.type === "helicopter") {
+      } else if (match.type === "helicopters") {
         return (
           <div>
             <Suspense fallback={<Loading />}>

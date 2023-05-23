@@ -5,23 +5,23 @@ import { ToolTip } from "./ToolTip";
 
 export function CountrySkin(props: SinkProp): JSX.Element | null {
   const { country, value, mode, historical } = props;
-  let vehicleclass: "ground" | "aircraft" = "aircraft";
+  let vehicleclass: "army" | "aviation" = "aviation";
   let group: "grouped" | "ungrouped" = "ungrouped";
   switch (mode) {
     case "ground-ungrouped":
-      vehicleclass = "ground";
+      vehicleclass = "army";
       group = "ungrouped";
       break;
     case "ground-grouped":
-      vehicleclass = "ground";
+      vehicleclass = "army";
       group = "grouped";
       break;
     case "air-ungrouped":
-      vehicleclass = "aircraft";
+      vehicleclass = "aviation";
       group = "ungrouped";
       break;
     case "air-grouped":
-      vehicleclass = "aircraft";
+      vehicleclass = "aviation";
       group = "grouped";
       break;
   }

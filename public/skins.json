@@ -1,7 +1,7 @@
 {
   "historical": {
     "country_usa": {
-      "aircraft": {
+      "aviation": {
         "ungrouped": [
           {
             "intnames": ["f2a-3"],
@@ -65,7 +65,7 @@
       }
     },
     "country_germany": {
-      "aircraft": {
+      "aviation": {
         "ungrouped": [
           {
             "intnames": ["do_17z_2"],
@@ -274,7 +274,7 @@
           ]
         }
       },
-      "ground": {
+      "army": {
         "ungrouped": [
           {
             "intnames": ["germ_leopard_2k"],
@@ -471,7 +471,7 @@
       }
     },
     "country_ussr": {
-      "aircraft": {
+      "aviation": {
         "ungrouped": [
           {
             "intnames": ["lagg-3-35"],
@@ -594,7 +594,7 @@
           ]
         }
       },
-      "ground": {
+      "army": {
         "ungrouped": [
           {
             "intnames": ["ussr_zsu_23_4", "il_zsu_23_4"],
@@ -1008,7 +1008,7 @@
       }
     },
     "country_britain": {
-      "aircraft": {
+      "aviation": {
         "ungrouped": [
           {
             "intnames": ["blenheim_mkiv"],
@@ -1050,7 +1050,7 @@
           ]
         }
       },
-      "ground": {
+      "army": {
         "ungrouped": [
           {
             "intnames": ["sw_strv_81", "uk_centurion_mk_3"],
@@ -1094,7 +1094,7 @@
       }
     },
     "country_italy": {
-      "aircraft": {
+      "aviation": {
         "grouped": {
           "G.50": [
             {
@@ -1112,7 +1112,7 @@
       }
     },
     "country_france": {
-      "aircraft": {
+      "aviation": {
         "ungrouped": [
           {
             "intnames": ["caudron_cr714"],
@@ -1142,7 +1142,7 @@
       }
     },
     "country_sweden": {
-      "aircraft": {
+      "aviation": {
         "ungrouped": [
           {
             "intnames": ["saab_b17a"],
@@ -1311,7 +1311,7 @@
           ]
         }
       },
-      "ground": {
+      "army": {
         "ungrouped": [
           {
             "intnames": ["sw_veak_40"],
@@ -1444,7 +1444,7 @@
   },
   "fictional": {
     "country_usa": {
-      "aircraft": {
+      "aviation": {
         "ungrouped": [
           {
             "intnames": ["sbd-3"],
@@ -1458,7 +1458,7 @@
           }
         ]
       },
-      "ground": {
+      "army": {
         "ungrouped": [
           {
             "intnames": ["us_xm1_gm"],
@@ -1469,7 +1469,7 @@
       }
     },
     "country_germany": {
-      "aircraft": {
+      "aviation": {
         "ungrouped": [
           {
             "intnames": ["fw_200c_1"],
@@ -1544,7 +1544,7 @@
           ]
         }
       },
-      "ground": {
+      "army": {
         "ungrouped": [
           {
             "intnames": ["germ_pzkpfw_VI_ausf_h1_tiger"],
@@ -1578,7 +1578,7 @@
       }
     },
     "country_ussr": {
-      "aircraft": {
+      "aviation": {
         "ungrouped": [
           {
             "intnames": ["la-5_type37_early"],
@@ -1617,7 +1617,7 @@
           }
         ]
       },
-      "ground": {
+      "army": {
         "ungrouped": [
           {
             "intnames": ["ussr_gaz_4m"],
@@ -1692,7 +1692,7 @@
       }
     },
     "country_britain": {
-      "aircraft": {
+      "aviation": {
         "ungrouped": [
           {
             "intnames": ["seafire_fr47", "spitfire_f24"],
@@ -1708,7 +1708,7 @@
       }
     },
     "country_japan": {
-      "aircraft": {
+      "aviation": {
         "ungrouped": [
           {
             "intnames": ["ki_10_2"],
@@ -1719,7 +1719,7 @@
       }
     },
     "country_italy": {
-      "ground": {
+      "army": {
         "ungrouped": [
           {
             "intnames": ["it_of_40_mk_2a"],
@@ -1730,7 +1730,7 @@
       }
     },
     "country_france": {
-      "ground": {
+      "army": {
         "ungrouped": [
           {
             "intnames": ["fr_amx_10rc"],
@@ -1739,7 +1739,7 @@
           }
         ]
       },
-      "aircraft": {
+      "aviation": {
         "ungrouped": [
           {
             "intnames": ["jaguar_e"],
@@ -1750,7 +1750,7 @@
       }
     },
     "country_sweden": {
-      "aircraft": {
+      "aviation": {
         "grouped": {
           "Pyörremyrsky": [
             {
@@ -1766,7 +1766,7 @@
           ]
         }
       },
-      "ground": {
+      "army": {
         "ungrouped": [
           {
             "intnames": ["sw_strv_103_0"],

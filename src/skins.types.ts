@@ -42,8 +42,8 @@ export type Country =
   | "Sweden";
 
 export interface Countries {
-  aircraft?: Aircraft;
-  ground?: Aircraft;
+  aviation?: Aircraft;
+  army?: Aircraft;
 }
 
 export interface Aircraft {

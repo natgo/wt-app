@@ -1,15 +1,13 @@
-export function typeToNumeric(
-  type: "ground" | "aircraft" | "helicopter" | "ship" | "boat",
-): number {
+export function typeToNumeric(type: "army" | "aviation" | "helicopters" | "ship" | "boat"): number {
   let numeric = 0;
   switch (type) {
-    case "ground":
+    case "army":
       numeric = 0;
       break;
-    case "helicopter":
+    case "helicopters":
       numeric = 1;
       break;
-    case "aircraft":
+    case "aviation":
       numeric = 2;
       break;
     case "ship":

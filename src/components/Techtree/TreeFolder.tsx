@@ -53,7 +53,7 @@ export function TreeFolder(props: {
         if (search === match.intname) {
           searches = true;
         }
-        if (filter.show_features && match.type === "ground" && match[filter.show_features]) {
+        if (filter.show_features && match.type === "army" && match[filter.show_features]) {
           features = true;
         }
         if (findClass) {

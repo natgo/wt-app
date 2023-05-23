@@ -12,7 +12,7 @@ export function Historical(props: HistoricalProp): JSX.Element {
   const value = useRecoilValue(SkinAtom);
   return (
     <div className="skincontainer">
-      {value[historical]?.[country]?.ground ? (
+      {value[historical]?.[country]?.army ? (
         <div className="skintext">
           {vehicleCountry(country)} {capitailze(historical)} Ground Vehicle skins
         </div>
@@ -29,7 +29,7 @@ export function Historical(props: HistoricalProp): JSX.Element {
         country={country}
         mode={"ground-grouped"}
       />
-      {value[historical]?.[country]?.aircraft ? (
+      {value[historical]?.[country]?.aviation ? (
         <div className="skintext">
           {vehicleCountry(country)} {capitailze(historical)} Aircraft skins
         </div>

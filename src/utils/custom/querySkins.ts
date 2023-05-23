@@ -7,7 +7,7 @@ import { SkinAtom } from "@/store/atom/atom";
 function skinsFEloop(
   country: Countries,
   vehicle: VehicleProps,
-  type: "ground" | "aircraft",
+  type: "army" | "aviation",
   historical: "historical" | "fictional",
 ): VehicleSkinsProp {
   const vehicleSkins: VehicleSkinsProp = {
@@ -47,14 +47,14 @@ function skinsCountryLoop(
     historical: [],
     fictional: [],
   };
-  if (vehicle.type === "ground" && country.ground) {
-    const vehicleSkin = skinsFEloop(country, vehicle, "ground", historical);
+  if (vehicle.type === "army" && country.army) {
+    const vehicleSkin = skinsFEloop(country, vehicle, "army", historical);
     vehicleSkins.fictional.push(...vehicleSkin.fictional);
     vehicleSkins.historical.push(...vehicleSkin.historical);
   }
 
-  if ((vehicle.type === "aircraft" || vehicle.type === "helicopter") && country.aircraft) {
-    const vehicleSkin = skinsFEloop(country, vehicle, "aircraft", historical);
+  if ((vehicle.type === "aviation" || vehicle.type === "helicopters") && country.aviation) {
+    const vehicleSkin = skinsFEloop(country, vehicle, "aviation", historical);
     vehicleSkins.fictional.push(...vehicleSkin.fictional);
     vehicleSkins.historical.push(...vehicleSkin.historical);
   }
