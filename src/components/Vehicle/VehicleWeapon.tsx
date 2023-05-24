@@ -1,4 +1,4 @@
-import { GroundProps, TankCannon } from "@data/final.schema";
+import { Cannon, GroundProps, TankCannon } from "@data/final.schema";
 
 import { BlackTooltip } from "@/pages/Skins/Skins";
 
@@ -13,7 +13,7 @@ export function GroundWeapon(props: { vehicle: GroundProps }): JSX.Element {
         let horizontalLimit = "";
         let verticalLimit = "";
 
-        if (element.intname === "dummy_weapon") {
+        if ("dummy" in element) {
           return <Dummy key={index} cannon={element} />;
         }
 
@@ -122,7 +122,7 @@ export function GroundWeapon(props: { vehicle: GroundProps }): JSX.Element {
   );
 }
 
-function Reload(props: { weapon: TankCannon }) {
+function Reload(props: { weapon: Cannon }) {
   const { weapon } = props;
   if (weapon.reloadTime) {
     return (
