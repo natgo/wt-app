@@ -17,13 +17,20 @@ export function parseNextCol(
     nextRankCol = nextRank[column];
 
     if (nextRankCol !== "drawArrow" && nextRankCol && nextRankCol.length !== 0) {
+      let nextItem;
       switch (type) {
         case "next":
-          next = queryVehicleIntname(nextRankCol[0].name, final);
-          nextPos = nextRankCol[0];
+          nextItem = nextRankCol[0];
+          "vehicles" in nextItem
+            ? (next = queryVehicleIntname(nextItem.vehicles[0].name, final))
+            : (next = queryVehicleIntname(nextItem.name, final));
+          nextPos = nextItem;
           break;
         case "prev":
-          next = queryVehicleIntname(nextRankCol[nextRankCol.length - 1].name, final);
+          nextItem = nextRankCol[nextRankCol.length - 1];
+          "vehicles" in nextItem
+            ? (next = queryVehicleIntname(nextItem.vehicles[0].name, final))
+            : (next = queryVehicleIntname(nextItem.name, final));
           break;
       }
     }

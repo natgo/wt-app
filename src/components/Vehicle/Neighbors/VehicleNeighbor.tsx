@@ -19,11 +19,12 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
   if (tree === undefined) {
     return <div>No tree</div>;
   }
+
   const vehicleRange = tree.range;
 
   const currentRank = vehicleRange[vehicle.rank - 1];
-  const nextRank = vehicleRange[vehicle.rank] as FinalObjectRange | undefined;
-  const prevRank = vehicleRange[vehicle.rank - 2] as FinalObjectRange | undefined;
+  let nextRank = vehicleRange[vehicle.rank] as FinalObjectRange | undefined;
+  let prevRank = vehicleRange[vehicle.rank - 2] as FinalObjectRange | undefined;
 
   let pos: number | undefined = undefined;
   const col = currentRank.findIndex((element) => {
@@ -62,13 +63,25 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
 
   const nextInCol = currentCol[pos + 1];
   const next = parseNextInCol(nextInCol, final);
+
+  let ni = 1;
+  while (nextRank && nextRank[col] === "drawArrow") {
+    nextRank = vehicleRange[vehicle.rank + ni];
+    ni++;
+  }
   const rankNext = parseNextCol(nextRank, col, "next", final);
-  console.log(rankNext);
 
   const prevInCol = currentCol[pos - 1];
   const prev = parseNextInCol(prevInCol, final);
+
+  let pi = 1;
+  while (prevRank && prevRank[col] === "drawArrow") {
+    prevRank = vehicleRange[vehicle.rank - 2 - pi];
+    console.log(prevRank);
+
+    pi++;
+  }
   const rankPrev = parseNextCol(prevRank, col, "prev", final);
-  console.log(rankPrev);
 
   return (
     <VehicleNeighbors
