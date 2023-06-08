@@ -1,6 +1,6 @@
 {
-  "historical": {
-    "country_usa": {
+  "country_usa": {
+    "historical": {
       "aviation": {
         "ungrouped": [
           {
@@ -64,7 +64,34 @@
         }
       }
     },
-    "country_germany": {
+    "fictional": {
+      "aviation": {
+        "ungrouped": [
+          {
+            "intnames": ["sbd-3"],
+            "dislayname": "SBD-3",
+            "post": "244611"
+          },
+          {
+            "intnames": ["f-86a-5"],
+            "dislayname": "F-86A-5",
+            "post": "453983"
+          }
+        ]
+      },
+      "army": {
+        "ungrouped": [
+          {
+            "intnames": ["us_xm1_gm"],
+            "dislayname": "XM-1",
+            "post": "919024"
+          }
+        ]
+      }
+    }
+  },
+  "country_germany": {
+    "historical": {
       "aviation": {
         "ungrouped": [
           {
@@ -470,7 +497,118 @@
         }
       }
     },
-    "country_ussr": {
+    "fictional": {
+      "aviation": {
+        "ungrouped": [
+          {
+            "intnames": ["fw_200c_1"],
+            "dislayname": "Fw 200 Finnair",
+            "post": "201761"
+          },
+          {
+            "intnames": ["hs-129b-2", "hs-129b-2_romania", "hs-129b-2_romania_italy", "hs-129b-3"],
+            "dislayname": "Hs 129B",
+            "post": "930659"
+          },
+          {
+            "intnames": ["go229_v3"],
+            "dislayname": "Ho 229 Night Fighter",
+            "post": "390120"
+          },
+          {
+            "intnames": ["a7he1", "he_112b_0", "he_112b_1", "he_112b_2"],
+            "dislayname": "He 122B",
+            "post": "1021453"
+          },
+          {
+            "intnames": ["fw-190d-12", "fw-190d-13", "fw-190d-9"],
+            "dislayname": "Fw 190D-9 Dora",
+            "post": "75488"
+          },
+          {
+            "intnames": ["he51b1"],
+            "dislayname": "He-51 B-1",
+            "post": "102112"
+          }
+        ],
+        "grouped": {
+          "Ar 234": [
+            {
+              "intnames": ["arado-234"],
+              "dislayname": "Ar 234 B-2",
+              "post": "1002433"
+            },
+            {
+              "intnames": ["arado-234c-3"],
+              "dislayname": "Ar 234 C-3",
+              "post": "1002818"
+            },
+            {
+              "intnames": ["arado-234c-3"],
+              "dislayname": "Ar 234 C-3 Finnair",
+              "post": "964036"
+            }
+          ],
+          "Me 262": [
+            {
+              "intnames": ["me-262a-1a"],
+              "dislayname": "Me 262 A-1a",
+              "post": "1002656"
+            },
+            {
+              "intnames": ["me-262a-1a"],
+              "dislayname": "Me 262 A-1a",
+              "post": "943396"
+            },
+            {
+              "intnames": ["me-262a-1a"],
+              "dislayname": "Me 262 A-1a Police",
+              "post": "496758"
+            },
+            {
+              "intnames": ["me-262a1_u1"],
+              "dislayname": "Me 262 Suomalainen",
+              "post": "1063081"
+            }
+          ]
+        }
+      },
+      "army": {
+        "ungrouped": [
+          {
+            "intnames": ["germ_pzkpfw_VI_ausf_h1_tiger"],
+            "dislayname": "Tiger H1",
+            "post": "437427"
+          },
+          {
+            "intnames": ["germ_ru251"],
+            "dislayname": "Ru 251",
+            "post": "683822",
+            "camo": ["summer", "fall", "winter"]
+          },
+          {
+            "intnames": ["germ_flarakrad"],
+            "dislayname": "FlaRakRad",
+            "post": "981247"
+          },
+          {
+            "intnames": ["germ_infanterie_kampfpanzer_churchill", "uk_a_22b_mk_3_churchill_1942"],
+            "dislayname": "Churchill [Repack]",
+            "post": "Churchill Finland [Repack].zip",
+            "repack": true
+          },
+          {
+            "intnames": ["germ_leopard_2a4", "sw_leopard_2a4_fin", "sw_strv_121"],
+            "dislayname": "Leopard 2A4FIN \"Keihäs\" [Repack]",
+            "post": "Leopard+2A4FIN_Spear [Repack].zip",
+            "repack": true
+          }
+        ]
+      }
+    }
+  },
+  "country_ussr": {
+    "historical": {
       "aviation": {
         "ungrouped": [
           {
@@ -1007,7 +1145,123 @@
         }
       }
     },
-    "country_britain": {
+    "fictional": {
+      "aviation": {
+        "ungrouped": [
+          {
+            "intnames": ["la-5_type37_early"],
+            "dislayname": "La-5",
+            "post": "627195"
+          },
+          {
+            "intnames": ["la-7", "la-7_dolgushin", "la-7b-20"],
+            "dislayname": "La-7",
+            "post": "915493"
+          },
+          {
+            "intnames": ["il-10", "il-10_1946", "il-10_1946_china"],
+            "dislayname": "Il-10 (1946)",
+            "post": "1016352"
+          },
+          {
+            "intnames": ["mig_3_series_1_15"],
+            "dislayname": "MiG 3-15",
+            "post": "500475"
+          },
+          {
+            "intnames": ["yak-30d"],
+            "dislayname": "Yak-30",
+            "post": "837689"
+          },
+          {
+            "intnames": ["yak-3u"],
+            "dislayname": "Mörko-Jakovlev 1945",
+            "post": "1057621"
+          },
+          {
+            "intnames": ["mig-15bis_ish", "so_4050_vautour_2a_iaf"],
+            "dislayname": "MiG 15bis ISH & Vautour 2A IAF",
+            "post": "819782"
+          }
+        ]
+      },
+      "army": {
+        "ungrouped": [
+          {
+            "intnames": ["ussr_gaz_4m"],
+            "dislayname": "GAZ AAA 4M",
+            "post": "741154"
+          },
+          {
+            "intnames": ["ussr_t_34_100"],
+            "dislayname": "T-34/100",
+            "post": "330627"
+          },
+          {
+            "intnames": ["ussr_t_35"],
+            "dislayname": "T-35",
+            "post": "997890"
+          },
+          {
+            "intnames": ["ussr_t_64a_1971"],
+            "dislayname": "T-64A",
+            "post": "980672"
+          },
+          {
+            "intnames": ["ussr_t_34_1941_l_11"],
+            "dislayname": "T-34 (1940)",
+            "post": "962366"
+          },
+          {
+            "intnames": ["sw_t_34_1941"],
+            "dislayname": "T-34 (1941) \"Esteri\"",
+            "post": "1055230"
+          },
+          {
+            "intnames": ["ussr_t_26_4"],
+            "dislayname": "T-26-4",
+            "post": "942847"
+          },
+          {
+            "intnames": ["ussr_object_120"],
+            "dislayname": "Object 120",
+            "post": "662355",
+            "camo": ["summer", "desert", "winter"]
+          },
+          {
+            "intnames": ["ussr_su_100Y"],
+            "dislayname": "SU-100Y",
+            "post": "936736"
+          },
+          {
+            "intnames": ["ussr_t_55_am"],
+            "dislayname": "T-55AM-1",
+            "post": "848762"
+          },
+          {
+            "intnames": ["ussr_t_62"],
+            "dislayname": "T-62",
+            "post": "714995"
+          },
+          {
+            "intnames": ["sw_t_28"],
+            "dislayname": "T-28 Postwar",
+            "post": "1055161",
+            "camo": ["winter"]
+          },
+          {
+            "intnames": ["sw_t_80u", "ussr_t_80u", "ussr_t_80uk"],
+            "dislayname": "T-80U [Repack]",
+            "post": "sw_t_80u_A_Song_of_Ice_and_Fire [Repack].zip",
+            "camo": ["winter"],
+            "repack": true
+          }
+        ]
+      }
+    }
+  },
+  "country_britain": {
+    "historical": {
       "aviation": {
         "ungrouped": [
           {
@@ -1093,7 +1347,38 @@
         }
       }
     },
-    "country_italy": {
+    "fictional": {
+      "aviation": {
+        "ungrouped": [
+          {
+            "intnames": ["seafire_fr47", "spitfire_f24"],
+            "dislayname": "Spitfire F",
+            "post": "756614"
+          },
+          {
+            "intnames": ["mosquito_fb_mk6", "mosquito_fb_mk26_china"],
+            "dislayname": "VL Vihuri",
+            "post": "996846"
+          }
+        ]
+      }
+    }
+  },
+  "country_japan": {
+    "fictional": {
+      "aviation": {
+        "ungrouped": [
+          {
+            "intnames": ["ki_10_2"],
+            "dislayname": "Ki 10 II",
+            "post": "786784"
+          }
+        ]
+      }
+    }
+  },
+  "country_italy": {
+    "historical": {
       "aviation": {
         "grouped": {
           "G.50": [
@@ -1111,7 +1396,20 @@
         }
       }
     },
-    "country_france": {
+    "fictional": {
+      "army": {
+        "ungrouped": [
+          {
+            "intnames": ["it_of_40_mk_2a"],
+            "dislayname": "OF-40 Mk.2A",
+            "post": "814084"
+          }
+        ]
+      }
+    }
+  },
+  "country_france": {
+    "historical": {
       "aviation": {
         "ungrouped": [
           {
@@ -1141,7 +1439,29 @@
         }
       }
     },
-    "country_sweden": {
+    "fictional": {
+      "army": {
+        "ungrouped": [
+          {
+            "intnames": ["fr_amx_10rc"],
+            "dislayname": "AMX-10RC",
+            "post": "1013704"
+          }
+        ]
+      },
+      "aviation": {
+        "ungrouped": [
+          {
+            "intnames": ["jaguar_e"],
+            "dislayname": "Puuska Jet Trainer",
+            "post": "1053439"
+          }
+        ]
+      }
+    }
+  },
+  "country_sweden": {
+    "historical": {
       "aviation": {
         "ungrouped": [
           {
@@ -1440,316 +1760,8 @@
           ]
         }
       }
-    }
-  },
-  "fictional": {
-    "country_usa": {
-      "aviation": {
-        "ungrouped": [
-          {
-            "intnames": ["sbd-3"],
-            "dislayname": "SBD-3",
-            "post": "244611"
-          },
-          {
-            "intnames": ["f-86a-5"],
-            "dislayname": "F-86A-5",
-            "post": "453983"
-          }
-        ]
-      },
-      "army": {
-        "ungrouped": [
-          {
-            "intnames": ["us_xm1_gm"],
-            "dislayname": "XM-1",
-            "post": "919024"
-          }
-        ]
-      }
     },
-    "country_germany": {
-      "aviation": {
-        "ungrouped": [
-          {
-            "intnames": ["fw_200c_1"],
-            "dislayname": "Fw 200 Finnair",
-            "post": "201761"
-          },
-          {
-            "intnames": ["hs-129b-2", "hs-129b-2_romania", "hs-129b-2_romania_italy", "hs-129b-3"],
-            "dislayname": "Hs 129B",
-            "post": "930659"
-          },
-          {
-            "intnames": ["go229_v3"],
-            "dislayname": "Ho 229 Night Fighter",
-            "post": "390120"
-          },
-          {
-            "intnames": ["a7he1", "he_112b_0", "he_112b_1", "he_112b_2"],
-            "dislayname": "He 122B",
-            "post": "1021453"
-          },
-          {
-            "intnames": ["fw-190d-12", "fw-190d-13", "fw-190d-9"],
-            "dislayname": "Fw 190D-9 Dora",
-            "post": "75488"
-          },
-          {
-            "intnames": ["he51b1"],
-            "dislayname": "He-51 B-1",
-            "post": "102112"
-          }
-        ],
-        "grouped": {
-          "Ar 234": [
-            {
-              "intnames": ["arado-234"],
-              "dislayname": "Ar 234 B-2",
-              "post": "1002433"
-            },
-            {
-              "intnames": ["arado-234c-3"],
-              "dislayname": "Ar 234 C-3",
-              "post": "1002818"
-            },
-            {
-              "intnames": ["arado-234c-3"],
-              "dislayname": "Ar 234 C-3 Finnair",
-              "post": "964036"
-            }
-          ],
-          "Me 262": [
-            {
-              "intnames": ["me-262a-1a"],
-              "dislayname": "Me 262 A-1a",
-              "post": "1002656"
-            },
-            {
-              "intnames": ["me-262a-1a"],
-              "dislayname": "Me 262 A-1a",
-              "post": "943396"
-            },
-            {
-              "intnames": ["me-262a-1a"],
-              "dislayname": "Me 262 A-1a Police",
-              "post": "496758"
-            },
-            {
-              "intnames": ["me-262a1_u1"],
-              "dislayname": "Me 262 Suomalainen",
-              "post": "1063081"
-            }
-          ]
-        }
-      },
-      "army": {
-        "ungrouped": [
-          {
-            "intnames": ["germ_pzkpfw_VI_ausf_h1_tiger"],
-            "dislayname": "Tiger H1",
-            "post": "437427"
-          },
-          {
-            "intnames": ["germ_ru251"],
-            "dislayname": "Ru 251",
-            "post": "683822",
-            "camo": ["summer", "fall", "winter"]
-          },
-          {
-            "intnames": ["germ_flarakrad"],
-            "dislayname": "FlaRakRad",
-            "post": "981247"
-          },
-          {
-            "intnames": ["germ_infanterie_kampfpanzer_churchill", "uk_a_22b_mk_3_churchill_1942"],
-            "dislayname": "Churchill [Repack]",
-            "post": "Churchill Finland [Repack].zip",
-            "repack": true
-          },
-          {
-            "intnames": ["germ_leopard_2a4", "sw_leopard_2a4_fin", "sw_strv_121"],
-            "dislayname": "Leopard 2A4FIN \"Keihäs\" [Repack]",
-            "post": "Leopard+2A4FIN_Spear [Repack].zip",
-            "repack": true
-          }
-        ]
-      }
-    },
-    "country_ussr": {
-      "aviation": {
-        "ungrouped": [
-          {
-            "intnames": ["la-5_type37_early"],
-            "dislayname": "La-5",
-            "post": "627195"
-          },
-          {
-            "intnames": ["la-7", "la-7_dolgushin", "la-7b-20"],
-            "dislayname": "La-7",
-            "post": "915493"
-          },
-          {
-            "intnames": ["il-10", "il-10_1946", "il-10_1946_china"],
-            "dislayname": "Il-10 (1946)",
-            "post": "1016352"
-          },
-          {
-            "intnames": ["mig_3_series_1_15"],
-            "dislayname": "MiG 3-15",
-            "post": "500475"
-          },
-          {
-            "intnames": ["yak-30d"],
-            "dislayname": "Yak-30",
-            "post": "837689"
-          },
-          {
-            "intnames": ["yak-3u"],
-            "dislayname": "Mörko-Jakovlev 1945",
-            "post": "1057621"
-          },
-          {
-            "intnames": ["mig-15bis_ish", "so_4050_vautour_2a_iaf"],
-            "dislayname": "MiG 15bis ISH & Vautour 2A IAF",
-            "post": "819782"
-          }
-        ]
-      },
-      "army": {
-        "ungrouped": [
-          {
-            "intnames": ["ussr_gaz_4m"],
-            "dislayname": "GAZ AAA 4M",
-            "post": "741154"
-          },
-          {
-            "intnames": ["ussr_t_34_100"],
-            "dislayname": "T-34/100",
-            "post": "330627"
-          },
-          {
-            "intnames": ["ussr_t_35"],
-            "dislayname": "T-35",
-            "post": "997890"
-          },
-          {
-            "intnames": ["ussr_t_64a_1971"],
-            "dislayname": "T-64A",
-            "post": "980672"
-          },
-          {
-            "intnames": ["ussr_t_34_1941_l_11"],
-            "dislayname": "T-34 (1940)",
-            "post": "962366"
-          },
-          {
-            "intnames": ["sw_t_34_1941"],
-            "dislayname": "T-34 (1941) \"Esteri\"",
-            "post": "1055230"
-          },
-          {
-            "intnames": ["ussr_t_26_4"],
-            "dislayname": "T-26-4",
-            "post": "942847"
-          },
-          {
-            "intnames": ["ussr_object_120"],
-            "dislayname": "Object 120",
-            "post": "662355",
-            "camo": ["summer", "desert", "winter"]
-          },
-          {
-            "intnames": ["ussr_su_100Y"],
-            "dislayname": "SU-100Y",
-            "post": "936736"
-          },
-          {
-            "intnames": ["ussr_t_55_am"],
-            "dislayname": "T-55AM-1",
-            "post": "848762"
-          },
-          {
-            "intnames": ["ussr_t_62"],
-            "dislayname": "T-62",
-            "post": "714995"
-          },
-          {
-            "intnames": ["sw_t_28"],
-            "dislayname": "T-28 Postwar",
-            "post": "1055161",
-            "camo": ["winter"]
-          },
-          {
-            "intnames": ["sw_t_80u", "ussr_t_80u", "ussr_t_80uk"],
-            "dislayname": "T-80U [Repack]",
-            "post": "sw_t_80u_A_Song_of_Ice_and_Fire [Repack].zip",
-            "camo": ["winter"],
-            "repack": true
-          }
-        ]
-      }
-    },
-    "country_britain": {
-      "aviation": {
-        "ungrouped": [
-          {
-            "intnames": ["seafire_fr47", "spitfire_f24"],
-            "dislayname": "Spitfire F",
-            "post": "756614"
-          },
-          {
-            "intnames": ["mosquito_fb_mk6", "mosquito_fb_mk26_china"],
-            "dislayname": "VL Vihuri",
-            "post": "996846"
-          }
-        ]
-      }
-    },
-    "country_japan": {
-      "aviation": {
-        "ungrouped": [
-          {
-            "intnames": ["ki_10_2"],
-            "dislayname": "Ki 10 II",
-            "post": "786784"
-          }
-        ]
-      }
-    },
-    "country_italy": {
-      "army": {
-        "ungrouped": [
-          {
-            "intnames": ["it_of_40_mk_2a"],
-            "dislayname": "OF-40 Mk.2A",
-            "post": "814084"
-          }
-        ]
-      }
-    },
-    "country_france": {
-      "army": {
-        "ungrouped": [
-          {
-            "intnames": ["fr_amx_10rc"],
-            "dislayname": "AMX-10RC",
-            "post": "1013704"
-          }
-        ]
-      },
-      "aviation": {
-        "ungrouped": [
-          {
-            "intnames": ["jaguar_e"],
-            "dislayname": "Puuska Jet Trainer",
-            "post": "1053439"
-          }
-        ]
-      }
-    },
-    "country_sweden": {
+    "fictional": {
       "aviation": {
         "grouped": {
           "Pyörremyrsky": [

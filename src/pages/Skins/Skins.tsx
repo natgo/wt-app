@@ -4,7 +4,7 @@ import { Tab, Tabs, Tooltip, TooltipProps, styled, tooltipClasses } from "@mui/m
 
 import { OtherTab } from "@/components/Skins/OtherTab";
 import { SkinCountryTabs } from "@/components/Skins/SkinCountryTabs";
-import { countryname } from "@/skins.types";
+import { countryname } from "@/data/types/final.schema";
 import { SkinAtom, SkinCountryTab, SkinTypeTab } from "@/store/atom/atom";
 import { numericToCountry } from "@/utils/custom/countryToNumeric";
 
@@ -30,9 +30,9 @@ export default function Skins(): JSX.Element {
 
     const countryName = numericToCountry(newValue);
     if (countryName) {
-      if (skins.historical[countryname.parse(countryName)] === undefined) {
+      if (skins[countryname.parse(countryName)]?.historical === undefined) {
         setTypeValue(1);
-      } else if (skins.fictional[countryname.parse(countryName)] === undefined) {
+      } else if (skins[countryname.parse(countryName)]?.fictional === undefined) {
         setTypeValue(0);
       }
     }

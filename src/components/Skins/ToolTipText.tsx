@@ -14,11 +14,13 @@ export function ToolTipText(value: Ungrouped): JSX.Element {
           <div key={value}>{queryVehicleIntname(value, final)?.wikiname}</div>
         ))}
       </div>
-      <div>
-        {value.camo?.map((value) => (
-          <div key={value}>{capitailze(value)}</div>
-        ))}
-      </div>
+      {value.camo ? (
+        <div className="border-t border-t-white">
+          {value.camo.map((value) => (
+            <div key={value}>{capitailze(value)}</div>
+          ))}
+        </div>
+      ) : null}
     </div>
   );
 }

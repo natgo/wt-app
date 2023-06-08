@@ -1,23 +1,17 @@
-import { z } from "zod";
-
 // Skins
+import { CountryName } from "./data/types/final.schema";
 
 export interface SkinsProp {
-  historical: Historical;
-  fictional: Fictional;
-}
-
-export interface Fictional {
-  country_usa: Countries;
-  country_germany: Countries;
-  country_ussr: Countries;
-  country_britain: Countries;
-  country_japan: Countries;
-  country_china: Countries;
-  country_italy: Countries;
-  country_france: Countries;
-  country_sweden: Countries;
-  country_israel?: Countries;
+  country_usa: Country;
+  country_germany: Country;
+  country_ussr: Country;
+  country_britain: Country;
+  country_japan: Country;
+  country_china?: Country;
+  country_italy: Country;
+  country_france: Country;
+  country_sweden: Country;
+  country_israel?: Country;
 }
 
 export interface Ungrouped {
@@ -31,15 +25,10 @@ export interface Ungrouped {
 
 export type Camo = "summer" | "desert" | "fall" | "winter";
 
-export type Country =
-  | "USA"
-  | "Germany"
-  | "USSR"
-  | "Britain"
-  | "Japan"
-  | "Italy"
-  | "France"
-  | "Sweden";
+export interface Country {
+  historical: Countries;
+  fictional: Countries;
+}
 
 export interface Countries {
   aviation?: Aircraft;
@@ -50,33 +39,6 @@ export interface Aircraft {
   ungrouped?: Ungrouped[];
   grouped?: Record<string, Ungrouped[]>;
 }
-
-export interface Historical {
-  country_usa: Countries;
-  country_germany: Countries;
-  country_ussr: Countries;
-  country_britain: Countries;
-  country_japan?: Countries;
-  country_china?: Countries;
-  country_italy: Countries;
-  country_france: Countries;
-  country_sweden: Countries;
-  country_israel?: Countries;
-}
-
-export const countryname = z.enum([
-  "country_usa",
-  "country_germany",
-  "country_ussr",
-  "country_britain",
-  "country_japan",
-  "country_china",
-  "country_italy",
-  "country_france",
-  "country_sweden",
-  "country_israel",
-]);
-export type CountryName = z.infer<typeof countryname>;
 
 export interface CountryProp {
   country: CountryName;

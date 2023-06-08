@@ -3,13 +3,12 @@ import { useRecoilValue } from "recoil";
 
 import { CircularProgress } from "@mui/material";
 
-import { Final, VehicleProps } from "@data/final.schema";
+import { CountryName, Final, VehicleProps, countryname } from "@data/final.schema";
 import { FinalObjectRange } from "@data/shop.schema";
 import { DateTime } from "luxon";
 
 import { EmptyDiv } from "@/components/Techtree/EmptyDiv";
 import { TechTreeItem } from "@/components/Techtree/TechTreeItem";
-import { CountryName, countryname } from "@/skins.types";
 import { finalQuery } from "@/store/final";
 import { shopQuery } from "@/store/shop";
 import { vehicleCountry } from "@/utils/custom/VehicleCountry";

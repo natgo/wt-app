@@ -4,7 +4,7 @@ import { Box, Tab, Tabs } from "@mui/material";
 
 import { TypeTabs } from "@/components/Skins/SkinTypeTabs";
 import { TechTree } from "@/components/Techtree/Tree";
-import { countryname } from "@/skins.types";
+import { countryname } from "@/data/types/final.schema";
 import { CountryTab, SearchName, TypeTab } from "@/store/atom/atom";
 import { shopQuery } from "@/store/shop";
 import { numericToCountry } from "@/utils/custom/countryToNumeric";

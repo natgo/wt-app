@@ -2,8 +2,8 @@ import { useRecoilState, useRecoilValue } from "recoil";
 
 import { Tab } from "@mui/material";
 
+import { countryname } from "@/data/types/final.schema";
 import { TabPanel } from "@/pages/Techtree/Techtree";
-import { countryname } from "@/skins.types";
 import { SkinAtom, SkinCountryTab, SkinTypeTab } from "@/store/atom/atom";
 import { numericToCountry } from "@/utils/custom/countryToNumeric";
 
@@ -20,8 +20,8 @@ export function SkinCountryTabs(props: { index: number }): JSX.Element {
   return (
     <TabPanel value={countryValue} index={index}>
       <TypeTabs value={typeValue} setValue={setTypeValue}>
-        <Tab label="Historical" disabled={skins.historical[country] ? false : true} />
-        <Tab label="Fictional" disabled={skins.fictional[country] ? false : true} />
+        <Tab label="Historical" disabled={skins[country]?.historical ? false : true} />
+        <Tab label="Fictional" disabled={skins[country]?.fictional ? false : true} />
       </TypeTabs>
       <TabPanel value={typeValue} index={0}>
         <Historical country={country} historical="historical" />
