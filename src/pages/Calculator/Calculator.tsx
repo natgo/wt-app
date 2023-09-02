@@ -87,7 +87,11 @@ function Dropzone(): JSX.Element {
   const { getRootProps, getInputProps } = useDropzone({ onDrop });
 
   return (
-    <div className="dropzone" {...getRootProps()}>
+    <div
+      id="dropzone"
+      className="grid h-full w-full cursor-pointer content-center justify-center"
+      {...getRootProps()}
+    >
       <input {...getInputProps()} />
       <p>Drag &apos;n&apos; drop the image here, or click to select the image</p>
     </div>

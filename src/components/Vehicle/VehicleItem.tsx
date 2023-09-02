@@ -1,6 +1,6 @@
 import { Tooltip } from "@mui/material";
 
-import { GroundProps, HelicopterProps, VehicleProps } from "@data/final.schema";
+import { GroundProps, VehicleProps } from "@data/final.schema";
 
 import { WikiSigle } from "@/data/types/wiki.schema";
 import { vehicleCountry } from "@/utils/custom/VehicleCountry";
@@ -144,12 +144,63 @@ export function Survivability(props: {
   return (
     <div className="specs_info">
       <div className="specs_feature">
-        <Dozer vehicle={vehicle} />
-        <Smoke vehicle={vehicle} />
-        <Ess vehicle={vehicle} />
-        <Lws vehicle={vehicle} />
-        <Era vehicle={vehicle} />
-        <Composite vehicle={vehicle} />
+        {vehicle.has_dozer ? (
+          <SpecsFeature
+            feature={{
+              className: "dozer",
+              name: "Self-entrenching equipment",
+              desc: "Creation of ramparts and trenches in soft ground",
+            }}
+          />
+        ) : null}
+        {vehicle.has_smoke ? (
+          <SpecsFeature
+            feature={{
+              className: "smoke_grenade",
+              name: "Smoke grenades",
+              desc: "Creation of a smoke screen in front of the vehicle",
+            }}
+          />
+        ) : null}
+        {vehicle.has_ess ? (
+          <SpecsFeature
+            feature={{
+              className: "ess",
+              name: "ESS",
+              desc: "Creation of a smoke screen in the direction of movement of the vehicle",
+              help: "Engine Smoke generating System",
+            }}
+          />
+        ) : null}
+        {vehicle.has_lws ? (
+          <SpecsFeature
+            feature={{
+              className: "lwr",
+              name: "LWS",
+              desc: "Notifies about the vehicle&apos;s exposure to laser emissions",
+              help: "Laser warning system",
+            }}
+          />
+        ) : null}
+        {vehicle.has_era ? (
+          <SpecsFeature
+            feature={{
+              className: "era_armor",
+              name: "ERA",
+              desc: "Effective action against the cumulative ammunition",
+              help: "Explosive Reactive Armour",
+            }}
+          />
+        ) : null}
+        {vehicle.has_composite ? (
+          <SpecsFeature
+            feature={{
+              className: "composite_armor",
+              name: "Composite armour",
+              desc: "Balanced protection against all types of ammunition",
+            }}
+          />
+        ) : null}
       </div>
       <div className="specs_char">
         <ArmorTable vehicle={vehicle} />
@@ -205,10 +256,44 @@ export function Mobility(props: { vehicle: GroundProps }): JSX.Element {
   return (
     <div className="specs_info">
       <div className="specs_feature">
-        <Amphibious vehicle={vehicle} />
-        <HydroSuspension vehicle={vehicle} />
-        <ReverseGear vehicle={vehicle} />
-        <NeutralSteer vehicle={vehicle} />
+        {vehicle.can_float ? (
+          <SpecsFeature
+            feature={{
+              className: "can_float",
+              name: "Amphibious",
+              desc: "The design allows you to swim and control movement in the water",
+            }}
+          />
+        ) : null}
+        {vehicle.hydro_suspension ? (
+          <SpecsFeature
+            feature={{
+              className: "hydro_suspension",
+              name: "Controlled suspension",
+              desc: "It is possible to adjust the ground clearance or more complex suspension positions",
+            }}
+          />
+        ) : null}
+        {vehicle.gears_backward === vehicle.gears_forward ? (
+          <SpecsFeature
+            feature={{
+              className: "revers_gear",
+              name: vehicle.has_synchro ? "Full synchro gearbox" : "Reverse gearbox",
+              desc: vehicle.has_synchro
+                ? "Forward and backward movement is possible at the same maximum speed, and the acceleration is the same in both directions"
+                : "Forward and backward movement is possible at the same maximum speed",
+            }}
+          />
+        ) : null}
+        {vehicle.has_neutral ? (
+          <SpecsFeature
+            feature={{
+              className: "stabilizer",
+              name: "Neutral Steer",
+              desc: "It is possible to turn without moving allowing for faster turning on the spot",
+            }}
+          />
+        ) : null}
       </div>
       <div className="specs_char">
         <div className="specs_char_block">
@@ -286,183 +371,23 @@ export function Mobility(props: { vehicle: GroundProps }): JSX.Element {
   );
 }
 
-function Dozer(props: { vehicle: GroundProps }): JSX.Element | null {
-  const { vehicle } = props;
-  if (vehicle.has_dozer) {
-    return (
-      <div className="feature dozer">
-        <div className="feature_img"></div>
-        <div className="feature_name">Self-entrenching equipment</div>
-        <div className="feature_desc">Creation of ramparts and trenches in soft ground</div>
-      </div>
-    );
-  }
-  return null;
-}
-
-function Smoke(props: { vehicle: GroundProps }): JSX.Element | null {
-  const { vehicle } = props;
-  if (vehicle.has_smoke) {
-    return (
-      <div className="feature smoke_grenade">
-        <div className="feature_img"></div>
-        <div className="feature_name">Smoke grenades</div>
-        <div className="feature_desc">Creation of a smoke screen in front of the vehicle</div>
-      </div>
-    );
-  }
-  return null;
-}
-
-function Ess(props: { vehicle: GroundProps }): JSX.Element | null {
-  const { vehicle } = props;
-  if (vehicle.has_ess) {
-    return (
-      <div className="feature ess">
-        <div className="feature_img"></div>
-        <div className="feature_name">
-          <span title="Engine Smoke generating System" className="help">
-            ESS
+export function SpecsFeature(props: {
+  feature: { className: string; name: string; desc: string; help?: string };
+}) {
+  const { feature } = props;
+  return (
+    <div className={`feature ${feature.className}`}>
+      <div className="feature_img"></div>
+      <div className="feature_name">
+        {feature.help ? (
+          <span title={feature.help} className="help">
+            {feature.name}
           </span>
-        </div>
-        <div className="feature_desc">
-          Creation of a smoke screen in the direction of movement of the vehicle
-        </div>
+        ) : (
+          feature.name
+        )}
       </div>
-    );
-  }
-  return null;
-}
-
-export function Lws(props: { vehicle: GroundProps | HelicopterProps }): JSX.Element | null {
-  const { vehicle } = props;
-  if (vehicle.has_lws) {
-    return (
-      <div className="feature lwr">
-        <div className="feature_img"></div>
-        <div className="feature_name">
-          <span title="Laser warning system" className="help">
-            LWS
-          </span>
-        </div>
-        <div className="feature_desc">
-          Notifies about the vehicle&apos;s exposure to laser emissions
-        </div>
-      </div>
-    );
-  }
-  return null;
-}
-
-function Era(props: { vehicle: GroundProps }): JSX.Element | null {
-  const { vehicle } = props;
-  if (vehicle.has_era) {
-    return (
-      <div className="feature era_armor">
-        <div className="feature_img"></div>
-        <div className="feature_name">
-          <span title="Explosive Reactive Armour" className="help">
-            ERA
-          </span>
-        </div>
-        <div className="feature_desc">Effective action against the cumulative ammunition</div>
-      </div>
-    );
-  }
-  return null;
-}
-
-function Composite(props: { vehicle: GroundProps }): JSX.Element | null {
-  const { vehicle } = props;
-  if (vehicle.has_composite) {
-    return (
-      <div className="feature composite_armor">
-        <div className="feature_img"></div>
-        <div className="feature_name">
-          <span title="Mitähän tämäkin meinaa" className="help">
-            Composite armour
-          </span>
-        </div>
-        <div className="feature_desc">Balanced protection against all types of ammunition</div>
-      </div>
-    );
-  }
-  return null;
-}
-
-function Amphibious(props: { vehicle: GroundProps }): JSX.Element | null {
-  const { vehicle } = props;
-  if (vehicle.can_float) {
-    return (
-      <div className="feature can_float">
-        <div className="feature_img"></div>
-        <div className="feature_name">Amphibious</div>
-        <div className="feature_desc">
-          The design allows you to swim and control movement in the water
-        </div>
-      </div>
-    );
-  }
-  return null;
-}
-
-function HydroSuspension(props: { vehicle: GroundProps }) {
-  const { vehicle } = props;
-  if (vehicle.hydro_suspension) {
-    return (
-      <div className="feature hydro_suspension">
-        <div className="feature_img"></div>
-        <div className="feature_name">Controlled suspension</div>
-        <div className="feature_desc">
-          It is possible to adjust the ground clearance or more complex suspension positions
-        </div>
-      </div>
-    );
-  }
-  return null;
-}
-
-function ReverseGear(props: { vehicle: GroundProps }) {
-  const { vehicle } = props;
-  if (vehicle.gears_backward === vehicle.gears_forward) {
-    if (vehicle.has_synchro) {
-      return (
-        <div className="feature revers_gear">
-          <div className="feature_img"></div>
-          <div className="feature_name">Full synchro gearbox</div>
-          <div className="feature_desc">
-            Forward and backward movement is possible at the same maximum speed, and the
-            acceleration is the same in both directions
-          </div>
-        </div>
-      );
-    } else {
-      return (
-        <div className="feature revers_gear">
-          <div className="feature_img"></div>
-          <div className="feature_name">Reverse gearbox</div>
-          <div className="feature_desc">
-            Forward and backward movement is possible at the same maximum speed
-          </div>
-        </div>
-      );
-    }
-  }
-  return null;
-}
-
-function NeutralSteer(props: { vehicle: GroundProps }) {
-  const { vehicle } = props;
-  if (vehicle.has_neutral) {
-    return (
-      <div className="feature stabilizer">
-        <div className="feature_img"></div>
-        <div className="feature_name">Neutral Steer</div>
-        <div className="feature_desc">
-          It is possible to turn without moving allowing for faster turning on the spot
-        </div>
-      </div>
-    );
-  }
-  return null;
+      <div className="feature_desc">{feature.desc}</div>
+    </div>
+  );
 }

@@ -5,20 +5,6 @@
 @tailwind components;
 @tailwind utilities;
 
-#root {
-  width: 100%;
-  height: 100%;
-}
-
-.dropzone {
-  width: 100%;
-  height: 100%;
-  display: grid;
-  align-content: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
 .skincontainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -259,9 +245,4 @@ div.skins .general_info_skins {
   border-bottom: 1px dotted;
   cursor: help;
   white-space: nowrap;
-}
-
-.outlet {
-  width: 100%;
-  height: calc(100% - 64px);
 }

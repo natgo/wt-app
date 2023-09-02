@@ -1,6 +1,6 @@
 import { HelicopterProps } from "@data/final.schema";
 
-import { Lws } from "./VehicleItem";
+import { SpecsFeature } from "./VehicleItem";
 
 export function HeliSurvivability(props: { vehicle: HelicopterProps }): JSX.Element {
   const { vehicle } = props;
@@ -8,7 +8,16 @@ export function HeliSurvivability(props: { vehicle: HelicopterProps }): JSX.Elem
     <div className="specs_info">
       <div className="specs_feature">
         <Maw vehicle={vehicle} />
-        <Lws vehicle={vehicle} />
+        {vehicle.has_lws ? (
+          <SpecsFeature
+            feature={{
+              className: "lwr",
+              name: "LWS",
+              desc: "Notifies about the vehicle&apos;s exposure to laser emissions",
+              help: "Laser warning system",
+            }}
+          />
+        ) : null}
         <Hirss vehicle={vehicle} />
         <Ircm vehicle={vehicle} />
         <Rwr vehicle={vehicle} />
