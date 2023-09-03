@@ -1,6 +1,6 @@
 describe("Squadron test", () => {
   it("Visits the Kitchen Sink", () => {
-    cy.visit("http://localhost:5173/wt/");
+    cy.visit("http://localhost:4173/wt/");
     cy.wait(5000);
     cy.get("#sidebar-menu").click();
     cy.contains("Squadron vehicles").click();

@@ -1,6 +1,6 @@
 describe("Skins test", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:5173/wt/");
+    cy.visit("http://localhost:4173/wt/");
     cy.wait(5000);
     cy.get("#sidebar-menu").click();
     cy.contains("Skins").click();

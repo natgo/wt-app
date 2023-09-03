@@ -13,16 +13,17 @@ pipeline {
       }
     }
 
-    stage('Start Dev server') {
+    stage('Start Preview server') {
       steps {
-        sh 'nohup pnpm dev &'
+        sh 'pnpm build'
+        sh 'nohup pnpm preview &'
         sleep(10)
       }
     }
 
     stage('Run Cypress tests') {
       steps {
-        sh 'pnpm cypress run'
+        sh 'pnpm cypress run -b firefox'
       }
     }
 

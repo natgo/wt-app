@@ -18,7 +18,7 @@ const ocrResult = {
 
 describe("Calculator test", () => {
   it("Normal test", () => {
-    cy.visit("http://localhost:5173/wt/");
+    cy.visit("http://localhost:4173/wt/");
     cy.wait(10000);
     cy.get("#sidebar-menu").click();
     cy.contains("BR Calculator").click();
@@ -38,7 +38,7 @@ describe("Calculator test", () => {
   });
 
   it("Ingame test", () => {
-    cy.visit("http://localhost:5173/wt/");
+    cy.visit("http://localhost:4173/wt/");
     cy.wait(5000);
     cy.get("#sidebar-menu").click();
     cy.contains("BR Calculator").click();
