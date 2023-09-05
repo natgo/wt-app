@@ -30,7 +30,7 @@ export function TreeRank(props: {
 
   return (
     <tr className="border">
-      <Rank rank={index + 1} needed={shop.needVehicles[index + 1]} />
+      <Rank rank={index + 1} needed={shop.needVehicles[index]} />
       {rank.map((element, rowindex) => {
         if (element === "drawArrow") {
           return (

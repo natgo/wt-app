@@ -6,7 +6,7 @@ import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
 export default function br(vehicle: string, final: Final): string {
   const query = queryVehicleIntname(vehicle, final);
-  if (query) {
+  if (query && query.br[1]) {
     return query.br[1];
   } else {
     setRecoil(dialogue, true);

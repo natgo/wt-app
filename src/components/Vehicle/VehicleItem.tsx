@@ -305,7 +305,7 @@ export function Mobility(props: { vehicle: GroundProps }): JSX.Element {
             <span className="name">AB</span>
             <span className="value">
               {vehicle.maxSpeedAB
-                ? `${vehicle.maxSpeedAB[0].toFixed(1)} / ${vehicle.maxSpeedAB[1].toFixed(1)} km/h`
+                ? `${vehicle.maxSpeedAB[0]?.toFixed(1)} / ${vehicle.maxSpeedAB[1]?.toFixed(1)} km/h`
                 : "N/A"}
             </span>
           </div>
@@ -313,7 +313,7 @@ export function Mobility(props: { vehicle: GroundProps }): JSX.Element {
             <span className="name">RB and SB</span>
             <span className="value">
               {vehicle.maxSpeedRB
-                ? `${vehicle.maxSpeedRB[0].toFixed(1)} / ${vehicle.maxSpeedRB[1].toFixed(1)} km/h`
+                ? `${vehicle.maxSpeedRB[0]?.toFixed(1)} / ${vehicle.maxSpeedRB[1]?.toFixed(1)} km/h`
                 : "N/A"}
             </span>
           </div>

@@ -1,3 +1,3 @@
 export default function capitailze(text: string): string {
-  return text[0].toUpperCase() + text.substring(1);
+  return text.substring(0, 1).toUpperCase() + text.substring(1);
 }

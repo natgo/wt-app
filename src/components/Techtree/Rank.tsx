@@ -1,6 +1,6 @@
 import { numRankToStr } from "@/utils/custom/numericRankToString";
 
-export function Rank(props: { rank: number; needed: number }): JSX.Element {
+export function Rank(props: { rank: number; needed: number | undefined }): JSX.Element {
   const { rank, needed } = props;
 
   return (

@@ -47,7 +47,7 @@ export default function Compare(): JSX.Element {
 
 function CompareFunction(params: { vehicles: VehicleProps[] }): JSX.Element | null {
   const { vehicles } = params;
-  if (vehicles.length > 0 && vehicles[0].type === "army") {
+  if (vehicles.length > 0 && vehicles[0]?.type === "army") {
     const vehicles2 = vehicles as GroundProps[];
     return (
       <>

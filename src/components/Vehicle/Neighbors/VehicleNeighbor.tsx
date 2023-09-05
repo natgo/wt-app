@@ -15,7 +15,7 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
   const final = useRecoilValue(finalQuery);
   const shopData = useRecoilValue(shopQuery);
 
-  const tree = shopData[vehicle.country][vehicle.type];
+  const tree = shopData[vehicle.country]?.[vehicle.type];
   if (tree === undefined) {
     return <div>No tree</div>;
   }
@@ -23,6 +23,10 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
   const vehicleRange = tree.range;
 
   const currentRank = vehicleRange[vehicle.rank - 1];
+  if (!currentRank) {
+    return <div>Rank not found</div>;
+  }
+
   let nextRank = vehicleRange[vehicle.rank] as FinalObjectRange | undefined;
   let prevRank = vehicleRange[vehicle.rank - 2] as FinalObjectRange | undefined;
 
@@ -48,6 +52,9 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
   });
 
   const currentCol = currentRank[col];
+  if (!currentCol) {
+    return <div>Column not found</div>;
+  }
   if (currentCol === "drawArrow") {
     throw new Error("CurrentCol is Arrow");
   }
@@ -56,6 +63,9 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
   }
 
   const currentPos = currentCol[pos];
+  if (!currentPos) {
+    return <div>Position not found</div>;
+  }
   let curfolder = false;
   if ("vehicles" in currentPos) {
     curfolder = true;

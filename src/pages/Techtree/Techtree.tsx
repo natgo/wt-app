@@ -47,8 +47,8 @@ function CountryTabs(props: { index: number }): JSX.Element {
         <Tab label="Ground Vehicles" />
         <Tab label="Helicopters" />
         <Tab label="Aviation" />
-        {shopData[country].ship ? <Tab label="Bluewater Fleet" /> : null}
-        {shopData[country].boat ? <Tab label="Coastal Fleet" /> : null}
+        {shopData[country]?.ship ? <Tab label="Bluewater Fleet" /> : null}
+        {shopData[country]?.boat ? <Tab label="Coastal Fleet" /> : null}
       </TypeTabs>
       <TabPanel value={typeValue} index={0}>
         <TechTree country={country} type="army" />
@@ -59,12 +59,12 @@ function CountryTabs(props: { index: number }): JSX.Element {
       <TabPanel value={typeValue} index={2}>
         <TechTree country={country} type="aviation" />
       </TabPanel>
-      {shopData[country].ship ? (
+      {shopData[country]?.ship ? (
         <TabPanel value={typeValue} index={3}>
           <TechTree country={country} type="ship" />
         </TabPanel>
       ) : null}
-      {shopData[country].boat ? (
+      {shopData[country]?.boat ? (
         <TabPanel value={typeValue} index={4}>
           <TechTree country={country} type="boat" />
         </TabPanel>
@@ -83,9 +83,9 @@ export default function TreeTech(): JSX.Element {
     countrySetValue(newValue);
     const countryName = numericToCountry(newValue);
     if (countryName && (typeValue === 3 || typeValue === 4)) {
-      if (shopData[countryName].ship === undefined) {
+      if (!shopData[countryName]?.ship) {
         setTypeValue(0);
-      } else if (shopData[countryName].boat === undefined) {
+      } else if (!shopData[countryName]?.boat) {
         setTypeValue(0);
       }
     }

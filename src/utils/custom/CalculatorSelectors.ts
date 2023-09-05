@@ -5,7 +5,7 @@ import { getRecoil, setRecoil } from "recoil-nexus";
 import { CalculatorMode, dialogue } from "@/store/atom/atom";
 import { queryVehicleWikiname, querypartialVehicleWikiname } from "@/utils/custom/queryVehicle";
 
-import br from "./br";
+import br from "./CalculatorBr";
 import lookup from "./lookup";
 
 async function getBR(final: Final) {
@@ -54,34 +54,35 @@ export default async function changeParsed(sakke: { name: string; id: number }[]
 
       const finalarray = querypartialVehicleWikiname(element, final);
       if (finalarray) {
-        finalarray.forEach((ement) => {
-          if (ement.wikiname) {
-            const object = {
-              name: ement.wikiname,
-              br: ement.br[brmodeset],
-              real_br: ement.realbr[brmodeset],
+        finalarray.forEach((vehicle) => {
+          if (vehicle.wikiname) {
+            inter.push({
+              name: vehicle.wikiname,
+              br: vehicle.br[brmodeset],
+              real_br: vehicle.realbr[brmodeset],
               id: result.length + 1,
-            };
-            inter.push(object);
+            });
           }
         });
       }
 
       inter.sort((a, b) => a.real_br - b.real_br);
       console.log(inter);
-      result.push(inter[0]);
+      if (inter[0]) {
+        result.push(inter[0]);
+      }
+
       inter = [];
     } else {
       const query = queryVehicleWikiname(element, final);
       if (query) {
         if (query.wikiname) {
-          const object = {
+          result.push({
             name: query.wikiname,
             br: query.br[brmodeset],
             real_br: query.realbr[brmodeset],
             id: result.length + 1,
-          };
-          result.push(object);
+          });
         }
       } else {
         // if the ocr fixes don't work

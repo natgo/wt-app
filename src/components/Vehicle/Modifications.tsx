@@ -15,7 +15,7 @@ export function Modifications(props: { vehicle: VehicleProps }): JSX.Element {
     return element.intname === vehicle.intname;
   });
   if (!mods) {
-    throw new Error(`No match for ${vehicle}`);
+    return <div className="m-8">No modifications</div>;
   }
 
   return (

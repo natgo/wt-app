@@ -9,49 +9,36 @@ export function parseNextCol(
   type: "next" | "prev",
   final: Final,
 ) {
-  let next: VehicleProps | undefined = undefined;
-  let nextPos: FinalShopItem | FinalShopGroup | undefined = undefined;
-  let nextRankCol: FinalRange | undefined = undefined;
+  if (!nextRank) return { next: undefined, nextPos: undefined };
 
-  if (nextRank) {
-    nextRankCol = nextRank[column];
+  const nextRankCol = nextRank[column];
 
-    if (nextRankCol !== "drawArrow" && nextRankCol && nextRankCol.length !== 0) {
-      let nextItem;
-      switch (type) {
-        case "next":
-          nextItem = nextRankCol[0];
-          "vehicles" in nextItem
-            ? (next = queryVehicleIntname(nextItem.vehicles[0].name, final))
-            : (next = queryVehicleIntname(nextItem.name, final));
-          nextPos = nextItem;
-          break;
-        case "prev":
-          nextItem = nextRankCol[nextRankCol.length - 1];
-          "vehicles" in nextItem
-            ? (next = queryVehicleIntname(nextItem.vehicles[0].name, final))
-            : (next = queryVehicleIntname(nextItem.name, final));
-          break;
-      }
+  if (nextRankCol !== "drawArrow" && nextRankCol && nextRankCol.length !== 0 && nextRankCol[0]) {
+    const nextItem = type === "next" ? nextRankCol[0] : nextRankCol.at(-1);
+
+    if (nextItem) {
+      const next =
+        "vehicles" in nextItem
+          ? queryVehicleIntname(nextItem.vehicles[0].name, final)
+          : queryVehicleIntname(nextItem.name, final);
+
+      return { next, nextPos: nextItem };
     }
   }
 
-  return { next, nextPos };
+  return { next: undefined, nextPos: undefined };
 }
 
 export function parseNextInCol(
   nextInCol: FinalShopItem | FinalShopGroup | undefined,
   final: Final,
 ): VehicleProps | undefined {
-  let next: VehicleProps | undefined = undefined;
+  if (!nextInCol) return undefined;
 
-  if (nextInCol) {
-    if ("vehicles" in nextInCol) {
-      next = queryVehicleIntname(nextInCol.vehicles[0].name, final);
-    } else {
-      next = queryVehicleIntname(nextInCol.name, final);
-    }
-  }
+  const next =
+    "vehicles" in nextInCol
+      ? queryVehicleIntname(nextInCol.vehicles[0].name, final)
+      : queryVehicleIntname(nextInCol.name, final);
 
   return next;
 }

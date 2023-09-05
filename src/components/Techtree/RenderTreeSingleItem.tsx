@@ -43,7 +43,7 @@ export function RenderTreeSingleItem(props: {
 
   if (isLastElement) {
     if (hasNextRank && topindex !== maxRank) {
-      const nextRankItem = nextRank[rowindex][0];
+      const nextRankItem = nextRank[rowindex]?.[0];
 
       if (nextRankItem && typeof nextRankItem !== "string" && nextRankItem.reqAir !== "") {
         if (index < height) {
@@ -80,7 +80,7 @@ export function RenderTreeSingleItem(props: {
       </Fragment>
     );
   } else {
-    if (array[index + 1].reqAir !== "") {
+    if (array[index + 1]?.reqAir !== "") {
       return (
         <Fragment key={element.name}>
           {techTreeItem}

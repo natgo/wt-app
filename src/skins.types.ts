@@ -26,11 +26,11 @@ export interface Ungrouped {
 export type Camo = "summer" | "desert" | "fall" | "winter";
 
 export interface Country {
-  historical: Countries;
-  fictional: Countries;
+  historical: CountryTypes;
+  fictional: CountryTypes;
 }
 
-export interface Countries {
+export interface CountryTypes {
   aviation?: Aircraft;
   army?: Aircraft;
 }

@@ -45,7 +45,7 @@ export function CountrySkin(props: SinkProp): JSX.Element | null {
       nodes.push(
         <div key={property} className="group">
           <div className="group-text">{capitailze(property)}</div>
-          {value[country]?.[historical]?.[vehicleclass]?.grouped?.[property].map((value) => (
+          {value[country]?.[historical]?.[vehicleclass]?.grouped?.[property]?.map((value) => (
             <ToolTip value={value} key={value.post} />
           ))}
         </div>,

@@ -19,12 +19,16 @@ export function GroundWeapon(props: { vehicle: GroundProps }): JSX.Element {
 
         if (
           Array.isArray(element.horizonalLimit) &&
+          element.horizonalLimit[0] &&
+          element.horizonalLimit[1] &&
           element.horizonalLimit[0] + element.horizonalLimit[1] === 0 &&
           element.horizonalLimit[1] === 180
         ) {
           horizontalLimit = "360°";
         } else if (
           Array.isArray(element.horizonalLimit) &&
+          element.horizonalLimit[0] &&
+          element.horizonalLimit[1] &&
           element.horizonalLimit[0] + element.horizonalLimit[1] === 0
         ) {
           horizontalLimit = `±${element.horizonalLimit[1]}°`;
@@ -190,12 +194,16 @@ function Dummy(props: { cannon: TankCannon }) {
 
   if (
     Array.isArray(cannon.horizonalLimit) &&
+    cannon.horizonalLimit[0] &&
+    cannon.horizonalLimit[1] &&
     cannon.horizonalLimit[0] + cannon.horizonalLimit[1] === 0 &&
     cannon.horizonalLimit[1] === 180
   ) {
     horizontalLimit = "360°";
   } else if (
     Array.isArray(cannon.horizonalLimit) &&
+    cannon.horizonalLimit[0] &&
+    cannon.horizonalLimit[1] &&
     cannon.horizonalLimit[0] + cannon.horizonalLimit[1] === 0
   ) {
     horizontalLimit = `±${cannon.horizonalLimit[1]}°`;

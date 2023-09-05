@@ -19,7 +19,7 @@ function SlotWeapon(props: { value: FinalWeapon | FinalWeapons | { name: string 
       </div>
     );
   }
-  if ("weapons" in value && value.weapons[0].displayname) {
+  if ("weapons" in value && value.weapons[0]?.displayname) {
     return (
       <div>
         {value.weapons[0].displayname}

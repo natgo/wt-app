@@ -19,10 +19,10 @@ export function TreeFolder(props: {
   const filter = useRecoilValue(FilterAtom);
   const search = useRecoilValue(SearchName);
 
-  let skins = false;
-  let searches = false;
-  let features = false;
-  let classes = false;
+  let hasSkins = false;
+  let hasSearchResults = false;
+  let hasFeatures = false;
+  let hasClasses = false;
 
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
@@ -33,49 +33,50 @@ export function TreeFolder(props: {
     setAnchorEl(null);
   };
 
-  let br: string | undefined = "-1.0";
-  const brarr: { br: string; realbr: number }[] = [];
-  const match = queryVehicleIntname(children[0][0].props.intname, final);
-  const fig_src = vehicleIcon(match);
-  br = match?.br[1];
-  children.forEach((element) => {
-    if (element[0].props && element[0].props.intname) {
-      const match = queryVehicleIntname(element[0].props.intname, final);
-      if (match) {
-        brarr.push({ br: match.br[1], realbr: match.realbr[1] });
+  const match = queryVehicleIntname(children[0]?.[0]?.props.intname, final);
+
+  const currentBr = match?.br[1] ?? "-1.0";
+  const brArray: { br: string; realbr: number }[] = [];
+
+  children.forEach((child) => {
+    const childProps = child[0]?.props;
+
+    if (childProps && childProps.intname) {
+      const match = queryVehicleIntname(childProps.intname, final);
+
+      if (match && match.br[1] && match.realbr[1]) {
+        brArray.push({ br: match.br[1], realbr: match.realbr[1] });
         const vehicleSkins = querySkins(match);
-        const findClass = filter.show_class.find((value) => {
-          return value === match.normal_type;
-        });
+        const findClass = filter.show_class.find((value) => value === match.normal_type);
+
         if (vehicleSkins.historical.length > 0 || vehicleSkins.fictional.length > 0) {
-          skins = true;
+          hasSkins = true;
         }
         if (search === match.intname) {
-          searches = true;
+          hasSearchResults = true;
         }
         if (filter.show_features && match.type === "army" && match[filter.show_features]) {
-          features = true;
+          hasFeatures = true;
         }
         if (findClass) {
-          classes = true;
+          hasClasses = true;
         }
       }
     }
   });
 
-  brarr.sort((a, b) => {
-    return a.realbr - b.realbr;
-  });
+  brArray.sort((a, b) => a.realbr - b.realbr);
 
-  let groupbr = "-1.0";
-  if (br === brarr[brarr.length - 1].br) {
-    if (br > brarr[0].br) {
-      groupbr = `${brarr[0].br} - ${br}`;
+  let groupBr = "-1.0";
+
+  if (currentBr === brArray.at(-1)?.br) {
+    if (brArray[0]?.br && currentBr > brArray[0].br) {
+      groupBr = `${brArray[0].br} - ${currentBr}`;
     } else {
-      groupbr = br;
+      groupBr = currentBr;
     }
   } else {
-    groupbr = `${br} - ${brarr[brarr.length - 1].br}`;
+    groupBr = `${currentBr} - ${brArray.at(-1)?.br}`;
   }
 
   return (
@@ -102,10 +103,10 @@ export function TreeFolder(props: {
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}
         style={
-          (!searches && search) ||
-          (!features && filter.show_features) ||
-          (filter.show_skins && !skins) ||
-          (filter.show_class.length > 0 && !classes)
+          (!hasSearchResults && search) ||
+          (!hasFeatures && filter.show_features) ||
+          (filter.show_skins && !hasSkins) ||
+          (filter.show_class.length > 0 && !hasClasses)
             ? { filter: "blur(4px)" }
             : {}
         }
@@ -116,8 +117,8 @@ export function TreeFolder(props: {
         <div className="tree-group-img">
           <img src={`./images/units/${img.toLowerCase()}.png`} alt={`${img}.png`} />
           <div className="br_container">
-            <div className="br">{groupbr}</div>
-            <img src={fig_src} className="class" />
+            <div className="br">{groupBr}</div>
+            <img src={vehicleIcon(match)} className="class" />
           </div>
         </div>
       </div>

@@ -38,6 +38,7 @@ export function RenderTreeFolder(props: {
     height,
     maxRank,
   } = props;
+  console.log(element);
 
   const renderTechTreeItems = element.vehicles.map((element, index, array) => {
     const hasNextElement = array[index + 1] !== undefined;
@@ -45,7 +46,7 @@ export function RenderTreeFolder(props: {
 
     const techTreeItem = RenderTechTreeItem({ element, final, filter, search });
 
-    if (hasNextElement && nextElement.reqAir !== "") {
+    if (hasNextElement && nextElement && nextElement.reqAir !== "") {
       return [techTreeItem, Arrow({ length: 0, type: "short" })];
     } else if (!hasNextElement) {
       return [techTreeItem];
@@ -62,9 +63,9 @@ export function RenderTreeFolder(props: {
 
   if (isLastElement) {
     if (hasNextRank && topindex !== maxRank) {
-      const nextRankItem = nextRank[rowindex][0];
+      const nextRankItem = nextRank[rowindex]?.[0];
 
-      if (typeof nextRankItem !== "string" && nextRankItem.reqAir !== "") {
+      if (nextRankItem && typeof nextRankItem !== "string" && nextRankItem.reqAir !== "") {
         return (
           <Fragment key={element.name}>
             {treeFolder}

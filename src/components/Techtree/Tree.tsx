@@ -20,7 +20,7 @@ export function TechTree(props: TechTreeProp): JSX.Element {
   const final = useRecoilValue(finalQuery);
   const shopData = useRecoilValue(shopQuery);
   const filter = useRecoilValue(FilterAtom);
-  const shop = shopData[country][type];
+  const shop = shopData[country]?.[type];
 
   if (shop === undefined) {
     return <div>No techtree</div>;

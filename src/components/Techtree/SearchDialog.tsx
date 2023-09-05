@@ -155,7 +155,7 @@ function CompareRender(props: { vehicle: VehicleProps }) {
       <Checkbox
         checked={checked}
         onChange={handleChange}
-        disabled={compare.length > 0 && vehicle.type !== compare[0].type}
+        disabled={compare.length > 0 && vehicle.type !== compare[0]?.type}
       />
       {vehicle.wikiname ? vehicle.wikiname : vehicle.intname}
     </div>

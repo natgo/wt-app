@@ -27,7 +27,7 @@ import { setRecoil } from "recoil-nexus";
 
 import { CalculatorMode, Corrected, Parsed, base64Image, brb, dialogue } from "@/store/atom/atom";
 import { finalQuery } from "@/store/final";
-import changeParsed from "@/utils/custom/selectors";
+import changeParsed from "@/utils/custom/CalculatorSelectors";
 
 async function readFile(file: File | Blob, final: Final): Promise<void> {
   const reader = new FileReader();
@@ -185,7 +185,9 @@ export default function Calculator() {
       onPaste={(event) => {
         if (event.clipboardData.files.length) {
           const file = event.clipboardData.files[0];
-          readFile(file, final);
+          if (file) {
+            readFile(file, final);
+          }
         } else {
           alert(
             "No image data was found in your clipboard. Copy an image first or take a screenshot.",
