@@ -21,12 +21,10 @@ export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean 
 
   const rank = numRankToStr(vehicle.rank);
 
-  const flag = `/wt/images/flag/45px-${country}_flag.png`;
-
   return (
     <div className="specs_card_main" data-code={vehicle.intname}>
       {garageimage ? <VehicleImage vehicle={vehicle} /> : null}
-      <div className="specs_card_main_info">
+      <div className="specs_card_main_info bg-gray-300">
         <div className="general_info_image">
           <img width="100%" src={`/wt/images/statcard/${vehicle.intname.toLowerCase()}.png`} />
         </div>
@@ -45,22 +43,24 @@ export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean 
         <div className="general_info_neighbors">
           <VehicleNeighbor vehicle={vehicle} />
         </div>
-        <div className="general_info">
+        <div className="general_info flex items-center justify-between">
           <div className="general_info_nation">
             <a
-              className="flex"
+              className="flex items-center gap-2"
               href={`https://wiki.warthunder.com/Category:${country}_ground_vehicles`}
               title={`Category:${country} ground vehicles`}
             >
               <img
-                alt={`${country} flag.png`}
-                src={flag}
-                width="45"
-                height="23"
-                data-file-width="200"
-                data-file-height="104"
+                alt={`${
+                  vehicle.operator_country ? vehicle.operator_country : vehicle.country
+                } flag.svg`}
+                src={`/wt/images/gameuiskin/${
+                  vehicle.operator_country ? vehicle.operator_country : vehicle.country
+                }.svg`}
+                className="h-[40px]"
               />
-              {country}
+              TT: {country}{" "}
+              {vehicle.operator_country ? `OP: ${vehicleCountry(vehicle.operator_country)}` : null}
             </a>
           </div>
           <div className="general_info_rank">
@@ -73,40 +73,18 @@ export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean 
           </div>
         </div>
         <div className="general_info_2">
-          <div className="general_info_br">
-            <div className="desc">Battle rating:</div>
-            <table className="border-collapse">
-              <colgroup>
-                <col span={2} className="border-r border-black" />
-              </colgroup>
-              <tbody>
-                <tr className="border-b border-black">
-                  <td>
-                    <div>AB</div>
-                  </td>
-                  <td>
-                    <div>RB</div>
-                  </td>
-                  <td>
-                    <div>SB</div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <div>{vehicle.br[0]}</div>
-                  </td>
-                  <td>
-                    <div>{vehicle.br[1]}</div>
-                  </td>
-                  <td>
-                    <div>{vehicle.br[2]}</div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+          <div className="px-5 pb-2 pt-3 text-lg">
+            <div className="mb-1 text-sm">Battle rating:</div>
+            <div className="grid grid-cols-3 grid-rows-2 gap-px bg-black text-center [&>div]:bg-white">
+              <div>AB</div>
+              <div>RB</div>
+              <div>SB</div>
+              <div>{vehicle.br[0]}</div>
+              <div>{vehicle.br[0]}</div>
+              <div>{vehicle.br[0]}</div>
+            </div>
           </div>
           <div className="general_info_class">
-            <span className="desc">Class:</span>
             <Premium vehicle={vehicle} />
             <Squadron vehicle={vehicle} />
             <div>

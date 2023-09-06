@@ -39,15 +39,6 @@ pnpm build # npm run build
 ```
 
 # Todo
-- [x] Add lint-staged
-- [x] Make a CI/CD pipeline to website
-- [x] Make br calculator work on ground
-- [x] Make techtree more dynamicly generated
-- [x] Make propper file structure
-- [x] Fix techtree arrows
-- [x] Add link to skins to vehicle pages
-- [x] Add skins filter to techtree
 - [ ] Make search for techtree
-- [x] Add filters for techtree
 - [ ] Make helicopter tree function again
 - [ ] Add arrows to modifications

@@ -126,7 +126,7 @@ export function TreeFolder(props: {
           <span className="tree-item-text-scroll">{name}</span>
         </div>
         <div className="tree-group-img">
-          <img src={`./images/units/${img.toLowerCase()}.png`} alt={`${img}.png`} />
+          <img src={`./images/units/${img.toLowerCase()}.png`} />
           <div className="br_container">
             <div className="br">{groupBr}</div>
             <img

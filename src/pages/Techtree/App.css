@@ -583,27 +583,11 @@ img.tree-item-js {
   pointer-events: all;
 }
 
-.specs_card_main_slider .labels .label360 {
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAHpUExURQAAAP7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/u38tBoAAACidFJOUwDy4fXpA/P5+/wBgvQZ5hQcB8uf6v6Jr1pTqb5ld05ICLeVKBAe3jEG0ajl6IQn9y0bKztjzIV+hvA1VNCj5P3CzcgEDZoK9sPHOlUVqhYpPFKhvz1fD6AffyppaphFSk+9yTcg32wdUWdEivHve6KyVtalEbyB+iYMLBLZQ0AL1JG7h8ra1WhGlq4yrI4lTJnjjThhZgKQsDCPL2J5wDS5xZJiZP8AAAHxSURBVEjH7ZXnU9tAEMWfqyRsDG44gdB7771DgIT0Rof03juppHdIrySBvL80J+LJ5EN8PpjhE3ozJ+3d6qdZ3d6uAEuWLFlaDZ1oM9ztt4ThOmdn6TFh9PfZOnsOq7CnwuwYYOATEKRhJy8Cr1gZ4pkjCvAFPsdXch4v2VmLFF7FHPm+t5unFeDEZ9VIIlvQwEfAzA3gI31AI7vVvnrdLy4CEb64f+/BHeAdNwMfaFNiXRpDC8BPhgce03iNPm4SLyQTVOD+7z80bRBd1GrwkE/wJgqrpivICL6wHqgiN86aYdexWYE72TQNfGOP2OjbwE0BP+Vb4BoDCnAxz/cm2/kZg2QrynkJFeRdfxub4oAjYuw3aLtO+xWghDzLcCtwmbqNzcnCWS2BN5iXqS5vWftxYRR5jroPHRCGP6XDfbDw7wMx1FAhj2xHucS5N02ay4Q9O2XHw5cug9N9LpnbY2TEdmYYHnlVuLXMWL5MhzdRviWN1Cf+7xnXORon01kBMmJmFKlb/10fyybrs+IdsHwn6Z2s9YPO9dGloqq6bJ0M5cc/nrkFNOUQoyRJzDXH0pwFuSoVlZejM6qyXcAfS8/JUyzIwrQobEZu3iuHa5bRfluCpYJJXQq7ePe+oeW2bzq3rLz3b9tu/f8sWVo7+g3+GIlgqx7wYQAAAABJRU5ErkJggg==");
-  border: 0;
-  background-size: 30px;
-  background-position: center;
-  border-radius: 0;
-  width: 20px;
-  height: 20px;
-  margin: -2px 4px -2px 2px;
-}
-
-.specs_card_main_slider .labels label.label360.checked {
-  background-color: transparent !important;
-}
-
 .specs_card_main_info {
   width: 400px;
   box-sizing: border-box;
   float: right;
   clear: right;
-  background-color: #dbe0e2;
   margin-left: 20px;
 }
 
@@ -732,32 +716,8 @@ img.tree-item-js {
   border-bottom: 1px solid #f6f6f6;
 }
 
-.specs_card_main_info .general_info_br {
-  font-size: 18px;
-  padding: 10px 20px 6px;
-}
-
-.general_info_br .desc {
-  font-size: 14px;
-  margin-bottom: 4px;
-}
-
-.general_info_br table {
-  text-align: center;
-  width: 100%;
-  background-color: white;
-}
-
-.general_info_br div {
-  color: #000;
-}
-
 .general_info_class {
   padding: 14px 20px 6px;
-}
-
-.general_info_class .desc {
-  display: none;
 }
 
 .general_info_class .premium {
