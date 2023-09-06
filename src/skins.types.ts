@@ -1,44 +1,52 @@
 // Skins
+import { z } from "zod";
+
 import { CountryName } from "./data/types/final.schema";
 
-export interface SkinsProp {
-  country_usa: Country;
-  country_germany: Country;
-  country_ussr: Country;
-  country_britain: Country;
-  country_japan: Country;
-  country_china?: Country;
-  country_italy: Country;
-  country_france: Country;
-  country_sweden: Country;
-  country_israel?: Country;
-}
+const camoSchema = z.enum(["summer", "desert", "fall", "winter"]);
+export type Camo = z.infer<typeof camoSchema>;
 
-export interface Ungrouped {
-  intnames: string[];
-  dislayname: string;
-  post: string;
-  camo?: Array<Camo>;
-  type?: "semi";
-  repack?: boolean;
-}
+const ungroupedSchema = z.object({
+  intnames: z.array(z.string()),
+  displayname: z.string(),
+  post: z.string(),
+  camo: z.array(camoSchema).optional(),
+  type: z.literal("semi").optional(),
+  repack: z.boolean().optional(),
+});
+export type Ungrouped = z.infer<typeof ungroupedSchema>;
 
-export type Camo = "summer" | "desert" | "fall" | "winter";
+const aircraftSchema = z.object({
+  ungrouped: z.array(ungroupedSchema).optional(),
+  grouped: z.record(z.array(ungroupedSchema)).optional(),
+});
+export type Aircraft = z.infer<typeof aircraftSchema>;
 
-export interface Country {
-  historical: CountryTypes;
-  fictional: CountryTypes;
-}
+const countryTypesSchema = z.object({
+  aviation: aircraftSchema.optional(),
+  army: aircraftSchema.optional(),
+});
+export type CountryTypes = z.infer<typeof countryTypesSchema>;
 
-export interface CountryTypes {
-  aviation?: Aircraft;
-  army?: Aircraft;
-}
+const countrySchema = z.object({
+  historical: countryTypesSchema.optional(),
+  fictional: countryTypesSchema.optional(),
+});
+export type Country = z.infer<typeof countrySchema>;
 
-export interface Aircraft {
-  ungrouped?: Ungrouped[];
-  grouped?: Record<string, Ungrouped[]>;
-}
+const skinsPropSchema = z.object({
+  country_usa: countrySchema,
+  country_germany: countrySchema,
+  country_ussr: countrySchema,
+  country_britain: countrySchema,
+  country_japan: countrySchema,
+  country_china: countrySchema.optional(),
+  country_italy: countrySchema,
+  country_france: countrySchema,
+  country_sweden: countrySchema,
+  country_israel: countrySchema.optional(),
+});
+export type SkinsProp = z.infer<typeof skinsPropSchema>;
 
 export interface CountryProp {
   country: CountryName;

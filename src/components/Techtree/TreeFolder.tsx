@@ -3,18 +3,23 @@ import { useRecoilValue } from "recoil";
 
 import { Menu } from "@mui/material";
 
+import { FinalShopGroup } from "@/data/types/shop.schema";
 import { FilterAtom, SearchName } from "@/store/atom/atom";
 import { finalQuery } from "@/store/final";
 import { querySkins } from "@/utils/custom/querySkins";
 import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 import { vehicleIcon } from "@/utils/custom/vehicleIcon";
 
+import { Arrow } from "./Arrow";
+import { EmptyDiv } from "./EmptyDiv";
+import { RenderTechTreeItem } from "./RenderTechTreeItem";
+
 export function TreeFolder(props: {
-  children: JSX.Element[][];
+  folder: FinalShopGroup;
   name: string;
   img: string;
 }): JSX.Element {
-  const { children, name, img } = props;
+  const { folder, name, img } = props;
   const final = useRecoilValue(finalQuery);
   const filter = useRecoilValue(FilterAtom);
   const search = useRecoilValue(SearchName);
@@ -33,51 +38,43 @@ export function TreeFolder(props: {
     setAnchorEl(null);
   };
 
-  const match = queryVehicleIntname(children[0]?.[0]?.props.intname, final);
+  if (!folder.vehicles[0]) {
+    throw new Error("no vehicles in folder");
+  }
 
-  const currentBr = match?.br[1] ?? "-1.0";
   const brArray: { br: string; realbr: number }[] = [];
 
-  children.forEach((child) => {
-    const childProps = child[0]?.props;
+  folder.vehicles.forEach((vehicle) => {
+    const match = queryVehicleIntname(vehicle.name, final);
 
-    if (childProps && childProps.intname) {
-      const match = queryVehicleIntname(childProps.intname, final);
+    // classic javascript 0 == false
+    if (match && match.br[1] && typeof match.realbr[1] === "number") {
+      brArray.push({ br: match.br[1], realbr: match.realbr[1] });
 
-      if (match && match.br[1] && match.realbr[1]) {
-        brArray.push({ br: match.br[1], realbr: match.realbr[1] });
-        const vehicleSkins = querySkins(match);
-        const findClass = filter.show_class.find((value) => value === match.normal_type);
+      const vehicleSkins = querySkins(match);
+      const findClass = filter.show_class.find((value) => value === match.normal_type);
 
-        if (vehicleSkins.historical.length > 0 || vehicleSkins.fictional.length > 0) {
-          hasSkins = true;
-        }
-        if (search === match.intname) {
-          hasSearchResults = true;
-        }
-        if (filter.show_features && match.type === "army" && match[filter.show_features]) {
-          hasFeatures = true;
-        }
-        if (findClass) {
-          hasClasses = true;
-        }
+      if (vehicleSkins.historical.length > 0 || vehicleSkins.fictional.length > 0) {
+        hasSkins = true;
+      }
+      if (search === match.intname) {
+        hasSearchResults = true;
+      }
+      if (filter.show_features && match.type === "army" && match[filter.show_features]) {
+        hasFeatures = true;
+      }
+      if (findClass) {
+        hasClasses = true;
       }
     }
   });
 
   brArray.sort((a, b) => a.realbr - b.realbr);
 
-  let groupBr = "-1.0";
-
-  if (currentBr === brArray.at(-1)?.br) {
-    if (brArray[0]?.br && currentBr > brArray[0].br) {
-      groupBr = `${brArray[0].br} - ${currentBr}`;
-    } else {
-      groupBr = currentBr;
-    }
-  } else {
-    groupBr = `${currentBr} - ${brArray.at(-1)?.br}`;
-  }
+  const groupBr =
+    brArray.at(0)?.br !== brArray.at(-1)?.br
+      ? `${brArray.at(0)?.br} - ${brArray.at(-1)?.br}`
+      : brArray.at(0)?.br;
 
   return (
     <div style={{ position: "relative" }}>
@@ -95,7 +92,21 @@ export function TreeFolder(props: {
           horizontal: "left",
         }}
       >
-        {children}
+        {folder.vehicles.map((element, index, array) => {
+          const hasNextElement = Boolean(array[index + 1]);
+          const nextElement = array[index + 1];
+
+          const TechTreeItem = RenderTechTreeItem({ element, final, filter, search });
+
+          const NextArrowType =
+            nextElement && nextElement.reqAir !== "" ? (
+              <Arrow length={0} type="short" />
+            ) : (
+              <EmptyDiv size={30} />
+            );
+
+          return [TechTreeItem, hasNextElement ? NextArrowType : null];
+        })}
       </Menu>
       <div
         className="tree-group"
@@ -118,7 +129,10 @@ export function TreeFolder(props: {
           <img src={`./images/units/${img.toLowerCase()}.png`} alt={`${img}.png`} />
           <div className="br_container">
             <div className="br">{groupBr}</div>
-            <img src={vehicleIcon(match)} className="class" />
+            <img
+              src={vehicleIcon(queryVehicleIntname(folder.vehicles[0].name, final))}
+              className="class"
+            />
           </div>
         </div>
       </div>

@@ -47,7 +47,7 @@ export function TreeRank(props: {
           if ("vehicles" in element) {
             return (
               <RenderTreeFolder
-                element={element}
+                folder={element}
                 final={final}
                 filter={filter}
                 search={search}

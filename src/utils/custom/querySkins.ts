@@ -46,15 +46,8 @@ export function querySkins(vehicle: VehicleProps): VehicleSkinsProp {
 
   const skinscountry = skins[vehicle.country];
 
-  if (!skinscountry) {
-    return {
-      historical: [],
-      fictional: [],
-    };
-  }
-
   return {
-    historical: skinsCountryLoop(skinscountry.historical, vehicle),
-    fictional: skinsCountryLoop(skinscountry.fictional, vehicle),
+    historical: skinscountry?.historical ? skinsCountryLoop(skinscountry.historical, vehicle) : [],
+    fictional: skinscountry?.fictional ? skinsCountryLoop(skinscountry.fictional, vehicle) : [],
   };
 }

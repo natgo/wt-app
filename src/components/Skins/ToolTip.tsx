@@ -18,7 +18,7 @@ export function ToolTip(props: ToolTipProp): JSX.Element {
         }
         className="vehicle text-blue-500"
       >
-        <span style={{ backgroundColor: value.type ? "pink" : "auto" }}>{value.dislayname}</span>
+        <span style={{ backgroundColor: value.type ? "pink" : "auto" }}>{value.displayname}</span>
       </a>
     </BlackTooltip>
   );

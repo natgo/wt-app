@@ -7,11 +7,10 @@ import { FilterProps } from "@/store/atom/types";
 
 import { Arrow } from "./Arrow";
 import { EmptyDiv } from "./EmptyDiv";
-import { RenderTechTreeItem } from "./RenderTechTreeItem";
 import { TreeFolder } from "./TreeFolder";
 
 export function RenderTreeFolder(props: {
-  element: FinalShopGroup;
+  folder: FinalShopGroup;
   final: Final;
   filter: FilterProps;
   search: string | undefined;
@@ -25,10 +24,7 @@ export function RenderTreeFolder(props: {
   maxRank: number;
 }): JSX.Element {
   const {
-    element,
-    final,
-    filter,
-    search,
+    folder,
     isLastElement,
     hasNextRank,
     index,
@@ -38,28 +34,8 @@ export function RenderTreeFolder(props: {
     height,
     maxRank,
   } = props;
-  console.log(element);
 
-  const renderTechTreeItems = element.vehicles.map((element, index, array) => {
-    const hasNextElement = array[index + 1] !== undefined;
-    const nextElement = array[index + 1];
-
-    const techTreeItem = RenderTechTreeItem({ element, final, filter, search });
-
-    if (hasNextElement && nextElement && nextElement.reqAir !== "") {
-      return [techTreeItem, Arrow({ length: 0, type: "short" })];
-    } else if (!hasNextElement) {
-      return [techTreeItem];
-    }
-
-    return [techTreeItem, <EmptyDiv size={30} key={element.name + "_arrow"} />];
-  });
-
-  const treeFolder = (
-    <TreeFolder name={element.displayname} img={element.image}>
-      {renderTechTreeItems}
-    </TreeFolder>
-  );
+  const treeFolder = <TreeFolder folder={folder} name={folder.displayname} img={folder.image} />;
 
   if (isLastElement) {
     if (hasNextRank && topindex !== maxRank) {
@@ -67,14 +43,14 @@ export function RenderTreeFolder(props: {
 
       if (nextRankItem && typeof nextRankItem !== "string" && nextRankItem.reqAir !== "") {
         return (
-          <Fragment key={element.name}>
+          <Fragment key={folder.name}>
             {treeFolder}
             {Arrow({ length: height - index - 1, type: "short" })}
           </Fragment>
         );
       } else {
         return (
-          <Fragment key={element.name}>
+          <Fragment key={folder.name}>
             {treeFolder}
             <EmptyDiv size={30} />
           </Fragment>
@@ -82,7 +58,7 @@ export function RenderTreeFolder(props: {
       }
     } else {
       return (
-        <Fragment key={element.name}>
+        <Fragment key={folder.name}>
           {treeFolder}
           <EmptyDiv size={30} />
         </Fragment>
@@ -90,7 +66,7 @@ export function RenderTreeFolder(props: {
     }
   } else {
     return (
-      <Fragment key={element.name}>
+      <Fragment key={folder.name}>
         {treeFolder}
         <Arrow length={0} type="short" />
       </Fragment>
