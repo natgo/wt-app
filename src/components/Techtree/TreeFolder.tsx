@@ -127,11 +127,11 @@ export function TreeFolder(props: {
         </div>
         <div className="tree-group-img">
           <img src={`./images/units/${img.toLowerCase()}.png`} />
-          <div className="br_container">
-            <div className="br">{groupBr}</div>
+          <div className="br_container gap-1">
+            <div className="text-[#ccc]">{groupBr}</div>
             <img
               src={vehicleIcon(queryVehicleIntname(folder.vehicles[0].name, final))}
-              className="class"
+              className="class aspect-square"
             />
           </div>
         </div>

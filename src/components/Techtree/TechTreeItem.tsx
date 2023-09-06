@@ -66,8 +66,10 @@ export function TechTreeItem(props: NormalTreeItemProps | FullTreeItemProps): JS
       </div>
       <div className="tree-item-img">
         <img src={`./images/units/${vehicle.intname.toLowerCase()}.png`} />
-        <div className="br">{vehicle.br[1]}</div>
-        <img src={classSrc} className="class" />
+        <div className="flex items-center justify-end gap-1 self-end ">
+          <div className="text-[#ccc]">{vehicle.br[1]}</div>
+          <img src={classSrc} className="class aspect-square" />
+        </div>
       </div>
     </div>
   );

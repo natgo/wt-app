@@ -206,14 +206,8 @@ img.tree-item-js {
   grid-template-areas:
     "a d d"
     "a d d"
-    "a b c";
+    "a b b";
   width: 155px;
-}
-
-.br {
-  justify-self: end;
-  align-self: end;
-  color: #ccc;
 }
 
 .tree-item-img img {
@@ -224,8 +218,6 @@ img.tree-item-js {
 .tree-item-img img.class {
   width: 20px;
   height: auto;
-  justify-self: end;
-  align-self: end;
 }
 
 .tree-group {
