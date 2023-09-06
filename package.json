@@ -9,7 +9,9 @@
     "build": "tsc ; vite build",
     "preview": "vite preview",
     "https-preview": "serve dist",
-    "pretty": "prettier -w src/"
+    "pretty": "prettier -w src/",
+    "cy:test": "cypress run -b firefox",
+    "cy:open": "cypress open"
   },
   "dependencies": {
     "@emotion/react": "11.11.1",
