@@ -4,7 +4,15 @@ export function VehicleImage(props: { vehicle: VehicleProps }): JSX.Element {
   const { vehicle } = props;
 
   return (
-    <div className="specs_card_main_slider">
+    <div style={{
+      position: "relative",
+      height: "100%",
+      padding: "10px",
+      boxSizing: "border-box",
+      border: "1px solid #d5dbdd",
+      borderRadius: "5px",
+      display: "inline-block",
+    }}>
       <div className="image">
         <img
           alt={`GarageImage_${vehicle.intname}.jpg`}

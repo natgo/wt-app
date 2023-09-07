@@ -11,7 +11,6 @@ import { EmptyDiv } from "@/components/Techtree/EmptyDiv";
 import { TechTreeItem } from "@/components/Techtree/TechTreeItem";
 import { finalQuery } from "@/store/final";
 import { shopQuery } from "@/store/shop";
-import { vehicleCountry } from "@/utils/custom/VehicleCountry";
 import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
 function shopRange(range: FinalObjectRange[], final: Final) {

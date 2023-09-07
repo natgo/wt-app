@@ -112,7 +112,7 @@ function Header() {
           </FlexBox>
         </Toolbar>
       </AppBar>
-      <div className="h-[100%-64px] w-full">
+      <div className="h-[calc(100%-64px)] w-full">
         <Outlet />
       </div>
       <ScrollRestoration />

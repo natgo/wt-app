@@ -26,7 +26,10 @@ export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean 
       {garageimage ? <VehicleImage vehicle={vehicle} /> : null}
       <div className="specs_card_main_info bg-gray-300">
         <div className="general_info_image">
-          <img width="100%" src={`/wt/images/statcard/${vehicle.intname.toLowerCase()}.png`} />
+          <img
+            className="w-full aspect-[39/25]"
+            src={`/wt/images/statcard/${vehicle.intname.toLowerCase()}.png`}
+          />
         </div>
 
         <div className="general_info_name">

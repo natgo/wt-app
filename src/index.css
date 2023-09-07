@@ -53,22 +53,6 @@
   align-self: center;
 }
 
-.tree-arrow-left-down {
-  position: relative;
-  left: 20px;
-}
-
-.tree-arrow-right-down {
-  position: relative;
-  left: -19px;
-}
-
-.general_info_image {
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-
 .tablecontainer {
   display: grid;
   grid-template-rows: 1fr;

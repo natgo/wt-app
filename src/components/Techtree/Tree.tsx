@@ -57,7 +57,6 @@ export function TechTree(props: TechTreeProp): JSX.Element {
   });
 
   return (
-    <div className="mw-parser-output">
       <div className="tree">
         <table width="100%">
           <tbody>
@@ -71,6 +70,5 @@ export function TechTree(props: TechTreeProp): JSX.Element {
           </tbody>
         </table>
       </div>
-    </div>
   );
 }
