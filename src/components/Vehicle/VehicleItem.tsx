@@ -6,6 +6,7 @@ import { WikiSigle } from "@/data/types/wiki.schema";
 import { vehicleCountry } from "@/utils/custom/VehicleCountry";
 import { vehicleType } from "@/utils/custom/VehicleType";
 import { numRankToStr } from "@/utils/custom/numericRankToString";
+import { vehicleCountryFlag } from "@/utils/custom/vehicleCountryFlag";
 
 import { VehicleNeighbor } from "./Neighbors/VehicleNeighbor";
 import ArmorTable from "./Table";
@@ -27,7 +28,7 @@ export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean 
       <div className="specs_card_main_info bg-gray-300">
         <div className="general_info_image">
           <img
-            className="w-full aspect-[39/25]"
+            className="aspect-[39/25] w-full"
             src={`/wt/images/statcard/${vehicle.intname.toLowerCase()}.png`}
           />
         </div>
@@ -54,11 +55,11 @@ export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean 
               title={`Category:${country} ground vehicles`}
             >
               <img
-                alt={`${
-                  vehicle.operator_country ? vehicle.operator_country : vehicle.country
-                } flag.svg`}
+                alt="flag"
                 src={`/wt/images/gameuiskin/${
-                  vehicle.operator_country ? vehicle.operator_country : vehicle.country
+                  vehicle.operator_country
+                    ? vehicleCountryFlag(vehicle.operator_country)
+                    : vehicle.country
                 }.svg`}
                 className="h-[40px]"
               />
@@ -82,9 +83,9 @@ export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean 
               <div>AB</div>
               <div>RB</div>
               <div>SB</div>
-              <div>{vehicle.br[0]}</div>
-              <div>{vehicle.br[0]}</div>
-              <div>{vehicle.br[0]}</div>
+              {vehicle.br.map((br, index) => (
+                <div key={index}>{br}</div>
+              ))}
             </div>
           </div>
           <div className="general_info_class">

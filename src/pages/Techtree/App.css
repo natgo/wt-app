@@ -354,7 +354,7 @@ img.tree-item-js {
 
 .specs_card_main .general_info_neighbors .prev::after {
   border-color: rgb(136 183 213 / 0%);
-  border-right-color: #dbe0e2;
+  border-right-color: #d1d5db;
   border-width: 12px;
   margin-top: -11px;
   margin-right: -1px;
@@ -382,7 +382,7 @@ img.tree-item-js {
 
 .specs_card_main .general_info_neighbors .next::after {
   border-color: rgb(136 183 213 / 0%);
-  border-left-color: #dbe0e2;
+  border-left-color: #d1d5db;
   border-width: 12px;
   margin-top: -11px;
   margin-left: -1px;

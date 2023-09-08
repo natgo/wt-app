@@ -6,7 +6,6 @@ import { FinalObjectRange } from "@data/shop.schema";
 import { finalQuery } from "@/store/final";
 import { shopQuery } from "@/store/shop";
 
-import { VehicleNeighborFolder } from "./VehicleNeighborFolder";
 import { VehicleNeighbors } from "./VehicleNeighbors";
 import { parseNextCol, parseNextInCol } from "./parseNextCol";
 
@@ -95,12 +94,12 @@ export function VehicleNeighbor(props: { vehicle: VehicleProps }) {
 
   return (
     <VehicleNeighbors
+      vehicle={vehicle}
       next={next ? next : rankNext.next}
       nextPos={next ? nextInCol : rankNext.nextPos}
       prev={prev ? prev : rankPrev.next}
       currentpos={currentPos}
-    >
-      <VehicleNeighborFolder vehicle={vehicle} currentPos={currentPos} isFolder={curfolder} />
-    </VehicleNeighbors>
+      isFolder={curfolder}
+    />
   );
 }

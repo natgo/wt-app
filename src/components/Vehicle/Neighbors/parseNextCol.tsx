@@ -1,5 +1,5 @@
 import { Final, VehicleProps } from "@data/final.schema";
-import { FinalObjectRange, FinalRange, FinalShopGroup, FinalShopItem } from "@data/shop.schema";
+import { FinalObjectRange, FinalShopGroup, FinalShopItem } from "@data/shop.schema";
 
 import { queryVehicleIntname } from "@/utils/custom/queryVehicle";
 
@@ -18,7 +18,7 @@ export function parseNextCol(
 
     if (nextItem) {
       const next =
-        "vehicles" in nextItem
+        "vehicles" in nextItem && nextItem.vehicles[0]
           ? queryVehicleIntname(nextItem.vehicles[0].name, final)
           : queryVehicleIntname(nextItem.name, final);
 
@@ -35,10 +35,7 @@ export function parseNextInCol(
 ): VehicleProps | undefined {
   if (!nextInCol) return undefined;
 
-  const next =
-    "vehicles" in nextInCol
-      ? queryVehicleIntname(nextInCol.vehicles[0].name, final)
-      : queryVehicleIntname(nextInCol.name, final);
-
-  return next;
+  return "vehicles" in nextInCol && nextInCol.vehicles[0]
+    ? queryVehicleIntname(nextInCol.vehicles[0].name, final)
+    : queryVehicleIntname(nextInCol.name, final);
 }
