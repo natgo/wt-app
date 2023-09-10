@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+
 import { Tooltip } from "@mui/material";
 
 import { GroundProps, VehicleProps } from "@data/final.schema";
@@ -11,7 +13,7 @@ import { vehicleCountryFlag } from "@/utils/custom/vehicleCountryFlag";
 import { VehicleNeighbor } from "./Neighbors/VehicleNeighbor";
 import ArmorTable from "./Table";
 import { VehicleButtons } from "./VehicleButtons";
-import { VehicleImage } from "./VehicleImage";
+import { VehicleImage } from "./VehicleGarageImage";
 import { VehiclePrice } from "./VehiclePrice";
 
 export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean }): JSX.Element {
@@ -22,6 +24,12 @@ export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean 
 
   const rank = numRankToStr(vehicle.rank);
 
+  const imgSource = `/wt/images/statcard/${vehicle.intname.toLowerCase()}.png`;
+  const [imageSrc, setImageSrc] = useState(imgSource);
+  useEffect(() => {
+    setImageSrc(imgSource);
+  }, [imgSource]);
+
   return (
     <div className="specs_card_main" data-code={vehicle.intname}>
       {garageimage ? <VehicleImage vehicle={vehicle} /> : null}
@@ -29,7 +37,10 @@ export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean 
         <div className="general_info_image">
           <img
             className="aspect-[39/25] w-full"
-            src={`/wt/images/statcard/${vehicle.intname.toLowerCase()}.png`}
+            src={imageSrc}
+            onError={() => {
+              setImageSrc("/wt/images/statcard/image_in_progress.png");
+            }}
           />
         </div>
 
@@ -220,7 +231,7 @@ function Premium(props: { vehicle: VehicleProps }): JSX.Element | null {
 
 function Squadron(props: { vehicle: VehicleProps }): JSX.Element | null {
   const { vehicle } = props;
-  if (vehicle.prem_type === "squad") {
+  if (vehicle.squad) {
     return (
       <div className="squadron">
         <a href="/Category:Squadron_ground_vehicles" title="Category:Squadron ground vehicles">

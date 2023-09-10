@@ -16,10 +16,6 @@ li.gallerybox div.thumb {
   height: auto !important;
 }
 
-.mw-gallery-traditional .gallerybox > * .thumb > div img {
-  width: 80% !important;
-}
-
 #contentSub {
   display: block !important;
 }

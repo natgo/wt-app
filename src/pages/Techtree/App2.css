@@ -3,14 +3,6 @@
 /* stylelint-disable selector-id-pattern */
 
 @media screen {
-  .mw-content-ltr {
-    direction: ltr;
-  }
-
-  .mw-content-rtl {
-    direction: rtl;
-  }
-
   .sitedir-ltr textarea,
   .sitedir-ltr input {
     direction: ltr;
@@ -19,10 +11,6 @@
   .sitedir-rtl textarea,
   .sitedir-rtl input {
     direction: rtl;
-  }
-
-  .mw-userlink {
-    unicode-bidi: embed;
   }
 
   mark {
@@ -518,12 +506,6 @@
     overflow-x: auto;
   }
 
-  .mw-body h1,
-  .mw-body-content h2 {
-    font-family: Roboto, sans-serif !important;
-    padding-bottom: 6px;
-  }
-
   h1,
   h2 {
     border-bottom: 1px solid #dbe0e2;
@@ -629,11 +611,6 @@
 
   #mobile-navigation {
     display: none;
-  }
-
-  #mw-navigation h2 {
-    position: absolute;
-    top: -9999px;
   }
 
   #left-navigation {

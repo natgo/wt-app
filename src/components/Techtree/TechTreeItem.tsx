@@ -35,7 +35,7 @@ export function TechTreeItem(props: NormalTreeItemProps | FullTreeItemProps): JS
   let item_type: "own" | "prem" | "squad";
   if (vehicle.cost_gold) {
     item_type = "prem";
-  } else if (vehicle.prem_type === "squad") {
+  } else if (vehicle.squad) {
     item_type = "squad";
   } else {
     item_type = "own";
