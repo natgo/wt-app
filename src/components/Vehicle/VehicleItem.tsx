@@ -24,19 +24,19 @@ export function SpecsCard(props: { vehicle: VehicleProps; garageimage?: boolean 
 
   const rank = numRankToStr(vehicle.rank);
 
-  const imgSource = `/wt/images/statcard/${vehicle.intname.toLowerCase()}.png`;
+  const imgSource = `/wt/images/statcard/${vehicle.intname.toLowerCase()}.avif`;
   const [imageSrc, setImageSrc] = useState(imgSource);
   useEffect(() => {
     setImageSrc(imgSource);
   }, [imgSource]);
 
   return (
-    <div className="specs_card_main" data-code={vehicle.intname}>
+    <div className="specs_card_main p-4" data-code={vehicle.intname}>
       {garageimage ? <VehicleImage vehicle={vehicle} /> : null}
       <div className="specs_card_main_info bg-gray-300">
-        <div className="general_info_image">
+        <div className="general_info_image pt-4">
           <img
-            className="aspect-[39/25] w-full"
+            className="aspect-[2/1] w-full"
             src={imageSrc}
             onError={() => {
               setImageSrc("/wt/images/statcard/image_in_progress.png");

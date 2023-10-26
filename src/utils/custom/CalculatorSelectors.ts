@@ -21,7 +21,7 @@ async function getBR(final: Final) {
   }
 }
 
-export default async function changeParsed(sakke: { name: string; id: number }[], final: Final) {
+export default async function changeParsed(arr: { name: string; id: number }[], final: Final) {
   const mode = getRecoil(CalculatorMode);
 
   const userBr = await getBR(final);
@@ -42,7 +42,7 @@ export default async function changeParsed(sakke: { name: string; id: number }[]
       break;
   }
 
-  sakke.forEach((notFixedElement) => {
+  arr.forEach((notFixedElement) => {
     let element = notFixedElement.name;
 
     // try to fix ocr errors
@@ -58,8 +58,8 @@ export default async function changeParsed(sakke: { name: string; id: number }[]
           if (vehicle.wikiname) {
             inter.push({
               name: vehicle.wikiname,
-              br: vehicle.br[brmodeset],
-              real_br: vehicle.realbr[brmodeset],
+              br: vehicle.br[brmodeset] || "0",
+              real_br: vehicle.realbr[brmodeset] || 0,
               id: result.length + 1,
             });
           }
@@ -79,8 +79,8 @@ export default async function changeParsed(sakke: { name: string; id: number }[]
         if (query.wikiname) {
           result.push({
             name: query.wikiname,
-            br: query.br[brmodeset],
-            real_br: query.realbr[brmodeset],
+            br: query.br[brmodeset] || "0",
+            real_br: query.realbr[brmodeset] || 0,
             id: result.length + 1,
           });
         }

@@ -110,6 +110,7 @@ export function TreeFolder(props: {
       </Menu>
       <div
         className="tree-group"
+        id={folder.name}
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}

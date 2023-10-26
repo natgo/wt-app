@@ -51,19 +51,19 @@ async function readFile(file: File | Blob, final: Final): Promise<void> {
           console.log(msg);
 
           const aray: [] = msg.data.ParsedResults[0].ParsedText.split("\n");
-          const sakke: { name: string; id: number }[] = [];
+          const tempArr: { name: string; id: number }[] = [];
           aray.forEach((element, index) => {
             const obj = {
               name: element,
               id: index + 1,
             };
-            sakke.push(obj);
+            tempArr.push(obj);
           });
-          setRecoil(Parsed, () => sakke);
-          const luikka = await changeParsed(sakke, final);
-          console.log(luikka);
-          setRecoil(Corrected, () => luikka.result);
-          setRecoil(brb, () => luikka.br);
+          setRecoil(Parsed, () => tempArr);
+          const result = await changeParsed(tempArr, final);
+          console.log(result);
+          setRecoil(Corrected, () => result.result);
+          setRecoil(brb, () => result.br);
         });
       } else {
         console.error("type is png but still not string");

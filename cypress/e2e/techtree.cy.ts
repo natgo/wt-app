@@ -16,14 +16,15 @@ describe("Techtree test", () => {
     cy.get(".general_info_rank").contains("I Rank");
     cy.get(".general_info_class").contains("Heavy tank");
     cy.get(".general_info_price").contains("Purchase:");
-    cy.get(".general_info_price").contains("2100");
+    cy.get(".general_info_price").contains("2,100");
     cy.get(".general_info_game_button").contains("Show in game");
     cy.get(".crew .value").contains("10 people");
     cy.get(".visibility .value").contains("195 %");
     cy.go("back");
+    cy.get("#ussr_bmp_1_group").scrollIntoView().click();
     cy.get("#ussr_bmp_1").click();
     cy.get(".general_info_neighbors").get(".prev").contains("BTR-80A");
-    cy.get(".general_info_neighbors").get(".next").contains("Object 906");
+    cy.get(".general_info_neighbors").get(".next").contains("BMP-2");
     cy.get(".general_info_skins").contains("BMP-1 [Repack]");
   });
 
