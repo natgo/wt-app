@@ -27,7 +27,7 @@ pipeline {
 
     stage('Run Cypress tests') {
       steps {
-        sh 'pnpm cypress run -b firefox'
+        sh 'pnpm cy:test'
       }
     }
 
