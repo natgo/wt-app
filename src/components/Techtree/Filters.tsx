@@ -19,6 +19,7 @@ import {
   IconButton,
   Switch,
   TextField,
+  Tooltip,
 } from "@mui/material";
 
 import { FilterAtom } from "@/store/atom/atom";
@@ -75,9 +76,11 @@ export function Filters(): JSX.Element {
 
   return (
     <>
-      <IconButton color="primary" size="large" onClick={handleClickOpen}>
-        <FilterAlt />
-      </IconButton>
+      <Tooltip title="Filters" arrow>
+        <IconButton color="primary" size="large" onClick={handleClickOpen}>
+          <FilterAlt />
+        </IconButton>
+      </Tooltip>
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>{"Filters?"}</DialogTitle>
         <DialogContent>

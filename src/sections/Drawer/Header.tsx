@@ -40,9 +40,12 @@ function TechtreeButtons() {
     return (
       <Suspense fallback={<Loading />}>
         <>
-          <IconButton color="primary" size="large" onClick={handleClickOpen}>
-            <Search />
-          </IconButton>
+          <Divider orientation="vertical" flexItem />
+          <Tooltip title="Search" arrow>
+            <IconButton color="primary" size="large" onClick={handleClickOpen}>
+              <Search />
+            </IconButton>
+          </Tooltip>
           <SearchDialog type="techtree" />
         </>
         <Filters />

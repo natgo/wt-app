@@ -43,7 +43,7 @@ const routes: Routes = {
   },
   [Pages.Skins]: {
     path: "/wt/skins",
-    title: "Skins",
+    title: "🇫🇮 Skins",
     icon: Brush,
   },
 };

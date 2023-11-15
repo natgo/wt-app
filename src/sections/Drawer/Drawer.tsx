@@ -42,7 +42,7 @@ export default function MiniDrawer() {
             "Techtree",
             "WT Data Project (External)",
             "BR Calculator",
-            "Skins",
+            "🇫🇮 Skins",
             "Github",
           ].map((text) => {
             let Icon = <AccountTree />;
@@ -64,7 +64,7 @@ export default function MiniDrawer() {
                 link = "/wt/";
                 Icon = <Home />;
                 break;
-              case "Skins":
+              case "🇫🇮 Skins":
                 link = "/wt/skins";
                 Icon = <Brush />;
                 break;
