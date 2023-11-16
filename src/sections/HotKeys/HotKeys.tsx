@@ -9,50 +9,47 @@ import Typography from "@mui/material/Typography";
 
 import { FlexBox } from "@/components/styled";
 import useHotKeysDialog from "@/store/hotkeys";
-import useSidebar from "@/store/sidebar";
 
 function HotKeys() {
-  const [, sidebarActions] = useSidebar();
   const [isHotKeysDialogOpen, hotKeysDialogActions] = useHotKeysDialog();
   const navigate = useNavigate();
+
+  const keys: { key: string; title: string; action: () => void }[] = [
+    { key: "shift + h", title: "Go Home", action: () => navigate("/wt/") },
+    { key: "shift + t", title: "See Techtree", action: () => navigate("/wt/techtree") },
+    { key: "shift + s", title: "Join a Squadron", action: () => navigate("/wt/squadron") },
+    { key: "shift + c", title: "Compare SomeThings", action: () => navigate("/wt/compare") },
+    {
+      key: "shift + .",
+      title: "Toggle Hot Keys' Dialog",
+      action: hotKeysDialogActions.toggle,
+    },
+  ];
 
   // I would love to define all hotkeys in the config and loop it here and avoid this repetitive code.
   // But the `react-hotkeys-hook` library, which we use to handle hotkeys provides only hook (`useHotkeys`).
   // And as you know we can't use hooks inside loops (read "Rules of Hooks" - https://reactjs.org/docs/hooks-rules.html).
   // There is always a workaround, but sometimes it's better to avoid premature and unnecessary optimizations :)
-  useHotkeys("shift+s", sidebarActions.toggle);
-  useHotkeys("shift+t", () => navigate("/wt/techtree"));
   useHotkeys("shift+h", () => navigate("/wt/"));
+  useHotkeys("shift+t", () => navigate("/wt/techtree"));
+  useHotkeys("shift+s", () => navigate("/wt/squadron"));
+  useHotkeys("shift+c", () => navigate("/wt/compare"));
   useHotkeys("shift+.", hotKeysDialogActions.toggle);
 
   return (
     <Dialog fullWidth maxWidth="xs" onClose={hotKeysDialogActions.close} open={isHotKeysDialogOpen}>
       <DialogTitle>Hot Keys</DialogTitle>
       <DialogContent>
-        <FlexBox alignItems="center" height={50} justifyContent="space-between">
-          <Typography>Open Techtree</Typography>
-          <Button color="warning" variant="outlined" onClick={() => navigate("/wt/techtree")}>
-            shift + t
-          </Button>
-        </FlexBox>
-        <FlexBox alignItems="center" height={50} justifyContent="space-between">
-          <Typography>Go Home</Typography>
-          <Button color="warning" variant="outlined" onClick={() => navigate("/wt/")}>
-            shift + h
-          </Button>
-        </FlexBox>
-        <FlexBox alignItems="center" height={50} justifyContent="space-between">
-          <Typography>Toggle Sidebar</Typography>
-          <Button color="warning" variant="outlined" onClick={sidebarActions.toggle}>
-            shift + s
-          </Button>
-        </FlexBox>
-        <FlexBox alignItems="center" height={50} justifyContent="space-between">
-          <Typography>Toggle Hot Keys&apos; Dialog</Typography>
-          <Button color="warning" variant="outlined" onClick={hotKeysDialogActions.toggle}>
-            shift + .
-          </Button>
-        </FlexBox>
+        {keys.map(({ key, title, action }) => {
+          return (
+            <FlexBox key={key} alignItems="center" height={50} justifyContent="space-between">
+              <Typography>{title}</Typography>
+              <Button color="warning" variant="outlined" onClick={action}>
+                {key}
+              </Button>
+            </FlexBox>
+          );
+        })}
       </DialogContent>
     </Dialog>
   );
