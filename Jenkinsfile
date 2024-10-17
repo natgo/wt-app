@@ -8,6 +8,7 @@ pipeline {
   stages {
     stage('Install Dependencies') {
       steps {
+        sh 'corepack enable'
         sh 'corepack install'
         sh 'pnpm install --frozen-lockfile'
         sh 'pnpm cypress install'
